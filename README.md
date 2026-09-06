@@ -16,18 +16,102 @@ mkdocs serve
 Then open <http://127.0.0.1:8000/antaera-wiki/> — note the base path, which
 matches the live project-site URL. The dev server live-reloads on save.
 
-## Adding a page
+## Structure
 
-Normally: create it in Pages CMS (see [Editing](#editing)). New pages appear in
-their section automatically.
+`docs/` is empty apart from the home page. There is no imposed hierarchy -
+create whatever folders and pages suit the material.
 
-Directly in the repo, if you prefer:
+Navigation is generated from the file tree, so a new page or folder appears in
+the sidebar on its own. Nothing in `mkdocs.yml` or `.pages.yml` needs editing
+when the wiki grows. Folders are titled from their directory name; add an
+`index.md` to a folder to give it a landing page and control its title.
 
-1. Create a Markdown file under `docs/` (e.g. `docs/lore/the-sundering.md`) with a
-   `title:` in frontmatter.
-2. Add it to the `nav:` list in `mkdocs.yml` if it should appear in the sidebar
-   in a specific position.
-3. Commit and push to `main` — GitHub Actions builds and deploys automatically.
+Ordering is alphabetical by default. If a section ever needs a specific order,
+add a `nav:` block to `mkdocs.yml` - but note that doing so makes navigation
+explicit, and pages created afterwards will not appear until they are listed.
+
+## Writing toolkit
+
+Everything below is enabled and ready to use.
+
+### Page frontmatter
+
+```markdown
+---
+title: Salt Reach
+tags:
+  - geography
+  - settlement
+---
+
+Body starts here. Do not add a `# Heading` - the title above becomes it.
+```
+
+Tags are collected into a browsable index automatically.
+
+### Callouts
+
+```markdown
+!!! note "Optional title"
+    Indented content.
+
+??? tip "Collapsed by default"
+    Click to expand.
+```
+
+Types include `note`, `tip`, `warning`, `danger`, `example`, `quote`.
+
+### Infobox
+
+A floating summary panel, right-aligned on wide screens and full-width on
+mobile:
+
+```markdown
+<div class="infobox" markdown>
+
+| | |
+|---|---|
+| **Type** | City-state |
+| **Region** | Salt Reach |
+
+</div>
+```
+
+### Images
+
+```markdown
+![Map of Antaera](/antaera-wiki/img/antaera-map.png)
+```
+
+Files live in `docs/img/`. Pages CMS writes this path form when you insert one.
+
+### Tabs
+
+```markdown
+=== "Common"
+    Content for the first tab.
+
+=== "Draconic"
+    Content for the second.
+```
+
+### Also available
+
+Footnotes (`[^1]`), definition lists, abbreviations, `~~strikethrough~~`,
+`==highlight==`, tables, and fenced code blocks with syntax highlighting and a
+copy button.
+
+### Linking between pages
+
+Use a path relative to the current page, ending in `.md`:
+
+```markdown
+[Salt Reach](../geography/salt-reach.md)
+```
+
+These are checked at build time - a link to a page that does not exist fails
+the build instead of shipping broken. Image paths are *not* checked, because
+they are absolute.
 
 ## Deployment
 
@@ -65,27 +149,19 @@ keep it on this machine, or `-Port 9000` to change the port.
 This depends on nothing external. It is worth running once now, while the live
 site is healthy, so the first time you use it is not during an outage.
 
-### Images
+### Image storage
 
-Images live in `docs/img/` and **are committed** - the live site has to be able
-to serve them on its own.
+Images live in `docs/img/` and are committed - the live site has to serve them
+on its own. Syntax is in the [Writing toolkit](#images) above.
 
-Reference them with an absolute path that includes the site's base path:
-
-```markdown
-![Map of Antaera](/antaera-wiki/img/world/antaera-map.png)
-```
-
-Pages CMS writes this form when you insert an image, because it cannot know how
-deep the page using it will sit. `serve-backup.ps1` mounts the built site under
-the same `/antaera-wiki/` prefix so these paths resolve locally too.
-
-If the wiki ever moves to a custom domain at the root, this prefix has to be
+The absolute `/antaera-wiki/` prefix is the site's base path. `serve-backup.ps1`
+mounts the built site under the same prefix so those paths resolve locally too.
+If the wiki ever moves to a custom domain at the root, the prefix must be
 dropped from `media.output` in `.pages.yml`, from existing Markdown, and from
-`serve-backup.ps1`. It is a find-and-replace, but it is not automatic.
+`serve-backup.ps1` - a find-and-replace, but not an automatic one.
 
-If the image library grows past roughly 1 GB, GitHub Pages limits start to bite
-and images should move to object storage. Well beyond current needs.
+Past roughly 1 GB, GitHub Pages limits start to bite and images should move to
+object storage. Well beyond current needs.
 
 ## Editing
 
@@ -95,8 +171,8 @@ Day-to-day editing happens at [app.pagescms.org](https://app.pagescms.org),
 which works on desktop and mobile. Saving commits to `main`; CI rebuilds and
 the change is live in roughly 40 seconds.
 
-`.pages.yml` defines what is editable. Adding a new section means adding a
-collection there as well as a `nav:` entry in `mkdocs.yml`.
+`.pages.yml` defines what is editable. It is a single collection covering the
+whole `docs/` tree, so new pages and folders need no configuration change.
 
 Two things to know:
 
@@ -105,22 +181,6 @@ Two things to know:
 - CMS edits do not run the pre-push hook, since they never touch this machine.
   CI still runs `mkdocs build --strict`, so a broken edit fails the build and
   the previous version stays live - but it fails *after* the commit, not before.
-
-### Page titles
-
-Titles live in frontmatter, not as a body heading:
-
-```markdown
----
-title: Geography
----
-
-Body starts here, with no `# Geography` line.
-```
-
-MkDocs renders the frontmatter title as the page heading. If a body `# H1` is
-also present the two can drift - the body wins the page, the frontmatter wins
-the browser tab - so pick one, and it should be frontmatter.
 
 ## Safeguards
 

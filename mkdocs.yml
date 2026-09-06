@@ -47,6 +47,9 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
+      # A page that is not committed yet has no git log. That is normal while
+      # drafting; it should not fail the build the way a broken link should.
+      strict: false
 
 markdown_extensions:
   - abbr
@@ -69,11 +72,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-nav:
-  - Home: index.md
-  - World:
-      - world/index.md
-      - Geography: world/geography.md
-  - Lore:
-      - lore/index.md

@@ -1,33 +1,28 @@
 # Pages CMS - browser-based editing for the Antaera Wiki.
-# https://pagescms.org  |  Open the wiki at app.pagescms.org after authorising.
+# https://pagescms.org  |  Edit at app.pagescms.org
 #
-# Saving here commits to main; CI rebuilds and the live site updates in ~40s.
+# Saving commits to main; CI rebuilds and the live site updates in ~40s.
+#
+# One collection covering the whole docs tree. Create whatever structure you
+# want inside it - MkDocs builds the navigation from the folders and titles it
+# finds, so nothing here needs changing when you add a page or a section.
 
 media:
   input: docs/img
   output: /antaera-wiki/img
+  extensions: [png, jpg, jpeg, gif, svg, webp]
 
 content:
-  - name: home
-    label: Home page
-    type: file
-    path: docs/index.md
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
-      - name: body
-        label: Content
-        type: rich-text
-
-  - name: world
-    label: World
+  - name: pages
+    label: Pages
     type: collection
-    path: docs/world
+    path: docs
     format: yaml-frontmatter
     filename: "{primary}.md"
+    subfolders: true
+    exclude:
+      - img
+      - stylesheets
     view:
       primary: title
     fields:
@@ -41,31 +36,6 @@ content:
         options:
           creatable: true
           multiple: true
-          values: [world, geography, settlement, region, faction, history, magic, religion]
-      - name: body
-        label: Content
-        type: rich-text
-
-  - name: lore
-    label: Lore
-    type: collection
-    path: docs/lore
-    format: yaml-frontmatter
-    filename: "{primary}.md"
-    view:
-      primary: title
-    fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
-      - name: tags
-        label: Tags
-        type: select
-        options:
-          creatable: true
-          multiple: true
-          values: [lore, history, magic, religion, timeline, artifact]
       - name: body
         label: Content
         type: rich-text

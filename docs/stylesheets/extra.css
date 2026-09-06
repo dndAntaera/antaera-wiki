@@ -1,0 +1,28 @@
+:root {
+  --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Slightly roomier prose for long lore entries */
+.md-typeset {
+  line-height: 1.72;
+}
+
+/* Infobox pattern: float a summary table right on wide screens */
+.infobox {
+  float: right;
+  width: 18rem;
+  margin: 0 0 1rem 1.5rem;
+  font-size: 0.75rem;
+}
+
+.infobox table {
+  width: 100%;
+}
+
+@media screen and (max-width: 76.25em) {
+  .infobox {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}

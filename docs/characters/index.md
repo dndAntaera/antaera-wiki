@@ -1,4 +1,6 @@
-# Characters
+---
+title: Characters
+---
 
 People and factions of Antaera.
 

@@ -47,9 +47,18 @@ if ($LASTEXITCODE -ne 0) { throw 'Build failed. The Markdown source may be damag
 
 $bind = if ($LocalOnly) { '127.0.0.1' } else { '0.0.0.0' }
 
+# The live site is served under /antaera-wiki/, and image paths are absolute
+# because the CMS writes them that way. Mirror that prefix locally, or every
+# image 404s in the backup copy.
+$root = Join-Path $PSScriptRoot '.cache\serve-root'
+$mount = Join-Path $root 'antaera-wiki'
+if (Test-Path -LiteralPath $mount) { Remove-Item -LiteralPath $mount -Recurse -Force }
+New-Item -ItemType Directory -Path $root -Force | Out-Null
+New-Item -ItemType Junction -Path $mount -Target (Join-Path $PSScriptRoot 'site') | Out-Null
+
 Write-Host ''
 Write-Host 'Backup wiki is up.' -ForegroundColor Green
-Write-Host "  This machine : http://localhost:$Port/"
+Write-Host "  This machine : http://localhost:$Port/antaera-wiki/"
 
 if (-not $LocalOnly) {
     Get-NetIPAddress -AddressFamily IPv4 -ErrorAction SilentlyContinue |
@@ -60,7 +69,7 @@ if (-not $LocalOnly) {
             $_.InterfaceAlias -notlike '*WSL*' -and
             $_.InterfaceAlias -notlike '*Loopback*'
         } |
-        ForEach-Object { Write-Host "  Other devices: http://$($_.IPAddress):$Port/" }
+        ForEach-Object { Write-Host "  Other devices: http://$($_.IPAddress):$Port/antaera-wiki/" }
 
     Write-Host ''
     Write-Host 'If other devices cannot connect, Windows Firewall is blocking the port.' -ForegroundColor Yellow
@@ -72,4 +81,4 @@ Write-Host ''
 Write-Host 'Press Ctrl+C to stop.' -ForegroundColor DarkGray
 Write-Host ''
 
-& $python -m http.server $Port --bind $bind --directory site
+& $python -m http.server $Port --bind $bind --directory $root

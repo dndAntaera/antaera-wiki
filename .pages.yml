@@ -1,0 +1,95 @@
+# Pages CMS - browser-based editing for the Antaera Wiki.
+# https://pagescms.org  |  Open the wiki at app.pagescms.org after authorising.
+#
+# Saving here commits to main; CI rebuilds and the live site updates in ~40s.
+
+media:
+  input: docs/img
+  output: /antaera-wiki/img
+
+content:
+  - name: home
+    label: Home page
+    type: file
+    path: docs/index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: world
+    label: World
+    type: collection
+    path: docs/world
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [world, geography, settlement, region, faction, history, magic, religion]
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: characters
+    label: Characters
+    type: collection
+    path: docs/characters
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+    fields:
+      - name: title
+        label: Name
+        type: string
+        required: true
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [character, npc, faction, deceased, ally, antagonist]
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: lore
+    label: Lore
+    type: collection
+    path: docs/lore
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [lore, history, magic, religion, timeline, artifact]
+      - name: body
+        label: Content
+        type: rich-text

@@ -1,4 +1,6 @@
-# Lore
+---
+title: Lore
+---
 
 History, systems, and the rules the world runs on.
 

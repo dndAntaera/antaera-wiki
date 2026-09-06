@@ -1,4 +1,6 @@
-# World
+---
+title: World
+---
 
 Overview of Antaera's physical and political geography.
 

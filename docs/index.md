@@ -1,9 +1,6 @@
 ---
-hide:
-  - navigation
+title: Antaera Wiki
 ---
-
-# Antaera Wiki
 
 Welcome to the reference wiki for the world of **Antaera**.
 

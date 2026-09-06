@@ -18,8 +18,15 @@ matches the live project-site URL. The dev server live-reloads on save.
 
 ## Adding a page
 
-1. Create a Markdown file under `docs/` (e.g. `docs/characters/veyra.md`).
-2. Add it to the `nav:` list in `mkdocs.yml`.
+Normally: create it in Pages CMS (see [Editing](#editing)). New pages appear in
+their section automatically.
+
+Directly in the repo, if you prefer:
+
+1. Create a Markdown file under `docs/` (e.g. `docs/characters/veyra.md`) with a
+   `title:` in frontmatter.
+2. Add it to the `nav:` list in `mkdocs.yml` if it should appear in the sidebar
+   in a specific position.
 3. Commit and push to `main` — GitHub Actions builds and deploys automatically.
 
 ## Deployment
@@ -60,21 +67,60 @@ site is healthy, so the first time you use it is not during an outage.
 
 ### Images
 
-Images live in `docs/img/`, mirroring the `docs/` layout, and **are committed** —
-the live site has to be able to serve them on its own.
+Images live in `docs/img/` and **are committed** - the live site has to be able
+to serve them on its own.
 
-Reference them with a path relative to the page, never a leading slash and
-never a drive letter:
+Reference them with an absolute path that includes the site's base path:
 
 ```markdown
-![Map of Antaera](../img/world/antaera-map.png)
+![Map of Antaera](/antaera-wiki/img/world/antaera-map.png)
 ```
 
-MkDocs rewrites that to account for the `/antaera-wiki/` base path. A
-root-relative `/img/...` path skips the base path and 404s on the live site.
+Pages CMS writes this form when you insert an image, because it cannot know how
+deep the page using it will sit. `serve-backup.ps1` mounts the built site under
+the same `/antaera-wiki/` prefix so these paths resolve locally too.
 
-If the image library ever grows past roughly 1 GB, GitHub Pages limits start to
-bite and images should move to object storage. Well beyond current needs.
+If the wiki ever moves to a custom domain at the root, this prefix has to be
+dropped from `media.output` in `.pages.yml`, from existing Markdown, and from
+`serve-backup.ps1`. It is a find-and-replace, but it is not automatic.
+
+If the image library grows past roughly 1 GB, GitHub Pages limits start to bite
+and images should move to object storage. Well beyond current needs.
+
+## Editing
+
+### In the browser (Pages CMS)
+
+Day-to-day editing happens at [app.pagescms.org](https://app.pagescms.org),
+which works on desktop and mobile. Saving commits to `main`; CI rebuilds and
+the change is live in roughly 40 seconds.
+
+`.pages.yml` defines what is editable. Adding a new section means adding a
+collection there as well as a `nav:` entry in `mkdocs.yml`.
+
+Two things to know:
+
+- Only fields declared in `.pages.yml` survive a save. Frontmatter keys that
+  are not declared get dropped when the CMS rewrites a file.
+- CMS edits do not run the pre-push hook, since they never touch this machine.
+  CI still runs `mkdocs build --strict`, so a broken edit fails the build and
+  the previous version stays live - but it fails *after* the commit, not before.
+
+### Page titles
+
+Titles live in frontmatter, not as a body heading:
+
+```markdown
+---
+title: Geography
+---
+
+Body starts here, with no `# Geography` line.
+```
+
+MkDocs renders the frontmatter title as the page heading. If a body `# H1` is
+also present the two can drift - the body wins the page, the frontmatter wins
+the browser tab - so pick one, and it should be frontmatter.
 
 ## Safeguards
 

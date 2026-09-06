@@ -1,10 +1,9 @@
 ---
+title: Geography
 tags:
   - world
   - geography
 ---
-
-# Geography
 
 <div class="infobox" markdown>
 
@@ -19,7 +18,7 @@ tags:
 Replace this with a description of Antaera's landmasses, seas, and climate
 bands.
 
-![Placeholder map of Antaera](../img/world/placeholder-map.png)
+![Placeholder map of Antaera](/antaera-wiki/img/world/placeholder-map.png)
 
 ## Regions
 

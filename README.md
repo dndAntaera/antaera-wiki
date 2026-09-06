@@ -13,7 +13,8 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Then open <http://127.0.0.1:8000>. The dev server live-reloads on save.
+Then open <http://127.0.0.1:8000/antaera-wiki/> — note the base path, which
+matches the live project-site URL. The dev server live-reloads on save.
 
 ## Adding a page
 

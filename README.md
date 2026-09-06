@@ -29,24 +29,49 @@ and publishes it to GitHub Pages.
 
 ## Hosting architecture
 
-`F:\! Antaera Wiki` is the source of truth. Nothing else holds anything this
-directory does not.
+GitHub Pages is the live site. This machine is the disaster-recovery copy.
 
 ```
-   F:\! Antaera Wiki
-          |
-          +-- git push -------> GitHub Pages    (always-on HTML fallback)
-          +-- sync -----------> Cloudflare R2   (always-on image delivery)
-          +-- cloudflared ----> Tunnel          (live while this PC is awake)
+   GitHub Pages  ->  live site, always on, serves every visitor
+        ^
+        | git push
+        |
+   F:\! Antaera Wiki  ->  complete standalone copy; can serve the wiki
+                          by itself if the live site becomes unreachable
 ```
 
-Traffic reaches Cloudflare first. While the PC is awake the tunnel serves the
-site; when the PC sleeps Cloudflare falls back to GitHub Pages. Because images
-are served from R2 in both states, sleeping the PC does not break them.
+Everything the live site needs is committed to this repository, so a working
+tree plus `serve-backup.ps1` reconstitutes the whole wiki with no network.
+
+### Restoring service
+
+If the live site is down, deleted, or otherwise unreachable:
+
+```powershell
+.\serve-backup.ps1
+```
+
+It bootstraps Python if needed, rebuilds from the Markdown here, and serves on
+the local network so phones and tablets can reach it too. Add `-LocalOnly` to
+keep it on this machine, or `-Port 9000` to change the port.
+
+This depends on nothing external. It is worth running once now, while the live
+site is healthy, so the first time you use it is not during an outage.
 
 ### Images
 
-Originals live in `images/` (git-ignored) and are referenced from Markdown as
-`/img/<path>`. See [images/README.md](images/README.md) for the full rule — the
-short version is that no Markdown file may ever name a drive letter or a bucket
-URL.
+Images live in `docs/img/`, mirroring the `docs/` layout, and **are committed** —
+the live site has to be able to serve them on its own.
+
+Reference them with a path relative to the page, never a leading slash and
+never a drive letter:
+
+```markdown
+![Map of Antaera](../img/world/antaera-map.png)
+```
+
+MkDocs rewrites that to account for the `/antaera-wiki/` base path. A
+root-relative `/img/...` path skips the base path and 404s on the live site.
+
+If the image library ever grows past roughly 1 GB, GitHub Pages limits start to
+bite and images should move to object storage. Well beyond current needs.

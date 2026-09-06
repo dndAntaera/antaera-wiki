@@ -7,7 +7,3 @@ __pycache__/
 Thumbs.db
 .cache/
 .claude/
-
-# Image originals — synced to R2, never committed (keep the convention doc)
-images/*
-!images/README.md

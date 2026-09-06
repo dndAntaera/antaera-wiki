@@ -19,6 +19,8 @@ tags:
 Replace this with a description of Antaera's landmasses, seas, and climate
 bands.
 
+![Placeholder map of Antaera](../img/world/placeholder-map.png)
+
 ## Regions
 
 ### Placeholder Region

@@ -23,7 +23,7 @@ their section automatically.
 
 Directly in the repo, if you prefer:
 
-1. Create a Markdown file under `docs/` (e.g. `docs/characters/veyra.md`) with a
+1. Create a Markdown file under `docs/` (e.g. `docs/lore/the-sundering.md`) with a
    `title:` in frontmatter.
 2. Add it to the `nav:` list in `mkdocs.yml` if it should appear in the sidebar
    in a specific position.

@@ -75,7 +75,5 @@ nav:
   - World:
       - world/index.md
       - Geography: world/geography.md
-  - Characters:
-      - characters/index.md
   - Lore:
       - lore/index.md

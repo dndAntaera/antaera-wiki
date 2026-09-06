@@ -17,10 +17,6 @@ Welcome to the reference wiki for the world of **Antaera**.
 
     Geography, regions, settlements, and the physical shape of Antaera.
 
--   :material-account-group: **[Characters](characters/index.md)**
-
-    People, factions, and the relationships between them.
-
 -   :material-book-open-variant: **[Lore](lore/index.md)**
 
     History, magic systems, religions, and the rules the world runs on.
@@ -29,6 +25,6 @@ Welcome to the reference wiki for the world of **Antaera**.
 
 ## How to add a page
 
-1. Create a Markdown file under `docs/`, e.g. `docs/characters/veyra.md`.
+1. Create a Markdown file under `docs/`, e.g. `docs/lore/the-sundering.md`.
 2. Add it to the `nav:` block in `mkdocs.yml`.
 3. Commit and push — the site rebuilds and deploys on its own.

@@ -46,30 +46,6 @@ content:
         label: Content
         type: rich-text
 
-  - name: characters
-    label: Characters
-    type: collection
-    path: docs/characters
-    format: yaml-frontmatter
-    filename: "{primary}.md"
-    view:
-      primary: title
-    fields:
-      - name: title
-        label: Name
-        type: string
-        required: true
-      - name: tags
-        label: Tags
-        type: select
-        options:
-          creatable: true
-          multiple: true
-          values: [character, npc, faction, deceased, ally, antagonist]
-      - name: body
-        label: Content
-        type: rich-text
-
   - name: lore
     label: Lore
     type: collection

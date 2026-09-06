@@ -28,5 +28,5 @@ What it is, who lives there, why it matters.
 
 !!! note "Cross-linking"
     Link between pages with normal Markdown links and a relative path:
-    `[Veyra](../characters/veyra.md)`. MkDocs validates these at build time, so
+    `[Lore](../lore/index.md)`. MkDocs validates these at build time, so
     a broken link fails the build instead of shipping.

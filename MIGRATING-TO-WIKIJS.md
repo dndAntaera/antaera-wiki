@@ -69,3 +69,163 @@ without losing anything.
 
 `serve-backup.ps1` and the local clone. Wiki.js puts a database in the path
 between you and your words; the Git mirror is what keeps that from mattering.
+
+---
+
+# Walkthrough: Wiki.js with Google sign-in
+
+Written 2026-09-06 in response to "add Google auth so I can add users".
+
+## Why this is not a change to the current site
+
+GitHub Pages serves static files. There is no server, no session, and no user
+database, so there is nothing for a Google login to authenticate *against*.
+Editing means writing to the Git repository, and repository write access is a
+GitHub permission - a Google identity has no relationship to it.
+
+So Google sign-in is not a feature that can be added to the wiki as it stands.
+It is a property of running a wiki application, which is what follows.
+
+## The cheaper alternative, first
+
+If the goal is only to let a few people edit, add them as **collaborators** on
+`dndAntaera/antaera-wiki`. They sign in to Pages CMS with GitHub and can edit
+immediately. No server, no cost, no maintenance.
+
+The trade-offs:
+
+- Everyone needs a GitHub account. Free and quick, but a real barrier for
+  people who have no other reason to have one.
+- Collaborators get write access to the whole repository. There is no
+  read-only role and no per-page permission.
+
+For a handful of trusted co-authors this is enough. For players who should read
+but not edit, or edit only their own character pages, it is not.
+
+## What Wiki.js adds
+
+- Google (and Discord, Microsoft, or plain email) sign-in
+- Groups with per-path permissions - e.g. Players read everything but write
+  only under `/characters/`
+- Instant saves, page history, comments
+- Git sync, so this repository stays the source of truth
+
+## Steps
+
+### 1. A server
+
+Any always-on Linux host. Hetzner CX22 is about EUR 4/month; Oracle Cloud's
+always-free ARM tier is genuinely free but slower to provision. Ubuntu 24.04.
+
+### 2. Wiki.js and a database
+
+`docker-compose.yml`:
+
+```yaml
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: wiki
+      POSTGRES_USER: wiki
+      POSTGRES_PASSWORD: CHANGE_ME
+    volumes:
+      - db:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  wiki:
+    image: requarks/wiki:2
+    depends_on:
+      - db
+    environment:
+      DB_TYPE: postgres
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: wiki
+      DB_USER: wiki
+      DB_PASS: CHANGE_ME
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+volumes:
+  db:
+```
+
+`docker compose up -d`, then open port 3000 and complete the setup wizard.
+
+### 3. A domain and HTTPS
+
+Google will not accept a bare IP as an OAuth redirect target, so a hostname is
+required before auth can be configured. Point a subdomain at the server and put
+Caddy in front - it obtains a certificate automatically:
+
+```
+wiki.yourdomain.com {
+    reverse_proxy localhost:3000
+}
+```
+
+### 4. Google OAuth credentials
+
+1. [console.cloud.google.com](https://console.cloud.google.com) - create a project.
+2. **APIs & Services -> OAuth consent screen**. Choose **External**. Fill in the
+   app name and support email. While the app is in *Testing* only accounts you
+   list as test users can sign in, which is a reasonable way to start; publish
+   it when you want to stop maintaining that list.
+3. **Credentials -> Create credentials -> OAuth client ID -> Web application**.
+4. Leave the redirect URI blank for now - Wiki.js generates the exact value in
+   the next step. Guessing it is the usual cause of `redirect_uri_mismatch`.
+5. Copy the **Client ID** and **Client secret**.
+
+### 5. Wire it into Wiki.js
+
+1. **Administration -> Auth -> Add strategy -> Google**.
+2. Paste the client ID and secret.
+3. Copy the **Callback URL / Redirect URI** that Wiki.js displays, and paste it
+   back into the Google credential from step 4. This is the step people get
+   wrong.
+4. Set **Assign to group** so new sign-ins land somewhere sensible.
+5. Decide on **Allow self-registration**:
+   - Off: you invite each person. Best for a private campaign.
+   - On, with a domain limit: anyone on a given email domain can join.
+   - On, unrestricted: anyone with a Google account. Rarely what you want.
+6. Save, sign out, and confirm the Google button appears on the login page.
+
+### 6. Groups and permissions
+
+**Administration -> Groups**. A workable starting split:
+
+| Group | Permissions | Page rules |
+|---|---|---|
+| Players | `read:pages`, `read:comments`, `write:comments` | Allow read on `/` |
+| Editors | adds `write:pages`, `manage:pages` | Allow write on `/` |
+| Admins | full | - |
+
+Page rules match by path prefix, so scoping a group to `/characters/` is a rule
+rather than a structural change.
+
+### 7. Point Git storage at this repository
+
+**Administration -> Storage -> Git**. Repository URL, branch `main`, a deploy
+key with write access, local path `docs`. Set the mode to bidirectional.
+
+This is the step that keeps the arrangement reversible: pages stay Markdown in
+this repository, GitHub Pages keeps building from them, and
+`serve-backup.ps1` keeps working. If Wiki.js is a mistake, the content is not
+trapped in its database.
+
+### 8. Cut over only when it is proven
+
+Run both for a while. Pages keeps serving the static copy from the same
+Markdown Wiki.js is writing, so it doubles as a read-only fallback while
+Wiki.js earns trust. Move the domain last.
+
+## Cost summary
+
+| | |
+|---|---|
+| Server | ~EUR 4/month, or free on Oracle's always-free tier |
+| Domain | ~USD 10/year, if you do not already have one |
+| Google OAuth | Free |
+| Wiki.js | Free, open source |

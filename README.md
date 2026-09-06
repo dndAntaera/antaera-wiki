@@ -75,3 +75,56 @@ root-relative `/img/...` path skips the base path and 404s on the live site.
 
 If the image library ever grows past roughly 1 GB, GitHub Pages limits start to
 bite and images should move to object storage. Well beyond current needs.
+
+## Safeguards
+
+GitHub Pages publishes whatever reaches `main`, so a bad commit becomes the
+live site within about a minute. Three things stand in the way.
+
+### 1. Pre-push guard
+
+`.githooks/pre-push` runs before anything leaves this machine and refuses the
+push if either check fails:
+
+- the number of files under `docs/` would drop below 70% of what is currently
+  published (catches an accidental mass delete)
+- `mkdocs build --strict` does not succeed (catches broken links and bad config
+  before they deploy, not after)
+
+Deliberate large changes get through with an explicit override:
+
+```bash
+ALLOW_DESTRUCTIVE=1 git push
+```
+
+Hooks are not carried by `git clone`, so on a fresh copy enable them once:
+
+```bash
+git config --local core.hooksPath .githooks
+```
+
+### 2. Branch protection
+
+`main` rejects force-pushes and branch deletion, including from the repository
+owner. History cannot be silently rewritten or discarded.
+
+### 3. Rolling back a bad deploy
+
+History is the backstop, so recovery is a revert rather than a repair:
+
+```bash
+git revert --no-edit <bad-sha>
+git push
+```
+
+The deploy workflow republishes within roughly a minute. To find the commit
+that introduced the problem, `git log --oneline` and compare against the last
+run that was known good.
+
+If the working tree itself is damaged, discard it and take the published
+history instead:
+
+```bash
+git fetch origin
+git reset --hard origin/main
+```

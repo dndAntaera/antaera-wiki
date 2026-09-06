@@ -1,7 +1,7 @@
 site_name: Antaera Wiki
 site_description: A reference wiki for the world of Antaera.
-site_url: https://USERNAME.github.io/antaera-wiki/
-repo_url: https://github.com/USERNAME/antaera-wiki
+site_url: https://dndantaera.github.io/antaera-wiki/
+repo_url: https://github.com/dndAntaera/antaera-wiki
 edit_uri: edit/main/docs/
 
 theme:

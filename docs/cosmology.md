@@ -6,6 +6,7 @@ title: "The Cosmology"
 <div class="wd-cell" markdown>
 
 # Transitive Planes
+
 - [Ethereal Plane](ethereal-plane.md)
 - [Astral Plane](astral-plane.md)
 - [Plane of Mirrors](plane-of-mirrors.md)
@@ -37,6 +38,7 @@ However, this perception is misleading. The landscapes of the Outer Planes, whil
 <div class="wd-cell" markdown>
 
 # Unclassified Planes
+
 - [True Afterlife](true-afterlife.md)
 - Far Realms
 - [The Region of Dreams](region-of-dreams.md)

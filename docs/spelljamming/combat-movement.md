@@ -36,6 +36,7 @@ A ship's maneuverability rating (Poor, Average, Good, Perfect) in atmosphere (th
 A hovering ship loses its MC bonus to AC and is treated as a levitating body.
 
 The amount of time that it takes to get out of a planet's "gravity well" and attain full wildspace movement is determined by the planet's size. In general, landing takes the same amount of time:
+
 - Size Class A: 1 round
 - Size Class B & C: 2 rounds
 - Size Class D: 3 rounds
@@ -96,6 +97,7 @@ A ship's movement is determined by its SR. A ship may move one space or change i
 A ship can always change its facing by one hex side at the end of its movement for free, in addition to any other facing changes.
 
 When a ship changes direction, it uses one SR for every hex side it turns. The maneuverability class of the ship affects how often and when the ship can change facing:
+
 - Ships with Poor maneuverability cannot change facing as their first action. They must move into the hex they are facing at the start of the turn before any turning is allowed.
 - Ships with Average maneuverability cannot change facing by more than one hex side within a single hex in a single turn. They can change facing as the first action of their move and can change facing as often as desired during the move, but no more than one hex side per hex moved.
 - Ships with Good maneuverability can change facing up to two hex sides in a single hex.
@@ -114,11 +116,13 @@ There are two general types of combat in space: long range and close combat. Lon
 
 ## Turn Sequence and Initiative
 The turn sequence for battling in space is similar to that for fighting on land:
-# The DM determines what actions the monsters or NPCs will take, including attempts to ram, spells, etc.
-# The players indicate what they and their ships are doing.
-# Initiative is determined.
-# Movement and attacks are made in order of initiative.
+
+1. The DM determines what actions the monsters or NPCs will take, including attempts to ram, spells, etc.
+1. The players indicate what they and their ships are doing.
+1. Initiative is determined.
+1. Movement and attacks are made in order of initiative.
 Movement is performed one ship at a time. One ship takes its full normal move, then the next, and so on.
+
 - Long-range combat can occur at any time.
 - Short-range combat (including boarding and ramming) can occur only when two ships are in the same hex.
 No weapons can be fired while a ship is moving. As soon as a ship completes its move, the owning player announces whether it will fire any weapons. If it fires, those attacks are resolved immediately. After that ship has had the opportunity to fire (regardless of whether it fired or not), any other ship may fire its weapons at the ship which just moved, or any other ship.
@@ -146,6 +150,7 @@ Large onboard weapons (catapults, bombards, ballistas, projectors, and jettisons
 ## Choosing Targets
 
 Larger weapons (any weapon that is not hand-held) may inflict damage on crew targets (in hit points) or enemy ships (in hull points). The attacker chooses which type of target he wishes to attack.
+
 - A large weapon may always attack ships in other hexes.
 - Catapults cannot attack ships in the same hex
 - Any weapon attacking the crew (hit point attacks) may attack any character on deck or partially exposed. A player may not simply specify “I’m attacking the captain,” however. If he wants to attack the captain, he must tell the DM how he will identify the captain. If the attacker has no clear idea of what the caption looks like, the DM should assign the shot randomly among the potential targets
@@ -196,6 +201,7 @@ When a critical hit is called for, roll on the table below and apply the result.
 | 20 | Spelljammer Shock! |
 
 Definition of Effects:
+
 - **Loss of 5 or 10 Hull Points**: This loss is in addition to the initial damage. In some cases, it may cause the ship to break up or force another critical hit check. Multiple rolls for the same attack are cumulative.
 - **Deck Crew Casualty**: One exposed crew member is struck and suffers the same damage as the ship. Choose the target randomly from exposed crew. All characters within 5 feet of that individual must make a saving throw against death or suffer the same damage.
 - **Interior Crew Casualty**: Same as Deck Casualty, but everyone aboard is a potential target, including prisoners, the captain, and spelljamming mages. This reflects not so much the effect of the missile itself, but shattered parts of the ship’s interior bouncing around during combat.
@@ -226,6 +232,7 @@ If the available crew is one-fourth or less of the ship's listed minimum, the MC
 When figuring out how many crew members are available, PCs and officers are excluded, though they may be pressed into service to handle things during a battle emergency. Normally, however, their activities prevent them from taking an active role in the more mundane aspects of handling the ship, even in the heat of battle.
 
 When calculating halves and fourths for manpower requirements, round fractions in the players' favor. The breakdowns for a ship with a 10-man minimum crew, for example, would be:
+
 - 10 crew | Full MC
 - 6-9 crew | Down one MC
 - 3-5 crew | Down two MC
@@ -342,6 +349,7 @@ In general, living things cannot be effectively rammed (they are too small). Cre
 
 # Crashes
 When two ships occupy the same hex, there are four possibilities:
+
 - They can crash into each other
 - One ship can ram the other
 - One ship can land on the other
@@ -450,12 +458,13 @@ Only the stronger of the two spelljamming devices will function when the ships a
 Given the nature of space movement, an opposing craft may appear suddenly in the distance, then slow to combat speed almost immediately. Since it is the nature of the spelljamming helm to stop when it nears the gravity plane of another body, many encounters will occur without the desire of either side.
 
 The opposing ship(s) will appear 11-20 hexes away (1d10+10) in a random direction determined by rolling 1d6:
-# Directly Ahead
-# Ahead & Right (Starboard)
-# Behind & Right
-# Directly Behind
-# Behind & Left (Port)
-# Ahead and Left
+
+1. Directly Ahead
+1. Ahead & Right (Starboard)
+1. Behind & Right
+1. Directly Behind
+1. Behind & Left (Port)
+1. Ahead and Left
 
 Heading is usually toward the player's ship, though the DM can determine this if he desires.
 
@@ -517,6 +526,7 @@ Such repairs are just as good as the expensive ones, provided that at least one 
 No one likes to die, particularly in space with a long walk home. For this reason, morale can be important in combat. If you can convince a ship’s captain (or more importantly, a ship’s crew) to either call off their attack or surrender, you are winning a victory without risking your own ship and crew. A crew of typical seamen has a morale of 11. Monstrous crews can have higher or lower morale and other factors (including how well the captain is liked) also have an effect. Morale checks are made at the conclusion of a round of battle, after all actions have been resolved.
 
 A morale check is required for a ship’s crew when:
+
 - The ship suffers a critical hit.
 - The ship has only 5 hull points left (unless the ship started with less than 10, in which case ignore this situation).
 - The crew has been surprised (but only on the first turn after being surprised).

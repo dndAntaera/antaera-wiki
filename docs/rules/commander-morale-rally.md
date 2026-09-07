@@ -252,6 +252,7 @@ You can also take these rules beyond the battlefield if you wish, using them in 
 
 # Making Morale Checks
 Typically, a creature must attempt a morale check on the first round that one of the following conditions applies:
+
 - Once a creature’s hit point total falls to 50% or less of its full normal hit points, that creature must make a morale check.
 - Creatures make a morale check if half or more of the comrades in their unit are unable to fight, whether they’re dead, unconscious, fleeing, paralyzed, or otherwise out of commission.
 If a creature is required to attempt a morale check, it makes the check at the start of its turn, before it takes any other action. Depending on the situation, certain modifiers might apply to the check. (For the purpose of these modifiers, “nearby” is defined as in sight and within 120 feet.)

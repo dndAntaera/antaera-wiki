@@ -29,6 +29,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 <div class="wd-cell" markdown>
 
 # The Antæran Constellation
+
 - [Antæra](sphere-antaera.md)
 - [Umbræ](sphere-umbrae.md)
 - [Sidhe](sphere-sidhe.md)
@@ -39,6 +40,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 <div class="wd-cell" markdown>
 
 # The Inner Constellation
+
 - [Inundatio](sphere-inundatio.md)
 - [Lapis](sphere-lapis.md)
 - [Cineræxis](sphere-cineraexis.md)
@@ -50,6 +52,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 <div class="wd-cell" markdown>
 
 # The Outer Constellation
+
 - [Sanctum Æternum](sphere-sanctum-aeternum.md)
 - Paxæterna
 - [Bellatoris](sphere-bellatoris.md)

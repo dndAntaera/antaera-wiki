@@ -140,11 +140,12 @@ Because of their great size, the outside of a crystal sphere appears perfectly f
 Whatever their origin, the crystal shells are uniform throughout space. All appear as great, dark, featureless spheres of unidentifiable matter. The crystal spheres are definitely solid. They have no gravity along either their interior or exterior sides (an exception to the rule that all large objects have gravity). No magic has been found that can damage or alter the surface of a shell, except for those spells that cause portals to open. Even this, however, is believed to be nothing more than an artificial triggering of a natural phenomenon since portals also occur naturally and seemingly at random. They are apparently immune to the effects of wishes and even the wills of the outer planar powers (though this does not rule out the possibility that the outer planar powers created them—perhaps they were wise enough to prevent even their own tampering).
 
 The crystal shell is an impassable barrier to space voyagers unless they are properly prepared or very fortunate. Five methods are known for getting from one side of a crystal sphere to another:
-# It can be bypassed entirely with a teleport or dimension door spell. The traveler blinks from one side of the shell to the other without physically crossing the shell. Only a magical item or magical spell can effect such a transfer.
-# A phase door spell or magical device that duplicates that spell allows a ship or a portion of the shell to become immaterial so the ship can pass through.
-# Naturally occurring portals pierce the shell in various locations at random and unpredictable intervals. Looking for such a portal can be a time-consuming task.
-# In some systems, stars are located around the fringes. Occasionally, such stars are themselves portals to other locations which can be accessed by diving into the heart of the star. Such portals are very rare; voyagers definitely should check local listings before incinerating themselves in an unknown situation.
-# The legendary Spelljammer and creatures such as space dragons seem to have an innate ability to open portals to the phlogiston. These portals close slowly over a long period, so other ships can sometimes pass through them. From outside a sphere, these portals are easily visible.
+
+1. It can be bypassed entirely with a teleport or dimension door spell. The traveler blinks from one side of the shell to the other without physically crossing the shell. Only a magical item or magical spell can effect such a transfer.
+1. A phase door spell or magical device that duplicates that spell allows a ship or a portion of the shell to become immaterial so the ship can pass through.
+1. Naturally occurring portals pierce the shell in various locations at random and unpredictable intervals. Looking for such a portal can be a time-consuming task.
+1. In some systems, stars are located around the fringes. Occasionally, such stars are themselves portals to other locations which can be accessed by diving into the heart of the star. Such portals are very rare; voyagers definitely should check local listings before incinerating themselves in an unknown situation.
+1. The legendary Spelljammer and creatures such as space dragons seem to have an innate ability to open portals to the phlogiston. These portals close slowly over a long period, so other ships can sometimes pass through them. From outside a sphere, these portals are easily visible.
 
 Note that portals, as discussed here, are merely simple doors allowing passage from one side of a crystal shell to the other. They are not gates and do not allow transit between dimensions. Magic that relies on other planes or other dimensions is notoriously unreliable when cast in close proximity to a crystal shell.
 
@@ -177,7 +178,7 @@ And when we do, we’ll probably start the sages arguing all over again."
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # The Phlogiston
@@ -214,7 +215,7 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Castaways in the Flow
@@ -257,6 +258,7 @@ Larger objects, such as ships, are rated for their tonnage. Each ton represents 
 
 ## Air Quality
 The air envelope around a body or ship can be one of three classes or qualities: fresh, fouled, or deadly. Air can change from one quality to another over time.
+
 - **Fresh air** is completely breathable. The air around an individual body remains fresh for 2-20 (2d10) turns. Air around a larger body (one ton or more) remains fresh for four months if the vessel carries a normal crew.
 - **Fouled air** is stale and partially depleted. It is humid and smells bad. Air becomes fouled after the first 2-20 turns around a single body and remains fouled until the 30th turn. For example, if the air was fresh for 12 turns, it would be fouled for 18 turns, for a total of 30 turns. The air around a ship is fouled from the beginning of the fifth month until the end of the eighth month. All attack rolls and ability checks made by characters or creatures that must breathe air have a -2 penalty if the air is fouled.
 - **Deadly air** is completely depleted and filled with carbon dioxide. It cannot support life. The air around an individual becomes deadly at the beginning of the 31st turn; that around a ship becomes deadly at the beginning of the ninth month in space. Anyone trapped inside a deadly atmosphere must make a saving throw versus poison each turn. Failure means the character passes out. A second failure brings death. Only fresh (or fouled) air can revive the character after he passes out.

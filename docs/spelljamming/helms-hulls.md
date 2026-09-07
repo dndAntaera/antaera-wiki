@@ -129,6 +129,7 @@ The landing entry indicates whether the ship can stand up to a landing on water 
 There are as many names for the various ships as there are races and inhabited worlds. Each culture brings its own names into space, and a ship that qualifies to one group as a “free frigate” because of its size and purpose might be to another a “system rock” since it lacks a spelljamming helm or other inboard motive power.
 
 Names by Size:
+
 - <u>Boat</u>: less than 10 tons and unarmed; a derogatory term versus any actual ship
 - <u>Fighter</u>: less than 10 tons and armed. Elven fighters are often called flitters
 - <u>Galley/Cog</u>: 10–20 tons, taken from their earthbound analogies but ignoring the differences in the ship types. Also called a sloop
@@ -151,6 +152,7 @@ Finally, a ship that resembles little more than a terrestrial galley or galleon 
 # Hull Types
 
 ### Barge
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 40 ft
 - **Beam** 40 ft
@@ -169,6 +171,7 @@ Finally, a ship that resembles little more than a terrestrial galley or galleon 
 A barge is a groundling vehicle that is not much more than a large, flat-bottomed hull designed to haul heavy cargoes. Most barges are intended to be towed by other ships, but some are fitted out as royal yachts or war barges.  Barges of this sort might have large deckhouses or weapon mounts.
 
 ### Caravel
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 60 ft, 20 ft
 - **Tonnage** 9
@@ -187,6 +190,7 @@ A barge is a groundling vehicle that is not much more than a large, flat-bottome
 A groundling ship of late medieval design. A versatile cargo carrier.
 
 ### Cog
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 40 ft, 20 ft
 - **Tonnage** 6
@@ -205,6 +209,7 @@ A groundling ship of late medieval design. A versatile cargo carrier.
 A groundling ocean trader, popular with merchants.
 
 ### Coracle
+
 - **Size** Medium Vehicle
 - **Keel, Beam** 5 ft, 5 ft
 - **Tonnage** 1
@@ -220,6 +225,7 @@ A groundling ocean trader, popular with merchants.
 A small and very simple groundling vessel, the coracle is made from a light wicker or branch frame, over which waterproofed hide or bark is stretched. A coracle weighs only 40 pounds, and can easily be carried for short distances.
 
 ### Dhow
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 60 ft, 20 ft
 - **Tonnage** 4
@@ -238,6 +244,7 @@ A small and very simple groundling vessel, the coracle is made from a light wick
 The dhow is a moderately sized groundling vessel with a single mast and a full deck. It might have a small sterncastle or deckhouse at the stern. Many dhows are made of sewed or stitched hulls—the hull planks are sewed to one another with sturdy cord.
 
 ### Dromond
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 2 ft
 - **Tonnage** 22
@@ -255,6 +262,7 @@ The dhow is a moderately sized groundling vessel with a single mast and a full d
 A Byzantine ship—its cost and size make it a relatively good choice for initial star voyagers.
 
 ### Dugout
+
 - **Size** Large Vehicle
 - **Keel, Beam** 10 ft, 5 ft
 - **Tonnage** 1
@@ -270,6 +278,7 @@ A Byzantine ship—its cost and size make it a relatively good choice for initia
 The dugout is the simplest groundling vehicle possible—a hollowed-out log hacked into the shape of a boat.
 
 ### Elven Wingship
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 60 ft, 10 ft
 - **Tonnage** 4
@@ -287,6 +296,7 @@ The dugout is the simplest groundling vehicle possible—a hollowed-out log hack
 So named because of its great, sweeping sails that seem more like a bird’s wings than a ship’s rigging, the elf wingship is the fastest ship on the sea. Despite its graceful lines and delicate appearance, the wingship is actually quite sturdily built and deadly in a naval battle. Elves rarely (if ever) sell wingships to non-elves.
 
 ### Galleon
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 130 ft, 30 ft
 - **Tonnage** 43
@@ -305,6 +315,7 @@ So named because of its great, sweeping sails that seem more like a bird’s win
 One of the most advanced sailing vessels of its era, found only on a handful of worlds. Best of the groundling vessels for the leap into space, and those earthbound nations that recognize space traveling tend to use such ships.
 
 ### Galley
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 130 ft, 20 ft
 - **Tonnage** 29
@@ -323,6 +334,7 @@ One of the most advanced sailing vessels of its era, found only on a handful of 
 Also known as the quinquireme, or great galley, this is the largest groundling vessel normally built. Great galleys are usually warships, vessels whose primary purpose is service in a fleet. Often experimental wizards take an entire galley sailing team into space in initial experiments. This leads to no later experiments, since the crew quickly exhausts the air and dies.
 
 ### Greatship
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 40 ft
 - **Tonnage** 89
@@ -343,6 +355,7 @@ Fitted with a towering forecastle and sterncastle, this huge, broad-beamed saili
 Greatships are sometimes called carracks.
 
 ### Ironclad
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 80 ft, 30 ft
 - **Tonnage** 27
@@ -361,6 +374,7 @@ Greatships are sometimes called carracks.
 Protected from enemy fire by solid iron plate, the ironclad is slow and clumsy but deadly in a naval battle. The ironclad is built on a frame of thick wooden timbers, just like most other vessels; armor is then riveted or bolted onto its sides. Most ironclads are built by groundling dwarves who turn their remarkable knack for metallurgy and engineering to the construction of these warships
 
 ### Junk
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 80 ft, 20 ft
 - **Tonnage** 12
@@ -379,6 +393,7 @@ Protected from enemy fire by solid iron plate, the ironclad is slow and clumsy b
 A junk is a large groundling ship often found in oriental societies. It has a flat bottom, no keel, and a high stern, with two masts and a sail reinforced with bamboo ribs. The junk’s hull is partitioned into a number of small, watertight compartments, which makes it unusually seaworthy.
 
 ### Launch
+
 - **Size** Large Vehicle
 - **Keel, Beam** 15 ft, 5 ft
 - **Tonnage** 1
@@ -395,6 +410,7 @@ A junk is a large groundling ship often found in oriental societies. It has a fl
 Also known as a whaleboat, the launch is a large, open groundling dinghy with a stout, round-bottomed hull that can stand up to surprisingly rough seas. Launches are often carried by larger ships for use in landing in places where the larger ship can’t go.
 
 ### Longship
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 70 ft, 20 ft
 - **Tonnage** 5
@@ -413,6 +429,7 @@ Also known as a whaleboat, the launch is a large, open groundling dinghy with a 
 An ideal carrier for small numbers of adventurers in space, but as with the galleys, taking a full sailing crew beyond the atmosphere of the planet will result in the air quickly becoming fouled and the voyage ending. It does not have a deck, although some longships are built with small walks or platforms at the stern and bow
 
 ### Pinnace
+
 - **Size** Gargantuan Vehicle
 - **Keel, Beam** 30 ft, 10 ft
 - **Tonnage** 2
@@ -431,6 +448,7 @@ An ideal carrier for small numbers of adventurers in space, but as with the gall
 The pinnace is a small, two-masted sailing vessel. It’s sturdy enough to undertake long open-water voyages and handy enough to use close to shore. A pinnace is fully decked, but its sterncastle is hardly worthy of the name; it’s little more than a cramped cabin
 
 ### Rowboat
+
 - **Size** Large Vehicle
 - **Keel, Beam** 2 ft, 5 ft
 - **Tonnage** 1
@@ -447,6 +465,7 @@ The pinnace is a small, two-masted sailing vessel. It’s sturdy enough to under
 Also called a skiff, punt, or pirogue, this is a flat-bottomed groundling boat for use in calm waters. Larger spelljamming ships usually keep a few around for docking or boarding if their shape or size woukd otherwise prevent them from doing so.
 
 ### Theurgeme
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 70 ft, 20 ft
 - **Tonnage** 10
@@ -464,6 +483,7 @@ Also called a skiff, punt, or pirogue, this is a flat-bottomed groundling boat f
 The theurgeme is a groundling vessel powered by magic. Without sails or rowers it moves swiftly and tirelessly across the water. Theurgemes can be powered in a variety of ways, but the most common design is a simple paddlewheel or set of mechanical oars turned or driven by a magical construct, mindless undead, or even a bound elemental. Many theurgemes are luxuriously appointed with comfortable cabins and exotic décor, as befits the wealthy wizards who most likely own such vessels.
 
 ### Mind Flayer Nautiloid
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 180 ft, 30 ft
 - **Tonnage** 35
@@ -481,6 +501,7 @@ The theurgeme is a groundling vessel powered by magic. Without sails or rowers i
 Embodiment of several illithid ideals, including staying out of the sun and striking hard and fast from armored safety. Found throughout the Known Spheres of wildspace, though there are many spacefaring nations that will attack a mind flayer ship on sight and worry about details (like who really owns it) later.
 
 ### Squid Ship
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 25 ft, 25 ft
 - **Tonnage** 45
@@ -498,6 +519,7 @@ Embodiment of several illithid ideals, including staying out of the sun and stri
 A common ship among pirates, traders, and other spacefarers. Its effective length is increased by the 50-foot-long triple spears at the front.
 
 ### Hammership
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 250 ft, 25 ft
 - **Tonnage** 60
@@ -515,6 +537,7 @@ A common ship among pirates, traders, and other spacefarers. Its effective lengt
 Another common spacefaring ship used both by traders and those who prey on them. Uses a blunt ram at the front, so that its ram is included in total keel length of the ship.
 
 ### Dragonfly
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 20 ft
 - **Tonnage** 10
@@ -531,6 +554,7 @@ Another common spacefaring ship used both by traders and those who prey on them.
 An excellent ship for small groups and for planetary exploration, the dragonfly is capable of touching down on most planets.
 
 ### Damselfly
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 20 ft
 - **Tonnage** 10
@@ -547,6 +571,7 @@ An excellent ship for small groups and for planetary exploration, the dragonfly 
 A version of the dragonfly hull so heavily modified as to qualify as its own separate hull type. The damselfly hull uses metal plates (and in some cases, ceramics, shells, or bones) to cover all external decks to create a battle-ready scout ship.
 
 ### Mosquito
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 15 ft
 - **Tonnage** 6
@@ -562,6 +587,7 @@ A version of the dragonfly hull so heavily modified as to qualify as its own sep
 Smaller than the dragonfly, and less expensive, this ship is not as good for long voyages, but is often employed as a scout ship in civilized space.
 
 ### Wasp
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 80 ft, 20 ft
 - **Tonnage** 18
@@ -578,6 +604,7 @@ Smaller than the dragonfly, and less expensive, this ship is not as good for lon
 Designed along the lines of the dragonfly by the lizardmen tribes of space, this ship responds to the needs of that race with its pitched decks and wide passages. The ship has found common use among other races as well.
 
 ### Neogi Deathspider
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 175 ft (not including arms), 50 ft
 - **Tonnage** 100
@@ -594,6 +621,7 @@ Designed along the lines of the dragonfly by the lizardmen tribes of space, this
 One of the largest ships in Known Space, the deathspiders are feared and hated wherever they appear. One can likely be had for the listed price, but the individuals buying it will be attacked on sight. The deathspider uses a grappling ram that allows it to trap its prey. It requires a major helm to operate. Not recommended for new adventurers.
 
 ### Dwarven Citadel
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 250 ft, 200 ft
 - **Tonnage** 300
@@ -610,6 +638,7 @@ One of the largest ships in Known Space, the deathspiders are feared and hated w
 Dwarven ships are carved-out asteroids and flying mountains. Many are found adrift in space, abandoned by their people, and used as bases by other fell races. Like the deathspiders, citadels are too large to be moved by normal spelljamming means. The dwarves use a device known as the Forge (see Power Type) for motive power.
 
 ### Beholder Tyrant Ship
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 100 ft
 - **Tonnage** 23
@@ -625,6 +654,7 @@ Dwarven ships are carved-out asteroids and flying mountains. Many are found adri
 Beholder tyrant ships are only used by the various beholder races, and serve as home for up to 40 such creatures at a time. They are shaped like walnuts and have their own form of spelljamming power, using the beholders within. While an individual may be a guest (or prisoner) on a tyrant ship, it is unlikely anyone other than a beholder would want such a hull.
 
 ### Oriental Dragonship
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 250 ft, 25 ft
 - **Tonnage** 45
@@ -641,6 +671,7 @@ Beholder tyrant ships are only used by the various beholder races, and serve as 
 A common ship among individuals from Kara-Tur and other oriental lands. A cross between a dhow and a dragon, it is used by ground-based nations of that region that seek to go into space.
 
 ### Elven Man-o-War
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 200 ft, 20 ft
 - **Tonnage** 60
@@ -657,6 +688,7 @@ A common ship among individuals from Kara-Tur and other oriental lands. A cross 
 The oddly curved, graceful ships of the elves are grown and twisted into their shapes, much like bonsai trees. As a result, their plane of gravity is not linear; each ship is a large, delicately fluted vessel with a lot of potential firepower. The crystalline wings of the elven ship reach 300 feet from tip to tip, brushing the edge of its own atmospheric envelope.
 
 ### Elven Flitter
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 100 ft, 20 ft
 - **Tonnage** 1
@@ -673,6 +705,7 @@ The oddly curved, graceful ships of the elves are grown and twisted into their s
 At the opposite end of the scale for elven ships, the 1-ton flitter is among the smallest of the ships of wildspace. Though it can be equipped with a spelljammer helm, these ships are more often carried on larger ships and let loose when the large elvish ship enters the atmospheric envelope of another ship. The flitters then glide and board the other ship.
 
 ### Tradesman (fish ship)
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 120 ft, 30 ft
 - **Tonnage** 25
@@ -689,6 +722,7 @@ At the opposite end of the scale for elven ships, the 1-ton flitter is among the
 The workhorse of space, this ship is found in every sphere that has a healthy trading and raiding society.
 
 ### Gnomish Sidewheeler
+
 - **Size** Colossal Vehicle
 - **Keel, Beam** 120 ft, 25 ft
 - **Tonnage** 30

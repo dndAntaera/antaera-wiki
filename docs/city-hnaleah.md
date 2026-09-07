@@ -10,7 +10,7 @@ title: "City Hnaleah"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -69,84 +69,91 @@ Hnaleah's government holds the belief that it is their sacred duty to liberate t
 # Districts
 ## Historic District
 This section of the city was where the original inhabitants of the city first settled. It is comprised of government buildings and old shops. The buildings here are some of the first ones built in the city and have been preserved due to their historic significance.
+
 - Social Class: Upper
 - Population ~525
 - Subdivisions
- - Civic
- - Fine Shops
- - Parks
+    - Civic
+    - Fine Shops
+    - Parks
 
 ## Regal District
 The Regal District is where the nobility and high priesthood live and spend most of their day. It contains shops that sell the finest of wares and the forefront of fashion of Hnaleah. Many people envy those who live here, so it is usually hidden that one lives here and disguises are used when entering and exiting this district. It also contains the remnants of the old Lord's Keep, which has been preserved due to its historical relevance. It now serves as governmental offices and for its dungeon.
+
 - Social Class: upper
 - Population ~1,750
 - Subdivisions
- - Lord's Keep, vacant
- - Finance District
- - Fine Shops
- - Noble Estates
- - Wealthy Residential
+    - Lord's Keep, vacant
+    - Finance District
+    - Fine Shops
+    - Noble Estates
+    - Wealthy Residential
 
 ## Glassmile
 Glassmile is the reason that this city has retained its ties to the rest of the Sewich Union, as this is the city's "adventurer district." While most of the city has kept to its religious extremism and continues to try and dominate this district of the city in the same manner, Hnaleah's government has failed to do so, citing its profitability for the city as the sole reason they do not invasively encroach on the district. Though that is not to say that they operate under different laws, they are just enforced significantly less here. The main attractions for this region are the vortexes to the Halls of Valor located here. Rumors tell that these vortexes are artificial, while others hold that they are divinely gifted to the city and its residents by Leonus himself. In either case, the gladiatorial games held here are renowned throughout the Sewich Union and draw in many adventurers participating. These events are scryed on by special devices attuned to the outer plane, showcasing the games for onlookers to watch. While it is outlawed in the rest of the city, betting on the matches has been restricted to inside this special district of the city and is overseen and managed by the government.
+
 - Social Class: Middle
 - Population ~5,520
 - Subdivisions
- - Embassy
- - Inn District
- - Immigrant Enclave
- - Adventurer's Quarter
- - Coliseum
- - Guildhall District
- - Marketplace
- - Red Light District
- - Tavern District
- - Undercity
- - Warehouse District
- - Theatre District
+    - Embassy
+    - Inn District
+    - Immigrant Enclave
+    - Adventurer's Quarter
+    - Coliseum
+    - Guildhall District
+    - Marketplace
+    - Red Light District
+    - Tavern District
+    - Undercity
+    - Warehouse District
+    - Theatre District
 
 ## North Axis
 One of the few truly residential districts of the city, the North Axis is home to several apartments that residents live in. It is mostly self-contained with its own shops and garrison, and contains much the same sights one would expect of a residential district of a city such as Hnaleah. The South Axis and East Axis districts are the same in this regard, with not much distinguishing them from each other, other than their relative positions to each other.
+
 - Social Class: Middle
 - Population ~1,900
 - Subdivisions
- - Apartment Homes
- - Garrison
- - Shops
- - Professionals
+    - Apartment Homes
+    - Garrison
+    - Shops
+    - Professionals
 
 ## South Axis
 One of the few truly residential districts of the city, the South Axis has no real difference from the North and East Axis districts.
+
 - Social Class: Middle
 - Population ~1,900
 - Subdivisions
- - Apartment Homes
- - Garrison
- - Shops
- - Professionals
+    - Apartment Homes
+    - Garrison
+    - Shops
+    - Professionals
 
 ## East Axis
 One of the few truly residential districts of the city, the South Axis has no real difference from the North and East Axis districts.
+
 - Social Class: Middle
 - Population ~1,900
 - Subdivisions
- - Apartment Homes
- - Garrison
- - Shops
- - Professionals
+    - Apartment Homes
+    - Garrison
+    - Shops
+    - Professionals
 
 ## The Dregs
 The Dregs is a massive slum, located outside the walls of the city and filled to the brim with the "dregs" of society. What defines a dreg is relatively subjective to who is asked, but the common answer is usually equated to "dissenter" or "apostate". Generally, when one is discovered to have broken from the main religion of the city, or from one of the many other tolerated religions, they eventually find themselves here. It is the home of the down and out, the nuisances, and the undesirables. Many have found themselves here for one reason or another, whether it was because they openly worshipped a deity that was not approved by the state, or simply because a priest took offense to their appearance and deemed them"unholy" and cast out of the city.
+
 - Social Class: Lower
 - Population ~3,850
 - Subdivisions
- - Goblinoid Ghetto
- - Red Light District
- - Shantytown
- - Slum
- - Tenement District
- - Undercity
- - Warehouse District
+    - Goblinoid Ghetto
+    - Red Light District
+    - Shantytown
+    - Slum
+    - Tenement District
+    - Undercity
+    - Warehouse District
 
 </div>
 </div>

@@ -7,6 +7,7 @@ title: "Kingdoms Empires"
 
 # Kingdoms & Empires
 *The kingdoms have remained constant in the current era, though some borders change almost yearly.*
+
 - [New Haven Imperium](nation/new-haven-imperium.md)
 - [Eldoria Empire](nation/eldoria-empire.md)
 - [Terraspan Dynasty](nation/terraspan-dynasty.md)

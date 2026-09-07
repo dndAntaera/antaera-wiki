@@ -11,6 +11,7 @@ title: "Antæra World Map"
 <div class="wd-cell" markdown>
 
 # **Legend**
+
 - Antæran Plains
 - Angheh Wastes
 - Broken Spire Isles
@@ -27,6 +28,7 @@ title: "Antæra World Map"
 <div class="wd-cell" markdown>
 
 # **Index**
+
 - [Kingdoms & Empires](kingdoms-empires.md)
 - [Languages](languages.md)
 

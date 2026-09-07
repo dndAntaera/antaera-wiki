@@ -35,6 +35,7 @@ While most Deepfolk are content to remain in Deepholme, some venture out into th
 Deepholme, the capital of the Deepfolk, stands as a formidable bastion in the Earthspire Expanse. This city, carved into the heart of the underground, symbolizes their enduring spirit and ability to thrive in adverse conditions. It reflects the cultural ethos of the Deepfolk – a society built on the principles of power, control, and the unyielding belief in their supremacy. Other regions within the Earthspire Expanse include the Psionic Sanctums, where Psions train and hone their abilities, and the Dark Mines, which provide resources crucial to their survival and expansion.
 
 #### Deepfolk Racial Traits
+
 - +2 Intelligence, -2 Dexterity. Deepfolk are bright and quick to learn arcane lore, but they lack the balance and agility of most other humanoid races.
 - Medium size. Deepfolk have no bonuses or penalties due to their size.
 - A deepfolk's base land speed is 30 feet.

@@ -33,100 +33,106 @@ It is commonly believed in other parts of the continent that the [Imperium](nati
 
 ## Stone Hook
 The best way to describe it is the slums and outcast quarter. Since the city itself is very pro-human, most other races are forced to live here in extremely unfavorable conditions. The few who are able to rise above and make it out rarely make it past Dragon Gate, and will never get past Dragon Gate if they are non-human or anything that remotely resembles one (such as elves or other similar humanoid races). The slave trade that is generally done here is usually done in secret, as it is not sanctioned by the city as humans are also sold here.
+
 - Social Class: Lower
 - Population
- - Approx. 2200
- - 60% goblinoid
- - 20% human
- - 20% other
+    - Approx. 2200
+    - 60% goblinoid
+    - 20% human
+    - 20% other
 - Subdivisions
- - Goblinoid ghetto
- - Red light district
- - Shantytown
- - Slave quarter
- - Slum
+    - Goblinoid ghetto
+    - Red light district
+    - Shantytown
+    - Slave quarter
+    - Slum
 
 ## Dragon Gate
 This is the section of the city that allows outsiders into the city to see the city, though they are closely watched by the city guard. Adventurers are viewed slightly better than their non-adventurous counterparts. Leaving this section of the city to view the rest, for a non-citizen, requires special permission or a voucher.
+
 - Social Class: Lower
 - Population
- - Approx. 1770
- - 50% human
- - 40% elf
- - 9% dwarf
- - 1% other
+    - Approx. 1770
+    - 50% human
+    - 40% elf
+    - 9% dwarf
+    - 1% other
 - Subdivisions
- - Adventurer’s Quarter
- - Garrison
- - Embassy District
- - Magic District
- - Immigrant Enclave
+    - Adventurer’s Quarter
+    - Garrison
+    - Embassy District
+    - Magic District
+    - Immigrant Enclave
 
 ## Asharch
 The military district, located behind the palace. There is a military university situated here, and is the most prestigious military college in the entire empire. Humans are almost always admitted, whereas anyone else must usually have a recommendation or referral. The students and soldiers are the only residents that actually live here, and even then it’s in dorms or apartments. The majority of the city’s military and guard are garrisoned here, along with their families. The main temple located here is dedicated to Superbia.
+
 - Social Class: Middle/Lower
 - Population
- - Approx. 2250
- - 70% human
- - 20% elf
- - 9% dwarf
- - 1% other
+    - Approx. 2250
+    - 70% human
+    - 20% elf
+    - 9% dwarf
+    - 1% other
 - Subdivisions
- - University
- - Apartment Homes
- - Garrison
- - Marketplace
- - Temple District
+    - University
+    - Apartment Homes
+    - Garrison
+    - Marketplace
+    - Temple District
 
 ## Middlesect
 This section of the city makes up most of the city, and is where the commoners live. The shops here are the same quality you would find anywhere else, however the only real difference is the overwhelming lack of any race other than humans. While they are not explicitly outlawed, it is relatively uncomfortable for a non-human to live here if they are not relatively well off. The non-humans living here are generally still humanoid in appearance, however the only jobs a visitor will likely see them in is a laborer or mercantile job. The only time someone will see a noble in this district is when they are purchasing slaves from the most esteemed and respected, if you can call it that, slave market in the continent. It prides itself on keeping slaves of all kinds in stock for any and all occasions. Though humans are never sold at this market, lest their license be revoked.
+
 - Social Class: Middle
 - Population
- - Approx. 6750
- - 80% human
- - 10% dwarf
- - 5% elf
- - 5% other
+    - Approx. 6750
+    - 80% human
+    - 10% dwarf
+    - 5% elf
+    - 5% other
 - Subdivisions
- - Civic District
- - Finance District
- - Guildhall District
- - Magic District
- - Park District
- - Marketplace
- - Shops
- - Temple District
- - Apartment Homes
- - Red Light District
- - Undercity
- - Warehouse District
- - Average Residential
- - Wealthy Residential
- - Slave Quarter
+    - Civic District
+    - Finance District
+    - Guildhall District
+    - Magic District
+    - Park District
+    - Marketplace
+    - Shops
+    - Temple District
+    - Apartment Homes
+    - Red Light District
+    - Undercity
+    - Warehouse District
+    - Average Residential
+    - Wealthy Residential
+    - Slave Quarter
 
 ## Gloomgarden
 This quarter of the city is where the nobility resides, whether they are powerful mages, generals in the military, or the most influential of merchants. The only non-human residents of this quarter are the slaves of the human residents. Even then, they are required to wear magical disguises to appear human so as not to offend the human residents.
+
 - Social Class: Upper
 - Population
- - Approx. 1850
- - 98% human
- - 2% other
+    - Approx. 1850
+    - 98% human
+    - 2% other
 - Subdivisions
- - Fine Shops
- - Magic District
- - Noble Estates
- - Park District
- - Guildhall District, former
+    - Fine Shops
+    - Magic District
+    - Noble Estates
+    - Park District
+    - Guildhall District, former
 
 ## The Citadel
 The seat of power in the entire [Imperium](nation/new-haven-imperium.md), and the home of the Imperial family. It is also home to the religious center of the [Imperium](nation/new-haven-imperium.md), which is believed to be dedicated to Superbia, though it is rumored to actually be dedicated to [Ukrol](deity/ukrol.md). The only race allowed in are humans, as there is a powerful barrier erected around it that repels non-humans. Scholars believe that it is a powerful misuse of a Mythal, and is usually one of the subjects of many international disputes and disagreements. Though there is no substantial proof of this, anyone who accuses them of this is usually found to have suspiciously died of natural causes a few weeks later.
+
 - Social Class: Upper
 - Population
- - Approx. 800
- - 100% human
+    - Approx. 800
+    - 100% human
 - Subdivisions
- - Lord’s Keep
- - Temple District
+    - Lord’s Keep
+    - Temple District
 
 </div>
 <div class="wd-cell" markdown>

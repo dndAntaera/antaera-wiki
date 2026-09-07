@@ -18,19 +18,23 @@ title: "Skills Feats"
 *This section describes new uses, DCs, and modifiers for familiar skills from the Player’s Handbook. Certain spelljamming-specific skills have groundling equivalents, due to the similar nature of them to their counterparts. Skills that have equivalents can be used to apply for content in place of each other, and can be used for skill checks interchangeably, but at a -2 penalty. For example, if a prestige class requires 8 ranks in Profession (sailor), you would need 10 ranks in Profession (Spacehand). Using a Profession (Spacehand) check in place of a Profession (Sailor) check would have a -2 penalty.*
 
 **Groundling/Spelljammer Skill Equivalents**
+
 - Profession (Spacehand) - Profession (Sailor)
 - Wildspace Survival - Survival
 
 ### Craft
+
 - **Shipwright - Spelljammer**: allows for the construction and repair of spelljammers
 
 ### Knowledge
 
 Spacefarers have access to additional areas of knowledge:
+
 - **Planetology**: Covers lands, terrain, seasons, cycles, weather, and determining probable inhabitants of planets.
 - **Wildspace**: Focuses on celestial mechanics, identifying life-bearing planets, wildspace spheres, and wildspace beasts.
 
 Characters with Knowledge (geography), Knowledge (local), and Knowledge (nobility & royalty) must specialize in a specific location, time period or topic such as:
+
 - Knowledge (geography - Antaeran Plains)
 - Knowledge (local - Gallamarketh)
 - Knowledge (nobility & royalty - New Haven Imperium)
@@ -38,6 +42,7 @@ Characters with Knowledge (geography), Knowledge (local), and Knowledge (nobilit
 Characters with Knowledge (history) may specialize in a topic, granting them specific knowledge in that subject. For example, a character that has Knowledge (history) attempting to remember information about spelljammers will only remember vague information, while a character making the same check with Knowledge (history - spelljamming) will get specific information.
 
 Any character with access to Knowledge (any), Knowledge (geography), or Knowledge (nature) as class skills also has Knowledge (planetology) as a class skill. Likewise, characters with Knowledge (any), Knowledge (arcana), or Knowledge (the planes) as class skills gain Knowledge (wildspace) as a class skill.
+
 - Synergy: 5 or more ranks in Knowledge (wildspace) grants a +2 bonus to Profession (wildspace navigator) checks.
 
 ### Profession
@@ -45,24 +50,28 @@ Any character with access to Knowledge (any), Knowledge (geography), or Knowledg
 If you join a ship's weapon team without at least one rank in this skill, your presence adds one round to the reload time.
 
 Additional professions for Spelljammer campaigns:
+
 - **Spacehand**: Trained in shipboard duties.
 - **Wildspace Navigator**: Capable of using charts to navigate through space.
 
 These professions are available only to spacefaring characters who have the Spacefarer feat.
 Synergies:
+
 - 5 or more ranks in Profession (sailor) grants a +2 bonus on Profession (spacehand) checks and vice versa.
 - 5 or more ranks in Knowledge (wildspace) grants a +2 bonus to Profession (spacehand) checks.
 
 ### Search
 Search allows a character to discern small details and quickly grab valuables, useful when seizing treasure from a ship that is breaking up or burning up.
+
 - Synergy: 5 or more ranks in Appraise grants a +2 synergy bonus on Search checks related to looting.
 
 ### Speak Language
 This skill allows a character to speak and read/write languages, including new languages for Spelljammer campaigns:
+
 - **Semaphore**: Used for long-distance communication in wildspace. Requires a clear line of sight, typically at a range of a quarter-mile. A spyglass can extend this range.
- - Language rate: 20+ words per minute using body poses, aided by flags or lights.
+    - Language rate: 20+ words per minute using body poses, aided by flags or lights.
 - **Signaling**: Similar to Morse code, used with lights or mirrors. Can be done at longer ranges (up to 10 miles).
- - Language rate: 10 words per minute using light-based signals.
+    - Language rate: 10 words per minute using light-based signals.
 - **Speak Archaic Language**: Master an obscure wildspace language, useful for reading ancient tomes. This skill allows either reading or speaking, but not both.
 
 </div>
@@ -80,10 +89,12 @@ Use this skill to effectively pilot a Spelljamming vessel.
 
 ### Wildspace Survival (wis)
 **Check**: This skill helps you conserve resources in space, safely guide a ship, identify nearby pirates, or avoid natural hazards.
+
 - DC 15: Reduce air, food, and water consumption by half, provided physical activity is kept minimal.
 - DC 20+: Identify hazards such as space worm nests, sargassos, or infinity vine patches by studying the surrounding space.
 
 A Wildspace Survival check applies for the full day. Checks made to identify hazards take at least a full-round action, or longer at the DM’s discretion.
+
 - Synergy: 5 or more ranks in Wildspace Survival grants a +2 synergy bonus on checks to put out fires.
 - The skill is cross-class unless the Spacefarer feat is selected, in which case it becomes a class skill for all of your classes.
 
@@ -158,6 +169,7 @@ Characters are not required to take this feat but must actively seek to learn an
 
 ### Existing Feat Notice
 The following feats now also apply to shipboard weapons:
+
 - Exotic Weapon Proficiency *(Must select a specific type of shipboard weapon.)*
 - Weapon Focus
 - Weapon Specialization

@@ -45,12 +45,14 @@ Smart-alecks can bring the ship in on the gravity plane but facing the other dir
 
 # Navigating in Wildspace
 In general, the time between two planetary bodies can be figured as:
+
 - Time to take off (in rounds)
 - Time to escape the gravity well (in turns)
 - Time to cover the distance to the next planet (in rounds, turns, or days, as appropriate)
 - Time to land (in turns, reverse of time to reach edge of gravity field)
 Example:
 A trip from Earth to Mars, assuming that they were as near as possible (about 50 million miles), would take:
+
 - 1d8 rounds for warm-up on Earth
 - 4 rounds to reach the edge of a class E world
 - Travel time = 50 million miles / 100 million miles per day = 0.5 standard days or 12 hours (120 rounds)
@@ -176,6 +178,7 @@ As stated too many times already, space is BIG. The chance meeting of two object
 The DM may have planned encounters for particular sections of space: a group of pirates lurking among the asteroids, for example, or an elven armada seeking to protect their “no humans allowed” planet. Such encounters are left to the DM and override any random encounters.
 
 The starchart can be used for determining random encounters as well. When using the display, check once for every space (on the outer or inner zones) the ship enters. The base chance of an encounter is 1 in 20, modified as follows:
+
 - On the inner planet track: +1
 - In the same ring as a planet or star: +1
 - In the same space as a planet or star: -1
@@ -187,6 +190,7 @@ The starchart can be used for determining random encounters as well. When using 
 The level of spelljamming activity reflects the amount of normal space travel found in the sphere. Extensive spelljamming activity means more than one major spacefaring nation or space-based community. Toril has an extensive spelljamming community, while Oerth is normal (no modifiers), and Krynn, heavily influenced by gods and recovering from catastrophe, has little or no spelljamming activity.
 
 If the characters are using a time-based process (from the charts) to determine travel time, use the following procedure:
+
 - If within 200 million miles of the primary, roll once per day.
 - If beyond 200 million miles of the primary, roll once per week.
 - Roll 1d20, with 1 representing a possible encounter.
@@ -210,17 +214,18 @@ As the players move out into the phlogiston, they will discover new systems and 
 ## DM-Created Universes
 
 The DM may create systems both for his own campaign and for those new systems that the characters discover in their travels. He can use the random method below or place the various celestial bodies in the system deliberately. In creating this type of system, the following checklist will be handy:
-# Type of System: Is it a standard system (represented by the planetary display) or a special case?
-# Assuming a standard system, what is the primary body (star, planet, black hole, etc.)?
-# What is the number of main planets orbiting the primary body?
-# What are the orbit rings of each body?
-# For each planetary body:
- # What is its size?
- # What is its type?
- # What is its shape?
- # Are there other notes, such as moons or type of inhabitants?
-# Do some or all of the civilizations in this area have spelljamming capabilities?
-# What is the distance to the crystal shell of the system? (Twice the orbit of the furthest major body.)
+
+1. Type of System: Is it a standard system (represented by the planetary display) or a special case?
+1. Assuming a standard system, what is the primary body (star, planet, black hole, etc.)?
+1. What is the number of main planets orbiting the primary body?
+1. What are the orbit rings of each body?
+1. For each planetary body:
+    1. What is its size?
+    1. What is its type?
+    1. What is its shape?
+    1. Are there other notes, such as moons or type of inhabitants?
+1. Do some or all of the civilizations in this area have spelljamming capabilities?
+1. What is the distance to the crystal shell of the system? (Twice the orbit of the furthest major body.)
 
 </div>
 </div>
@@ -236,6 +241,7 @@ OK, you’re tired of putting brain power into figuring out civilizations and or
 ## Part 1: System Type
 
 Roll percentile dice:
+
 - 01-95 Standard system (as shown on system display)
 - 96-00 Special system (roll again on the following table or choose)
 
@@ -278,6 +284,7 @@ Roll percentile dice:
 - 96-00: Planets are carried on the backs of large world-creatures that move the spheres
 
 **Other Possible Movement Types**:
+
 - Planets carried on boats sailing on a sea of wildspace or even water.
 - Planets mounted on the tops of infinitely tall pillars. Anyone who sails downward can travel indefinitely without ever reaching the bottom.
 - Planets mounted on enormous, clockwork gears.
@@ -410,10 +417,12 @@ A chaotic planet will never move into a square containing another planet (or els
 <u>Opposing Revolutions</u> – In most cases, the planets move in the same direction (DM’s choice). In systems with opposing revolutions, each planet may move in one direction or the other.
 
 Roll 1d6 when setting up the system:
+
 - 1-3: Clockwise
 - 4-6: Counterclockwise
 
 <u>Small Systems and Other Special Worlds</u> – Some systems are smaller than normal planets, contain one planetary body, or otherwise are not represented on the standard solar display.
+
 - Single flat world, filling a small crystal sphere. In this case, a traveler may walk to the edge of the universe.
 - Nested spheres, one small crystal sphere within the next, forming a series of ringed worlds around a central, unseen hub. Each ring may have its own environments and physical attributes.
 - Stepped worlds with rising levels of spheres, one within the next.
@@ -429,6 +438,7 @@ Roll 1d6 when setting up the system:
 Celestial bodies are divided into various types and classifications for easy reference by celestial engineers and cartographers. When referring to a celestial body or bodies, a three-character code is used. First is a definition of size, second a symbol indicating shape, and lastly a word describing the type of celestial body being dealt with.
 
 **Size Classes**:
+
 - Size A: Less than 10 miles across
 - Size B: From 10-100 miles across
 - Size C: From 100-1K (1000) miles across
@@ -444,6 +454,7 @@ Celestial bodies are divided into various types and classifications for easy ref
 
 **Shape Classes**:
 The symbol following the size letter denotes the general shape of the celestial body as it appears from space.
+
 - ✱ Amorphous or flexible shape
 - ‡ Belt of smaller objects in a single orbit
 - ❖ Cluster of smaller objects within a small area
@@ -458,6 +469,7 @@ The symbol following the size letter denotes the general shape of the celestial 
 The second entry in defining a celestial body is the Type, which is usually determined by the most abundant substance of the object, in terms of the four elements (five in some cultures). If a body is defined as primarily fire in nature, it does not preclude the existence on its surface of earth, water, and air. All that the type declares is the general make-up of the planet.
 
 The official name used by cartographers is provided first, followed by the common name used by space voyagers (the name used in conversations is often an idea of whether the speaker is a voyager or a groundling).
+
 - Fire (Sun): These celestial bodies provide both heat and light within their shells, and are often (but not always) at the center of the system.
 - Earth (World): These celestial bodies are the common homes of most fantasy campaigns-the solid earth below, the sky above, etc.
 - Air (Gas Clouds): These celestial bodies tend to be amorphous in nature, and are viewed as oases where the traveler can regain air and supplies.
@@ -465,6 +477,7 @@ The official name used by cartographers is provided first, followed by the commo
 - Plant (Live Worlds): Considered Earth type by other scholars, these refer to living (if not sentient) planets, where the entire body is alive. The existence of Liveworlds creates problems for scholars, as there are a number of other large bodies (such as space dragons) which could be considered celestial bodies as a result.
 
 In addition to the main three categories, supplemental notes are often added. These include:
+
 - Presence of moons
 - Lack of atmosphere
 - Lethal atmosphere
@@ -474,6 +487,7 @@ In addition to the main three categories, supplemental notes are often added. Th
 These supplemental notes are like a hobo's code of marking, symbols, and etchings on the starcharts, and often clutter the situation more than they help the user.
 
 Using these definitions, the Earth/Sol system would be as follows:
+
 - Type H⬤Fire (Sun)
 - Type D⬤Earth (Mercury)
 - Type E⬤Earth (Venus)

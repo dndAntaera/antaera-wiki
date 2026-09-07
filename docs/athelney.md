@@ -33,72 +33,72 @@ The North Road district is the mercantile district, filled with various shops an
 
 - Social Class: Middle
 - Population
- - Approx: 725
- - Human 70%
- - Dwarf 10%
- - Elf 10%
- - Other 10%
+    - Approx: 725
+    - Human 70%
+    - Dwarf 10%
+    - Elf 10%
+    - Other 10%
 - Subdivisions
- - Marketplace
- - Slave Quarter
- - Shops
+    - Marketplace
+    - Slave Quarter
+    - Shops
 
 ## Gold Pass
 One would be hard-pressed to not find a slave accompanying someone in this rather wealthy district. The gap in wealth between the residents of this district and the rest is extremely evident. The residents of this district are the more wealthy of merchants, as well as politicians and their families. Most of the wealth is gained through the sale of slaves and through war profiteering, as the stronger of the slaves are sent off to war to fight, and usually die.
 
 - Social Class: Upper
 - Population
- - Approx: 525
- - Human 99%
- - Other 1%
+    - Approx: 525
+    - Human 99%
+    - Other 1%
 - Subdivisions
- - Wealthy Residential
- - Civic District
- - Fine Shops
+    - Wealthy Residential
+    - Civic District
+    - Fine Shops
 
 ## Citadel
 The religious center of the city, and the house of the local lord. The church in the Citadel hosts idols to all of the [Living Gods](pantheon.md), though it also includes the obligatory idol to Zastus as well. While the town outwardly denies relations to the Cult of Zastus, it is known that some of the nobles in the town are descendants of members of this long dead cult. The Citadel district covers the Citadel itself and the section of buildings directly behind it on the map.
 
 - Social Class: Upper
 - Population
- - Approx: 200
- - Human 99%
- - Other 1%
+    - Approx: 200
+    - Human 99%
+    - Other 1%
 - Subdivisions
- - Lord's Keep
- - Temple District
+    - Lord's Keep
+    - Temple District
 
 ## Haypoint
 This is the largest district in the town, as it is the town's largest residential district and is home to most of the town's commoners. Given that the town's population is so dense, most of the homes in this district are rooms in larger buildings, with communal facilities, in a similar fashion to modern dorms. Most of these buildings are situated on top of shops, and are owned by the various nobles of the town.
 
 - Social Class: Middle
 - Population
- - Approx: 1375
- - Human 70%
- - Dwarf 10%
- - Elf 10%
- - Other 10%
+    - Approx: 1375
+    - Human 70%
+    - Dwarf 10%
+    - Elf 10%
+    - Other 10%
 - Subdivisions
- - Inn district
- - Tenement District
- - Adventurer's Quarter
- - Shops
- - Red Light District
- - Warehouse District
+    - Inn district
+    - Tenement District
+    - Adventurer's Quarter
+    - Shops
+    - Red Light District
+    - Warehouse District
 
 ## South Gate
 The South Gate is the impromptu agricultural district of the town, as the farms are situated just outside the gate. With the exception of a couple guard stations, most of the buildings here are shops and vendors dedicated to the slave trade and the equipment used by the local farmers.
 
 - Social Class: Lower
 - Population
- - Approx: 500
- - Human 80%
- - Other 20%
+    - Approx: 500
+    - Human 80%
+    - Other 20%
 - Subdivisions
- - Caravan District
- - Tannery District
- - Marketplace
- - Shops
+    - Caravan District
+    - Tannery District
+    - Marketplace
+    - Shops
 
 </div>
 <div class="wd-cell" markdown>

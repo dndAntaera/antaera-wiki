@@ -17,6 +17,7 @@ Ethereal congregations spontaneously form along these ley-lines, as spirits, gui
 Beyond the elemental realms, the Ethereal Plane extends its reach to the ethereal landscapes of the [True Afterlife](true-afterlife.md). Here, the Ethereal Plane acts as a bridge between life and the afterlife, facilitating the journey of souls to their eternal resting places. The presence of spirits and the pulsating ley-lines create an ever-shifting tapestry of ethereal beauty. It is a realm where life, magic, and afterlife harmoniously coalesce, forming a sanctuary for the spirits that navigate its currents, and a nexus of Incarnum that binds the multiverse in a spellbinding dance of energy and essence.
 
 # Properties
+
 - *Physical* - no gravity, normal time, infinite, alterable morphic
 - *Energy/Alignment* - mildly neutral aligned
 - *Magic* - normal

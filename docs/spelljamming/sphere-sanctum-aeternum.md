@@ -30,32 +30,34 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 
 - Type of Sphere: Standard
 - Primary Body:
- - Name: Veritas Dei
- - Type: Positive Manifest (Manifest Zone to the Positive Energy Plane)
- - Spelljamming Aware: Yes
+    - Name: Veritas Dei
+    - Type: Positive Manifest (Manifest Zone to the Positive Energy Plane)
+    - Spelljamming Aware: Yes
 
 ## Inner Track
+
 - Planet Name: <u>Purgantis</u>
- - Distance: 47 million miles
- - Size: D
- - Type: terrestrial
- - Shape: spherical
- - Other Notes: Purgantis is the most fertile world in the sphere, its landscapes overtaken by living sanctuaries of holy overgrowth. Towering trees bloom with petals that shimmer faintly in the dark, and vines coil around the remnants of temples half-swallowed by nature. Angelic stewards walk the wilds barefoot, reciting prayers to maintain harmony between the sacred wild and the soul. Spelljammers are guided only along preordained ley corridors. The moon, Fidelis, serves as a contemplative retreat where silence is enforced by divine writ, and even thoughts seem to echo too loudly.
+    - Distance: 47 million miles
+    - Size: D
+    - Type: terrestrial
+    - Shape: spherical
+    - Other Notes: Purgantis is the most fertile world in the sphere, its landscapes overtaken by living sanctuaries of holy overgrowth. Towering trees bloom with petals that shimmer faintly in the dark, and vines coil around the remnants of temples half-swallowed by nature. Angelic stewards walk the wilds barefoot, reciting prayers to maintain harmony between the sacred wild and the soul. Spelljammers are guided only along preordained ley corridors. The moon, Fidelis, serves as a contemplative retreat where silence is enforced by divine writ, and even thoughts seem to echo too loudly.
 
 ## Goldilocks Zone
+
 - Planet Name: <u>Iusticar</u>
- - Distance: 262 million miles
- - Size: G
- - Type: terrestrial
- - Shape: spherical
- - Other Notes: Iusticar is a planet of order manifest, a world where nature is permitted only in cultivated forms—fruiting trees aligned by liturgical geometry, rivers that curve by chartered design, and winds that change direction according to holy calendar. Cities of glass and alabaster rise in layers from continent-wide boulevards, and every citizen lives beneath the unblinking gaze of the Seraphim Tribunal. Visiting ships are docked at skyward sanctums where every piece of cargo is blessed, cataloged, and sanctified. The moon, Legatus, is seen only during periods of high justice and is said to carry the weight of judgment in its shadow.
+    - Distance: 262 million miles
+    - Size: G
+    - Type: terrestrial
+    - Shape: spherical
+    - Other Notes: Iusticar is a planet of order manifest, a world where nature is permitted only in cultivated forms—fruiting trees aligned by liturgical geometry, rivers that curve by chartered design, and winds that change direction according to holy calendar. Cities of glass and alabaster rise in layers from continent-wide boulevards, and every citizen lives beneath the unblinking gaze of the Seraphim Tribunal. Visiting ships are docked at skyward sanctums where every piece of cargo is blessed, cataloged, and sanctified. The moon, Legatus, is seen only during periods of high justice and is said to carry the weight of judgment in its shadow.
 
 - Planet Name: <u>Caelatium</u>
- - Distance: 293 million miles
- - Size: F
- - Type: terrestrial
- - Shape: toroidal
- - Other Notes: Caelatium forms a luminous ring-world of cool meadows, misted forests, and quiet sanctuaries sculpted into the cliffs. Now nourished by the outer flow of Veritas Dei’s radiance, its groves bloom with pale blossoms and silver moss. Pilgrims ascend through silence rather than sermon, seeking stillness of spirit amid the breath of wind and leaf. The twin moons, Alpha and Omega, appear in perfect alternation, marking rites of beginning and end across every breath of worship.
+    - Distance: 293 million miles
+    - Size: F
+    - Type: terrestrial
+    - Shape: toroidal
+    - Other Notes: Caelatium forms a luminous ring-world of cool meadows, misted forests, and quiet sanctuaries sculpted into the cliffs. Now nourished by the outer flow of Veritas Dei’s radiance, its groves bloom with pale blossoms and silver moss. Pilgrims ascend through silence rather than sermon, seeking stillness of spirit amid the breath of wind and leaf. The twin moons, Alpha and Omega, appear in perfect alternation, marking rites of beginning and end across every breath of worship.
 
 </div>
 </div>
@@ -65,15 +67,19 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 # Recognized Pantheon
 
 **Lesser Deities**
+
 - Thaleon, Voice of the Dissonant Wind (Chaotic Good)
 
 **Intermediate Deities**
+
 - Aelthene, Mother of Fragrant Silence (Neutral Good)
 
 **Greater Deities**
+
 - Aurion, the Burning Crown (Lawful Good)
 
 **Demigods**
+
 - Imarel, the White-Throated Watcher (Lawful Good)
 - Molvenn, the Ink of Law (Lawful Good)
 - Synamar, the Rosary of Knives (Lawful Good)

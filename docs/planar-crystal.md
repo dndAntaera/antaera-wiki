@@ -103,7 +103,7 @@ Crystals that are crushed into a fine powder produce an effect that, when used a
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Using Crystals

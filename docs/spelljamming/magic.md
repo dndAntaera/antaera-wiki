@@ -33,6 +33,7 @@ A prepared divine caster who enters a foreign crystal shell is similarly restric
 Any god or power is considered "recognized" within a sphere if he has worshipers and/or an organized church anywhere within that system. This does not mean that a PC can move into a shell and automatically establish a base of worship for his god. For a deity to be a recognized power in any shell, he has to have an established group of worshipers somewhere in the system.
 
 Characters native to space may worship the deities of the sphere they are in or may follow a number of faiths found in many space civilizations. These faiths include:
+
 - The Polygots
 - The Path & The Way
 - Various planar churches
@@ -144,39 +145,51 @@ In addition to the various magical items that can propel a ship, there are sever
 
 ## Cleric
 <u>0th Level</u>
+
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
 <u>2nd Level</u>
+
 - **Contact Home Power**: Establishes a tenuous link which permits the caster to regain his spells as if their god is recognized and venerated within the sphere.
 - **Detect Powers**: Allows the caster to determine if there are friendly gods and/or other powers so that he may recharge his higher-level spells.
 <u>4th Level</u>
+
 - **Softwood**: The target is placed in suspended animation in a manner similar to that of individuals lost in the Flow.
 - **Create Minor Helm**: Transform a normal chair or seat into a minor spelljamming helm.
 
 ## Druid
 <u>0th Level</u>
+
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
 <u>4th Level</u>
+
 - **Softwood**: The target is placed in suspended animation in a manner similar to that of individuals lost in the Flow
 
 ## Paladin
 <u>0th Level</u>
+
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
 
 ## Psion
 <u>4th Level</u>
+
 - **Create Minor Helm, psionic**: Transform a normal chair or seat into a minor spelljamming helm.
 <u>5th Level</u>
+
 - **Create Major Helm, psionic**: Transform a normal chair or seat into a major spelljamming helm.
 
 ## Sorcerer/Wizard
 <u>2nd Level</u>
+
 - **Locate Portal**: Find the nearest portal through a crystal shell into or out of the Flow.
 - **Chill Fire**: Reduces the flammable nature of the phlogiston.
 <u>3rd level</u>
+
 - **Enhance/Decrease Rating**: This spell raises the SR of the ship using the helm for the duration of the spell.
 <u>4th Level</u>
+
 - **Create Minor Helm**: Transform a normal chair or seat into a minor spelljamming helm.
 <u>5th level</u>
+
 - **Create Portal**: Causes a large area of a crystal shell to become temporarily insubstantial and ethereal.
 - **Enhance Maneuverability**: Increase or decrease the maneuverability class of target ship
 - **Create Major Helm**: Transform a normal chair or seat into a major spelljamming helm.

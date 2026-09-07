@@ -27,6 +27,7 @@ On the flip side, fiendish creatures exhibit a starkly different response to the
 Among soulless entities, an innate jealousy festers. Lacking the capacity to experience the True Afterlife, these creatures are driven by a mixture of spite and a perverse desire to disrupt the cosmic balance. They embark on quests to consume, destroy, or even enslave mortal souls, their actions fueled by a bitter envy that compels them to lash out at the very essence they can never possess. In some cases, the motive is sustenance, a parasitic hunger for the Incarnum that constitutes mortal souls.
 
 # Properties
+
 - *Physical* - normal gravity, timeless, infinite, divinely morphic (inhabitant soul) & alterable morphic (other visitors), infinitely layered
 - *Energy/Alignment* - mildly neutral aligned
 - *Magic* - normal

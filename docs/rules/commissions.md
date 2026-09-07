@@ -24,20 +24,22 @@ However, the path to obtaining these coveted items is not one to be taken lightl
 What follows are the rules and guidelines for commissioning magic items. These rules will help you navigate the complex process of item creation, from finding the right craftsman to gathering the necessary components, and understanding the costs—both material and immaterial—involved. Whether you seek to create a legendary artifact or a simple enchanted trinket, these guidelines will ensure that the journey is as rewarding as the item itself.
 
 **Steps**
-# Find the person to commission the item from
-# Determine the Base Price for the item
- # Spell
- # Special materials
- # EXP
- # Modifiers
- # Etc.
-# Determine the Base Price of the item
-# Determine the cost after any additional modifiers
-# Pay the cost
-# Wait for it to be crafted, then get your item after it is done
+
+1. Find the person to commission the item from
+1. Determine the Base Price for the item
+    1. Spell
+    1. Special materials
+    1. EXP
+    1. Modifiers
+    1. Etc.
+1. Determine the Base Price of the item
+1. Determine the cost after any additional modifiers
+1. Pay the cost
+1. Wait for it to be crafted, then get your item after it is done
 
 **Modifiers**
 Certain things can reduce the cost of the item:
+
 - Providing the spell included in the cost of the item reduces the base price by 10% per spell component provided (multiple instances are iterative)
 - Providing the EXP component of the item reduces the cost by an amount of gold equal to EXP cost
 - Providing the material component of the item removes the cost associated with the material cost

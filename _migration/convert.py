@@ -155,6 +155,17 @@ def tables_to_layout(s):
             if not kept:
                 continue
             widths = [_cell_width(a) for a, _ in kept]
+            # Wikidot rows often size only some cells - "width: 75%" on the
+            # content, nothing on the sidebar beside it. Requiring every cell
+            # to declare a width made those rows fall back to stacking, which
+            # is exactly the layout the width was there to prevent. Share what
+            # is left over among the cells that did not declare one.
+            if len(kept) > 1 and any(w for w in widths) and not all(w for w in widths):
+                known = sum(w for w in widths if w)
+                blanks = [i for i, w in enumerate(widths) if not w]
+                share = max((100.0 - known) / len(blanks), 5.0)
+                for i in blanks:
+                    widths[i] = share
             style = ""
             if len(kept) > 1 and all(w for w in widths):
                 # A custom property, not grid-template-columns directly: the
@@ -293,13 +304,32 @@ def convert(src, slug, img_by_url, tables, linkmap):
 
     s = re.sub(r"(?:^\|.*\|[ \t]*\n)+", stash, s, flags=re.M)
 
+    # Ordered lists BEFORE headings: Wikidot writes "# item" for a numbered
+    # list, which Markdown reads as an H1. Converting headings first would
+    # then turn those list items into headings and hide the collision.
+    s = re.sub(r"^( *)#\s+(.+)$",
+               lambda m: "    " * len(m.group(1)) + "1. " + m.group(2), s, flags=re.M)
+
     s = re.sub(r"^(\+{1,6})\s*(.+)$",
                lambda m: "#" * len(m.group(1)) + " " + m.group(2).strip(), s, flags=re.M)
     s = re.sub(r"(?<!\w)//(?=\S)(.+?)(?<=\S)//(?!\w)", r"*\1*", s, flags=re.S)
     s = re.sub(r"(?<!-)--(?=\S)(.+?)(?<=\S)--(?!-)", r"~~\1~~", s)
     s = re.sub(r"__(?=\S)(.+?)(?<=\S)__", r"<u>\1</u>", s)
-    s = re.sub(r"^(\s*)\*\s+", r"\1- ", s, flags=re.M)
+    # Bullets. Wikidot nests with a single space per level; Markdown needs four
+    # to read an item as a sublist, so one space produced a flat list.
+    s = re.sub(r"^( *)\*\s+", lambda m: "    " * len(m.group(1)) + "- ", s, flags=re.M)
     s = re.sub(r"^-{4,}$", "---", s, flags=re.M)
+
+    # Markdown needs a blank line before a list. Wikidot does not, and wrote
+    # lists straight under the paragraph that introduces them - without this
+    # the whole list is folded into that paragraph and renders as prose.
+    item = re.compile(r"^\s*(?:[-*+]|\d+\.)\s+")
+    lines, spaced = s.split("\n"), []
+    for ln in lines:
+        if item.match(ln) and spaced and spaced[-1].strip() and not item.match(spaced[-1]):
+            spaced.append("")
+        spaced.append(ln)
+    s = "\n".join(spaced)
     s = re.sub(r"\x00T(\d+)\x00", lambda m: blocks[int(m.group(1))], s)
     s = re.sub(r"\x00U(\d+)\x00", lambda m: urls[int(m.group(1))], s)
     s = re.sub(r"[ \t]+$", "", s, flags=re.M)

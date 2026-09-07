@@ -16,6 +16,7 @@ title: "Adventuring In Space"
 
 # Officer Positions
 A spelljamming ship has a number of staff positions onboard. These vary from place to place and from race to race, but usually include the following:
+
 - <u>Owner</u>: The one who owns the ship and signs documents in the ship's name. Usually, but not always, the captain.
 - <u>Captain</u>: Ultimate authority on the ship when it is under sail. May or may not be the owner as well.
 - <u>First Officer</u>: Captain's second-in-command. Serves if the captain is not present or is incapacitated. Often responsible for boarding parties.
@@ -50,6 +51,7 @@ The crew is usually (but not always) non-player characters, brought along for th
 Because so much of the glossy and important work of a spelljamming ship rests with the captain and helmsman, the place of the normal crew is often glossed over. However, the careful captain who trains his men well and treats them as more than dragon fodder will be rewarded with a ship that can handle itself well in tactical situations. While the gross motive power of the ship is determined by the helmsman, its tacking, heeling, and spinning is controlled by the men who man the rigging and the oars.
 
 Crews are divided into four classifications: green, average, trained, and crack. Their costs per man are below:
+
 - **Green**: 2 gp per standard month
 - **Average**: 4 gp per standard month
 - **Trained**: 6 gp per standard month
@@ -68,6 +70,7 @@ Payment is usually in advance for the first two months, with any extra money acc
 Initially, a crew has the rating of the majority of its members. A crew of 10 with one trained, six average, and three green recruits is considered average, while one with two trained and eight green members will be considered green. This is for determining the initial crew rating only when a ship is just starting out in play.
 
 ## Increasing Crew Status
+
 - A green crew becomes average after one month of travel. This reflects one month of total travel, so that two days of travel, a week of hanging around in a dock, and two more days of travel add up to only four days of travel. Thirty standard days are needed to break in a green crew.
 - An average crew becomes trained after two more months of travel, including at least one trip into the phlogiston. For unindoctrinated crews, the Flow is a spook-house filled with nasty creatures, a belief which is too easily confirmed by beasts such as the ephemerals.
 - A trained crew becomes crack after three more months, including at least one trip into the phlogiston and one battle with another ship (known as "blooding the crew"). If during all three of these months, the crew served under one captain, on the same ship, they attain crack status.
@@ -107,6 +110,7 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 
 ### Common Ship Commands
 *(Or, things the captain bellows and expects everyone else to understand.)*
+
 - Steady: Maintain heading and speed.
 - <u>Full ahead (number)</u>: Maintain heading, increase speed to given number.
 - <u>Bear port</u>: Turn one hex side to the left.

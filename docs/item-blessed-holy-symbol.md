@@ -29,6 +29,7 @@ To use the relic's power, you must worship the deity tied to the relic and sacri
 <div class="wd-cell" markdown>
 
 # Rituals
+
 - **Lawful Good**: typically an exaltation and the ringing of a bell.
 - **Neutral Good**: typically a silent prayer and the burning of incense.
 - **Chaotic Good**: typically an audible prayer and the banging of a drum or gong.

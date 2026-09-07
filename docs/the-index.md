@@ -6,21 +6,22 @@ title: "The Index"
 <div class="wd-cell" markdown>
 
 # General Houserules & Clarifications
+
 - Master Alchemist/ Alchemist Savant: The Brew Potion class feature of the Master Alchemist does interact with the Brew Spellvial class feature of the Alchemist Savant.
 - If any content has Toughness listed as a prerequisite, it can be replaced with Improved Toughness
 - Leveling Up/ Training Time
- - Base classes: 1st level in a class (2 days), 2nd level and up (new class level/2 rounded down) days
- - Prestige classes: 1st level (3 days), 2nd level and up (new class level) days
- - Gestalt Only
-  - Training times overlap their durations for each side. IE: a Fighter 3 // Rogue 2/ Sorcerer 1 taking its second level in rogue would require 1 day and 3 days of training instead of 3 days
-  - If one of the classes in the gestalt is more than 2x the levels in the other class, it only counts as 3/4 of its actual level when calculating training time. IE: Fighter 6 // Rogue 4/ Sorcerer 2 would take 2 days 1 day to train.
+    - Base classes: 1st level in a class (2 days), 2nd level and up (new class level/2 rounded down) days
+    - Prestige classes: 1st level (3 days), 2nd level and up (new class level) days
+    - Gestalt Only
+        - Training times overlap their durations for each side. IE: a Fighter 3 // Rogue 2/ Sorcerer 1 taking its second level in rogue would require 1 day and 3 days of training instead of 3 days
+        - If one of the classes in the gestalt is more than 2x the levels in the other class, it only counts as 3/4 of its actual level when calculating training time. IE: Fighter 6 // Rogue 4/ Sorcerer 2 would take 2 days 1 day to train.
 - The Natural Bond feat functions similarly to Practiced Caster/Manifestor. It makes up for druid progression for companions due to multiclassing. It does not increase your effective druid level when using animal companions who are treated as if your effective druid level was -X. IE: a level 4 druid with a fleshraker animal companion and Natural Bond is still considered a 1st-level druid for animal companion purposes.
 - On aerial tripping:
- - Creatures with Good or Perfect maneuverability cannot be tripped while flying, creatures that can hover cannot be tripped while flying, creatures that do not rely on appendages for their flight (ie magical or supernatural flight) cannot be tripped
- - Resolving the Trip Attempt: The attacker makes a Strength check. The defender can oppose the attempt with a Strength check or a Dexterity check. Each creature gets a bonus based on its maneuverability rating, as follows: perfect +12, good maneuverability +8, average +4, poor +0, clumsy -4.
- - Stability bonuses do not apply in aerial overruns.
- - Trip Results: A successful trip forces the defender to stall (even if the tripped creature doesn't have a minimum forward speed) rather than knocking the defender prone.
- - Quadrupeds do not gain any benefits for being quadrupeds in regards to being tripped while aerial
+    - Creatures with Good or Perfect maneuverability cannot be tripped while flying, creatures that can hover cannot be tripped while flying, creatures that do not rely on appendages for their flight (ie magical or supernatural flight) cannot be tripped
+    - Resolving the Trip Attempt: The attacker makes a Strength check. The defender can oppose the attempt with a Strength check or a Dexterity check. Each creature gets a bonus based on its maneuverability rating, as follows: perfect +12, good maneuverability +8, average +4, poor +0, clumsy -4.
+    - Stability bonuses do not apply in aerial overruns.
+    - Trip Results: A successful trip forces the defender to stall (even if the tripped creature doesn't have a minimum forward speed) rather than knocking the defender prone.
+    - Quadrupeds do not gain any benefits for being quadrupeds in regards to being tripped while aerial
 - Effects and abilities that target or affect allies do not also affect the user unless they specifically state that they do.
 - Psionics-Magic Transparency is not in effect
 - Anyspell requires the caster to have the ability to prepare domain spells, this does not work if the character spontaneously casts their domain spells. IE: the Spontaneous Domain Casting ACF for Clerics.
@@ -28,9 +29,9 @@ title: "The Index"
 - Ghostwall Shellac cannot be used on equipment, and takes 1 minute to mix per 1 gallon of water mixed in
 - Any content that requires a specific deity will instead use this setting's equivalent
 - Any content that forsakes the intervention of something, such as magic in the case of Forsaker or gods in the case of Ur-Priest, can never again gain content that benefits from what they have forsaken
- - For example, a Forsaker cannot take any feats that grant them spells, spell-like abilities, or supernatural abilities; an Ur-Priest cannot enter a prestige class that requires the worship of a deity
+    - For example, a Forsaker cannot take any feats that grant them spells, spell-like abilities, or supernatural abilities; an Ur-Priest cannot enter a prestige class that requires the worship of a deity
 - If a statblock does not grant the ability to cast/prepare spells or manifest powers (IE, the Spells ability from Arcanaloth), or does not grant class levels in a spellcasting/manifesting class, then any ability that allows you to "cast spells as a xth level [class]" (or any similar ability for psionics) modifies only your caster/manifestor level when casting/manifesting the aforementioned class' spells/powers
- - For example, the Arcane Talent (Ex) ability from Hobgoblin Warcaster & Warsoul does not grant the ability to cast or prepare spells, even though they say they cast spells as a 4th & 9th level wizard (respectively)
+    - For example, the Arcane Talent (Ex) ability from Hobgoblin Warcaster & Warsoul does not grant the ability to cast or prepare spells, even though they say they cast spells as a 4th & 9th level wizard (respectively)
 
 </div>
 <div class="wd-cell" markdown>
@@ -49,6 +50,7 @@ title: "The Index"
 # Variant Rules In Effect
 
 ## A
+
 - [Action Points](action-points.md) *Edited*
 ## B
 ## C
@@ -63,6 +65,7 @@ title: "The Index"
 ## K
 ## L
 ## M
+
 - [Commanders, Morale, and Rallying](rules/commander-morale-rally.md)
 ## N
 ## O
@@ -72,6 +75,7 @@ title: "The Index"
 
 ## S
 ## T
+
 - [Taint](rules/taint.md)
 ## U
 ## V
@@ -86,13 +90,14 @@ title: "The Index"
 <div class="wd-cell" markdown>
 
 # Banned Content
+
 - Sovereign Archetypes are banned
 - Banned Builds, Combos, Variants, Classes
- - Diplomancer/Jumplomancer
- - Persistent Body Outside of Body
- - Ardent/Wizard/Wu Jen Magic Mantle
- - Forsaker/Vow of Poverty
- - Divine Metamagic (Persistent Spell)
+    - Diplomancer/Jumplomancer
+    - Persistent Body Outside of Body
+    - Ardent/Wizard/Wu Jen Magic Mantle
+    - Forsaker/Vow of Poverty
+    - Divine Metamagic (Persistent Spell)
 - Magical Artisan feat
 - Gloves of the Master Strategist
 - Deep Imaskiri (there is a homebrew version available instead)
@@ -104,19 +109,20 @@ title: "The Index"
 <div class="wd-cell" markdown>
 
 # Restricted Content
+
 - Liquid Pain/ Distilled Joy when used for item creation must be kept mild; if taken to extreme cheese, it will be banned
 - Planar Shepherd must be kept mild; if not, it will be banned
 - Shadow Conjuration/Evocation, replicated spells cannot go above 90% reality
 - Ice Assassin
- - Component cannot be created with Summon Component
- - An Ice Assassin cannot be made of a Player Character
- - Ice Assassins cannot impart divinity/ divine ranks
+    - Component cannot be created with Summon Component
+    - An Ice Assassin cannot be made of a Player Character
+    - Ice Assassins cannot impart divinity/ divine ranks
 - Dragonwrought Kobold, if you pick this feat, your age category cannot be higher than adult
 - During custom magic item creation, when adding requirements to the item (Skill, Class, Alignment) you may only include at most 1 skill restriction and at most 1 Class *or* Alignment restriction
 - Bloodlines no longer provide the benefit of adding bloodline levels when calculating class abilities
 - When "poaching" spells from other classes, such as Advanced Learning or as an Archivist, you may only poach the spell at the level another caster of your type would obtain it. In essence, if a spell is available to half-casters and full casters, and you are a full caster, you may only "poach" it at the level a full caster would get it.
- - For example, the Telflammar Shadowlord gets invisibility as a 1st-level spell. A full caster attempting to poach invisibility adds it to their list at the same level another full caster would add it to their list.
- - Another example: An archivist adding a spell to their list from a domain's list of spells would not get it at the level the domain list gives it, but rather at the level a Cleric (in the case of it being a cleric spell) or a Wizard (in the case of it being a wizard spell) of their level would obtain it
+    - For example, the Telflammar Shadowlord gets invisibility as a 1st-level spell. A full caster attempting to poach invisibility adds it to their list at the same level another full caster would add it to their list.
+    - Another example: An archivist adding a spell to their list from a domain's list of spells would not get it at the level the domain list gives it, but rather at the level a Cleric (in the case of it being a cleric spell) or a Wizard (in the case of it being a wizard spell) of their level would obtain it
 - Seelie/Unseelie Fey are only found in certain parts of the world and are beholden to racial restrictions. Characters made with these templates can only see play during specific in-world seasons.
 - Draconic Inspiration's sonic heritage deals Bludgeoning damage, and all damage dealt by this feat is its own source of damage.
 - Items that enhance ability scores can only have even numbers (ie +2, +4, +6, etc)
@@ -184,20 +190,23 @@ You gain a +4 bonus on Corruption or Depravity saves. This bonus increases by +1
 - Ancestry feats can only be taken by creatures who are members of a true breeding race or can trace their ancestry.
 
 ## <u>Races</u>
+
 - All races/templates with the "Naturally Psionic" feature have the following clause added: "This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class."
 
 ## <u>Classes</u>
 **Shadowcaster** ([source](https://www.enworld.org/threads/shadowcaster-fixes-by-mouseferatu.184955/))
 *This fix was posted by the original author of the class, and were the changes that he wanted to include but was not able to.*
-# Charisma determines the DC to save against your mysteries. Intelligence determines the highest level mystery you can cast.
-# Grant bonus mysteries per day based on Charisma. These would work just like bonus spells. For instance, if your Cha is 14, you can cast one extra mystery of 1st-level equivalent and one of 2nd-level equivalent per day. (Note that each mystery does give an equivalent level, even though you don't learn them by level.)
-# Eliminate the rule that says you have to take mysteries in a given Path in order. If you want to jump around, so as to broaden your versatility, you can.
-# Within a category—Apprentice, Initiate, Master—you must have at least two mysteries of any given level before you can take any mysteries of the next higher level. For instance, you must have two 1st-level mysteries before you can take any 2nds, and at least two 2nds before you can take any 3rds.
-# Eliminate the rule that says you get a bonus feat equal to half the number of paths you have access to. Instead, you get a bonus feat equal to the total number of Paths you complete. Thus, while you are no longer required to take the entirety of a given Path, there's still encouragement to do so.
-# You may “swap out” mysteries, just as a sorcerer does spells known. If you “un-complete” a Path in this way, however, you lose access to the bonus feat you gained from completing that Path. (You can regain access by re-completing the Path, completing a different Path and choosing that feat as your new bonus, or selecting that feat as a normal feat at your next opportunity.)
-# Once your Apprentice Mysteries become supernatural abilities, change the save DC from 10 + equivalent spell level + Cha to 10 + 1/2 caster level + Cha. This makes them useful even against high-HD opponents, and follows the pattern for other supernatural abilities.
+
+1. Charisma determines the DC to save against your mysteries. Intelligence determines the highest level mystery you can cast.
+1. Grant bonus mysteries per day based on Charisma. These would work just like bonus spells. For instance, if your Cha is 14, you can cast one extra mystery of 1st-level equivalent and one of 2nd-level equivalent per day. (Note that each mystery does give an equivalent level, even though you don't learn them by level.)
+1. Eliminate the rule that says you have to take mysteries in a given Path in order. If you want to jump around, so as to broaden your versatility, you can.
+1. Within a category—Apprentice, Initiate, Master—you must have at least two mysteries of any given level before you can take any mysteries of the next higher level. For instance, you must have two 1st-level mysteries before you can take any 2nds, and at least two 2nds before you can take any 3rds.
+1. Eliminate the rule that says you get a bonus feat equal to half the number of paths you have access to. Instead, you get a bonus feat equal to the total number of Paths you complete. Thus, while you are no longer required to take the entirety of a given Path, there's still encouragement to do so.
+1. You may “swap out” mysteries, just as a sorcerer does spells known. If you “un-complete” a Path in this way, however, you lose access to the bonus feat you gained from completing that Path. (You can regain access by re-completing the Path, completing a different Path and choosing that feat as your new bonus, or selecting that feat as a normal feat at your next opportunity.)
+1. Once your Apprentice Mysteries become supernatural abilities, change the save DC from 10 + equivalent spell level + Cha to 10 + 1/2 caster level + Cha. This makes them useful even against high-HD opponents, and follows the pattern for other supernatural abilities.
 
 **Swordsage: Unarmed**
+
 - ~~AC Bonus: Starting at 2nd level, you can add your Wisdom modifier as a bonus to Armor Class, so long as you wear light armor, are unencumbered, and do not use a shield. This bonus to AC applies even against touch attacks or when you are flat-footed. However, you lose this bonus when you are immobilized or helpless.~~ -> AC Bonus: as per the Monk class feature.
 
 **ACF: Dragonscale Husk**
@@ -223,6 +232,7 @@ Turn or Rebuke Undead (Su): An Ur-Priest of 2nd level or higher can turn or rebu
 
 **Shaper of Form**
 Renaissance: The shaper of form changes race, gender, or general physical appearance (or any combination thereof). Thus, if the character is weak and becomes an orc, she becomes a weak orc.  This change is a permanent Transmutation effect that cannot be dispelled except with a Wish or Miracle, and has the following restrictions and changes:
+
 - She may only change into another race with the same type as her, she does not gain any of the subtypes of the new race.
 - The shaper of form loses all of her original racial traits and gains the racial traits of the new race, except for ability score adjustments.
 - She gains the Augmented subtype.
@@ -249,18 +259,20 @@ White Raven Tactics: Cannot affect the user
 
 ## <u>Items</u>
 **Chaos Flask**
+
 - No item worth more than 50g
 - Nonmagical items only
 - Any item that is masterwork in quality requires a craft check that would be required to make the item normally
 - The Wisdom check is now DC 20, and has the following modifiers:
- - Secondhand (you have heard of the subject) +5
- - Firsthand (you have interacted with the subject) +0
- - Familiar (you know the subject well) -5
+    - Secondhand (you have heard of the subject) +5
+    - Firsthand (you have interacted with the subject) +0
+    - Familiar (you know the subject well) -5
 - If you fail the check the item dissipates into nothingness
 
 **Knowstones** have a psionic equivalent, using the same pricing guidelines as regular knowstones.
 
 ## <u>Misc</u>
+
 - Non-Standard/Supernatural/Extraordinary Sight (Mindsight, Blindsight, etc.): It can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 - A dying creature is unconscious and near death. Creatures that have negative hit points and have not stabilized are dying. A dying creature can take no actions. On the character’s next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become stable. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. If a dying creature has an amount of negative hit points equal to its Constitution score, it dies.
 - Anything that deals with nautical content can be used for their spelljamming counterparts. This does not apply to any such content specific to aquatic or zero-g environments.
@@ -276,16 +288,21 @@ White Raven Tactics: Cannot affect the user
 
 ## A
 ## B
+
 - book, [The Dreaming & Waking](item-dreaming-waking.md)
 ## C
+
 - [Crystal Stabilization Fluid](crystal-stabilization-fluid.md)
 ## D
 ## E
+
 - [Elven Climber's Gloves](elven-climbers-gloves.md)
 ## F
+
 - [Firearms](firearms.md)
 ## G
 ## H
+
 - [Profane/Blessed (Un)Holy Symbol](item-blessed-holy-symbol.md)
 ## I
 
@@ -296,6 +313,7 @@ White Raven Tactics: Cannot affect the user
 ## N
 ## O
 ## P
+
 - [Planar Crystal](planar-crystal.md)
 - [Poisoner's Quiver](poisoners-quiver.md)
 ## Q
@@ -338,6 +356,7 @@ White Raven Tactics: Cannot affect the user
 ## R
 
 ## S
+
 - [Stabilize Crystal](spell-stabilize-crystal.md)
 - [Stabilize Crystal (psionic)](power-stabilize-crystal.md)
 ## T
@@ -392,10 +411,12 @@ White Raven Tactics: Cannot affect the user
 # Homebrew: Bestiary
 
 ## A
+
 - [Aasimar, Tainted](race-aasimar-tainted.md)
 ## B
 ## C
 ## D
+
 - [Deepfolk](race-deepfolk.md)
 ## E
 ## F
@@ -431,8 +452,10 @@ White Raven Tactics: Cannot affect the user
 
 ## A
 ## B
+
 - [Backgrounds](backgrounds.md)
 ## C
+
 - [Commisioning Items](rules/commissions.md)
 ## D
 ## E
@@ -470,15 +493,18 @@ White Raven Tactics: Cannot affect the user
 ## A
 ## B
 ## C
+
 - [Collegiate Oculatus](collegiate-oculatus.md)
 ## D
 ## E
 ## F
 ## G
 ## H
+
 - [Haven Commerce Co.](haven-commerce.md)
 - [House of Fabrication](faction-house-of-fabrication.md)
 ## I
+
 - [Imperial Mercenary Corp](imperial-mercenary.md)
 
 ## J
@@ -493,6 +519,7 @@ White Raven Tactics: Cannot affect the user
 
 ## S
 ## T
+
 - Tæl’Mythaal Archivists
 - [Tamaas Trading Co.](tamaas-trading.md)
 - [Titan’s Fall PMC](titan-fall-pmc.md)

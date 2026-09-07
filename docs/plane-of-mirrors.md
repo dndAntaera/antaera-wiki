@@ -17,6 +17,7 @@ There are usually 5d4 other mirrors connected to a single Plane of Mirrors, and 
 The Plane of Mirrors is a secret plane, unknown to most inhabitants of the Material Plane it borders. The only visitors to the Plane of Mirrors are those seeking secrets or passage into other regions. Its existence may allow individuals to breach areas otherwise inaccessible because of lack of connection to the Astral Plane.
 
 # Properties
+
 - *Physical* - normal gravity, normal time, finite size
 - *Energy/Alignment* - mildly neutral-aligned
 - *Magic* - normal magic
@@ -38,7 +39,7 @@ The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, o
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Mirror Inhabitants
@@ -46,6 +47,7 @@ The Plane of Mirrors has few inhabitants. However, when a traveler passes throug
 
 ## Mirror-Self
 A mirror-self is created somewhere else on the Plane of Mirrors whenever someone mirrorwalks onto the Plane. This mirror-self is identical in every way with the original character, with the following exceptions:
+
 - The mirror-self has the opposite alignment as the original character. For example, a lawful good mirrorwalker would spawn a chaotic evil mirror-self. (A true neutral mirrorwalker spawns a neutral mirror-self.)
 - If the original self is carrying a mirror as equipment, the mirror isn’t duplicated by the mirror-self. All other items held, worn, or carried by the original are duplicated by the mirror-self.
 - The mirror-self knows the location of its original self, but the reverse isn’t true unless the two meet. The mirror-self also has the memories of the original at the moment of creation, including which mirror the original used to enter the Plane of Mirrors.

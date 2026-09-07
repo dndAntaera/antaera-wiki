@@ -2,7 +2,7 @@
 title: "Region Of Dreams"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -13,16 +13,17 @@ Into the Region of Dreams come dreamers, whether they will it or not, every time
 The many dreamscapes created by dreamers last but a short time, and they rarely impinge on each other accidentally. However, there are those who knowingly walk between dreamscapes, doing as they will. Sometimes such lucid dreamers pierce the very heart of Dream, where average dreams dare not roam.
 
 # Properties
+
 - *Physical*
- - Subjective Directional Gravity: Within most dreamscapes, the strength of gravity is the same as on the Material Plane, but each dreamscape can pull in a different direction. The subjective gravity of most dreamscapes appears to conform to normal gravity, but other dreamscapes may have wildly different gravity traits. Visitors who master the skill of Lucid Dreaming can choose how the gravity of a particular dreamscape affects them.
- - Flowing Time: For every 10 minutes in Dream, only 1 minute passes on the Material Plane. But the nature of the plane makes time spent on the plane less real. No matter what visitors experience, only memories remain when they leave Dream. Spells cannot truly be cast or learned, nor items won or lost, nor experience points earned when dreaming.
- - Infinite Size: Dream is infinite, though individual dreamscapes are finite. Even a single dreamscape can seem quite large, however, depending on the nature of the individual dream.
- - Highly Morphic Trait: Dreamscapes are born from wild dream-stuff the moment a dreamer’s mind plunges into Dream. Left alone on Dream, wild dream-stuff is as ephemeral as thought. But once a dreamscape solidifies, it has the alterable morphic trait similar to the Material Plane. Visitors skilled in Lucid Dreaming may be able to morph a dreamscape more to their own liking. Beyond the dreamscapes, in the heart of Dream, the quori can manipulate matter with ease, while visitors have a harder time altering the environment.
+    - Subjective Directional Gravity: Within most dreamscapes, the strength of gravity is the same as on the Material Plane, but each dreamscape can pull in a different direction. The subjective gravity of most dreamscapes appears to conform to normal gravity, but other dreamscapes may have wildly different gravity traits. Visitors who master the skill of Lucid Dreaming can choose how the gravity of a particular dreamscape affects them.
+    - Flowing Time: For every 10 minutes in Dream, only 1 minute passes on the Material Plane. But the nature of the plane makes time spent on the plane less real. No matter what visitors experience, only memories remain when they leave Dream. Spells cannot truly be cast or learned, nor items won or lost, nor experience points earned when dreaming.
+    - Infinite Size: Dream is infinite, though individual dreamscapes are finite. Even a single dreamscape can seem quite large, however, depending on the nature of the individual dream.
+    - Highly Morphic Trait: Dreamscapes are born from wild dream-stuff the moment a dreamer’s mind plunges into Dream. Left alone on Dream, wild dream-stuff is as ephemeral as thought. But once a dreamscape solidifies, it has the alterable morphic trait similar to the Material Plane. Visitors skilled in Lucid Dreaming may be able to morph a dreamscape more to their own liking. Beyond the dreamscapes, in the heart of Dream, the quori can manipulate matter with ease, while visitors have a harder time altering the environment.
 - *Energy/Alignment* - mildly neutral-aligned
 - *Magic*
- - Travelers who leave Dream discover that any spells they used on the plane weren’t really cast (they still have them as prepared spells or available spell slots). Similarly, any spells still in effect when a traveler leaves Dream are gone as if they were never cast.
- - Spells of the illusion school are extended
- - Spells may mutate the more complex they are, consult the given table below
+    - Travelers who leave Dream discover that any spells they used on the plane weren’t really cast (they still have them as prepared spells or available spell slots). Similarly, any spells still in effect when a traveler leaves Dream are gone as if they were never cast.
+    - Spells of the illusion school are extended
+    - Spells may mutate the more complex they are, consult the given table below
 - *Planar Relations* - Remote: the only way to reach the Region of Dreams from anywhere is through the psychic projection of dreaming and the Dream Travel spell
 
 </div>
@@ -50,7 +51,7 @@ Any creatures touched by you when dream travel is cast also makes the transition
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Hypnagogian Haze
@@ -100,6 +101,7 @@ The quori claim the "center" of Dream as theirs, where they rule supreme. Howeve
 All manner of creatures can be encountered in a nightmare realm. Any monster a character has ever seen, or even heard of, can appear in his dreams. Every monster that exists in the real world and, many that exist only in fevered imagination or the subconscious mind, can manifest here.
 
 Lurking deep within the alien, impossible landscapes of the Region of Dreams, however, are some creatures that are not the products of a dreamer's mind. These horrors were not dreamed into existence but are natives of the dreamscape-otherworldly horrors spawned by the very stuff of which dreams themselves are made. They haunt nightmares across multiple worlds, often appearing first in the dreams of the mad but slowly finding their way through the dreamscape to other, more lucid dreamers. And just as physical beings can use plane-traveling magic to enter the dreamscape, so too can these creatures sometimes use their own magic to manifest in the material world. Mechanically, nightmare creatures do not differ substantially from others except in the following ways:
+
 - Nightmare creatures can only manifest in the waking world so long as they remain near someone who is dreaming, because they use that individual as a doorway to the Material Plane. Should the sleeper be awakened, the creatures are driven back to the dreamscape.
 - Nightmare creatures in the physical world deal nonlethal damage, since they attack an individual's essence rather than his physical form. However, anyone who gains sufficient nonlethal damage in this manner to exceed his hit point total becomes mentally enslaved to the creature. This slavery cannot be broken except by spells such as break enchantment or greater restoration, and even these function only if the caster can succeed on a caster level check against a DC equal to the nightmare creature's HD + 11.
 
@@ -156,7 +158,7 @@ Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Spells in the Dreamscape
@@ -179,7 +181,7 @@ Due to the unpredictable nature of nightmare realms and dreams, any spells or sp
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # New Skill: Lucid Dreaming (Wis; Trained Only)

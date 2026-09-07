@@ -6,26 +6,27 @@ title: "Pantheon"
 <div class="wd-cell" markdown>
 
 # The Primal Gods (Greater Deities)
+
 - [Mundus](pantheon/deity-mundus.md), Goddess of Life
- - Alignment: Neutral Good
- - Portfolio: Life, Nature, Light
- - Symbol: Oak tree
+    - Alignment: Neutral Good
+    - Portfolio: Life, Nature, Light
+    - Symbol: Oak tree
 - [Primus](pantheon/deity-primus.md), God of Order
- - Alignment: Lawful Neutral
- - Portfolio: Order, Law, Pacts
- - Symbol: Closed gauntlet with infinity symbol embedded
+    - Alignment: Lawful Neutral
+    - Portfolio: Order, Law, Pacts
+    - Symbol: Closed gauntlet with infinity symbol embedded
 - [Terrus](pantheon/deity-terrus.md), God of Chaos
- - Alignment: Chaotic Neutral
- - Portfolio: Chaos, Change, Elementals
- - Symbol: Open gauntlet with a star behind it
+    - Alignment: Chaotic Neutral
+    - Portfolio: Chaos, Change, Elementals
+    - Symbol: Open gauntlet with a star behind it
 - [Helus](pantheon/deity-helus.md), God of Death
- - Alignment: Neutral Evil
- - Portfolio: Death, Afterlife, Darkness
- - Symbol: Blindfolded skull
+    - Alignment: Neutral Evil
+    - Portfolio: Death, Afterlife, Darkness
+    - Symbol: Blindfolded skull
 - [Cosmus](pantheon/deity-cosmus.md), God of Magic
- - Alignment: True Neutral
- - Portfolio: Knowledge, Magic, Balance
- - Symbol: Star in front of a book
+    - Alignment: True Neutral
+    - Portfolio: Knowledge, Magic, Balance
+    - Symbol: Star in front of a book
 
 </div>
 <div class="wd-cell" markdown>
@@ -66,42 +67,43 @@ All deities have access to the domains associated with their alignment, even if 
 <div class="wd-cell" markdown>
 
 # The Living Gods (Intermediate Deities)
+
 - Lux Dawnbringer, the Luminous Sovereign
- - Alignment: Lawful Good
- - Portfolio: Justice, Light
- - Symbol: A radiant sun, its rays extending outward in a circular pattern
+    - Alignment: Lawful Good
+    - Portfolio: Justice, Light
+    - Symbol: A radiant sun, its rays extending outward in a circular pattern
 - Thrain Stoneheart, the Tranquil Forgemaster
- - Alignment: Neutral Good
- - Portfolio: Peace, Unity
- - Symbol: A stylized anvil, with a hammer crossed over it
+    - Alignment: Neutral Good
+    - Portfolio: Peace, Unity
+    - Symbol: A stylized anvil, with a hammer crossed over it
 - Leonus Ironmane, the Stalwart Guardian
- - Alignment: Chaotic Good
- - Portfolio: Valor, War
- - Symbol: A roaring lion's head, often surrounded by symbols representing justice scales and a crossed sword and shield
+    - Alignment: Chaotic Good
+    - Portfolio: Valor, War
+    - Symbol: A roaring lion's head, often surrounded by symbols representing justice scales and a crossed sword and shield
 - Tome, Keeper of the Celestial Library
- - Alignment: Lawful Neutral
- - Portfolio: Knowledge, Wisdom
- - Symbol: an intricate celestial sigil with cosmic runes swirling around it
+    - Alignment: Lawful Neutral
+    - Portfolio: Knowledge, Wisdom
+    - Symbol: an intricate celestial sigil with cosmic runes swirling around it
 - Sol, the Eternal Equilibrium
- - Alignment: True Neutral
- - Portfolio: Balance, Pacts
- - Symbol: A roaring celestial dragon and runes forming a perfect circle
+    - Alignment: True Neutral
+    - Portfolio: Balance, Pacts
+    - Symbol: A roaring celestial dragon and runes forming a perfect circle
 - Selene, the Nightweaver
- - Alignment: Chaotic Neutral
- - Portfolio: Secrets, Shadows
- - Symbol: A crescent moon intertwined with intricate elven glyphs
+    - Alignment: Chaotic Neutral
+    - Portfolio: Secrets, Shadows
+    - Symbol: A crescent moon intertwined with intricate elven glyphs
 - Mordac, the Arbiter of Tyranny
- - Alignment: Lawful Evil
- - Portfolio: Corruption, Death
- - Symbol: A twisted serpent entwined around a scepter
+    - Alignment: Lawful Evil
+    - Portfolio: Corruption, Death
+    - Symbol: A twisted serpent entwined around a scepter
 - Vortressa, the Mother of Monsters
- - Alignment: Neutral Evil
- - Portfolio: Monsters, Dark Desires
- - Symbol: A corrupted representation of a traditional Druidic glyph intertwined with monstrous teeth
+    - Alignment: Neutral Evil
+    - Portfolio: Monsters, Dark Desires
+    - Symbol: A corrupted representation of a traditional Druidic glyph intertwined with monstrous teeth
 - Zarakth, the Abyssal Scourge
- - Alignment: Chaotic Evil
- - Portfolio: Destruction, Murder
- - Symbol: A blood-red vortex swirling around a jagged, shattered blade.
+    - Alignment: Chaotic Evil
+    - Portfolio: Destruction, Murder
+    - Symbol: A blood-red vortex swirling around a jagged, shattered blade.
 
 </div>
 </div>
@@ -111,41 +113,41 @@ All deities have access to the domains associated with their alignment, even if 
 # The Patrons (Lesser Deities)
 
 - Lawful Good
- - Urog, Father of Metallic Dragons
+    - Urog, Father of Metallic Dragons
 - Neutral Good
- - Homoth, Lord of Beasts
- - [Trelanni](trelanni.md), Patron of Elves
- - [Cervidûr](deity/cervidur.md), Lord of the Hunt
+    - Homoth, Lord of Beasts
+    - [Trelanni](trelanni.md), Patron of Elves
+    - [Cervidûr](deity/cervidur.md), Lord of the Hunt
 - Chaotic Good
- - Typhus, Prince of Water
- - [Cavri](cavri.md), Queen of the Seelie Court
+    - Typhus, Prince of Water
+    - [Cavri](cavri.md), Queen of the Seelie Court
 - Lawful Neutral
- - [Ornus](ornus.md), Lord of Constructs
- - Sil’Faraan, Lord of the Wastes
+    - [Ornus](ornus.md), Lord of Constructs
+    - Sil’Faraan, Lord of the Wastes
 - True Neutral
- - [Enigma](enigma.md), the Lost God
+    - [Enigma](enigma.md), the Lost God
 - Chaotic Neutral
- - Helius, Prince of Air
- - Gollus, Prince of Earth
- - [Droma](droma.md), God of Craftsmen
- - [Ithlwick](ithlwick.md), God of Prosperity
- - [Rasmin](rasmin.md), God of Mischief
- - [Fink](fink.md), Patron of Goblinoids
- - [Orion](orion.md), Patron of Smallfolk
- - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
+    - Helius, Prince of Air
+    - Gollus, Prince of Earth
+    - [Droma](droma.md), God of Craftsmen
+    - [Ithlwick](ithlwick.md), God of Prosperity
+    - [Rasmin](rasmin.md), God of Mischief
+    - [Fink](fink.md), Patron of Goblinoids
+    - [Orion](orion.md), Patron of Smallfolk
+    - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
 - Lawful Evil
- - [Ythedie](ythedie.md), Mother of Chromatic Dragons
- - [Leshrac](leshrac.md), Lord of the Undead
- - [Ukrol](deity/ukrol.md), Patron of Humans
- - [Asmodeus](asmodeus.md), Supreme Master of the Nine Hells
- - [Sezzek](sezzek.md), Patron of Scaly Ones
+    - [Ythedie](ythedie.md), Mother of Chromatic Dragons
+    - [Leshrac](leshrac.md), Lord of the Undead
+    - [Ukrol](deity/ukrol.md), Patron of Humans
+    - [Asmodeus](asmodeus.md), Supreme Master of the Nine Hells
+    - [Sezzek](sezzek.md), Patron of Scaly Ones
 - Neutral Evil
- - [Fronir](fronir.md), Patron of Giants
- - [Nessa](nessa.md), Patron of Vermin
+    - [Fronir](fronir.md), Patron of Giants
+    - [Nessa](nessa.md), Patron of Vermin
 - Chaotic Evil
- - [Tari](tari.md), Queen of the Unseelie Court
- - Infernus, Prince of Fire
- - Mil’Anaara, Goddess of Storms
+    - [Tari](tari.md), Queen of the Unseelie Court
+    - Infernus, Prince of Fire
+    - Mil’Anaara, Goddess of Storms
 
 </div>
 </div>
@@ -155,23 +157,23 @@ All deities have access to the domains associated with their alignment, even if 
 # Dead Gods (Known)
 
 - Lawful Good
- - [Amaris](deity/amaris.md), the Beacon of Law
+    - [Amaris](deity/amaris.md), the Beacon of Law
 - Neutral Good
- - [Thalrend](deity/thalrend.md), the Just Arbiter
+    - [Thalrend](deity/thalrend.md), the Just Arbiter
 - Chaotic Good
- - [Eldron](deity/eldron.md), the Freeheart
+    - [Eldron](deity/eldron.md), the Freeheart
 - Lawful Neutral
- - [Virelia](deity/virelia.md), the Order’s Hand
+    - [Virelia](deity/virelia.md), the Order’s Hand
 - True Neutral
- - [Seraphis](deity/seraphis.md), the Eternal Equinox
+    - [Seraphis](deity/seraphis.md), the Eternal Equinox
 - Chaotic Neutral
- - [Malcator](deity/malcator.md), the Unbound
+    - [Malcator](deity/malcator.md), the Unbound
 - Lawful Evil
- - [Draxus](deity/draxus.md), the Iron Tyrant
+    - [Draxus](deity/draxus.md), the Iron Tyrant
 - Neutral Evil
- - [Nyxara](deity/nyxara.md), the Shadow Queen
+    - [Nyxara](deity/nyxara.md), the Shadow Queen
 - Chaotic Evil
- - [Gorthak](deity/gorthak.md), the Herald of Chaos
+    - [Gorthak](deity/gorthak.md), the Herald of Chaos
 
 </div>
 </div>

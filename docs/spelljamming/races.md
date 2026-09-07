@@ -26,7 +26,7 @@ Given the nature of spelljammer, many similar races may exist from different sou
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Dracons
@@ -42,6 +42,7 @@ Dracons speak their own language and that of dragons. They speak the common tong
 Dracons found in space will be found on ships with spelljamming helms. These are usually modified galleons, but there have been cases of hammerships appearing among the dracons.
 
 The dracons consider themselves civilized and have among themselves a stylized dueling code. Under this code:
+
 - One dracon challenges another; the challenged gets to choose the weapons (swords, bare hands, etc.).
 - The challenger then names the terms of the battle (to the death, to first blood, to half hit points, or to three falls, for example).
 - Finally, the challenged names the place and time, within reason (though a dracon rhyme speaks of the Battle Eternal, in which heroes return each year to fight a single round of combat).
@@ -67,6 +68,7 @@ The leader of a dracon herd is called a kaba. The choosing of a kaba is determin
 Dracons have a flair for genealogy, and through a long series of questions and answers, they can trace one dracon’s relation to another, determining who should lead the herd. Cynical non-dracons believe the dracons make these relationships up on the spot, using old slights and favors to determine precedence. If this is the case, quick-thinking and craftiness ensure survival.
 
 The kaba of the herd is assisted by the shalla, or high priest. Each herd, no matter how small, has a shalla, usually with clerical powers. The shalla is:
+
 - The keeper of ritual
 - The advisor of the kaba
 - The healer of the people, if such a healer exists
@@ -83,6 +85,7 @@ To be called Ub-Kalla by a dracon is a high honor, meaning that your decision-ma
 Dracon relationships with non-dracons are cordial and curious. All of these races are lumped under the word for “the deformed”.
 
 Dracons are very good at sorting their own differences, but they often confuse non-dracons, assigning the traits of one to another. (They can never figure out who operates the big rock-ships.)
+
 - Lizardfolk get along very well with the dracons and are often adopted into larger families as “disabled smaller relatives.”
 - Centaurs and other similar races are considered long-lost allies.
 - Dracons hate the neogi, which puts them in good standing with other races.
@@ -93,6 +96,7 @@ The race of dracons holds dragons in awe. The shalla have declared dragons to be
 ## Dracon Homeworld & Ecology
 
 The familial relationships of dracons suggest that they are all natives of the same planet and have only recently ventured into space. According to the dracons, their homeworld is a dry, arid orb with only two types of terrain:
+
 - Fast-growing grass
 - Desert
 
@@ -100,6 +104,7 @@ The climate is in continual flux, forcing herds to move and cooperate to survive
 
 The dracons describe a spiderlike Dark God that lies beneath the sand and captures younglings who stray too far.
 This boogeyman may be:
+
 - A real creature
 - A product of herd mentality
 - A symbolic representation of the neogi, whom dracons hate with a passion.
@@ -107,6 +112,7 @@ This boogeyman may be:
 Their homeworld contains large, shallow seas and at least one large moon. Beyond that, dracons are reluctant to share more information, possibly to prevent other races from finding them.
 
 ## Dracon Racial Traits
+
 - +9 Str, -3 Dex, +4 Con
 - **Large Size**: -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.
 - **Space/Reach**: 10 feet/5 feet.
@@ -130,7 +136,7 @@ Their homeworld contains large, shallow seas and at least one large moon. Beyond
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Giff
@@ -174,6 +180,7 @@ Giff speak their own language, a gruff, blustery tongue full of bellowing lows a
 ## Names
 
 Giff use names in the Common tongue, as their native names are either unpronounceable or forgotten. They generally deal directly with wealthy employers and have adopted upper-class Common names to garner respect. Giff have somewhat unconventional tastes, and many of these names are uncommon even among the aristocratic and merchant classes.
+
 - Male Names: Algernon, Bertram, Cordell, Eustace, Horatio, Trenton.
 - Female Names: Beatrice, Dora, Isabella, Louisa, Ophelia.
 - Family Names: Cartwright, Galloway, Hadley, Kilburn, Upton.
@@ -229,6 +236,7 @@ Chain mail is used almost exclusively for its light weight and flexibility. Shie
 Grommams are generally peaceful, with their leadership made up of "director" females led by a demigod. (The grommam demigods openly live among the grommams, but they never adventure.) Unmarried males form the backbone of the military forces, and more than a few become adventurers. They make their homes in forests, but they enjoy the same climates as humans. They climb extremely well, and some build treehouses, but most grommams are ground dwellers.
 
 A grommam family usually consists of one adult male, 1-2 adult females, and 1d4 children.
+
 - One female generally cooks, cleans, and manages the children.
 - The other female directs all household affairs such as finances, purchases, and dealings with other grommam families.
 - The male performs heavy labor, either for the family or for a local guild or business.
@@ -249,6 +257,7 @@ Because grommams are so adept at climbing, they make heavy use of ropes, rigging
 *- Merchant captain with three grommams in his crew.*
 
 ## Grommam Racial Traits
+
 - +2 Str, +2 Dex, -2 Int, -2 Wis
 - **Medium**: As Medium creatures, grommam have no special bonuses or penalties due to size.
 - Grommam base land speed is 30 feet.
@@ -284,6 +293,7 @@ While they are generally peaceable, hadozee do not shy away from combat. They fi
 Hadozee typically stand between five and six feet tall, though their stooped posture makes them appear slightly shorter. They tend to have a muscular build, their bodies well-suited for the demands of shipboard life. Their black, glittering eyes are well-adapted to dim lighting, and their fur ranges from light tawny golden brown to deep chocolate.
 
 **Distinctive Features**:
+
 - **Patagial Flaps:** Their gliding membranes allow them to traverse ship decks, gravity planes, and asteroid clusters with ease.
 - **Dexterous Limbs:** Their hands and feet are equally nimble, each possessing opposable thumbs, making them natural climbers, riggers, and multi-taskers.
 - **Combat Adaptability:** Hadozee can wield weapons and tools with both hands and feet, making them especially versatile in combat and labor-intensive tasks.
@@ -341,6 +351,7 @@ They excel in roles that require agility, adaptability, and teamwork, whether as
 Hadozee often use their gliding abilities and dexterity to great effect, whether in combat, ship repairs, or daring escapes. They are particularly skilled at traversing the rigging of spelljamming vessels, boarding enemy ships, and navigating low-gravity environments.
 
 ## Hadozee Racial Traits
+
 - +2 Dexterity, –2 Charisma.
 - Medium: As a Medium creature, a hadozee has no special bonuses or penalties due to her size.
 - Hadozee base land speed is 30 feet.
@@ -400,6 +411,7 @@ Hurwaeti tend to be fighters,  rogues, or swashbucklers. They favor large swords
 Many hurwaeti who venture out as adventurers are former crew members, mercenaries, or scavengers. They are physically well-suited for adventuring roles that require strength, jumping ability, amphibious movement, or rugged endurance. On hurwaeti ships, most adventurers are lightly armored warriors with long blades, bows, or similar weapons.
 
 ## Hurwaet Racial Traits
+
 - -2 Con, +2 Wis
 - **Type**: Humanoid (Scalykind)
 - **Medium**: As a Medium creature, a hurwaet has no special bonuses or penalties due to her size.
@@ -467,6 +479,7 @@ Lizardfolk adventurers are rare and often driven by duty, exile, or necessity. S
 Lizardfolk who were hatched in space and have lived their entire lives among the stars have bodies that have adapted to this lifestyle.
 
 Spacefaring lizardfolk have all of the lizardfolk racial traits given in the Monster Manual (pp. 169) except as follows:
+
 - +2 Dex, +2 Con, –2 Int
 - **Type**: Humanoid (Scalykind)
 - **Racial Skills**: A lizardfolk’s humanoid levels give it skill points equal to 5 × (2 + Int modifier, minimum 1). Its class skills are Balance, Jump, and Tumble. Lizardfolk have a +2 racial bonus on Balance, Jump, and Tumble checks.
@@ -518,6 +531,7 @@ Specific naming conventions for rastipedes are not detailed, but it is likely th
 Though peaceful by nature, rastipedes are capable of defending themselves and do not hesitate to act when threatened. Their preference in combat tends toward ranged weapons, particularly a specialized longbow crafted by their own kind. They are often seen accompanying ships as scouts, archers, or spelljamming specialists. Rastipede adventurers are typically drawn to the pursuit of knowledge, the thrill of exploration, or the opportunity for profit and influence. Those who leave their nests often carry with them a strong sense of identity, a deep respect for structure, and an insatiable curiosity about the worlds beyond.
 
 ## Rastipede Racial Traits
+
 - +2 Str, +2 Dex, -2 Int, +2 Wis
 - **Type**: Monstrous Humanoid (Insectoid)
 - **Medium**: As Medium creatures, rastipedes have no special bonuses or penalties due to their size.
@@ -572,6 +586,7 @@ Scro favor long, complex names, often derived from heroes or ancestors. Male nam
 Scro adventurers are often from the lower castes—those who failed to meet the Scro’s harsh standards or were exiled for disobedience or weakness. Some adventurers are principled individuals whose values clash with Scro society, while others may have been exiled for erratic or chaotic behavior. That said, not all Scro adventurers are outcasts. Some operate as sanctioned infiltrators, spies, or mercenaries working abroad while secretly serving the Scro war machine. These agents answer to the Ultimate High Overlord and use their freelance status to infiltrate and sabotage other societies. Whether rogue or loyalist, Scro adventurers are dangerous, disciplined, and usually still loyal—if only to their own ambition.
 
 ## Scro Racial Traits
+
 - Str +4, Dex +2, Con +2: Scro possess the best traits of orcs and hobgoblins with few of the drawbacks.
 - **Type**: Humanoid (orc)
 - **Medium**: As medium creatures, scro have no special bonuses or penalties due to size.
@@ -624,6 +639,7 @@ Some xixchil venture into the wider universe in search of new techniques, rare m
 Xixchil adventurers are known for modifying themselves with extra limbs or combat-adapted tools such as blowguns, mancatchers, or built-in weaponry. These modifications, while highly effective, often come at great cost and are irreversible. Among other adventurers, they may be valued for their surgical expertise, combat utility, and biological enhancements—if not always for their warmth.
 
 # Xixchil Racial Traits
+
 - +2 Dex, -4 Cha
 - **Type**: Monstrous Humanoid (Insectoid)
 - **Medium**: As medium creatures, xixchil have no special bonuses or penalties due to size.
@@ -644,6 +660,7 @@ This proficiency allows the character to perform bodily modifications on others.
 
 Success Table:
 DC | Action | Max Repeats
+
 - 20 | The patient gains a tough outer shell. They gain a +1 natural armor improvement for each successful attempt. | 3
 - 20 | The patient's eyes are modified to grant them Darkvision 30 ft. Darkvision is black and white only, but it is otherwise just like normal sight, and the target can function just fine with no light at all. | 1
 - 25 | Claws or talons now extend from the patient's fingers. They gain a natural claw or talon attack apropriate to a creature of their size | 1
@@ -658,6 +675,7 @@ The DM may determine a result not listed on the failure table is apropriate inst
 
 Failure Table
 Roll | Result
+
 - 1 | Loss of limb: patient loses a limb
 - 2 | Weakened immune system: Permanent -4 on Fort saves vs Poison and Diseases
 - 3 | Weakened bones: Patient gains vulnerability to bludgeoning damage
@@ -700,6 +718,7 @@ Insectare do not use personal names among themselves. During missions, they adop
 Insectare adventurers act in service to their race. They seek lost knowledge, arcane power, and magical artifacts. They often travel with other races to explore ruins and dungeons but maintain secrecy at all costs. Most attempt to gain the trust of their companions without ever trusting them in return. Many will eliminate anyone who uncovers their true nature. Even when revealed, insectare prefer solitude, discretion, and privacy over companionship or loyalty.
 
 ## Insectare Racial Traits
+
 - Dex +2, Con –2, Int +2, Cha +2
 - **Type**: Humanoid (Elf, Insectoid)
 - **Medium**: As Medium creatures, insectare have no special bonuses or penalties due to size.
@@ -710,7 +729,7 @@ Insectare adventurers act in service to their race. They seek lost knowledge, ar
 - +2 racial bonus on Bluff and Disguise checks
 - **Automatic Languages**: Common and Insectare. Bonus Languages: Any (other than secret languages, such as Druidic). See the *Speak Language* skill.
 - **Favored Class**: Sorcerer*. Insectare cast spells naturally, drawing power from their arcane ancestry. They constantly seek new spells, which are somehow absorbed into future bloodlines and eventually learned by other insectare.
- - *If Complete Adventurer is available in your campaign, the insectare’s favored class is spellthief.*
+    - *If Complete Adventurer is available in your campaign, the insectare’s favored class is spellthief.*
 - **Level Adjustment**: +1.
 
 </div>

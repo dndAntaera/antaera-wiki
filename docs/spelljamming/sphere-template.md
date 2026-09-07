@@ -17,9 +17,9 @@ Description
 
 - **Type of Sphere**:
 - **Primary Body**
- - Type:
- - Name:
- - Spelljamming Aware (Y/N):
+    - Type:
+    - Name:
+    - Spelljamming Aware (Y/N):
 
 </div>
 </div>
@@ -29,25 +29,28 @@ Description
 # Plantology & Astrology
 
 ## Inner Track (<200 MM)
+
 - **Name**:
- - size
- - type
- - shape
- - other notes
+    - size
+    - type
+    - shape
+    - other notes
 
 ## Both Tracks (200<Planet<300 MM)
+
 - **Name**:
- - size
- - type
- - shape
- - other notes
+    - size
+    - type
+    - shape
+    - other notes
 
 ## Outer Track (>300 MM)
+
 - **Name**:
- - size
- - type
- - shape
- - other notes
+    - size
+    - type
+    - shape
+    - other notes
 
 </div>
 </div>
@@ -57,12 +60,12 @@ Description
 # Recognized Pantheon
 
 - **Deity 01**
- - Divine Classification:
- - Divine Ranks:
- - Alignment:
- - Portfolio:
- - Typical Worshippers:
- - Holy Symbol:
+    - Divine Classification:
+    - Divine Ranks:
+    - Alignment:
+    - Portfolio:
+    - Typical Worshippers:
+    - Holy Symbol:
 
 </div>
 </div>

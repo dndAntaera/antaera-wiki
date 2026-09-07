@@ -11,22 +11,23 @@ title: "Sea Of Innas"
 <div class="wd-cell" markdown>
 
 # **Legend**
+
 - Settlements
- - Forladrien
- - [Hnaleah](city-hnaleah.md)
- - Ingbrook
- - Pawic
- - Reford
- - Sewich
- - [Shegrove](city-shegrove.md)
+    - Forladrien
+    - [Hnaleah](city-hnaleah.md)
+    - Ingbrook
+    - Pawic
+    - Reford
+    - Sewich
+    - [Shegrove](city-shegrove.md)
 - Points of Interest
- - Black Vaults of Amas, The
- - Caer Collo
- - Fortress of Sigilda, The
- - Ghost Tower
- - Jane Tower
- - Tayle Tower
- - Tower of Lord Greywulf, The
+    - Black Vaults of Amas, The
+    - Caer Collo
+    - Fortress of Sigilda, The
+    - Ghost Tower
+    - Jane Tower
+    - Tayle Tower
+    - Tower of Lord Greywulf, The
 
 </div>
 </div>

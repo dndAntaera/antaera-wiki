@@ -37,7 +37,7 @@ Most NPCs probably shouldn’t have action points, due to the added complexity t
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Using Action Points

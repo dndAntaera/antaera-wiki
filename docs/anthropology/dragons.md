@@ -55,6 +55,7 @@ Dragonborn occupy a distinct position within this broader category. Rather than 
 
 **A Note On Dragonblooded Creatures**:
 Due to the nature of the setting, any creature that is draconic in origin (or is related to dragons in any way), and does not have the Dragon type gains the Dragonblood subtype. The list of races this applies to will increase over time, but for now treat all races that follow the aformentioned rule as included. The list of some examples are as follows:
+
 - Kobold
 - Spellscale
 - Draconic Template

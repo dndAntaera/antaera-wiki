@@ -21,6 +21,7 @@ title: "Taxonomies"
 <div class="wd-cell" markdown>
 
 # Taxnonomies: Uncommon
+
 - [Warforged](anthropology/warforged.md)
 
 </div>
@@ -29,6 +30,7 @@ title: "Taxonomies"
 <div class="wd-cell" markdown>
 
 # Taxnonomies: Other
+
 - [Dragons/Dragonblooded](anthropology/dragons.md)
 
 </div>

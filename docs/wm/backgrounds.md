@@ -18,6 +18,7 @@ Header Image
 When selecting your background at 1st level, you may choose any of the Core backgrounds or one discussed on this page. Some backgrounds presented will have prerequisites that must be met to be taken.
 
 Certain backgrounds have specific effects:
+
 - <u>Regional</u>: Gain advantage on Charisma (Diplomacy) checks made against others that are also natives of the respective region.
 - <u>Extraplanar</u>: As a bonus action, you may gain a bonus equal to your proficiency bonus on one of the skills granted by your background. This bonus does not stack with other abilities that grant a similar bonus, such as Expertise. You may use this ability once, and regain all uses at the end of a long rest.
 

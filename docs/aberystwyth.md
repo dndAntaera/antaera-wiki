@@ -22,7 +22,7 @@ The island, and its surrounding ocean, is plagued by a constant storm said to ha
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 50fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Districts
@@ -32,60 +32,60 @@ An ancient and stalwart fort, it was the first structure built on the island, an
 
 - Social Class:
 - Population
- - Approx:
- - race %
+    - Approx:
+    - race %
 - Subdivisions
- - name of division
+    - name of division
 
 ## Blood Coast
 *Description*
 
 - Social Class:
 - Population
- - Approx:
- - race %
+    - Approx:
+    - race %
 - Subdivisions
- - name of division
+    - name of division
 
 ## The Barrows
 *Description*
 
 - Social Class:
 - Population
- - Approx:
- - race %
+    - Approx:
+    - race %
 - Subdivisions
- - name of division
+    - name of division
 
 ## Gloom Warrens
 *Description*
 
 - Social Class:
 - Population
- - Approx:
- - race %
+    - Approx:
+    - race %
 - Subdivisions
- - name of division
+    - name of division
 
 ## Crook Downs
 *Description*
 
 - Social Class:
 - Population
- - Approx:
- - race %
+    - Approx:
+    - race %
 - Subdivisions
- - name of division
+    - name of division
 
 ## Far Coast
 *Description*
 
 - Social Class:
 - Population
- - Approx:
- - race %
+    - Approx:
+    - race %
 - Subdivisions
- - name of division
+    - name of division
 
 # Landmarks
 

@@ -178,6 +178,30 @@ def tables_to_layout(s):
     return s
 
 
+def unwrap_table_only_cards(s):
+    """Strip the card box from a cell holding nothing but a table.
+
+    The rules tables were screenshots sitting inside a layout cell. Now that
+    they are real Markdown tables, the card would draw a border around
+    something that already has one. The cell keeps its place in the row - it
+    is often one column of a two-column layout - it just loses the box.
+    Cells holding prose keep their card.
+    """
+
+    def repl(m):
+        inner = m.group(1)
+        if "<div" in inner:
+            return m.group(0)
+        lines = [l for l in inner.split("\n") if l.strip()]
+        table_lines = [l for l in lines if l.lstrip().startswith("|")]
+        # Allow one non-table line so a caption still counts as table-only.
+        if len(table_lines) < 2 or len(lines) - len(table_lines) > 1:
+            return m.group(0)
+        return m.group(0).replace('class="wd-cell"', 'class="wd-cell wd-plain"', 1)
+
+    return re.sub(r'<div class="wd-cell" markdown>(.*?)\n</div>', repl, s, flags=re.S)
+
+
 def convert(src, slug, img_by_url, tables, linkmap):
     s = src.replace("\r\n", "\n")
     s = re.sub(r"\[!--.*?--\]", "", s, flags=re.S)
@@ -220,6 +244,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
         return "![](" + BASE + "/img/" + fn + ")"
 
     s = re.sub(r"\[\[f?image\s+([^\s\]]+)[^\]]*\]\]", image, s, flags=re.I)
+    s = unwrap_table_only_cards(s)
 
     # Hide URLs so the italic rule cannot eat the // in https://
     urls = []

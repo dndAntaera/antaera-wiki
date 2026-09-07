@@ -287,7 +287,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 **Wrigglers**: Parasitic worms protrude from your sores, sapping your strength. Reduce your Strength score by 2. You gain a +2 bonus to Intimidate checks and take a -4 penalty on other Charisma-based checks.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 *Corruption Effects*
 
@@ -349,7 +349,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Unresponsive**: Your senses are dulled and you lose the ability to discern the truth of the world around you. Reduce your Wisdom score by 2.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 *Depravity Effects*
 

@@ -74,3 +74,11 @@
 
 /* Wide content inside a card scrolls itself rather than the page. */
 .wd-cell table { display: block; overflow-x: auto; }
+
+/* A cell holding only a table: keep its place in the row, drop the box, so a
+   bordered table is not wrapped in a second border. */
+.wd-cell.wd-plain {
+  border: none;
+  background: none;
+  padding: 0;
+}

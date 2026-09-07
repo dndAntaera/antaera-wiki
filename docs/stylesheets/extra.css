@@ -18,7 +18,11 @@
 .wd-row {
   display: grid;
   gap: 1rem;
-  margin: 1.2rem 0;
+  /* Centred, and no wider than it needs to be. --wd-rw carries the width the
+     table asked for in the source - 107 of them ask for 66.7% - and the
+     fallback keeps undeclared rows from running the full width of the page. */
+  max-width: var(--wd-rw, 56rem);
+  margin: 1.2rem auto;
   grid-template-columns: 1fr;      /* stacked by default: phones first */
 }
 
@@ -160,8 +164,19 @@
 .wd-cell h2 {
   font-size: 1.15rem;
   font-weight: 400;
+}
+
+/* A rule under the panel title only. Sub-headings inside a card are not
+   section breaks and should not be underlined. */
+.wd-cell h1 {
   padding-bottom: .25rem;
   border-bottom: 1px solid var(--md-default-fg-color--lighter);
+}
+
+.wd-cell h2,
+.wd-cell h3 {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 /* ---------------------------------------------------------------------------

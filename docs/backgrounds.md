@@ -2,7 +2,7 @@
 title: "Backgrounds"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Background Information
@@ -12,7 +12,7 @@ The benefits of some of the presented backgrounds are only usable where applicab
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # General Backgrounds
@@ -105,7 +105,7 @@ If a character has 5 ranks in the associated profession skill, they gain a +2 in
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Regional Backgrounds
@@ -168,7 +168,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Guild Backgrounds
@@ -249,7 +249,7 @@ You must work with the DM to pick a guild to which you belong.
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Extraplanar Backgrounds
@@ -338,7 +338,7 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Spelljamming Backgrounds

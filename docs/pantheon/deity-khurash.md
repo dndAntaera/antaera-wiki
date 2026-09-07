@@ -2,7 +2,7 @@
 title: "Deity Khurash"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Khurash, Herald of Smoke

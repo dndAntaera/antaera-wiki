@@ -159,6 +159,11 @@ def tables_to_layout(s):
     """
 
     def repl(m):
+        # The table's own width, where it declared one. 107 of them ask for
+        # 66.7%, which is how the wiki kept its cards off the full width of the
+        # page; carrying it through is more faithful than guessing a cap.
+        table_w = _cell_width(m.group(0)[:m.group(0).find("]]")])
+
         rows = []
         for rm in re.finditer(r"\[\[row[^\]]*\]\](.*?)\[\[/row\]\]", m.group(1), re.S | re.I):
             cells = [(cm.group(1), cm.group(2)) for cm in
@@ -208,12 +213,15 @@ def tables_to_layout(s):
                     if w and (w / total) * 100 < 35:
                         classes[i] = "wd-cell wd-aside"
 
-            style = ""
+            props = []
             if len(kept) > 1 and all(w for w in widths):
                 # A custom property, not grid-template-columns directly: the
                 # stylesheet applies it only above the mobile breakpoint so the
                 # columns still stack on a phone.
-                style = ' style="--wd-cols: %s"' % " ".join("%gfr" % w for w in widths)
+                props.append("--wd-cols: %s" % " ".join("%gfr" % w for w in widths))
+            if table_w and table_w < 100:
+                props.append("--wd-rw: %g%%" % table_w)
+            style = ' style="%s"' % "; ".join(props) if props else ""
             out.append('<div class="wd-row"%s markdown>' % style)
             for idx, (_, body) in enumerate(kept):
                 out.append('<div class="%s" markdown>' % classes[idx])

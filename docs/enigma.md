@@ -2,7 +2,7 @@
 title: "Enigma"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Enigma, the Lost God

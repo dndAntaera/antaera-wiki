@@ -2,7 +2,7 @@
 title: "Deity Terrus"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Terrus, God of Chaos

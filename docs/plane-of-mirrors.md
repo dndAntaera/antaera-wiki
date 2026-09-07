@@ -2,7 +2,7 @@
 title: "Plane Of Mirrors"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -25,7 +25,7 @@ The Plane of Mirrors is a secret plane, unknown to most inhabitants of the Mater
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Mirror Links
@@ -39,7 +39,7 @@ The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, o
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Mirror Inhabitants
@@ -103,7 +103,7 @@ Using the mirror walk spell is not without danger. When you travel to a Plane of
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Mirror Survival

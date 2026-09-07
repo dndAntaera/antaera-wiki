@@ -2,7 +2,7 @@
 title: "The Index"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # General Houserules & Clarifications
@@ -44,7 +44,7 @@ title: "The Index"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Variant Rules In Effect
@@ -97,7 +97,7 @@ title: "The Index"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Banned Content
@@ -116,7 +116,7 @@ title: "The Index"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Restricted Content
@@ -142,7 +142,7 @@ title: "The Index"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Altered Content
@@ -292,7 +292,7 @@ White Raven Tactics: Cannot affect the user
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Items
@@ -352,7 +352,7 @@ White Raven Tactics: Cannot affect the user
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Spells/Powers
@@ -402,7 +402,7 @@ White Raven Tactics: Cannot affect the user
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Skills
@@ -449,7 +449,7 @@ White Raven Tactics: Cannot affect the user
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Bestiary
@@ -500,7 +500,7 @@ White Raven Tactics: Cannot affect the user
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Miscellaneous
@@ -551,7 +551,7 @@ White Raven Tactics: Cannot affect the user
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Factions

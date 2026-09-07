@@ -2,7 +2,7 @@
 title: "Sphere Sidhe"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Sidhe Sphere
@@ -19,7 +19,7 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tanâ€
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -87,7 +87,7 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tanâ€
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

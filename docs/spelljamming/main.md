@@ -10,7 +10,7 @@ title: "Spelljamming"
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Introduction
@@ -18,7 +18,7 @@ Spelljamming in this setting is based on the 2e spelljammer setting, and is tran
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Index

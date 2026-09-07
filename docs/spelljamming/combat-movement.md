@@ -11,7 +11,7 @@ wip: true
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Ship Movement
@@ -24,7 +24,7 @@ A spelljammer helm grants a hull 100 ft of movement, plus an additional 50 ft fo
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Taking Off and Landing
@@ -65,7 +65,7 @@ Atmospheric conditions may create difficulties in both landing and taking off.
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Tactical Movement
@@ -77,7 +77,7 @@ Movement and combat are handled in a two-dimensional format despite the fact tha
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Ship-to-Ship Combat
@@ -109,7 +109,7 @@ Any number of ships can be in the same hex at the same time. Ships in the same h
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Combat
@@ -139,7 +139,7 @@ Unless optional initiative rules are used, there are no initiative modifiers in 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Long-Range Combat
@@ -268,7 +268,7 @@ Nonmovable weapons designed to fire toward the front and rear of the ship may on
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Short-Range Combat
@@ -294,7 +294,7 @@ Spells which do not inflict points of damage can still harm a spelljamming craft
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Ramming
@@ -345,7 +345,7 @@ In general, living things cannot be effectively rammed (they are too small). Cre
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Crashes
@@ -417,7 +417,7 @@ In case of a failure of morale, the crew will retreat back to its native ship. I
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Rapid Resolution of Small-Scale Combat
@@ -452,7 +452,7 @@ Only the stronger of the two spelljamming devices will function when the ships a
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Encounters, Evasion, and Running Away
@@ -503,7 +503,7 @@ If the fleeing ship slows down for some reason, then the pursuing ship will appe
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Repair
@@ -519,7 +519,7 @@ Such repairs are just as good as the expensive ones, provided that at least one 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Morale (Optional Rule)

@@ -2,7 +2,7 @@
 title: "Soulvein"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -18,7 +18,7 @@ At the heart of the Soulvein lies the enigmatic substance known as Incarnum. It 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Theories
@@ -32,7 +32,7 @@ Regardless of the uncertainty, the theory persists as an intellectual beacon, gu
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Incarnum & Meldshapers

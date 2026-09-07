@@ -2,7 +2,7 @@
 title: "Taxonomies"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Taxnonomies
@@ -17,7 +17,7 @@ title: "Taxonomies"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Taxnonomies: Uncommon
@@ -26,7 +26,7 @@ title: "Taxonomies"
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Taxnonomies: Other

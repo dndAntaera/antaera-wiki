@@ -11,7 +11,7 @@ title: "Helms Hulls"
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Hull Statistics Block
@@ -64,7 +64,7 @@ The remaining interior space is needed for crew, armament, and other necessities
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 | Material | Fort | Ref | Will | Acid | Crushing Blow ³ | Disintegration | Fall | Magical Fire | Normal Fire ⁴ | Cold | Electricity |
@@ -92,7 +92,7 @@ The remaining interior space is needed for crew, armament, and other necessities
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Outfitting
@@ -107,7 +107,7 @@ In general, there is a 10% chance that an item listed here is available at any l
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Ship Itself
@@ -146,7 +146,7 @@ Finally, a ship that resembles little more than a terrestrial galley or galleon 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Hull Types
@@ -749,7 +749,7 @@ Also known as "the ship of the desperate," the gnomish sidewheeler represents th
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Power Sources
@@ -881,7 +881,7 @@ All nonmagical engines share one feature: they are slow compared to helms. Their
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Armaments
@@ -1120,7 +1120,7 @@ Turrets can also provide partial protection for the crew. Protected turrets are 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Modifying A Hull
@@ -1184,7 +1184,7 @@ Removing nonessential weight can increase the MC of a ship by one rank as well, 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Ammunition

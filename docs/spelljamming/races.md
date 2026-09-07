@@ -3,7 +3,7 @@ title: "Races"
 wip: true
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Races of the Stars
@@ -21,7 +21,7 @@ Given the nature of spelljammer, many similar races may exist from different sou
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Dracons
@@ -131,7 +131,7 @@ Their homeworld contains large, shallow seas and at least one large moon. Beyond
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Giff
@@ -210,7 +210,7 @@ Other giff adventure under orders—giff platoons try their best regardless of t
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Grommams
@@ -267,7 +267,7 @@ Because grommams are so adept at climbing, they make heavy use of ropes, rigging
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Hadozee
@@ -357,7 +357,7 @@ Hadozee often use their gliding abilities and dexterity to great effect, whether
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Herwaet (Wiggle)
@@ -419,7 +419,7 @@ Many hurwaeti who venture out as adventurers are former crew members, mercenarie
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Lizardfolk
@@ -484,7 +484,7 @@ Spacefaring lizardfolk have all of the lizardfolk racial traits given in the Mon
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Rastipede
@@ -545,7 +545,7 @@ Though peaceful by nature, rastipedes are capable of defending themselves and do
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Scro
@@ -594,7 +594,7 @@ Scro adventurers are often from the lower castes—those who failed to meet the 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Xixchil
@@ -678,7 +678,7 @@ Roll | Result
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Insectare

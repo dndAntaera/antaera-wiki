@@ -2,7 +2,7 @@
 title: "Sphere Sanctum Aeternum"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Sanctum Æternum
@@ -17,7 +17,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -55,7 +55,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

@@ -2,7 +2,7 @@
 title: "Ant√¶ran Calendar"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -19,7 +19,7 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant√
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Seasons
@@ -46,7 +46,7 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant√
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Months
@@ -66,7 +66,7 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant√
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Days
@@ -81,7 +81,7 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant√
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Eras
@@ -135,7 +135,7 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Holidays & Events

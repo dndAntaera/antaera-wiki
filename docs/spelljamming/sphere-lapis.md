@@ -2,7 +2,7 @@
 title: "Sphere Lapis"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Lapis
@@ -15,7 +15,7 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -81,7 +81,7 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

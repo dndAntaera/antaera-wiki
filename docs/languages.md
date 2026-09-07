@@ -2,7 +2,7 @@
 title: "Languages"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -10,7 +10,7 @@ The world of Antæra is vast and diverse, with many different civilizations and 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Languages of the Prime Material Plane
@@ -29,7 +29,7 @@ Originally handed down to the gnomes by their god Orion, several other dialects 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Languages of the Parallel and Inner Planes
@@ -42,7 +42,7 @@ This language is as old as time itself and is spoken almost exclusively by eleme
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Languages from the Outer Planes

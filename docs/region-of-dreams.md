@@ -2,7 +2,7 @@
 title: "Region Of Dreams"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -51,7 +51,7 @@ Any creatures touched by you when dream travel is cast also makes the transition
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Hypnagogian Haze
@@ -71,7 +71,7 @@ Once a creature has 5 ranks in the Lucid Dreaming skill, they gain the Dreamtouc
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Dream Links
@@ -83,7 +83,7 @@ Dreamwalkers—frequent visitors to the Region of Dream—can enter Dream throug
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Dream Inhabitants
@@ -109,7 +109,7 @@ The primary difference between nightmare creatures and standard monsters, howeve
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Movement and Combat
@@ -123,7 +123,7 @@ The passage between dreamscapes is a gradual change, not a sudden wrenching. As 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Features of the Region of Dreams
@@ -142,7 +142,7 @@ In extremely rare cases, a dreamscape ruptures, sending its pieces and visitors 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Dreamheart
@@ -158,7 +158,7 @@ Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Spells in the Dreamscape
@@ -181,7 +181,7 @@ Due to the unpredictable nature of nightmare realms and dreams, any spells or sp
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # New Skill: Lucid Dreaming (Wis; Trained Only)

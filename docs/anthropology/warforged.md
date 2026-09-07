@@ -3,7 +3,7 @@ title: "Warforged"
 wip: true
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Origin Story
@@ -23,7 +23,7 @@ Throughout this maelstrom, the House of Fabricators maintained their stance of n
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # General Culture
@@ -61,7 +61,7 @@ The Warforged are keenly aware of their unique origins and the curiosity they ev
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: Psiforged
@@ -73,21 +73,21 @@ The Psiforged add a rich layer to the already vibrant tapestry of the Warforged.
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: Warforged Scouts
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: Warforged Juggernauts
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: Warforged Titans

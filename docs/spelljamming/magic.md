@@ -11,7 +11,7 @@ title: "Magic"
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Magic Use in Space
@@ -19,7 +19,7 @@ The effects of certain magical and clerical spells and spell-like abilities are 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Clerics in Space
@@ -44,7 +44,7 @@ Given the effects of clerics having variable abilities from sphere to sphere, or
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Polygots
@@ -54,7 +54,7 @@ With the expansion of the Polygots in space civilization, representatives of the
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Path & The Way
@@ -67,7 +67,7 @@ This grouping of faiths transferred very easily early in the exploration of the 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Planar Churches
@@ -82,7 +82,7 @@ All "space clerics" have spells as standard clerics—they cannot become special
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Conjuration/Summoning Spells
@@ -93,7 +93,7 @@ Additionally, any spells that place the caster in contact with an extra-dimensio
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Planar Travel
@@ -104,7 +104,7 @@ For example, a particularly nasty efreet is trapped in a portable hole in Waterd
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Fire In Arcane Space
@@ -115,7 +115,7 @@ Fire works all too well in the phlogiston. As noted in the chapter on [Arcane Sp
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Spelljamming
@@ -138,7 +138,7 @@ In addition to the various magical items that can propel a ship, there are sever
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # New Spells/Powers
@@ -196,7 +196,7 @@ In addition to the various magical items that can propel a ship, there are sever
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Spell Descriptions

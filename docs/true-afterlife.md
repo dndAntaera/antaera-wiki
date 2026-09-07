@@ -2,7 +2,7 @@
 title: "True Afterlife"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -35,7 +35,7 @@ Among soulless entities, an innate jealousy festers. Lacking the capacity to exp
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Veil of Souls
@@ -51,7 +51,7 @@ This celestial barrier serves as a testament to the sanctity of the afterlife, a
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Resurrection

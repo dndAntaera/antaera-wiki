@@ -2,7 +2,7 @@
 title: "Sphere Aerivagus"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Aerivagus Sphere
@@ -19,7 +19,7 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Astrology & Planetology
@@ -73,7 +73,7 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

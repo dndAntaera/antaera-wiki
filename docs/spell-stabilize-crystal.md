@@ -2,7 +2,7 @@
 title: "Spell Stabilize Crystal"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 25%" markdown>
 <div class="wd-cell" markdown>
 
 ## Stabilize Crystal, lesser
@@ -26,7 +26,7 @@ Material Component
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 25%" markdown>
 <div class="wd-cell" markdown>
 
 ## Stabilize Crystal
@@ -45,7 +45,7 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 25%" markdown>
 <div class="wd-cell" markdown>
 
 ## Stabilize Crystal, greater

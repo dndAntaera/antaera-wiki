@@ -2,7 +2,7 @@
 title: "Race Deepfolk"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 In the shadowy depths of the Earthspire Expanse lies a unique human subculture known as the Deepfolk. Their history is one of exile and zealotry, having been driven underground into this alternate plane following the downfall of the Cult of Ukrol, to which they were fervent adherents. In the Earthspire Expanse, they established their capital, Deepholme, a city reflective of their resilience and the harsh conditions of their subterranean world. The Deepfolk strongly prefer certain paths in their spiritual and mystical practices. Central to their cultural identity are two primary vocations that align closely with their beliefs and abilities: becoming clerics of Ukrol and pursuing the development of their innate psionic gifts to become Psions.

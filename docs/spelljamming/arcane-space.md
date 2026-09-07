@@ -10,7 +10,7 @@ title: "Arcane Space"
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Everything You Know About Space Is Wrong
@@ -24,7 +24,7 @@ Within wildspace are the celestial bodies: planets, suns, moons, asteroids, and 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Celestial Bodies
@@ -37,7 +37,7 @@ Some celestial bodies are aflame, fueled either by internal reactions or by sign
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Wildspace
@@ -54,7 +54,7 @@ A creature will exhaust the air in its personal envelope in 2d10 turns. Since th
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Gravity
@@ -121,14 +121,14 @@ Weightless conditions apply to both wildspace and the phlogiston with no differe
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_arcane_space_inline.webp)
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 75fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Crystal Shells
@@ -178,7 +178,7 @@ And when we do, we’ll probably start the sages arguing all over again."
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # The Phlogiston
@@ -215,7 +215,7 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Castaways in the Flow
@@ -245,7 +245,7 @@ Merchants and pirates will offer the lost individual passage in exchange for wor
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Breathing in Space
@@ -283,7 +283,7 @@ Crystal shells usually have no atmosphere of their own, either inside or outside
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Temperature
@@ -294,7 +294,7 @@ The phlogiston maintains a similarly comfortable temperature, but with the added
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-rw: 66.7%" markdown>
 <div class="wd-cell" markdown>
 
 # Time

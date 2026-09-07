@@ -2,8 +2,17 @@
 title: "Adventuring In Space"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_adventuring_in_space_header.png)
 *A dwarf perusing weapons at a local market.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Officer Positions
 A spelljamming ship has a number of staff positions onboard. These vary from place to place and from race to race, but usually include the following:
@@ -31,6 +40,11 @@ The crew is usually (but not always) non-player characters, brought along for th
 | Above, but military or mercenaries | 13 |
 | Elite space veterans | 14 |
 | Mainly pirates | 11 |
+
+</div>
+</div>
+<div class="wd-row" style="--wd-cols: 75fr 75fr" markdown>
+<div class="wd-cell" markdown>
 
 # Crew
 Because so much of the glossy and important work of a spelljamming ship rests with the captain and helmsman, the place of the normal crew is often glossed over. However, the careful captain who trains his men well and treats them as more than dragon fodder will be rewarded with a ship that can handle itself well in tactical situations. While the gross motive power of the ship is determined by the helmsman, its tacking, heeling, and spinning is controlled by the men who man the rigging and the oars.
@@ -88,6 +102,9 @@ A weapons specialist is usually versed in one type of weapon: catapult, ballista
 
 A character with proficiencies in any of these weapons can hire on as a weapon specialist or use his proficiency to provide a bonus to hit from a single turret. A character doing this cannot be engaged in another position on the ship (such as captain, navigator, or helmsman) or leave his position, or the benefit is lost.
 
+</div>
+<div class="wd-cell" markdown>
+
 ### Common Ship Commands
 *(Or, things the captain bellows and expects everyone else to understand.)*
 - Steady: Maintain heading and speed.
@@ -115,6 +132,11 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 - <u>Catapult away</u>: Fire the catapult (or all catapults).
 - <u>Ballista away</u>: Fire the ballista (or all ballistae).
 - <u>&%#$</u>: Standard reaction to combat results.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Weapons
 
@@ -170,6 +192,11 @@ You can use the Weapon Finesse feat to apply your Dexterity modifier instead of 
 
 This is a common hooked polearm used in space, primarily for repelling boarders and cutting grappling lines. It is of very little use when trying to board an enemy ship. Built similarly to a longspear, the boarding pike is almost 15 feet long. You can strike opponents 15 feet away with it, but you can't use it against foes closer than that. If you use a ready action to set an awl pike against a charge, you deal double damage on a successive hit against a charging character.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Other Spelljamming Equipment
 There are a few other items that may be useful to the star voyager in his travels, some magical, some not.
 
@@ -208,3 +235,6 @@ Lifeboats are hard-shelled vehicles designed to bring the occupants relatively s
 A lifeboat takes up as much tonnage as one-half the number of people it can carry. A large lifeboat occupies 10 tons of cargo space (including jettisons for launching). Collapsible versions shrink this requirement to 1 ton of storage, but collapsible lifeboats require 2d4 rounds of setup before they can be launched. Collapsible versions cost three times the listed price.
 
 <u>Cost</u>: Small (2 person): 1,000 gp, Medium (5 person): 5,000 gp, Large (20 person): 10,000 gp
+
+</div>
+</div>

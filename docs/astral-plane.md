@@ -2,6 +2,9 @@
 title: "Astral Plane"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Description
 The Astral Plane, a mysterious and otherworldly realm, serves as a vital conduit connecting the Material Plane to the myriad Outer Planes that sprawl across the multiverse. This enigmatic realm is infinitely expansive, stretching endlessly in all directions beyond mortal comprehension.
 
@@ -23,3 +26,6 @@ Gravity has no dominion here, and individuals who find themselves within the Ast
 - *Energy/Alignment* - mildly neutral-aligned
 - *Magic* - Enhanced magic. All spells and spell-like abilities used within the Astral Plane may be employed as if they were improved by the Quicken Spell feat. Already quickened spells and spell-like abilities are unaffected, as are spells from magic items. Spells so quickened are still prepared and cast at their unmodified level. As with the Quicken Spell feat, only one quickened spell can be cast per round.
 - *Planar Relations* - Material Plane (coterminous), Outer Planes (coterminous)
+
+</div>
+</div>

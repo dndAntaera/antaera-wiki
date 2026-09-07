@@ -2,6 +2,9 @@
 title: "Character Creation"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # General Rules
 *Players must submit a 10-level build plan to the DM before committing to the build you chose; that way, you are not surprised if something gets banned. If players would like restricted content added, they must talk to the DM about inclusion and give suggestions on their use and how they could be integrated into the world. If your character would start with environment-based content, please give a plausible reason in their backstory for them to know of this content. Character sheets must be made on [Mythweavers](https://www.myth-weavers.com) and posted in your character thread in the server first. Once you are finished, and have joined the Roll20 game, you will be assigned a Roll20 character sheet which you will also need to fill out minimally (no need for spell and equipment tracking, as it is done on Mythweavers).*
 - Starting Level 3
@@ -21,10 +24,13 @@ title: "Character Creation"
  - When crafting items for yourself on character creation, you cannot reduce an item's value to lower than half of its market price
 - No favored classes
 - No multiclassing penalty
-- Action Points *modified*
+- [Action Points](action-points.md) *modified*
 - All spells/powers/etc. and inventory on your character must also be listed in your character channel (the forum post you rolled your stats in and post your sheet link in)
  - Normally shouldn't have to do this, but I have had a problem with cheaters in the past lying about what their characters have in their inventories
-- Be sure to consult The Index for all houserules and homebrew used when making your character
+- Be sure to consult [The Index](the-index.md) for all houserules and homebrew used when making your character
+
+</div>
+<div class="wd-cell" markdown>
 
 ***<u>Note from the DM</u>**: This campaign is a continuous WIP, meaning that <u>everything is subject to change at any time</u>. Core mechanics will be the same as standard, and I will try to keep any additions in line with how the core mechanics function. But remember that if something that gets introduced does not have a precedent, I will write something in for it.*
 
@@ -33,6 +39,11 @@ title: "Character Creation"
 *Whenever I make new content for the campaign, there will be an announcement in the announcement channel on Discord. It will only be pinged once, so check it periodically throughout the day to see if it has been updated. I will also ask for feedback on content. For my sanity, I ask that you provide feedback and offer constructive criticism and suggestions on changing it rather than simply complaining. Responses that will be ignored include any that only suggest removing it or any that are simple complaints.*
 
 *Please keep your Mythweavers and any third-party trackers you use neat and tidy. If I cannot find a record of something being used with a cursory examination, it is not on your sheet for all intents and purposes. If something is not on your sheet or in any record accessible to the DM, it cannot be used.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Misc
 #### Content Restrictions
@@ -59,9 +70,15 @@ Your background item must follow these criteria to be approved:
 - Players may not start with Level Adjustment greater than 1/4 their ECL (min +1 or +0 in the case of LA +0) if choosing to play something with Level Adjustment
  - Exceptions may be made on a case by case basis
 
+</div>
+<div class="wd-cell" markdown>
+
 **Character Forum Post**
 *It is mentioned several times throughout the rules that players must include things in their character forum post. I am putting a quick synopsis of what needs to be in there for redundancy's sake.*
 - Character sheet
 - Ability score rolls
 - List of spells/powers/etc.
 - List of items
+
+</div>
+</div>

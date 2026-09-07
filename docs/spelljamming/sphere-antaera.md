@@ -2,6 +2,15 @@
 title: "Sphere Antaera"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Antæra Sphere
 
 For travelers used to chaos in the stars—planets on broken orbits, spheres full of ruin and madness—the Antæra Sphere comes as something else entirely. Familiar. Grounded. It doesn’t shout for your attention with bizarre magic or roaring suns. Instead, it feels like stepping outside on a cool morning and finding the world just as you left it. There’s a kind of peace here, like everything is moving at its own pace, in balance. Seasons come and go the way they should. The stars don’t change their minds. People live, die, build things, grow old. The sky doesn’t scream. Sailors call it the “breathing sphere,” not because it’s calm, but because it feels alive—and aware.
@@ -13,6 +22,11 @@ The planets here follow simple tracks. The inner worlds are harsh but not strang
 But it’s what’s buried under Serathos that draws the whispers: the Althuun Prism. Tan starmetal, covered in strange symbols, glowing under the ice. The machines that guard it never speak. They just move, slow and certain, as if they’ve been walking since before the gods had names. No one knows what the Prism is. Some say it holds the sphere together. Others say it’s not holding anything at all—it’s waiting.
 
 And then there’s Antæra itself—the planet, not the sphere. There are cities hidden in its mountains, sealed tight and untouched by time. Walls made of smooth metal that doesn’t rust, doors that don’t open, symbols no one can read. The people don’t talk about them much, but they know they’re there. The name “Antæra” is carved into places that no one alive built. It's not just a name—it’s a reminder. That something came before. That someone remembered enough to leave these ruins behind.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -74,6 +88,11 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
  - **Planet Shape**: Spherical
  - **Other Notes**: Myrelune is a lifeless ball of rock and dust, its cracked surface swept bare by abrasive winds. The atmosphere is thick with suspended grit and particulate ash, making it entirely unbreathable. There is no water, no plant life, and no evidence of habitation. Towering clouds churn endlessly above the terrain, generating constant lightning storms that race across the horizon. These electrical surges ignite dust into firestorms and shatter stone into glass, rendering the planet violently uninhabitable. Whatever secrets Myrelune once held are long lost beneath its storm-wracked shell.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Gods**
@@ -100,3 +119,6 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 - Mordac, the Arbiter of Tyranny (Lawful Evil)
 - Vortressa, the Mother of Monsters (Neutral Evil)
 - Zarakth, the Abyssal Scourge (Chaotic Evil)
+
+</div>
+</div>

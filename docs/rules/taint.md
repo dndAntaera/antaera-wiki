@@ -2,8 +2,16 @@
 title: "Taint"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/rules_taint_header.png)
 *A tainted forest located within a manifest zone connecting the Shadowlands to the Negative Energy Plane.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Overview
 In the shadowed depths of the Negative Energy Plane, a place consisting entirely of the essence of evil, a force known as Taint infiltrates the world through manifest zones. These zones are marked by the presence of Negative Planar Crystals, pure and undiluted negative energy in crystalline form, which inflict their corruption upon all living beings in proximity and their environment.
@@ -14,6 +22,11 @@ In tandem, a shadow of Depravity invades the minds of those dwelling too close t
 
 Though a paladin might remain entirely virtuous in their actions and thoughts, long years of struggle against the forces of evil can erode their body and soul. True heroes refuse to allow the taint of evil to spread, warding it off through magic or penance. Sometimes, however, even well-intentioned characters embrace the taint within them, using it to increase their physical or mental power.
 A creature's effective level of Taint is the combined total of their Corruption and Depravity scores.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Taint and Alignment
 While characters with a minor amount of taint aren’t necessarily evil, they probably are. The more taint they acquire, the more evil they become. However, all evil characters accrue some form of Taint in one way or another. Characters with the Evil subtype at creation have a Corruption score equal to ½ their Constitution mod and a Depravity score equal to ½ their Wisdom mod. Evil non-humanoids always have a Corruption score equal to ½ their Constitution mod and a Depravity score equal to ½ their Wisdom mod.
@@ -26,6 +39,11 @@ The Paladin's Detect Evil ability also detects Taint.
 Clerics of good deities risk divine displeasure if they acquire too much taint. Divine warnings might begin when a cleric acquires moderate levels of corruption or depravity, or perhaps even sooner. If a cleric of a good deity acquires severe levels of taint, they are considered to have grossly violated the deity's code of conduct and loses all spells and class features until they atone and reduce their taint to at most moderate levels.
 
 A paladin who acquires moderate levels of taint loses all paladin spells and abilities and cannot advance further as a paladin until they atone and reduce their taint to at most mild levels.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Becoming Tainted
 Characters can acquire taint by entering a place suffused with evil, coming into contact with a vile object, through the attacks of certain monsters, and performing vile acts. This taint can manifest physically, in which case it is called corruption, or mentally, in which case it is called depravity. Both corruption and depravity are measured in points. Typically, characters acquire 1 point of Corruption or Depravity from exposure to taint.
@@ -53,6 +71,9 @@ Some locations are so suffused with evil that simply entering them exposes a cha
 Depending on the nature of the site, a tainted location can bestow either corruption or depravity upon characters who enter it. Sites strongly associated with the undead and with death often bestow corruption, while sites linked to ﻿evil outsiders and human evil more often bestow depravity. In general, initial exposure to such a tainted place increases a character's taint score (either corruption or depravity) by 1 point. If the evil of the place is very great, it could increase the character's taint score by 1d3 or even 1d4 points. Characters can attempt a saving throw (Fortitude to resist corruption, Will to resist depravity) to avoid this taint or reduce the size of the increase to their taint scores. The DC ranges from 20 for a typical site up to 25 or 30 for extremely malevolent locales.
 
 Other environments, such as [Dread Effects](taint-dread-effects.md) and [Haunting Presences](taint-haunting-presences.md), may affect the amount of Taint in an area.
+
+</div>
+<div class="wd-cell" markdown>
 
 ## Detect Taint
 *Divination*
@@ -95,6 +116,11 @@ Each round, you can turn to detect things in a new area. The spell can penetrate
 
 *Spell is unedited, HoH 128*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Cleansing Taint
 It is possible to remove taint from characters in several ways, including through the use of spells, the performance of good deeds, and cleansing in a sacred spring. Taint cannot be removed unless the tainted character wants to be cleansed. If an increase in taint causes a character's corruption or depravity score to cross over into a higher taint level (for example, shifting from mild to moderate), neither taint score can be reduced to a lower taint level unless quickly treated (within 24 hours) or through use of an atonement, miracle, or wish spell (see below).
 
@@ -130,6 +156,9 @@ As the crystal absorbs taint, it darkens, becomes brittle, and gradually dissolv
 
 Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The item the crystal is being put into will determine which craft skill will be used.
 
+</div>
+<div class="wd-cell" markdown>
+
 | Items Possessed | Points Absorbed |
 |---|---|
 | 1 | \* |
@@ -155,6 +184,11 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 
 *Table: Taint-Absorbing Items*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Effects of Taint
 ﻿Both corruption and depravity manifest in mild, moderate, and severe symptoms. The relationship between a character's taint scores and their Constitution and Wisdom scores determines the severity of the physical and mental manifestations of their taint. A character with a high Constitution can acquire more corruption before displaying physical symptoms, while a character with a low Wisdom quickly manifests mental symptoms of their depravity.
 
@@ -177,6 +211,9 @@ If a character's depravity score exceeds the severe taint threshold, they go irr
 As terrible as the effects of taint are upon the living, they are even worse upon the dead. Any creature that dies while exposed to taint animates in 1d4 hours later as a hideous, evil creature under the control of the GM. What creature it becomes depends on the amount of HD it had before dying. Burning a corpse protects it from this effect. The type of creature is found on the Tainted Reanimation table.
 
 To determine the exact nature of a character's physical or mental taint symptoms, roll 1d10 and look up the result on the accompanying Corruption Effects and Depravity Effects tables. If the character later gains more taint and crosses the threshold into a higher level (mild to moderate or moderate to severe), he gains the next symptom to the right on the table. For example, if Regdar's mild level of corruption is expressed as the mild physical symptom "feet curl," then if their corruption score rises to moderate, he will also manifest the symptom "joint pain."
+
+</div>
+<div class="wd-cell" markdown>
 
 | Con/Wis Score | No Taint | Mild Taint | Moderate Taint | Severe Taint | Dead/Insane |
 |---|---|---|---|---|---|
@@ -201,6 +238,11 @@ To determine the exact nature of a character's physical or mental taint symptoms
 | 9+ | Bodak |
 
 *Table: Tainted Reanimation*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Physical Symptoms
 Corruption manifests as physical symptoms: muscular degeneration, illness, frailty, and the like.
@@ -244,6 +286,9 @@ Some prestige classes allow a character to take this symptom in place of any oth
 **Spine Twists**: Your spine twists and your back hunches. Reduce your Dexterity score by 2.
 **Wrigglers**: Parasitic worms protrude from your sores, sapping your strength. Reduce your Strength score by 2. You gain a +2 bonus to Intimidate checks and take a -4 penalty on other Charisma-based checks.
 
+</div>
+<div class="wd-cell" markdown>
+
 *Corruption Effects*
 
 | d10 | Mild | Moderate | Severe |
@@ -258,6 +303,11 @@ Some prestige classes allow a character to take this symptom in place of any oth
 | 8 | Skin seeps | Blood eruption | Internal corruption |
 | 9 | Skin sloughs | Skin thickens | Skin lichen |
 | 10 | Winded | Chronic illness | Lungs eaten away |
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Mental Symptoms
 Depravity manifests as mental symptoms: growing paranoia, visual and auditory hallucinations, and other problems that could be described as madness. It is important to note that madness in fantastic horror is not an illness that afflicts good and evil alike: It is an expression or a result of evil gnawing away at the mind and soul.
@@ -298,6 +348,9 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Unbalanced**: Your unstable mind makes you unpredictable, particularly in combat. You are automatically confused on your first turn in any combat and every other turn thereafter.
 **Unresponsive**: Your senses are dulled and you lose the ability to discern the truth of the world around you. Reduce your Wisdom score by 2.
 
+</div>
+<div class="wd-cell" markdown>
+
 *Depravity Effects*
 
 | d10 | Mild | Moderate | Severe |
@@ -312,3 +365,6 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 | 8 | Opinionated | Solipsistic | Hubristic |
 | 9 | Prophetic | Delusional | Apathetic |
 | 10 | Sycophantic | Weak-Willed | Fatalistic |
+
+</div>
+</div>

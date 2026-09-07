@@ -2,6 +2,9 @@
 title: "The Pantheons"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # On Divinity
 There is a finite number of divine ranks, the number of which is known only to the Overdeities. If new deities are to earn their divinity, they must meet the requirements set forth by them. Divinity is broken down into the ways that one obtains their ranks: Innate, Earned, Stolen, Imparted, and Surrendered. The methods are rather self-explanatory, but are defined as such:
 
@@ -22,6 +25,11 @@ During the beginning times, the Overdeities of each sphere in the Known Spheres 
 # Deities may reward followers for advancing the goals and cause of their respective deity (thusly decreed during the 2nd Mortal Age).
 # No deity may procreate with mortals, as their offspring would be deemed too powerful for a single mortal to possess.
 # No deity may advance past their rank without first being approved by the Overdeity that manages their respective realm.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Primal Pantheon
 
@@ -60,49 +68,49 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
  - Alignment: Chaotic Good
  - Portfolio: Freedom, Air, Sky, Mercy
  - Symbol: A spiral of clouds coiled around a silver feather
-- Kharzhalek, Lord of Earth
+- [Kharzhalek](pantheon/deity-kharzhalek.md), Lord of Earth
  - Alignment: Neutral Evil
  - Portfolio: Earth, Wealth, Psionics, Tyranny
  - Symbol: A jagged obsidian crown atop a crumbling stone pillar
-- Ignaraxis, Lord of Fire
+- [Ignaraxis](pantheon/deity-ignaraxis.md), Lord of Fire
  - Alignment: Lawful Evil
  - Portfolio: Fire, Destruction, Rebirth
  - Symbol: A blazing flame consuming a crowned skull
 
 ## Lesser Gods (Elemental Heralds)
-- Aravel, Herald of Storms
+- [Aravel](pantheon/deity-aravel.md), Herald of Storms
  - Alignment: Chaotic Good
  - Portfolio: Storms, Lightning, Courage, Freedom
  - Symbol: A jagged bolt cleaving a raincloud
-- Jinzai, Herald of Steam
+- [Jinzai](pantheon/deity-jinzai.md), Herald of Steam
  - Alignment: Neutral Good
  - Portfolio: Steam, Endurance, Primates, Renewal, Hospitality
  - Symbol: Coiling plume rising from a calm pool
-- Khurash, Herald of Smoke
+- [Khurash](pantheon/deity-khurash.md), Herald of Smoke
  - Alignment: True Neutral
  - Portfolio: Smoke, Breath, Transition, Obscurity
  - Symbol: Coiling spiral of ash over smoldering embers
-- Malzark, Herald of Magma
+- [Malzark](pantheon/deity-malzark.md), Herald of Magma
  - Alignment: Neutral Evil
  - Portfolio: Magma, destruction, subterranean conquest, volcanic wrath
  - Symbol: Black iron gauntlet grasping a molten core
-- Seralyne, Herald of Radiance
+- [Seralyne](pantheon/deity-seralyne.md), Herald of Radiance
  - Alignment: Lawful Good
  - Portfolio: Radiance, Zeal, Crusades, Purity, Sunlight
  - Symbol: Burning sun framed by silver wings
-- Tharuun, Herald of Gems
+- [Tharuun](pantheon/deity-tharuun.md), Herald of Gems
  - Alignment: Neutral Good
  - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
  - Symbol: Pickaxe crossed with a radiant crystal
-- Vrog'thul, Herald of Ooze
+- [Vrog'thul](pantheon/deity-vrog-thul.md), Herald of Ooze
  - Alignment: Chaotic Evil
  - Portfolio: Ooze, Corruption, Filth, Hunger
  - Symbol: A dribbling, open eye melting into slime
-- Tenakhaal, Herald of Salt
+- [Tenakhaal](pantheon/deity-tenakhaal.md), Herald of Salt
  - Alignment: Neutral Evil
  - Portfolio: Salt, hatred, dehydration, vengeance, suffering
  - Symbol: A cracked seashell leaking dry grains
-- Vaeltharion, Herald of Dust
+- [Vaeltharion](pantheon/deity-vaeltharion.md), Herald of Dust
  - Alignment: Neutral Evil
  - Portfolio: Death, Preservation, Funerary Rites, Hospitality
  - Symbol: hooded lantern with a dim, ember-like glow
@@ -114,6 +122,11 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
  - Alignment: Chaotic Evil
  - Portfolio: Entropy, decay, dying worlds, extinction, finality
  - Symbol: A dark spiral ring devouring light at its center
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Mortal Pantheon
 The Mortal Pantheon is made up of the champions, heroes, and patrons of the various mortal races. This pantheon was established second by the Overdeities during the 2nd Mortal Era (The Era of Emergences) because the number of mortals spread across the realms had begun spiking, causing a massive intake of mortal souls. Because of this, the overdeities determined that the mortals must rule themselves, and ascended mortal champions to claim godhood and lead their respective races. Over time, more portfolios began to emerge as various feats of divinity were achieved. The deities in this pantheon are collected from all of the Known Spheres, and are recognized enough throughout them due to the introduction of Spelljamming. The rise and fall of multiple of these deities was also the result of Spelljamming spreading portfolios, as there can only be one deity with any known portfolio.
@@ -157,19 +170,19 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
  - Symbol: A blood-red vortex swirling around a jagged, shattered blade.
 
 ## Intermediate Gods (The Paragons)
-- Ornus, Lord of Constructs
+- [Ornus](ornus.md), Lord of Constructs
  - Alignment: Lawful Neutral
  - Portfolio: Constructs, order, artifice, creation
  - Symbol: A gear set within a perfect square
-- Fink, Patron of Goblinoids
+- [Fink](fink.md), Patron of Goblinoids
  - Alignment: Chaotic Neutral
  - Portfolio: Goblinoids, greed, cunning, survival
  - Symbol: A grinning goblin face biting a coin
-- Orion, Patron of Smallfolk
+- [Orion](orion.md), Patron of Smallfolk
  - Alignment: Chaotic Good
  - Portfolio: Smallfolk, artifice, ingenuity, resilience
  - Symbol: A small hammer striking a star
-- Leshrac, Lord of the Undead
+- [Leshrac](leshrac.md), Lord of the Undead
  - Alignment: Lawful Evil
  - Portfolio: Undead, cruelty, control, decay
  - Symbol: A skull bound in iron bands
@@ -177,15 +190,15 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
  - Alignment: Lawful Evil
  - Portfolio: Humans, conquest, dominion, authority
  - Symbol: A crowned gauntlet gripping a globe
-- Sezzek, Patron of Scaly Ones
+- [Sezzek](sezzek.md), Patron of Scaly Ones
  - Alignment: Neutral Evil
  - Portfolio: Scalykind, poison, venom, instinct
  - Symbol: A fanged serpent coiled around a droplet
-- Fronir, Patron of Giants
+- [Fronir](fronir.md), Patron of Giants
  - Alignment: True Neutral
  - Portfolio: Giants, creation, strength, stone
  - Symbol: A towering rune-carved pillar
-- Nessa, Patron of Vermin
+- [Nessa](nessa.md), Patron of Vermin
  - Alignment: Neutral Evil
  - Portfolio: Pestilence, plagues, decay, infestation
  - Symbol: A swarm forming a hollow circle
@@ -196,30 +209,35 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
  - Alignment: Neutral Evil
  - Portfolio: Deserts, drought, decay, endurance
  - Symbol: A cracked sun over a barren dune
-- Enigma, the Lost God
+- [Enigma](enigma.md), the Lost God
  - Alignment: True Neutral
  - Portfolio: Secrets, forgotten knowledge, paradox, obscurity
  - Symbol: A closed eye within a spiraling void
-- Droma, God of Craftsmen
+- [Droma](droma.md), God of Craftsmen
  - Alignment: Lawful Neutral
  - Portfolio: Craftsmanship, creation, labor, invention
  - Symbol: A hammer crossed with a chisel
-- Ithlwick, God of Prosperity
+- [Ithlwick](ithlwick.md), God of Prosperity
  - Alignment: Neutral Good
  - Portfolio: Wealth, trade, fortune, success
  - Symbol: A golden coin stamped with a rising sun
-- Rasmin, God of Mischief
+- [Rasmin](rasmin.md), God of Mischief
  - Alignment: Chaotic Neutral
  - Portfolio: Trickery, pranks, deception, chance
  - Symbol: A laughing mask split down the middle
-- Vaylen, Patron of Sailors and Travelers
+- [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
  - Alignment: Chaotic Good
  - Portfolio: Travel, oceans, winds, safe passage
  - Symbol: A ship beneath a guiding star
-- Asmodeus, Supreme Master of the Nine Hells
+- [Asmodeus](asmodeus.md), Supreme Master of the Nine Hells
  - Alignment: Lawful Evil
  - Portfolio: Tyranny, contracts, domination, devils
  - Symbol: A ruby-tipped scepter or inverted pentagram
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Courts of Faerie
 The courts of Faerie's origins are mostly unknown to most scholars, though most speculate that they originated on the Feywild and migrated into the Material Plane at some point during the 2nd Mortal Era (The Era of Emergences). From there, they spread their influence across the various Known Spheres until they established their courts in all of them, defeating or absorbing the various existing courts from those spheres. This pantheon is worshipped almost entirely by the Fey, though this pantheon is also shared by elves and other mortal descendants of Fey. Druids have also been known to worship this pantheon, though it is unlikely for this pantheon to be outwardly worshipped in any sphere other than one that has been touched by the Feywild, or on the Feywild of that sphere itself.
@@ -331,12 +349,22 @@ Due to their unique source of divinity, these gods possess no ability to grant d
  - Portfolio: Long-lived elves, tradition, slow mastery, endurance of craft and song
  - Symbol: A gnarled root wrapped around a star-shaped leaf
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Divine Flight
 The Divine Flight is a pantheon composed entirely of dragons and is worshipped primarily by dragons and their kin. Though this number is not as high as the non-draconic mortals, the strength of dragons' souls and devotion is so strong that this alone sustains this pantheon. Its adherents include dragons, kobolds, half-dragons, dragonborn, and other dragonblooded beings, with occasional reverence observed among dragon shamans and dragonfire adepts of other races. The progenitors of this pantheon did not arise within the Known Spheres. They came instead from the sphere known as Realmspace, departing over an extended exodus early on in the Mythic Era (1E). Draconic scholars maintained detailed records of this migration, preserving accounts of each flight and the deliberations of the ancient wyrms who guided them. These records describe a rare consensus among the eldest dragons of each lineage, reached in response to the phenomenon known as the Rage of Dragons. Each major flight contributed to the migration, establishing the foundation of draconic presence across the Known Spheres.
 
 The phenomenon known as the Rage of Dragons, or Dracorage, was understood to affect dragonkind at a fundamental level. It manifested as a mounting pressure within the mind, eroding judgment and restraint until even the most disciplined dragons succumbed to violent compulsion. Those afflicted gathered into destructive flights and enacted widespread devastation without regard for prior allegiance or disposition. Following their arrival in the Known Spheres, this condition was no longer observed among dragonkind and was therefore regarded as escaped through the exodus. The dragons who migrated were never made aware of the eventual end of the Dracorage within Realmspace. Having found stability in their new domain, they showed little inclination to investigate its continued status thereafter.
 
 The existence of Dragonborn in Antæra, and thusly other descendants of dragons, is entirely the result of this pantheon. Dragonborn are similar in origin to Warlocks, having made a pact with a powerful dragon and been given the Rite of Rebirth by said dragon. The scales of the resulting Dragonborn match those of the dragon they made their pact with, and their personality slightly adjusts to be more similar to the personality of the respective flight in which they serve.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Imperial Pantheon
 During the 3rd Era (The Era of Man), the influence of the [Imperium](nation/new-haven-imperium.md) and Humans throughout the Known Spheres grew exponentially with their rapid population growth. So much so, in fact, that their leaders and folk heroes ascended to divinity through the sheer number of followers and worshippers they have. This is the first known pantheon to have started through multi-sphere worship alone. The divinity bestowed upon these gods was granted by the overdeities of the spheres they were currently inhabiting. Though due to the nature of their worship, they assembled their own pantheon and guide their people through wildspace and the rest of the planes.
@@ -348,6 +376,9 @@ This pantheon is worshipped solely by humans, though they are not picky as to wh
 ## Intermediate Gods
 
 ## Lesser Gods
+
+</div>
+</div>
 
 *[Depreciated](pantheon.md)*
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

@@ -2,6 +2,15 @@
 title: "Sphere Paxaeterna"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Paxæterna
 
 Paxæterna is a sphere adrift in calm—a luminous stillness that envelopes all within. Spelljamming pilgrims journey from distant spheres not for wealth or conquest, but to kneel in the monasteries and sanctuaries that crown its peaceful worlds. Here, harmony is not merely encouraged—it is reality’s rhythm. Across hills and plains, in lake-girt cloisters and silent mountain retreats, the cultures of Paxæterna live by contemplative creed. Conflict is rare, settled not through trial or blade, but by consensus, song, and shared silence. The wildspace itself glows faintly with auroral currents that soothe unrest.
@@ -11,6 +20,11 @@ At the center of the sphere glows Serenitas, a brilliant, pulsing star that is n
 Far beyond, in orbit around the outermost world, drifts the Forma Externum—a colossal Antæran star station forged of tan-colored starmetal. Its smooth surfaces are etched with carvings and linework that resist translation or interpretation, forming vast symbolic patterns that seem to hum when viewed in silence. Though alien in origin, the station is host to Paxæterna’s ruling conclave, who govern in perfect stillness. Those who enter often find their disputes forgotten, their tempers stilled. No one knows whether the station thinks, dreams, or simply abides—but none deny its influence. It is not merely indestructible. It is inexorably pacifying.
 
 Astrologers and planetologists who have studied the sphere agree that life on its terrestrial worlds is not sustained by solar heat, but by the raw vitality of the Positive Energy Plane itself. This life-force permeates land and air, nurturing forests, fields, and flesh alike. Though climates remain stable and temperate by unknown balancing forces, it is the essence of Serenitas that allows these peaceful realms to flourish in radiant quietude.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 Type of Sphere: Standard
@@ -57,6 +71,11 @@ Primary Body:
  - Shape: spherical
  - Other Notes: Verdelux is a world of immense silence and softly rolling uplands, where forests of slow-growing silverbark trees rise from loam rich with bioluminescent mycelium. Towers of earth and overgrown stone mark the locations of abandoned monastic settlements, long since relocated nearer to the tranquil auroras in orbit. Suspended above the planet in a calm, gliding ring is the Forma Externum, the ancient Antæran star station and political seat of Paxæterna.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser**
@@ -81,3 +100,6 @@ Primary Body:
 - Faelune, Lark of the Crystal Sky (Chaotic Good)
 - Zenvar, Stonepath Guide (Neutral Good)
 - Lysamir, Candle in Dusk (Lawful Good)
+
+</div>
+</div>

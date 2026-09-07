@@ -2,6 +2,9 @@
 title: "The Index"
 ---
 
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-cell" markdown>
+
 # General Houserules & Clarifications
 - Master Alchemist/ Alchemist Savant: The Brew Potion class feature of the Master Alchemist does interact with the Brew Spellvial class feature of the Alchemist Savant.
 - If any content has Toughness listed as a prerequisite, it can be replaced with Improved Toughness
@@ -29,11 +32,19 @@ title: "The Index"
 - If a statblock does not grant the ability to cast/prepare spells or manifest powers (IE, the Spells ability from Arcanaloth), or does not grant class levels in a spellcasting/manifesting class, then any ability that allows you to "cast spells as a xth level [class]" (or any similar ability for psionics) modifies only your caster/manifestor level when casting/manifesting the aforementioned class' spells/powers
  - For example, the Arcane Talent (Ex) ability from Hobgoblin Warcaster & Warsoul does not grant the ability to cast or prepare spells, even though they say they cast spells as a 4th & 9th level wizard (respectively)
 
+</div>
+<div class="wd-cell" markdown>
+
 *<u>**Note from the DM**</u>: All rules are subject to change at the DM's discretion. If something is found to be too powerful, it will be banned/restricted/altered, and you will be asked to swap the content for something else. If players would like banned content added, they must talk to the DM about inclusion and give suggestions on their use and how they could be integrated into the world.*
 
 *I understand this page is a bit extensive. However, this is a result of previous players attempting to slide things past me or use obscure combinations that would otherwise be too powerful to be allowed.*
 
 *<u>**Rules Lawyers**</u>: It is fine to know the rules. However, arguing with the DM on the RAW or a ruling is not okay. If you are found to be too aggressive in this, you WILL be removed.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Variant Rules In Effect
 
@@ -69,6 +80,11 @@ title: "The Index"
 ## Y
 ## Z
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Banned Content
 - Sovereign Archetypes are banned
 - Banned Builds, Combos, Variants, Classes
@@ -81,6 +97,11 @@ title: "The Index"
 - Gloves of the Master Strategist
 - Deep Imaskiri (there is a homebrew version available instead)
 - Seelie Court Fey & Unseelie Fey templates
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Restricted Content
 - Liquid Pain/ Distilled Joy when used for item creation must be kept mild; if taken to extreme cheese, it will be banned
@@ -101,6 +122,11 @@ title: "The Index"
 - Items that enhance ability scores can only have even numbers (ie +2, +4, +6, etc)
 - Multiple Nightsticks do not stack
 - Leadership and other Leadership-adjacent content must be worked on with the GM on a case-by-case basis. You may ask for a certain type of cohort, and one will be built and provided to you by the GM. You must find your cohort and followers in game.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Altered Content
 
@@ -240,6 +266,12 @@ White Raven Tactics: Cannot affect the user
 - Anything that deals with nautical content can be used for their spelljamming counterparts. This does not apply to any such content specific to aquatic or zero-g environments.
 - Classes and Prestige Classes dealing with nautical content may be adapted to spelljamming, but must be approved by the DM before use.
 
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Homebrew: Items
 
 ## A
@@ -251,7 +283,7 @@ White Raven Tactics: Cannot affect the user
 ## E
 - [Elven Climber's Gloves](elven-climbers-gloves.md)
 ## F
-- Firearms
+- [Firearms](firearms.md)
 ## G
 ## H
 - [Profane/Blessed (Un)Holy Symbol](item-blessed-holy-symbol.md)
@@ -264,7 +296,7 @@ White Raven Tactics: Cannot affect the user
 ## N
 ## O
 ## P
-- Planar Crystal
+- [Planar Crystal](planar-crystal.md)
 - [Poisoner's Quiver](poisoners-quiver.md)
 ## Q
 ## R
@@ -277,6 +309,11 @@ White Raven Tactics: Cannot affect the user
 ## X
 ## Y
 ## Z
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Homebrew: Spells/Powers
 
@@ -311,6 +348,11 @@ White Raven Tactics: Cannot affect the user
 ## Y
 ## Z
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Homebrew: Skills
 
 ## A
@@ -341,6 +383,11 @@ White Raven Tactics: Cannot affect the user
 ## X
 ## Y
 ## Z
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Homebrew: Bestiary
 
@@ -375,11 +422,16 @@ White Raven Tactics: Cannot affect the user
 ## Y
 ## Z
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Homebrew: Miscellaneous
 
 ## A
 ## B
-- Backgrounds
+- [Backgrounds](backgrounds.md)
 ## C
 - [Commisioning Items](rules/commissions.md)
 ## D
@@ -408,12 +460,17 @@ White Raven Tactics: Cannot affect the user
 ## Y
 ## Z
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Factions
 
 ## A
 ## B
 ## C
-- Collegiate Oculatus
+- [Collegiate Oculatus](collegiate-oculatus.md)
 ## D
 ## E
 ## F
@@ -445,3 +502,6 @@ White Raven Tactics: Cannot affect the user
 ## X
 ## Y
 ## Z
+
+</div>
+</div>

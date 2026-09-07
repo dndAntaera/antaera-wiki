@@ -2,6 +2,15 @@
 title: "Sphere Aerivagus"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Aerivagus Sphere
 
 There are no true stillnesses in Aerivagus—only pauses in the wind. Travelers entering this sphere often feel their breath catch, not from awe, but from the eerie press of ceaseless motion. The very void seems alive here, restless and whispering, as if haunted by the sighs of long-dead titans. Wildspace gales brush along the hulls of spelljammers like ghostly fingers, and even seasoned sailors mutter prayers to strange gods before crossing. They say that those who die in Aerivagus do not rest—they drift, pulled endlessly by the currents, dreaming windswept dreams.
@@ -13,6 +22,11 @@ Nothing in Aerivagus remains whole. The planets have been broken, their pieces t
 Suspended in the gale hangs the Stratos Cradle, a haven of hardened mist and magic-forged skyglass. Wide as a mountain range and ringed like a giant’s crown, it is a drifting sanctuary cobbled together from ruins and forgotten magics. Sailors barter here for passage, supplies, or secrets, though none stay long. The Cradle’s true value lies in its archives—whisper-bound tomes and starwind maps that flicker with old truth. Some say a gate lies buried deep within its core, a way out, or a way far deeper in.
 
 Long ago, before the winds screamed, the Antærans seeded the sphere with a relic that should not have survived. Deep in the magnetic fractures of Crythone, hidden beneath a dome of static-cracked obsidian, rests the Laminara Codex, a silent, spiraling tower of tan starmetal that hums faintly in the teeth of every storm. Its presence disrupts the currents nearby, warping wind and gravity alike. Lightning will not touch it. Voices echo strangely near its surface, repeating words not yet spoken. No one knows what it was built for, but all who find it agree: it is watching.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Astrology & Planetology
 
@@ -63,6 +77,11 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
  - **Shape**: Fragmented
  - **Other Notes**: Crythone is a labyrinth of broken peaks, dust storms, and twisting chasms, shaped by ancient violence and ongoing winds. Dust and rocky debris form loose clouds between larger masses, giving the entire debris field a faint, drifting haze. Navigation is perilous, as fragments can suddenly shift when buffeted by the wildspace storms. Ruined towers and crumbled citadels still cling to some larger fragments, relics of a lost civilization drowned in chaos.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -90,3 +109,6 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
 - Saetria, Last Breath of the Exiled (Chaotic Neutral)
 - Uthrem, Splinter-Fanged Gale (Neutral Evil)
 - Aetraxa, The Ruin-Clad Tempest (Chaotic Evil)
+
+</div>
+</div>

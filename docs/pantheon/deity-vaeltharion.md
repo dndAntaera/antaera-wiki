@@ -1,6 +1,11 @@
 ---
-title: "Vaeltharion, Herald of Dust"
+title: "Deity Vaeltharion"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Vaeltharion, Herald of Dust
 
 - **Symbol**: A hooded lantern with a dim, ember-like glow
 - **Home Plane**: Quasi-Elemental Plane of Dust
@@ -22,3 +27,6 @@ From dust we come, to dust we return. The body is the vessel of one’s journey,
 
 **Home Sphere**
 Vaeltharion hails from the Lapis Sphere, a place where darkness is broken only by the slow pulse of psionic life. Born among the drifting mists of Umbravore, he once walked its hidden paths and hollow worlds as a mortal drow before his ascension. Though his influence now stretches far beyond its bounds and his duties keep him dwelling upon the Ethereal, the Lapis Sphere remains his place of origin—the soil and silence from which he first rose.
+
+</div>
+</div>

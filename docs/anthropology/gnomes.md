@@ -2,8 +2,11 @@
 title: "Gnomes"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Origin Story
-Towards the beginning of recorded history, there sat a supermassive planar crystal of unparalleled magnitude deep within the earth of the Prime Material Plane. This crystal, unlike any other, pulsed with latent energy, a connection to the Astral Plane so profound that it transcended mere physical existence. Over several millennia, a consciousness stirred within its crystalline depths, an awareness born from the cosmic energies it absorbed and the endless expanse it observed. This consciousness, nascent and curious, grew, and with its growth came power, a power so immense it obtained divinity. The crystal, now sentient, gave itself a form and a name: Orion.
+Towards the beginning of recorded history, there sat a supermassive planar crystal of unparalleled magnitude deep within the earth of the Prime Material Plane. This crystal, unlike any other, pulsed with latent energy, a connection to the Astral Plane so profound that it transcended mere physical existence. Over several millennia, a consciousness stirred within its crystalline depths, an awareness born from the cosmic energies it absorbed and the endless expanse it observed. This consciousness, nascent and curious, grew, and with its growth came power, a power so immense it obtained divinity. The crystal, now sentient, gave itself a form and a name: [Orion](../orion.md).
 
 Orion, in its newfound divinity, traversed the material planes, a luminous figure of awe and wonder. During these travels, Orion discovered others of its kind – planar crystals, each resonating with the unique energies of their respective planes. However, none possessed the consciousness that Orion had attained. Moved by a sense of kinship and a newfound purpose, Orion embarked on a journey across the parallel material planes.
 
@@ -21,4 +24,12 @@ The gnomes' exploration of their elemental heritage naturally extended into arti
 
 Thus, the gnomes of Antæra, born from the breath of a divine crystal and shaped by the tumult of elemental war, emerged as a race of profound power and intellect. Their history, marked by conflict and discovery, shaped them into beings of elemental might and unmatched curiosity, forever seeking to unravel the mysteries of the cosmos they were born from.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # General Culture
+
+</div>
+</div>

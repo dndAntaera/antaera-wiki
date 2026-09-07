@@ -1,6 +1,11 @@
 ---
-title: "Pyrius, Herald of Ash"
+title: "Deity Pyrius"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Pyrius, Herald of Ash
 
 - **Symbol**: A dark spiral ring devouring light at its center
 - **Home Plane**: Quasi-Elemental Plane of Ash
@@ -26,3 +31,6 @@ The surface of Pyrius is a wasteland of ruin and cinder, where the remnants of i
 
 **Home Sphere**
 The true origin of Pyrius lies beyond the Known Spheres. Scholars believe it once belonged to a long-lost, derelict sphere that shattered and died in the depths of wildspace—its name forgotten, its star extinguished. Pyrius is thought to be the only remnant of that sphere’s final death, wandering ever outward to spread its entropy to the living cosmos.
+
+</div>
+</div>

@@ -2,7 +2,16 @@
 title: "Combat Movement"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 *Header image.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Ship Movement
 Ship movement can be treated under two categories: long range and tactical. Long-range movement is used for traveling over the great distances of space between the planets and along the rainbow ocean called the phlogiston that runs between the crystal shells. Tactical movement deals with shorter ranges between objects in space and is the theater of ship-to-ship combat.
@@ -11,6 +20,11 @@ The magic behind the spelljammer helms allows them to travel great distances in 
 
 ## Long-Range Movement In Atmosphere
 A spelljammer helm grants a hull 100 ft of movement, plus an additional 50 ft for every 2 points of its ship's rating (minimum 50 ft). This translates into approximately 17 miles per hour, or approximately 400 miles per day, per 2 ship rating points. This is a wonderful number when compared with most ground movement, which is measured in tens of miles. Few people who spend their lives on the ground travel 400 miles in their entire lives.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Taking Off and Landing
 Only ships capable of landing on water or land can do so and take off safely. Any ship can crash onto a planet or its ocean, but then taking off again is guaranteed to be a problem (see Crashes).
@@ -47,12 +61,22 @@ Atmospheric conditions may create difficulties in both landing and taking off.
 | Gale | Time × 4 |
 | Hurricane | No takeoff or landing possible |
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Tactical Movement
 Tactical movement occurs when a ship encounters another large body, usually another ship. Such tactical encounters can occur either in the Flow or in wildspace, and both are handled similarly.
 
 Each hex on a star map, a battle map designed for ship to ship battles, is 150 ft across. A round of combat in space is the same as a standard round—6 seconds.
 
 Movement and combat are handled in a two-dimensional format despite the fact that space (even fantasy space) is three-dimensional. This is purely for the sake of simplicity. Three-dimensional rules are very slow and add little or nothing to the flavor of the game.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Ship-to-Ship Combat
 Ship-to-ship combat flows along the same lines as standard combat. Initiative is determined for the turn, then one side moves and fires, then the other. The chief difference is the sense of scale involved. Missiles can travel through space several miles before finding a target, while magic spells require a closer approach, and ramming and boarding closer still.
@@ -80,6 +104,11 @@ When a ship changes direction, it uses one SR for every hex side it turns. The m
 ## Stacking
 Any number of ships can be in the same hex at the same time. Ships in the same hex have the option to board, ram, grapple, or engage in missile fire and magic.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Combat
 There are two general types of combat in space: long range and close combat. Long-range combat occurs when the ships are in different hexes. This is beyond the range of most magical effects and is the province of missiles and heavy armaments. Close combat occurs when two ships are (however briefly) in the same hex. Then spell attacks occur, in addition to other missiles. It is also at such times that boarding and ramming can occur between ships.
 
@@ -102,6 +131,11 @@ Many large weapons take more than one round to reload between shots.
 The winner of the initiative die roll can choose whether they want to move first or last that round. The player with the second-best initiative roll can choose whether to move second or second to last, and so on.
 
 Unless optional initiative rules are used, there are no initiative modifiers in space for spaceships. Individuals fighting on the decks of a ship may fight with standard initiative modifiers.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Long-Range Combat
 
@@ -224,6 +258,11 @@ While the portrayal of combat here is two-dimensional, in reality, a ship could 
 
 Nonmovable weapons designed to fire toward the front and rear of the ship may only fire at targets that are within the lines set up by the three frontal (or rear) hexes. They in addition receive a +2 to their attack bonus to hit targets directly in front (for front-mounted weapons) or directly behind (for rear-mounted weapons). This is due to the "stability" of the shooting platform (as much anything whirling through space can be considered "stable").
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Short-Range Combat
 When a ship enters the same hex as another ship, short-range combat can occur. The attacker has the option of firing any hand-held weapons or large weapons (except catapults). Following his attacks, the player whose hex he entered has the option of making any missile, large weapon, or magic attacks. Following this, if there are any other ships in the area, they have the option to fire as well.
 
@@ -244,6 +283,11 @@ All spells with a range greater than 150 ft can be cast on another ship in the s
 Magic which inflicts damage in points has the same effect as personal weapons. For every 10 points of damage inflicted by a spell that is directed against a ship, it inflicts one point of hull damage. A fireball which causes 30 points of damage inflicts 3 points of hull damage (and starts a fire, if possible).
 
 Spells which do not inflict points of damage can still harm a spelljamming craft. A disintegrate spell cast on a ship’s bow, for example, results in a Hull Holed critical hit. A dispel magic cast on the spelljamming helm causes it to malfunction for one round, temporarily reducing the ship’s SR to 0. A warp wood may weaken a few boards but causes no hull damage; alternatively, it could destroy an enemy ballista.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Ramming
 
@@ -290,6 +334,11 @@ In general, a ship ramming another ship will maintain its positional relationshi
 ## Ramming Gargantuan Creatures
 
 In general, living things cannot be effectively rammed (they are too small). Creatures of gargantuan size, however, are large enough that a ram would have an effect. Ramming damage dealt to Gargantuan creatures are instead measured with a d4, rather than the normal d6. Therefore if a ram which would normally inflict 4d6 hull points was to be used against a space wyrm, the ship would inflict 4d4 dice of damage.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Crashes
 When two ships occupy the same hex, there are four possibilities:
@@ -357,6 +406,11 @@ In very dangerous situations, a morale check should be made to see if the crew w
 
 In case of a failure of morale, the crew will retreat back to its native ship. If the crew is on its native ship, it will surrender (unless it is checking morale to determine whether it will board, in which case the crew just refuses to attack). In certain cases (such as dealing with villainous neogi, who are merciless), they will fight to the death.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Rapid Resolution of Small-Scale Combat
 There will be situations, such as a crew all stocked by PCs, where the actions of every character are important. Similarly, there are situations where a long, large-scale combat between conflicting sides of NPCs will just waste the players' time. The following system can be used to resolve combat between large numbers of essentially featureless NPCs.
 
@@ -386,6 +440,11 @@ Fights between very different types of creatures probably should be handled with
 A ship that has been grappled may also be towed. Both ships are considered to be part of the same larger ship; their tonnage is added together to determine if a spelljamming helm or other device can move the whole mass.
 
 Only the stronger of the two spelljamming devices will function when the ships are linked, so that the weaker item will be inhibited until all the lines are cut. "Strength" is determined by the ship's current SR. A large ship with a low SR may suddenly find itself being dragged through debris fields by a smaller but more SR-powerful ship. If the SRs are equal, then neither ship may move as long as both helms remain in working order.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Encounters, Evasion, and Running Away
 Given the nature of space movement, an opposing craft may appear suddenly in the distance, then slow to combat speed almost immediately. Since it is the nature of the spelljamming helm to stop when it nears the gravity plane of another body, many encounters will occur without the desire of either side.
@@ -432,6 +491,11 @@ Small shot like a jettison load will not stop a pursuer, but does have a 5% chan
 
 If the fleeing ship slows down for some reason, then the pursuing ship will appear (as a normal encounter) in the same number of rounds as when the pursued ship disappeared. If it took two rounds for the pursuer to follow, it will appear two rounds after the lead ship stops. Ships trying to evade pursuit will often use such a lead to stop, turn, and flee in a new direction, hoping to be gone on a new course before their pursuer arrives.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Repair
 Spelljamming ships are remarkably easy to repair—their only irreplaceable parts are the helm (or other spelljamming device) and the people who crew them.
 
@@ -442,6 +506,11 @@ If a ship is very badly damaged (more than 50% of its hull points lost), the cos
 Poor (or cheap) characters can repair ships themselves. A crew of five individuals, with the correct materials, can repair one hull point in a week in space. Materials can be acquired by buying them at a groundling city (at an approximate cost of 50 gp per hull point worth of material) or just landing on a vacant stand of timber and taking what is needed.
 
 Such repairs are just as good as the expensive ones, provided that at least one member of each five-man crew has carpentry or some other relevant proficiency (repairing a dwarven flying mountain, for example, would call more for stonemasonry). The chance of scoring a critical hit against a poorly maintained ship increases by 1 until the hull points are repaired again by someone with the appropriate skill.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Morale (Optional Rule)
 
@@ -517,5 +586,8 @@ Because morale is checked at the end of the round, it is possible for all ships 
 If a ship that has struck its colors has PCs aboard, it is up to the players to decide whether to pursue the fight or not. A ship that has struck its colors will not use its NPCs to fire weapons or board, but the PCs may do so. If a player character is at the helm, he may continue moving the ship.
 
 However, be warned. A ship that has struck its colors only to attack again is generally accorded no mercy by other ships. An NPC crew will mutiny immediately against a captain or officers who pursue the fight after a surrender, since this only puts their lives at even greater risk (if they are ultimately defeated, the enemy is likely to simply maroon them in space, or worse).
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

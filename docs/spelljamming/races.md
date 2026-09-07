@@ -2,6 +2,15 @@
 title: "Races"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Races of the Stars
 
 Many elves, dwarves, gnomes, halflings, and humans ply the spacelanes. Most player characters will come from these familiar races or specialized races (like kender and hengyokai) from one of the many worlds.
@@ -14,6 +23,11 @@ Given the nature of spelljammer, many similar races may exist from different sou
 - All creatures and races that are written as being related to, or descended from, dragons all gain the Dragonblood subtype if they did not already have it. IE: Kobolds
 - All creatures and races that are written as being related to, or descended from, reptiles or other scaly creatures lose the Scaly One and Reptilian subtypes (if they had it) and gain the Scalykind subtype (if they did not already have it.)
 - All creatures and races that are written as being related to, or descended from, insects gain the Insectoid subtye (if they did not already have it.) This extends to any creatures with insectile physiology.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Dracons
 
@@ -108,8 +122,16 @@ Their homeworld contains large, shallow seas and at least one large moon. Beyond
 - **Favored Class**: Cleric
 - **Level Adjustment**: +2
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_races_header.jpg)
 *A typical Dracon.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Giff
 
@@ -178,8 +200,16 @@ Other giff adventure under orders—giff platoons try their best regardless of t
 - **Favored Class**: Fighter.
 - **Level Adjustment**: +2
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_races_inline.jpg)
 *A typical Giff.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Grommams
 
@@ -230,6 +260,11 @@ Because grommams are so adept at climbing, they make heavy use of ropes, rigging
 - **Bonus Languages**: Dowhar, Elven, Gnome, Hadozee, Scro, Undercommon.
 - **Favored Class**: Fighter.
 - **Level Adjustment**: +0
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Hadozee
 
@@ -314,6 +349,11 @@ Hadozee often use their gliding abilities and dexterity to great effect, whether
 - Automatic Languages: Common, Hadozee. Bonus Languages: Any (other than secret languages, such as Druidic). See the *Speak Language* skill.
 - Favored Class: Rogue
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Herwaet (Wiggle)
 
 The hurwaeti, also known as wiggles, are an ancient humanoid reptilian race distantly related to both sahuagin and lizard men. Once a powerful spacefaring civilization that had colonized many systems, they spread art, civilization, morality, and a philosophy favoring altruism and discipline throughout the spheres. Their empire was shattered by an ancient war that killed the brightest and most energetic among them. Many survivors degenerated into the swamp and salt wiggles, while others became scattered wanderers, working as mercenaries, traders, salvagers, or pirates.
@@ -369,6 +409,11 @@ Many hurwaeti who venture out as adventurers are former crew members, mercenarie
 - **Scaly Hide**: Hurwaeti have a natural armor bonus of +2. Additionally, non-magical armor must be custom made to fit a hurwaet's body shape. Such armor costs 50% more than normal armor.
 - **Fog Cloud (Ex)**: Once per day, a hurwaet can produce a *fog cloud* similar to the spell of the same name (CL = HD). This cloud is considered fresh air when in an air envelope, and can be used to freshen the envelope equal to an ammount appropriate to the dimensions of the cloud.
 - **Automatic Languages**: Hurwaet and Scalykind. Bonus Languages: Common, Dowhar, Elven, Gnome, Scro, Undercommon, any other scalykind racial dialect.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Lizardfolk
 Lizardfolk are large, reptilian humanoids known for their survival instincts and alien worldview. Deeply tied to the natural world, they are emotionally reserved and view most things through a pragmatic lens. While they often appear primitive to outsiders, lizardfolk societies are ancient and enduring, some even having adapted to spacefaring life with the aid of hurwaeti knowledge. They value strength, utility, and tribal loyalty above all else.
@@ -429,6 +474,11 @@ Spacefaring lizardfolk have all of the lizardfolk racial traits given in the Mon
 - **Automatic Languages**: Lizardfolk and Scalykind. Bonus Languages: Common, Dowhar, Elven, Gnome, Scro, Undercommon, any other scalykind racial dialect.
 - **Favored Class**: Rogue.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Rastipede
 Rastipedes are insectoid centaurs with long, segmented bodies and eight legs that allow them to scuttle about with impressive speed and agility. Their upper torsos are vaguely humanoid, with two dexterous arms and a head that features large compound eyes, chitinous mandibles, and long, whip-like antennae. Covered entirely in a hard chitinous exoskeleton, they are naturally protected and visually striking. Rastipedes are renowned across the Known Spheres for their mercantile prowess, often serving as traders, intermediaries, and facilitators in complex deals.
 
@@ -484,6 +534,11 @@ Though peaceful by nature, rastipedes are capable of defending themselves and do
 - **Favored Class**: Ranger
 - **Level Adjustment**: +2
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Scro
 The Scro are advanced orcs from a distant sphere, forged into a disciplined and warlike race after the defeat of the orcs in the Unhuman Wars. Transformed by the visionary Dukgash, the Scro abandoned chaotic savagery in favor of rigorous structure, tactical discipline, and militarized culture. Feared and grudgingly respected, they are consummate warriors—adept at fighting against overwhelming odds, in formation, or in command of less disciplined allies. Though rare now, they are poised to return as a dominant force in wildspace.
 
@@ -526,6 +581,11 @@ Scro adventurers are often from the lower castes—those who failed to meet the 
 - **Automatic Languages**: Common and Scro. Bonus Languages: Common, Dowhar, Dwarven, Elven, Gnome, Giff, Goblin, Undercommon, and Orc.
 - **Favored Class**: Monk
 - **Level Adjustment**: +2
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Xixchil
 Xixchil are six-limbed insectoid beings resembling humanoid praying mantises, known across wildspace for their mastery of surgery and self-modification. Their forward limbs end in sharp retractable blades, while their central limbs are delicate manipulators often replaced or enhanced with mechanical precision tools. To the xixchil, the body is a blank shell meant to be transformed—through artistry, discipline, and surgery—into something beautiful and deadly. Their culture treats surgical enhancement as both philosophy and spiritual practice, and most xixchil are adorned with embedded jewels, metallic inlays, and biological ornamentation. Their talent for both healing and augmentation has made them renowned among other species, even if their motivations remain alien and self-centered.
@@ -603,6 +663,11 @@ Roll | Result
 - 3 | Weakened bones: Patient gains vulnerability to bludgeoning damage
 - 4 | Thin blood: Patient gains vulnerability to slashing damage
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Insectare
 
 ## Personality
@@ -647,5 +712,8 @@ Insectare adventurers act in service to their race. They seek lost knowledge, ar
 - **Favored Class**: Sorcerer*. Insectare cast spells naturally, drawing power from their arcane ancestry. They constantly seek new spells, which are somehow absorbed into future bloodlines and eventually learned by other insectare.
  - *If Complete Adventurer is available in your campaign, the insectare’s favored class is spellthief.*
 - **Level Adjustment**: +1.
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

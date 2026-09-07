@@ -2,6 +2,9 @@
 title: "Item Blessed Holy Symbol"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 **Price (Item Level)**: 2800 gp (5th level)
 **Body Slot**: Neck
 **Caster Level**: 5th
@@ -20,6 +23,11 @@ To use the relic's power, you must worship the deity tied to the relic and sacri
 *Prerequisites*: Craft Wondrous Item, Sanctify Relic, Bless, Prayer, Alignment matching that of the chosen deity
 *Cost to Create*: 1400 gp, 112 EXP, 3 days.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Rituals
 - **Lawful Good**: typically an exaltation and the ringing of a bell.
 - **Neutral Good**: typically a silent prayer and the burning of incense.
@@ -30,3 +38,6 @@ To use the relic's power, you must worship the deity tied to the relic and sacri
 - **Lawful Evil**: typically a profane ritual involving incense and a prayer.
 - **Neutral Evil**: typically a silent prayer and a blood sacrifice.
 - **Chaotic Evil**: typically a loud exaltation and a blood sacrifice.
+
+</div>
+</div>

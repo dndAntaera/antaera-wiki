@@ -1,6 +1,11 @@
 ---
-title: "Aezhera, Lady of Air"
+title: "Deity Aezhera"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Aezhera, Lady of Air
 
 - **Symbol**: A spiral of clouds coiled around a silver feather
 - **Home Plane**: Elemental Plane of Air
@@ -22,3 +27,6 @@ Let the wind be your guide and freedom your creed. Aid those trapped or oppresse
 
 **Home Sphere**
 Aezhera’s native sphere is Aerivagus, a realm of broken planets and howling currents spun around the Cyclone Gate, a relic that breathes air into the void. Her presence is strongest near Serith Ventus, where drifting landmasses cradle open-sky shrines suspended between shattered earth and starlight. Here, amid the Sighing Tempests and the endless howl of freedom, her spirit rides the winds unbound.
+
+</div>
+</div>

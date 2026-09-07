@@ -2,10 +2,18 @@
 title: "Taint Haunting Presences"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 Sometimes when undead are created they come into being without a physical form and are merely presences of malign evil. Haunting presences usually occur as the result of atrocious crimes. Tied to particular locations or objects, these beings might reveal their unquiet natures only indirectly, at least at first.
 
 As a haunting presence, an undead is impossible to affect or even sense directly. A haunting presence is more fleeting than undead who appear as incorporeal ghosts or wraiths, or even those undead enterprising enough to range the Ethereal Plane. Each haunting presence is tied to an object or location and can only be dispelled by exorcism or the destruction of the object or location. Despite having no physicality, each haunting presence still possesses the identity of a specific kind of undead. For instance, one haunting presence might be similar to a vampire, while another is more like a wraith.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 **The Haunting**: Whenever an undead appears as a haunting presence, it haunts an unattended, mundane object or location. The DM, using the same decision-making process as for populating an area with a standard monster, chooses an unattended, mundane object or location as the subject of a haunting presence. The DM also determines the variety of undead (skeleton, zombie, wraith, or whatever) that serves as the source of the haunting presence. An undead can haunt a discrete object of at least Tiny size and no larger than Huge size. Items (both magical and mundane) currently in the possession of a character (often referred to as attended items) cannot be haunted. Unattended magic items receive a saving throw as if a spell were being cast upon the item (DC 10 + ½ the undead's HD + the undead's Cha modifier).
 
@@ -51,3 +59,6 @@ Occasionally, haunting effects that seem illusory are at least partially real, l
 **Taint and Hauntings**: A character who spends the night in a haunted location must make a DC 20 Will save or have his depravity score increase by 1. The saving throw DC might be higher in more severe cases of haunting.
 
 **Exorcising a Haunted Site**: Just as in the case of a haunted presence, an exorcist can perform a ritual to cleanse a haunted site. If the exorcist successfully performs the ritual, which requires ten consecutive full-round actions and a DC 20 Knowledge (religion) check, the haunting energies coalesce into a form that renders them vulnerable to traditional methods of removing magical effects, such as *dispel magic*, *remove curse*, or *break enchantment* spells. A haunted site's effective caster level is the minimum required to cast the highest-level spell duplicated by the haunting. With a successful ritual, the haunting energies remain vulnerable for 1 full round, but the exorcist can continue the ritual, causing the haunting energies to remain vulnerable, by making additional Knowledge (religion) checks each round.
+
+</div>
+</div>

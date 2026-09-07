@@ -1,6 +1,11 @@
 ---
-title: "Kharzhalek, Lord of Earth"
+title: "Deity Kharzhalek"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Kharzhalek, Lord of Earth
 
 - **Symbol**: A jagged obsidian crown atop a crumbling stone pillar
 - **Home Plane**: Elemental Plane of Earth
@@ -22,3 +27,6 @@ Earth remembers. Those who harness its strength, its silence, and its memory des
 
 **Home Sphere**
 Kharzhalek hails from the Lapis Sphere, a realm of psionic resonance and stonebound silence. He is most venerated on Radicula and within the hidden psionic colonies scattered through the Cinctum Veneris. The planet’s Archivum Mentis, with its memory-etched stones and caretakers of mold, is believed to have recorded the first tremors of his ascension. His influence pulses in the thoughts that drift between asteroids, in the echoes of ancient authority buried beneath stone, and in the weight of unspoken tyranny that hangs over every silent temple.
+
+</div>
+</div>

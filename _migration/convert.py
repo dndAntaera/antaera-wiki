@@ -77,6 +77,18 @@ GENERIC_HEADINGS = {
 }
 
 
+def norm_slug(target):
+    """Normalise a Wikidot link target the way Wikidot itself does.
+
+    Links are written either as a slug ("deity-ukrol") or as a page title
+    ("Ethereal Plane"), and Wikidot resolves both to the same page. Matching
+    only the literal slug turned every title-form link into plain text.
+    """
+    t = target.strip().lstrip("/").lower()
+    t = re.sub(r"[^a-z0-9]+", "-", t)
+    return t.strip("-")
+
+
 def title_from(slug):
     """Human title from a slug, minus any folder prefix it duplicates."""
     m = re.match(r"^([a-z]+)-(.+)$", slug)
@@ -85,46 +97,85 @@ def title_from(slug):
     return slug.replace(":", " ").replace("-", " ").replace("_", " ").strip().title()
 
 
-def strip_layout_tables(s):
-    """Unwrap [[table]] used as a page frame rather than as data."""
+def _cell_width(attrs):
+    m = re.search(r"width:\s*([\d.]+)\s*%", attrs or "", re.I)
+    return float(m.group(1)) if m else None
+
+
+def _is_data_grid(rows):
+    """True when a [[table]] holds tabular data rather than page layout.
+
+    Wikidot used tables for both. A grid of short values is data; anything
+    carrying a heading or a paragraph of prose is layout, and flattening it
+    into a Markdown table would destroy the page's shape.
+    """
+    if len(rows) < 2:
+        return False
+    counts = {len(r) for r in rows}
+    if len(counts) != 1 or counts.pop() < 2:
+        return False
+    for row in rows:
+        for _, body in row:
+            if re.search(r"^\s*\+", body, re.M):
+                return False
+            if len(body.strip()) > 200:
+                return False
+    return True
+
+
+def tables_to_layout(s):
+    """Wikidot tables become Markdown tables (data) or cards (layout).
+
+    Layout cells keep their proportions: a 25%/75% row stays a sidebar beside
+    its content on a wide screen and stacks on a narrow one.
+    """
 
     def repl(m):
-        inner = m.group(1)
-        cells = re.findall(r"\[\[cell[^\]]*\]\](.*?)\[\[/cell\]\]", inner, re.S | re.I)
-        rows = re.findall(r"\[\[row[^\]]*\]\]", inner, re.I)
-        if len(cells) <= 1 or len(cells) == len(rows):
-            return "\n\n".join(c.strip() for c in cells)
-        keep = [c.strip() for c in cells if len(c.strip()) > 40]
-        if keep:
-            return "\n\n".join(keep)
-        return m.group(0)
+        rows = []
+        for rm in re.finditer(r"\[\[row[^\]]*\]\](.*?)\[\[/row\]\]", m.group(1), re.S | re.I):
+            cells = [(cm.group(1), cm.group(2)) for cm in
+                     re.finditer(r"\[\[cell([^\]]*)\]\](.*?)\[\[/cell\]\]", rm.group(1), re.S | re.I)]
+            if cells:
+                rows.append(cells)
+        if not rows:
+            return ""
+
+        if _is_data_grid(rows):
+            grid = [[" ".join(b.split()) for _, b in r] for r in rows]
+            width = max(len(r) for r in grid)
+            grid = [r + [""] * (width - len(r)) for r in grid]
+            head = "| " + " | ".join(grid[0]) + " |"
+            sep = "|" + "---|" * width
+            body = "\n".join("| " + " | ".join(r) + " |" for r in grid[1:])
+            return "\n\n" + head + "\n" + sep + "\n" + body + "\n\n"
+
+        out = []
+        for cells in rows:
+            kept = [(a, b) for a, b in cells if b.strip()]
+            if not kept:
+                continue
+            widths = [_cell_width(a) for a, _ in kept]
+            style = ""
+            if len(kept) > 1 and all(w for w in widths):
+                # A custom property, not grid-template-columns directly: the
+                # stylesheet applies it only above the mobile breakpoint so the
+                # columns still stack on a phone.
+                style = ' style="--wd-cols: %s"' % " ".join("%gfr" % w for w in widths)
+            out.append('<div class="wd-row"%s markdown>' % style)
+            for _, body in kept:
+                out.append('<div class="wd-cell" markdown>')
+                out.append("")
+                out.append(body.strip())
+                out.append("")
+                out.append("</div>")
+            out.append("</div>")
+        return "\n\n" + "\n".join(out) + "\n\n"
 
     prev = None
     while prev != s:
         prev = s
         s = re.sub(r"\[\[table[^\]]*\]\](.*?)\[\[/table\]\]", repl, s, flags=re.S | re.I)
     return s
-
-
-def wikidot_table_to_md(s):
-    """Convert genuine [[table]] grids that survived unwrapping."""
-
-    def repl(m):
-        rows = re.findall(r"\[\[row[^\]]*\]\](.*?)\[\[/row\]\]", m.group(1), re.S | re.I)
-        grid = []
-        for r in rows:
-            cells = re.findall(r"\[\[cell[^\]]*\]\](.*?)\[\[/cell\]\]", r, re.S | re.I)
-            grid.append([" ".join(c.split()) for c in cells])
-        if len(grid) < 2:
-            return m.group(0)
-        width = max(len(r) for r in grid)
-        grid = [r + [""] * (width - len(r)) for r in grid]
-        head = "| " + " | ".join(grid[0]) + " |"
-        sep = "|" + "---|" * width
-        body = "\n".join("| " + " | ".join(r) + " |" for r in grid[1:])
-        return "\n\n" + head + "\n" + sep + "\n" + body + "\n\n"
-
-    return re.sub(r"\[\[table[^\]]*\]\](.*?)\[\[/table\]\]", repl, s, flags=re.S | re.I)
 
 
 def convert(src, slug, img_by_url, tables, linkmap):
@@ -154,8 +205,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
                lambda m: todo("include " + m.group(1)), s, flags=re.S | re.I)
     s = re.sub(r"\[\[iframe.*?\]\]", lambda m: todo("iframe"), s, flags=re.S | re.I)
 
-    s = strip_layout_tables(s)
-    s = wikidot_table_to_md(s)
+    s = tables_to_layout(s)
 
     # Images: swap the imgur URL for the local file, or inline the transcribed
     # table when the picture was a picture of a table.
@@ -188,7 +238,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     here = os.path.dirname(target_path(slug))
 
     def link(target, text):
-        dest = linkmap.get(target.strip().lstrip("/"))
+        dest = linkmap.get(norm_slug(target))
         if not dest:
             return text
         rel = os.path.relpath(dest, here or ".").replace("\\", "/")
@@ -236,7 +286,7 @@ def main(backup):
     src_dir = os.path.join(backup, "source")
     slugs = [f[:-4] for f in sorted(os.listdir(src_dir))]
     keep = [s for s in slugs if not SKIP.match(s)]
-    linkmap = {s: target_path(s) for s in keep}
+    linkmap = {norm_slug(s): target_path(s) for s in keep}
 
     imgs = json.load(open(os.path.join(ROOT, "_migration", "images.json"), encoding="utf-8"))
     img_by_url = {e["url"]: e["final"] for e in imgs}

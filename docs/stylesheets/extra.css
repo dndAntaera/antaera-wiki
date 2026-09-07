@@ -26,3 +26,51 @@
     margin: 0 0 1rem 0;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Wikidot layout cells, preserved as cards.
+
+   The original wiki built page layout from [[table]]/[[row]]/[[cell]] with a
+   hard-coded pale background. That colour is reproduced from theme variables
+   instead, so the cards work in dark mode as well as light.
+   --------------------------------------------------------------------------- */
+
+.wd-row {
+  display: grid;
+  gap: 1rem;
+  margin: 1.2rem 0;
+  grid-template-columns: 1fr;      /* stacked by default: phones first */
+}
+
+@media screen and (min-width: 60em) {
+  .wd-row {
+    /* --wd-cols carries the original cell widths, e.g. "25fr 75fr". */
+    grid-template-columns: var(--wd-cols, 1fr);
+  }
+}
+
+.wd-cell {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background-color: var(--md-default-fg-color--lightest);
+  background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 35%, transparent);
+  border-radius: .2rem;
+  padding: .9rem 1.1rem;
+  min-width: 0;                    /* let wide content shrink, not overflow */
+}
+
+/* A card should not open with a gap, nor end with one. */
+.wd-cell > :first-child { margin-top: 0; }
+.wd-cell > :last-child { margin-bottom: 0; }
+
+/* Headings inside a card are panel titles, not page sections. */
+.wd-cell h1,
+.wd-cell h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 .6rem;
+  padding: 0;
+  border: none;
+}
+
+/* Wide content inside a card scrolls itself rather than the page. */
+.wd-cell table { display: block; overflow-x: auto; }

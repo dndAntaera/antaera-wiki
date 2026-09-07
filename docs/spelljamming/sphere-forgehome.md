@@ -2,6 +2,15 @@
 title: "Sphere Forgehome"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Forgehome
 
 The primary is a manifest zone to the Elemental Plane of Fire, which provides a blazing light that sustains life and lends a deep orange hue to everything its light touches. It emits fire straight from the depths of the connected plane, and serves as the gravitational center of the sphere.
@@ -13,6 +22,11 @@ Society is three castes. The Arcane are the nobility. They hold the government, 
 Forgehome is classified as a derelict sphere. No phlo current runs to it or from it, and no star chart lists a coordinate for it. This is by design. An ancient Mythal, cast by House mages in the distant past, prevents both the accidental discovery of the sphere and any traversal through the crystal shell, and the last natural portal was closed by the House in an age long past. Vessels cross to other spheres by the gate spell, cast aboard by navigators carried for that purpose and no other.
 
 The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio is starmetal and machinery through its entire mass, and it is the only holding in the sphere the House did not make and cannot alter. Every exposed surface carries runes and glyphs in unbroken sequence. No scholar here can read them, and the standing assumption is that they work the machine. Enough of its operation was recovered to bring it back into service and it has run ever since. Every Warforged in all the Known Spheres is said to have been created in this forge. What else it was designed to build has not yet been discovered, though it is only a matter of time, and experimentation has already produced other variants of Warforged.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -67,6 +81,11 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
  - **Planet Shape**: Irregular
  - **Other Notes**: The sixth body in the celestial track is Probatio. An Ancient Antæran Forge of War; starmetal and machinery to its core, irregular in shape and without atmosphere. Every exposed surface carries runes and glyphs in unbroken sequence. The runes have not yet been deciphered, but the working assumption is that they operate the machine. Enough of its function was recovered to restart it, and it has run constantly since. Every Warforged in all the Known Spheres is said to have been created here. Work continues on the rest of its function, and experimentation has already yielded variant Warforged the standard line does not produce.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Gods**
@@ -83,3 +102,6 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
 
 **Greater Gods**
 - Ignatarnus, the Unspent Flame and First Forge (True Neutral)
+
+</div>
+</div>

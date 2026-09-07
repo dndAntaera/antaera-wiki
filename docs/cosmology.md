@@ -2,10 +2,16 @@
 title: "The Cosmology"
 ---
 
+<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
+<div class="wd-cell" markdown>
+
 # Transitive Planes
-- Ethereal Plane
-- Astral Plane
-- Plane of Mirrors
+- [Ethereal Plane](ethereal-plane.md)
+- [Astral Plane](astral-plane.md)
+- [Plane of Mirrors](plane-of-mirrors.md)
+
+</div>
+<div class="wd-cell" markdown>
 
 # *Descriptions of the Types of Planes*
 
@@ -25,10 +31,18 @@ However, this perception is misleading. The landscapes of the Outer Planes, whil
 
 **Unclassified Planes** fall into a special category where they do not follow the normal rules of the other classifications. These planes may range anywhere from being metaphysical in nature or incomprehensible to non-native minds.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Unclassified Planes
-- True Afterlife
+- [True Afterlife](true-afterlife.md)
 - Far Realms
 - [The Region of Dreams](region-of-dreams.md)
 - [The Void](void.md)
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

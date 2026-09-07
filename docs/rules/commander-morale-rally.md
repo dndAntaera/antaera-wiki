@@ -2,8 +2,17 @@
 title: "Commander Morale Rally"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/rules_commander_morale_rally_header.png)
 *A commander, having given a speech before battle, leads his heartened troops into battle.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Commanders
 
@@ -61,6 +70,11 @@ Commander Aura: Each commander has the ability to grant certain benefits to near
 Entry Requirements: Some prestige classes, organizations, and feats might have rank as a requirement.
 
 Pulling Rank: A commander can issue orders to soldiers of lower rank, and they’ll usually obey. When a commander makes an Intimidate check to coerce a lower-ranking soldier to comply with a command, he gains a bonus on Intimidate checks equal to the difference between his commander rating and the lower-ranking character’s rating.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Commander Auras
 
@@ -209,6 +223,11 @@ Your soldiers are more afraid of you than they are of the enemy.
 <u>Prerequisite</u>: Commander rating 5, lawful evil alignment, Intimidate 5 ranks.
 <u>Benefit</u>: Allies within 30 feet of you gain a +5 morale bonus on morale checks but automatically become panicked if they fail a morale check.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Morale Check
 The battlefield is a frightening place, with death and destruction everywhere. Under the stress of battle, many creatures abandon their army’s cause for one much more immediate: self-preservation.
 
@@ -225,6 +244,11 @@ Because the PCs are the protagonists and the focus of the game, they don’t ord
 
 **Morale in the Dungeon**
 You can also take these rules beyond the battlefield if you wish, using them in dungeon-based adventures, urban settings, or elsewhere. In most cases, using the morale rules means that monsters run away more often than they do in a typical D&D adventure. That situation is common in organized warfare, but rare in a dungeon because the monsters are found in their lair and have nowhere else to go. In contrast, a smart commander encourages her units to retreat (or at least make a strategic withdrawal) when they’re overmatched or needed elsewhere. If you use these morale rules in a traditional D&D adventure, make sure you account for the greater likelihood of NPCs retreating.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Making Morale Checks
 Typically, a creature must attempt a morale check on the first round that one of the following conditions applies:
@@ -281,6 +305,11 @@ The following morale conditions are organized from highest morale to lowest mora
 
 *Table: Crazed*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Rally Check
 Once morale begins to degrade, the best course of action is for a charismatic character to rally the troops with a few stirring words. This is accomplished by making a rally check, which requires a move action by any creature that currently has a morale condition of normal or better.
 
@@ -320,3 +349,6 @@ The Prebattle Rally Check: Before the battle begins, the leader of a military un
 This rally check affects everyone who can see and hear the leader. It cannot be retried, either by that leader or another character. In other words, a leader only gets one chance to inspire the troops with a speech. That’s why armies with charismatic generals try to get as many soldiers as possible to listen to a single speech.
 
 Armies with less compelling top brass rely on the exhortations of junior officers and sergeants to inspire the soldiers under their command. Characters can’t take 10 on this check.
+
+</div>
+</div>

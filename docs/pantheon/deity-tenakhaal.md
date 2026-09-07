@@ -1,6 +1,11 @@
 ---
-title: "Tenakhaal, Herald of Salt"
+title: "Deity Tenakhaal"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Tenakhaal, Herald of Salt
 
 - **Symbol**: A cracked seashell leaking dry grains
 - **Home Plane**: Quasi-Elemental Plane of Salt
@@ -22,3 +27,6 @@ Tenakhaal teaches that compassion is a lie and mercy a weakness. He was denied h
 
 **Home Sphere**
 Tenakhaal’s home is Cyrintha, a temperate oceanic world deep within the Inundatio Sphere. Here, wide archipelagos and scattered island continents rise from endless blue, crowned with sloped gardens, tiled courtyards, and towering pagodas built by ancient seafaring dynasties. The people of Cyrintha live by the tides, guided by the stars and the passing of three moons. Once, Tenakhaal swam in these warm waters, a defender of his kin. Now, his shadow haunts its shores. Salt-withered shrines lie hidden among volcanic ridges, where cultists perform rites under moonlight, calling for drought and ruin upon those who exiled him to die. Even the storms that lash Cyrintha’s coasts are said to carry his voice, whispering vengeance over the waves.
+
+</div>
+</div>

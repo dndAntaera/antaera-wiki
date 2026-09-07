@@ -2,7 +2,13 @@
 title: "Sea Of Innas"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/sea_of_innas_header.jpg)
+
+</div>
+<div class="wd-cell" markdown>
 
 # **Legend**
 - Settlements
@@ -21,3 +27,6 @@ title: "Sea Of Innas"
  - Jane Tower
  - Tayle Tower
  - Tower of Lord Greywulf, The
+
+</div>
+</div>

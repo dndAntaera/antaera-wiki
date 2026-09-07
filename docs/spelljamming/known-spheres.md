@@ -2,7 +2,16 @@
 title: "The Known Spheres"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 *Header image.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Traveler's Note on the Known Spheres
 
@@ -14,16 +23,31 @@ Derelict spheres may be included here over time as they are discovered. Knowledg
 
 The Abyssal Realms are derelict spheres that exist outside of the standard  channels and routes and are technically derelict spheres. However, these are spheres that have fallen to corruption and destruction out in the vastness of wildspace. Refugees who have emerged fom these places have reported their worlds being [Tainted](../rules/taint.md) due to the interplanar incursions of demons from the Abyss (hence the name). These realms have been deemed too dangerous for expedition or redemption by spelljamming scholars, and offer no help to any who dare venture to these dread places.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Antæran Constellation
 - [Antæra](sphere-antaera.md)
 - [Umbræ](sphere-umbrae.md)
 - [Sidhe](sphere-sidhe.md)
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Inner Constellation
 - [Inundatio](sphere-inundatio.md)
 - [Lapis](sphere-lapis.md)
 - [Cineræxis](sphere-cineraexis.md)
 - [Aerivagus](sphere-aerivagus.md)
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Outer Constellation
 - [Sanctum Æternum](sphere-sanctum-aeternum.md)
@@ -33,11 +57,24 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 - [Gallamarketh](sphere-gallamarketh.md)
 - [Malifortis](sphere-malifortis.md)
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Derelict Spheres
 
 - [Graveyard of the Gods](sphere-graveyard-of-the-gods.md)
 - [Forgehome](sphere-forgehome.md)
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Abyssal Realms
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

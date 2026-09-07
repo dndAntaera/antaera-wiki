@@ -2,6 +2,9 @@
 title: "Disclaimer"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 Welcome to Legends of Antæra, an immersive Dungeons & Dragons experience. Before embarking on this epic journey, we want to ensure that all players are aware of the themes and content that may arise during the course of the campaign. Please read the following disclaimer carefully:
 
 # **Death and Dismemberment**: The campaign may include vivid descriptions of battles, injuries, and death. Players should be prepared for intense combat scenarios that may involve the demise of characters and NPCs, as well as descriptions of dismemberment and gore.
@@ -14,3 +17,6 @@ Welcome to Legends of Antæra, an immersive Dungeons & Dragons experience. Befor
 By participating in Legends of Antæra, you acknowledge that you have read and understood this disclaimer. If you have any concerns or questions about the content, please feel free to discuss them with the Dungeon Master. Our goal is to create an enjoyable and inclusive experience for all players.
 
 Embark on your adventure with caution and courage, and may the dice be ever in your favor.
+
+</div>
+</div>

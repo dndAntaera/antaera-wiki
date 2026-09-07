@@ -1,5 +1,12 @@
 ---
-title: "Frymrit, the Ur-Dragon"
+title: "Frymrit"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Frymrit, the Ur-Dragon
 *This page is currently used for disambiguation.*
+
+</div>
+</div>

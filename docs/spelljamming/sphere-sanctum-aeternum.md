@@ -2,6 +2,15 @@
 title: "Sphere Sanctum Aeternum"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Sanctum Æternum
 
 Travelers who chart a course through the Sphere of Sanctum Æternum often remark on its stillness. Not the stillness of emptiness, but of vigilance. At its heart burns Veritas Dei, a great white star whose light carries no warmth. It radiates endlessly, casting a pale glow across the void—brilliant, unwavering, and without flicker. Yet those who know the deeper mysteries speak cautiously: Veritas Dei is no true sun, but a fixed tear in the veil of reality—a manifest zone to the Positive Energy Plane, restrained by holy force. Some call it the Breath of Judgement. Others, the First Eye. None look upon it long.
@@ -11,6 +20,11 @@ The worlds that orbit this light bear the hallmarks of harmony—forests pruned 
 Those who dwell within the sphere live under the watch of the Ordo Caelestis, a vast and unyielding choir of angelic stewards. Clad in sanctified mail and crowned in haloes of law, these divine emissaries oversee mortal affairs with tireless devotion. Their decrees are precise, their rituals flawless, and their presence constant. They preach mercy with unwavering discipline, and uphold kindness with a blade ever sheathed at the edge of the eye. Though few question their purpose, many wonder: if perfection requires no choice, what then becomes of the soul?
 
 Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its walls etched in dialects no longer spoken. At its heart rests the Thorn of Disjunction, an Antæran relic of pale starmetal that coils in impossible angles, immune to the light that rules this place. Those who seek it either return changed… or not at all.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -43,6 +57,11 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
  - Shape: toroidal
  - Other Notes: Caelatium forms a luminous ring-world of cool meadows, misted forests, and quiet sanctuaries sculpted into the cliffs. Now nourished by the outer flow of Veritas Dei’s radiance, its groves bloom with pale blossoms and silver moss. Pilgrims ascend through silence rather than sermon, seeking stillness of spirit amid the breath of wind and leaf. The twin moons, Alpha and Omega, appear in perfect alternation, marking rites of beginning and end across every breath of worship.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -64,3 +83,6 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 - Sayrel, the Sun-Drunk Fool (Chaotic Good)
 - Ezzoril, the Feather-Tongue (Chaotic Good)
 - Nyxaveth, the Hollow Voice (Chaotic Good)
+
+</div>
+</div>

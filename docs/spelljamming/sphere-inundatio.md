@@ -2,6 +2,15 @@
 title: "Sphere Inundatio"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Inundatio Sphere
 
 Travelers entering the Inundatio Sphere often describe an eerie kind of quiet—not the silence of death, but something more detached, more ambient. There’s a disorienting sense of stillness that creeps into the bones after just a few days. Things feel slow here: sound, movement, even the passage of time. Spelljammer crews swap stories about clocks running strange, or conversations that seem to echo in their heads long after they’re done. It’s not hostile, just unnerving in its consistency. Veteran sailors watch the stars more than the instruments, and many insist on rotating watches even during calm stretches, claiming the sphere has a way of making you drift—mentally and otherwise.
@@ -13,6 +22,11 @@ All of the known planets in the Inundatio Sphere share a single trait—they are
 Spelljammers passing through the system often seek out its stranger features. The most infamous is the Halo of Thaloruun, a massive rotating ring of tan-colored metal that floats near the edge of the Goldilocks Zone. It’s widely believed to be a relic of the Antæran civilization, though no one’s been able to prove it. What’s clear is that it steadily discharges water from some unknown source, which freezes the moment it hits wildspace, forming a belt of sharp, jagged ice known as Thaloruun’s Spill. A Mercane-run mining guild operates in the belt, harvesting rare fire planar crystals using spelljamming ships fitted with repulsion fields to avoid accidental explosions. Despite the dangers, it remains one of the more profitable—if volatile—trade routes in the sphere.
 
 Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery encased in a perfect globe of suspended seawater. The structure inside appears whole, untouched by time or decay, and on quiet days, passing crews claim to hear faint chanting through the void. No one has breached the barrier—not with spells, weapons, or divine rites. Whether it’s sealed by the will of those within or by some long-lost magic, no one can say. Nearby, half-lost in the ice fields of the Spill, floats the Anhydral Lens—a spiral-shaped construct of tan Antæran starmetal. It doesn’t emit light or magic, but its presence distorts time, sound, and thought. Captains who pass too close report strange auditory mirages, memory loops, and a sensation of something vast and unfinished, watching just beyond reach.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -70,6 +84,11 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
  - **Shape**: Cluster
  - **Other Notes**: Kuraali is a loose cluster of twin water worlds and satellite islets, all revolving around an enormous manifest zone to the Elemental Plane of Water that churns with impossible tides and luminous mist. The entire cluster orbits the system’s primary like a drifting gyre. At the heart of the cluster, a vaporous arc pulses between the two largest bodies, binding them in a ceaseless exchange of energy and current. Naturally forming portals appear and vanish within the arc, allowing passage between the twin worlds without crossing the intervening space. The inhabitants are thought to be part of a singular, sprawling civilization that exists on both sides of the manifest zone—one side on the material plane, the other submerged in the timeless depths of the Elemental Plane of Water, built above ancient ruins that stretch into the dark.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Gods**
@@ -92,3 +111,6 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
 - Shugenka, the Sunken Seer (Lawful Evil)
 - Umi no Arare, Spinner of Sea-Salts (True Neutral)
 - Haruka, Whisper of the Shoals (Neutral Good)
+
+</div>
+</div>

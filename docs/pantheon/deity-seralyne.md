@@ -1,6 +1,11 @@
 ---
-title: "Seralyne, Herald of Radiance"
+title: "Deity Seralyne"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Seralyne, Herald of Radiance
 
 - **Symbol**: Burning sun framed by silver wings
 - **Home Plane**: Radiance
@@ -22,3 +27,6 @@ Darkness breeds in silence. If you do nothing, it grows. You don’t wait for ev
 
 **Home Sphere**
 Seralyne’s light rises from the Antæran Sphere, a place of harmony and rhythm where seasons, stars, and magic all move in step. She was born on Antæra itself, in the skyborne city of Sewich—home to the world’s adventurers and guardians. Life flourishes across its lands, from oceans to forests, deserts to snowfields. But not all wounds heal. Her ascension carved the Angheh Wastes into the world—a scorched, haunted place where her army fell and her enemy endured. Now she watches from the Plane of Radiance, but her heart never left the skies of her home.
+
+</div>
+</div>

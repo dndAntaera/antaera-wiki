@@ -1,6 +1,11 @@
 ---
-title: "Selene, the Nightweaver"
+title: "Mortal Selene"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Selene, the Nightweaver
 
 **Domains**: Darkness, Moon, Mysticism, Shadow
 
@@ -38,8 +43,14 @@ The clergy of Selene includes moon priests and shadowcasters who channel the mys
 
 Selene maintains a neutral stance, as the night itself encompasses both light and shadow. However, she opposes entities that seek to exploit secrets for malicious purposes or disturb the delicate balance between light and darkness.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/pantheon_mortal_selene_header.jpg)
 *Selene, the Nightweaver*
 
 ![](/antaera-wiki/img/pantheon_mortal_selene_heraldry.jpg)
 *Holy Symbol of Selene*
+
+</div>
+</div>

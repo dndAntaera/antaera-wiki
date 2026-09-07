@@ -2,6 +2,15 @@
 title: "Sphere Bellatoris"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Bellatoris Sphere
 
 The Bellatoris Sphere is a realm of martial pride and ancestral strength, where the silence of wildspace is broken by the clash of blades and the roar of challenge. Its worlds are divided among a handful of great tribes, each a sovereign power with a history written in conquest and ritual. These clans—beastfolk of lion’s blood, wolf’s howl, iron scale, and mountain horn—rule not by decree, but through strength, heritage, and the enduring weight of tradition. Laws are few, but honor is absolute. Celestial guardians, neither rulers nor subjects, walk the skies and sacred places, serving as judges, heralds, and spiritual patrons to the tribes below.
@@ -13,6 +22,11 @@ At the center of the sphere burns Solarianus, a golden presence that lights the 
 Suspended in eternal orbit around Solarianus drifts the Citadel of Accord, a massive star-station wrought in the lost age of the Antærans. Its walls are formed of starmetal the color of weathered bone, etched with intricate carvings whose purpose remains a mystery. Though ancient and alien, the Citadel endures as the only place in the sphere where the tribes meet without war. Within its vaulted chambers, leaders gather to forge treaties, declare blood-feuds, or settle the rare matters that require consensus. No clan governs the Citadel, but all recognize its neutrality. It is here, and only here, that the semblance of law and order is maintained in the Bellatoris Sphere.
 
 One of the most feared and fabled places in the sphere is the battlefield-ring known as the Red Wreath. Floating far from any world, it is a belt of shattered vessels, splintered armor, and drifting bones locked in slow orbit around a jagged asteroid that glows with crimson energy. It is said the Red Wreath was the site of the last great war between the founding tribes—a conflict so fierce it scarred wildspace itself. Today, warriors come to the Wreath seeking visions, trials, or to cast their fallen into its crimson wake as a final honor. No one builds there, no one rules there, but all who pass through it feel the weight of its silence.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -88,6 +102,11 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
  - Shape: Spherical
  - Other Notes: On Urothis, verdancy is a whisper—present in patches of tundra moss, ice-cracked trees, and strange subterranean fungi. The land sleeps more than it wakes. Groves grow in geothermal vaults, where ancient caretakers tend them with reverence. Most of the planet is barren or buried in snow, but its living spaces are sacred and fiercely protected. Prophets come here not for what grows, but for what lingers—echoes of life, visions born of silence, and truths older than any war.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -115,3 +134,6 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 - Silik, the Laughing Mask (Chaotic Evil)
 - Durn, the Grave-Climber (True Neutral)
 - Arlien, the Pale Firebrand (Neutral Good)
+
+</div>
+</div>

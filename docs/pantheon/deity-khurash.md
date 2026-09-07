@@ -1,6 +1,11 @@
 ---
-title: "Khurash, Herald of Smoke"
+title: "Deity Khurash"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Khurash, Herald of Smoke
 
 - **Symbol**: Coiling spiral of ash over smoldering embers
 - **Home Plane**: Great Conflagration
@@ -22,3 +27,6 @@ Khurash teaches that everything changes—often quietly, often without warning. 
 
 **Home Sphere**
 No home sphere.
+
+</div>
+</div>

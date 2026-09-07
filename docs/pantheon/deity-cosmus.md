@@ -1,6 +1,11 @@
 ---
-title: "Cosmus, God of Magic"
+title: "Deity Cosmus"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Cosmus, God of Magic
 
 - **Symbol**: Star in front of a book
 - **Home Plane**: The Astral Plane
@@ -22,3 +27,6 @@ Magic is not a tool to be owned or a gift to be hoarded. It is a natural force t
 
 **Home Sphere**
 No home sphere.
+
+</div>
+</div>

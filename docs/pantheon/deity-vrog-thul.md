@@ -1,6 +1,11 @@
 ---
-title: "Vrog’thul, Herald of Ooze"
+title: "Deity Vrog Thul"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Vrog’thul, Herald of Ooze
 
 - **Symbol**: A dribbling, open eye melting into slime
 - **Home Plane**: Swamp of Oblivion
@@ -22,3 +27,6 @@ All things rot. All structures break down. Order is a lie, and purity is an affr
 
 **Home Sphere**
 No home sphere.
+
+</div>
+</div>

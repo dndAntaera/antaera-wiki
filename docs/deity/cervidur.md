@@ -1,6 +1,11 @@
 ---
-title: "Cervidûr, Lord of the Hunt"
+title: "Cervidur"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Cervidûr, Lord of the Hunt
 
 **Domains**: Animal, Fey, Strength, Moon
 
@@ -32,8 +37,14 @@ Cervidûr's clergy are often druids, rangers, and shamans who dwell in secluded 
 **Rivalries**:
 Cervidûr opposes deities who promote urbanization, industrialization, and the destruction of natural habitats. He stands as a protector of the balance and harmony of the natural world, challenging those who seek to exploit nature for profit or dominance.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/deity_cervidur_header.png)
 *Cervidûr, Lord of the Hunt*
 
 ![](/antaera-wiki/img/deity_cervidur_heraldry.png)
 *Holy Symbol of Cervidûr*
+
+</div>
+</div>

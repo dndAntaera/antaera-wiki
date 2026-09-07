@@ -2,6 +2,15 @@
 title: "Sphere Graveyard Of The Gods"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Graveyard of the Gods
 
 The Graveyard of the Gods is a desolate, shattered shell of a once-glorious crystal sphere, cracked wide from a forgotten cataclysm said to have obliterated every living soul and even the gods themselves. Its wildspace is littered with fragments of sundered planets and the fossilized corpses of deities—some still clad in divine armor, others fused with celestial thrones or half-consumed by alien fungus. All illumination comes from the molten remnants of its former sun, now dimmed to a smoldering ember orbited by debris. Astrologers speak of a final battle among pantheons so vast that its echoes still warp gravity and divine magic within the sphere. It is avoided by most—but prized by the desperate and the damned.
@@ -13,6 +22,11 @@ Most inhabitants respect a fragile code of neutrality on the tomb world of Auste
 Austerion itself is not truly lifeless. Its surface is populated by the undead remnants of its ancient population—raised and controlled by powerful necromancers who now rule the planet's interior. These necromancers have entrenched themselves within its collapsed temples and crypt cities, creating fortified districts animated by skeletal sentries and spectral laborers. All of them worship a single god: Helus, the God of Death. Though Helus never manifests and exerts no visible will, his presence is undeniable. The necromancers serve as his silent priesthood, and clerics devoted to him draw divine power through their worship. They act as the planet's arbiters, overseeing its black markets, levying taxes on pirate business, and maintaining the dead neutrality of Austerion through fear and faith.
 
 The shell of the crystal sphere has been shattered wide open, and phlogiston has spilled inward, saturating the wildspace within. The gas is ever-present, clinging in thin, invisible layers that drift across ship decks and station hulls. While not explosively volatile under normal conditions, a single spark can still ignite a localized conflagration capable of destroying a vessel, venting an outpost, or causing considerable loss of life. As a result, open flame is strictly regulated, and fire-based magic is discouraged or banned outright in many strongholds. Most inhabitants have learned to rely on alternatives—bioluminescence, alchemical light, and radiant energy—rather than risk the Graveyard’s wrath.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -43,7 +57,15 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 - (Empty)
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Greater**
 - Helus, God of Death (Neutral Evil)
+
+</div>
+</div>

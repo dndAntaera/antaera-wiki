@@ -1,6 +1,11 @@
 ---
-title: "Tharuun, Herald of Gems"
+title: "Deity Tharuun"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Tharuun, Herald of Gems
 
 - **Symbol**: Pickaxe crossed with a radiant crystal
 - **Home Plane**: Plane of Gems
@@ -22,3 +27,6 @@ Gems are not just treasure—they are memory, patience, pressure made perfect. T
 
 **Home Sphere**
 Tharuun hails from the Lapis Sphere, a hushed expanse of drifting thought and stone where sunlight never comes and memory lingers in the dark. His essence is most deeply rooted in the fractured underlayers of Cineris, a scorched shell of a world whose breath still stirs in its warm, gem-rich caverns. Miners here swear the stones respond to quiet minds, and many report dreams of a calm figure guiding them through mazes of crystal and echo. Temples to Tharuun are cut directly into gemstone seams or hollow asteroids in the Cinctum Veneris, where psionic whispers rise like incense through the cracks.
+
+</div>
+</div>

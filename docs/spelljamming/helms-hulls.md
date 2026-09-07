@@ -2,8 +2,17 @@
 title: "Helms Hulls"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_helms_hulls_header.png)
 *Spelljammers docked up in a port on a water-based world.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Hull Statistics Block
 
@@ -53,6 +62,11 @@ The remaining interior space is needed for crew, armament, and other necessities
 
 **Cost**: The vehicle’s cost, in gold pieces.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 | Material | Fort | Ref | Will | Acid | Crushing Blow ³ | Disintegration | Fall | Magical Fire | Normal Fire ⁴ | Cold | Electricity |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Bone | Poor | Poor | – ¹ | −1 | −6 | −9 | +4 | +1 | +7 | +2 | +2 |
@@ -76,6 +90,11 @@ The remaining interior space is needed for crew, armament, and other necessities
 
 *Table: Item Saving Throws*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Outfitting
 
 Most ships of space were captured, refitted, or inherited by their present owners. Large communities in space tend to build their own distinctive ships, which in turn are copied, stolen, or bought by others in space, accounting for both the wide variety found throughout the space lanes as well as the existence of a good group of "typical" ships.
@@ -85,6 +104,11 @@ The following section discusses the various types of hulls, power sources and ar
 All ships and ship equipment are rare in space; there are a few "used spaceship shops" in the known spheres, but they are few and far between, and seldom do they have more than one or two ships available. Often, initial adventurers hire on for some trading cartel or as emissaries for some powerful wizard or enterprising faith, and take the ship in trade of some heroic deeds. Such ships are usually bottom of the line, little more than tubs, but can be converted into suitable adventuring vehicles with sufficient time and gold.
 
 In general, there is a 10% chance that an item listed here is available at any large space civilization. There is an additional 20% chance that there is a rumor that the needed item can be found somewhere else in the system (either as treasure or part of a hulk or belonging to someone else). This 20% chance increases by 5 for every week spent in one location, so that an individual looking for a major helm on Cooper's Rock has a 30% chance of coming up with a lead on it in three weeks' time. The nature and details of such items are left to the DM.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Ship Itself
 
@@ -118,6 +142,11 @@ Names by Size:
 Further, a ship may be referred to by appearance and ownership. Dwarven ships are regarded as rocks primarily for their appearance, though any ship adrift is considered a Rock. A ship used primarily by a single race is referred to by that in general descriptions of the ship types (such as a mind flayer nautiloid, or a beholder tyrant-ship). Ships that owe allegiance to no particular race or nation are referred to as “Free.” A free trader out of Krynnspace owes no allegiance beyond its own ship and crew, while a Krynnish trader can be counted on to act in the best interest of its home sphere, and eventually to return there. If a ship is confined to a particular crystal shell, whether by choice or not, it is referred to as a system ship.
 
 Finally, a ship that resembles little more than a terrestrial galley or galleon hopped up with a spelljammer helm and taken into space is called a groundling craft. Groundling is a general term used in space to refer to the Earth-bound nations and their peoples. It is not derogatory per se, but is often used by those seeking to embarrass a newcomer to the various parts of wildspace.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Hull Types
 
@@ -676,6 +705,11 @@ The stats presented here are for a typical sidewheeler. Which is itself an oxymo
 
 Also known as "the ship of the desperate," the gnomish sidewheeler represents the pinnacle of gnomish technology. Most intelligent creatures avoid these vessels like the plague. They operate with all manner of gizmos and devices. Price does not include gnomes needed to run things, or the giant hamsters that power the side wheels and wind the giant rubber band.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Power Sources
 The chief method of moving through space is through spelljamming—converting magical energy into motive force. This section deals with the required equipment: spelljamming helms.
 
@@ -802,6 +836,11 @@ Lifejammers are believed to be an invention of the neogi, who use multiple lifej
 There are a number of ways of moving through space—gnomish engines, chemical propellants, even explosive mixtures ignited in a closed space. These are sometimes used in space to travel through magic-dead areas (called "Sargasso") as well as for lifeboats and shuttles that are too insignificant to merit a full-blown minor helm. Nonmagical movement is used as a backup system for larger ships when all other options fail.
 
 All nonmagical engines share one feature: they are slow compared to helms. Their movement is never more than 17 mph, and their SR is 1. At such rates, it would take years to reach even a nearby planet. Further, they cannot be used to lift off from celestial bodies larger than class A due to their limited power. Little research has been done in expanding this "weak sister" to the spelljammer helms (because the helms provide such a good alternative), but there are situations where they are useful.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Armaments
 
@@ -989,6 +1028,11 @@ A turret is a rotating platform. Weapons mounted on turrets can be turned to fac
 
 Turrets can also provide partial protection for the crew. Protected turrets are available at double the initial cost and provide soft cover (+4 bonus to AC) to the crew manning that heavy weapon. Small weapons can be moved easily without a turret, but they can benefit from the cover a turret provides.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Modifying A Hull
 
 ## Multiple Modifications
@@ -1036,6 +1080,11 @@ Rigging can be added only once per ship. It can be used to offset the effect of 
 **Cost**: 100 gp per ton
 Removing nonessential weight can increase the MC of a ship by one rank as well, raising, for example, B to A. This results in dropping the armor rating by 2 points. A ship is considered the same base tonnage despite the loss, and the missing pieces are not obvious to the casual observer.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Ammunition
 
 ### Smoke Powder
@@ -1082,3 +1131,6 @@ A bundle of stone shot or jettison shot can fit any catapult or jettison. Usuall
 **Type**: Bludgeoning
 **Damage**: As for bombard
 Two types of shot are used in bombards: large, round stones and cast iron "cannonballs." Using the latter increases the bombard's damage against a ship but not against crew members. (Stone shot often breaks up on impact, scattering sharp fragments, while iron is less likely to do so.) Bombards using iron shot have a +2 modifier to hit.
+
+</div>
+</div>

@@ -1,6 +1,11 @@
 ---
-title: "Sol, the Eternal Equilibrium"
+title: "Mortal Sol"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Sol, the Eternal Equilibrium
 
 **Domains**: Balance, Dragon, Fate, Pact
 
@@ -40,8 +45,14 @@ The clergy of Sol includes dragon priests and scholars who study the cosmic forc
 
 Sol maintains a neutral stance, seeking to uphold balance rather than engaging in conflicts. However, entities that disrupt the cosmic harmony or threaten the delicate equilibrium draw the ire of Sol and his followers. The god of balance is particularly watchful of those who would upset the natural order for personal gain.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/pantheon_mortal_sol_header.png)
 *Sol, the Eternal Equilibrium*
 
 ![](/antaera-wiki/img/pantheon_mortal_sol_heraldry.png)
 *Holy Symbol of Sol*
+
+</div>
+</div>

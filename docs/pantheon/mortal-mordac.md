@@ -1,6 +1,11 @@
 ---
-title: "Mordac, the Arbiter of Tyranny"
+title: "Mortal Mordac"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Mordac, the Arbiter of Tyranny
 
 **Domains**: Domination, Evil, Law, Tyranny
 
@@ -36,8 +41,14 @@ The clergy of Mordac includes master manipulators and ruthless enforcers who thr
 
 Mordac actively seeks to undermine other deities and their domains, particularly those who stand for freedom, justice, and chaos. His influence is felt as a calculating force, aiming to unravel the foundations of opposing belief systems.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/pantheon_mortal_mordac_header.png)
 *Mordac, the Arbiter of Tyranny*
 
 ![](/antaera-wiki/img/pantheon_mortal_mordac_heraldry.jpg)
 *Holy Symbol of Mordac*
+
+</div>
+</div>

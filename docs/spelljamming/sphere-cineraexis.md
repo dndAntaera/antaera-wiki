@@ -2,6 +2,15 @@
 title: "Sphere Cineraexis"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Cineræxis
 
 Cineræxis is a sphere where everything seems to burn, even the silence. Wildspace here isn’t cold—it shimmers with dry heat, like the whole place is holding its breath inside a forge. Ships crackle with static just crossing into the system, and seasoned crews go quiet as the pressure mounts. At the heart of it all is Sahr’kanaar, not a sun, but a stable manifest zone where the Elemental Plane of Fire presses into reality. It doesn’t roar or pulse—it just exists, constant and consuming, a wound that never heals.
@@ -11,6 +20,11 @@ Surrounding it is the Cage of Brael, a relic of the Ancient Antærans and the on
 Orbiting along the inner track is the Belt of Cinderglass—a radiant field of Fire Planar Crystals, said to be the purest of their kind in all the spheres. These aren’t inert space rocks; they’re condensed shards of elemental flame, each one alive with flickering color and the low hum of power barely contained. Some glow like coals, others pulse like dying stars. They're beautiful, mesmerizing—and lethal. Ships that drift too near can erupt without warning, their helms frying mid-cast and hulls blackening in moments. Survivors speak of the crystals whispering through the heat, not in voice, but in feeling. A few daring salvagers have brought back slivers, used to power relics or fuel devastating spells, but most who enter the Belt are never seen again.
 
 Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red Vault. Built during the Flamebound Concord’s final century, this forge-ark once shaped sentient heat into weapons of war. Now it’s broken, partly submerged in slag, still radiating forge-hymns through the void. Every few years, a ship picks up a new verse, never heard before—sung in a tongue no one's recorded. Some think the Vault’s still making something. Others say it’s remembering.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -75,6 +89,11 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
  - **Shape**: Spherical
  - **Other Notes**: Vorthuun is a jewel of steam and stone—a warm oasis world veiled in rising mists and ringed with shimmering freshwater basins. Its oceans are thick with sulfuric brine, hot and acrid, filling the air with a sharp tang that keeps most vessels far from shore. Yet scattered across the land are mineral-rich hot springs, glowing softly in hues of blue, amber, and rose-gold, prized for their healing and meditative properties. Spelljammers from across the spheres journey here to soak in the waters, seeking relief from curse, fatigue, or burden. At its heart lies Meridion, a city of ivory domes and glimmering canals, carved into the caldera of an ancient spring. Meridion serves as a vital trade hub for exotic and luxury goods—rare salts, perfumed oils, enchanted silks, and medicinal minerals. The planet itself is owned and operated by a loose consortium of Mercane-run guilds, each controlling sections of trade, transportation, and commerce under complex charters and ancient agreements.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Gods**:
@@ -99,3 +118,6 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
 - Emberra the Flame-Whisperer (Neutral)
 - Surnyx, Dancer on Coals (Chaotic Good)
 - Cindarth the Crucible-Faced (True Neutral)
+
+</div>
+</div>

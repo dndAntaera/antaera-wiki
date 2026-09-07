@@ -2,6 +2,9 @@
 title: "Elves"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Origin Story
 In the annals of Antæra's ancient history, the arrival of the elven people stands as a pivotal chapter, shrouded in the mists of time and resonating with a profound sense of otherworldly origins.
 
@@ -14,6 +17,11 @@ Though the Eladrin lost their innate connection to the Sidhe Wilderness, one gif
 As the elves flourished on their island sanctuary, their insatiable curiosity led them beyond its shores. They embarked on journeys of exploration and colonization, venturing into the uncharted realms of Antæra. With each new territory they claimed, they forged connections with the land, absorbing its energies and planar influences. Over time, the diverse landscapes and planar forces surrounding them birthed a multitude of subcultures within elven society. Those who settled amidst ancient forests became attuned to nature, their physical appearances reflecting their deep bond with the wild. Elves dwelling near elemental planes underwent transformations, adapting to the elemental forces that permeated their surroundings.
 
 As they spread across Antæra, the elves continued to evolve, their physical traits and temperaments molded by their environments. The result was a culture as diverse as the landscapes themselves, a tapestry of interconnected but distinct elven subcultures. The origins of the elven race in Antæra bear witness to their enduring adaptability and insatiable thirst for understanding the Material Plane. While their connection to the Sidhe Wilderness faded into myth, they emerged as the first true mortals of Antæra, forever bound to its ever-changing landscapes and planar influences. Their legacy endures, a testament to their role as stewards of the world's mysteries and as guardians of its ancient cultures.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # General Culture
 In the sprawling world of Antæra, the elven culture stands as a living testament to ancient origins, interplanar travel, and harmonious cooperation with the mystical forces that shape their existence. Rooted in traditions that span countless millennia, the elves have woven a rich tapestry (apologies for the repetition) of society, magic, and memory. The elves of Antæra, with their ancient heritage and enduring traditions, stand as a beacon of wisdom and mysticism in the ever-evolving world around them. Their commitment to interplanar harmony and their role as keepers of memories ensure that their legacy endures for countless generations to come, a testament to the enduring power of their culture in shaping the destiny of Antæra.
@@ -36,6 +44,11 @@ To those with shorter lifespans, elves may appear aloof and enigmatic, for they 
 **Guardians of Interplanar Harmony**:
 Elven culture in Antæra revolves around the principles of interplanar harmony and cooperation. Their deep ties to the fey and outsiders, their reverence for ancestral memories, and their mastery of interplanar magic all contribute to their unique identity as the guardians of this delicate balance in the multiverse. They view themselves as stewards of the connections between planes, ensuring that alliances endure and conflicts are resolved peacefully.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Subculture: The Drow
 
 In the depths of the Earthspire Expanse, a subculture of elves known as the Drow has thrived in obscurity and secrecy. These enigmatic beings have carved out a shadowy existence, marked by their unique physical attributes and a culture steeped in darkness and mystery.
@@ -57,3 +70,6 @@ The Drow's antagonistic relationship with the Deepfolk, another subculture of hu
 
 **Radical Isolationists**:
 Originally, the Drow were high elves who departed from the main elven civilization due to irreconcilable political differences. Over time, their isolation in the Earthspire Expanse nurtured their radical beliefs, intensifying their desires for power and dominance. Their once-moderate ideology grew increasingly extreme, eventually culminating in their transformation into one of the most feared and reviled mortal races in the known world.
+
+</div>
+</div>

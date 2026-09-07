@@ -2,10 +2,18 @@
 title: "Backgrounds"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Background Information
 A background must be selected at 1st level and a character may only select one. Additionally, you are considered to have max ranks in the chosen associated skill that is not the associated profession skill.
 
 The benefits of some of the presented backgrounds are only usable where applicable, or where they make sense to use. For example, an artisan cannot simply reduce the cost of an item, he must find someone who recognizes his abilities and is friendly towards him who then gives him a discount when purchasing the materials. When referenced, the associated skill is the skill in the “Associated Skill” entry that is not the listed profession skill.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # General Backgrounds
 
@@ -95,6 +103,11 @@ If a character has 5 ranks in the associated profession skill, they gain a +2 in
 **Type**: General
 **Benefit**: Once per encounter, as a swift action, when you make a skill check with one of your associated skills that is not your associated profession, you may gain a +2 insight bonus on that skill check.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Regional Backgrounds
 A character with a regional background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is also a native of the appropriate region. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
 ### Ironpine Native
@@ -152,6 +165,11 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 **Associated Skills**: Profession (choose one), choose any one of the following: Knowledge (local), Search, Survival
 **Type**: Regional
 **Benefit**: You gain +1 skill point at 1st level, and 1 additional skill point every level after.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Guild Backgrounds
 A character with a guild background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is of the same guild. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
@@ -228,6 +246,11 @@ You must work with the DM to pick a guild to which you belong.
 **Associated Skills**: Profession (soldier), plus any one of the following: Balance, Ride, Tumble
 **Type**: Guild
 **Benefit**: Once per encounter, as a swift action, when you make a skill check with one of your associated skills that is not your associated profession, you may gain a +4 insight bonus on that skill check.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Extraplanar Backgrounds
 Extraplanar backgrounds have prerequisites, and may only be taken if your character is from that plane.
@@ -312,6 +335,11 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival
 **Type**: Extraplanar
 **Benefit**: You gain the Air Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at high altitudes, such as when flying or on an airship.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Spelljamming Backgrounds
 You are native to a spelljamming-aware society. As such, you gain the Spacefarer feat at 1st level. This feat cannot be retrained.
@@ -422,3 +450,6 @@ You are native to a spelljamming-aware society. As such, you gain the Spacefarer
 **Type**: Spelljamming
 **Prerequisite**: Caster level 1st or Manifester level 1st, does not possess the Apprentice Helmsman feat
 **Benefit**: Once per week, as an immediate action, you may take 10 on your next skill check with the associated skill you chose, even when distractions normally would not allow it.
+
+</div>
+</div>

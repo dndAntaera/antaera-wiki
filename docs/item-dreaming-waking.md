@@ -1,6 +1,11 @@
 ---
-title: "The Book of Dreams, a Treatise on the Waking & Dreaming"
+title: "Item Dreaming Waking"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# The Book of Dreams, a Treatise on the Waking & Dreaming
 
 **Price (Item Level)**: 80,000 gp (10th level)
 **Body Slot**: -
@@ -19,5 +24,8 @@ A thick, leather-bound tome written in an ancient elven script. Dates included i
 
 *Prerequisites*: Craft Wondrous Item, Sanctify Relic, Legend Lore, Alignment matching that of the chosen deity
 *Cost to Create*: 40,000 gp, 3200 EXP, 80 days.
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

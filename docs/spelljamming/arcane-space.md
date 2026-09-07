@@ -2,7 +2,16 @@
 title: "Arcane Space"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_arcane_space_header.png)
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Everything You Know About Space Is Wrong
 Infinite space, stars as flaming spheres of super-heated plasma, movement through space as a balance of scientific forces, thrust providing acceleration and maneuverability, scientific fact backing up natural phenomena, and life on other planets built along blocks of carbon or silicon elements—forget all that. It's wrong. You can get out of the atmosphere on the back of a roc, fly between the planets through a breathable ocean of air, sail between the crystal spheres that surround the inhabited worlds on a river of magical energy, and encounter roving mind flayers and beholders. The stars are living things in some areas, great bowls of fire in others, and pinpoints of light painted inside a sphere in yet others.
@@ -13,6 +22,11 @@ The phlogiston is a turbulent, unstable, multicolored, fluorescent gas (or gasli
 
 Within wildspace are the celestial bodies: planets, suns, moons, asteroids, and a host of other items collectively lumped together under the heading "planetoids." Most celestial bodies have an atmosphere of some sort, although it is dangerous to assume that this is an inviolable rule.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Celestial Bodies
 
 The celestial body that is most familiar to typical player characters is their home planet, be it Krynn, Oerth, Toril, or any one of hundreds of others that populate the universe. Celestial bodies extend upward in size to that of the sun and downward to the size of asteroids and planetoids. The tremendous variety that is possible (and proven) in celestial bodies mandates that the only accurate definition for the term is any significantly large conglomeration of matter that is wheeling about in wildspace. In general, however, a celestial body is a planetary mass. Most have a regenerating atmosphere.
@@ -20,6 +34,11 @@ The celestial body that is most familiar to typical player characters is their h
 Celestial bodies can have any shape, though the most common is spherical. Still, there are flat worlds, elliptical worlds, cubic worlds, amorphous worlds, ring-shaped worlds, and hollow worlds. Astronomers from Calimshan have even theorized the existence of a Möbius world. Celestial bodies usually, but not always, have an atmosphere that is usually, but not always, breathable. The depth, or thickness, of the atmosphere is directly related to the size of the body. The larger the body, the deeper the atmosphere. Again, these are general rules, and exceptions abound. Voyagers may encounter large worlds without atmospheres, small worlds with thick atmospheres, and otherwise habitable worlds with poisonous atmospheres.
 
 Some celestial bodies are aflame, fueled either by internal reactions or by significant access to the elemental plane of fire. Such bodies are called suns and provide most of the heat and warmth for the celestial bodies within any particular crystal shell.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Wildspace
 
@@ -32,6 +51,11 @@ The disadvantage to such an envelope is its small size. The envelope of breathab
 Example: A spherical beholder 5 feet across has an air envelope 15 feet in diameter. Similarly, a block of wood which is 1 foot by 2 feet by 3 feet is surrounded by a more-or-less rectangular envelope of air which is 3 feet by 6 feet by 9 feet.
 
 A creature will exhaust the air in its personal envelope in 2d10 turns. Since this is barely enough time to get anywhere, most crossing of wildspace is done with larger vessels that have correspondingly larger atmospheres. The amount of air which a vessel can bring along limits the minimum size of most space-going ships to no less than 100 feet in length (this measurement is called the keel). The cost of moving this amount of mass limits the upper size of the ship.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Gravity
 
@@ -95,7 +119,17 @@ This applies to normal hand-held weapons only. Siege machinery, catapults, and b
 
 Weightless conditions apply to both wildspace and the phlogiston with no differences. Despite their size, crystal spheres have no gravity, inside or out.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_arcane_space_inline.webp)
+
+</div>
+</div>
+<div class="wd-row" style="--wd-cols: 75fr 75fr" markdown>
+<div class="wd-cell" markdown>
 
 # Crystal Shells
 
@@ -118,6 +152,9 @@ The crystal sphere itself represents the outer limit of the influence of gods an
 
 Those fantasy systems with stars in the night sky often have these stars mounted along the inside of the crystal sphere. The nature of stars varies from sphere to sphere; within some spheres, the stars are small portholes looking out on the phlogiston, in some they are painted lights along the interior, in some they are great cities inhabited by alien creatures, and in others they are great bowls of fire held aloft by huge statues of forgotten gods.
 
+</div>
+<div class="wd-cell" markdown>
+
 ### Why are Crystal Shells Round?
 
 The systems of the SPELLJAMMER universe are all held in bubbles which drift in a rainbow ocean called the phlogiston. Whatever the shape of the system within—whether a collection of clusters, or a single flat plane, or a chaotic bundling of planets—the sphere that it all fits into is round.
@@ -138,6 +175,11 @@ And when we do, we’ll probably start the sages arguing all over again."
 
 —*From Elminster’s Musings on Empty Space, a scroll from Elminster of Shadowdale to Lord Khelben of Waterdeep.*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Phlogiston
 
 Outside and between the crystal spheres is a turbulent, rainbow ocean of flammable ether called the phlogiston. The phlogiston is a multicolored sea upon which float the various systems within their crystal shells. The term phlogiston is applied equally to both the multicolored medium and to the entire region surrounding the crystal spheres.
@@ -156,6 +198,9 @@ Voyagers can move along the rivers of phlogiston at random or according to a pla
 
 The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling, enormous corks, but they do bob). As a result, over time, the spheres actually shift their positions relative to each other. This almost never changes the courses of the rivers, however, so navigation is possible. Just because a ship passed certain landmarks on its way from A to B does not mean the ship will pass those same landmarks on its way back to A from B. Fortunately, when crystal shells drift too close, the phlogiston between them thickens to the point where the two massive spheres are moved apart, preventing a collision.
 
+</div>
+<div class="wd-cell" markdown>
+
 | Type of Flame | Damage | Range (radius) |
 |---|---|---|
 | Candle (lit) | 1d6 fire | 4 in |
@@ -166,6 +211,11 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 | Match (fuse)\* | 1d4−2 (min 1) | Self |
 
 \* Immediately causes an arquebus to misfire.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Castaways in the Flow
 
@@ -179,6 +229,9 @@ Most of the ships of space follow a "Code of the Deep," where lost bodies are re
 
 Merchants and pirates will offer the lost individual passage in exchange for work, with the pirates tossing those unwilling to serve back into the deep. The elves and dwarves will rescue humans but keep them under watch until landfall is made. Scavengers will loot whatever is available on the body and toss it back into the flow, where it will float for another random number of weeks, determined by the "1d10+" process described earlier.
 
+</div>
+<div class="wd-cell" markdown>
+
 | D10 | Rescuers |
 |---|---|
 | 1 | Neogi-Slaver |
@@ -188,6 +241,11 @@ Merchants and pirates will offer the lost individual passage in exchange for wor
 | 7–8 | Elvish Military Ship |
 | 9 | Dwarvish Ship |
 | 10 | Scavengers |
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Breathing in Space
 
@@ -221,11 +279,21 @@ Classes of atmosphere operate in the same manner in the phlogiston as they do in
 
 Crystal shells usually have no atmosphere of their own, either inside or outside. There are many asteroids and planets that lack atmosphere as well, in contradiction to normal physical laws.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Temperature
 
 Due to the activity of the planets, the spheres, and various gates to the plane of elemental fire, temperature in wildspace is generally not a problem for adventurers. The ambient temperature in most space is about the same as a moderate summer day in the temperate regions of most worlds. Some crystal shells, however, have surprisingly higher or lower temperatures, and those should be noted on any star chart worth reading. A shell that is little more than an opening into the plane of elemental fire will have a higher temperature than one without any such openings. For instance, Krynn space has a very low natural temperature (about 16 degrees Fahrenheit) and is plagued by small, lethal clouds of ice particles.
 
 The phlogiston maintains a similarly comfortable temperature, but with the added danger of explosive fire, as described above. There are no seasons in the phlogiston or wildspace. Of course, as a ship approaches a star, the temperature increases. Landing on a body of fire creates problems similar to entering the elemental plane of fire. A water body could conceivably be cold enough to be nothing but a ball of ice.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Time
 
@@ -234,3 +302,6 @@ Local time often varies from planet to planet and sphere to sphere, depending on
 A standard day is 24 hours and is broken into three watches of eight hours each: first watch, second watch, and night watch (also called graveyard watch). A standard week is seven standard days, and a standard month is four standard weeks (28 days).
 
 There is no standard time period beyond the month. The typical method of determining the length of a year—the time that passes during a complete cycle of the seasons—has no meaning for a group that spends most of its time in space. Anything from 10 to 15 months can be considered a year, depending on the people who are keeping track of it.
+
+</div>
+</div>

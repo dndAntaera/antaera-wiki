@@ -1,6 +1,11 @@
 ---
-title: "Lylah, Lady of Water"
+title: "Deity Lylah"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Lylah, Lady of Water
 
 - **Symbol**: A silver wave coiled around a pearl
 - **Home Plane**: Elemental Plane of Water
@@ -22,3 +27,6 @@ Let the current shape your path, not chains. Change is the ocean’s law, and in
 
 **Home Sphere**
 Lylah’s divine influence flows through the Inundatio Sphere—a realm of endless oceans, drifting seas, and sacred silence. She is revered most deeply on Cyrintha, where floating isles cradle her faithful above the minds of sleeping god-beasts. Her currents sweep through Deluthar’s dreaming form, spiral through Kuraali’s misted arc, and echo in the whispering seas beneath Voruneth’s ice. In a sphere where land has all but vanished, she is both guide and tide.
+
+</div>
+</div>

@@ -2,8 +2,16 @@
 title: "Languages"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 The world of Antæra is vast and diverse, with many different civilizations and cultures. One of the effects of this is the development of languages that are as diverse as the places they come from. They are created by the various cultures in the world and are influenced by many things, such as the pressures of the plane or divine intervention. Some may even be directly descended from, or related to, other languages. The languages presented here are unique to this world, and any languages present in base D&D, such as Sylvan and Gith, are still present. The given list of languages is incomplete and will be added when new languages are discovered over the course of time.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Languages of the Prime Material Plane
 
@@ -19,6 +27,11 @@ Imperial is the language of the humans who were originally brought over from the
 ## Smallfolk
 Originally handed down to the gnomes by their god Orion, several other dialects were also handed down to the various other smallfolk races created by Orion. The dialects include Dwarven, Gnomish, Goblin, and Halfling. Though they all use the same alphabet, they are all spoken wildly different, with their only similarities being their origins and alphabet. Unlike other languages with derivative dialects, speakers of these dialects cannot understand the others on a base level.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Languages of the Parallel and Inner Planes
 
 ## Argentæl
@@ -26,6 +39,11 @@ This language is a descendant of ancient Elvish, having evolved and adapted over
 
 ## Primordial
 This language is as old as time itself and is spoken almost exclusively by elementals intelligent enough to be capable of speech. This language is broken down into four unique dialects: Aquan, Auran, Ignan, and Terran. While the different dialects are unique to each other in speech patterns, they use the same vocabulary and alphabet. Because of this, non-native speakers who train in one dialect can usually understand the meaning behind what is being spoken in the other dialects but cannot fully understand what is being said. However, the different dialects appear the same when written down, and anyone who can understand one can read any other Primordial dialect.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Languages from the Outer Planes
 
@@ -40,3 +58,6 @@ This language is commonly mistaken as the language of goodly outsiders, such as 
 
 ## Ogoroth
 The name Ogoroth was assigned to this language by the non-natives who hear it, though its true name is unintelligible to the scholars who attempt to record it. It is the alien language spoken exclusively by the aberrant denizens of the Far Realms. It is known for its alien syntax and structure, which defy the linguistic conventions of more commonly known languages. Its phonetics include a range of sounds that most normal humanoid vocal tracts cannot produce, featuring guttural clicks, inhumanly extended hisses, and vibrations that can resonate in multiple dimensions simultaneously. Due to its complex and otherworldly nature, Ogoroth is only comprehensible to creatures with similarly alien minds, such as mind flayers, beholders, and other entities that inhabit or originate from the Far Realms. The language’s grammar and vocabulary encapsulate concepts beyond the understanding of typical beings, often relating to esoteric aspects of reality manipulation, existential and cosmic horror, and other abstract concepts.
+
+</div>
+</div>

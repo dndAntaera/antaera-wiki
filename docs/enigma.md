@@ -1,12 +1,17 @@
 ---
-title: "Enigma, the Lost God"
+title: "Enigma"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Enigma, the Lost God
 
 **Name:** Enigma, the Lost God
 
 **Domain:** Luck
 
-**Origins:** Shrouded in Mystery (speculations suggest he originated as a Sillit Nerra in the Plane of Mirrors due to his appearance)
+**Origins:** Shrouded in Mystery (speculations suggest he originated as a Sillit Nerra in the [Plane of Mirrors](plane-of-mirrors.md) due to his appearance)
 
 **Appearance:**
 
@@ -32,6 +37,12 @@ Intrigued and awed by his enigmatic nature, many revere Enigma in the hopes that
 
 Enigma's gifts range from spells of protection to relics of legendary power. Mortals may receive temporary blessings such as the "Bless" spell, granting them increased fortune and favor for a limited time. Others may be chosen to wield long-lost and fabled weapons of immense might, relics that have been missing from history for eons.
 
+</div>
+<div class="wd-cell" markdown>
+
 *Enigma, the Lost God*
 
 *Holy Symbol of Enigma*
+
+</div>
+</div>

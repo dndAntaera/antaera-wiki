@@ -2,6 +2,9 @@
 title: "Region Of Dreams"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Description
 The Region of Dreams, usually simply called Dream, is where dreams cavort, heedless of the waking world. Dreams once dreamt fade into obscurity, but their echoes resonate forever throughout Dream. Carcasses of particularly vile dreams, charged with dark emotion, sometimes rampage from dreamscape to dreamscape, giving rise to terrible nightmares.
 
@@ -21,6 +24,9 @@ The many dreamscapes created by dreamers last but a short time, and they rarely 
  - Spells of the illusion school are extended
  - Spells may mutate the more complex they are, consult the given table below
 - *Planar Relations* - Remote: the only way to reach the Region of Dreams from anywhere is through the psychic projection of dreaming and the Dream Travel spell
+
+</div>
+<div class="wd-cell" markdown>
 
 ## Dream Travel
 *Transmutation*
@@ -42,10 +48,18 @@ Any creatures touched by you when dream travel is cast also makes the transition
 
 *Note*: Unlike the normal rules for dreaming, items you use, spells you cast, and other consumables are still gone when you return to the waking world after being under the effect of this spell. Likewise, items you gain and experience you accumulate while under the effect of this spell stay with you.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Hypnagogian Haze
 Just as one would experience a haze over their consciousness when dreaming, visitors to the Region of Dreams experience a similar phenomenon called the Hypnagogian Haze. Visitors without the Dreamtouched subtype must make a DC 20 Will saving throw or be dazed for 1d4 minutes, due to abrupt exposure to the Haze. All creatures without the Dreamtouched subtype experience the perpetual disorienting effects of the Haze until they leave the Dreaming, which clouds their vision and distorts sound. Concentration checks made while under the effects of the Haze gain a -4 penalty, and complex tasks become difficult to perform. All other complex skill checks gain a -2 penalty and require a successful DC 10 Concentration check to complete, with failure resulting in wasted time and effort on the skill check (though it may be re-attempted even if you normally could not).
 
 This Haze is what scholars believe to be the source of the hypnagogia and hypnopompia one experiences when going to sleep and waking up. No one truly knows whether the Haze is created by the plane itself, or if the plane is made from the Haze, as neither can be fully studied without being exposed to the Haze. The only scholars to have studied the Haze to any real extent have gone missing and are reported to have succumbed to the strange effects of the Dreaming.
+
+</div>
+<div class="wd-cell" markdown>
 
 ## Dreamtouched Subtype
 Once a creature has 5 ranks in the Lucid Dreaming skill, they gain the Dreamtouched subtype if they did not already have it.
@@ -54,12 +68,22 @@ Once a creature has 5 ranks in the Lucid Dreaming skill, they gain the Dreamtouc
 - You are immune to some of the effects of the Realm of Dreams
 - Immunity to *sleep* spells and effects
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Dream Links
 The Region of Dreams is coterminous to the Material Plane and whatever Transitive, Inner, or Outer Planes you desire. The easiest method of reaching Dream is through the Portal of Sleep, which living creatures the multiverse over access without conscious thought while they slumber.
 
 When sleep claims a living mind, the consciousness of the sleeper comes to the Region of Dreams, and the dreamer enters into his or her own dreamscape. The body remains on the Material Plane, but the mind wanders as a discrete entity within a dreamscape. When the sleeper wakes, the mind returns to the body, and the dreamscape usually fades into undifferentiated dream-stuff. Sometimes dreamscapes linger and pass into the Dreamheart, taking on a more permanent reality.
 
 Dreamwalkers—frequent visitors to the Region of Dream—can enter Dream through the Portal of Sleep like any dreamer, or they can pass bodily into dreams by finding rare physical portals into Dream or casting the *dream travel* spell.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Dream Inhabitants
 All manner of creatures are found in Dream, ranging from small animals to abominable nightmares. Dreamers run the gamut as well, though dreamscapes of similar creatures are generally clustered together like archipelagoes in a sea of wild dreamstuff.
@@ -81,6 +105,11 @@ Lurking deep within the alien, impossible landscapes of the Region of Dreams, ho
 
 The primary difference between nightmare creatures and standard monsters, however, is one of behavior and motivation. Because they were spawned from the stuff of dreams, nightmare creatures are completely alien in thought and desire. Even most aberrations have some needs in common with humanoids: sustenance, comfort, and the like. Nightmare beasts might not. Their goals can be unfathomable to the human mind. In other cases, they want nothing more than to cause pain, suffering, and fear-precisely what one might expect from creatures that are literally bad dreams made manifest. Some see the waking world as a threat, something to be destroyed so that its inhabitants will cease to encroach mentally on the dreamlands. Others see the waking world as new territory to enslave and conquer, a world peopled with feeble entities that are easily manipulated or slain.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Movement and Combat
 Movement within a dreamscape is often like that on the Material Plane. But the rules can vary from dreamscape to dreamscape. In one dreamscape, every creature might fly from place to place, and in the next, swimming might be the only mode of transport.
 
@@ -89,6 +118,11 @@ Moving between dreamscapes is intentionally done only by dreamwalkers who have e
 The passage between dreamscapes is a gradual change, not a sudden wrenching. As the traveler approaches the border of the dreamscape, the surroundings become more and more like the neighboring dreamscape, while features of the current dreamscape are less noticeable. Eventually, the dreamwalker has passed wholly into the new dreamscape. A dreamwalker, like any dreamer, can “wake up” to leave Dream entirely.
 
 **Waking Up**: A dreamer or dreamwalker can attempt to wake up from a threatening dreamscape as a moveequivalent action by succeeding at a Wisdom check (DC 10). When the dreamer who created the dreamscape awakens, the dreamscape bursts. Any other visitors are sent headlong into the nearest dreamscape. When a dreamwalker wakes, the dreamscape and the original dreamer are unaffected.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Features of the Region of Dreams
 When an average dreamer enters Dream, she retains all her abilities and even gains dream-stuff equivalents of carried or worn items. Likewise, her hit points, ability scores, and all other values are exactly as they were before she fell asleep. For example, if she is a 5th-level wizard with a wand of lightning, she can use both her spells and her wand in Dream. When she wakes up, she’ll find that she neither cast any prepared spells nor expended charges from her wand.
@@ -104,6 +138,11 @@ The dreamer’s unconscious mind forms the dreamscape, which the dreamer then mo
 
 In extremely rare cases, a dreamscape ruptures, sending its pieces and visitors into other dreamscapes or onto the Material Plane. Objects from ruptured dreamscapes usually last 1d% hours on the Material Plane, but 1% of them achieve permanent reality. An example of a permanent dreamscape is described below
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Dreamheart
 The dreamscapes, in all their infinite numbers, are only the edge of Dream. They border the Dreamheart, a realm where dreamers can die.
 
@@ -115,8 +154,16 @@ Waking up in the Dreamheart is more difficult, requiring a Wisdom check (DC 18).
 
 Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, deity, or purpose in the Region of Dreams, it can be found in the Eye of the Dreamheart Tempest. But each character who visits it comes away with a completely different understanding of what lives in the eye—some meet deities, others find long-dead loved ones, and others achieve unparalleled personal power or insight. No one account can accurately encompass the Dreamheart, much as no dreamer can completely understand all dreams.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Spells in the Dreamscape
 Due to the unpredictable nature of nightmare realms and dreams, any spells or spell-like abilities used therein might not work normally. The more complex the spell, the greater the chance it will go wrong. Each time a character casts a spell, roll 1d20+the spell level. If the result is 21 or over, the spell is twisted by the mutable nature of the nightmare realm. Roll 1d20 again and consult the following table to determine the impact on the spell.
+
+</div>
+<div class="wd-cell" markdown>
 
 | d20 | Result |
 |---|---|
@@ -129,6 +176,11 @@ Due to the unpredictable nature of nightmare realms and dreams, any spells or sp
 | 16–17 | The spell does not function; instead, the caster produces another spell of 1d4 levels higher, determined randomly; this need not be a spell the caster knows or has prepared. |
 | 18–19 | The spell simply fails to materialize. |
 | 20 | Roll twice, ignoring this result if rolled again. |
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # New Skill: Lucid Dreaming (Wis; Trained Only)
 Use this skill to realize that you are dreaming, consciously direct elements of a dream, and move into other dreamscapes. Creatures with 5 ranks in this skill gain the Dreamtouched subtype if they did not already possess it.
@@ -143,6 +195,9 @@ Use this skill to realize that you are dreaming, consciously direct elements of 
 
 **Retry**: You can make a Lucid Dreaming check once per round.
 
+</div>
+<div class="wd-cell" markdown>
+
 | Task | DC |
 |---|---|
 | Realize you are dreaming | 5 |
@@ -153,3 +208,6 @@ Use this skill to realize that you are dreaming, consciously direct elements of 
 | Depart a dreamscape for the Dreamheart | 25 |
 | Pull another with you into the Dreamheart | \* |
 | Leave the Dreamheart | 20 |
+
+</div>
+</div>

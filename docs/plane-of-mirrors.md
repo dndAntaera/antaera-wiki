@@ -2,6 +2,9 @@
 title: "Plane Of Mirrors"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Description
 The Plane of Mirrors is a variant Transitive Plane—or more accurately a collection of Transitive Planes—that exists in the space behind reflective surfaces. Some scholars maintain that the common belief that mirrors simply reflect light is wrong—in truth, they allow the viewer to gaze into a reality that exists alongside the one they know. That reality is known as the Plane of Mirrors. With the proper spell, a traveler can turn this window into a door and move into the space between the mirrors, a place of power and danger.
 
@@ -19,6 +22,11 @@ The Plane of Mirrors is a secret plane, unknown to most inhabitants of the Mater
 - *Magic* - normal magic
 - *Planar Relations* - Material Plane (coterminous), Special (whatever other planes have connecting mirrors, a single plane may have several Mirror Planes attached to it.)
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Mirror Links
 The Plane of Mirrors is coterminous to the Material Plane and whatever other planes have connecting mirrors. A single plane may have several Mirror Planes attached to it. Each mirror is connected to a group of 5d4 other mirrors in a “constellation.”
 
@@ -27,6 +35,11 @@ The mirrors in a constellation have something in common with one another. They m
 Mirrors used for mirrorwalking between planes do not gain any special abilities and may be broken as any other mirror. The sound of breaking glass resounds through the entire Plane of Mirrors, warning travelers that at least one of the portals has been sealed. Smashing all the portals of a particular constellation of mirrors will trap anyone still on the Plane of Mirrors indefinitely.
 
 The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, or the Shadowlands. Spells that rely on these planes do not function on the Plane of Mirrors.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Mirror Inhabitants
 The Plane of Mirrors has few inhabitants. However, when a traveler passes through a mirror, the population of the Plane of Mirrors increases by two, not one.
@@ -61,6 +74,9 @@ Nerras are contrary by nature, and they balance on a knife’s edge of different
 
 Sillits are the leaders of the nerras, but they rule through necessity more than for the sake of power. Individual varoots and kalareems can wield considerable power and even eclipse a sillit over time. Most, however, defer to the rule of the sillits with no qualms.
 
+</div>
+<div class="wd-cell" markdown>
+
 ## How to Get to the Plane of Mirrors
 *Those who try to walk through mirrors unaided get nothing but a bump on the forehead for their trouble. It takes a spell to access the Plane of Mirrors.*
 
@@ -83,8 +99,16 @@ Using the mirror walk spell is not without danger. When you travel to a Plane of
 
 *Focus*: A mirror or other reflective surface of sufficient size to step through.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Mirror Survival
 Other than battling yourself in combat to the death, there are no obvious perils on the Plane of Mirror. Travelers can breathe normally on the plane. Food and water must be brought along by long-term visitors, for there are no natural sources of sustenance on the Plane
 of Mirrors.
 
 Vision on the Plane of Mirrors is like in any interior castle hallway. The various mirror-portals may provide light if there is light on the planes they connect to.
+
+</div>
+</div>

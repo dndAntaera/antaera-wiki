@@ -1,6 +1,11 @@
 ---
-title: "Nihil, Herald of Void"
+title: "Deity Nihil"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Nihil, Herald of Void
 
 - **Symbol**: A black circle surrounded by fading stars
 - **Home Plane**: Quasi-Elemental Plane of Vacuum
@@ -22,3 +27,6 @@ Embrace the truth of emptiness. All things end, all lights fade, and silence wil
 
 **Home Sphere**
 The name, features, and celestial architecture of this deity's native crystal sphere — and its home planet — are unknown. Scholars argue whether the mortal who became Nihil hailed from a lost sphere, or whether the Void itself erased all traces of their origin.
+
+</div>
+</div>

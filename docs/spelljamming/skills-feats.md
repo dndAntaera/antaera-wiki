@@ -2,8 +2,17 @@
 title: "Skills Feats"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_skills_feats_header.png)
 *A helmsman piloting his spelljammer through wildpace.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Updated Player’s Handbook Skills
 *This section describes new uses, DCs, and modifiers for familiar skills from the Player’s Handbook. Certain spelljamming-specific skills have groundling equivalents, due to the similar nature of them to their counterparts. Skills that have equivalents can be used to apply for content in place of each other, and can be used for skill checks interchangeably, but at a -2 penalty. For example, if a prestige class requires 8 ranks in Profession (sailor), you would need 10 ranks in Profession (Spacehand). Using a Profession (Spacehand) check in place of a Profession (Sailor) check would have a -2 penalty.*
@@ -56,6 +65,11 @@ This skill allows a character to speak and read/write languages, including new l
  - Language rate: 10 words per minute using light-based signals.
 - **Speak Archaic Language**: Master an obscure wildspace language, useful for reading ancient tomes. This skill allows either reading or speaking, but not both.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # New Skills
 
 ### Helm Pilot (varies)
@@ -72,6 +86,11 @@ Use this skill to effectively pilot a Spelljamming vessel.
 A Wildspace Survival check applies for the full day. Checks made to identify hazards take at least a full-round action, or longer at the DM’s discretion.
 - Synergy: 5 or more ranks in Wildspace Survival grants a +2 synergy bonus on checks to put out fires.
 - The skill is cross-class unless the Spacefarer feat is selected, in which case it becomes a class skill for all of your classes.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # New Feats
 
@@ -146,3 +165,6 @@ The following feats now also apply to shipboard weapons:
 - Greater Weapon Specialization
 - Ranged Weapon Mastery
 - Weapon Supremacy
+
+</div>
+</div>

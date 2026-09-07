@@ -2,6 +2,9 @@
 title: "Antæran Calendar"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 
 The lunar calendar of Antæra, a sophisticated timekeeping system bestowed by Selene, believed to be an ancient lunar scholar, holds profound significance across the diverse cultures of Antæra. This meticulously structured calendar divides the year into 360 days, organized into twelve months, each consisting of thirty days. This division is meticulously aligned with the lunar cycles, where each phase—New Moon, Waxing Moon, Full Moon, and Waning Moon—plays a critical role in shaping agricultural practices, spiritual rituals, and communal life.
@@ -13,6 +16,11 @@ The lunar calendar’s impact extends significantly beyond mere scheduling. It d
 Additionally, the appearance of blood moons in the calendar marks significant celestial events that herald the absence and return of the moon. These blood moons are not only astronomical phenomena but also carry deep cultural and spiritual significance. They are often seen as portents of change or moments of powerful transformation, and are incorporated into myths and legends, influencing cultural narratives and practices.
 
 The influence of the lunar calendar is also evident in the daily rhythms of Antæran society. Agricultural practices, particularly, are closely aligned with the phases of the moon. Planting, nurturing, and harvesting crops are timed to correspond with specific lunar conditions believed to optimize growth and yield. Similarly, the timing of legal and political events is strategically planned to align with lunar phases that are seen as auspicious or symbolically appropriate, such as making declarations during the New Moon or signing treaties during the Full Moon.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Seasons
 **Spring**
@@ -32,6 +40,11 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant�
 - Indormë Telumë (Hidden Moon, end): The year starts with strategic planning and strengthening communal bonds to withstand the darkness.
 - Nulorë Súrë (New Blood Moon): Concludes winter with transformative energy, signaling a shift towards renewal and decreased nocturnal dangers.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Months
 # **Indormë Telumë (Hidden Moon, ending)**: The new year continues under the cloak of darkness with Indormë Telumë, fostering an atmosphere of introspection and communal planning. This period is crucial for setting goals and strengthening defenses in preparation for the challenges ahead.
 # **Nulorë Súrë (New Blood Moon)**: Winter concludes with the intense energy of Nulorë Súrë, a blood moon signaling the eventual return of light. This month brings a mix of challenge and renewal, setting the stage for the reawakening of the world with the onset of spring.
@@ -46,6 +59,11 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant�
 # **Loroscal Súrë (Waning Crescent Blood Moon)**: Winter begins under the ominous glow of Loroscal Súrë. The blood moon heightens the darkness and emboldens malevolent creatures, increasing the danger. Communities fortify their defenses, employing protective rituals to survive the peak of nocturnal threats.
 # **Indormë Yestë (Hidden Moon, beginning)**: The year ends in deep darkness with Indormë Yestë, exacerbating the peril with almost pitch-black nights and heightened monster activity. This intense darkness requires strong communal resilience and continuous vigilance.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Days
 # **Solenday**: The dawn of the week, Solenday, is deeply intertwined with the rising of the sun and new beginnings, embodying the optimism and potential that a new week holds. This day is celebrated as a symbol of renewal, where the rising sun heralds the promise of fresh starts and new opportunities. Communities might engage in rituals of cleansing or planning sessions for the week ahead, embracing the rejuvenating energy that Solenday represents. A common misconception persists that this day is named after the god Sol.
 # **Lunaday**: Lunaday is steeped in the mystical influence of the moon, a day when its presence is felt most strongly across the lands. With a higher frequency of full moons occurring on this day, it is a time for reflection, fertility, and the celebration of the moon's guiding light. People might gather to observe lunar rituals, reflect on their inner selves, and seek the moon's guidance for the coming days.
@@ -54,6 +72,11 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant�
 # **Wildsday**: Named after the enigmatic emergence of the Sidhe Wilderness, Wildsday is a day when the veil between the Prime Material Plane and the fey realms thins, leading to an increase in fey activity and whimsy. It's a time of magic and unpredictability, celebrated with festivals that honor the fey and the mysterious beauty of the wilds that surround the communities.
 # **Stormkeep**: What started as a sailors' tradition now encompasses all adventurers setting forth on their quests. Stormkeep is a day of departure, imbued with the spirit of adventure and the anticipation of journeys ahead. Many pray to [Vaylen](deity/vaylen.md) for a blessing on this day, hoping for safe passage and perhaps a touch of divine favor as they embark on their travels. It's a day marked by farewells, preparations, and the excitement of the unknown.
 # **Etherend**: Named in honor of a legendary mage, Etherend is a day dedicated to the pursuit of knowledge and the arcane. Scholars, mages, and students alike use this day to organize their studies, embark on new academic endeavors, and delve deeper into the mysteries of magic. It's a day of quiet study and reflection, punctuated by the sharing of insights and discoveries among the learned communities.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Eras
 
@@ -104,6 +127,11 @@ This era of exploration and enlightenment, however, was juxtaposed with a deep i
 
 The Era of Discovery thus represents a period of great potential mixed with complex societal challenges. As Antæra navigates this era, it grapples with the legacies of its past—both the darkness of division and the light of progress. The endeavors of its people to explore new frontiers and build a more inclusive world are punctuated by the internal strife within human society, highlighting the intricate dynamics of reconciliation, understanding, and the pursuit of a united future.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Holidays & Events
 
 ## A
@@ -135,3 +163,6 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 ## X
 ## Y
 ## Z
+
+</div>
+</div>

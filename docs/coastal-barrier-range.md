@@ -2,7 +2,13 @@
 title: "Coastal Barrier Range"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/coastal_barrier_range_header.jpg)
+
+</div>
+<div class="wd-cell" markdown>
 
 # **Legend**
 - Geographical Locations
@@ -34,3 +40,6 @@ title: "Coastal Barrier Range"
  - To'Naas
  - To'Raath
  - To'Thaas
+
+</div>
+</div>

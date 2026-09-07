@@ -2,8 +2,16 @@
 title: "City Hnaleah"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/city_hnaleah_architecture.jpg)
 *Representation of the type of architecture found in the city and its surroundings, not an actual representation of the city itself.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Overview
 The Holy City of Hnaleah stands as a bastion of devout belief and unyielding theocratic rule. Governed by an Imperial Theocracy, this city is a stronghold of faith, dedicated to the deities Lux Dawnbringer, Thrain Stoneheart, and Leonus Ironmane. This devotion is not a matter of personal choice but a mandated aspect of life in the city, deeply ingrained in its cultural and social fabric. Its society is shaped by the fervent adherence to these divine figures and the teachings they represent. It stands as a symbol of unwavering faith and rigid theocracy. It is a city where devotion to its deities permeates every aspect of life, from governance to warfare. Despite its prosperity and power, Hnaleah's uncompromising stance on religious purity and its crusade against perceived evil cast a shadow over its holy aspirations. The city's rulers are not mere political figures but spiritual leaders, each wielding authority derived from their devotion to the divine. The city's fervent adherence to its theocratic principles fosters an environment of intolerance and rigidity, often leading to repercussions both within and beyond its walls. Despite the stringent theocracy that governs its society, Hnaleah has flourished, becoming a beacon of both spiritual and material wealth. Governed by a stern and protective regime, the city's theocratic leadership exerts a pervasive influence over the lives of its citizens, often at the cost of personal liberty and privacy.
@@ -36,14 +44,27 @@ The government of Hnaleah, viewing its rule as a manifestation of divine will, t
 
 Hnaleah's government holds the belief that it is their sacred duty to liberate the world from those they deem heathens or non-believers. This conviction drives much of their foreign policy and their interactions with neighboring regions and states. The city's crusade to convert and guide is not limited to military conquests but also extends to diplomatic and cultural efforts. The government seeks to spread its religious doctrines through various means, viewing each conversion as a step towards fulfilling their perceived divine destiny. The government's protective yet intrusive nature, coupled with its vision of global religious dominion, paints a picture of a city at once resolute in its convictions and unyielding in its control. The citizens of Hnaleah, living under the watchful gaze of their rulers, navigate a society where devotion is both a way of life and a mandate from above, shaping their existence within the hallowed yet confining walls of the Holy City.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/city_hnaleah_inline.png)
 *Standard Righteous Legionairy foot soldier*
 
 ![](/antaera-wiki/img/city_hnaleah_inline_2.png)
 *Standard Righteous Legionairy cleric*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/city_hnaleah_map.jpg)
 *Map of the city.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Districts
 ## Historic District
@@ -126,3 +147,6 @@ The Dregs is a massive slum, located outside the walls of the city and filled to
  - Tenement District
  - Undercity
  - Warehouse District
+
+</div>
+</div>

@@ -1,6 +1,11 @@
 ---
-title: "Jinzai, Herald of Steam"
+title: "Deity Jinzai"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Jinzai, Herald of Steam
 
 - **Symbol**: Coiling plume rising from a calm pool
 - **Home Plane**: Quasi-Elemental Plane of Steam
@@ -24,3 +29,6 @@ Let the heart settle like silt in still water. Hardship scalds, but does not bre
 
 **Home Sphere**
 Jinzai hails from the Inundatio Sphere, a dominion of drifting oceans and sacred silence. He was born on Cyrintha, a temperate sea-world crowned with archipelagos and ancestral rites. The eastern isles still hold his oldest shrines—tiered temples above steaming cliffs, and floating pavilions where the faithful offer sake, flowers, and quiet laughter to the rising mist.
+
+</div>
+</div>

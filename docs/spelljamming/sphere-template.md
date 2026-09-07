@@ -2,6 +2,15 @@
 title: "Sphere Template"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Sphere Name
 
 Description
@@ -11,6 +20,11 @@ Description
  - Type:
  - Name:
  - Spelljamming Aware (Y/N):
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Plantology & Astrology
 
@@ -35,6 +49,11 @@ Description
  - shape
  - other notes
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 - **Deity 01**
@@ -44,5 +63,8 @@ Description
  - Portfolio:
  - Typical Worshippers:
  - Holy Symbol:
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

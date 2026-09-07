@@ -2,6 +2,15 @@
 title: "Sphere Sidhe"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Sidhe Sphere
 
 The Sidhe Sphere feels less like a corner of the cosmos and more like something whispered into being. Wildspace here doesn’t stretch into emptiness—it sways, shimmers, glows. The void is full of drifting auroras, strands of golden pollen, and lights that flit about like shy spirits. Breathing here feels like drinking starlight. Time doesn’t pass—it meanders, circling back on itself like a song you almost remember. Spelljammers speak in hushed, wistful tones about their time here, often trailing off mid-sentence, as if part of them never really came back.
@@ -13,6 +22,11 @@ The planets around it feel more like old dreams than celestial bodies. Each one 
 Then there's the Bloomwound Oracle, always floating, always blooming just out of reach. They say it hears your heart before your mouth can speak. Druids tend it like a sacred grove, not with tools or rules, but with silence, song, and presence. It shows you the life you might’ve lived if you’d turned left instead of right, if you’d said yes, if you’d stayed. People don’t go there for answers. They go to remember the question.
 
 And drifting beyond it all, wrapped in silence too deep for breath, is the Tan’dur Anomaly. It doesn’t belong here. That’s the first thing anyone notices. Where everything else sings, it absorbs. Where everything glows, it dims. Made of tan starmetal and angles that make your head ache, it waits, humming in a voice you only hear in dreams. Some who pass too close weep for reasons they can’t explain. Some forget why they came. And some... just stop. Staring. Listening.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -77,6 +91,11 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tan�
  - **Shape**: Spherical
  - **Other Notes**: A bleak and frostbound world, Taedaflora is a realm of endless taiga forests, locked in ice and pale light. Antlered eladrin traverse the wastes in great sleigh-fortresses drawn by silent beasts, their paths charted more by memory than map. The twin moons—Iskar and Velrien—circle with solemn grace, their presence guiding dreamwalkers through the echoes of ancient seasons.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -104,3 +123,6 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tan�
 - Caemira, Weaver of Mirrorwinds (CG)
 - Sylorien, the Mist-Walker (CN)
 - Emelthar, the Moth Lord of the Lamp (TN)
+
+</div>
+</div>

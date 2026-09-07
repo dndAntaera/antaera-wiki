@@ -2,6 +2,15 @@
 title: "Sphere Lapis"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Lapis
 
 In the unlit vastness of the Lapis Sphere, wildspace is a hush of ancient weight. There is no sun, no day—only a cold gravity well at the sphere’s heart, drawing all matter into slow, solemn orbits. The only illumination comes from great bioluminescent beasts—leviathans of the deep void whose psionic pulses ripple across space, illuminating nothing but the thought of their presence. Crystalline tendrils drift like root systems through the dark, shedding spores that seed the vacuum with fungal life, forming drifting curtains of alien growth.
@@ -9,6 +18,11 @@ In the unlit vastness of the Lapis Sphere, wildspace is a hush of ancient weight
 An immense asteroid field known as the Cinctum Veneris girds the system, a broken belt of shattered moons and stone leviathans. Many asteroids are hollowed and alive with subterranean psionic colonies, the minds within rarely glimpsed by outsiders. Psychic echoes drift like fog between the stones, lingering impressions of ancient thoughts or the whispers of the dreaming earth itself.
 
 At the outermost edge of wildspace, fixed in perfect stillness against the void, hangs the Enigmastone—a massive, alien obelisk wrought from tan-colored starmetal. Its surface pulses with a deep, seismic thrum, felt more in thought than flesh. Though its origin remains unknown, it is believed to be an Ancient Antæran relic, left behind in the final era of their empire. Scholars theorize it is the source of the sphere’s pervasive psionic resonance, broadcasting silent waves of psionic power that influence every waking mind in the system. Others still believe it to be a sort of thrumming stone, replicating and broadcasting the psionic power innate to the sphere itself.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 - Type of Sphere: Standard
@@ -67,6 +81,11 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
  - Composition: shattered moons, dormant stone titans, fungal debris
  - Other Notes: The Cinctum Veneris is a wide belt of fragmented moons and shattered titans, held in erratic orbits by ancient gravitational eddies. Many of its asteroids are hollow and support cloistered psionic colonies or fungal enclaves that drift in timeless meditation. Strange, half-sentient spore clouds flit between them, their presence heralded by drifting lights that mimic stars. Explorers report that some stones respond to telepathic thought, shifting their courses or revealing long-buried passages. Rumors persist of lost temples within the belt that still pulse faintly with Antæran echoes.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -94,3 +113,6 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 - Savaar, the Chittering Prophet (Chaotic Evil)
 - Othuun, Keeper of Deep Names (Chaotic Neutral)
 - Ezzith, the Hollow Bud (Chaotic Neutral)
+
+</div>
+</div>

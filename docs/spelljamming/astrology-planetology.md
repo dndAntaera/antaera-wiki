@@ -2,8 +2,17 @@
 title: "Astrology Planetology"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_astrology_planetology_header.png)
 *Planetologist taking notes about a newly discovered planet.*
+
+</div>
+</div>
+
+<div class="wd-row" style="--wd-cols: 75fr 75fr" markdown>
+<div class="wd-cell" markdown>
 
 # Traveling in Wildspace
 Traveling in a straight line, spelljamming ships can attain high velocity relatively quickly, spanning the great emptiness between the planets in a short time. The operative phrase, however, is "straight line." Upon making a turn or coming into the gravity field of another large body, the spelljammer helm automatically decelerates to a more manageable speed described under Combat. This is a function of all spelljamming, regardless of the type of helm or owning race of the ship.
@@ -20,11 +29,19 @@ What slows movement among the more crowded inner planets is the presence of mult
 
 This "sudden stop" when moving at high speeds does not affect anyone riding on the ship. The effortless deceleration is believed to be created primarily as a safety factor to prevent spelljamming ships from colliding with other ships, meteors, asteroids, and planetary bodies. In reality, this often means that a ship en route from one point to another in a (relatively) more crowded section of space may have more encounters than a ship moving through an emptier area (out near the shell, for example), so the ship has to continually slow down between locations.
 
+</div>
+<div class="wd-cell" markdown>
+
 ### Approaching a Larger Ship
 
 The correct procedure for approaching a larger ship, if the captain's intention is not ramming, shearing, or causing its gravity plane to shift, is to approach along the larger ship's plane of gravity initially. This approach negates the need for corrective actions once in the field, allows for easy communication, and provides a good launching point for attacks from either side.
 
 Smart-alecks can bring the ship in on the gravity plane but facing the other direction; however, this is regarded as a breach of courtesy in diplomatic entreaties and relationships with other captains. Proper etiquette should always be observed to maintain good relations in the vastness of space.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Navigating in Wildspace
 In general, the time between two planetary bodies can be figured as:
@@ -59,6 +76,11 @@ All planets are assumed to be at their average separation. Determine the distanc
 
 <u>Method 1</u> is the fastest method and lets the characters move about the system very quickly. <u>Method 2</u> slows them down a little, particularly when they are moving around the outer planets. <u>Method 3</u> is the most accurate but takes slightly more time. <u>Method 4</u> is recommended for long-term campaigns where the movement of the planets becomes an important factor (such as when an invasion is planned for the next time two planets are close to each other).
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Movement in the Flow
 The rainbow ocean allows spelljamming ships to attain greater velocities. These speeds have defied measurement since the phlogiston is without permanent landmarks or markers. Time is the only constant.
 
@@ -67,6 +89,11 @@ In general, it takes from 10-100 days to travel from one crystal sphere to anoth
 A ship's last port of call determines which spheres it can move to. Port of call is the sighting or landing within a crystal sphere. If a ship heading for Krynn from Greyhawk accidentally ends up at the Realms, the Realms becomes its new port of call.
 
 Ships in the Flow slow down when they encounter other bodies, such as ships and rogue planets, but this does not affect total travel time.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-cols: 75fr 75fr" markdown>
+<div class="wd-cell" markdown>
 
 # Astrology & The Starcharts
 
@@ -79,6 +106,9 @@ The starchart shows all orbits being circular around a primary point. There are 
 Whether operating under Newtonian physics, riding on the back of giant turtles, or rolling across the velvet of the gods’ pool table, most planets behave in a similar fashion, following the tracks presented in this layout. There are systems where the planets operate in a totally chaotic fashion, as well as those where the planets are truly fixed points in the night sky. There are crystal shells so small that they contain only a single world within their universe. But for most planetary tracking, these charts will suffice.
 
 Given the great difference between planetary speeds and spelljammer speeds, planetary motion is not a major factor in determining travel times and positions. For the Solar System (ours), a planet on the outer track moves an average of one space every four years, while those on the inner track move one space every 12 days. Planets can certainly move faster or slower than this (this is fantasy), but unless the DM wishes to deal in more detail with planetary motion, take these figures as standard for the planets.
+
+</div>
+<div class="wd-cell" markdown>
 
 ### Why are Crystal Shells Round?
 
@@ -98,6 +128,11 @@ The simple fact is that no one knows save perhaps the gods, and if they know, th
 
 *— From Elminster’s Musings on Empty Space, a scroll from Elminster of Shadowdale to Lord Khelben of Waterdeep*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Laying Out the Planets
 
 When the player characters enter wildspace, whether from a planet’s surface or from outside a crystal shell, the planets can be set out in their orbits. If the player characters are operating from a planetary surface in wildspace, then they will usually have an idea of the general location of the planets. If entering from outside the crystal shell, they must discover the relative locations of the planets by exploration.
@@ -112,6 +147,11 @@ In some cases, a planet is so close to its primary that it falls within the 20 m
 
 The DM can recreate the planetary positions every time the heroes venture into space, or he may use the starchart Form provided at the end of this book to keep track of the planets’ positions.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Moving on the Starchart
 
 When leaving a planet for wildspace, the ship’s marker begins its movement in the same space as the planet it started from. A ship leaving Toril, for example, will appear in the same square Toril is occupying on the starchart. Being placed on the chart is considered a one-space move when calculating distances.
@@ -123,6 +163,11 @@ While the planets are (usually) limited in their movement to their paths around 
 When a ship moves into the 200-million-mile circle at the center of the outer track, the DM should place the ship on the inner track at the 300-million-mile edge. The position of the ship should match as closely as possible its position on the outer track (a ship that enters from the lower right should be placed somewhere along the lower right section of the inner track). The DM chooses the space the ship appears in.
 
 A spelljammer is not required to stop if it enters the same space as a planet unless it has an encounter or the ship is landing at that planet. There is an increased chance of random encounters in spaces that currently contain celestial bodies.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Encounters and Evasion on the Starchart
 
@@ -153,6 +198,11 @@ In cases where there are multiple encounters on a single day, the DM should dete
 
 Regardless of the method used to determine encounters, if an encounter is called for, the ship slows to tactical speed to resolve the encounter. (This slowing is the result of passing within the gravity plane of another large object.) Evasion and escape are covered in the Combat & Movement Chapter.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Universe Building
 
 As the players move out into the phlogiston, they will discover new systems and universes to adventure in. There are three types of these universes: preplanned (the Known Worlds), DM-created, and random.
@@ -171,6 +221,11 @@ The DM may create systems both for his own campaign and for those new systems th
  # Are there other notes, such as moons or type of inhabitants?
 # Do some or all of the civilizations in this area have spelljamming capabilities?
 # What is the distance to the crystal shell of the system? (Twice the orbit of the furthest major body.)
+
+</div>
+</div>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-cell" markdown>
 
 # Randomly Generated Systems
 
@@ -335,6 +390,9 @@ When the planets being placed move out past the 200-million-mile mark, go to the
 
 The crystal shell of the system will always be as far from the outermost orbit as that orbit is from the primary body of the system. In cases of randomly moving planets, use the outermost planet’s setup location as its orbital distance.
 
+</div>
+<div class="wd-cell" markdown>
+
 ### Nonstandard Systems
 
 The system presented, with planets moving around a single central point, is common in 90% of the systems encountered in the phlogiston. There are other types, including:
@@ -361,6 +419,11 @@ Roll 1d6 when setting up the system:
 - Stepped worlds with rising levels of spheres, one within the next.
 - Voids without any set level ground.
 - One spherical world, wrapped inside a crystal sphere. The movements of the stars and sun are projected on the inside of the sphere from some interior source.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Celestial Body Classification
 Celestial bodies are divided into various types and classifications for easy reference by celestial engineers and cartographers. When referring to a celestial body or bodies, a three-character code is used. First is a definition of size, second a symbol indicating shape, and lastly a word describing the type of celestial body being dealt with.
@@ -423,3 +486,6 @@ Using these definitions, the Earth/Sol system would be as follows:
 - Type F⬤Air (Neptune)
 - Type D⟡Earth (Pluto)
 - Type A‡Air (Cometary Belt)
+
+</div>
+</div>

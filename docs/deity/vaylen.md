@@ -1,7 +1,11 @@
 ---
-title: "Vaylen, Patron of Sailors and Travelers"
+title: "Vaylen"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Vaylen, Patron of Sailors and Travelers
 **Domains**: Celerity, Liberation, Ocean, Travel
 
 **Appearance**:
@@ -30,8 +34,14 @@ Vaylen's devout followers, ranging from seafarers and explorers to messengers an
 **Rivalries**:
 Vaylen, with her indomitable spirit, opposes forces that seek to curtail the freedoms of exploration and adventure. She stands as a guardian against those who threaten the essence of discovery, protecting the right of all souls to journey freely and fearlessly.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/deity_vaylen_header.png)
 *Vaylen, Patron of Sailors and Travelers*
 
 ![](/antaera-wiki/img/deity_vaylen_heraldry.png)
 *Holy Symbol of Vaylen*
+
+</div>
+</div>

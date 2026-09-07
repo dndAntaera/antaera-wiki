@@ -2,8 +2,18 @@
 title: "Dragons"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/anthropology_dragons_header.png)
 *A dragon addressing its dragonblooded kin.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 Throughout recorded history, dragons have occupied a singular position among the great powers of the cosmos. Chroniclers, arcanists, and theologians alike have struggled to categorize them, for they are neither wholly divine nor merely mortal. Wherever dragons are found, they are accompanied by traces of earlier ages—ruined citadels, warped landscapes, and traditions that predate the peoples who now dwell among them.
 
@@ -38,11 +48,21 @@ Dragonblooded societies place strong emphasis on lineage and flight affiliation,
 
 Dragonborn occupy a distinct position within this broader category. Rather than arising solely through inheritance, they are understood to result from formal pacts with powerful dragons, enacted through the Rite of Rebirth. Despite this direct bond, dragonborn do not hold positions of governance among dragonblooded societies and are instead regarded as champions, agents, or independent warriors. As a result, they are more often encountered as solitary figures or itinerant adventurers than as members of settled leadership.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 **A Note On Dragonblooded Creatures**:
 Due to the nature of the setting, any creature that is draconic in origin (or is related to dragons in any way), and does not have the Dragon type gains the Dragonblood subtype. The list of races this applies to will increase over time, but for now treat all races that follow the aformentioned rule as included. The list of some examples are as follows:
 - Kobold
 - Spellscale
 - Draconic Template
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Chromatic Dragon Flights
 Chromatic dragons are among the oldest known powers in existence, their origins predating mortal history and most recorded cosmologies. Draconic scholars broadly agree that the progenitors of both the chromatic and metallic flights did not originate within the Known Spheres. Instead, they arrived from distant and uncharted crystal spheres following a prolonged and devastating war between the two factions. The precise location where the chromatic progenitors first settled after this conflict is unknown; no surviving accounts identify a singular point of arrival. What is documented is that, during the First Era, these progenitors spread across multiple Known Spheres, establishing territories aligned with their elemental nature and inherent temperament.
@@ -87,6 +107,11 @@ Orange dragons are rare chromatic dragons most often found in tropical swamps, r
 **Gray Dragons** *(Fang Dragons)*
 Fang dragons are brutal, hunt-driven chromatic dragons of mountains, badlands, and open barrens, their mottled gray-brown scales studded with bony plates, spurs, and detachable spikes that turn their bodies into weapons. Poor flyers but lethal in close combat, they favor aerial pursuit followed by savage physical attacks, using claws, tails, wings, and an oversized, fang-filled maw to overwhelm prey; their bite is especially feared for its life-draining effect. Cruel, volatile, and easily provoked, fang dragons delight in stalking intelligent prey and often turn negotiations into deadly games of pursuit, valuing the hunt more than the kill itself. Their breath weapon—an adhesive, caustic acid granted through later divine alteration—ensnares and slowly dissolves victims, reinforcing their preference for prolonged, terror-filled engagements. Fang dragons lair in rocky highlands and seal their dens when ranging far afield, returning only to feast or deposit trophies taken from past hunts. With their progenitor gone, the Gray Flight is shaped by instinct rather than structure, its dragons roaming widely as apex predators, bound less by lineage than by a shared obsession with the chase.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Metallic Dragon Flights
 Metallic dragons are counted among the oldest enduring powers of draconic history, their emergence closely intertwined with that of the chromatic flights. Draconic scholars broadly agree that neither faction originated within the Known Spheres. Instead, the progenitors of both metallic and chromatic dragons arrived from distant and uncharted crystal spheres in the aftermath of a prolonged inter-sphere war. The location of the metallic progenitors’ first settlement following this conflict is unrecorded, and no surviving tradition preserves a singular point of arrival. During the First Era, however, these progenitors dispersed widely, establishing domains shaped by their elemental affinities, philosophical outlooks, and long-term designs.
 
@@ -125,6 +150,11 @@ Steel dragons are rarely encountered in their true form, preferring to live disg
 **Orium Dragons** *(Orichalcum Dragons)*
 Orium dragons are lithe yet powerful dragons with feline features, long prehensile tails, and crimson-red metallic scales that they keep meticulously groomed, sometimes inlaid with jade designs. They favor jungles, river deltas, and sheltered valleys rich in ancient ruins, which they regard as their most prized possessions. An orium dragon’s lair is not merely a dwelling but a restored monument to a long-dead civilization, rebuilt to evoke past grandeur rather than historical accuracy. Taciturn and deliberate, orium dragons initially question intruders to determine whether they are thieves, future servants, or food. They value ancient knowledge above all else, seeing the restoration and study of ruins as homage to ancestral dragons who once served or ruled empires. Their hoards consist primarily of antiquities—old coins, archaic jewelry, relics, and ancient magic—supplemented by writings and reconstructed architecture. Orium dragons rely on coerced or loyal servants to provide food and labor, offering protection in return. Since the loss of their progenitor, orium dragons persist as isolated rulers of their own ruins, bound by inherited reverence for the past rather than any shared hierarchy.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Gemstone Dragon Flights
 Of all known lineages of true dragons, the gem dragons are the least understood—not because they lack power, but because they keep themselves apart from the wider world. They are plainly draconic in form, with wings, claws, and strength to rival any of their kind, though they are often smaller and slower than chromatic or metallic dragons. This has led more than one reckless observer to underestimate them. Such errors are rarely survived, for gem dragons possess keen minds, deep magical talent, and a natural command of psionics unmatched among dragonkind. Most scholars agree that they share the same ancient origin as other true dragons, having crossed into the Known Spheres from a distant crystal sphere in the earliest ages. Unlike other flights, however, they never founded empires or lasting realms. Where they passed, they left no cities—only scattered lairs, strange crystal formations, and lingering impressions upon the land and mind alike.
 
@@ -133,5 +163,15 @@ Gem dragons are sometimes mistaken at a distance for dragons of similar color, b
 In manner and conduct, gem dragons prefer subtlety over command. They are fond of riddles, careful speech, and persuasion, and they rely on psionics as readily as tooth or claw. This same restraint governs how they treat their domains, for a gem dragon’s lair is the Manifest Zone itself, not a structure raised upon it. Likewise, their hoards are not stockpiles of coin or relics, but the planar crystals that grow within the zone. These crystals are gathered, arranged, and guarded as both treasure and responsibility. Scholars remain uncertain why gem dragons maintain these zones, but numerous accounts describe them intervening when a Manifest Zone grows unstable, carefully removing excess crystals or otherwise restoring balance to prevent a catastrophic rupture.
 
 Within the Divine Flight, gem dragons hold an intermediate place. Their progenitors remain present yet removed, guiding through example and long memory rather than open rule. As a result, gem dragon flights are not strict hierarchies, but loose lineages bound by shared nature, planar affinity, and discipline of mind. This distance from rigid authority has allowed them to endure while other flights rose and fell. In the present age, gem dragons persist as rare, watchful beings—keepers of Manifest Zones and their growing crystals—whose influence is quiet, deliberate, and deeply rooted in the unseen workings of the planes.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Ferrous Dragon Flights
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

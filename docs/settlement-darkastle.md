@@ -2,8 +2,16 @@
 title: "Settlement Darkastle"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/settlement_darkastle_architecture.png)
 *Representation of the type of architecture found in the town and its surroundings, not an accurate representation of the town itself.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Overview
 Nestled deep within a dense, ominous forest rests the town of Darkastle, perpetually enveloped by a disturbing mist that adheres to its structures' weathered stone and aged wood. This thick, chilling mist infiltrates every crevice, draping the town in a gloomy veil that feels almost tangible. Above the tree line, the ancient Darkastle tower, constructed of imposing stone, casts a substantial shadow across the town, literally and symbolically. Its presence is a constant reminder of the town's long history and the secrets it conceals.
@@ -26,8 +34,16 @@ Conversely, the town’s militia aligns with Leonus Ironmane, the Stalwart Guard
 
 Additionally, the local druid grove is believed to honor various lesser deities associated with nature, maintaining a secretive stance about their practices which adds a layer of mystery to the town’s spiritual profile. Further complexity is added by whispers of a hidden cult engaged in darker rituals, though these are yet unproven, stirring speculation and apprehension.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/settlement_darkastle_inline.png)
 *Typical militia member*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Fog
 
@@ -57,11 +73,24 @@ Many of these individuals suffer from severe, mysterious ailments that leave the
 
 Furthermore, after encounters with the tower or fog, some develop an overwhelming dread of Darkastle. This fear drives them to abandon their homes and lives, fleeing the town to escape the oppressive shadows that now color their every waking moment. Conversely, others are drawn deeper into madness, wandering the misty streets of Darkastle, lost to their own minds, their presence a ghostly reminder of the fog's dark influence.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/settlement_darkastle_inline_2.png)
 *Victim of the fog*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/settlement_darkastle_map.jpg)
 *Map of the city.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Notable Locations
 
@@ -83,7 +112,13 @@ Furthermore, after encounters with the tower or fog, some develop an overwhelmin
 
 Steeped in legends that are even older than the town, The Hollows are said to be filled with relics and echoes of Darkastle’s earliest days. Whispered rumors among the townsfolk suggest that hidden pathways within these catacombs might directly connect to the base of the enigmatic Darkastle Tower, providing a clandestine link between the surface and the subterranean. These connections lend credence to tales of ancient rites and dark dealings that might have taken place in both locations, guarded by the catacombs' stony silence. The Hollows not only hold the physical remnants of the past but also serve as a chilling reminder of the town’s deep, possibly ominous, historical roots.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/settlement_darkastle_inline_3.png)
 *The Dark Obelisk*
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

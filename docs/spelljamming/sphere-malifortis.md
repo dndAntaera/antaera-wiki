@@ -2,6 +2,15 @@
 title: "Sphere Malifortis"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Malifortis
 
 The Malifortis Sphere is a scorched dominion of ash-hung void and flickering soulflame, ruled not by tyranny, but by sanctuary forged in infernal fire. Infernal historians claim the first settlers of this sphere were planetouched humanoids—tieflings, fire genasi, and others with infernal bloodlines—driven from their homelands across wildspace and the lower planes. They were drawn to the abandoned relic at the sphere’s heart: a supermassive gate of ancient Antæran design known now as the Scævolan Gate. Once thought to be a path to the Antæran homeworld, the relic was eventually corrupted, torn open to the Nine Hells of Baator. Devils spilled forth—but instead of conquest, they found kinship among the outcast descendants of Hell.
@@ -13,6 +22,11 @@ To outsiders, Malifortis is a vision of Hell made manifest, its skies filled wit
 In the era when the Scævolan Gate first tore open, it belched forth great clouds of ember-laced soot into the void. Though the gate no longer spews these plumes, the soot remains, drifting in long, veiled strands across the sphere. These ashen clouds cling to orbiting bodies and sometimes interfere with spelljamming navigation. Many devils and cults use the soot as cover for travel, ritual, or secrecy.
 
 For centuries, Malifortis has endured a relentless holy war declared by crusaders from the Sanctum Æternum sphere. Born of deep prejudice against those of infernal heritage, this war is waged in the name of purification and divine mandate. Malifortis has withstood sieges, raids, and ideological condemnation, holding firm behind its infernal civility and ironclad oaths. Peace is an illusion; the war is eternal.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -88,6 +102,11 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
  - Shape: Spherical
  - Other Notes: Nessus is a cold tomb world, its surface entirely sheathed in black stone and infernal alloy. No natural flora or fauna endure its lifeless atmosphere, and no trace of natural terrain remains. The entire planet is consumed by a seamless planetary city of tiered architecture and absolute order. When viewed from orbit, the surface appears cloaked in a dense, unmoving mist that obscures all detail. Even the most powerful divinations fail to pierce this veil, rendering the planet unreadable to outside scrying. It is inhabited solely by the nobility and royal houses of Malifortis and serves as the governmental nerve center of the sphere. All decrees, treaties, and sphere-wide decisions are issued from its cloistered towers. Outsiders are never permitted to visit. Those summoned to Nessus are never seen again, and what transpires within its walls is known only to the ruling elite.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -111,3 +130,6 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 - Varn, Architect of Ruin (Chaotic Neutral)
 - Eressai, the Hollow Veil (True Neutral)
 - Nyrixa, Ember-Dancer (Chaotic Good)
+
+</div>
+</div>

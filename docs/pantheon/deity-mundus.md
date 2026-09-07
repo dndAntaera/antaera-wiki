@@ -1,6 +1,11 @@
 ---
-title: "Mundus, Goddess of Life"
+title: "Deity Mundus"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Mundus, Goddess of Life
 
 - **Symbol**: Oak tree
 - **Home Plane**: Elysium
@@ -22,3 +27,6 @@ All life is sacred. Nurture what grows. Heal the sick, protect the weak, and nev
 
 **Home Sphere**
 Mundus has no known native crystal sphere or home planet. She is a primal constant found anywhere life rises from earth or breath.
+
+</div>
+</div>

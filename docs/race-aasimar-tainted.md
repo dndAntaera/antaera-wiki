@@ -2,8 +2,17 @@
 title: "Race Aasimar Tainted"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/race_aasimar_tainted_header.png)
 *The Shining City.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Tainted Aasimar
 Normally, aasimar are a planetouched race of goodly folk, descended from celestials. However, a certain group of celestials was tasked to fight in some unknown battle millennia ago in the sphere that is now known as the [Graveyard of the Gods](spelljamming/sphere-graveyard-of-the-gods.md). Scholars claim these celestials lost the war and were stuck in this sphere, unable to be called home after the phlogiston flooded into the sphere after its shattering due to its anti-conjuration properties. These celestials continue to fight to hold onto their stronghold on the world of Austerion, where they maintain a bastion of hope amongst the dying world around them. However, these celestials are not immune to the [Taint](rules/taint.md) of the world around them, and slowly began succumbing to its corruption. Their celestial blood is enough to stave off the effects, but the Taint still corrupted them at a base level. Tainted aasimar are the direct descendants of these brave celestials, and are bred to survive in a world that would otherwise see them corrupted.
@@ -26,11 +35,22 @@ Normally, aasimar are a planetouched race of goodly folk, descended from celesti
 
 **Adventurers**: Tainted aasimars make natural adventurers; their desire to connect with others and stave off their inherent loneliness drives them to seek companionship. Many pursue a divine calling, becoming paladins or clerics, but the race also boasts many powerful sorcerers, bards, fighters, and rangers.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/race_aasimar_tainted_inline.png)
 *A tainted aasimar male and female.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Tainted Aasimar Racial Traits
 Tainted aasimars have all the aasimar racial traits given in Chapter 4 of the Races of Destiny (pp 92-93) except as follows:
 - Animate Dead (Sp): Instead of *daylight*, a tainted aasimar can cast the *animate dead* spell once per week as a 1st-level caster or a caster of her class level, whichever is higher. No variant skeletons or zombies can be made with this spell.
 - [Pure Soul](http://antaera.wikidot.com/the-index#:~:text=cost%20by%2025%25.-,Pure%20Soul,-%5BExalted%5D): Tainted aasimars do not gain the normal resistances of their race, and instead gain access to the Pure Soul feat, ignoring its prerequisites. They also do not lose the feat for changing their alignment, as per normal for Exalted feats.
 - Automatic Languages: Common and your choice between Abyssal or Celestial. Bonus Languages: Any. Tainted aasimars have more of a desire to meet new people, and they need to communicate with them.
+
+</div>
+</div>

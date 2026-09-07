@@ -2,6 +2,15 @@
 title: "Sphere Umbrae"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Umbræ Sphere
 
 Umbræ is a sphere steeped in gloom, shadow, and the slow, inevitable decay of light. It orbits around Umbra’thuun, a dark star that emits no illumination, shrouding the entire sphere in perpetual twilight and drawing all life toward adaptation or extinction. The very atmosphere within the sphere feels thin and chill, not for lack of warmth, but from the slow spiritual erosion caused by the ever-present negative energy. The boundaries between planes are weak here, particularly with the Plane of Shadow and the Negative Energy Plane, allowing strange echoes of thought and being to drift between worlds.
@@ -11,6 +20,11 @@ Across Umbræ’s system, the planets range from tomb worlds and fungal hives to
 Floating along the outermost edge of the system is a jagged, glimmering belt of Negative Energy Crystals, believed to be solidified fragments of the sphere’s own ambient necrotic field. Scholars speculate that the density of manifest zones throughout Umbræ has allowed the energy to physically coalesce, forming Umbryceon—a terrifying boundary of crystallized death, beautiful in its menace. Through the starless skies and between the planets, a solitary obelisk of enchanted starmetal drifts soundlessly, etched with alien geometry and glowing ever so faintly with an inner, tan radiance. This artifact does not match the rest of the sphere and is indestructible by all known means. Its purpose remains unknown.
 
 Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy Plane appear without warning. These rifts resemble black holes from afar, pulling in matter and spelljammers alike. Those caught in their grasp are often torn from existence and deposited directly into the Negative Energy Plane—if they survive the journey at all. These unpredictable hazards have earned the sphere a grim reputation among navigators and adventurers, who consider it one of the most perilous destinations in the Known Spheres.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 - Type of Sphere: Standard system
@@ -74,6 +88,11 @@ Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy
  - **Shape**: Belt
  - **Other Notes**: A scattered field of floating crystals, Umbryceon is composed entirely of Negative Energy Crystals suspended near the edge of the planetary track like a fractured celestial boundary. These jagged, black-violet shards are believed to be the solidified remnants of latent negative energy that saturates the sphere. Scholars theorize that their formation results from the vast number of manifest zones leading to the Negative Energy Plane throughout Umbrae. Ships that pass too close have reported soul-sapping cold and flickering shadows moving independently of any source.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser Deities**
@@ -101,3 +120,6 @@ Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy
 - Nelathe, Weaver of Feral Dances (Chaotic Neutral)
 - Voresh, the Bleeding Antler (True Neutral)
 - Kyrasith, the Hollow Seed (Neutral)
+
+</div>
+</div>

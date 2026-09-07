@@ -2,6 +2,9 @@
 title: "Warforged"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Origin Story
 In the distant echoes of creation, where magic and material converge, the artisans of the House of Fabricators set forth a daring endeavor. In the seclusion of their hidden plane, a place where the very ether thrummed with unbridled potential, the concept of the Warforged was born. These artisans, unparalleled in their mastery of arcane engineering, sought to transcend the boundaries of existence, to craft life from the lifeless, sentience from the inert.
 
@@ -16,6 +19,11 @@ These newly awakened beings found their purpose in tasks that demanded resilienc
 The existence of the Warforged stirred a maelstrom of philosophical debate. They were marvels to some, conundrums to others, and a catalyst for discussions on the ethical implications of their creation. The debates raged, with arguments spanning the realms of morality, spirituality, and the very definition of life itself.
 
 Throughout this maelstrom, the House of Fabricators maintained their stance of neutrality, their focus unswayed from the pursuit of their craft. They watched, perhaps with a sense of pride, as the Warforged they had created ventured forth into the cosmos, each seeking their path, each a living testament to the heights of artifice and the depths of elemental magic.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # General Culture
 The Warforged emerged from the forges of the House of Fabricators as instruments of labor and war, created to serve the needs and ambitions of others. Bound to mechanical bodies, they were the epitome of subservience—a new class of beings whose purpose was predefined by their creators. Yet, as the light of sentience ignited within them, the Warforged began to perceive themselves not as mere tools, but as individuals capable of thought, emotion, and aspiration. The Warforged represent a unique amalgamation of the elemental and the crafted. Each Warforged is a vessel for an elemental soul, a spirit drawn from the primal forces of the universe—fire, water, air, and earth. This fusion of the elemental with the mechanical imparts to the Warforged not just life, but a distinctive essence that deeply influences their personalities and perspectives. As the Warforged traverse the landscapes of self-discovery, many have begun to explore the spiritual realms, seeking a deeper connection with the elemental forces that form the core of their existence. This spiritual journey is not merely a pursuit of faith but a quest for understanding and belonging, a way to embrace the elemental essence that fuels their consciousness. Their integration into diverse communities marks a significant evolution in their journey, as they move beyond the roles originally intended for them by their creators.
@@ -50,6 +58,11 @@ Warforged culture places a strong emphasis on personal growth and communal well-
 
 The Warforged are keenly aware of their unique origins and the curiosity they evoke among other races. They endeavor to find their place in the world, not as outsiders but as valuable members of the societies they join. This involves a continuous process of learning, adapting, and integrating their individual qualities into the larger societal fabric. Their presence in various communities often serves as a bridge between the elemental and the mundane, between the magical and the mechanical. They inspire those around them to look beyond surface appearances and to appreciate the diversity and potential within each individual. The Warforged represent a confluence of creation and nature, of artifice and elemental force. Their journey is one of integration and contribution, as they navigate their path towards understanding their role in the multiverse. Through their interactions and growth, the Warforged enrich not only their own culture but also the myriad societies they become a part of, weaving their elemental essence into the vibrant tapestry of the world.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Subculture: Psiforged
 Nestled within the diverse community of the Warforged, lies a unique subculture distinguished by their innate psionic abilities: the Psiforged. These beings diverge from their elemental counterparts, their very essence a fusion of artifice and the psionic energies of the Astral Plane.
 
@@ -57,11 +70,29 @@ The Psiforged are distinct from traditional Warforged due to the presence of tra
 
 The Psiforged add a rich layer to the already vibrant tapestry of the Warforged. Their creation, a blend of intricate engineering and psychic planar energies, exemplifies the endless possibilities of magical and mechanical innovation. As they journey through the multiverse, the Psiforged continue to unravel the mysteries of their psionic abilities and their astral-tied existence, contributing their unique essence to the ever-evolving narrative of the Warforged.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Subculture: Warforged Scouts
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Subculture: Warforged Juggernauts
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Subculture: Warforged Titans
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)
+
+</div>
+</div>

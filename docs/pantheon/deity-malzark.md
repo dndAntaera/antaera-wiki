@@ -1,6 +1,11 @@
 ---
-title: "Malzark, Herald of Magma"
+title: "Deity Malzark"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Malzark, Herald of Magma
 
 - **Symbol**: Black iron gauntlet grasping a molten core
 - **Home Plane**: Para-Elemental Plane of Magma
@@ -22,3 +27,6 @@ True power is forged under pressure. Burn away weakness. Let nothing soft or sky
 
 **Home Sphere**
 Malzark’s domain lies in the Cineræxis Sphere, where fire spills across the stars and even wildspace smolders. His name is strongest on Aevzakar, a world of endless magma fields and obsidian hollows, and in the drifting ruins of Vorthuun—the Slag Moon Cluster. His temples there burn without flame, lit from below by rivers of molten stone and bound in chains of iron cooled just enough not to melt.
+
+</div>
+</div>

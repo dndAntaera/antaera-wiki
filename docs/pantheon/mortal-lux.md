@@ -1,6 +1,11 @@
 ---
-title: "Lux Dawnbringer, the Luminous Sovereign"
+title: "Mortal Lux"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Lux Dawnbringer, the Luminous Sovereign
 
 **Domains**: Glory, Healing, Purification, Sun
 
@@ -38,8 +43,14 @@ The clergy of Lux consists of priests and priestesses who serve as guides and gu
 
 Lux's unwavering commitment to light puts her in direct opposition to deities associated with darkness and malevolence. The goddess actively opposes those who seek to plunge the world into perpetual shadow, making her a natural adversary to dark entities and their followers.
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/pantheon_mortal_lux_header.jpg)
 *Lux Dawnbringer, the Luminous Sovereign*
 
 ![](/antaera-wiki/img/pantheon_mortal_lux_heraldry.jpg)
 *Holy Symbol of Lux*
+
+</div>
+</div>

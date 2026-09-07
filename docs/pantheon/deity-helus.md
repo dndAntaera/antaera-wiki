@@ -1,6 +1,11 @@
 ---
-title: "Helus, God of Death"
+title: "Deity Helus"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Helus, God of Death
 
 - **Symbol**: Blindfolded skull
 - **Home Plane**: Ethereal Plane
@@ -22,3 +27,6 @@ The living must die, and the dead must move on. That is the order of things. No 
 
 **Home Sphere**
 No home sphere.
+
+</div>
+</div>

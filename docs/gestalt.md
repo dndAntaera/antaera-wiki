@@ -2,10 +2,18 @@
 title: "Gestalt"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Gestalt Characters
 In this high-powered campaign variant, characters essentially take two classes at every level, choosing the best aspects of each. The process is similar to multiclassing, except that characters gain the full benefits of each class at each level. if the two classes you choose have aspects that overlap (such as Hit Dice, attack progression, saves, and class features common to more than one class), you choose the better aspect. The gestalt character retains all aspects that don’t overlap.
 
 The gestalt character variant is particularly effective if you have three or fewer players in your group, or if your players enjoy multiclassing and want characters with truly prodigious powers. This variant works only if every PC in the campaign uses it, and it results in complicated characters who may overwhelm newer players with an abundance of options.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Building A Gestalt Character
 
@@ -65,6 +73,11 @@ Charisma does the heavy lifting for this gestalt combination. Why? Two words: di
 **Sorcerer/Wizard**
 Unlike most gestalt characters, your hit points, Armor Class, base attack bonus, and saving throws aren’t any better than a standard sorcerer or wizard. But oh, the spells you can cast! Unlike a standard arcane spellcaster, you can afford to use your highest-level spells in most of your serious fights. It’s a good idea to use your sorcerer slots on combat spells (such as the ubiquitous fireball) and the occasional defense or utility spell (perhaps mage armor or haste). Then you can use your wizard slots for spells that are great against specific foes (such as dismissal) or life-savers in specific situations (gaseous form). You can gamble a little more with your wizard spell selection because you know you have all those useful sorcerer spells backing you up.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Balancing Gestalt Characters
 Obviously, this variant results in characters who are significantly more powerful than is standard. But how much more powerful? The simple answer-that gestalt characters are twice as powerful as standard characters—isn’t accurate. Gestalt characters don’t have an advantage in the most important game currency: available actions. Even a character who can fight like a barbarian and cast spells like a sorcerer can’t do both in the same round. A gestalt character can’t be in two places at once as two separate characters can be. Gestalt characters who try to fulfill two party roles (melee fighter and spellcaster, for example) find they must split their feat choices, ability score improvements, and gear selection between their two functions.
 
@@ -96,3 +109,6 @@ The high-powered nature of the gestalt character variant gives you more room to 
 
 **Campaign Pacing**
 Once it is adjusted as outlined above, a campaign that employs gestalt characters isn’t that different from a standard campaign. Gestalt characters don’t gain access to key campaign-changing abilities faster than their standard counterparts. No gestalt character can use teleport or raise the dead under her own power before 9th level, and no nonmonk gestalt character gets a second melee attack in a round before 6th level. Gestalt characters get to tackle monsters a level or two ahead of time, but they’re still fighting gnolls at low levels, rakshasas at middle levels, and balors at high levels. Perhaps the only noticeable difference in terms of campaign pacing is that gestalt PCs are “something special” from the beginning. They are far more powerful than typical 1st-level commoners even at the beginning of the campaign. Again, this difference only matters for a level or two, because standard 3rd level characters are also far more powerful than 1st-level commoners.
+
+</div>
+</div>

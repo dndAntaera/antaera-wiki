@@ -2,8 +2,16 @@
 title: "Taint Dread Effects"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 The effects described in this section are similar to terrain features. While terrain affects the physical capabilities of creatures within it, dread effects have an impact on abilities and characteristics in a magical or apparently magical way. For example, rather than granting cover or hindering movement, blood rock increases the threat range of attacks made in its area, and abyssal blackgrass restricts healing near it.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 ## Abyssal Blackgrass
 Patches of this thick black weed often spread through planar portals or through tiny seeds inadvertently carried in the clothing or gear of planar travelers. When it takes root on the Material Plane, abyssal blackgrass grows in a small clump about one foot across, although its roots spread in a 50-foot radius just under the surface of the ground.
@@ -34,3 +42,6 @@ Other Hazards: Charnel bogs often manifest signs of a haunting (see below). Dise
 
 ## Night Stone
 This stone is infused with raw negative energy. A living creature within 5 feet of a floor, wall, or statue formed of night stone takes 1d6 points of damage per round. A death ward spell protects a character from this damage.
+
+</div>
+</div>

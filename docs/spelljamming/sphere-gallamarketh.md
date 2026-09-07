@@ -2,6 +2,15 @@
 title: "Sphere Gallamarketh"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Gallamarketh
 
 Gallamarketh is the mercantile heart of the Outer Constellation, a brilliant sphere lit by spelljammer lanterns, crowded trade lanes, and quiet diplomatic halls. Wildspace within teems with arcane observatories, contract outposts, and chartered clerks who ensure pacts are honored from star to stone. Life here is orderly, ambitious, and steeped in tradition. Entire moons serve as campuses for ancient universities that teach law, magical theory, interplanar commerce, and practical philosophy.
@@ -13,6 +22,11 @@ At the outer edge of the Goldilocks Belt lies the Collar—a broken chain of rag
 Each minor world in Gallamarketh is owned in whole by a guild, a league, or a firm. These worlds are not free—visitors must follow the rules of their hosts and keep to approved zones. Travel is watched, records are kept, and disputes are handled by hired blades. The central council of Gallamarketh holds no armies, no legions. It mediates, certifies, and records. Its power lies in law, not steel.
 
 At the heart of the sphere, the prime planet is held beneath a sacred pact, a divine edict sworn by powers beyond. No act of violence may take place upon its soil. Spells meant to wound fizzle into ash; blades will not draw blood. This law is not enforced—it is written into the land. Because of this, the prime market is open to all. Fiends, celestials, and all in between walk the same streets, argue over the same coin, and nod with respect to their rivals. No banner flies higher than the price tag. Here, the deal is sacred, and the buyer is never turned away.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -77,6 +91,11 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
  - Shape: spherical
  - Other Notes: Nexura is a world locked in unyielding frost. Its surface is covered by an endless shell of ice, beneath which lie cryptic vaults, sealed tunnels, and secrets deemed too dangerous for public knowledge. Run by the Spiral Vault, the planet remains veiled in illusion and guarded by constructs that patrol tirelessly through the snow. Nothing leaves Nexura without clearance from the Vault, and most that enter are never seen again. Surveillance is constant, and rumor speaks of entire memories wiped from those who breach containment. Two frozen moons, Frostel and Greyne, drift in its shadow, bearing no visible life or structure.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Lesser**
@@ -102,3 +121,6 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 - Selkesh, Voice Beneath the Contract (Neutral Evil)
 - Harmonel, The Ledger Reclaimed (Lawful Evil)
 - Fyraza, Firehand of Artisan's Spite (Chaotic Evil)
+
+</div>
+</div>

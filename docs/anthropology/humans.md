@@ -2,6 +2,9 @@
 title: "Humans"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Origin Story
 In a realm beyond the Antæran crystal sphere, where gods played the games of fate and power, there existed Ukrol, a deity of formidable might and dark ambition. His eyes, ever covetous, were set upon the subjugation of all races under his dominion. But in this realm, his ruthless crusade was thwarted, not by mortals, but by his own kin — a pantheon of gods who saw Ukrol's tyranny as a threat to the cosmic balance. In a celestial conflict as old as time, Ukrol was vanquished and exiled, forced to abandon his lofty throne and seek refuge in another reality.
 
@@ -14,6 +17,11 @@ However, empires built on tyranny seldom endure. The vast human empire, stretche
 The once-mighty empire receded, shrinking back to the confines of the Antæran Plains. In this time of tumult and change, the Cult of Ukrol, which had been the empire's religious cornerstone, fell into dormancy. Its temples and altars were replaced by those dedicated to other deities, and its once unchallenged doctrines were questioned and abandoned. In the ashes of the old empire, a new state was born — the New Haven Imperium. It was a realm that carried the legacy of its predecessor not in religious zeal, but as a cultural ethos. The traditions of slavery and dominance, so deeply ingrained in the society, persisted. However, they were no longer the divine commandments of Ukrol; instead, they became the cultural norms of a people shaped by their history, by their fall, and by their unrelenting will to survive and thrive in the world that had been their sanctuary and battleground.
 
 Thus, the humans of Antæra, the children of Ukrol, continued to carve their destiny in this new world. Shaped by their past and looking towards the future, they stood at the crossroads of history, where the shadow of a god and the legacy of an empire defined the path ahead.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # General Culture
 In the diverse and sprawling continent of Antaera, the human culture is deeply rooted in a complex and enigmatic past. These humans, originally hailing from another reality, were brought to Antaera by the enigmatic and evil god Ukrol, known as the Patron of Humans. The impact of this otherworldly origin and the influence of Ukrol have significantly shaped the human societies and their worldviews.
@@ -29,6 +37,11 @@ Despite the overarching themes of imperialism and adaptability, not all humans i
 
 *Cultural Dynamics*:
 The human culture in Antaera, therefore, is not monolithic but rather a tapestry of varied ideologies, beliefs, and practices. While the shadow of Ukrol and the historical legacy of human supremacy continue to influence many, a growing number of humans are seeking paths divergent from these ancient doctrines. This dynamic creates a culture that is at once traditional and evolving, as humans navigate their imperial past and the changing realities of their present and future on the continent of Antaera.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Subculture: Deepfolk
 In the shadowy depths of the Earthspire Expanse lies a unique human subculture known as the Deepfolk. Their history is one of exile and zealotry, having been driven underground into this alternate plane following the downfall of the Cult of Ukrol, to which they were fervent adherents. In the Earthspire Expanse, they established their capital, Deepholme, a city reflective of their resilience and the harsh conditions of their subterranean world. The Deepfolk exhibit a strong preference for certain paths in their spiritual and mystical practices. Central to their cultural identity are two primary vocations that align closely with their beliefs and abilities: becoming clerics of Ukrol and pursuing the development of their innate psionic gifts to become Psions.
@@ -56,6 +69,11 @@ Ukrol, the deity revered by the Deepfolk, embodies the principles of human supre
 *Psions*:
 Apart from their religious devotion, the Deepfolk also have a strong inclination towards harnessing and developing their psionic abilities. Psionics, a form of supernatural power that taps into one's inner mental abilities, is highly regarded among the Deepfolk. Those who pursue the path of becoming Psions are individuals with innate psionic potential, focusing on honing these abilities to manipulate, control, and dominate. Psions in Deepfolk society are valued for their unique skills, which include telepathy, telekinesis, and various other forms of psychic manipulation. These abilities are particularly effective in their ongoing conflict with the Drow and in maintaining their dominance over enslaved races.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Subculture: Wanderkin
 
 In the vast expanse of Antæra, among the rolling plains and untouched wilderness, there exists a nomadic human subculture known as the Wanderkin. These hardy people have forged a way of life deeply intertwined with the natural world, embodying the essence of druidic traditions and the spirit of nomadism. The Wanderkin, guided by the wisdom of their rangers, roam the diverse plains of Antæra in search of harmony with nature.
@@ -80,3 +98,6 @@ To outsiders, the Wanderkin may appear relatively primitive in their way of life
 
 *Nomadic Essence*:
 The Wanderkin's nomadic lifestyle is a testament to their adaptability and resilience. They move with the seasons, following the ebb and flow of the land's energy. Their camps are temporary, leaving little impact on the wilderness they call home. This mobility allows them to avoid overtaxing any one area and fosters a profound respect for the balance of ecosystems.
+
+</div>
+</div>

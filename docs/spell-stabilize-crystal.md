@@ -2,6 +2,9 @@
 title: "Spell Stabilize Crystal"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ## Stabilize Crystal, lesser
 ***Transmutation***
 
@@ -21,6 +24,11 @@ After a ritual that takes 1 hour to complete, you cause the target Planar Crysta
 Material Component
 *The Planar Crystal being stabilized.*
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ## Stabilize Crystal
 ***Transmutation***
 
@@ -35,6 +43,11 @@ Material Component
 
 This spell functions like *Stabilize Crystal, lesser*, except that it affects Planar Crystals of least and lesser quality.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ## Stabilize Crystal, greater
 ***Transmutation***
 
@@ -48,3 +61,6 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 **Spell Resistance**: none
 
 This spell functions like *Stabilize Crystal, lesser*, except that it affects Planar Crystals of least, lesser and greater quality.
+
+</div>
+</div>

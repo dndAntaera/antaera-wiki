@@ -2,6 +2,9 @@
 title: "Action Points"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Action Points
 Action points give character the means to affect game play in significant ways, by improving important rolls or unlocking special abilities. Each character has a limited number of action points, and once an action point is spent, it is gone for good.
 
@@ -16,6 +19,11 @@ For GMs who are worried that action points increase the power level of character
 
 An action point is roughly equivalent to a magic item worth 100 gp per character level (since the higher a character’s level, the more potent the effect).
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Acquiring Action Points
 A beginning (1st-level) character starts the game with 5 action points. A character above 1st level starts the game with a number of action points equal to 5 + 1/2 his current character level.
 
@@ -26,6 +34,11 @@ Adding action points to an existing campaign is easy, since characters don’t n
 
 **NPCs and Action Points**
 Most NPCs probably shouldn’t have action points, due to the added complexity this would create. In the case of important villains or other significant characters, however, the GM may award them an appropriate number of action points to use against the player characters. A number of action points equal to 1/2 the NPC’s level is a good baseline.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Using Action Points
 You can spend 1 action point either to add to a single d20 roll, to take a special action, or to improve the use of a feat.
@@ -93,8 +106,14 @@ You can spend 1 action point to double the increase to save DCs granted by the f
 **Spell Penetration**
 You can spend 1 action point to double the bonus on caster level checks granted by the feat, from +2 to +4. The effect lasts for the entire encounter.
 
+</div>
+<div class="wd-cell" markdown>
+
 | Character Level | Action Point Dice Rolled |
 |---|---|
 | 1st – 7th | 1d6 |
 | 8th – 14th | 2d6 |
 | 15th – 20th | 3d6 |
+
+</div>
+</div>

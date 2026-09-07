@@ -2,6 +2,15 @@
 title: "Sphere Custodae"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Custodæ
 
 The Custode Sphere is a shattered, drifting monument to knowledge lost and guarded. At its center looms the fossilized skull of a dead Ancient Antæran god, vast beyond comprehension and studded with silent starmetal inlays. The rest of the sphere is composed of broken worlds—scattered debris fields filled with the ruins of fallen civilizations and the drifting remains of the god’s own skeleton. Ribcages, vertebrae, and splintered limbs hang in slow, solemn orbit among the wreckage.
@@ -13,6 +22,11 @@ The monks of the Custode Order dwell within the Great Archive, carved into the s
 Yet even they do not patrol the entire sphere. Beyond the Archive’s reach, memory-eating aberrations haunt the ruins, nesting in collapsed sanctuaries and shattered cities. They steal thought before life, mimicking voices, faces, or languages to draw their prey closer. The monks advise caution, but never interfere. The ruins are to be respected—and feared.
 
 Among travelers and archivists, a superstition persists: that the aberrations were never native at all. They are said to be dreams—fragments of fear and thought—birthed from the lingering divine consciousness trapped in the dead god’s bones. Nightmare creatures, conjured unintentionally by what remains of its slumbering mind. Most dismiss this idea as myth, a way to explain the uncanny behavior of the beasts. Still, few speak their names near the skull.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planetology & Astrology
 
@@ -53,6 +67,11 @@ Among travelers and archivists, a superstition persists: that the aberrations we
  - Shape: Shattered Planetary Debris
  - Other Notes: Monumental bones drift through the remains of empire-scale ruins—collapsed palaces, crumbled idols, and fractured colonnades. Aberrations of enormous scale move silently between the wrecks, dwelling in ancient sites the monks no longer claim.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Recognized Pantheon
 
 **Greater**
@@ -67,5 +86,8 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 - Thalos, Curator of Conjuration and Metacreativity (Neutral Good)
 - Brannoch, Curator of Necromancy (Neutral Evil)
 - Nyzhera, Keeper of Forbidden Knowledge (Neutral Evil)
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

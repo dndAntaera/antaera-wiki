@@ -1,6 +1,11 @@
 ---
-title: "Aravel, Herald of Storms"
+title: "Deity Aravel"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Aravel, Herald of Storms
 
 - **Symbol**: A jagged bolt cleaving a raincloud
 - **Home Plane**: Quasi-Elemental Plane of Lightning
@@ -22,3 +27,6 @@ Ride the storm, don’t shun it. Be bold, be free, and answer injustice like the
 
 **Home Sphere**
 Aravel hails from the Aerivagus Sphere, a realm of shattered worlds and ceaseless winds bound to the Cyclone Gate, a swirling breach to the Elemental Plane of Air. Amid its drifting debris fields and roving wildspace storms lies Serith Ventus, once a world of life, now a fragmented skyborne grave. It was here, above the broken rivers and suspended mountains, that Aravel first touched the divine through storm and sorcery. The winds of Aerivagus still echo her name, carried forever through the ruined heavens.
+
+</div>
+</div>

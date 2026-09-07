@@ -2,8 +2,18 @@
 title: "Events Crucible Of Valor"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/events_crucible_of_valor_header.png)
 *Gladiators competing in the Melee Mastery competition.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 In honor of Leonus Ironmane, the god of valor and war, a grand tournament known as the Crucible of Valor has been established. This legendary competition is not confined to a single arena but spans the entire world, challenging warriors from every corner of the realm to prove their mettle.
 
@@ -16,6 +26,11 @@ Blessed by the followers of Leonus, these arenas are hallowed grounds where only
 The Crucible of Valor is more than just a test of strength; it is a pilgrimage for the soul, a journey that will forge legends. The call has gone out: “Step forth, champions, and let your valor shine across the world!”
 
 In each category, the combatants face unique challenges that require different skills and strategies. Only those who can adapt and excel in their chosen disciplines will stand a chance at claiming victory in the Crucible of Valor.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Individual Categories
 The Crucible of Valor is divided into several distinct categories, each designed to test different aspects of a warrior’s abilities. Competitors may choose to specialize in one category or attempt to conquer them all, proving their versatility and dominance across every aspect of combat.
@@ -101,3 +116,6 @@ The Crucible of Valor is divided into several distinct categories, each designed
 # Timed Challenges: Each segment of the trial has a time limit. Failing to complete a segment within the time limit results in disqualification.
 # Self-Sufficiency: Competitors must rely on their survival skills to navigate dangerous environments, including extreme weather, treacherous terrain, and hostile creatures.
 # Final Test: The last trial often includes a combat challenge or a test of willpower. Only those who complete all trials stand a chance of winning.
+
+</div>
+</div>

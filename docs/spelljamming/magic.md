@@ -2,11 +2,25 @@
 title: "Magic"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/spelljamming_magic_header.png)
 *A wizard engaging a colossal golem on an asteroid.*
 
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Magic Use in Space
 The effects of certain magical and clerical spells and spell-like abilities are limited in the phlogiston that lies between the crystal spheres. However, those limitations are offset by the availability of new spells for mages and clerics in space. Individuals with magical abilities may also use their powers to operate a spelljamming helm, allowing them to move their ships across the stars.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Clerics in Space
 
@@ -27,10 +41,20 @@ These faiths are represented wherever there are space civilizations.
 
 Given the effects of clerics having variable abilities from sphere to sphere, or even from world to world, the civilizations of space have evolved their own faiths that take into account the wide variety of beliefs. These faiths are recognized wherever there is space civilization in the Known Universe. Where there are no such civilizations, these sects are not recognized, and their clerics are limited like groundling clerics—they cannot gain spells above second level.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Polygots
 The Polygots are a pantheistic faith that worships entire organizations of Powers as opposed to a particular Power. A priest of the Greek mythology or the Norse gods would qualify as a Polygot priest. If any members of a particular Polygot priest's pantheon are present in the sphere, then that cleric regains his spells normally. For example, Tyr of Toril is originally a native of the Norse mythos (though Thor, Odin, and Loki have never made beachheads on the planet or attracted a large following). A cleric worshiping the Norse Polygot (all the Norse gods) would regain spells on Toril since Tyr is a native.
 
 With the expansion of the Polygots in space civilization, representatives of the various Polygot sects can be found in most organized shells. Polygot priests are not popular on the ground, however, because it is there that the various gods struggle against each other for worshipers. A Polygot priest of the Lendore Isles of Oerth would find himself under increasing pressure from the various faiths of Oerth to "choose sides" if he spent any amount of time in those isles. Most nonhuman (elvish, gnomish, dwarvish, etc.) priests found in space are Polygot clerics of their racial mythologies.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Path & The Way
 
@@ -39,6 +63,11 @@ Referred to either as a single grouping or as either of its parts, The Path and 
 The differences in the various branches of The Path and the Way come from the organized teachings of those faiths as opposed to the Powers they venerate. The different schools may disagree (sometimes violently) about the true nature of The Path or the inner nuances of The Way, but the organization of regaining spells for clerics remains unaffected.
 
 This grouping of faiths transferred very easily early in the exploration of the various spheres, and there are worshipers of all races throughout the known universe. For most groundling clerics, however, only those from a background that respects The Path and/or The Way may benefit from the pan-spherical power of the faith.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planar Churches
 
@@ -50,11 +79,21 @@ Oriental Adventures characters who already follow either The Path or The Way suf
 
 All "space clerics" have spells as standard clerics—they cannot become special mythos priests while following these various pan-deity groups. A cleric who goes into space from a terrestrial world retains the benefits of their faith but cannot join a pan-deity organization.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Conjuration/Summoning Spells
 
 Spells that call upon beings from the surrounding area will not function if none of those creatures are located within the spell's range. For example, a Summon Nature's Ally spell will not work in wildspace if there are no animals present. Conjuration/summoning spells will not work in the phlogiston if they summon extra-dimensional monsters or powers. No power, god, elemental, or other meta-planar creature can be summoned in the phlogiston, and any spell that attempts to do so will fail.
 
 Additionally, any spells that place the caster in contact with an extra-dimensional power fail in the Flow.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Planar Travel
 
@@ -62,11 +101,21 @@ Travel between the planes of existence functions normally within the various cry
 
 For example, a particularly nasty efreet is trapped in a portable hole in Waterdeep in the Realms, then carried to the edge of that system's crystal shell and thrown into the Flow. A passing ship finds the portable hole but cannot open it until it makes landfall inside another crystal shell. Once the portable hole is opened within the new system, the very irritated efreet can leave.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Fire In Arcane Space
 
 Within the air envelope that surrounds a planet, fire burns normally. Outside that envelope, however, there is a vacuum that will not support fire. Magical fire (such as fireballs) will work in the vacuum of space, as it is the sudden creation of fire that requires no air. However, magical fire will not cause other objects to burst into flame because there is no air to support a non-magical reaction.
 
 Fire works all too well in the phlogiston. As noted in the chapter on [Arcane Space](arcane-space.md), the entire area is permeated with an explosive mix, making both magical and non-magical fire extremely dangerous. The effect of the Flow on non-magical flame is discussed in the section on the phlogiston. Magical fire used in the phlogiston will cause an automatic detonation of the spell on the user. For example, a wizard trying to cast a fireball will find himself at the center of a ball of flame. This may be advantageous to a powerful spellcaster with resistance to fire, but in general, such dangerous displays are frowned upon since they can be damaging to ships.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Spelljamming
 
@@ -85,6 +134,11 @@ Both major and minor helms require "fresh" and well-rested spellcasters to funct
 Using a major or minor helm, even for a short period, removes all spellcasting or manifesting ability from the user until the individual rests long enough to recover spells or powers. Humanoid spellcasting races normally use spelljammer helms to travel through space. Other creatures use a variety of methods to propel their ships. Mind flayers, who have powerful psionics, use several specially designed helms in series. Beholders use a mutated version of their race known as an orbus to move their ships. Dwarves without spellcasting or manifesting ability use devices called forges to journey through space. All these alternate spelljamming techniques are discussed in the chapter on [Helms & Hulls](helms-hulls.md).
 
 In addition to the various magical items that can propel a ship, there are several new magical spells and psionic powers that provide spelljamming powers for a limited duration.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # New Spells/Powers
 
@@ -126,6 +180,11 @@ In addition to the various magical items that can propel a ship, there are sever
 - **Create Portal**: Causes a large area of a crystal shell to become temporarily insubstantial and ethereal.
 - **Enhance Maneuverability**: Increase or decrease the maneuverability class of target ship
 - **Create Major Helm**: Transform a normal chair or seat into a major spelljamming helm.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Spell Descriptions
 
@@ -351,3 +410,6 @@ The softwood spell was created as a defensive measure, to preserve those cast ad
 
 *Material Component*
 A bit of bark. The softwood will become that type of bark covering the body. (If maple is used, then the covering will appear as maple; if pine, it will appear as pine.) If the bark of a sentient or "monster"-type plant is used, the softwood will be of similar physical features, but will lack any special abilities of the original plant.
+
+</div>
+</div>

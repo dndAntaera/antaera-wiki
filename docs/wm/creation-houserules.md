@@ -2,14 +2,28 @@
 title: "Creation Houserules"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/wm_creation_houserules_header.png)
 *An adventurer waking up after the crash landing of the colony ship...*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Creation Rules
 When making your character, head to the Character Sheets forum in the Discord and create the character using the given template.
 - Character Level 3
 - Point-Buy 30
 - You may start with 1 common magic item as your heirloom from your previous life.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Houserules
 ### Altered Spells
@@ -66,5 +80,8 @@ This one is more of a guideline than an actual rule. The recommended amount of p
 
 **Healing Spells**
 Spells that restore health points may target friendly undead, even if the spell says otherwise.
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

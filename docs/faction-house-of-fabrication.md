@@ -2,13 +2,27 @@
 title: "Faction House Of Fabrication"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/faction_house_of_fabrication_header.png)
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # House of Fabrication
 
 The House of Fabrication is the sole government, employer, and landholder of the [Forgehome](spelljamming/sphere-forgehome.md) sphere. It began as a spacefaring trading caravan and became a corporatocracy: the company runs the government, and there is no distinction between the two. Three castes hold the population. The Arcane govern, own, and price. The artisans build, and are descended from the sphere's native civilization, bought out over generations rather than conquered. The Warforged carry, and hold their position by the settlement that ended the civil war, which freed them from classification as property and set the Life Debt against them in its place.
 
 The House keeps everything in-company. The ore and the heat that feed the forges, the crystals processed from Follis that fuel them, the yards that build the ships, and the food that keeps its living residents alive all move through House hands from source to consumption. Its exports are few: Spelljammers, ordnance, wondrous items, and constructs on commission. House Navigators are the only ones capable of entering or leaving, by way of the Gate spell. House records state that the magic preventing accidental discovery of the sphere, or traversal through the shell, is maintained by an ancient Mythal cast by House mages in the distant past. The House trades across the Known Spheres and answers to their overarching government in matters of law, which is the leverage that ended the war.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Origin Story
 
@@ -19,6 +33,11 @@ However, the planets in the sphere were not uninhabited. Its prime world was inh
 Conquest was not an option for the House, as they did not have an overwhelming military presence. Instead, they took over economically. They introduced new technologies and magic that improved their quality of life, like improved agriculture and better plumbing. Eventually, the House held so much economic sway that they simply purchased the planet through honeyed words and promises. Over time, everyone became an employee of the House and everything was owned by them. Once people became aware of the situation it was too late; no one even remembered a time before the House's rule, so they just accepted it.
 
 The House placed the natives into the Artisan Caste. The first order of business was terraforming and developing the other planets in the sphere, which became new homes and workplaces for the Artisans. The process began with Navalia and worked inward to Crucibulum as the yards grew capable of surviving the heat. Follis was found to be a manifest zone rather than a star, and the satellites that process its output were the first structures the House raised in open space. The ancient relic in the last planetoid was left alone, as House Scholars couldn't identify it and recorded it as an anomaly.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Caste System
 
@@ -31,6 +50,11 @@ The **Artisan Caste** hold the citizenry. It can be entered from outside, on dem
 The Warforged hold the **Labor Caste**. They work the smelting faces on Crucibulum, the yards, and the sites where no living body survives, in conditions that are slavery in all but name, and they are the only caste whose position was manufactured rather than inherited. They quarter on Peculium, a belt of airless asteroids at the outer edge of the habitable band, granted to them at the close of the civil war. What they hold, they hold because the war ended with the Arcane conceding a single point: Warforged are sentient beings and cannot be owned as property.
 
 In place of ownership, the House set the Life Debt, the cost of the materials that went into creating it. That sum is the price of its freedom: its wages decrease it, and repairs increase it. Most find this to be just a different form of slavery, for as long as the Warforged is in debt, it cannot leave the sphere or purchase property from the House. Once the debt is paid, the individual enters the Artisan Caste, and may then either remain in the sphere as a citizen or take leave to depart. Those who leave are given a severance package of basic equipment and their belongings, and sent away in a ceremony. Few reach it.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Warforged Civil War
 
@@ -49,5 +73,8 @@ This event split the Artisan Caste in half: one side in support of the Warforged
 The Arcane conceded that the Warforged are a sentient race of people. In fear of being sanctioned by the overarching government of the Known Spheres, where they do most of their business, they decided to free the Warforged from being classified as property and put into their own caste. They were also given a stipulation in the form of the Life Debt, the cost of the materials that went into their creation as an individual. While they were still in debt, they could not leave the sphere or purchase property from the House. Once they paid it off, they could either leave the sphere or join the Artisan Caste.
 
 The settlement also granted the Warforged a place of their own. The House ceded the asteroid belt at the outer edge of the habitable band, which became Peculium, and it cost them nothing to give: the rocks were unworked, they held no atmosphere, and no living resident would ever want them. The Warforged took it as the first thing in the sphere that was theirs.
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

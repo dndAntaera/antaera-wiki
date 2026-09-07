@@ -2,6 +2,9 @@
 title: "Power Stabilize Crystal"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ## Stabilize Crystal, psionic
 ***Transmutation***
 
@@ -22,3 +25,6 @@ Spending 9 power points allows the manifester to affect Lesser Planar Crystals. 
 
 Material Component
 *The Planar Crystal being stabilized.*
+
+</div>
+</div>

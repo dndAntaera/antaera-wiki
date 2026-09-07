@@ -2,8 +2,17 @@
 title: "Backgrounds"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 Header Image
 *Image description...*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Backgrounds
 When selecting your background at 1st level, you may choose any of the Core backgrounds or one discussed on this page. Some backgrounds presented will have prerequisites that must be met to be taken.
@@ -11,6 +20,11 @@ When selecting your background at 1st level, you may choose any of the Core back
 Certain backgrounds have specific effects:
 - <u>Regional</u>: Gain advantage on Charisma (Diplomacy) checks made against others that are also natives of the respective region.
 - <u>Extraplanar</u>: As a bonus action, you may gain a bonus equal to your proficiency bonus on one of the skills granted by your background. This bonus does not stack with other abilities that grant a similar bonus, such as Expertise. You may use this ability once, and regain all uses at the end of a long rest.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Antæran Regional Backgrounds
 The backgrounds presented in this section are for characters who originally hailed from one of the many regions on the prime world of the Antæran Crystal Sphere.
@@ -117,6 +131,11 @@ Your regional advantage on Charisma (Diplomacy) checks extends to all other regi
 **Feature: Alien Culture**
 You gain proficiency in a secret language known only to others from this region. This secret language consists of slang and other jargon that is foreign and alien to all other denizens of the Known Spheres. Some say that it is the descendant of a language from the mysterious Sol Crystal Sphere. Use of this secret language allows you to hide messages in seemingly normal conversation. Only another creature that knows this secret language understands such messages. This secret language is so alien, other creatures are unable to learn it.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Extraplanar Backgrounds
 All of the Known Spheres, other than the Antæran Sphere, have been touched by one of the many Inner or Outer planes. These spheres influence their denizens and environments in a multitude of ways. Because of this, its denizens have had to adapt to these changes over time to allow for better survival.
 
@@ -183,5 +202,8 @@ Those who look into your eyes can see that you have an eternal tie to Law. Commo
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Intimidate
 **Type**: Extraplanar
 **Benefit**: You gain the Pure Soul feat for free at 1st level without needing to meet the prerequisites. This feat cannot be retrained. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. IE: a character that is Lawful Neutral has a Lawful Evil Aura.
+
+</div>
+</div>
 
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

@@ -1,6 +1,11 @@
 ---
-title: "Terrus, God of Chaos"
+title: "Deity Terrus"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Terrus, God of Chaos
 
 - **Symbol**: Open gauntlet with a star behind it
 - **Home Plane**: All Elemental and Energy Planes
@@ -22,3 +27,6 @@ The Known Spheres are not meant to hold still. What is built must break, and wha
 
 **Home Sphere**
 Terrus has no home sphere.
+
+</div>
+</div>

@@ -2,8 +2,18 @@
 title: "Commissions"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/rules_commissions_header.png)
 *A blacksmith hammers away on a commission from an adventurer.*
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # Overview
 In a world where magic permeates every aspect of life, the creation of enchanted items is a testament to the skill and expertise of master craftsmen and enchanters. From the humble blacksmith in a small village, capable of forging a blade with the strength of steel, to the grand archmage in a towering citadel, who can imbue that same blade with the power to slay dragons, the process of commissioning such items is as varied and complex as the items themselves.
 
@@ -31,3 +41,6 @@ Certain things can reduce the cost of the item:
 - Providing the spell included in the cost of the item reduces the base price by 10% per spell component provided (multiple instances are iterative)
 - Providing the EXP component of the item reduces the cost by an amount of gold equal to EXP cost
 - Providing the material component of the item removes the cost associated with the material cost
+
+</div>
+</div>

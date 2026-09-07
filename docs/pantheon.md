@@ -2,6 +2,9 @@
 title: "Pantheon"
 ---
 
+<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
+<div class="wd-cell" markdown>
+
 # The Primal Gods (Greater Deities)
 - [Mundus](pantheon/deity-mundus.md), Goddess of Life
  - Alignment: Neutral Good
@@ -23,6 +26,9 @@ title: "Pantheon"
  - Alignment: True Neutral
  - Portfolio: Knowledge, Magic, Balance
  - Symbol: Star in front of a book
+
+</div>
+<div class="wd-cell" markdown>
 
 # On Divinity
 ### *Relations Among the Pantheon and their Ranks*
@@ -53,6 +59,11 @@ The Living Gods are the deities that have amassed enough power to ascend past th
 The Patrons are deities that are either agents of more powerful deities, mortals that ascended, paragons of their race, or the progenitors of their race. They are the least powerful among the gods but are the most numerous. These deities are most active on the Inner Planes, Transitional Planes, and Parallel Material Planes. Though they occasionally make appearances on the Material Plane.
 ## A Note On Domains
 All deities have access to the domains associated with their alignment, even if it is not listed in their descriptions. For example, deities of the Lawful Good alignment always have the Law and Good domains on their list of domains, while deities of the Lawful Evil alignment always have the Law and Evil domains.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # The Living Gods (Intermediate Deities)
 - Lux Dawnbringer, the Luminous Sovereign
@@ -92,62 +103,75 @@ All deities have access to the domains associated with their alignment, even if 
  - Portfolio: Destruction, Murder
  - Symbol: A blood-red vortex swirling around a jagged, shattered blade.
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 # The Patrons (Lesser Deities)
 
 - Lawful Good
  - Urog, Father of Metallic Dragons
 - Neutral Good
  - Homoth, Lord of Beasts
- - Trelanni, Patron of Elves
+ - [Trelanni](trelanni.md), Patron of Elves
  - [Cervidûr](deity/cervidur.md), Lord of the Hunt
 - Chaotic Good
  - Typhus, Prince of Water
- - Cavri, Queen of the Seelie Court
+ - [Cavri](cavri.md), Queen of the Seelie Court
 - Lawful Neutral
- - Ornus, Lord of Constructs
+ - [Ornus](ornus.md), Lord of Constructs
  - Sil’Faraan, Lord of the Wastes
 - True Neutral
- - Enigma, the Lost God
+ - [Enigma](enigma.md), the Lost God
 - Chaotic Neutral
  - Helius, Prince of Air
  - Gollus, Prince of Earth
- - Droma, God of Craftsmen
- - Ithlwick, God of Prosperity
- - Rasmin, God of Mischief
- - Fink, Patron of Goblinoids
- - Orion, Patron of Smallfolk
- - Vaylen, Patron of Sailors and Travelers
+ - [Droma](droma.md), God of Craftsmen
+ - [Ithlwick](ithlwick.md), God of Prosperity
+ - [Rasmin](rasmin.md), God of Mischief
+ - [Fink](fink.md), Patron of Goblinoids
+ - [Orion](orion.md), Patron of Smallfolk
+ - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
 - Lawful Evil
- - Ythedie, Mother of Chromatic Dragons
- - Leshrac, Lord of the Undead
+ - [Ythedie](ythedie.md), Mother of Chromatic Dragons
+ - [Leshrac](leshrac.md), Lord of the Undead
  - [Ukrol](deity/ukrol.md), Patron of Humans
- - Asmodeus, Supreme Master of the Nine Hells
- - Sezzek, Patron of Scaly Ones
+ - [Asmodeus](asmodeus.md), Supreme Master of the Nine Hells
+ - [Sezzek](sezzek.md), Patron of Scaly Ones
 - Neutral Evil
- - Fronir, Patron of Giants
- - Nessa, Patron of Vermin
+ - [Fronir](fronir.md), Patron of Giants
+ - [Nessa](nessa.md), Patron of Vermin
 - Chaotic Evil
- - Tari, Queen of the Unseelie Court
+ - [Tari](tari.md), Queen of the Unseelie Court
  - Infernus, Prince of Fire
  - Mil’Anaara, Goddess of Storms
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Dead Gods (Known)
 
 - Lawful Good
  - [Amaris](deity/amaris.md), the Beacon of Law
 - Neutral Good
- - Thalrend, the Just Arbiter
+ - [Thalrend](deity/thalrend.md), the Just Arbiter
 - Chaotic Good
- - Eldron, the Freeheart
+ - [Eldron](deity/eldron.md), the Freeheart
 - Lawful Neutral
- - Virelia, the Order’s Hand
+ - [Virelia](deity/virelia.md), the Order’s Hand
 - True Neutral
- - Seraphis, the Eternal Equinox
+ - [Seraphis](deity/seraphis.md), the Eternal Equinox
 - Chaotic Neutral
- - Malcator, the Unbound
+ - [Malcator](deity/malcator.md), the Unbound
 - Lawful Evil
- - Draxus, the Iron Tyrant
+ - [Draxus](deity/draxus.md), the Iron Tyrant
 - Neutral Evil
- - Nyxara, the Shadow Queen
+ - [Nyxara](deity/nyxara.md), the Shadow Queen
 - Chaotic Evil
- - Gorthak, the Herald of Chaos
+ - [Gorthak](deity/gorthak.md), the Herald of Chaos
+
+</div>
+</div>

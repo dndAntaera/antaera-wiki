@@ -1,6 +1,11 @@
 ---
-title: "Ignaraxis, Lord of Fire"
+title: "Deity Ignaraxis"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Ignaraxis, Lord of Fire
 
 - **Symbol**: A blazing flame consuming a crowned skull
 - **Home Plane**: Elemental Plane of Fire
@@ -22,3 +27,6 @@ Destruction is not mindless—it is purpose. Fire cleanses the impure, reshapes 
 
 **Home Sphere**
 The Cineræxis Sphere contains a system of unending heat and flame, where even wildspace itself smolders with ancient fire. At its core burns Sahr’kanaar: an artificial supermassive manifest zone to the Elemental Plane of Fire, suspended within the Cage of Brael—an ancient Antæran relic of tan starmetal and impossible geometry. Ignaraxis’s influence permeates every inch of this burning cosmos, from the magma-crusted surface of Aevzakar to the crystalline harmonics of Caer Vhal. It was in the Belt of Cinderglass, amidst shards of fire-crystal and dying stars, that Ignaraxis seized his godhood and crowned himself with flame eternal.
+
+</div>
+</div>

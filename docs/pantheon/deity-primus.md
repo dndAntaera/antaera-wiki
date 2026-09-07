@@ -1,6 +1,11 @@
 ---
-title: "Primus, God of Order"
+title: "Deity Primus"
 ---
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Primus, God of Order
 
 - **Symbol**: Closed gauntlet with infinity symbol embedded
 - **Home Plane**: Mechanus
@@ -22,3 +27,6 @@ The law is not made, it is revealed. Pacts are sacred reflections of universal o
 
 **Home Sphere**
 Primus has no native crystal sphere. It exists beyond such structures, as a primal force interwoven with the fabric of all reality.
+
+</div>
+</div>

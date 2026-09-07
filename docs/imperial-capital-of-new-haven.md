@@ -2,8 +2,16 @@
 title: "Imperial Capital Of New Haven"
 ---
 
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/imperial_capital_of_new_haven_architecture.jpg)
 *Representation of the type of architecture found in the city and its surroundings, not an actual representation of the city itself.*
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Overview
 The city of New Haven is the self proclaimed bastion of humanity’s imperial superiority. It is the capital city of the [New Haven Imperium](nation/new-haven-imperium.md), ruled by the emperor Nicolaus Poplicola IX. The [New Haven Imperium](nation/new-haven-imperium.md), or colloquially known as the [Imperium](nation/new-haven-imperium.md), rules over a vast majority of the eastern side of the continent, and is of the belief that humanity is the apex of the mortal races and strives to share its beliefs and influence across the land.
@@ -15,6 +23,11 @@ If there is nothing positive to say of the [Imperium](nation/new-haven-imperium.
 The nobility of the [Imperium](nation/new-haven-imperium.md) consists mostly of the royal family, officers of the military, and wealthy imperial merchants. While most of the nobility have been so for generations, it is possible for citizens to become nobility through merit.
 
 It is commonly believed in other parts of the continent that the [Imperium](nation/new-haven-imperium.md) are the remnants of an ancient Cult of [Ukrol](deity/ukrol.md), given that most citizens in the [Imperium](nation/new-haven-imperium.md) still revere the Patron of Humanity. While there is no hard evidence to suggest this, it is rumored that the cult was resurrected with the rise of the [Imperium](nation/new-haven-imperium.md) at the start of the 5th Era. It was around this time that the [Imperium](nation/new-haven-imperium.md) adopted its imperial methods and started its expansion into other parts of the world.
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 # Districts
 
@@ -115,5 +128,11 @@ The seat of power in the entire [Imperium](nation/new-haven-imperium.md), and th
  - Lord’s Keep
  - Temple District
 
+</div>
+<div class="wd-cell" markdown>
+
 ![](/antaera-wiki/img/imperial_capital_of_new_haven_map.jpg)
 *Map of the city.*
+
+</div>
+</div>

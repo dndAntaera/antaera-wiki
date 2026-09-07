@@ -26,7 +26,8 @@ BASE = "/antaera-wiki"
 SKIP = re.compile(
     r"^(admin_|chatter|nav[:_]|forum_|featured|talk_|inc_|template|glossary_|_"
     r"|wiki[:_]|snippet[:_]|system[:_]|legal[:_]|theme[:_]|search[:_])"
-    r"|^(1234|amadeus-mozart|help|new-wiki-help|main_about|random|wiki)$"
+    r"|^(1234|amadeus-mozart|help|new-wiki-help|main_about|random|wiki|contact"
+    r"|about|donate)$"
 )
 
 # Slug prefixes with enough pages to be worth a folder.
@@ -181,6 +182,10 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"\[\[\[([^\]|]+)\|([^\]]+)\]\]\]", lambda m: link(m.group(1), m.group(2).strip()), s)
     s = re.sub(r"\[\[\[([^\]|]+)\]\]\]", lambda m: link(m.group(1), m.group(1).strip()), s)
 
+    # Wikidot internal links of the form [/some-slug link text]
+    s = re.sub(r"\[/([a-z0-9:_/-]+)\s+([^\]]+)\]",
+               lambda m: link(m.group(1).split("/")[0], m.group(2).strip()), s, flags=re.I)
+
     s = re.sub(r"\[(\x00U\d+\x00)\s+([^\]]+)\]", r"[\2](\1)", s)
 
     # Protect finished Markdown tables. The strikethrough rule below turns
@@ -262,6 +267,15 @@ def main(backup):
         title = title.replace('"', "'")
         if not title:
             title = title_from(slug)
+
+        # The glossary was 26 ListPages queries. It is regenerated at build
+        # time by hooks/glossary.py, so the page is just a marker.
+        if slug == "glossary":
+            title = "Glossary"
+            body = (
+                "An index of every page on the wiki, in alphabetical order.\n\n"
+                "<!-- GLOSSARY -->\n"
+            )
 
         out_abs = os.path.join(DOCS, target_path(slug))
         os.makedirs(os.path.dirname(out_abs), exist_ok=True)

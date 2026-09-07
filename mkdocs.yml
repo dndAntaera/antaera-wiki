@@ -41,6 +41,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+hooks:
+  - hooks/glossary.py
+
 plugins:
   - search
   - tags

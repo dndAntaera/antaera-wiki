@@ -1,5 +1,5 @@
 ---
-title: "City Shegrove"
+title: "Shegrove"
 wip: true
 ---
 

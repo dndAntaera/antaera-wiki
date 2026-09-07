@@ -40,6 +40,17 @@ FOLDERS = {
     "anthropology": "anthropology",
     "rules": "rules",
     "nation": "nation",
+    "city": "city",
+    "race": "race",
+    "item": "item",
+}
+
+# Prefixes that classify a page but are not worth a folder of their own. They
+# are stripped from the title, so "faction-house-of-fabrication" is "House of
+# Fabrication" rather than "Faction House Of Fabrication" - the slug says what
+# kind of thing it is, the title should say which thing.
+TITLE_PREFIXES = {
+    "faction", "settlement", "poi", "events", "taxonomy",
 }
 
 # Images kept in docs/img but not placed on any page. The file stays where it
@@ -132,9 +143,9 @@ def norm_slug(target):
 
 
 def title_from(slug):
-    """Human title from a slug, minus any folder prefix it duplicates."""
+    """Human title from a slug, minus any prefix that only classifies it."""
     m = re.match(r"^([a-z]+)-(.+)$", slug)
-    if m and m.group(1) in FOLDERS:
+    if m and (m.group(1) in FOLDERS or m.group(1) in TITLE_PREFIXES):
         slug = m.group(2)
     return slug.replace(":", " ").replace("-", " ").replace("_", " ").strip().title()
 

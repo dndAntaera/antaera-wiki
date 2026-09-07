@@ -24,6 +24,10 @@
   max-width: var(--wd-rw, 52rem);
   margin: 1.2rem auto;
   grid-template-columns: 1fr;      /* stacked by default: phones first */
+  /* Grid items stretch to the row's height by default, so a short sidebar was
+     drawn down to match the column beside it and ended in a long empty box.
+     Each cell is now only as tall as what is in it. */
+  align-items: start;
 }
 
 @media screen and (min-width: 60em) {

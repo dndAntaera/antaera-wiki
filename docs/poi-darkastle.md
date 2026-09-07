@@ -1,5 +1,5 @@
 ---
-title: "Poi Darkastle"
+title: "Darkastle"
 wip: true
 ---
 

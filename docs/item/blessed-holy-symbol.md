@@ -1,5 +1,5 @@
 ---
-title: "Item Blessed Holy Symbol"
+title: "Blessed Holy Symbol"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

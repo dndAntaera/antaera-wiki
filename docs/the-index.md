@@ -295,7 +295,7 @@ White Raven Tactics: Cannot affect the user
 ## A
 ## B
 
-- book, [The Dreaming & Waking](item-dreaming-waking.md)
+- book, [The Dreaming & Waking](item/dreaming-waking.md)
 ## C
 
 - [Crystal Stabilization Fluid](crystal-stabilization-fluid.md)
@@ -309,7 +309,7 @@ White Raven Tactics: Cannot affect the user
 ## G
 ## H
 
-- [Profane/Blessed (Un)Holy Symbol](item-blessed-holy-symbol.md)
+- [Profane/Blessed (Un)Holy Symbol](item/blessed-holy-symbol.md)
 ## I
 
 ## J
@@ -430,12 +430,12 @@ White Raven Tactics: Cannot affect the user
 
 ## A
 
-- [Aasimar, Tainted](race-aasimar-tainted.md)
+- [Aasimar, Tainted](race/aasimar-tainted.md)
 ## B
 ## C
 ## D
 
-- [Deepfolk](race-deepfolk.md)
+- [Deepfolk](race/deepfolk.md)
 ## E
 ## F
 ## G

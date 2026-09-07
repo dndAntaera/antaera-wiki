@@ -1,5 +1,5 @@
 ---
-title: "Events Crucible Of Valor"
+title: "Crucible Of Valor"
 ---
 
 <div class="wd-row" markdown>

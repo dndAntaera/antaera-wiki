@@ -1,5 +1,5 @@
 ---
-title: "Faction House Of Fabrication"
+title: "House Of Fabrication"
 wip: true
 ---
 

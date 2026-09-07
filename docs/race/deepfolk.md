@@ -1,5 +1,5 @@
 ---
-title: "Race Deepfolk"
+title: "Deepfolk"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

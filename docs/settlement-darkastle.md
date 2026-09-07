@@ -1,5 +1,5 @@
 ---
-title: "Settlement Darkastle"
+title: "Darkastle"
 wip: true
 ---
 

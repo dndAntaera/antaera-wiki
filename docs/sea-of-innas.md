@@ -14,12 +14,12 @@ title: "Sea Of Innas"
 
 - Settlements
     - Forladrien
-    - [Hnaleah](city-hnaleah.md)
+    - [Hnaleah](city/hnaleah.md)
     - Ingbrook
     - Pawic
     - Reford
     - Sewich
-    - [Shegrove](city-shegrove.md)
+    - [Shegrove](city/shegrove.md)
 - Points of Interest
     - Black Vaults of Amas, The
     - Caer Collo

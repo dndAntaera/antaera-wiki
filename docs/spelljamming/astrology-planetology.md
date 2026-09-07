@@ -315,7 +315,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 
 **Planet Size**
 
-<div class="wd-col" style="--wd-w: 33%" markdown>
+<div class="wd-cols" style="--wd-n: 3" markdown>
 
 | d% | Size Category |
 |---|---|
@@ -332,10 +332,6 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 
 *Table: Fire and Air Types*
 
-</div>
-
-<div class="wd-col" style="--wd-w: 33%" markdown>
-
 | d% | Size Category |
 |---|---|
 | 01–05 | Size A |
@@ -348,10 +344,6 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 91–00 | Size H |
 
 *Table: Earth and Water Types*
-
-</div>
-
-<div class="wd-col" style="--wd-w: 33%" markdown>
 
 | d% | Shape |
 |---|---|

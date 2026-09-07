@@ -263,3 +263,52 @@
   /* The flag images are signage, not illustration - smaller on a phone. */
   .wd-flag--wip img { max-width: 160px; }
 }
+
+/* ---------------------------------------------------------------------------
+   Balanced columns.
+
+   The wiki floated two or three divs side by side and split the content
+   between them by hand, so a long entry on the right left the left column
+   ending halfway up the card. A real multi-column flow balances the heights,
+   and because it fills the first column before the second, the weight falls
+   to the left.
+   --------------------------------------------------------------------------- */
+
+.wd-cols {
+  columns: var(--wd-n, 2);
+  column-gap: 1.8rem;
+  margin: .4rem 0 1rem;
+}
+
+.wd-cols > :first-child { margin-top: 0; }
+
+/* A heading must not be left stranded at the foot of a column. */
+.wd-cols h1,
+.wd-cols h2,
+.wd-cols h3 {
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+.wd-cols table,
+.wd-cols img { break-inside: avoid; }
+
+@media screen and (max-width: 60em) {
+  .wd-cols { columns: 1; }
+}
+
+/* ---------------------------------------------------------------------------
+   The navigation gets a container of its own, so it reads as a panel beside
+   the content rather than links floating on the page background.
+   --------------------------------------------------------------------------- */
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-nav--primary {
+    border: 1px solid var(--md-default-fg-color--light);
+    background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 85%, transparent);
+    border-radius: .2rem;
+    padding: .7rem .5rem;
+  }
+
+  .md-sidebar--primary .md-nav__title { padding-top: 0; }
+}

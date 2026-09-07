@@ -88,7 +88,7 @@ A character selects his first commander aura upon gaining rank 1 (corporal or th
 
 If a character’s commander rank is reduced, he may not replace his commander aura unless he no longer qualifies for the one he possesses (in which case he must immediately replace it with one for which he is qualified).
 
-<div class="wd-col" style="--wd-w: 50%" markdown>
+<div class="wd-cols" style="--wd-n: 2" markdown>
 
 **Animal Commander**
 You are adept at using warbeasts to assault your foes—and bringing them back alive when the battle is done.
@@ -159,10 +159,6 @@ You keep your soldiers always on the move, looking for the weakest points in you
 You are most effective when inspiring your soldiers to take the fight to the enemy in hand-to-hand combat.
 <u>Prerequisite</u>: Commander rating 3, any lawful alignment, base attack bonus +2 or higher.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on melee attack rolls.
-
-</div>
-
-<div class="wd-col" style="--wd-w: 50%" markdown>
 
 **Mobile Commander**
 Your troops are exceptionally fleet of foot.
@@ -330,7 +326,7 @@ Use the Rally Attempts table (below) to determine the effectiveness of a rally a
 
 For example, troops that are panicked can be made frightened with a successful DC 20 rally check. Those same troops can then be made heartened in a later round with a DC 30 rally check.
 
-<div class="wd-col" style="--wd-w: 50%" markdown>
+<div class="wd-cols" style="--wd-n: 2" markdown>
 
 | Initial Morale Condition | Frightened | Shaken | Normal | Heartened |
 |---|---|---|---|---|
@@ -342,10 +338,6 @@ For example, troops that are panicked can be made frightened with a successful D
 \* Can only be attempted before the battle (see below).
 
 *Table: Rally Attempts*
-
-</div>
-
-<div class="wd-col" style="--wd-w: 50%" markdown>
 
 | Situation | Modifier |
 |---|---|

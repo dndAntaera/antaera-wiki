@@ -243,6 +243,55 @@ def tables_to_layout(s):
     return s
 
 
+_COL = re.compile(
+    r'<div class="wd-col" style="--wd-w: ([\d.]+%)" markdown>\n(.*?)\n</div>\n',
+    re.S,
+)
+
+
+def merge_column_runs(s):
+    """Turn a run of equal-width floated divs into one balanced column flow.
+
+    The wiki built columns by floating two or three divs side by side and
+    splitting the content between them by hand. Separate boxes cannot balance
+    against each other, so a long entry in the second column left the first
+    ending halfway up the page.
+
+    Merging a run into a single multi-column element lets the browser balance
+    the heights, and because it fills the first column before the second, the
+    weight falls to the left.
+    """
+
+    out, run, pos = [], [], 0
+
+    def flush():
+        if not run:
+            return
+        if len(run) == 1:
+            width, body = run[0]
+            out.append('<div class="wd-col" style="--wd-w: %s" markdown>\n%s\n</div>\n'
+                       % (width, body))
+        else:
+            cols = max(2, min(4, int(round(100.0 / float(run[0][0].rstrip("%"))))))
+            joined = "\n\n".join(b.strip() for _, b in run)
+            out.append('<div class="wd-cols" style="--wd-n: %d" markdown>\n\n%s\n\n</div>\n'
+                       % (cols, joined))
+        del run[:]
+
+    for m in _COL.finditer(s):
+        gap = s[pos:m.start()]
+        # Anything between two of these divs, or a change of width, ends the run.
+        if gap.strip() or (run and run[0][0] != m.group(1)):
+            flush()
+        out.append(gap)
+        run.append((m.group(1), m.group(2)))
+        pos = m.end()
+
+    flush()
+    out.append(s[pos:])
+    return "".join(out)
+
+
 def unwrap_table_only_cards(s):
     """Strip the card box from a cell holding nothing but a table or image.
 
@@ -371,6 +420,8 @@ def convert(src, slug, img_by_url, tables, linkmap):
 
     s = re.sub(r"\[\[div([^\]]*)\]\]", divopen, s, flags=re.I)
     s = re.sub(r"\[\[/div\]\]", "\n</div>\n", s, flags=re.I)
+    # Only now do the column divs exist to be merged.
+    s = merge_column_runs(s)
     # size and span carried no layout, only presentation.
     s = re.sub(r"\[\[/?(?:size|span)[^\]]*\]\]", "", s, flags=re.I)
     s = re.sub(r"\[\[note\]\](.*?)\[\[/note\]\]",

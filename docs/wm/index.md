@@ -29,16 +29,13 @@ This campaign uses its own Spelljammer rules, as the published 5e Spelljammer ru
 <div class="wd-cell" markdown>
 
 # Index
-<div class="wd-col" style="--wd-w: 50%" markdown>
+
+<div class="wd-cols" style="--wd-n: 2" markdown>
 
 - 01: [Character Creation & Houserules](creation-houserules.md)
 - 02: [Anthropology](races.md)
 - 03: [Backgrounds](backgrounds.md)
 - 04: [Questing & Progression](questing-progression.md)
-
-</div>
-
-<div class="wd-col" style="--wd-w: 50%" markdown>
 
 - 05: [The World](lore-main.md)
 - 06: [Spelljamming](rules-spelljammer.md)

@@ -1,5 +1,5 @@
 ---
-title: "Known Spheres"
+title: "The Known Spheres"
 ---
 
 *Header image.*

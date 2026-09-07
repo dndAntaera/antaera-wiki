@@ -1,5 +1,5 @@
 ---
-title: "Main"
+title: "Spelljamming"
 ---
 
 ![](/antaera-wiki/img/spelljamming_main_header.png)

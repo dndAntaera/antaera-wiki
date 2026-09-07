@@ -3,7 +3,7 @@ title: "Athelney"
 ---
 
 ![](/antaera-wiki/img/athelney_architecture.jpg)
-*Representation of the type of architecture found in the city, not an actual representation of the city itself. [*https://www.artstation.com/artwork/bagKBd Credits]*
+*Representation of the type of architecture found in the city, not an actual representation of the city itself. [Credits](https://www.artstation.com/artwork/bagKBd)*
 
 # Overview
 The town of Athelney is the closest to the city of [New Haven](imperial-capital-of-new-haven.md) and is under the control of the New Haven Imperium. The town’s economy relies on two different factors: agriculture and slavery. Early on in the history of the Imperium, Athelney stood as a relatively autonomous town, paying only taxes to the Imperium for its protection. This was due to the town’s unusual practice of slavery, which at the time was done only to prisoners of war, or those that the Imperial family deemed to be “deplorable”. This practice did not spread to the rest of the Imperium until later on when Athelney showed the effectiveness of its slaves in building their town’s surrounding wall. The Imperium was so impressed that it was legalized and taxed within the Imperium, and all of its controlled territories. Slavery eventually expanded to capture “lesser” races, like kobolds and various goblinoids, depending on the region. Athelney maintained that it would be the central hub of this slave trade, as they have been able to withhold the secrets of their success. Due to this slave trade, most of the militaries of the Imperium’s controlled territories were replaced with soldier slaves, except the city of New Haven itself.

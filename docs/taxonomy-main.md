@@ -1,5 +1,5 @@
 ---
-title: "Taxonomy Main"
+title: "Taxonomies"
 ---
 
 # Taxnonomies

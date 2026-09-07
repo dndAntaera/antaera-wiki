@@ -3,7 +3,7 @@ title: "Aberystwyth"
 ---
 
 ![](/antaera-wiki/img/aberystwyth_architecture.jpg)
-*Representation of the type of architecture found in the city, not an actual representation of the city itself. [*https://www.deviantart.com/flaviobolla/art/OSMADTH-Dun-Artorith-341990328 Credits]*
+*Representation of the type of architecture found in the city, not an actual representation of the city itself. [Credits](https://www.deviantart.com/flaviobolla/art/OSMADTH-Dun-Artorith-341990328)*
 
 # Overview
 Aberystwyth, or better known as Prison Island, is an island settlement originally established by the Imperium as a stronghold to defend against siege by sea. After a declaration of independence was signed, it was turned into a place to send the most vile of criminals and degenerates. Most of the inhabitants range anywhere from murderers and cultists to political prisoners and the criminally insane. Aberystwyth is a self-governing island nation that has remained neutral in every war since it gained independence, mostly due to their willingness to provide their detention services to any and all. As such, they are provided with funds by the various kingdoms and empires in order to properly secure even the most powerful of criminals. The settlement has a reputation for being desolate and inescapable. Many brave souls have attempted to escape, and have died trying. The preferred method of death for escapees is death at sea, or some other natural death, as when they are caught they are never seen again. However, one of the laws of the island is that should a prisoner escape from the island alive, they are to be pardoned of all crimes.

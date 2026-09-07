@@ -1,5 +1,5 @@
 ---
-title: "Pantheons"
+title: "The Pantheons"
 ---
 
 # On Divinity

@@ -1,5 +1,5 @@
 ---
-title: "Map Antaera"
+title: "Antæra World Map"
 ---
 
 ![](/antaera-wiki/img/map_antaera_header.jpg)

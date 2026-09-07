@@ -1,5 +1,5 @@
 ---
-title: "Calendar"
+title: "Antæran Calendar"
 ---
 
 # Overview

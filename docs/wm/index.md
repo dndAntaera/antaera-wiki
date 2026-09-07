@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Stellar Marches (5e: 2014)"
 ---
 
 ![](/antaera-wiki/img/wm_index_header.png)

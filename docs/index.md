@@ -1,5 +1,5 @@
 ---
-title: "Start"
+title: "Main Page"
 ---
 
 ![](/antaera-wiki/img/start_header.png)

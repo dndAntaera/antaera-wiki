@@ -55,6 +55,21 @@ def target_path(slug):
     return slug + ".md"
 
 
+# Titles a slug cannot produce. Set here rather than in the nav so the browser
+# tab, search results and the glossary all agree with the sidebar.
+TITLES = {
+    "start": "Main Page",
+    "pantheons": "The Pantheons",
+    "cosmology": "The Cosmology",
+    "spelljamming-known-spheres": "The Known Spheres",
+    "map-antaera": "Antæra World Map",
+    "taxonomy-main": "Taxonomies",
+    "calendar": "Antæran Calendar",
+    "spelljamming-main": "Spelljamming",
+    "wm-index": "Stellar Marches (5e: 2014)",
+}
+
+
 # Headings too generic to serve as a page title.
 GENERIC_HEADINGS = {
     "overview", "introduction", "intro", "summary", "description",
@@ -186,7 +201,11 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"\[/([a-z0-9:_/-]+)\s+([^\]]+)\]",
                lambda m: link(m.group(1).split("/")[0], m.group(2).strip()), s, flags=re.I)
 
-    s = re.sub(r"\[(\x00U\d+\x00)\s+([^\]]+)\]", r"[\2](\1)", s)
+    # External links. Wikidot writes [url text], and [*url text] when the link
+    # should open in a new window - the asterisk sits between the bracket and
+    # the URL, so it has to be allowed for or the link never converts. Image
+    # credit lines all use the starred form.
+    s = re.sub(r"\[\*?(\x00U\d+\x00)\s+([^\]]+)\]", r"[\2](\1)", s)
 
     # Protect finished Markdown tables. The strikethrough rule below turns
     # "--x--" into "~~x~~", which would otherwise chew through a "|---|---|"
@@ -267,6 +286,7 @@ def main(backup):
         title = title.replace('"', "'")
         if not title:
             title = title_from(slug)
+        title = TITLES.get(slug, title)
 
         # The glossary was 26 ListPages queries. It is regenerated at build
         # time by hooks/glossary.py, so the page is just a marker.

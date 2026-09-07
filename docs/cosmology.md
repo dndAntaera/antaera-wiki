@@ -1,5 +1,5 @@
 ---
-title: "Cosmology"
+title: "The Cosmology"
 ---
 
 # Transitive Planes

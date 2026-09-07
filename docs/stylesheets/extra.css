@@ -126,14 +126,15 @@
    root scales body copy, headings, navigation and sidebars together instead of
    leaving them at their old sizes while body text shrinks under them.
 
-   93.75% of a 16px browser default is 15px, which puts body copy - Material's
-   .8rem - at exactly 12px. A percentage rather than a px value so a reader who
-   has raised their browser's default font size still gets a larger site.
+   78.125% of a 16px browser default is 12.5px, which puts body copy -
+   Material's .8rem - at exactly 10px. A percentage rather than a px value,
+   so a reader who has raised their browser's default font size still gets a
+   correspondingly larger site.
 
-   Note: "12pt" in CSS resolves to 16px, which is the size this moves away
-   from; 12px is meant here.
+   Note on units: CSS points are not document points - "10pt" resolves to
+   13.3px, larger than this. Pixels are meant throughout.
    --------------------------------------------------------------------------- */
 
 :root {
-  font-size: 93.75%;
+  font-size: 78.125%;
 }

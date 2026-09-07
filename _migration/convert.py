@@ -45,10 +45,13 @@ FOLDERS = {
 # Images kept in docs/img but not placed on any page. The file stays where it
 # is, so putting one back is a matter of referencing it again.
 #
-# The under-construction sign sat on 24 pages. It reached the import named
-# after the first page that used it, which is worth knowing: shared images take
-# the name of whichever page referenced them first, and that name is misleading
-# everywhere else.
+# The under-construction sign marked pages that were still being written - it
+# sat on 24 of them. work-in-progress.md records which, since that is the only
+# place the information survives once the sign is off the pages.
+#
+# It reached the import named after the first page that used it, which is worth
+# knowing: shared images take the name of whichever page referenced them first,
+# and that name is misleading everywhere else.
 DROP_IMAGES = {
     "shared_under_construction.png",
 }
@@ -282,9 +285,16 @@ def convert(src, slug, img_by_url, tables, linkmap):
     # table when the picture was a picture of a table.
     def image(m):
         url = m.group(1)
+        # A sourceless [[image  width="50%"]] is a placeholder for art that was
+        # never added - 22 pages carry one, usually in a header table of its
+        # own. Dropping it empties that cell, and the empty-cell pass below
+        # then removes the table it sat in.
+        if not url.lower().startswith("http"):
+            return ""
         fn = img_by_url.get(url)
         if not fn:
             return ""
+        # Kept in docs/img but deliberately not placed on any page.
         if fn in DROP_IMAGES:
             return ""
         stem = os.path.splitext(fn)[0]

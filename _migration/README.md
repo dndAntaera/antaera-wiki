@@ -3,6 +3,11 @@
 Assets for importing the Wikidot wiki (`antaera.wikidot.com`) into this
 repository. Not part of the published site.
 
+## `work-in-progress.md`
+
+Which pages the Wikidot "under construction" sign marked, and where that image
+lives now. Read it before assuming a page is finished.
+
 ## `tables/`
 
 37 Markdown tables transcribed from screenshots. The Wikidot wiki stored its

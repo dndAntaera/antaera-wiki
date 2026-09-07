@@ -25,15 +25,15 @@ Spelljamming in this setting is based on the 2e spelljammer setting, and is tran
 
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
-- 01: [Arcane Space](arcane-space.md)
-- 02: [Magic Use in Space](magic.md)
-- 03: [Races of the Stars](races.md)
-- 04: [Skills & Feats](skills-feats.md)
+1. [Arcane Space](arcane-space.md)
+2. [Magic Use in Space](magic.md)
+3. [Races of the Stars](races.md)
+4. [Skills & Feats](skills-feats.md)
 
-- 05: [Helms & Hulls](helms-hulls.md)
-- 06: [Combat & Movement](combat-movement.md)
-- 07: [Adventuring in Space](adventuring-in-space.md)
-- 08: [Astrology & Planetology](astrology-planetology.md)
+5. [Helms & Hulls](helms-hulls.md)
+6. [Combat & Movement](combat-movement.md)
+7. [Adventuring in Space](adventuring-in-space.md)
+8. [Astrology & Planetology](astrology-planetology.md)
 
 </div>
 

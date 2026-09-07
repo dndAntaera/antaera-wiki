@@ -5,7 +5,9 @@ title: "Main Page"
 <div class="wd-row" markdown>
 <div class="wd-cell wd-plain" markdown>
 
-![](/antaera-wiki/img/start_header.png)
+![](/antaera-wiki/img/start_header_spelljammer.jpg)
+
+*[Credits](https://store.epicgames.com/news/neverwinter-s-developers-talk-spelljammer-space-and-intergalactic-travel?lang=en-US)*
 
 </div>
 </div>

@@ -56,6 +56,20 @@ DROP_IMAGES = {
     "shared_under_construction.png",
 }
 
+# Images swapped for a different file. The original stays in docs/img rather
+# than being deleted, so it can be put back by editing this map.
+REPLACE_IMAGES = {
+    "start_header.png": "start_header_spelljammer.jpg",
+}
+
+# Where an image came from. Rendered under it as a credit line, matching how
+# the wiki already credits the art it borrows.
+IMAGE_CREDITS = {
+    "start_header_spelljammer.jpg":
+        "https://store.epicgames.com/news/neverwinter-s-developers-talk-"
+        "spelljammer-space-and-intergalactic-travel?lang=en-US",
+}
+
 # Sections retired from the live wiki. Pages under these folders are flagged
 # archived: kept and readable, but out of the glossary and out of search, so
 # they cannot be mistaken for current material.
@@ -366,10 +380,15 @@ def convert(src, slug, img_by_url, tables, linkmap):
         # Kept in docs/img but deliberately not placed on any page.
         if fn in DROP_IMAGES:
             return ""
+        fn = REPLACE_IMAGES.get(fn, fn)
         stem = os.path.splitext(fn)[0]
         if stem in tables:
             return "\n\n" + tables[stem].strip() + "\n\n"
-        return "![](" + BASE + "/img/" + fn + ")"
+        md = "![](" + BASE + "/img/" + fn + ")"
+        credit = IMAGE_CREDITS.get(fn)
+        if credit:
+            md += "\n\n*[Credits](" + credit + ")*"
+        return md
 
     s = re.sub(r"\[\[f?image\s+([^\s\]]+)[^\]]*\]\]", image, s, flags=re.I)
 
@@ -475,6 +494,25 @@ def convert(src, slug, img_by_url, tables, linkmap):
     # Bullets. Wikidot nests with a single space per level; Markdown needs four
     # to read an item as a sublist, so one space produced a flat list.
     s = re.sub(r"^( *)\*\s+", lambda m: "    " * len(m.group(1)) + "- ", s, flags=re.M)
+    # An index written as "* 01: Something" is an ordered list wearing bullets.
+    # Only the colon form qualifies: "01-95 Standard system" is a dice range,
+    # not a sequence, and has to stay a bullet.
+    numbered = re.compile(r"^(\s*)-\s+(\d{1,3}):\s+(.*)$")
+    lines, rebuilt, i = s.split("\n"), [], 0
+    while i < len(lines):
+        j = i
+        while j < len(lines) and numbered.match(lines[j]):
+            j += 1
+        if j - i >= 2:
+            for k in range(i, j):
+                m = numbered.match(lines[k])
+                rebuilt.append("%s%d. %s" % (m.group(1), int(m.group(2)), m.group(3)))
+            i = j
+        else:
+            rebuilt.append(lines[i])
+            i += 1
+    s = "\n".join(rebuilt)
+
     s = re.sub(r"^-{4,}$", "---", s, flags=re.M)
 
     # Markdown needs a blank line before a list. Wikidot does not, and wrote

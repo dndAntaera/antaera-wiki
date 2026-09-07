@@ -2,7 +2,7 @@
 title: "Pantheon"
 ---
 
-<div class="wd-row" style="--wd-cols: 50fr 75fr" markdown>
+<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
 <div class="wd-cell wd-aside" markdown>
 
 # The Primal Gods (Greater Deities)

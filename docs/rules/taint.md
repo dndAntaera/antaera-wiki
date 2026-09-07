@@ -42,7 +42,7 @@ A paladin who acquires moderate levels of taint loses all paladin spells and abi
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Becoming Tainted
@@ -118,7 +118,7 @@ Each round, you can turn to detect things in a new area. The spell can penetrate
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Cleansing Taint
@@ -186,7 +186,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Effects of Taint
@@ -241,7 +241,7 @@ To determine the exact nature of a character's physical or mental taint symptoms
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Physical Symptoms
@@ -306,7 +306,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Mental Symptoms

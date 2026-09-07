@@ -11,7 +11,7 @@ title: "Race Aasimar Tainted"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Tainted Aasimar

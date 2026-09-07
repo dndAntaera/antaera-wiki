@@ -7,26 +7,6 @@
   line-height: 1.5;
 }
 
-/* Infobox pattern: float a summary table right on wide screens */
-.infobox {
-  float: right;
-  width: 18rem;
-  margin: 0 0 1rem 1.5rem;
-  font-size: 0.75rem;
-}
-
-.infobox table {
-  width: 100%;
-}
-
-@media screen and (max-width: 76.25em) {
-  .infobox {
-    float: none;
-    width: 100%;
-    margin: 0 0 1rem 0;
-  }
-}
-
 /* ---------------------------------------------------------------------------
    Wikidot layout cells, preserved as cards.
 

@@ -84,9 +84,7 @@ markdown_extensions:
 nav:
   - Main Page: index.md
   - Character Creation: character-creation.md
-  - The Index:
-      - the-index.md
-      - Archived Pages: archived.md
+  - The Index: the-index.md
   - The Pantheons: pantheons.md
   - The Cosmology: cosmology.md
   - The Known Spheres: spelljamming/known-spheres.md

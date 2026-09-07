@@ -39,7 +39,7 @@ The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, o
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Mirror Inhabitants

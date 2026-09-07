@@ -229,7 +229,7 @@ The DM may create systems both for his own campaign and for those new systems th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Randomly Generated Systems

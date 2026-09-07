@@ -21,7 +21,7 @@ Given the nature of spelljammer, many similar races may exist from different sou
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Dracons
@@ -131,7 +131,7 @@ Their homeworld contains large, shallow seas and at least one large moon. Beyond
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Giff

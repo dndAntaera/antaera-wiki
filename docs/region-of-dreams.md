@@ -2,7 +2,7 @@
 title: "Region Of Dreams"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -51,7 +51,7 @@ Any creatures touched by you when dream travel is cast also makes the transition
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Hypnagogian Haze
@@ -158,7 +158,7 @@ Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Spells in the Dreamscape
@@ -181,7 +181,7 @@ Due to the unpredictable nature of nightmare realms and dreams, any spells or sp
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # New Skill: Lucid Dreaming (Wis; Trained Only)

@@ -2,7 +2,7 @@
 title: "The Index"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # General Houserules & Clarifications
@@ -606,6 +606,19 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+
+</div>
+</div>
+
+
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Archived Pages
+
+Sections retired from the current setting, kept for reference. They do not appear in the glossary or in search.
+
+[Browse archived pages](archived.md)
 
 </div>
 </div>

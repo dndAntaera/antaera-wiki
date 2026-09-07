@@ -194,16 +194,19 @@ def tables_to_layout(s):
                 share = max((100.0 - known) / len(blanks), 5.0)
                 for i in blanks:
                     widths[i] = share
-            # A narrow column is a sidebar. Wikidot's proportions leave them
-            # too cramped to read at this theme's text size, so they get twice
-            # the share and a smaller font rather than one or the other.
+            # A narrow column is a sidebar, and gets a smaller font so it reads
+            # as an aside rather than a second column of equal weight.
+            #
+            # Its width is left at the source proportion. These were widened
+            # once, to compensate for the content column being 621px against
+            # Wikidot's 1402px; now that the page is its proper width, the same
+            # widening makes a sidebar look like just another cell.
             classes = ["wd-cell"] * len(kept)
             total = sum(w for w in widths if w) or 100.0
             if len(kept) > 1:
                 for i, w in enumerate(widths):
                     if w and (w / total) * 100 < 35:
                         classes[i] = "wd-cell wd-aside"
-                        widths[i] = w * 2
 
             style = ""
             if len(kept) > 1 and all(w for w in widths):
@@ -516,6 +519,21 @@ def main(backup):
                 "<!-- GLOSSARY -->\n"
             )
 
+        # The Index is the hub for the wiki's own indexes, so Archived Pages
+        # hangs off it rather than off the sidebar - the sidebar is a flat list
+        # by design, and nesting an item under an entry turns that entry into a
+        # section header with a duplicate child.
+        if slug == "the-index":
+            body += (
+                "\n\n<div class=\"wd-row\" markdown>\n"
+                "<div class=\"wd-cell\" markdown>\n\n"
+                "# Archived Pages\n\n"
+                "Sections retired from the current setting, kept for reference. "
+                "They do not appear in the glossary or in search.\n\n"
+                "[Browse archived pages](archived.md)\n\n"
+                "</div>\n</div>\n"
+            )
+
         rel = target_path(slug)
 
         # Flags are derived from the source, not a hand-kept list: a page is
@@ -535,6 +553,18 @@ def main(backup):
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1
+
+    # Pages with no Wikidot source. They have to be written here because this
+    # script clears docs/ on every run, so anything hand-placed there is lost.
+    with open(os.path.join(DOCS, "archived.md"), "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(
+            '---\ntitle: "Archived Pages"\n---\n\n'
+            "Material kept for reference but no longer part of the current\n"
+            "setting. Archived pages do not appear in the glossary or in search\n"
+            "results.\n\n"
+            "<!-- ARCHIVED-INDEX -->\n"
+        )
+    written += 1
 
     print("pages written : %d  (skipped %d system pages)" % (written, len(slugs) - len(keep)))
     print("TODO markers  : %d" % len(TODO))

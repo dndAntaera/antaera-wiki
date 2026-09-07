@@ -178,7 +178,7 @@ And when we do, we’ll probably start the sages arguing all over again."
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # The Phlogiston
@@ -215,7 +215,7 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Castaways in the Flow

@@ -19,10 +19,14 @@ TABLES = os.path.join(ROOT, "_migration", "tables")
 BASE = "/antaera-wiki"
 
 # Wikidot furniture, not this wiki's content.
+#
+# Wikidot category slugs use a colon ("system:members") but the backup writes
+# them with an underscore ("system_members.txt"), so both forms are matched -
+# the colon form alone silently let 26 system pages through.
 SKIP = re.compile(
-    r"^(admin_|wiki:|chatter|snippet:|nav:|nav_|search:|forum_|system:|_"
-    r"|featured|talk_|inc_|template|glossary_)"
-    r"|^(1234|amadeus-mozart|help|new-wiki-help|main_about|legal:_start)$"
+    r"^(admin_|chatter|nav[:_]|forum_|featured|talk_|inc_|template|glossary_|_"
+    r"|wiki[:_]|snippet[:_]|system[:_]|legal[:_]|theme[:_]|search[:_])"
+    r"|^(1234|amadeus-mozart|help|new-wiki-help|main_about|random|wiki)$"
 )
 
 # Slug prefixes with enough pages to be worth a folder.

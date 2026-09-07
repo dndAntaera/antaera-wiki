@@ -1,5 +1,0 @@
----
-title: "Legal Template"
----
-
-%%content%%

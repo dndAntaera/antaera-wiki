@@ -21,7 +21,7 @@
   /* Centred, and no wider than it needs to be. --wd-rw carries the width the
      table asked for in the source - 107 of them ask for 66.7% - and the
      fallback keeps undeclared rows from running the full width of the page. */
-  max-width: var(--wd-rw, 56rem);
+  max-width: var(--wd-rw, 52rem);
   margin: 1.2rem auto;
   grid-template-columns: 1fr;      /* stacked by default: phones first */
 }
@@ -56,8 +56,17 @@
   border: none;
 }
 
-/* Wide content inside a card scrolls itself rather than the page. */
-.wd-cell table { display: block; overflow-x: auto; }
+/* Wide content inside a card scrolls itself rather than running off the page.
+   Material already wraps tables in .md-typeset__scrollwrap; overriding the
+   table's own display broke that wrapper, so the 12-column saving-throw table
+   rendered 1136px wide on a 375px screen with no way to reach the far end.
+   Let the wrapper do its job and make sure it can shrink. */
+.wd-cell .md-typeset__scrollwrap {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.wd-cell .md-typeset__table { min-width: 0; }
 
 /* A cell holding only a table: keep its place in the row, drop the box, so a
    bordered table is not wrapped in a second border. */
@@ -134,8 +143,29 @@
    room they were designed for.
    --------------------------------------------------------------------------- */
 
+/* Wide enough for the nav plus a card column, and no wider, so the two sit
+   together as a pair in the middle of the screen instead of the nav being
+   pinned to the far edge with dead space between it and the content. */
 .md-grid {
-  max-width: 100rem;
+  max-width: 70rem;
+}
+
+/* The nav rides alongside the body: it stays put while the page scrolls, and
+   ends where the cards begin. Material already makes the sidebar sticky; this
+   pins it to the full height so it does not drift out of view on long pages. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    position: sticky;
+    top: 0;
+    /* Ends where the links end. A fixed 100vh drew the sidebar's full height
+       down the page past the last item. */
+    height: fit-content;
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-top: 1.2rem;
+  }
+
+  .md-sidebar--primary .md-sidebar__scrollwrap { height: auto; }
 }
 
 /* The right-hand table of contents duplicates what the page already shows and
@@ -202,4 +232,34 @@
   display: block;
   max-width: 220px;
   margin: 0 auto .6rem;
+}
+
+
+/* ---------------------------------------------------------------------------
+   Mobile
+   --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 60em) {
+  /* A sidebar on a phone is not beside anything: it is the next card in the
+     column. The smaller type only made sense as a signal of "aside from the
+     text you are reading", which stacking already conveys. */
+  .wd-cell.wd-aside {
+    font-size: 1em;
+  }
+
+  /* Media cells lose their box on desktop because they sit inside a card that
+     already has one. Stacked, they are the whole width and read as unfinished
+     without it. */
+  .wd-cell.wd-plain {
+    border: 1px solid var(--md-default-fg-color--light);
+    background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 85%, transparent);
+    padding: .7rem;
+  }
+
+  /* Tighter gutters: at 375px every pixel of reading width counts. */
+  .wd-cell { padding: .7rem .8rem; }
+  .wd-row { gap: .7rem; margin: .8rem auto; }
+
+  /* The flag images are signage, not illustration - smaller on a phone. */
+  .wd-flag--wip img { max-width: 160px; }
 }

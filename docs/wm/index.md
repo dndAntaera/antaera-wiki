@@ -15,7 +15,7 @@ search:
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Introduction
@@ -25,7 +25,7 @@ This campaign uses its own Spelljammer rules, as the published 5e Spelljammer ru
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Index

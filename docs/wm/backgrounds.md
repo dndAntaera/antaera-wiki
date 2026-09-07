@@ -15,7 +15,7 @@ Header Image
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Backgrounds
@@ -28,7 +28,7 @@ Certain backgrounds have specific effects:
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Antæran Regional Backgrounds
@@ -138,7 +138,7 @@ You gain proficiency in a secret language known only to others from this region.
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Extraplanar Backgrounds

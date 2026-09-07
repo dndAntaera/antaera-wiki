@@ -2,7 +2,7 @@
 title: "Sphere Inundatio"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Inundatio Sphere
@@ -19,7 +19,7 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -80,7 +80,7 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

@@ -11,7 +11,7 @@ wip: true
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Traveler's Note on the Known Spheres
@@ -26,7 +26,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Antæran Constellation
@@ -37,7 +37,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Inner Constellation
@@ -49,7 +49,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Outer Constellation
@@ -63,7 +63,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Derelict Spheres
@@ -73,7 +73,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Abyssal Realms

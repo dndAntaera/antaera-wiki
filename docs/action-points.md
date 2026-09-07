@@ -2,7 +2,7 @@
 title: "Action Points"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Action Points
@@ -21,7 +21,7 @@ An action point is roughly equivalent to a magic item worth 100 gp per character
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Acquiring Action Points
@@ -37,7 +37,7 @@ Most NPCs probably shouldn’t have action points, due to the added complexity t
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Using Action Points

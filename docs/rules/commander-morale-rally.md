@@ -11,7 +11,7 @@ title: "Commander Morale Rally"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Commanders
@@ -73,7 +73,7 @@ Pulling Rank: A commander can issue orders to soldiers of lower rank, and theyâ€
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Commander Auras
@@ -233,7 +233,7 @@ Your soldiers are more afraid of you than they are of the enemy.
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Morale Check
@@ -255,7 +255,7 @@ You can also take these rules beyond the battlefield if you wish, using them in 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Making Morale Checks
@@ -316,7 +316,7 @@ The following morale conditions are organized from highest morale to lowest mora
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Rally Check

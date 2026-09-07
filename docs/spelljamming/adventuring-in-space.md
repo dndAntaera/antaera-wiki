@@ -11,7 +11,7 @@ title: "Adventuring In Space"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Officer Positions
@@ -44,7 +44,7 @@ The crew is usually (but not always) non-player characters, brought along for th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Crew
@@ -139,7 +139,7 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Weapons
@@ -198,7 +198,7 @@ This is a common hooked polearm used in space, primarily for repelling boarders 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Other Spelljamming Equipment

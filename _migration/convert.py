@@ -220,7 +220,11 @@ def tables_to_layout(s):
                 # columns still stack on a phone.
                 props.append("--wd-cols: %s" % " ".join("%gfr" % w for w in widths))
             if table_w and table_w < 100:
-                props.append("--wd-rw: %g%%" % table_w)
+                # Resolved against Wikidot's own 1402px page rather than left
+                # as a percentage. A percentage is relative to whatever column
+                # it lands in, so the same table came out a different size here
+                # than it did there; the pixel width is what the reader saw.
+                props.append("--wd-rw: %dpx" % round(table_w / 100.0 * 1402))
             style = ' style="%s"' % "; ".join(props) if props else ""
             out.append('<div class="wd-row"%s markdown>' % style)
             for idx, (_, body) in enumerate(kept):

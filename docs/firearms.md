@@ -2,7 +2,7 @@
 title: "Firearms"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -25,7 +25,7 @@ Firearms remain at the forefront of experimental weaponry, their development clo
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Using Firearms
@@ -41,7 +41,7 @@ Firearms remain at the forefront of experimental weaponry, their development clo
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Blunderbuss
@@ -51,7 +51,7 @@ When fired, a blunderbuss does not require the user to make an attack roll. Rath
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Pistol
@@ -61,7 +61,7 @@ Pistols count as Hand Crossbows in terms of being affected by feats such as Hand
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Carbine
@@ -71,7 +71,7 @@ Carbines have a +2 bonus on attack rolls during mounted combat. In effect, you c
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Rifle
@@ -81,7 +81,7 @@ Rifles count as Heavy Crossbows in terms of being affected by feats such as Rapi
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Weapon Attachments
@@ -93,7 +93,7 @@ Rifles count as Heavy Crossbows in terms of being affected by feats such as Rapi
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Gunpowder Weapons

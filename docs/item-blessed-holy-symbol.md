@@ -2,7 +2,7 @@
 title: "Item Blessed Holy Symbol"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 **Price (Item Level)**: 2800 gp (5th level)
@@ -25,7 +25,7 @@ To use the relic's power, you must worship the deity tied to the relic and sacri
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Rituals

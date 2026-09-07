@@ -11,7 +11,7 @@ title: "Skills Feats"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Updated Player’s Handbook Skills
@@ -76,7 +76,7 @@ This skill allows a character to speak and read/write languages, including new l
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # New Skills
@@ -100,7 +100,7 @@ A Wildspace Survival check applies for the full day. Checks made to identify haz
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # New Feats

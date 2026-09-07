@@ -11,7 +11,7 @@ title: "Race Aasimar Tainted"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Tainted Aasimar
@@ -43,7 +43,7 @@ Normally, aasimar are a planetouched race of goodly folk, descended from celesti
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Tainted Aasimar Racial Traits

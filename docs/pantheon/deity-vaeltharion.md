@@ -2,7 +2,7 @@
 title: "Deity Vaeltharion"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Vaeltharion, Herald of Dust

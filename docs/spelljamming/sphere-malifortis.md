@@ -2,7 +2,7 @@
 title: "Sphere Malifortis"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Malifortis
@@ -19,7 +19,7 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -101,7 +101,7 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

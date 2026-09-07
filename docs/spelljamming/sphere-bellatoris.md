@@ -2,7 +2,7 @@
 title: "Sphere Bellatoris"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Bellatoris Sphere
@@ -19,7 +19,7 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -98,7 +98,7 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

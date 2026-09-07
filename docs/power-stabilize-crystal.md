@@ -2,7 +2,7 @@
 title: "Power Stabilize Crystal"
 ---
 
-<div class="wd-row" style="--wd-rw: 25%" markdown>
+<div class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell" markdown>
 
 ## Stabilize Crystal, psionic

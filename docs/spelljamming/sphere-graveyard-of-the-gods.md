@@ -2,7 +2,7 @@
 title: "Sphere Graveyard Of The Gods"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Graveyard of the Gods
@@ -19,7 +19,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -53,7 +53,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

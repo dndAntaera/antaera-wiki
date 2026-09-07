@@ -2,7 +2,7 @@
 title: "Gnomes"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Origin Story
@@ -26,7 +26,7 @@ Thus, the gnomes of Antæra, born from the breath of a divine crystal and shaped
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # General Culture

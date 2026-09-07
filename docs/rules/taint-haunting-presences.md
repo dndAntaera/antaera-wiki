@@ -2,7 +2,7 @@
 title: "Taint Haunting Presences"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -12,7 +12,7 @@ As a haunting presence, an undead is impossible to affect or even sense directly
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 **The Haunting**: Whenever an undead appears as a haunting presence, it haunts an unattended, mundane object or location. The DM, using the same decision-making process as for populating an area with a standard monster, chooses an unattended, mundane object or location as the subject of a haunting presence. The DM also determines the variety of undead (skeleton, zombie, wraith, or whatever) that serves as the source of the haunting presence. An undead can haunt a discrete object of at least Tiny size and no larger than Huge size. Items (both magical and mundane) currently in the possession of a character (often referred to as attended items) cannot be haunted. Unattended magic items receive a saving throw as if a spell were being cast upon the item (DC 10 + ½ the undead's HD + the undead's Cha modifier).

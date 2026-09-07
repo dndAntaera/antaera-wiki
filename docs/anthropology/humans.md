@@ -2,7 +2,7 @@
 title: "Humans"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Origin Story
@@ -20,7 +20,7 @@ Thus, the humans of Antæra, the children of Ukrol, continued to carve their des
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # General Culture
@@ -40,7 +40,7 @@ The human culture in Antaera, therefore, is not monolithic but rather a tapestry
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: Deepfolk
@@ -71,7 +71,7 @@ Apart from their religious devotion, the Deepfolk also have a strong inclination
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: Wanderkin

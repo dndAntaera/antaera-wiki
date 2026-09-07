@@ -2,7 +2,7 @@
 title: "Sphere Cineraexis"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Cineræxis
@@ -17,7 +17,7 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
@@ -85,7 +85,7 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Recognized Pantheon

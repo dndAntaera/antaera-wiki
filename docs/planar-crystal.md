@@ -2,7 +2,7 @@
 title: "Planar Crystal"
 ---
 
-<div class="wd-row" style="--wd-rw: 90%" markdown>
+<div class="wd-row" style="--wd-rw: 1262px" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -12,7 +12,7 @@ Both of these theories have truths in them: the crystals are indeed crystallized
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 90%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 1262px" markdown>
 <div class="wd-cell" markdown>
 
 # Variants
@@ -101,7 +101,7 @@ Astral crystals have hardness and hp based on their purity: least (hardness 8, 5
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 90%" markdown>
+<div class="wd-row" style="--wd-rw: 1262px" markdown>
 <div class="wd-cell" markdown>
 
 # Special Material Components
@@ -111,7 +111,7 @@ Crystals that are crushed into a fine powder produce an effect that, when used a
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 90%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 1262px" markdown>
 <div class="wd-cell" markdown>
 
 # Using Crystals

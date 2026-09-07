@@ -3,7 +3,7 @@ title: "The Pantheons"
 wip: true
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # On Divinity
@@ -30,7 +30,7 @@ During the beginning times, the Overdeities of each sphere in the Known Spheres 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Primal Pantheon
@@ -130,7 +130,7 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Mortal Pantheon
@@ -243,7 +243,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Courts of Faerie
@@ -361,7 +361,7 @@ Due to their unique source of divinity, these gods possess no ability to grant d
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Divine Flight
@@ -373,7 +373,7 @@ The existence of Dragonborn in Antæra, and thusly other descendants of dragons,
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Imperial Pantheon

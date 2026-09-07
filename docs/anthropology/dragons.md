@@ -12,7 +12,7 @@ wip: true
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -51,7 +51,7 @@ Dragonborn occupy a distinct position within this broader category. Rather than 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 **A Note On Dragonblooded Creatures**:
@@ -63,7 +63,7 @@ Due to the nature of the setting, any creature that is draconic in origin (or is
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Chromatic Dragon Flights
@@ -111,7 +111,7 @@ Fang dragons are brutal, hunt-driven chromatic dragons of mountains, badlands, a
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Metallic Dragon Flights
@@ -154,7 +154,7 @@ Orium dragons are lithe yet powerful dragons with feline features, long prehensi
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Gemstone Dragon Flights
@@ -168,7 +168,7 @@ Within the Divine Flight, gem dragons hold an intermediate place. Their progenit
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Ferrous Dragon Flights

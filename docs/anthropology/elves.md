@@ -2,7 +2,7 @@
 title: "Elves"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Origin Story
@@ -20,7 +20,7 @@ As they spread across Antæra, the elves continued to evolve, their physical tra
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # General Culture
@@ -46,7 +46,7 @@ Elven culture in Antæra revolves around the principles of interplanar harmony a
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Subculture: The Drow

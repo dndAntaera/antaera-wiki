@@ -11,7 +11,7 @@ title: "Astrology Planetology"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Traveling in Wildspace
@@ -40,7 +40,7 @@ Smart-alecks can bring the ship in on the gravity plane but facing the other dir
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Navigating in Wildspace
@@ -80,7 +80,7 @@ All planets are assumed to be at their average separation. Determine the distanc
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Movement in the Flow
@@ -94,7 +94,7 @@ Ships in the Flow slow down when they encounter other bodies, such as ships and 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Astrology & The Starcharts
@@ -132,7 +132,7 @@ The simple fact is that no one knows save perhaps the gods, and if they know, th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Laying Out the Planets
@@ -151,7 +151,7 @@ The DM can recreate the planetary positions every time the heroes venture into s
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Moving on the Starchart
@@ -168,7 +168,7 @@ A spelljammer is not required to stop if it enters the same space as a planet un
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Encounters and Evasion on the Starchart
@@ -204,7 +204,7 @@ Regardless of the method used to determine encounters, if an encounter is called
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Universe Building
@@ -229,7 +229,7 @@ The DM may create systems both for his own campaign and for those new systems th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Randomly Generated Systems
@@ -447,7 +447,7 @@ Roll 1d6 when setting up the system:
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Celestial Body Classification

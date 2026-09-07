@@ -11,7 +11,7 @@ wip: true
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # House of Fabrication
@@ -22,7 +22,7 @@ The House keeps everything in-company. The ore and the heat that feed the forges
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Origin Story
@@ -37,7 +37,7 @@ The House placed the natives into the Artisan Caste. The first order of business
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Caste System
@@ -54,7 +54,7 @@ In place of ownership, the House set the Life Debt, the cost of the materials th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Warforged Civil War

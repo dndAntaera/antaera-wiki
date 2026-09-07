@@ -2,7 +2,7 @@
 title: "Gestalt"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Gestalt Characters
@@ -12,7 +12,7 @@ The gestalt character variant is particularly effective if you have three or few
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Building A Gestalt Character
@@ -75,7 +75,7 @@ Unlike most gestalt characters, your hit points, Armor Class, base attack bonus,
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Balancing Gestalt Characters

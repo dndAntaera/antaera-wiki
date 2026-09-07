@@ -2,7 +2,7 @@
 title: "Taint Dread Effects"
 ---
 
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -10,7 +10,7 @@ The effects described in this section are similar to terrain features. While ter
 
 </div>
 </div>
-<div class="wd-row" style="--wd-rw: 66.7%" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 ## Abyssal Blackgrass

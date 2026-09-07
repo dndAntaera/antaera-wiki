@@ -118,3 +118,22 @@
   .wd-col,
   .wd-col--right { float: none; width: 100%; padding: 0; }
 }
+
+/* ---------------------------------------------------------------------------
+   Type scale.
+
+   Material sizes the whole theme in rem off a 125% root (20px), so scaling the
+   root scales body copy, headings, navigation and sidebars together instead of
+   leaving them at their old sizes while body text shrinks under them.
+
+   93.75% of a 16px browser default is 15px, which puts body copy - Material's
+   .8rem - at exactly 12px. A percentage rather than a px value so a reader who
+   has raised their browser's default font size still gets a larger site.
+
+   Note: "12pt" in CSS resolves to 16px, which is the size this moves away
+   from; 12px is meant here.
+   --------------------------------------------------------------------------- */
+
+:root {
+  font-size: 93.75%;
+}

@@ -4,7 +4,7 @@
 
 /* Slightly roomier prose for long lore entries */
 .md-typeset {
-  line-height: 1.72;
+  line-height: 1.5;
 }
 
 /* Infobox pattern: float a summary table right on wide screens */
@@ -126,8 +126,10 @@
    root scales body copy, headings, navigation and sidebars together instead of
    leaving them at their old sizes while body text shrinks under them.
 
-   78.125% of a 16px browser default is 12.5px, which puts body copy -
-   Material's .8rem - at exactly 10px. A percentage rather than a px value,
+   Sized to match the old Wikidot site, measured at 1920px: its reading text
+   was 14.43px (13.12px base, with 110% on its content cells) and its line
+   height 19.68px. 112.75% of a 16px default gives an 18.04px root, which
+   puts Material's .8rem body copy at 14.43px. A percentage rather than a px value,
    so a reader who has raised their browser's default font size still gets a
    correspondingly larger site.
 
@@ -136,5 +138,5 @@
    --------------------------------------------------------------------------- */
 
 :root {
-  font-size: 78.125%;
+  font-size: 112.75%;
 }

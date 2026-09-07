@@ -41,6 +41,7 @@ extra_css:
 
 hooks:
   - hooks/glossary.py
+  - hooks/flags.py
   - hooks/cachebust.py
 
 plugins:
@@ -83,7 +84,9 @@ markdown_extensions:
 nav:
   - Main Page: index.md
   - Character Creation: character-creation.md
-  - The Index: the-index.md
+  - The Index:
+      - the-index.md
+      - Archived Pages: archived.md
   - The Pantheons: pantheons.md
   - The Cosmology: cosmology.md
   - The Known Spheres: spelljamming/known-spheres.md
@@ -91,6 +94,4 @@ nav:
   - Taxonomies: taxonomy-main.md
   - Antæran Calendar: calendar.md
   - Spelljamming: spelljamming/main.md
-  # Quoted: the ": " inside the label would otherwise read as a YAML mapping.
-  - "Stellar Marches (5e: 2014)": wm/index.md
   - Glossary: glossary.md

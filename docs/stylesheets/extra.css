@@ -140,3 +140,71 @@
 :root {
   font-size: 112.75%;
 }
+
+/* ---------------------------------------------------------------------------
+   Page width.
+
+   Wikidot gave content 1402px at a 1600px viewport; Material caps .md-grid at
+   61rem and then spends 218px each on the nav and the table of contents,
+   leaving 621px. Two-column layouts were being squeezed into under half the
+   room they were designed for.
+   --------------------------------------------------------------------------- */
+
+.md-grid {
+  max-width: 100rem;
+}
+
+/* The right-hand table of contents duplicates what the page already shows and
+   costs a fifth of the width. Headings remain linkable by anchor.
+   !important because Material sets display on this element at its own
+   breakpoint, and that rule is otherwise the one that wins. */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* ---------------------------------------------------------------------------
+   Card weight.
+
+   The originals were a solid grey border on #F6F9F6 - each panel read as a
+   discrete box. At 12% and 4% opacity the structure of a page was invisible.
+   --------------------------------------------------------------------------- */
+
+.wd-cell {
+  border-color: var(--md-default-fg-color--light);
+  background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 85%, transparent);
+}
+
+/* Headings: Wikidot's were larger and normal weight, with a light rule under
+   them, rather than smaller and bold. */
+.wd-cell h1,
+.wd-cell h2 {
+  font-size: 1.15rem;
+  font-weight: 400;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+}
+
+/* ---------------------------------------------------------------------------
+   Page flags
+   --------------------------------------------------------------------------- */
+
+.wd-flag {
+  border: 1px solid var(--md-default-fg-color--light);
+  border-left-width: .25rem;
+  border-radius: .2rem;
+  padding: .8rem 1rem;
+  margin: 0 0 1.4rem;
+}
+
+.wd-flag > :first-child { margin-top: 0; }
+.wd-flag > :last-child { margin-bottom: 0; }
+
+.wd-flag--wip { border-left-color: #d9a406; }
+.wd-flag--archived { border-left-color: var(--md-default-fg-color--light); }
+
+/* The sign is a 1300px image; it is a marker, not an illustration. */
+.wd-flag--wip img {
+  display: block;
+  max-width: 220px;
+  margin: 0 auto .6rem;
+}

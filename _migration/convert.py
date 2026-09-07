@@ -28,7 +28,7 @@ SKIP = re.compile(
     r"^(admin_|chatter|nav[:_]|forum_|featured|talk_|inc_|template|glossary_|_"
     r"|wiki[:_]|snippet[:_]|system[:_]|legal[:_]|theme[:_]|search[:_])"
     r"|^(1234|amadeus-mozart|help|new-wiki-help|main_about|random|wiki|contact"
-    r"|about|donate)$"
+    r"|about|donate|spelljamming-sphere-template)$"
 )
 
 # Slug prefixes with enough pages to be worth a folder.
@@ -55,6 +55,11 @@ FOLDERS = {
 DROP_IMAGES = {
     "shared_under_construction.png",
 }
+
+# Sections retired from the live wiki. Pages under these folders are flagged
+# archived: kept and readable, but out of the glossary and out of search, so
+# they cannot be mistaken for current material.
+ARCHIVED_FOLDERS = {"wm"}
 
 TODO = []
 
@@ -451,6 +456,10 @@ def main(backup):
     imgs = json.load(open(os.path.join(ROOT, "_migration", "images.json"), encoding="utf-8"))
     img_by_url = {e["url"]: e["final"] for e in imgs}
 
+    # Resolved once so the wip flag can be derived from the page source.
+    wip_url = next((e["url"] for e in imgs
+                    if e["final"] == "shared_under_construction.png"), None)
+
     tables = {}
     for f in os.listdir(TABLES):
         if f.endswith(".md"):
@@ -507,10 +516,24 @@ def main(backup):
                 "<!-- GLOSSARY -->\n"
             )
 
-        out_abs = os.path.join(DOCS, target_path(slug))
+        rel = target_path(slug)
+
+        # Flags are derived from the source, not a hand-kept list: a page is
+        # work in progress if it carried the under-construction sign, and
+        # archived if it sits in a retired section.
+        meta = ['title: "' + title + '"']
+        if wip_url and wip_url in raw:
+            meta.append("wip: true")
+        if rel.split("/")[0] in ARCHIVED_FOLDERS:
+            meta.append("archived: true")
+            # Honoured natively by Material's search plugin.
+            meta.append("search:")
+            meta.append("  exclude: true")
+
+        out_abs = os.path.join(DOCS, rel)
         os.makedirs(os.path.dirname(out_abs), exist_ok=True)
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
-            fh.write('---\ntitle: "' + title + '"\n---\n\n' + body)
+            fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1
 
     print("pages written : %d  (skipped %d system pages)" % (written, len(slugs) - len(keep)))

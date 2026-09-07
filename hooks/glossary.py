@@ -14,10 +14,11 @@ Any page containing the GLOSSARY marker gets the index injected in its place.
 import re
 
 MARKER = "<!-- GLOSSARY -->"
+ARCHIVED_MARKER = "<!-- ARCHIVED-INDEX -->"
 
 # Pages that index everything should not index themselves, and the landing
 # page is navigation rather than an article.
-EXCLUDE = {"index.md", "glossary.md", "the-index.md"}
+EXCLUDE = {"index.md", "glossary.md", "the-index.md", "archived.md"}
 
 MAX_SUMMARY = 220
 
@@ -79,7 +80,15 @@ def _letter(title):
     return "#"
 
 
+def _is_archived(text):
+    """True when the page's front matter carries archived: true."""
+    head = text[:400]
+    return "\narchived: true" in head or head.startswith("archived: true")
+
+
 def on_page_markdown(markdown, page, config, files, **kwargs):
+    if ARCHIVED_MARKER in markdown:
+        return markdown.replace(ARCHIVED_MARKER, _archived_index(page, files))
     if MARKER not in markdown:
         return markdown
 
@@ -91,6 +100,9 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             with open(f.abs_src_path, encoding="utf-8") as fh:
                 text = fh.read()
         except OSError:
+            continue
+        # Archived pages are deliberately absent from the glossary.
+        if _is_archived(text):
             continue
         title = _read_title(text, f.src_uri.rsplit("/", 1)[-1][:-3])
         buckets.setdefault(_letter(title), []).append(
@@ -123,3 +135,36 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             parts.append("")
 
     return markdown.replace(MARKER, "\n".join(parts))
+
+
+def _archived_index(page, files):
+    """List the archived pages, grouped by the section they belong to."""
+    sections = {}
+    for f in files.documentation_pages():
+        if f.src_uri == page.file.src_uri:
+            continue
+        try:
+            with open(f.abs_src_path, encoding="utf-8") as fh:
+                text = fh.read()
+        except OSError:
+            continue
+        if not _is_archived(text):
+            continue
+        title = _read_title(text, f.src_uri.rsplit("/", 1)[-1][:-3])
+        folder = f.src_uri.split("/")[0] if "/" in f.src_uri else ""
+        sections.setdefault(folder, []).append((title, f.src_uri, _first_paragraph(text)))
+
+    if not sections:
+        return "*Nothing is archived.*"
+
+    labels = {"wm": "Stellar Marches (5e: 2014)"}
+    parts = []
+    for folder in sorted(sections):
+        parts += ["", "## " + labels.get(folder, folder or "Other"), ""]
+        for title, uri, summary in sorted(sections[folder], key=lambda e: e[0].lower()):
+            line = "**[%s](%s)**" % (title, uri)
+            if summary:
+                line += " — " + summary
+            parts.append(line)
+            parts.append("")
+    return "\n".join(parts)

@@ -399,3 +399,31 @@
     border-color: var(--wd-surface-edge);
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Primary colour.
+
+   Material's palette option only takes named colours, so the hex is set here
+   and the config asks for "custom". The lighter and darker variants are the
+   same hue - Material uses them for hover states and the header shadow, and
+   leaving them unset would fall back to the previous purple.
+   --------------------------------------------------------------------------- */
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color:        #bf00ff;
+  --md-primary-fg-color--light: #cd3dff;
+  --md-primary-fg-color--dark:  #8f00bf;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, .7);
+}
+
+/* The typeset accent (links, active nav item) tracks the header rather than
+   being left on the old hue. On parchment the lighter variant is too pale to
+   read, so the light scheme takes the darker one. */
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: #8f00bf;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #cd3dff;
+}

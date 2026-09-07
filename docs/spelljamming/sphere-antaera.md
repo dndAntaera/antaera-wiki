@@ -5,12 +5,6 @@ title: "Sphere Antaera"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Antæra Sphere
 
 For travelers used to chaos in the stars—planets on broken orbits, spheres full of ruin and madness—the Antæra Sphere comes as something else entirely. Familiar. Grounded. It doesn’t shout for your attention with bizarre magic or roaring suns. Instead, it feels like stepping outside on a cool morning and finding the world just as you left it. There’s a kind of peace here, like everything is moving at its own pace, in balance. Seasons come and go the way they should. The stars don’t change their minds. People live, die, build things, grow old. The sky doesn’t scream. Sailors call it the “breathing sphere,” not because it’s calm, but because it feels alive—and aware.

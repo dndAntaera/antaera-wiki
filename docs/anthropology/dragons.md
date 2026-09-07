@@ -174,5 +174,3 @@ Within the Divine Flight, gem dragons hold an intermediate place. Their progenit
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

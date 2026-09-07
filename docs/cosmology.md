@@ -46,5 +46,3 @@ However, this perception is misleading. The landscapes of the Outer Planes, whil
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

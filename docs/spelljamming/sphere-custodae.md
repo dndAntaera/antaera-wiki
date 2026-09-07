@@ -5,12 +5,6 @@ title: "Sphere Custodae"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Custodæ
 
 The Custode Sphere is a shattered, drifting monument to knowledge lost and guarded. At its center looms the fossilized skull of a dead Ancient Antæran god, vast beyond comprehension and studded with silent starmetal inlays. The rest of the sphere is composed of broken worlds—scattered debris fields filled with the ruins of fallen civilizations and the drifting remains of the god’s own skeleton. Ribcages, vertebrae, and splintered limbs hang in slow, solemn orbit among the wreckage.
@@ -94,5 +88,3 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

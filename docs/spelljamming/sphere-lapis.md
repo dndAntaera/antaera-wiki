@@ -5,12 +5,6 @@ title: "Sphere Lapis"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Lapis
 
 In the unlit vastness of the Lapis Sphere, wildspace is a hush of ancient weight. There is no sun, no day—only a cold gravity well at the sphere’s heart, drawing all matter into slow, solemn orbits. The only illumination comes from great bioluminescent beasts—leviathans of the deep void whose psionic pulses ripple across space, illuminating nothing but the thought of their presence. Crystalline tendrils drift like root systems through the dark, shedding spores that seed the vacuum with fungal life, forming drifting curtains of alien growth.

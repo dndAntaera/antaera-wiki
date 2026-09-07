@@ -79,5 +79,3 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

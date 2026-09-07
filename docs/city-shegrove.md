@@ -12,4 +12,3 @@ title: "City Shegrove"
 </div>
 
  _
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

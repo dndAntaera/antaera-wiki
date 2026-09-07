@@ -45,5 +45,3 @@ This campaign uses its own Spelljammer rules, as the published 5e Spelljammer ru
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

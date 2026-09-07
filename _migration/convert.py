@@ -42,6 +42,17 @@ FOLDERS = {
     "nation": "nation",
 }
 
+# Images kept in docs/img but not placed on any page. The file stays where it
+# is, so putting one back is a matter of referencing it again.
+#
+# The under-construction sign sat on 24 pages. It reached the import named
+# after the first page that used it, which is worth knowing: shared images take
+# the name of whichever page referenced them first, and that name is misleading
+# everywhere else.
+DROP_IMAGES = {
+    "shared_under_construction.png",
+}
+
 TODO = []
 
 
@@ -274,12 +285,21 @@ def convert(src, slug, img_by_url, tables, linkmap):
         fn = img_by_url.get(url)
         if not fn:
             return ""
+        if fn in DROP_IMAGES:
+            return ""
         stem = os.path.splitext(fn)[0]
         if stem in tables:
             return "\n\n" + tables[stem].strip() + "\n\n"
         return "![](" + BASE + "/img/" + fn + ")"
 
     s = re.sub(r"\[\[f?image\s+([^\s\]]+)[^\]]*\]\]", image, s, flags=re.I)
+
+    # Cells are built before images are resolved, so a cell whose only content
+    # was a dropped image is left as an empty box. Clear those, then any row
+    # left holding nothing.
+    s = re.sub(r'<div class="wd-cell[^"]*" markdown>\s*</div>\s*', "", s)
+    s = re.sub(r'<div class="wd-row"[^>]*markdown>\s*</div>\s*', "", s)
+
     s = unwrap_table_only_cards(s)
 
     # Links back to the old Wikidot site are internal links written the long

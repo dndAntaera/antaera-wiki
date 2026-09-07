@@ -5,12 +5,6 @@ title: "Sphere Aerivagus"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Aerivagus Sphere
 
 There are no true stillnesses in Aerivagus—only pauses in the wind. Travelers entering this sphere often feel their breath catch, not from awe, but from the eerie press of ceaseless motion. The very void seems alive here, restless and whispering, as if haunted by the sighs of long-dead titans. Wildspace gales brush along the hulls of spelljammers like ghostly fingers, and even seasoned sailors mutter prayers to strange gods before crossing. They say that those who die in Aerivagus do not rest—they drift, pulled endlessly by the currents, dreaming windswept dreams.

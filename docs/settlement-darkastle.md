@@ -120,5 +120,3 @@ Steeped in legends that are even older than the town, The Hollows are said to be
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

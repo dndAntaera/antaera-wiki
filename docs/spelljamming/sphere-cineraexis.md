@@ -5,12 +5,6 @@ title: "Sphere Cineraexis"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Cineræxis
 
 Cineræxis is a sphere where everything seems to burn, even the silence. Wildspace here isn’t cold—it shimmers with dry heat, like the whole place is holding its breath inside a forge. Ships crackle with static just crossing into the system, and seasoned crews go quiet as the pressure mounts. At the heart of it all is Sahr’kanaar, not a sun, but a stable manifest zone where the Elemental Plane of Fire presses into reality. It doesn’t roar or pulse—it just exists, constant and consuming, a wound that never heals.

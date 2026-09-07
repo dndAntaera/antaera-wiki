@@ -5,12 +5,6 @@ title: "Sphere Sidhe"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # The Sidhe Sphere
 
 The Sidhe Sphere feels less like a corner of the cosmos and more like something whispered into being. Wildspace here doesn’t stretch into emptiness—it sways, shimmers, glows. The void is full of drifting auroras, strands of golden pollen, and lights that flit about like shy spirits. Breathing here feels like drinking starlight. Time doesn’t pass—it meanders, circling back on itself like a song you almost remember. Spelljammers speak in hushed, wistful tones about their time here, often trailing off mid-sentence, as if part of them never really came back.

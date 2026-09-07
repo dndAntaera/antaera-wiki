@@ -5,12 +5,6 @@ title: "Sphere Inundatio"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Inundatio Sphere
 
 Travelers entering the Inundatio Sphere often describe an eerie kind of quiet—not the silence of death, but something more detached, more ambient. There’s a disorienting sense of stillness that creeps into the bones after just a few days. Things feel slow here: sound, movement, even the passage of time. Spelljammer crews swap stories about clocks running strange, or conversations that seem to echo in their heads long after they’re done. It’s not hostile, just unnerving in its consistency. Veteran sailors watch the stars more than the instruments, and many insist on rotating watches even during calm stretches, claiming the sphere has a way of making you drift—mentally and otherwise.

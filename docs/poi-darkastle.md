@@ -10,5 +10,3 @@ title: "Poi Darkastle"
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

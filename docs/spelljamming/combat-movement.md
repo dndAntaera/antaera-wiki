@@ -599,5 +599,3 @@ However, be warned. A ship that has struck its colors only to attack again is ge
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

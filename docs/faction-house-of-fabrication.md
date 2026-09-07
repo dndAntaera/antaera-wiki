@@ -76,5 +76,3 @@ The settlement also granted the Warforged a place of their own. The House ceded 
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

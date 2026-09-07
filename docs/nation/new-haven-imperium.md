@@ -10,5 +10,3 @@ This page is currently used for disambiguation, please see the [Imperial Capital
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

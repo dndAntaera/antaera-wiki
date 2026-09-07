@@ -5,12 +5,6 @@ title: "Sphere Graveyard Of The Gods"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Graveyard of the Gods
 
 The Graveyard of the Gods is a desolate, shattered shell of a once-glorious crystal sphere, cracked wide from a forgotten cataclysm said to have obliterated every living soul and even the gods themselves. Its wildspace is littered with fragments of sundered planets and the fossilized corpses of deities—some still clad in divine armor, others fused with celestial thrones or half-consumed by alien fungus. All illumination comes from the molten remnants of its former sun, now dimmed to a smoldering ember orbited by debris. Astrologers speak of a final battle among pantheons so vast that its echoes still warp gravity and divine magic within the sphere. It is avoided by most—but prized by the desperate and the damned.

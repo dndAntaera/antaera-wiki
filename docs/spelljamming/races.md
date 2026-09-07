@@ -5,12 +5,6 @@ title: "Races"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # Races of the Stars
 
 Many elves, dwarves, gnomes, halflings, and humans ply the spacelanes. Most player characters will come from these familiar races or specialized races (like kender and hengyokai) from one of the many worlds.
@@ -734,5 +728,3 @@ Insectare adventurers act in service to their race. They seek lost knowledge, ar
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

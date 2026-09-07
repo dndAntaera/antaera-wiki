@@ -390,4 +390,3 @@ This pantheon is worshipped solely by humans, though they are not picky as to wh
 </div>
 
 *[Depreciated](pantheon.md)*
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

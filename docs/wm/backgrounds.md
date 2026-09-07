@@ -206,5 +206,3 @@ Those who look into your eyes can see that you have an eternal tie to Law. Commo
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

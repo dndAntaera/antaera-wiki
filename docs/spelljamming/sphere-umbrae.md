@@ -5,12 +5,6 @@ title: "Sphere Umbrae"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-</div>
-</div>
-
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
 # The Umbræ Sphere
 
 Umbræ is a sphere steeped in gloom, shadow, and the slow, inevitable decay of light. It orbits around Umbra’thuun, a dark star that emits no illumination, shrouding the entire sphere in perpetual twilight and drawing all life toward adaptation or extinction. The very atmosphere within the sphere feels thin and chill, not for lack of warmth, but from the slow spiritual erosion caused by the ever-present negative energy. The boundaries between planes are weak here, particularly with the Plane of Shadow and the Negative Energy Plane, allowing strange echoes of thought and being to drift between worlds.

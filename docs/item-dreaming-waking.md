@@ -27,5 +27,3 @@ A thick, leather-bound tome written in an ancient elven script. Dates included i
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

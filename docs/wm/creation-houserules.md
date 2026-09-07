@@ -85,5 +85,3 @@ Spells that restore health points may target friendly undead, even if the spell 
 
 </div>
 </div>
-
-![](/antaera-wiki/img/anthropology_dragons_inline.png)

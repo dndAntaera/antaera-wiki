@@ -1,0 +1,656 @@
+[
+ {
+  "url": "https://i.imgur.com/WcAKC1r.jpg",
+  "page": "aberystwyth",
+  "caption": "Representation of the type of architecture found in the city, not an actual representation of the city itself. [*https://www.deviantart.com/flaviobolla/art/OSMADTH-Dun-Artorith-341990328 Credits]",
+  "final": "aberystwyth_architecture.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/XxFgFhu.jpg",
+  "page": "aberystwyth",
+  "caption": "Map of the city.",
+  "final": "aberystwyth_map.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/e1T8ipL.png",
+  "page": "action-points",
+  "caption": "",
+  "final": "action_points_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/gYJ8KdJ.jpg",
+  "page": "aesc-wood",
+  "caption": "Representation of the what the location may look like, not an actual depiction of the location. [*https://www.deviantart.com/renanrdgs/art/Fantasy-Forest-478372382 Credits]",
+  "final": "aesc_wood_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/ZUKwlho.jpg",
+  "page": "aesc-wood",
+  "caption": "Representation of the what the manifest zone may look like, not an actual depiction. [*https://www.deviantart.com/abyssal-explorer/art/Scenes-from-the-Elven-Lands-Glowing-portal-945176295 Credits]",
+  "final": "aesc_wood_inline.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/JdyteWX.jpg",
+  "page": "antaeran-plains",
+  "caption": "",
+  "final": "antaeran_plains_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/ki09I4f.png",
+  "page": "anthropology-dragons",
+  "caption": "A dragon addressing its dragonblooded kin.",
+  "final": "anthropology_dragons_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/FW9TFcB.png",
+  "page": "anthropology-dragons",
+  "caption": "",
+  "final": "anthropology_dragons_inline.png"
+ },
+ {
+  "url": "https://i.imgur.com/RtBh2uA.jpg",
+  "page": "athelney",
+  "caption": "Representation of the type of architecture found in the city, not an actual representation of the city itself. [*https://www.artstation.com/artwork/bagKBd Credits]",
+  "final": "athelney_architecture.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/DjFrbCh.jpg",
+  "page": "athelney",
+  "caption": "Map of the city.",
+  "final": "athelney_map.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/T5SfhIx.jpg",
+  "page": "city-hnaleah",
+  "caption": "Representation of the type of architecture found in the city and its surroundings, not an actual representation of the city itself.",
+  "final": "city_hnaleah_architecture.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/lx1jMiw.png",
+  "page": "city-hnaleah",
+  "caption": "Standard Righteous Legionairy foot soldier",
+  "final": "city_hnaleah_inline.png"
+ },
+ {
+  "url": "https://i.imgur.com/X3P04Dm.png",
+  "page": "city-hnaleah",
+  "caption": "Standard Righteous Legionairy cleric",
+  "final": "city_hnaleah_inline_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/30TyctF.jpg",
+  "page": "city-hnaleah",
+  "caption": "Map of the city.",
+  "final": "city_hnaleah_map.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/dNFDou6.jpg",
+  "page": "coastal-barrier-range",
+  "caption": "",
+  "final": "coastal_barrier_range_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/Z6E7MKD.png",
+  "page": "crystal-stabilization-fluid",
+  "caption": "Skill checks to create.",
+  "final": "crystal_stabilization_fluid_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/77FvoQd.png",
+  "page": "crystal-stabilization-fluid",
+  "caption": "Cost",
+  "final": "crystal_stabilization_fluid_table_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/91odZrP.png",
+  "page": "deity-cervidur",
+  "caption": "Cervidûr, Lord of the Hunt",
+  "final": "deity_cervidur_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/oYFWYW5.png",
+  "page": "deity-cervidur",
+  "caption": "Holy Symbol of Cervidûr",
+  "final": "deity_cervidur_heraldry.png"
+ },
+ {
+  "url": "https://i.imgur.com/89Kzet0.png",
+  "page": "deity-ukrol",
+  "caption": "Ukrol, Patron Deity of Humanity",
+  "final": "deity_ukrol_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/jhTrVa7.jpg",
+  "page": "deity-ukrol",
+  "caption": "Holy Symbol of Ukrol",
+  "final": "deity_ukrol_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/PlDzEds.png",
+  "page": "deity-vaylen",
+  "caption": "Vaylen, Patron of Sailors and Travelers",
+  "final": "deity_vaylen_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/GUkr2Ua.png",
+  "page": "deity-vaylen",
+  "caption": "Holy Symbol of Vaylen",
+  "final": "deity_vaylen_heraldry.png"
+ },
+ {
+  "url": "https://i.imgur.com/UNjxR8u.png",
+  "page": "events-crucible-of-valor",
+  "caption": "Gladiators competing in the Melee Mastery competition.",
+  "final": "events_crucible_of_valor_header.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/630d0f405142.png",
+  "page": "faction-house-of-fabrication",
+  "caption": "",
+  "final": "faction_house_of_fabrication_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/kWIQsir.png",
+  "page": "firearms",
+  "caption": "",
+  "final": "firearms_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/AOjIi2x.jpg",
+  "page": "imperial-capital-of-new-haven",
+  "caption": "Representation of the type of architecture found in the city and its surroundings, not an actual representation of the city itself.",
+  "final": "imperial_capital_of_new_haven_architecture.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/OMJjkRL.jpg",
+  "page": "imperial-capital-of-new-haven",
+  "caption": "Map of the city.",
+  "final": "imperial_capital_of_new_haven_map.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/ozNbapQ.jpg",
+  "page": "map-antaera",
+  "caption": "",
+  "final": "map_antaera_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/u6hx7rX.png",
+  "page": "orion",
+  "caption": "Orion, patron of Smallfolk",
+  "final": "orion_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/ICiXajm.jpg",
+  "page": "orion",
+  "caption": "Holy Symbol of Orion",
+  "final": "orion_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/j98Benp.jpg",
+  "page": "pantheon-mortal-leonis",
+  "caption": "Leonus Ironmane, the Stalwart Guardian",
+  "final": "pantheon_mortal_leonis_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/h8BZBU6.jpg",
+  "page": "pantheon-mortal-leonis",
+  "caption": "Holy Symbol of Leonus",
+  "final": "pantheon_mortal_leonis_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/HQPLGI7.jpg",
+  "page": "pantheon-mortal-lux",
+  "caption": "Lux Dawnbringer, the Luminous Sovereign",
+  "final": "pantheon_mortal_lux_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/lSq7Bx7.jpg",
+  "page": "pantheon-mortal-lux",
+  "caption": "Holy Symbol of Lux",
+  "final": "pantheon_mortal_lux_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/cJQ6CKf.png",
+  "page": "pantheon-mortal-mordac",
+  "caption": "Mordac, the Arbiter of Tyranny",
+  "final": "pantheon_mortal_mordac_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/torXAja.jpg",
+  "page": "pantheon-mortal-mordac",
+  "caption": "Holy Symbol of Mordac",
+  "final": "pantheon_mortal_mordac_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/o6FFDrd.jpg",
+  "page": "pantheon-mortal-selene",
+  "caption": "Selene, the Nightweaver",
+  "final": "pantheon_mortal_selene_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/yY0IIU5.jpg",
+  "page": "pantheon-mortal-selene",
+  "caption": "Holy Symbol of Selene",
+  "final": "pantheon_mortal_selene_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/6kB2Mfr.png",
+  "page": "pantheon-mortal-sol",
+  "caption": "Sol, the Eternal Equilibrium",
+  "final": "pantheon_mortal_sol_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/7HlcbLL.png",
+  "page": "pantheon-mortal-sol",
+  "caption": "Holy Symbol of Sol",
+  "final": "pantheon_mortal_sol_heraldry.png"
+ },
+ {
+  "url": "https://i.imgur.com/uU2zDLu.jpg",
+  "page": "pantheon-mortal-thrain",
+  "caption": "Thrain Stoneheart, the Tranquil Forgemaster",
+  "final": "pantheon_mortal_thrain_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/y3Tupdl.jpg",
+  "page": "pantheon-mortal-thrain",
+  "caption": "Holy Symbol of Thrain",
+  "final": "pantheon_mortal_thrain_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/5kbigkN.jpg",
+  "page": "pantheon-mortal-tome",
+  "caption": "Holy Symbol of Tome",
+  "final": "pantheon_mortal_tome_heraldry.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/Y2hMMIg.png",
+  "page": "pantheon-mortal-vortressa",
+  "caption": "Vortressa, the Mother of Monsters",
+  "final": "pantheon_mortal_vortressa_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/QnQp2wC.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Fire",
+  "final": "planar_crystal_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/OX3hZ9G.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Water",
+  "final": "planar_crystal_inline.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/2BuHFsu.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Air",
+  "final": "planar_crystal_inline_2.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/YnFJ4UG.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Earth",
+  "final": "planar_crystal_inline_3.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/N6GFJjx.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Negative",
+  "final": "planar_crystal_inline_4.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/vaYe3jp.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Positive",
+  "final": "planar_crystal_inline_5.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/7r1NBWC.jpg",
+  "page": "planar-crystal",
+  "caption": "Planar Crystal: Astral",
+  "final": "planar_crystal_inline_6.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/T4Q7Mpr.png",
+  "page": "planar-crystal",
+  "caption": "New skill uses",
+  "final": "planar_crystal_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/FKmDLWB.png",
+  "page": "planar-crystal",
+  "caption": "New skill synnergies",
+  "final": "planar_crystal_table_2.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/c2a458f270c6.png",
+  "page": "race-aasimar-tainted",
+  "caption": "The Shining City.",
+  "final": "race_aasimar_tainted_header.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/ce2d7b146ad7.png",
+  "page": "race-aasimar-tainted",
+  "caption": "A tainted aasimar male and female.",
+  "final": "race_aasimar_tainted_inline.png"
+ },
+ {
+  "url": "https://i.imgur.com/Va1D1I4.png",
+  "page": "region-of-dreams",
+  "caption": "",
+  "final": "region_of_dreams_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/WMCw9Aj.png",
+  "page": "region-of-dreams",
+  "caption": "",
+  "final": "region_of_dreams_table_2.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/a647965b8b16.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "A commander, having given a speech before battle, leads his heartened troops into battle.",
+  "final": "rules_commander_morale_rally_header.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/24f08ff5c390.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "Table: Commander Ratings",
+  "final": "rules_commander_morale_rally_table.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/9448c83bd0f4.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "Table: Sample Ranks",
+  "final": "rules_commander_morale_rally_table_2.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/23d003f1cfe9.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "Table: Morale Check Modifiers",
+  "final": "rules_commander_morale_rally_table_3.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/e388e9ed7168.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "Table: Crazed",
+  "final": "rules_commander_morale_rally_table_4.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/7c01de9a150a.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "Table: Rally Attempts",
+  "final": "rules_commander_morale_rally_table_5.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/3850ac70d917.png",
+  "page": "rules-commander-morale-rally",
+  "caption": "Table: Rally Check Modifiers",
+  "final": "rules_commander_morale_rally_table_6.png"
+ },
+ {
+  "url": "https://i.imgur.com/svPRfzZ.png",
+  "page": "rules-commissions",
+  "caption": "A blacksmith hammers away on a commission from an adventurer.",
+  "final": "rules_commissions_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/LzoPfYm.png",
+  "page": "rules-taint",
+  "caption": "A tainted forest located within a manifest zone connecting the Shadowlands to the Negative Energy Plane.",
+  "final": "rules_taint_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/b7zwS7l.png",
+  "page": "rules-taint",
+  "caption": "",
+  "final": "rules_taint_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/we6kZG0.png",
+  "page": "rules-taint",
+  "caption": "",
+  "final": "rules_taint_table_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/fyNgESj.png",
+  "page": "rules-taint",
+  "caption": "Table: Multiple Items",
+  "final": "rules_taint_table_3.png"
+ },
+ {
+  "url": "https://i.imgur.com/wzJt8CW.png",
+  "page": "rules-taint",
+  "caption": "Table: Taint-Absorbing Items",
+  "final": "rules_taint_table_4.png"
+ },
+ {
+  "url": "https://i.imgur.com/V7w8YLZ.png",
+  "page": "rules-taint",
+  "caption": "Table: Taint Threshold",
+  "final": "rules_taint_table_5.png"
+ },
+ {
+  "url": "https://i.imgur.com/BFiH7Vr.png",
+  "page": "rules-taint",
+  "caption": "Table: Tainted Reanimation",
+  "final": "rules_taint_table_6.png"
+ },
+ {
+  "url": "https://i.imgur.com/av63SVP.png",
+  "page": "rules-taint",
+  "caption": "",
+  "final": "rules_taint_table_7.png"
+ },
+ {
+  "url": "https://i.imgur.com/IEMMVz5.png",
+  "page": "rules-taint",
+  "caption": "",
+  "final": "rules_taint_table_8.png"
+ },
+ {
+  "url": "https://i.imgur.com/m6FF1Iw.jpg",
+  "page": "sea-of-innas",
+  "caption": "",
+  "final": "sea_of_innas_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/1z0WI57.png",
+  "page": "settlement-darkastle",
+  "caption": "Representation of the type of architecture found in the town and its surroundings, not an accurate representation of the town itself.",
+  "final": "settlement_darkastle_architecture.png"
+ },
+ {
+  "url": "https://i.imgur.com/Sx4FtOm.png",
+  "page": "settlement-darkastle",
+  "caption": "Typical militia member",
+  "final": "settlement_darkastle_inline.png"
+ },
+ {
+  "url": "https://i.imgur.com/K8oaFgU.png",
+  "page": "settlement-darkastle",
+  "caption": "Victim of the fog",
+  "final": "settlement_darkastle_inline_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/nt05XBO.jpg",
+  "page": "settlement-darkastle",
+  "caption": "Map of the city.",
+  "final": "settlement_darkastle_map.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/TMD0ZiK.png",
+  "page": "settlement-darkastle",
+  "caption": "The Dark Obelisk",
+  "final": "settlement_darkastle_inline_3.png"
+ },
+ {
+  "url": "https://i.imgur.com/iBa13Tq.png",
+  "page": "spelljamming-adventuring-in-space",
+  "caption": "A dwarf perusing weapons at a local market.",
+  "final": "spelljamming_adventuring_in_space_header.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/718416096d7a.png",
+  "page": "spelljamming-adventuring-in-space",
+  "caption": "",
+  "final": "spelljamming_adventuring_in_space_table.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/ab7978f2f1b8.png",
+  "page": "spelljamming-adventuring-in-space",
+  "caption": "",
+  "final": "spelljamming_adventuring_in_space_table_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/1lNaaQ8.png",
+  "page": "spelljamming-adventuring-in-space",
+  "caption": "",
+  "final": "spelljamming_adventuring_in_space_table_3.png"
+ },
+ {
+  "url": "https://i.imgur.com/jWXUbHD.png",
+  "page": "spelljamming-adventuring-in-space",
+  "caption": "",
+  "final": "spelljamming_adventuring_in_space_table_4.png"
+ },
+ {
+  "url": "https://i.imgur.com/D4Cv7SU.png",
+  "page": "spelljamming-arcane-space",
+  "caption": "",
+  "final": "spelljamming_arcane_space_header.png"
+ },
+ {
+  "url": "https://cdn.imgchest.com/files/19115c102df8.webp",
+  "page": "spelljamming-arcane-space",
+  "caption": "",
+  "final": "spelljamming_arcane_space_inline.webp"
+ },
+ {
+  "url": "https://i.imgur.com/n4JE18A.png",
+  "page": "spelljamming-arcane-space",
+  "caption": "",
+  "final": "spelljamming_arcane_space_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/KdJvsOR.png",
+  "page": "spelljamming-arcane-space",
+  "caption": "",
+  "final": "spelljamming_arcane_space_table_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/H9E7Ibt.png",
+  "page": "spelljamming-astrology-planetology",
+  "caption": "Planetologist taking notes about a newly discovered planet.",
+  "final": "spelljamming_astrology_planetology_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/ZXQBov1.png",
+  "page": "spelljamming-astrology-planetology",
+  "caption": "Table: Fire and Air Types",
+  "final": "spelljamming_astrology_planetology_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/jr6uyEV.png",
+  "page": "spelljamming-astrology-planetology",
+  "caption": "Table: Earth and Water Types",
+  "final": "spelljamming_astrology_planetology_table_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/f39lFNv.png",
+  "page": "spelljamming-astrology-planetology",
+  "caption": "Table: Shapes",
+  "final": "spelljamming_astrology_planetology_table_3.png"
+ },
+ {
+  "url": "https://i.imgur.com/vU676YW.png",
+  "page": "spelljamming-combat-movement",
+  "caption": "",
+  "final": "spelljamming_combat_movement_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/wInpKiB.png",
+  "page": "spelljamming-combat-movement",
+  "caption": "",
+  "final": "spelljamming_combat_movement_table_2.png"
+ },
+ {
+  "url": "https://i.imgur.com/TIcTT81.png",
+  "page": "spelljamming-combat-movement",
+  "caption": "",
+  "final": "spelljamming_combat_movement_table_3.png"
+ },
+ {
+  "url": "https://i.imgur.com/oqxlMnN.png",
+  "page": "spelljamming-combat-movement",
+  "caption": "",
+  "final": "spelljamming_combat_movement_table_4.png"
+ },
+ {
+  "url": "https://i.imgur.com/W6gYhct.png",
+  "page": "spelljamming-helms-hulls",
+  "caption": "Spelljammers docked up in a port on a water-based world.",
+  "final": "spelljamming_helms_hulls_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/SQqm2vp.png",
+  "page": "spelljamming-helms-hulls",
+  "caption": "Table: Item Saving Throws",
+  "final": "spelljamming_helms_hulls_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/cImCuDB.png",
+  "page": "spelljamming-magic",
+  "caption": "A wizard engaging a colossal golem on an asteroid.",
+  "final": "spelljamming_magic_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/IXmN2n6.png",
+  "page": "spelljamming-magic",
+  "caption": "",
+  "final": "spelljamming_magic_table.png"
+ },
+ {
+  "url": "https://i.imgur.com/yVEaaTx.png",
+  "page": "spelljamming-main",
+  "caption": "",
+  "final": "spelljamming_main_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/juswd58.jpg",
+  "page": "spelljamming-races",
+  "caption": "A typical Dracon.",
+  "final": "spelljamming_races_header.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/iiEyPB7.jpg",
+  "page": "spelljamming-races",
+  "caption": "A typical Giff.",
+  "final": "spelljamming_races_inline.jpg"
+ },
+ {
+  "url": "https://i.imgur.com/tbSlqd3.png",
+  "page": "spelljamming-skills-feats",
+  "caption": "A helmsman piloting his spelljammer through wildpace.",
+  "final": "spelljamming_skills_feats_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/MYZOfvb.png.png",
+  "page": "start",
+  "caption": "",
+  "final": "start_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/KNwz6tq.png",
+  "page": "wm-creation-houserules",
+  "caption": "An adventurer waking up after the crash landing of the colony ship...",
+  "final": "wm_creation_houserules_header.png"
+ },
+ {
+  "url": "https://i.imgur.com/6ORHVfz.png",
+  "page": "wm-index",
+  "caption": "A group of adventurers setting out into the world for the first time...",
+  "final": "wm_index_header.png"
+ }
+]

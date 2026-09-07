@@ -1,0 +1,5 @@
+---
+title: "Legal Template"
+---
+
+%%content%%

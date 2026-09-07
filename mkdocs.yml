@@ -1,14 +1,12 @@
 site_name: Antaera Wiki
 site_description: A reference wiki for the world of Antaera.
 site_url: https://dndantaera.github.io/antaera-wiki/
-repo_url: https://github.com/dndAntaera/antaera-wiki
 
 theme:
   name: material
   language: en
   icon:
     logo: material/book-open-page-variant
-    repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tracking

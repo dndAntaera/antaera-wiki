@@ -73,7 +73,7 @@ The Psiforged add a rich layer to the already vibrant tapestry of the Warforged.
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 # Subculture: Warforged Scouts
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)
@@ -81,7 +81,7 @@ The Psiforged add a rich layer to the already vibrant tapestry of the Warforged.
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 # Subculture: Warforged Juggernauts
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)
@@ -89,7 +89,7 @@ The Psiforged add a rich layer to the already vibrant tapestry of the Warforged.
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 # Subculture: Warforged Titans
 ![](/antaera-wiki/img/anthropology_dragons_inline.png)

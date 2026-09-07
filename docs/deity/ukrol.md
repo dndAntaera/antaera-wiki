@@ -2,7 +2,7 @@
 title: "Ukrol"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Ukrol, Patron Deity of Humanity
@@ -46,7 +46,7 @@ Temples dedicated to Ukrol can be found in human settlements across Antæra, ser
 Ukrol's teachings and ambitions put him at odds with deities who champion the cause of equality and oppose human dominance. He views these deities as threats to his divine mandate and seeks to undermine their influence at every turn.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/deity_ukrol_header.png)
 *Ukrol, Patron Deity of Humanity*

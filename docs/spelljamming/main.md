@@ -3,7 +3,7 @@ title: "Spelljamming"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_main_header.png)
 
@@ -22,16 +22,23 @@ Spelljamming in this setting is based on the 2e spelljammer setting, and is tran
 <div class="wd-cell" markdown>
 
 # Index
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 - 01: [Arcane Space](arcane-space.md)
 - 02: [Magic Use in Space](magic.md)
 - 03: [Races of the Stars](races.md)
 - 04: [Skills & Feats](skills-feats.md)
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 - 05: [Helms & Hulls](helms-hulls.md)
 - 06: [Combat & Movement](combat-movement.md)
 - 07: [Adventuring in Space](adventuring-in-space.md)
 - 08: [Astrology & Planetology](astrology-planetology.md)
+
+</div>
 
 </div>
 </div>

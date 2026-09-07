@@ -2,7 +2,7 @@
 title: "Cervidur"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Cervidûr, Lord of the Hunt
@@ -38,7 +38,7 @@ Cervidûr's clergy are often druids, rangers, and shamans who dwell in secluded 
 Cervidûr opposes deities who promote urbanization, industrialization, and the destruction of natural habitats. He stands as a protector of the balance and harmony of the natural world, challenging those who seek to exploit nature for profit or dominance.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/deity_cervidur_header.png)
 *Cervidûr, Lord of the Hunt*

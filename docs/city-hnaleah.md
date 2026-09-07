@@ -3,14 +3,14 @@ title: "City Hnaleah"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/city_hnaleah_architecture.jpg)
 *Representation of the type of architecture found in the city and its surroundings, not an actual representation of the city itself.*
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Overview
@@ -45,7 +45,7 @@ The government of Hnaleah, viewing its rule as a manifestation of divine will, t
 Hnaleah's government holds the belief that it is their sacred duty to liberate the world from those they deem heathens or non-believers. This conviction drives much of their foreign policy and their interactions with neighboring regions and states. The city's crusade to convert and guide is not limited to military conquests but also extends to diplomatic and cultural efforts. The government seeks to spread its religious doctrines through various means, viewing each conversion as a step towards fulfilling their perceived divine destiny. The government's protective yet intrusive nature, coupled with its vision of global religious dominion, paints a picture of a city at once resolute in its convictions and unyielding in its control. The citizens of Hnaleah, living under the watchful gaze of their rulers, navigate a society where devotion is both a way of life and a mandate from above, shaping their existence within the hallowed yet confining walls of the Holy City.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/city_hnaleah_inline.png)
 *Standard Righteous Legionairy foot soldier*
@@ -56,7 +56,7 @@ Hnaleah's government holds the belief that it is their sacred duty to liberate t
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/city_hnaleah_map.jpg)
 *Map of the city.*

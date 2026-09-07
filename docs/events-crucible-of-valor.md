@@ -3,7 +3,7 @@ title: "Events Crucible Of Valor"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/events_crucible_of_valor_header.png)
 *Gladiators competing in the Melee Mastery competition.*

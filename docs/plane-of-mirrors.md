@@ -39,7 +39,7 @@ The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, o
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Mirror Inhabitants
@@ -77,7 +77,7 @@ Nerras are contrary by nature, and they balance on a knife’s edge of different
 Sillits are the leaders of the nerras, but they rule through necessity more than for the sake of power. Individual varoots and kalareems can wield considerable power and even eclipse a sillit over time. Most, however, defer to the rule of the sillits with no qualms.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ## How to Get to the Plane of Mirrors
 *Those who try to walk through mirrors unaided get nothing but a bump on the forehead for their trouble. It takes a spell to access the Plane of Mirrors.*

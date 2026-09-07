@@ -3,7 +3,7 @@ title: "Antæra World Map"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/map_antaera_header.jpg)
 
@@ -12,7 +12,7 @@ title: "Antæra World Map"
 
 # **Legend**
 
-- Antæran Plains
+- [Antæran Plains](antaeran-plains.md)
 - Angheh Wastes
 - Broken Spire Isles
 - [Coastal Barrier Range](coastal-barrier-range.md)

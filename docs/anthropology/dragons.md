@@ -3,7 +3,7 @@ title: "Dragons"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/anthropology_dragons_header.png)
 *A dragon addressing its dragonblooded kin.*

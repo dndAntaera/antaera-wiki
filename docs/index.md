@@ -3,7 +3,7 @@ title: "Main Page"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/start_header.png)
 
@@ -37,7 +37,7 @@ In the end, the Legends of Antæra are not just tales of lands thawed and kingdo
 
 # Campaign: Scars Among the Stars
 
-[The Known Spheres](spelljamming/known-spheres.md) are full of new frontiers to the avid Spelljammer: foreign lands, [derelict crystal spheres](http://antaera.wikidot.com/spelljamming-known-spheres#:~:text=Derelict%20spheres), and enemies as old as time itself. Adventurers set out into wildspace to discover new lands and peoples, coming home with tales and riches. The Known Spheres are currently in an age of exploration and prosperity. This prolonged prosperity has caused a surge in the population count, and many of the spelljamming-aware spheres are experiencing an unprecedented amount of overpopulation. In an attempt to solve that problem, the government of the [Gallamarketh](spelljamming/sphere-gallamarketh.md) sphere — which is also known to be the center of all inter-sphere politics and diplomacy —  recently sent out a colony ship to discover and populate a derelict sphere and bring it into the fold of the Known Spheres. However, the ship and its crew met with an unfortunate fate after meeting Imperial spelljammers in transit, and crash-landed in an unknown derelict sphere. Their only directive is to survive and colonize. This sparked a multi-sphere holy war between the [New Haven Imperium](nation/new-haven-imperium.md) and the Known Spheres at large.
+[The Known Spheres](spelljamming/known-spheres.md) are full of new frontiers to the avid Spelljammer: foreign lands, [derelict crystal spheres](spelljamming/known-spheres.md), and enemies as old as time itself. Adventurers set out into wildspace to discover new lands and peoples, coming home with tales and riches. The Known Spheres are currently in an age of exploration and prosperity. This prolonged prosperity has caused a surge in the population count, and many of the spelljamming-aware spheres are experiencing an unprecedented amount of overpopulation. In an attempt to solve that problem, the government of the [Gallamarketh](spelljamming/sphere-gallamarketh.md) sphere — which is also known to be the center of all inter-sphere politics and diplomacy —  recently sent out a colony ship to discover and populate a derelict sphere and bring it into the fold of the Known Spheres. However, the ship and its crew met with an unfortunate fate after meeting Imperial spelljammers in transit, and crash-landed in an unknown derelict sphere. Their only directive is to survive and colonize. This sparked a multi-sphere holy war between the [New Haven Imperium](nation/new-haven-imperium.md) and the Known Spheres at large.
 
 The Imperium — originally a runaway experiment by the old Netherese Empire — colonized a region on the prime world of the Antæran crystal sphere. It has been discovered that the Imperium has successfully colonized a crystal sphere outside of the Known Spheres. Rumors spread of tyranny and slavery on the worlds of this sphere, as reported by turncoats and interrogators of captured Imperial soldiers. This nation-turned-conqueror began its crusade after a divine mandate by its god [Ukrol](deity/ukrol.md), who preaches the superiority of humans above all others. Among the atrocities committed by these xenophobic slavers, they have broken the prohibition on gunpowder firearms and have begun ramping up their research on them.
 

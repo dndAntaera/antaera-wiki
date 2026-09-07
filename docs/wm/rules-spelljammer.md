@@ -11,14 +11,14 @@ Header Image
 </div>
 </div>
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Title
 Body
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 Sidebar Body
 

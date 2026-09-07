@@ -12,7 +12,7 @@ Both of these theories have truths in them: the crystals are indeed crystallized
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Variants
@@ -68,7 +68,9 @@ These crystals thrum with psionic power, causing mental dissonance in any creatu
 Astral crystals have hardness and hp based on their purity: least (hardness 8, 5 hp), lesser (hardness 8, 10 hp), greater (hardness 8, 15 hp)
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ![](/antaera-wiki/img/planar_crystal_header.jpg)
 *Planar Crystal: Fire*
@@ -82,6 +84,10 @@ Astral crystals have hardness and hp based on their purity: least (hardness 8, 5
 ![](/antaera-wiki/img/planar_crystal_inline_3.jpg)
 *Planar Crystal: Earth*
 
+</div>
+
+<div class="wd-col wd-col~~right" style="~~wd-w: 50%" markdown>
+
 ![](/antaera-wiki/img/planar_crystal_inline_4.jpg)
 *Planar Crystal: Negative*
  _
@@ -90,6 +96,8 @@ Astral crystals have hardness and hp based on their purity: least (hardness 8, 5
  _
 ![](/antaera-wiki/img/planar_crystal_inline_6.jpg)
 *Planar Crystal: Astral*
+
+</div>
 
 </div>
 </div>
@@ -103,7 +111,7 @@ Crystals that are crushed into a fine powder produce an effect that, when used a
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Using Crystals
@@ -119,7 +127,7 @@ If a Planar Crystal sustains enough damage to destroy it, it destabilizes. When 
 Planar Crystals have a half-life based on their purity, with the least pure crystals having the shortest and greater having the longest. After the half-life expires, the effects of the crystals diminish and no longer affect creatures touching them. However, they must still be stabilized before they can be used for crafting. Half-lives are expressed in days based on the purity of the crystal: least (1d6+1 days), lesser (2d6+2 days), greater (3d6+3 days). Once a crystal's half-life has expired, merchants will be more willing to purchase them, though for a reduced cost (unless a fee is paid to stabilize them). If you correctly identity the size and purity of the crystal, you also determine the half-life of the crystal.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | Related Skill | Task | DC |
 |---|---|---|

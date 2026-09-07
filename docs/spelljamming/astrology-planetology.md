@@ -3,7 +3,7 @@ title: "Astrology Planetology"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_astrology_planetology_header.png)
 *Planetologist taking notes about a newly discovered planet.*
@@ -229,7 +229,7 @@ The DM may create systems both for his own campaign and for those new systems th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Randomly Generated Systems
@@ -315,6 +315,8 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 
 **Planet Size**
 
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 | d% | Size Category |
 |---|---|
 | 01–02 | Size A |
@@ -330,6 +332,10 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 
 *Table: Fire and Air Types*
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 | d% | Size Category |
 |---|---|
 | 01–05 | Size A |
@@ -342,6 +348,10 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 91–00 | Size H |
 
 *Table: Earth and Water Types*
+
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 | d% | Shape |
 |---|---|
@@ -356,6 +366,10 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 0 | Irregular |
 
 *Table: Shapes*
+
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
 
 ## Goodies (Optional)
 Goodies are moons, rings, strange atmosphere (or no atmosphere), and other unusual features that can flesh out a system's planets. Roll once for each planet.
@@ -398,7 +412,9 @@ When the planets being placed move out past the 200-million-mile mark, go to the
 The crystal shell of the system will always be as far from the outermost orbit as that orbit is from the primary body of the system. In cases of randomly moving planets, use the outermost planet’s setup location as its orbital distance.
 
 </div>
-<div class="wd-cell" markdown>
+
+</div>
+<div class="wd-cell wd-aside" markdown>
 
 ### Nonstandard Systems
 

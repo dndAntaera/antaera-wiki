@@ -3,7 +3,7 @@ title: "Helms Hulls"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_helms_hulls_header.png)
 *Spelljammers docked up in a port on a water-based world.*
@@ -150,6 +150,8 @@ Finally, a ship that resembles little more than a terrestrial galley or galleon 
 <div class="wd-cell" markdown>
 
 # Hull Types
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ### Barge
 
@@ -447,6 +449,10 @@ An ideal carrier for small numbers of adventurers in space, but as with the gall
 - **Cost** 4500 gp
 The pinnace is a small, two-masted sailing vessel. It’s sturdy enough to undertake long open-water voyages and handy enough to use close to shore. A pinnace is fully decked, but its sterncastle is hardly worthy of the name; it’s little more than a cramped cabin
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Rowboat
 
 - **Size** Large Vehicle
@@ -740,6 +746,8 @@ The stats presented here are for a typical sidewheeler. Which is itself an oxymo
 Also known as "the ship of the desperate," the gnomish sidewheeler represents the pinnacle of gnomish technology. Most intelligent creatures avoid these vessels like the plague. They operate with all manner of gizmos and devices. Price does not include gnomes needed to run things, or the giant hamsters that power the side wheels and wind the giant rubber band.
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
@@ -898,6 +906,8 @@ All ranges take into account the nature of wildspace and the Flow. Within normal
 
 Catapults can be loaded with stone shot instead of large rocks. Stone shot is most effective as an antipersonnel weapon and will not affect a ship. It inflicts the listed damage to every target within a 10-foot radius of the spot where it hits (make a separate attack roll against each target in the area). Catapults armed with stone shot can also function as jettisons.
 
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Light Catapult
 **Cost**: 500 gp
 **Range**: 5 hexes (2,500 ft)
@@ -914,6 +924,10 @@ Catapults can be loaded with stone shot instead of large rocks. Stone shot is mo
 **Rate of Fire**: 1/2
 **Critical**: -
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Heavy Catapult (Trebuchet)
 **Cost**: 1,000 gp
 **Range**: 3 hexes (1.500 ft)
@@ -922,6 +936,10 @@ Catapults can be loaded with stone shot instead of large rocks. Stone shot is mo
 **Rate of Fire**: 1/3
 **Critical**: -
 *Counts as two large weapons for installation.*
+
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
 
 ## Ballistas
 
@@ -936,6 +954,10 @@ Early versions of the sweepers used chains long and thin enough to capture a cou
 A gnomish sweeper affects all targets in a 10-foot square. It will continue on into the next 10-foot square away from the ship firing it unless it meets with large, unmovable objects, which cause it to drop to the deck. In addition, every target within the 10-foot square is forced to make a Dexterity check to remain standing, the same as if a Ship Shaken critical hit had occurred.
 
 The gnomish sweeper does not inflict any hull damage but can be used as a light ballista in a crunch, with the same requirements for crew and reload time (the weapon does not fire unless both bolts are loaded). The gnomish sweeper's use as a weapon can be argued by military sages, but it should be noted that after an initial outpouring that saw most gnomish ships carrying a sweeper, practically no new gnomish ships carry the weapons.
+
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ### Light Ballista
 **Cost**: 400 gp
@@ -952,6 +974,10 @@ Critical: -
 **Crew**: 2
 **Rate of Fire**: 1/3
 **Critical**: x2
+
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ### Heavy Ballista
 **Cost**: 800 gp
@@ -970,9 +996,17 @@ Critical: -
 **Rate of Fire**: 1/4
 **Critical**: -
 
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
+
 ## Rams
 
 The effects of ramming are covered in combat. They depend on the relative sizes of the ship doing the ramming and its target. There are several different types of rams, however.
+
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ### Piercing Ram
 **Cost**: 100 gp per ton of ship
@@ -982,9 +1016,17 @@ A piercing ram is a long, sharp prow used to break open and break apart an enemy
 **Cost**: 100 gp per ton of ship
 This is a flattened ram designed to inflict internal damage by shaking up the smaller ship. It can also break up other ships, but there is no chance the ships will become locked together after ramming.
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Grappling Ram
 **Cost**: 200 gp per ton of ship
 The grappling ram incorporates one or more movable arms that attach themselves to an opponent's ship after ramming, locking the ships together. Very useful during boarding situations. A grappling ram can also inflict damage on smaller ships.
+
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
 
 ## Bombards
 
@@ -1010,6 +1052,10 @@ Jettisons are mounted in place and cannot be moved. When fired, they hit a spot 
 
 Many spelljammers use catapults as temporary jettisons when they need to. Often jettisons are mounted at the rear of ships to deter pursuers. A jettison can be fired at an empty hex. This automatically sets up a field of debris in that hex (see Combat).
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Light Jettison
 **Cost**: 400 gp
 **Range**: 3 hexes (1,500 ft)
@@ -1028,6 +1074,10 @@ Many spelljammers use catapults as temporary jettisons when they need to. Often 
 **Radius**: 10 ft
 **Critical**: -
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Heavy Jettison
 **Cost**: 800 gp
 **Range**: 1 Hex (500 ft)
@@ -1037,6 +1087,10 @@ Many spelljammers use catapults as temporary jettisons when they need to. Often 
 **Radius**: 15 ft
 **Critical**: -
 *Counts as two weapons or one large weapon for installation.*
+
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
 
 ## Alchemical Fire Projectors
 
@@ -1063,6 +1117,8 @@ A turret is a rotating platform. Weapons mounted on turrets can be turned to fac
 Turrets can also provide partial protection for the crew. Protected turrets are available at double the initial cost and provide soft cover (+4 bonus to AC) to the crew manning that heavy weapon. Small weapons can be moved easily without a turret, but they can benefit from the cover a turret provides.
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
@@ -1076,6 +1132,8 @@ Such modifications are cumulative, though they can be self-defeating. A ship can
 
 All ships' hulls come with a standard Armor Rating (AR), determined by the ship's shape and construction. All ships also have a standard saving throw based on their construction: A ship made of heavy lumber saves as thick wood, while one carved from rock saves as stone. A hull's armor rating can be improved by increasing either the thickness of the hull or by plating the hull with other materials (usually metal). The options and costs are:
 
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Increased Thickness
 **Cost**: 100 gp per ton of ship
 Increasing the thickness of the hull improves the ship's AR by 1. However, this thickening also reduces available cargo space by 20%. If no cargo space is available, the ship may not utilize this method to increase its AR. An elven flitter, for example, cannot increase its hull thickness because it is only a one-ton ship; it has no cargo space to turn into a thickened hull. A ship can have its hull thickness increased only once.
@@ -1083,6 +1141,10 @@ Increasing the thickness of the hull improves the ship's AR by 1. However, this 
 ### Plating
 **Cost**: 300 gp per ton of ship
 Also called barding, plating a ship consists of covering it in metal plates or scales. This increases the AR of the ship by 1, but downgrades the maneuverability class (MC) of the ship. (A ship with a maneuverability class of B is downgraded to a C). A ship's maneuverability class cannot be reduced below F. Further, it is obvious to anyone looking at it that the ship is plated. Plating can only be performed once per ship. A plated ship still uses its original saving type—a ship made of thick wood still saves as thick wood, even if it has copper plating.
+
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ### Stronger Materials
 **Cost**: 5,000 gp per ton of ship
@@ -1095,6 +1157,10 @@ Ships with large, open decks are often covered with thick, twisted ropes bound i
 In addition, the presence of netting allows those personnel hit by catapult stones a Reflex saving throw (the DC is equal to the attack roll) to avoid the effect of being hit by such a weapon. The netting is destroyed once it is hit by a heavy catapult shot, or two medium catapult shots. Alchemical fire destroys the netting in two rounds. Light catapults, jettisons, and ballistas cause no damage to netting.
 
 In a boarding action, boarders must cut through the netting before they can attack the enemy crew. Netting can be cut the same as grappling lines; hemp netting has five hit points and can be burst with a DC 23 Strength check, silk netting has 10 hit points and can be burst with a DC 24 Strength check. Defenders under the netting can attack boarders above the netting with piercing weapons.
+
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
 
 ## Improving Maneuverability
 
@@ -1115,11 +1181,15 @@ Rigging can be added only once per ship. It can be used to offset the effect of 
 Removing nonessential weight can increase the MC of a ship by one rank as well, raising, for example, B to A. This results in dropping the armor rating by 2 points. A ship is considered the same base tonnage despite the loss, and the missing pieces are not obvious to the casual observer.
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Ammunition
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
 
 ### Smoke Powder
 **Cost**: Whatever the market will bear
@@ -1145,6 +1215,10 @@ Alchemist fire is sometimes called bannaple gas.
 **Damage**: As listed for ballista, as a spear in hand-to-hand combat
 A ballista bolt is a large arrow used in all the standard ballistas. A standard ballista bolt will fit a light, medium, or heavy ballista. The difference in damage is caused by the power of the ballista's mechanism.
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 ### Catapult Stones
 **Cost**: 3 sp
 **Weight**: 3-10 lbs
@@ -1165,6 +1239,8 @@ A bundle of stone shot or jettison shot can fit any catapult or jettison. Usuall
 **Type**: Bludgeoning
 **Damage**: As for bombard
 Two types of shot are used in bombards: large, round stones and cast iron "cannonballs." Using the latter increases the bombard's damage against a ship but not against crew members. (Stone shot often breaks up on impact, scattering sharp fragments, while iron is less likely to do so.) Bombards using iron shot have a +2 modifier to hit.
+
+</div>
 
 </div>
 </div>

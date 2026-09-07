@@ -3,7 +3,7 @@ title: "Taint"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/rules_taint_header.png)
 *A tainted forest located within a manifest zone connecting the Shadowlands to the Negative Energy Plane.*
@@ -42,7 +42,7 @@ A paladin who acquires moderate levels of taint loses all paladin spells and abi
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Becoming Tainted
@@ -73,7 +73,7 @@ Depending on the nature of the site, a tainted location can bestow either corrup
 Other environments, such as [Dread Effects](taint-dread-effects.md) and [Haunting Presences](taint-haunting-presences.md), may affect the amount of Taint in an area.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ## Detect Taint
 *Divination*
@@ -118,7 +118,7 @@ Each round, you can turn to detect things in a new area. The spell can penetrate
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Cleansing Taint
@@ -157,7 +157,7 @@ As the crystal absorbs taint, it darkens, becomes brittle, and gradually dissolv
 Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The item the crystal is being put into will determine which craft skill will be used.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | Items Possessed | Points Absorbed |
 |---|---|
@@ -186,7 +186,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Effects of Taint
@@ -213,7 +213,7 @@ As terrible as the effects of taint are upon the living, they are even worse upo
 To determine the exact nature of a character's physical or mental taint symptoms, roll 1d10 and look up the result on the accompanying Corruption Effects and Depravity Effects tables. If the character later gains more taint and crosses the threshold into a higher level (mild to moderate or moderate to severe), he gains the next symptom to the right on the table. For example, if Regdar's mild level of corruption is expressed as the mild physical symptom "feet curl," then if their corruption score rises to moderate, he will also manifest the symptom "joint pain."
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | Con/Wis Score | No Taint | Mild Taint | Moderate Taint | Severe Taint | Dead/Insane |
 |---|---|---|---|---|---|
@@ -241,7 +241,7 @@ To determine the exact nature of a character's physical or mental taint symptoms
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Physical Symptoms
@@ -287,7 +287,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 **Wrigglers**: Parasitic worms protrude from your sores, sapping your strength. Reduce your Strength score by 2. You gain a +2 bonus to Intimidate checks and take a -4 penalty on other Charisma-based checks.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 *Corruption Effects*
 
@@ -306,7 +306,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Mental Symptoms
@@ -349,7 +349,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Unresponsive**: Your senses are dulled and you lose the ability to discern the truth of the world around you. Reduce your Wisdom score by 2.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 *Depravity Effects*
 

@@ -106,7 +106,7 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
     - Alignment: Neutral Good
     - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
     - Symbol: Pickaxe crossed with a radiant crystal
-- [Vrog'thul](pantheon/deity-vrog-thul.md), Herald of Ooze
+- Vrog'thul, Herald of Ooze
     - Alignment: Chaotic Evil
     - Portfolio: Ooze, Corruption, Filth, Hunger
     - Symbol: A dribbling, open eye melting into slime
@@ -211,7 +211,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 
 ## Lesser Deities (The Patrons)
 
-- Sil’Faraan, Lord of the Wastes
+- [Sil’Faraan](silfaraan.md), Lord of the Wastes
     - Alignment: Neutral Evil
     - Portfolio: Deserts, drought, decay, endurance
     - Symbol: A cracked sun over a barren dune

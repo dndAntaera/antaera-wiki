@@ -2,7 +2,7 @@
 title: "Mortal Leonis"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Leonus Ironmane, the Stalwart Guardian
@@ -42,7 +42,7 @@ The clergy of Leonus consists of both warriors and druids who share a deep conne
 Leonus holds a particular disdain for deities who embody chaos and dishonor. His teachings position him in opposition to those who exploit the weak or seek to bring harm without just cause. Leonus actively opposes entities that threaten the balance of honor in the world.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/pantheon_mortal_leonis_header.jpg)
 *Leonus Ironmane, the Stalwart Guardian*

@@ -3,7 +3,7 @@ title: "Sea Of Innas"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/sea_of_innas_header.jpg)
 

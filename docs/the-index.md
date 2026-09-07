@@ -2,7 +2,7 @@
 title: "The Index"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # General Houserules & Clarifications
@@ -34,7 +34,7 @@ title: "The Index"
     - For example, the Arcane Talent (Ex) ability from Hobgoblin Warcaster & Warsoul does not grant the ability to cast or prepare spells, even though they say they cast spells as a 4th & 9th level wizard (respectively)
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 *<u>**Note from the DM**</u>: All rules are subject to change at the DM's discretion. If something is found to be too powerful, it will be banned/restricted/altered, and you will be asked to swap the content for something else. If players would like banned content added, they must talk to the DM about inclusion and give suggestions on their use and how they could be integrated into the world.*
 
@@ -48,6 +48,7 @@ title: "The Index"
 <div class="wd-cell" markdown>
 
 # Variant Rules In Effect
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 
@@ -61,6 +62,10 @@ title: "The Index"
 ## H
 ## I
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -73,6 +78,10 @@ title: "The Index"
 ## Q
 ## R
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## S
 ## T
 
@@ -83,6 +92,8 @@ title: "The Index"
 ## X
 ## Y
 ## Z
+
+</div>
 
 </div>
 </div>
@@ -285,6 +296,7 @@ White Raven Tactics: Cannot affect the user
 <div class="wd-cell" markdown>
 
 # Homebrew: Items
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 ## B
@@ -306,6 +318,10 @@ White Raven Tactics: Cannot affect the user
 - [Profane/Blessed (Un)Holy Symbol](item-blessed-holy-symbol.md)
 ## I
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -319,6 +335,10 @@ White Raven Tactics: Cannot affect the user
 ## Q
 ## R
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## S
 ## T
 ## U
@@ -329,11 +349,14 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Spells/Powers
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 ## B
@@ -345,6 +368,10 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -354,6 +381,10 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## S
 
@@ -368,11 +399,14 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Skills
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 ## B
@@ -384,6 +418,10 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -393,6 +431,10 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## S
 ## T
@@ -404,11 +446,14 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Bestiary
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 
@@ -424,6 +469,10 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -433,6 +482,10 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## S
 ## T
@@ -444,11 +497,14 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Homebrew: Miscellaneous
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 ## B
@@ -464,6 +520,10 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -473,6 +533,10 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## S
 ## T
@@ -484,11 +548,14 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+
+</div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Factions
+<div class="wd-col" style="--wd-w: 33%" markdown>
 
 ## A
 ## B
@@ -507,6 +574,10 @@ White Raven Tactics: Cannot affect the user
 
 - [Imperial Mercenary Corp](imperial-mercenary.md)
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## J
 ## K
 ## L
@@ -517,10 +588,14 @@ White Raven Tactics: Cannot affect the user
 ## Q
 ## R
 
+</div>
+
+<div class="wd-col" style="--wd-w: 33%" markdown>
+
 ## S
 ## T
 
-- Tæl’Mythaal Archivists
+- [Tæl’Mythaal Archivists](taelmythaal-archivists.md)
 - [Tamaas Trading Co.](tamaas-trading.md)
 - [Titan’s Fall PMC](titan-fall-pmc.md)
 ## U
@@ -529,6 +604,8 @@ White Raven Tactics: Cannot affect the user
 ## X
 ## Y
 ## Z
+
+</div>
 
 </div>
 </div>

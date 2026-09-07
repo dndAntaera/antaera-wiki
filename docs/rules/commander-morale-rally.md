@@ -3,7 +3,7 @@ title: "Commander Morale Rally"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/rules_commander_morale_rally_header.png)
 *A commander, having given a speech before battle, leads his heartened troops into battle.*
@@ -88,6 +88,8 @@ A character selects his first commander aura upon gaining rank 1 (corporal or th
 
 If a character’s commander rank is reduced, he may not replace his commander aura unless he no longer qualifies for the one he possesses (in which case he must immediately replace it with one for which he is qualified).
 
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 **Animal Commander**
 You are adept at using warbeasts to assault your foes—and bringing them back alive when the battle is done.
 <u>Prerequisite</u>: Commander rating 1, any neutral alignment, wild empathy class feature.
@@ -158,6 +160,10 @@ You are most effective when inspiring your soldiers to take the fight to the ene
 <u>Prerequisite</u>: Commander rating 3, any lawful alignment, base attack bonus +2 or higher.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on melee attack rolls.
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 **Mobile Commander**
 Your troops are exceptionally fleet of foot.
 <u>Prerequisite</u>: Commander rating 3, any chaotic alignment.
@@ -222,6 +228,8 @@ You are skilled at getting your troops to hold the line against the fiercest att
 Your soldiers are more afraid of you than they are of the enemy.
 <u>Prerequisite</u>: Commander rating 5, lawful evil alignment, Intimidate 5 ranks.
 <u>Benefit</u>: Allies within 30 feet of you gain a +5 morale bonus on morale checks but automatically become panicked if they fail a morale check.
+
+</div>
 
 </div>
 </div>
@@ -322,6 +330,8 @@ Use the Rally Attempts table (below) to determine the effectiveness of a rally a
 
 For example, troops that are panicked can be made frightened with a successful DC 20 rally check. Those same troops can then be made heartened in a later round with a DC 30 rally check.
 
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 | Initial Morale Condition | Frightened | Shaken | Normal | Heartened |
 |---|---|---|---|---|
 | Panicked | 20 | 25 | 30 | 40 |
@@ -333,6 +343,10 @@ For example, troops that are panicked can be made frightened with a successful D
 
 *Table: Rally Attempts*
 
+</div>
+
+<div class="wd-col" style="--wd-w: 50%" markdown>
+
 | Situation | Modifier |
 |---|---|
 | At least one failed rally check within last minute | −2 |
@@ -343,6 +357,10 @@ For example, troops that are panicked can be made frightened with a successful D
 
 *Table: Rally Check Modifiers*
 
+</div>
+
+<div class="wd-col" style="--wd-w: 100%" markdown>
+
 Rallying Against Other Fear Effects: Characters can make rally checks to rally creatures that are shaken, frightened, or panicked due to effects such as a dragon’s frightful presence or spells such as fear. Because this morale effect has a magical origin, it’s much more persistent than garden-variety fear of dying on the battlefield. Rally attempts against magical fear only last for 1 round (measured from the beginning of the shaken, frightened, or panicked character’s turn), so the leader must repeat the rally check every round to keep nearby comrades in the battle.
 
 The Prebattle Rally Check: Before the battle begins, the leader of a military unit can make a rally check to improve the troops’ morale condition. This is similar to a normal rally check but takes at least 1 minute to deliver. (The most stirring example of this is the “Band of Brothers” speech in Shakespeare’s Henry V.)
@@ -350,6 +368,8 @@ The Prebattle Rally Check: Before the battle begins, the leader of a military un
 This rally check affects everyone who can see and hear the leader. It cannot be retried, either by that leader or another character. In other words, a leader only gets one chance to inspire the troops with a speech. That’s why armies with charismatic generals try to get as many soldiers as possible to listen to a single speech.
 
 Armies with less compelling top brass rely on the exhortations of junior officers and sergeants to inspire the soldiers under their command. Characters can’t take 10 on this check.
+
+</div>
 
 </div>
 </div>

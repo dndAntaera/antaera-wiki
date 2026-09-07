@@ -2,7 +2,7 @@
 title: "Orion"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Orion, patron of Smallfolk
@@ -41,7 +41,7 @@ Orion's clergy are often smallfolk themselves, serving as guardians of knowledge
 Orion's primary rivalries are with deities who threaten the well-being and prosperity of the smallfolk. This includes gods of destruction and those who overlook or disdain the smaller races. He stands as a steadfast guardian against any forces that seek to disrupt the harmony and growth of his creations.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/orion_header.png)
 *Orion, patron of Smallfolk*

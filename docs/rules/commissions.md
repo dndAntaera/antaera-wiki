@@ -3,7 +3,7 @@ title: "Commissions"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/rules_commissions_header.png)
 *A blacksmith hammers away on a commission from an adventurer.*

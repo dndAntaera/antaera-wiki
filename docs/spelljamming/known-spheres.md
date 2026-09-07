@@ -54,7 +54,7 @@ The Abyssal Realms are derelict spheres that exist outside of the standard  chan
 # The Outer Constellation
 
 - [Sanctum Æternum](sphere-sanctum-aeternum.md)
-- Paxæterna
+- [Paxæterna](sphere-paxaeterna.md)
 - [Bellatoris](sphere-bellatoris.md)
 - [Custodæ](sphere-custodae.md)
 - [Gallamarketh](sphere-gallamarketh.md)

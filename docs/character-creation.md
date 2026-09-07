@@ -2,7 +2,7 @@
 title: "Character Creation"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # General Rules
@@ -31,7 +31,7 @@ title: "Character Creation"
 - Be sure to consult [The Index](the-index.md) for all houserules and homebrew used when making your character
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ***<u>Note from the DM</u>**: This campaign is a continuous WIP, meaning that <u>everything is subject to change at any time</u>. Core mechanics will be the same as standard, and I will try to keep any additions in line with how the core mechanics function. But remember that if something that gets introduced does not have a precedent, I will write something in for it.*
 
@@ -43,7 +43,7 @@ title: "Character Creation"
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Misc
@@ -75,7 +75,7 @@ Your background item must follow these criteria to be approved:
     - Exceptions may be made on a case by case basis
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 **Character Forum Post**
 *It is mentioned several times throughout the rules that players must include things in their character forum post. I am putting a quick synopsis of what needs to be in there for redundancy's sake.*

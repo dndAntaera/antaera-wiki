@@ -2,7 +2,7 @@
 title: "Mortal Thrain"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Thrain Stoneheart, the Tranquil Forgemaster
@@ -42,7 +42,7 @@ The clergy of Thrain consists of both skilled artisans and wise diplomats. Templ
 While Thrain seeks peaceful resolution, he holds an enduring disdain for deities who thrive on chaos and discord. His teachings position him in opposition to those who revel in war for its own sake, and he actively opposes those who seek to disrupt the delicate balance of peace.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/pantheon_mortal_thrain_header.jpg)
 *Thrain Stoneheart, the Tranquil Forgemaster*

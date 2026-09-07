@@ -2,8 +2,8 @@
 title: "Pantheon"
 ---
 
-<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-row" style="--wd-cols: 50fr 75fr" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 # The Primal Gods (Greater Deities)
 
@@ -123,7 +123,7 @@ All deities have access to the domains associated with their alignment, even if 
     - [Cavri](cavri.md), Queen of the Seelie Court
 - Lawful Neutral
     - [Ornus](ornus.md), Lord of Constructs
-    - Sil’Faraan, Lord of the Wastes
+    - [Sil’Faraan](silfaraan.md), Lord of the Wastes
 - True Neutral
     - [Enigma](enigma.md), the Lost God
 - Chaotic Neutral

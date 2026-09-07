@@ -2,8 +2,8 @@
 title: "The Cosmology"
 ---
 
-<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-row" style="--wd-cols: 50fr 75fr" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 # Transitive Planes
 
@@ -22,7 +22,7 @@ title: "The Cosmology"
 
 **Inner Planes** are distinct, isolated realms which exist outside of our immediate reality. Accessible through gates, spells, and magic portals, these planes are not directly connected to each other, maintaining their purity with only occasional overlaps of different elemental realms. The Ethereal Plane serves as the gateway to the Inner Planes, with spells tapping into the Ethereal Plane facilitating travel to these realms. Established portals often link to inhabited regions within the Inner Planes, where visitors from other realms are somewhat tolerated.
 
-Additionally, natural manifest zones form between similar locations across different planes, creating passages that allow effortless travel. For instance, the heart of a volcano on the Inferno Sands might house a manifest zone to the Elemental Plane of Fire. At the same time, a well of corruption within the Shadowlands may connect to a Tainted forest on the Prime. These manifest zones represent weak spots in reality, bridging the Inner Planes with the Material Plane.
+Additionally, natural manifest zones form between similar locations across different planes, creating passages that allow effortless travel. For instance, the heart of a volcano on the Inferno Sands might house a manifest zone to the Elemental Plane of Fire. At the same time, a well of corruption within the Shadowlands may connect to a [Tainted](rules/taint.md) forest on the Prime. These manifest zones represent weak spots in reality, bridging the Inner Planes with the Material Plane.
 
 **Outer Planes** embody the multiverse’s direction, intention, and thought. Often referred to as divine, spiritual, or godly planes by many sages, the Outer Planes are predominantly recognized as the homes of the gods. While gods may reside in various locations, they find their truest expression and power within the Outer Planes.
 

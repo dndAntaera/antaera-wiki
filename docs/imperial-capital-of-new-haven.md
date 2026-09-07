@@ -3,7 +3,7 @@ title: "Imperial Capital Of New Haven"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/imperial_capital_of_new_haven_architecture.jpg)
 *Representation of the type of architecture found in the city and its surroundings, not an actual representation of the city itself.*
@@ -135,7 +135,7 @@ The seat of power in the entire [Imperium](nation/new-haven-imperium.md), and th
     - Temple District
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/imperial_capital_of_new_haven_map.jpg)
 *Map of the city.*

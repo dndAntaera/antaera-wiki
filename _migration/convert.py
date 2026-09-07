@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -83,8 +84,16 @@ def norm_slug(target):
     Links are written either as a slug ("deity-ukrol") or as a page title
     ("Ethereal Plane"), and Wikidot resolves both to the same page. Matching
     only the literal slug turned every title-form link into plain text.
+
+    Accented letters transliterate rather than vanish - "Æsc Wood" is the page
+    "aesc-wood", not "sc-wood" - and apostrophes are dropped rather than
+    becoming a separator, so "Sil'Faraan" is "silfaraan".
     """
     t = target.strip().lstrip("/").lower()
+    t = t.replace("æ", "ae").replace("œ", "oe").replace("ß", "ss").replace("ø", "o")
+    t = unicodedata.normalize("NFKD", t)
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    t = re.sub(r"['‘’]", "", t)
     t = re.sub(r"[^a-z0-9]+", "-", t)
     return t.strip("-")
 
@@ -166,6 +175,17 @@ def tables_to_layout(s):
                 share = max((100.0 - known) / len(blanks), 5.0)
                 for i in blanks:
                     widths[i] = share
+            # A narrow column is a sidebar. Wikidot's proportions leave them
+            # too cramped to read at this theme's text size, so they get twice
+            # the share and a smaller font rather than one or the other.
+            classes = ["wd-cell"] * len(kept)
+            total = sum(w for w in widths if w) or 100.0
+            if len(kept) > 1:
+                for i, w in enumerate(widths):
+                    if w and (w / total) * 100 < 35:
+                        classes[i] = "wd-cell wd-aside"
+                        widths[i] = w * 2
+
             style = ""
             if len(kept) > 1 and all(w for w in widths):
                 # A custom property, not grid-template-columns directly: the
@@ -173,8 +193,8 @@ def tables_to_layout(s):
                 # columns still stack on a phone.
                 style = ' style="--wd-cols: %s"' % " ".join("%gfr" % w for w in widths)
             out.append('<div class="wd-row"%s markdown>' % style)
-            for _, body in kept:
-                out.append('<div class="wd-cell" markdown>')
+            for idx, (_, body) in enumerate(kept):
+                out.append('<div class="%s" markdown>' % classes[idx])
                 out.append("")
                 out.append(body.strip())
                 out.append("")
@@ -190,7 +210,7 @@ def tables_to_layout(s):
 
 
 def unwrap_table_only_cards(s):
-    """Strip the card box from a cell holding nothing but a table.
+    """Strip the card box from a cell holding nothing but a table or image.
 
     The rules tables were screenshots sitting inside a layout cell. Now that
     they are real Markdown tables, the card would draw a border around
@@ -204,9 +224,14 @@ def unwrap_table_only_cards(s):
         if "<div" in inner:
             return m.group(0)
         lines = [l for l in inner.split("\n") if l.strip()]
+        if not lines:
+            return m.group(0)
         table_lines = [l for l in lines if l.lstrip().startswith("|")]
-        # Allow one non-table line so a caption still counts as table-only.
-        if len(table_lines) < 2 or len(lines) - len(table_lines) > 1:
+        image_lines = [l for l in lines if l.lstrip().startswith("![](")]
+        # One spare line each way, so a caption still counts as media-only.
+        table_only = len(table_lines) >= 2 and len(lines) - len(table_lines) <= 1
+        image_only = len(image_lines) >= 1 and len(lines) - len(image_lines) <= 1
+        if not (table_only or image_only):
             return m.group(0)
         return m.group(0).replace('class="wd-cell"', 'class="wd-cell wd-plain"', 1)
 
@@ -257,6 +282,20 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"\[\[f?image\s+([^\s\]]+)[^\]]*\]\]", image, s, flags=re.I)
     s = unwrap_table_only_cards(s)
 
+    # Links back to the old Wikidot site are internal links written the long
+    # way. Left alone they send readers off this wiki and break entirely if
+    # that site is ever taken down, so resolve them like any other page
+    # reference by rewriting them into Wikidot's own link syntax first.
+    # The trailing group swallows any #fragment or ?query: those point at text
+    # anchors that do not survive the move, and leaving them made the bare-URL
+    # rule fire inside a link that was already bracketed.
+    self_url = (r"https?://(?:www\.)?(?:antaera|legendsofantaera)\.wikidot\.com/"
+                r"([A-Za-z0-9:_-]+)[^\s\]|]*")
+    s = re.sub(r"\[\[\[\s*" + self_url + r"\s*\|([^\]]+)\]\]\]", r"[[[\1|\2]]]", s)
+    s = re.sub(r"\[\[\[\s*" + self_url + r"\s*\]\]\]", r"[[[\1]]]", s)
+    s = re.sub(r"\[\*?" + self_url + r"\s+([^\]]+)\]", r"[[[\1|\2]]]", s)
+    s = re.sub(self_url, r"[[[\1]]]", s)
+
     # Hide URLs so the italic rule cannot eat the // in https://
     urls = []
 
@@ -266,7 +305,24 @@ def convert(src, slug, img_by_url, tables, linkmap):
 
     s = re.sub(r"https?://[^\s\)\]\"']+", hide, s)
 
-    s = re.sub(r"\[\[/?(?:size|span|div)[^\]]*\]\]", "", s, flags=re.I)
+    # [[div]] carried the column layouts inside cells - the three-across
+    # indexes on The Index are floated 33% divs. Stripping them, as this used
+    # to, collapsed those columns into one long list.
+    def divopen(m):
+        attrs = m.group(1) or ""
+        width = re.search(r"width:\s*([\d.]+\s*%)", attrs, re.I)
+        cls = ["wd-col"]
+        if re.search(r"float:\s*right", attrs, re.I):
+            cls.append("wd-col--right")
+        if re.search(r"border\s*:", attrs, re.I):
+            cls.append("wd-col--boxed")
+        style = ' style="--wd-w: %s"' % width.group(1).replace(" ", "") if width else ""
+        return '<div class="%s"%s markdown>\n' % (" ".join(cls), style)
+
+    s = re.sub(r"\[\[div([^\]]*)\]\]", divopen, s, flags=re.I)
+    s = re.sub(r"\[\[/div\]\]", "\n</div>\n", s, flags=re.I)
+    # size and span carried no layout, only presentation.
+    s = re.sub(r"\[\[/?(?:size|span)[^\]]*\]\]", "", s, flags=re.I)
     s = re.sub(r"\[\[note\]\](.*?)\[\[/note\]\]",
                lambda m: "!!! note\n" + "\n".join("    " + l for l in m.group(1).strip().split("\n")),
                s, flags=re.S | re.I)
@@ -341,7 +397,26 @@ def main(backup):
     src_dir = os.path.join(backup, "source")
     slugs = [f[:-4] for f in sorted(os.listdir(src_dir))]
     keep = [s for s in slugs if not SKIP.match(s)]
-    linkmap = {norm_slug(s): target_path(s) for s in keep}
+    # Link targets are matched by several names, most specific first, because
+    # Wikidot links reference pages by slug and by title interchangeably and
+    # often omit the category prefix a slug carries ("House of Fabrication"
+    # for the page "faction-house-of-fabrication").
+    linkmap = {}
+    for s in keep:
+        linkmap[norm_slug(s)] = target_path(s)
+    for s in keep:
+        raw = open(os.path.join(src_dir, s + ".txt"), "rb").read().decode("utf-8", "replace")
+        heading = re.search(r"^\+\s+(.+)$", raw, re.M)
+        names = []
+        if s in TITLES:
+            names.append(TITLES[s])
+        if heading:
+            names.append(re.sub(r"[*_`~\[\]]", "", heading.group(1)).strip())
+        m = re.match(r"^([a-z]+)[-_](.+)$", s)
+        if m:
+            names.append(m.group(2))
+        for n in names:
+            linkmap.setdefault(norm_slug(n), target_path(s))
 
     imgs = json.load(open(os.path.join(ROOT, "_migration", "images.json"), encoding="utf-8"))
     img_by_url = {e["url"]: e["final"] for e in imgs}

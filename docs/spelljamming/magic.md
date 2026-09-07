@@ -3,7 +3,7 @@ title: "Magic"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_magic_header.png)
 *A wizard engaging a colossal golem on an asteroid.*
@@ -128,7 +128,7 @@ A major helm converts magical ability to energy at a rate of 1 per 2 levels. Rou
 
 A minor helm converts magical ability to energy at a rate of 1 per 3 levels. Round fractions down (SR = level/3, rounded down). Therefore, a 1st, 2nd, or 3rd-level wizard provides a spelljamming rating of 1, while a 20th-level cleric provides one of 7. Ships often maintain a minor helm as a backup system, and some ships even use minor helms as relatively inexpensive primary systems.
 
-Another magical item that can provide spelljammer power is the Crown of the Stars. This device is worn over the head and creates a spelljamming rating as a minor helm (SR = level/3, rounded down). It has the advantage of portability and allows the spelljammer to move about while using it.
+Another magical item that can provide spelljammer power is the [Crown of the Stars](helms-hulls.md). This device is worn over the head and creates a spelljamming rating as a minor helm (SR = level/3, rounded down). It has the advantage of portability and allows the spelljammer to move about while using it.
 
 Both major and minor helms require "fresh" and well-rested spellcasters to function at their best. A spellcaster that has cast any of his possible complement of spells before activating a spelljammer helm loses one spelljamming rating for each spell cast (minimum SR of 1).
 

@@ -82,3 +82,39 @@
   background: none;
   padding: 0;
 }
+
+/* Sidebar cells: Wikidot's proportions are too cramped at this text size, so
+   a narrow column gets twice the share (set in the converter) and a smaller
+   font to keep the line length readable. */
+.wd-cell.wd-aside {
+  font-size: .72rem;
+  line-height: 1.6;
+}
+
+/* Column layouts that lived inside a cell - [[div style="float:left; width:33%"]].
+   Floats reproduce the original behaviour; they collapse to full width on a
+   phone, where three columns of index would be unreadable. */
+.wd-col {
+  float: left;
+  width: var(--wd-w, 100%);
+  box-sizing: border-box;
+  padding-right: 1.2rem;
+}
+
+.wd-col--right { float: right; padding-right: 0; padding-left: 1.2rem; }
+
+.wd-col--boxed {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .2rem;
+  padding: .8rem 1rem;
+  margin: 0 0 1rem;
+}
+
+/* Floated columns must not escape the card that holds them. */
+.wd-cell::after,
+.wd-row::after { content: ""; display: block; clear: both; }
+
+@media screen and (max-width: 60em) {
+  .wd-col,
+  .wd-col--right { float: none; width: 100%; padding: 0; }
+}

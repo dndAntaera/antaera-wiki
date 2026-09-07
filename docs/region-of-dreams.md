@@ -2,7 +2,7 @@
 title: "Region Of Dreams"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Description
@@ -27,7 +27,7 @@ The many dreamscapes created by dreamers last but a short time, and they rarely 
 - *Planar Relations* - Remote: the only way to reach the Region of Dreams from anywhere is through the psychic projection of dreaming and the Dream Travel spell
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ## Dream Travel
 *Transmutation*
@@ -51,7 +51,7 @@ Any creatures touched by you when dream travel is cast also makes the transition
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Hypnagogian Haze
@@ -60,7 +60,7 @@ Just as one would experience a haze over their consciousness when dreaming, visi
 This Haze is what scholars believe to be the source of the hypnagogia and hypnopompia one experiences when going to sleep and waking up. No one truly knows whether the Haze is created by the plane itself, or if the plane is made from the Haze, as neither can be fully studied without being exposed to the Haze. The only scholars to have studied the Haze to any real extent have gone missing and are reported to have succumbed to the strange effects of the Dreaming.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ## Dreamtouched Subtype
 Once a creature has 5 ranks in the Lucid Dreaming skill, they gain the Dreamtouched subtype if they did not already have it.
@@ -158,14 +158,14 @@ Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Spells in the Dreamscape
 Due to the unpredictable nature of nightmare realms and dreams, any spells or spell-like abilities used therein might not work normally. The more complex the spell, the greater the chance it will go wrong. Each time a character casts a spell, roll 1d20+the spell level. If the result is 21 or over, the spell is twisted by the mutable nature of the nightmare realm. Roll 1d20 again and consult the following table to determine the impact on the spell.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | d20 | Result |
 |---|---|
@@ -181,7 +181,7 @@ Due to the unpredictable nature of nightmare realms and dreams, any spells or sp
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # New Skill: Lucid Dreaming (Wis; Trained Only)
@@ -198,7 +198,7 @@ Use this skill to realize that you are dreaming, consciously direct elements of 
 **Retry**: You can make a Lucid Dreaming check once per round.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | Task | DC |
 |---|---|

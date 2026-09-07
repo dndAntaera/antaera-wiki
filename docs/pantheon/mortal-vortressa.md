@@ -2,7 +2,7 @@
 title: "Mortal Vortressa"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # **Name:** Vortressa, the Mother of Monsters
@@ -41,7 +41,7 @@ The clergy of Vortressa includes evil druids, warlocks, and those who seek to ha
 Vortressa opposes deities associated with pristine nature, purity, and the untouched Feywild. Her influence seeks to transform and corrupt the natural order, making her a foe to those who stand for the untainted beauty of the world.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/pantheon_mortal_vortressa_header.png)
 *Vortressa, the Mother of Monsters*

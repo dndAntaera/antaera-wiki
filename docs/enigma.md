@@ -2,7 +2,7 @@
 title: "Enigma"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Enigma, the Lost God
@@ -38,7 +38,7 @@ Intrigued and awed by his enigmatic nature, many revere Enigma in the hopes that
 Enigma's gifts range from spells of protection to relics of legendary power. Mortals may receive temporary blessings such as the "Bless" spell, granting them increased fortune and favor for a limited time. Others may be chosen to wield long-lost and fabled weapons of immense might, relics that have been missing from history for eons.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 *Enigma, the Lost God*
 

@@ -2,7 +2,7 @@
 title: "Mortal Tome"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Tome, Keeper of the Celestial Library
@@ -44,7 +44,7 @@ The clergy of Tome consists of scholars, sages, and librarians who dedicate thei
 Tome's mysterious origin has led to speculation and intrigue among other deities. Some view the celestial being suspiciously, wondering if their enigmatic nature hides darker motives. Despite this, Tome remains neutral, offering knowledge to those who seek it without favoritism.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/pantheon_mortal_tome_heraldry.jpg)
 *Holy Symbol of Tome*

@@ -3,7 +3,7 @@ title: "Faction House Of Fabrication"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/faction_house_of_fabrication_header.png)
 

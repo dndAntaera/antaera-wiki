@@ -3,7 +3,7 @@ title: "Athelney"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/athelney_architecture.jpg)
 *Representation of the type of architecture found in the city, not an actual representation of the city itself. [Credits](https://www.artstation.com/artwork/bagKBd)*
@@ -101,7 +101,7 @@ The South Gate is the impromptu agricultural district of the town, as the farms 
     - Shops
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/athelney_map.jpg)
 *Map of the city.*

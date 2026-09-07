@@ -3,7 +3,7 @@ title: "Adventuring In Space"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_adventuring_in_space_header.png)
 *A dwarf perusing weapons at a local market.*

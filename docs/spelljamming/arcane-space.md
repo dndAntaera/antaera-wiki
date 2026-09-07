@@ -3,7 +3,7 @@ title: "Arcane Space"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_arcane_space_header.png)
 
@@ -122,7 +122,7 @@ Weightless conditions apply to both wildspace and the phlogiston with no differe
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_arcane_space_inline.webp)
 
@@ -178,7 +178,7 @@ And when we do, we’ll probably start the sages arguing all over again."
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # The Phlogiston
@@ -200,7 +200,7 @@ Voyagers can move along the rivers of phlogiston at random or according to a pla
 The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling, enormous corks, but they do bob). As a result, over time, the spheres actually shift their positions relative to each other. This almost never changes the courses of the rivers, however, so navigation is possible. Just because a ship passed certain landmarks on its way from A to B does not mean the ship will pass those same landmarks on its way back to A from B. Fortunately, when crystal shells drift too close, the phlogiston between them thickens to the point where the two massive spheres are moved apart, preventing a collision.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | Type of Flame | Damage | Range (radius) |
 |---|---|---|
@@ -215,7 +215,7 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 50fr" markdown>
 <div class="wd-cell" markdown>
 
 # Castaways in the Flow
@@ -231,7 +231,7 @@ Most of the ships of space follow a "Code of the Deep," where lost bodies are re
 Merchants and pirates will offer the lost individual passage in exchange for work, with the pirates tossing those unwilling to serve back into the deep. The elves and dwarves will rescue humans but keep them under watch until landfall is made. Scavengers will loot whatever is available on the body and toss it back into the flow, where it will float for another random number of weeks, determined by the "1d10+" process described earlier.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 | D10 | Rescuers |
 |---|---|

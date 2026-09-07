@@ -3,7 +3,7 @@ title: "Antaeran Plains"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/antaeran_plains_header.jpg)
 
@@ -13,7 +13,7 @@ title: "Antaeran Plains"
 # **Legend**
 
 - Geographical Locations
-    - Æsc Wood
+    - [Æsc Wood](aesc-wood.md)
     - Ætheric Lake
     - Blackwater Lake
     - Cobalt River

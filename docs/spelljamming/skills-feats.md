@@ -3,7 +3,7 @@ title: "Skills Feats"
 ---
 
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_skills_feats_header.png)
 *A helmsman piloting his spelljammer through wildpace.*

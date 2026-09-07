@@ -312,3 +312,90 @@
 
   .md-sidebar--primary .md-nav__title { padding-top: 0; }
 }
+
+/* ---------------------------------------------------------------------------
+   Card surface: parchment by day, slate by night.
+
+   Defined as tokens rather than on each rule, so the cards, the page flags and
+   the navigation panel all take the same surface and only have to be changed
+   in one place. Material sets data-md-color-scheme on <body>, so both schemes
+   are declared explicitly rather than leaning on prefers-color-scheme - the
+   theme's own toggle has to win.
+   --------------------------------------------------------------------------- */
+
+[data-md-color-scheme="default"] {
+  --wd-surface: #f7f0dd;
+  --wd-surface-edge: #cfc0a0;
+  --wd-surface-ink: #33291b;
+  --wd-surface-rule: #ded0b2;
+  /* Very low-contrast warmth across the sheet, so it reads as paper rather
+     than a flat beige panel. */
+  --wd-surface-grain:
+    radial-gradient(ellipse at 15% 12%, rgba(196, 172, 122, .18), transparent 55%),
+    radial-gradient(ellipse at 85% 78%, rgba(176, 150, 100, .14), transparent 60%);
+}
+
+[data-md-color-scheme="slate"] {
+  --wd-surface: #262b34;
+  --wd-surface-edge: #3c4453;
+  --wd-surface-ink: inherit;
+  --wd-surface-rule: #3c4453;
+  --wd-surface-grain:
+    radial-gradient(ellipse at 15% 12%, rgba(255, 255, 255, .022), transparent 55%),
+    radial-gradient(ellipse at 85% 78%, rgba(0, 0, 0, .10), transparent 60%);
+}
+
+.wd-cell {
+  background-color: var(--wd-surface);
+  background-image: var(--wd-surface-grain);
+  border-color: var(--wd-surface-edge);
+  color: var(--wd-surface-ink);
+}
+
+/* A media cell has no box, so it must not carry the surface either. */
+.wd-cell.wd-plain {
+  background-color: transparent;
+  background-image: none;
+  color: inherit;
+}
+
+.wd-cell h1 { border-bottom-color: var(--wd-surface-rule); }
+
+/* Tables sit on the same sheet; the default striping fights parchment. */
+.wd-cell .md-typeset table:not([class]) {
+  background-color: transparent;
+  border-color: var(--wd-surface-edge);
+}
+
+.wd-cell .md-typeset table:not([class]) th {
+  background-color: color-mix(in srgb, var(--wd-surface-edge) 30%, transparent);
+  color: var(--wd-surface-ink);
+}
+
+.wd-flag {
+  background-color: var(--wd-surface);
+  background-image: var(--wd-surface-grain);
+  border-color: var(--wd-surface-edge);
+  color: var(--wd-surface-ink);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-nav--primary {
+    background-color: var(--wd-surface);
+    background-image: var(--wd-surface-grain);
+    border-color: var(--wd-surface-edge);
+  }
+
+  [data-md-color-scheme="default"] .md-sidebar--primary .md-nav__link {
+    color: var(--wd-surface-ink);
+  }
+}
+
+/* On a phone the stacked media cells get a box back, so they need the sheet. */
+@media screen and (max-width: 60em) {
+  .wd-cell.wd-plain {
+    background-color: var(--wd-surface);
+    background-image: var(--wd-surface-grain);
+    border-color: var(--wd-surface-edge);
+  }
+}

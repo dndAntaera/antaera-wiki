@@ -27,12 +27,12 @@ title: "Coastal Barrier Range"
     - Ael'Telfaar
     - Aes'Dorei
     - Aes'Shan
-    - [Darkastle](settlement-darkastle.md)
+    - [Darkastle](../settlement/darkastle.md)
     - Penrith
     - Port City of Tammas
     - Shipton
 - Points of Interest
-    - [Darkastle](poi-darkastle.md)
+    - [Darkastle](../poi-darkastle.md)
     - Temple to Trelanni
     - To'Caal
     - To'Ilaan

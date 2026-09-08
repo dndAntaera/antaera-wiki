@@ -326,7 +326,7 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Prerequisite**: Native to a tainted plane
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Intimidate
 **Type**: Extraplanar
-**Benefit**: You gain the [Pure Soul](the-index.md) feat for free at 1st level without needing to meet the prerequisites, nor do you lose the feat for changing alignment as per normal with Exalted feats. This feat cannot be retrained. If you would gain this feat from another source, you instead gain a +1 bonus to Depravity and Corruption checks as if you had an additional Exalted feat. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. For example, a character that is Lawful Neutral has a Lawful Evil Aura.
+**Benefit**: You gain the [Pure Soul](../the-index.md) feat for free at 1st level without needing to meet the prerequisites, nor do you lose the feat for changing alignment as per normal with Exalted feats. This feat cannot be retrained. If you would gain this feat from another source, you instead gain a +1 bonus to Depravity and Corruption checks as if you had an additional Exalted feat. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. For example, a character that is Lawful Neutral has a Lawful Evil Aura.
 
 ### Zephyr Native
 *You were born and raised in the Zephyr Haven, as such your ancestors hailed from the Elemental Plane of Air.*

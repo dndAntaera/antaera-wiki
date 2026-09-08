@@ -12,15 +12,15 @@ title: "Antæra World Map"
 
 # **Legend**
 
-- [Antæran Plains](antaeran-plains.md)
+- [Antæran Plains](region/antaeran-plains.md)
 - Angheh Wastes
 - Broken Spire Isles
-- [Coastal Barrier Range](coastal-barrier-range.md)
+- [Coastal Barrier Range](region/coastal-barrier-range.md)
 - Dark Mire
 - Kir'raask Desert
 - Mir'raask Gulf
 - Old Spire Mountains
-- [Sea of Innas](sea-of-innas.md)
+- [Sea of Innas](region/sea-of-innas.md)
 
 </div>
 </div>

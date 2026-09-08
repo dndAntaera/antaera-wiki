@@ -57,7 +57,7 @@ One would be hard-pressed to not find a slave accompanying someone in this rathe
     - Fine Shops
 
 ## Citadel
-The religious center of the city, and the house of the local lord. The church in the Citadel hosts idols to all of the [Living Gods](pantheon.md), though it also includes the obligatory idol to Zastus as well. While the town outwardly denies relations to the Cult of Zastus, it is known that some of the nobles in the town are descendants of members of this long dead cult. The Citadel district covers the Citadel itself and the section of buildings directly behind it on the map.
+The religious center of the city, and the house of the local lord. The church in the Citadel hosts idols to all of the [Living Gods](../pantheon.md), though it also includes the obligatory idol to Zastus as well. While the town outwardly denies relations to the Cult of Zastus, it is known that some of the nobles in the town are descendants of members of this long dead cult. The Citadel district covers the Citadel itself and the section of buildings directly behind it on the map.
 
 - Social Class: Upper
 - Population

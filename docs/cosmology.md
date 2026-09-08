@@ -8,9 +8,9 @@ wip: true
 
 # Transitive Planes
 
-- [Ethereal Plane](ethereal-plane.md)
-- [Astral Plane](astral-plane.md)
-- [Plane of Mirrors](plane-of-mirrors.md)
+- [Ethereal Plane](plane/ethereal-plane.md)
+- [Astral Plane](plane/astral-plane.md)
+- [Plane of Mirrors](plane/plane-of-mirrors.md)
 
 </div>
 <div class="wd-cell" markdown>
@@ -40,10 +40,10 @@ However, this perception is misleading. The landscapes of the Outer Planes, whil
 
 # Unclassified Planes
 
-- [True Afterlife](true-afterlife.md)
+- [True Afterlife](plane/true-afterlife.md)
 - Far Realms
-- [The Region of Dreams](region-of-dreams.md)
-- [The Void](void.md)
+- [The Region of Dreams](plane/region-of-dreams.md)
+- [The Void](plane/void.md)
 
 </div>
 </div>

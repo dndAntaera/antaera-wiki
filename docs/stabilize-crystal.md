@@ -7,7 +7,7 @@ title: "Stabilize Crystal"
 
 # Stabilize Crystal
 
-Stabilizing a [Planar Crystal](planar-crystal.md) can be done with magic or with psionics. Both forms are below.
+Stabilizing a [Planar Crystal](item/planar-crystal.md) can be done with magic or with psionics. Both forms are below.
 
 </div>
 </div>

@@ -40,17 +40,21 @@ FOLDERS = {
     "anthropology": "anthropology",
     "rules": "rules",
     "nation": "nation",
-    "city": "city",
     "race": "race",
     "item": "item",
+    "faction": "faction",
+    # Wikidot had three prefixes for one idea - a city, a settlement and a
+    # point of interest are all places people live. They share a folder.
+    "city": "settlement",
+    "settlement": "settlement",
 }
 
 # Prefixes that classify a page but are not worth a folder of their own. They
-# are stripped from the title, so "faction-house-of-fabrication" is "House of
-# Fabrication" rather than "Faction House Of Fabrication" - the slug says what
-# kind of thing it is, the title should say which thing.
+# are stripped from the title, so "events-crucible-of-valor" is "Crucible of
+# Valor" rather than "Events Crucible Of Valor" - the slug says what kind of
+# thing it is, the title should say which thing.
 TITLE_PREFIXES = {
-    "faction", "settlement", "poi", "events", "taxonomy",
+    "poi", "events", "taxonomy",
 }
 
 # Pages that are two halves of one thing. Wikidot filed the arcane and the
@@ -81,20 +85,57 @@ for _merged, _spec in MERGES.items():
         MERGE_PARTS[_part] = (_merged, _label.lower().replace(" ", "-"))
 
 
-# Deities whose slug never got the "deity-" prefix. Twelve gods were filed
-# under "deity-" on Wikidot and eighteen were not, which was inconsistent
-# authoring rather than a distinction - the pages are the same shape, and
-# every one of these is linked from the pantheon index. Naming them here files
-# them alongside the rest instead of leaving them loose at the root.
+# Pages whose slug never got a prefix, listed under the folder they belong to.
 #
-# Membership is deliberately a list rather than a rule: "Void" and
-# "Plane of Faerie" are stubs of exactly the same shape and are not gods, so
-# there is nothing in the page itself to test for.
-DEITY_PAGES = {
-    "asmodeus", "cavri", "droma", "enigma", "fink", "fronir", "frymrit",
-    "ithlwick", "leshrac", "nessa", "orion", "ornus", "rasmin", "sezzek",
-    "silfaraan", "tari", "trelanni", "ythedie",
+# Wikidot's prefixes were applied by hand and inconsistently: twelve gods were
+# filed under "deity-" and eighteen were not, six of the seven factions were
+# left loose, and no plane or region ever got one. The pages are the same
+# shape either way, so this is authoring drift rather than a distinction.
+#
+# Membership is deliberately a list rather than a rule. "Void" and "Plane of
+# Faerie" are stubs of the same shape as the deity stubs and are not gods;
+# nothing in the page itself separates them. Each name below was checked
+# against what the wiki says about it - the pantheon index for the gods, The
+# Index's own Factions and Homebrew: Items sections, cosmology for the planes,
+# and the world map's legend for the regions.
+LOOSE_PAGES = {
+    "deity": {
+        "asmodeus", "cavri", "droma", "enigma", "fink", "fronir", "frymrit",
+        "ithlwick", "leshrac", "nessa", "orion", "ornus", "rasmin", "sezzek",
+        "silfaraan", "tari", "trelanni", "ythedie",
+    },
+    # The Index lists six of these under Factions. Sylvan Sect is not on that
+    # list, but it is a 6-word stub and the only description of it anywhere -
+    # Aesc Wood's "members of the Sylvan Sect" - reads as an organisation.
+    "faction": {
+        "collegiate-oculatus", "haven-commerce", "imperial-mercenary",
+        "sylvan-sect", "taelmythaal-archivists", "tamaas-trading",
+        "titan-fall-pmc",
+    },
+    # Every one of these is linked from the cosmology page, except the Plane
+    # of Faerie, which is a stub reached from Aesc Wood.
+    "plane": {
+        "astral-plane", "ethereal-plane", "plane-of-faerie", "plane-of-mirrors",
+        "region-of-dreams", "true-afterlife", "void",
+    },
+    # Three are the legend of the world map. Aesc Wood is a forest.
+    "region": {
+        "aesc-wood", "antaeran-plains", "coastal-barrier-range", "sea-of-innas",
+    },
+    "settlement": {
+        "aberystwyth", "athelney", "imperial-capital-of-new-haven",
+    },
+    # The Index, Homebrew: Items.
+    "item": {
+        "crystal-stabilization-fluid", "elven-climbers-gloves", "firearms",
+        "planar-crystal", "poisoners-quiver",
+    },
+    # Action Points is under Variant Rules In Effect and Backgrounds under
+    # Homebrew: Miscellaneous; Gestalt is a variant rule nothing links to.
+    "rules": {"action-points", "backgrounds", "gestalt"},
 }
+
+PAGE_FOLDER = {s: f for f, slugs in LOOSE_PAGES.items() for s in slugs}
 
 # Images kept in docs/img but not placed on any page. The file stays where it
 # is, so putting one back is a matter of referencing it again.
@@ -139,8 +180,8 @@ def target_path(slug):
     slug = slug.replace(":", "-")
     if slug in MERGE_PARTS:
         return MERGE_PARTS[slug][0] + ".md"
-    if slug in DEITY_PAGES:
-        return "deity/" + slug + ".md"
+    if slug in PAGE_FOLDER:
+        return PAGE_FOLDER[slug] + "/" + slug + ".md"
     m = re.match(r"^([a-z]+)-(.+)$", slug)
     if m and m.group(1) in FOLDERS:
         return FOLDERS[m.group(1)] + "/" + m.group(2) + ".md"

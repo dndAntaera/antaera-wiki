@@ -53,7 +53,7 @@ title: "The Index"
 
 ## A
 
-- [Action Points](action-points.md) *Edited*
+- [Action Points](rules/action-points.md) *Edited*
 ## B
 ## C
 ## D
@@ -298,14 +298,14 @@ White Raven Tactics: Cannot affect the user
 - book, [The Dreaming & Waking](item/dreaming-waking.md)
 ## C
 
-- [Crystal Stabilization Fluid](crystal-stabilization-fluid.md)
+- [Crystal Stabilization Fluid](item/crystal-stabilization-fluid.md)
 ## D
 ## E
 
-- [Elven Climber's Gloves](elven-climbers-gloves.md)
+- [Elven Climber's Gloves](item/elven-climbers-gloves.md)
 ## F
 
-- [Firearms](firearms.md)
+- [Firearms](item/firearms.md)
 ## G
 ## H
 
@@ -320,8 +320,8 @@ White Raven Tactics: Cannot affect the user
 ## O
 ## P
 
-- [Planar Crystal](planar-crystal.md)
-- [Poisoner's Quiver](poisoners-quiver.md)
+- [Planar Crystal](item/planar-crystal.md)
+- [Poisoner's Quiver](item/poisoners-quiver.md)
 ## Q
 ## R
 
@@ -475,7 +475,7 @@ White Raven Tactics: Cannot affect the user
 ## A
 ## B
 
-- [Backgrounds](backgrounds.md)
+- [Backgrounds](rules/backgrounds.md)
 ## C
 
 - [Commisioning Items](rules/commissions.md)
@@ -520,18 +520,18 @@ White Raven Tactics: Cannot affect the user
 ## B
 ## C
 
-- [Collegiate Oculatus](collegiate-oculatus.md)
+- [Collegiate Oculatus](faction/collegiate-oculatus.md)
 ## D
 ## E
 ## F
 ## G
 ## H
 
-- [Haven Commerce Co.](haven-commerce.md)
-- [House of Fabrication](faction-house-of-fabrication.md)
+- [Haven Commerce Co.](faction/haven-commerce.md)
+- [House of Fabrication](faction/house-of-fabrication.md)
 ## I
 
-- [Imperial Mercenary Corp](imperial-mercenary.md)
+- [Imperial Mercenary Corp](faction/imperial-mercenary.md)
 
 ## J
 ## K
@@ -546,9 +546,9 @@ White Raven Tactics: Cannot affect the user
 ## S
 ## T
 
-- [Tæl’Mythaal Archivists](taelmythaal-archivists.md)
-- [Tamaas Trading Co.](tamaas-trading.md)
-- [Titan’s Fall PMC](titan-fall-pmc.md)
+- [Tæl’Mythaal Archivists](faction/taelmythaal-archivists.md)
+- [Tamaas Trading Co.](faction/tamaas-trading.md)
+- [Titan’s Fall PMC](faction/titan-fall-pmc.md)
 ## U
 ## V
 ## W

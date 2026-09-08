@@ -25,7 +25,7 @@ title: "Character Creation"
     - When crafting items for yourself on character creation, you cannot reduce an item's value to lower than half of its market price
 - No favored classes
 - No multiclassing penalty
-- [Action Points](action-points.md) *modified*
+- [Action Points](rules/action-points.md) *modified*
 - All spells/powers/etc. and inventory on your character must also be listed in your character channel (the forum post you rolled your stats in and post your sheet link in)
     - Normally shouldn't have to do this, but I have had a problem with cheaters in the past lying about what their characters have in their inventories
 - Be sure to consult [The Index](the-index.md) for all houserules and homebrew used when making your character
@@ -58,7 +58,7 @@ title: "Character Creation"
 - Environmental content is restricted to that environment, if you do not visit/research the environment, you cannot learn/use the content
 
 #### Backgrounds/Backstories
-At 1st level, players must select one of the [backgrounds](backgrounds.md) for their character.
+At 1st level, players must select one of the [backgrounds](rules/backgrounds.md) for their character.
 
 If a player writes up a comprehensive, but not exhaustively long, backstory for their character, they may pick an item from the MIC as their background item. It must make sense in your backstory for your character to have it, and it must be approved by the DM before it is allowed. Please get creative with your backstory, as you will be helping me shape the world around you. As all things, it may be subject to slight change depending on existing things in the world.
 

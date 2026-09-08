@@ -6,7 +6,7 @@ title: "Ethereal Plane"
 <div class="wd-cell" markdown>
 
 # Ethereal Plane
-Welcome to the Ethereal Plane, a transitive plane that connects the Material Planes and Outer Planes to the energies of the Inner Planes and the [True Afterlife](true-afterlife.md). Present on this plane are the magical ley-lines that pulse with the energy of Incarnum, which provides the essence of life to all souls, also known as the [Soulvein](soulvein.md).
+Welcome to the Ethereal Plane, a transitive plane that connects the Material Planes and Outer Planes to the energies of the Inner Planes and the [True Afterlife](true-afterlife.md). Present on this plane are the magical ley-lines that pulse with the energy of Incarnum, which provides the essence of life to all souls, also known as the [Soulvein](../soulvein.md).
 
 The Ethereal Plane is a serene and surreal expanse, a realm where reality is softened by a gentle haze of mist and magical currents. Subtle luminescence illuminates the surroundings, revealing ethereal landscapes that echo the diversity of the planes it connects. The Ethereal Plane is not a solitary realm but rather a bustling haven for spirits that remain on the boundary between life and afterlife. It is inhabited by spectral entities, from benevolent ancestors to ethereal guardians, each existing in a state of timeless transition. They traverse the Veil, embarking on their ethereal journey towards the [True Afterlife](true-afterlife.md).
 

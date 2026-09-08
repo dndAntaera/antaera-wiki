@@ -22,13 +22,13 @@ title: "Antaeran Plains"
     - Heaving Stream
     - Varengonie Run
 - Settlements
-    - [Athelney](athelney.md)
-    - [Aberystwyth](aberystwyth.md)
+    - [Athelney](../settlement/athelney.md)
+    - [Aberystwyth](../settlement/aberystwyth.md)
     - Beckton
     - Blackpool
     - Darkwell
     - Hutwaite
-    - [Imperial Capital of New Haven](imperial-capital-of-new-haven.md)
+    - [Imperial Capital of New Haven](../settlement/imperial-capital-of-new-haven.md)
     - Kingcardine
     - Poltragon
     - Rackdale

@@ -9,7 +9,7 @@ search:
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-Header Image
+Header Image<br>
 *Image description...*
 
 </div>
@@ -42,11 +42,11 @@ The backgrounds presented in this section are for characters who originally hail
 **Skill Proficiencies**: Athletics, Survival<br>
 **Tool Proficiencies**: Climber's Kit<br>
 **Languages**: Sylvan<br>
-**Equipment**: Silk rope (50 feet), a climber's kit, a set of common clothes, and a belt pouch containing 5 gp
-**Feature: Foresthome**
+**Equipment**: Silk rope (50 feet), a climber's kit, a set of common clothes, and a belt pouch containing 5 gp<br>
+**Feature: Foresthome**<br>
 You gain advantage on Strength (Athletics) or Dexterity (Acrobatics) checks, your choice, made to climb trees. The skill this applies to is chosen when you make your character and may not be changed.
 
-**Feature: No Hidden Paths**
+**Feature: No Hidden Paths**<br>
 You gain advantage on Wisdom (Survival) checks made to navigate through a forest or other woodland biome.
 
 ### Antæran Plains Native
@@ -56,11 +56,11 @@ You gain advantage on Wisdom (Survival) checks made to navigate through a forest
 **Prerequisite**: Human<br>
 **Skill Proficiencies**: History; Any other one of your choice<br>
 **Languages**: Any one of your choice<br>
-**Equipment**: A set of common clothes, a signet ring, and a purse containing 25 gp
-**Feature: Advanced Military Training**
+**Equipment**: A set of common clothes, a signet ring, and a purse containing 25 gp<br>
+**Feature: Advanced Military Training**<br>
 You gain Proficiency with any one martial weapon of your choice. If you already have proficiency with all Martial weapons from another source, you instead may gain advantage on your next melee weapon attack as a bonus action. This secondary ability may only be done once per short rest.
 
-**Feature: Xenophobia**
+**Feature: Xenophobia**<br>
 You gain advantage on Charisma (Intimidate) checks made against creatures who are not the same race as you a number of times per day equal to your proficiency modifier. However, due to the reputation around your people you gain disadvantage on Charisma (Diplomacy) checks made against them. Creatures you use the first ability against must be able to understand the language you are speaking for you to gain this benefit.
 
 ### Desert Dweller
@@ -70,11 +70,11 @@ You gain advantage on Charisma (Intimidate) checks made against creatures who ar
 **Prerequisite**: Native to either the Kir’Raask Desert or the Angheh Wastes<br>
 **Associated Skills**: Perception, Survival<br>
 **Languages**: Primordial (Ignan)<br>
-**Equipment**: Hempen rope (50 feet), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of traveler's clothes, and a belt pouch containing 10 gp
-**Feature: Heat Tolerance**
+**Equipment**: Hempen rope (50 feet), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of traveler's clothes, and a belt pouch containing 10 gp<br>
+**Feature: Heat Tolerance**<br>
 You are treated as being naturally adapted to hot climates, as per the Extreme Heat rules.
 
-**Feature: Desert Eyes**
+**Feature: Desert Eyes**<br>
 Your eyes are trained for surviving in the desert, having always been on the lookout for danger. You can see twice as far as normal for your race when in a desert biome.
 
 ### Gulf Native
@@ -85,11 +85,11 @@ Your eyes are trained for surviving in the desert, having always been on the loo
 **Skill Proficiencies**: History; Your choice of Arcana, Nature,  or Religion<br>
 **Tool Proficiencies**: Navigator's tools, vehicles (water)<br>
 **Languages**: Sylvan<br>
-**Equipment**: A set of common clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp
-**Feature: Seahome**
+**Equipment**: A set of common clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp<br>
+**Feature: Seahome**<br>
 Your time spent sailing on open water has made it difficult for you to get lost when navigating on a ship, having learned to navigate by the sun and stars. You gain advantage on Navigator's tools checks when traveling over water.
 
-**Feature: Enhanced Perception**
+**Feature: Enhanced Perception**<br>
 As a bonus action, you may gain advantage on the next Wisdom (Perception) check that you make. You regain your expended use of this ability at the end of a short rest.
 
 ### Islander
@@ -100,11 +100,11 @@ As a bonus action, you may gain advantage on the next Wisdom (Perception) check 
 **Skill Proficiencies**: Your choice of Athletics or Acrobatics; Perception<br>
 **Tool Proficiencies**: Navigator's tools, vehicles (water)<br>
 **Languages**: Pirmordial (Aquan)<br>
-**Equipment**: A belaying pin (club), silk rope (50 feet), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a belt pouch containing 10 gp
-**Feature: Seahome**
+**Equipment**: A belaying pin (club), silk rope (50 feet), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a belt pouch containing 10 gp<br>
+**Feature: Seahome**<br>
 Your time spent sailing on open water has made it difficult for you to get lost when navigating on a ship, having learned to navigate by the sun and stars. You gain advantage on Navigator's tools checks when traveling over water.
 
-**Feature: Marine Training**
+**Feature: Marine Training**<br>
 You gain advantage on Strength (Athletics) and Dexterity (Acrobatics) checks made to maintain your balance.
 
 ### Mountain Dweller
@@ -115,11 +115,11 @@ You gain advantage on Strength (Athletics) and Dexterity (Acrobatics) checks mad
 **Skill Proficiencies**: Athletics, Perception<br>
 **Tool Proficiencies**: Climber's Kit<br>
 **Languages**: Pirmordial (Auran)<br>
-**Equipment**: A winter blanket, a climber's kit, a set of traveler's clothes, and a belt pouch containing 5 gp
-**Feature: Mountain Born**
+**Equipment**: A winter blanket, a climber's kit, a set of traveler's clothes, and a belt pouch containing 5 gp<br>
+**Feature: Mountain Born**<br>
 You have advantage on saving throws against cold effects and spells. You also naturally acclimate to high altitudes. This includes elevations above 20,000 feet.
 
-**Feature: Sure Footing**
+**Feature: Sure Footing**<br>
 You gain advantage on Climber's Kit checks made to regain your holding if you lose it.
 
 ### Sewich Adventurer
@@ -129,11 +129,11 @@ You gain advantage on Climber's Kit checks made to regain your holding if you lo
 **Prerequisite**: Native to the Sea of Innas<br>
 **Skill Proficiencies**: Any two of your choice<br>
 **Languages**: Any one of your choice<br>
-**Equipment**: One set of traveler's clothes, a map of the Sea of Innas, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a pouch containing 5 gp
-**Feature: Descended From Heroes**
+**Equipment**: One set of traveler's clothes, a map of the Sea of Innas, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a pouch containing 5 gp<br>
+**Feature: Descended From Heroes**<br>
 Your regional advantage on Charisma (Diplomacy) checks extends to all other regions.
 
-**Feature: Alien Culture**
+**Feature: Alien Culture**<br>
 You gain proficiency in a secret language known only to others from this region. This secret language consists of slang and other jargon that is foreign and alien to all other denizens of the Known Spheres. Some say that it is the descendant of a language from the mysterious Sol Crystal Sphere. Use of this secret language allows you to hide messages in seemingly normal conversation. Only another creature that knows this secret language understands such messages. This secret language is so alien, other creatures are unable to learn it.
 
 </div>
@@ -151,11 +151,11 @@ All of the Known Spheres, other than the Antæran Sphere, have been touched by o
 **Prerequisite**: Native to the Bellatoris sphere, the Graveyard of the Gods, or one of the infinitesimal Abyssal Realms; or Planetouched race with a chaotic alignment<br>
 **Skill Proficiencies**: Arcana, Survival<br>
 **Languages**: Two of your choice from the following: Abyssal, Celestial, or Infernal<br>
-**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5 of the PHB), and a belt pouch containing 15 gp.
-**Feature: Planar Infusion**
+**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5 of the PHB), and a belt pouch containing 15 gp.<br>
+**Feature: Planar Infusion**<br>
 Living in your home sphere steeped you in planar energy. You gain the Scion of the Outer Planes (Chaotic Outer Plane) feat. In addition, you know where to find free, modest lodging and food in the community you grew up in.
 
-**Feature: Heart of Chaos**
+**Feature: Heart of Chaos**<br>
 Those who look into your eyes can see that you have an internal tie to Chaos. Though they might distrust you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.
 
 ### Evil Planar Native
@@ -165,11 +165,11 @@ Those who look into your eyes can see that you have an internal tie to Chaos. Th
 **Prerequisite**: Native to the Malifortis sphere, or one of the infinitesimal Abyssal Realms; or Planetouched race with an evil alignment<br>
 **Skill Proficiencies**: Arcana; your choice of Deception or Intimidation<br>
 **Languages**: Two of your choice from the following: Abyssal, Celestial, or Infernal<br>
-**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, one trinket of special significance (choose one or roll on the Horror Trinkets table in chapter 1 of VGR), and a belt pouch containing 15 gp.
-**Feature: Planar Infusion**
+**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, one trinket of special significance (choose one or roll on the Horror Trinkets table in chapter 1 of VGR), and a belt pouch containing 15 gp.<br>
+**Feature: Planar Infusion**<br>
 Living in your home sphere steeped you in planar energy. You gain the Scion of the Outer Planes (Evil Outer Plane) feat. In addition, you know where to find free, modest lodging and food in the community you grew up in.
 
-**Feature: Heart of Evil**
+**Feature: Heart of Evil**<br>
 Those who look into your eyes can see that you have an eternal tie to Evil. Though they might initially fear you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.
 
 ### Good Planar Native
@@ -179,11 +179,11 @@ Those who look into your eyes can see that you have an eternal tie to Evil. Thou
 **Prerequisite**: Native to the Sanctum Æternum, Paxæterna, or Bellatoris sphere; or Planetouched race with a good alignment<br>
 **Skill Proficiencies**: Religion; Your choice of Persuasion or Performance<br>
 **Languages**: Celestial; One of your choice from Abyssal or Infernal<br>
-**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, one trinket of special significance (choose one or roll on the Trinkets table in chapter 5 of the PHB), and a belt pouch containing 15 gp.
-**Feature: Planar Infusion**
+**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, one trinket of special significance (choose one or roll on the Trinkets table in chapter 5 of the PHB), and a belt pouch containing 15 gp.<br>
+**Feature: Planar Infusion**<br>
 Living in your home sphere steeped you in planar energy. You gain the Scion of the Outer Planes (Good Outer Plane) feat. In addition, you know where to find free, modest lodging and food in the community you grew up in.
 
-**Feature: Heart of Good**
+**Feature: Heart of Good**<br>
 Those who look into your eyes can see that you have an eternal tie to Good. Commoners will initially admire you and will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.
 
 ### Lawful Planar Native
@@ -193,11 +193,11 @@ Those who look into your eyes can see that you have an eternal tie to Good. Comm
 **Prerequisite**: Native to the Sanctum Æternum, Custodæ, or Malifortis sphere; or Planetouched race with a lawful alignment<br>
 **Skill Proficiencies**: Two of your choice from the following: Arcana, History, Nature, Religion<br>
 **Languages**: Two of your choice from the following: Abyssal, Celestial, or Infernal<br>
-**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, one trinket of special significance (choose one or roll on the Trinkets table in chapter 5 of the PHB), and a belt pouch containing 15 gp.
-**Feature: Planar Infusion**
+**Equipment**: A blank book, an ink pen or quill, a bottle of black ink, a set of traveler's clothes, one trinket of special significance (choose one or roll on the Trinkets table in chapter 5 of the PHB), and a belt pouch containing 15 gp.<br>
+**Feature: Planar Infusion**<br>
 Living in your home sphere steeped you in planar energy. You gain the Scion of the Outer Planes (Lawful Outer Plane) feat. In addition, you know where to find free, modest lodging and food in the community you grew up in.
 
-**Feature: Heart of Law**
+**Feature: Heart of Law**<br>
 Those who look into your eyes can see that you have an eternal tie to Law. Commoners will initially trust you and will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.
 
 ### Tainted Native

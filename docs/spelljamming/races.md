@@ -97,7 +97,7 @@ The familial relationships of dracons suggest that they are all natives of the s
 
 The climate is in continual flux, forcing herds to move and cooperate to survive.
 
-The dracons describe a spiderlike Dark God that lies beneath the sand and captures younglings who stray too far.
+The dracons describe a spiderlike Dark God that lies beneath the sand and captures younglings who stray too far.<br>
 This boogeyman may be:
 
 - A real creature
@@ -248,7 +248,7 @@ Grommam spelljammer ships (usually purchased from humans) are altered to appear 
 
 Because grommams are so adept at climbing, they make heavy use of ropes, riggings, and swing bars.
 
-*"The noise is ungodly when they're all talking at once, and they eat like there's no tomorrow. But frankly, I'm too scared to fire them now."*
+*"The noise is ungodly when they're all talking at once, and they eat like there's no tomorrow. But frankly, I'm too scared to fire them now."*<br>
 *- Merchant captain with three grommams in his crew.*
 
 ## Grommam Racial Traits
@@ -327,13 +327,13 @@ Hadozee also commonly speak Common, Dowhar, Dwarven, Gnome, Grommam, Scro, Under
 ## Names
 Hadozee names are often inspired by the ships they serve aboard. A hadozee who has served on the Dream of the Night might take the name Garsh Nightdream. These “ship-names” serve as a badge of honor, signifying a deep bond between hadozee who have served on the same vessel.
 
-**Male Names**:
+**Male Names**:<br>
 Bansh, Darsh, Falth, Garsh, Grath, Grob, Harth, Krath, Marh, Forth.
 
-**Female Names**:
+**Female Names**:<br>
 Bahasha, Bannithi, Dashi, Kalla, Kasha, Mara, Risha, Yasha, Yetha.
 
-**Ship-Names (Examples)**:
+**Ship-Names (Examples)**:<br>
 Dawnwarrior (*The Dawn Warrior*), Midnightchild (*The Midnight Lady*), Nightdream (*The Dream of the Night*), Pearldaughter (*The Lady of the Pearl*), Swiftson (*The Swift Star*), Swordstorm (*The Sword in the Stars*), Wavedancer (*The Wave Dancer*).
 
 A hadozee does not change their ship-name lightly—only the most legendary ships and captains earn this distinction.
@@ -653,7 +653,7 @@ This proficiency allows the character to perform bodily modifications on others.
 
 **Check**: Making a Body Manipulation check takes 1 hour of uninterrupted concentration. Any distractions cause an automatic failure. Each success or failure causes the DC of each subsequent attempt to increase by 5.
 
-Success Table:
+Success Table:<br>
 DC | Action | Max Repeats
 
 - 20 | The patient gains a tough outer shell. They gain a +1 natural armor improvement for each successful attempt. | 3
@@ -668,7 +668,7 @@ Performing such an extensive modification takes a minimum of two weeks. The pati
 
 The DM may determine a result not listed on the failure table is apropriate instead.
 
-Failure Table
+Failure Table<br>
 Roll | Result
 
 - 1 | Loss of limb: patient loses a limb

@@ -9,7 +9,7 @@ search:
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-Header Image
+Header Image<br>
 *Image description...*
 
 </div>

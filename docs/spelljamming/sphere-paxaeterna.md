@@ -21,7 +21,7 @@ Astrologers and planetologists who have studied the sphere agree that life on it
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
-Type of Sphere: Standard
+Type of Sphere: Standard<br>
 Primary Body:
 
     - Name: Serenitas

@@ -37,7 +37,7 @@ What follows are the rules and guidelines for commissioning magic items. These r
 1. Pay the cost
 1. Wait for it to be crafted, then get your item after it is done
 
-**Modifiers**
+**Modifiers**<br>
 Certain things can reduce the cost of the item:
 
 - Providing the spell included in the cost of the item reduces the base price by 10% per spell component provided (multiple instances are iterative)

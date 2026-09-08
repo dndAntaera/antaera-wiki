@@ -83,9 +83,9 @@ The remaining interior space is needed for crew, armament, and other necessities
 
 *Columns Fort / Ref / Will are Base Saving Throw; the rest are Bonus.*
 
-¹ Objects are unaffected by spells or effects that require a Will saving throw.
-² Metal includes glassteel spells
-³ Crushing blow includes all crashes
+¹ Objects are unaffected by spells or effects that require a Will saving throw.<br>
+² Metal includes glassteel spells<br>
+³ Crushing blow includes all crashes<br>
 ⁴ Normal fire includes alchemical fire
 
 *Table: Item Saving Throws*
@@ -760,9 +760,9 @@ Helms can be acquired through a number of means, the most usual being discovery 
 No one knows the Mercane's home world, nor have ships of the Mercane ever been spotted. They seem to exist to sell. The prices listed in this book reflect the purchase price from the Mercane. The chance of a Mercane being found in a large space civilization is about those for finding any other piece of necessary equipment.
 
 ## Spelljammer Helms
-**Cost**:
-100,000 gp (minor helm)
-250,000 gp (major helm)
+**Cost**:<br>
+100,000 gp (minor helm)<br>
+250,000 gp (major helm)<br>
 Each minor and major spelljamming helm allows the individual seated upon it to move a large mass through space by means of channeling spell energy directly into a motive force. This energy is somewhat useful for maneuvering the ship, but primarily it provides the push that makes the ship move forward (or backward). Maneuvering comes primarily from the ship's sails and oars.
 
 The power of the force is known as the ship's rating. A minor helm converts such energy at a rate of 1 point of SR for each three levels of experience. A major helm converts at a rate of 1 SR for every two levels of experience.
@@ -799,19 +799,19 @@ Series helms save against all damage on a 3; they are not quite as tough as spel
 Series helms were developed either by the illithids or by the Arcane with the illithids in mind (accounts vary according to the situation). There are other series helms for those social creatures with spell-like abilities, except for the beholders, who have found their own solution.
 
 ## Pool Helms
-**Cost**: 500,000 gp (mind flayers only)
+**Cost**: 500,000 gp (mind flayers only)<br>
 A recent development of the illithid collective mind, the pool helm uses the natural life-pool of the mind flayers to power the ships, as opposed to illithids themselves. Such ships have an automatic SR of 5 and are used primarily as transports for illithid Great Old Ones. The pool counts as two crew members. Several nautiloid ships have been equipped with pool helms, and there are rumors of larger mind flayer ships, as the pool allows larger ships to be powered. The current rumored maximum size of such a ship would be 200 tons, but this is hearsay and speculation.
 
 ## Orbus
-**Cost**: 300,000 gp (beholders only)
+**Cost**: 300,000 gp (beholders only)<br>
 The orbus is a living being that functions much like a series helm on the beholder tyrant ships. For each living orbus (maximum of five for the typical tyrant ship), the ship has an SR of 1. The orbi are usually found near the center of a beholder ship, surrounding the Great Mother or Hiveleader of the ship. If an orbus is slain, the SR is diminished by 1, and if all orbi are lost, then the ship loses all power.
 
-Orbi appear as blind beholders, with milky skin over all their eyes. They are pale and practically helpless on their own. They have been bred by the spacefaring beholder factions to serve and serve well—they have almost no will of their own.
-A single orbus can create spelljamming energy for 20 tons of ship, two to a limit of 40 tons, and three or more to a limit of 60 tons. If insufficient orbi exist, then the SR of the ship is 1.
+Orbi appear as blind beholders, with milky skin over all their eyes. They are pale and practically helpless on their own. They have been bred by the spacefaring beholder factions to serve and serve well—they have almost no will of their own.<br>
+A single orbus can create spelljamming energy for 20 tons of ship, two to a limit of 40 tons, and three or more to a limit of 60 tons. If insufficient orbi exist, then the SR of the ship is 1.<br>
 Given the simplicity of beholder ships, it seems possible that humanoid races could make use of the orbus as well, either as a primary or backup system. The beholders guard their orbi carefully, and would rather disintegrate them than see them turned over to other races. The above price is what an Arcane or beholder of another faction would pay for an orbus.
 
 ## Forges
-**Cost**: 500,000 gp (initially), 100,000 gp (per year)
+**Cost**: 500,000 gp (initially), 100,000 gp (per year)<br>
 Spelljamming dwarves typically have large asteroid ships greater than those used by humans, elves, or gnomes, powered by magical engines they call forges. These forges are huge foundry rooms at the base of the ship where dwarves work around the clock, building, carving, creating, and forging.
 
 The basic idea of the forge is the same as the spelljammer helm: the conversion of energy into movement. In the dwarves' case, the energy is not magical as much as it is creative. By building items with the forges, the dwarves generate the energy necessary to literally move mountains across the sky.
@@ -825,18 +825,18 @@ A side effect of this industry is a large amount of tradable goods, as the dwarv
 A negative side effect is that dwarven ships often become "finished," with no new things to mine, chip, form, or shape. At this point, the colony abandons the mountainship and sets up home in a new asteroid, stripping the forge in the process. Such abandoned mountainships become the lairs of monsters.
 
 ## Gnomish Helms
-**Cost**: 50,000 gp
+**Cost**: 50,000 gp<br>
 Gnomish helms should not function. That is, their very construction seems to defy the nature of thaumaturgic law. They are impossible. Of course, being gnomish, they work anyway. Like most products from gnome ideas, they include a large number of bells and whistles and very little substance. Those that do work usually have a minor helm contained within, always hidden away so as to appear to be innocuous and unessential.
 
 Gnomish helms are large, gaudy, ornate, and overblown. They occupy at least 1 ton of space, and their SR (for those that work) is determined solely by the level of the priest or mage at the helm.
 
 Only about 60% of Gnomish helms work (because they've had a real spelljammer helm built into them somewhere). The remaining 40% is a lot of bunk and hokum. Let the buyer beware.
 
-Those foolish enough to purchase a Gnomish helm that works should also hire two to eight gnomes to serve as repairmen. There is a 20% chance at any time (usually when you need it most badly) that the helm will malfunction and become inoperative for 2 to 8 turns.
+Those foolish enough to purchase a Gnomish helm that works should also hire two to eight gnomes to serve as repairmen. There is a 20% chance at any time (usually when you need it most badly) that the helm will malfunction and become inoperative for 2 to 8 turns.<br>
 Gnomish helms are treated with well-deserved derision among the space-dwelling community, and are often unloaded on the unsuspecting newcomer.
 
 ## Crown of the Stars
-**Cost**: a king's ransom, at least
+**Cost**: a king's ransom, at least<br>
 This magical item distills the abilities of a minor helm into a portable item that can be worn, allowing the helmsman to move normally in addition to commanding his ship. Despite its name, a crown of the stars is not necessarily a crown; it may be a torq, or a necklace, or a girdle, or any other item which can be worn. It cannot be a ring, however. The only known crowns of the stars are significantly larger than rings, and all contain at least some silver.
 
 If the crown is used to power a ship for one week or more, it becomes bonded to that ship. It cannot be used to power a different ship unless it has been away from its bonded ship for at least one week, thereby severing the bond.
@@ -846,7 +846,7 @@ The crown of the stars is effective up to one mile away from the ship it is bond
 A crown of the stars will not affect a ship with an active helm (or equivalent) on board. It can provide spelljamming ability to ships that would otherwise lack it (such as a Viking longship). Often a crown is discovered on the ground where they befuddle the local sages, who do not know of the worlds spinning above their heads.
 
 ## Furnaces
-**Cost**: 100,000 gp
+**Cost**: 100,000 gp<br>
 An early and primitive form of spelljamming helm still used in some areas, furnaces take their power not from living spell energy but from magical items. The items are fed into the furnace (and destroyed) to power the ship. Items which cannot be destroyed by fire are unaffected and retain their spells and spell-like abilities.
 
 As a rule of thumb, for every 1,000 xp an item is worth, the furnace will function for one week at SR 2. On long voyages, this becomes an expensive proposition. The SR can be boosted to 3 by sacrificing more than one item simultaneously, but there is a 25% chance that the furnace will explode and cause 10d10 points of damage in a 30-foot radius.
@@ -854,7 +854,7 @@ As a rule of thumb, for every 1,000 xp an item is worth, the furnace will functi
 Furnaces are old devices, found mostly on ghost ships and crashed hulks. They are thought to be an early version developed by the Mercane, then abandoned. They are limited solely to travel within a crystal sphere, as exposure to phlogiston causes an immediate explosion (20d20 points of damage, 45-foot radius). A chill fire spell will reduce this to normal devastation.
 
 ## Artifurnaces
-**Cost**: priceless
+**Cost**: priceless<br>
 An artifurnace is the ultimate stage of the development of the furnace, a magically-powered spelljamming device which draws its power from a magical artifact. Each is a custom-made device tailored to contain and siphon energy from a specific artifact. Because an artifact is practically eternal, the power derived from it is equally so.
 
 Once installed, an artifurnace provides SR 5 for as long as needed. Both artifurnace and artifact are undamageable as long as they remain together (though the ship they are in is not). The artifurnace is destroyed if the artifact is ever removed, however.
@@ -862,15 +862,15 @@ Once installed, an artifurnace provides SR 5 for as long as needed. Both artifur
 Artifurnaces are extremely rare, on the level with artifacts themselves. They also have the difficulty of attracting the attention of those powers tied to the artifact being used. Should an artifurnace be hooked up to the Eye of Vecna, Greyhawk's immortal lich will likely come looking for it (or send friends in the various spheres where the ship visits in order to recover it). No more than a double handful of artifurnaces are recorded as having existed, and almost all of them are destroyed or hidden. Where they have appeared, they have created insurrection as every captain in the area attempts to seize it for himself.
 
 ## Lifejammers
-**Cost**: 80,000 gp
-The lifejammer is a very specialized and evil type of spelljamming helm which feeds off the life energy of an individual placed inside (usually against his will). The lifejammer can function on any creature with hit points, but drains the life out of the creature placed within.
+**Cost**: 80,000 gp<br>
+The lifejammer is a very specialized and evil type of spelljamming helm which feeds off the life energy of an individual placed inside (usually against his will). The lifejammer can function on any creature with hit points, but drains the life out of the creature placed within.<br>
 For every day of operation, the lifejammer sucks 1d8 hit points from the target. These hit points cannot be regained by healing while the individual is within the lifejammer. In addition, for every day of operation (or fraction thereof) the lifejammer's victim must save versus death or perish. An individual with good hit points and saving throws is preferred, but a ready supply of weak characters can be just as useful.
 
-A lifejammer engine gives the ship an SR as if the creature placed within was a wizard using a minor helm. A lifejammer drawing energy from an 8th level fighter, for example, will operate as if an 8th level mage was at the helm.
+A lifejammer engine gives the ship an SR as if the creature placed within was a wizard using a minor helm. A lifejammer drawing energy from an 8th level fighter, for example, will operate as if an 8th level mage was at the helm.<br>
 Lifejammers are believed to be an invention of the neogi, who use multiple lifejammers in powering their mindspider ships. Other evil races, including undead, have been known to use lifejammers as well. Good races and characters are very reluctant to use a lifejammer except in emergencies, and then are careful to remove the character from the device before his life is endangered.
 
 ## Nonmagical Engines
-**Cost**: varies, but approx. 10,000 gp
+**Cost**: varies, but approx. 10,000 gp<br>
 There are a number of ways of moving through space—gnomish engines, chemical propellants, even explosive mixtures ignited in a closed space. These are sometimes used in space to travel through magic-dead areas (called "Sargasso") as well as for lifeboats and shuttles that are too insignificant to merit a full-blown minor helm. Nonmagical movement is used as a backup system for larger ships when all other options fail.
 
 All nonmagical engines share one feature: they are slow compared to helms. Their movement is never more than 17 mph, and their SR is 1. At such rates, it would take years to reach even a nearby planet. Further, they cannot be used to lift off from celestial bodies larger than class A due to their limited power. Little research has been done in expanding this "weak sister" to the spelljammer helms (because the helms provide such a good alternative), but there are situations where they are useful.
@@ -926,7 +926,7 @@ Catapults can be loaded with stone shot instead of large rocks. Stone shot is mo
 **Damage**: 3d10 hit points, 2d4 hull points<br>
 **Crew**: 5<br>
 **Rate of Fire**: 1/3<br>
-**Critical**: -
+**Critical**: -<br>
 *Counts as two large weapons for installation.*
 
 </div>
@@ -956,7 +956,7 @@ The gnomish sweeper does not inflict any hull damage but can be used as a light 
 **Range**: 6 hexes (3,000 ft)<br>
 **Damage**: 2d6 hit points, no hull damage<br>
 **Crew**: 1<br>
-**Rate of Fire**: 1/2
+**Rate of Fire**: 1/2<br>
 Critical: -
 
 ### Medium Ballista
@@ -973,7 +973,7 @@ Critical: -
 **Damage**: 3d10 hit points, 2d4 hull points<br>
 **Crew**: 4<br>
 **Rate of Fire**: 1/4<br>
-**Critical**: x2
+**Critical**: x2<br>
 *Counts as two weapons or one large weapon for installation.*
 
 ### Gnomish Sweepers
@@ -997,15 +997,15 @@ The effects of ramming are covered in combat. They depend on the relative sizes 
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 ### Piercing Ram
-**Cost**: 100 gp per ton of ship
+**Cost**: 100 gp per ton of ship<br>
 A piercing ram is a long, sharp prow used to break open and break apart an enemy ship. An attack with a piercing ram can sometimes result in the two ships being locked together.
 
 ### Blunt Ram
-**Cost**: 100 gp per ton of ship
+**Cost**: 100 gp per ton of ship<br>
 This is a flattened ram designed to inflict internal damage by shaking up the smaller ship. It can also break up other ships, but there is no chance the ships will become locked together after ramming.
 
 ### Grappling Ram
-**Cost**: 200 gp per ton of ship
+**Cost**: 200 gp per ton of ship<br>
 The grappling ram incorporates one or more movable arms that attach themselves to an opponent's ship after ramming, locking the ships together. Very useful during boarding situations. A grappling ram can also inflict damage on smaller ships.
 
 </div>
@@ -1065,7 +1065,7 @@ Many spelljammers use catapults as temporary jettisons when they need to. Often 
 **Crew**: 4<br>
 **Rate of Fire**: 1/4<br>
 **Radius**: 15 ft<br>
-**Critical**: -
+**Critical**: -<br>
 *Counts as two weapons or one large weapon for installation.*
 
 </div>
@@ -1115,19 +1115,19 @@ All ships' hulls come with a standard Armor Rating (AR), determined by the ship'
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 ### Increased Thickness
-**Cost**: 100 gp per ton of ship
+**Cost**: 100 gp per ton of ship<br>
 Increasing the thickness of the hull improves the ship's AR by 1. However, this thickening also reduces available cargo space by 20%. If no cargo space is available, the ship may not utilize this method to increase its AR. An elven flitter, for example, cannot increase its hull thickness because it is only a one-ton ship; it has no cargo space to turn into a thickened hull. A ship can have its hull thickness increased only once.
 
 ### Plating
-**Cost**: 300 gp per ton of ship
+**Cost**: 300 gp per ton of ship<br>
 Also called barding, plating a ship consists of covering it in metal plates or scales. This increases the AR of the ship by 1, but downgrades the maneuverability class (MC) of the ship. (A ship with a maneuverability class of B is downgraded to a C). A ship's maneuverability class cannot be reduced below F. Further, it is obvious to anyone looking at it that the ship is plated. Plating can only be performed once per ship. A plated ship still uses its original saving type—a ship made of thick wood still saves as thick wood, even if it has copper plating.
 
 ### Stronger Materials
-**Cost**: 5,000 gp per ton of ship
+**Cost**: 5,000 gp per ton of ship<br>
 It is possible to rebuild a ship entirely with other materials, such as transforming a ship of wood to one of metal, glassteel, or stone. This does not change the maneuverability, hull points, or AR of the ship, but does give the ship the saving throw of the new material in combat.
 
 ### Netting
-**Cost**: hemp 3 gp per ton of ship, silk 30 gp per ton of ship
+**Cost**: hemp 3 gp per ton of ship, silk 30 gp per ton of ship<br>
 Ships with large, open decks are often covered with thick, twisted ropes bound into a net. These nets serve to protect the crew partially from catapult fire and boarding from other ships. Attacks coming from above must destroy the nets first before hitting crew members. Ships with netting gain a +2 on saving throws for their crews against missile weapons or spells/powers which create solid objects.
 
 In addition, the presence of netting allows those personnel hit by catapult stones a Reflex saving throw (the DC is equal to the attack roll) to avoid the effect of being hit by such a weapon. The netting is destroyed once it is hit by a heavy catapult shot, or two medium catapult shots. Alchemical fire destroys the netting in two rounds. Light catapults, jettisons, and ballistas cause no damage to netting.
@@ -1145,7 +1145,7 @@ Each ship has a maneuverability rating determined by the shape of the ship's hul
 A second way to increase maneuverability is to reduce the armor rating of the ship, cutting the amount of mass that needs to be hauled about. This is called stripping.
 
 ### Rigging
-**Cost**: 100 gp per ton
+**Cost**: 100 gp per ton<br>
 All spelljammers have rigging of some sort. Rigging a ship beyond its standard results in an increase in the ship's maneuverability class by one. For example, a ship with an MC of Poor can be upgraded with improved rigging to an MC of Average.
 
 Additional rigging also means there is more for the crew to do. The minimum number of crew required to operate the ship increases by half the original number (50%). If it normally takes 10 crewmen to operate the ship, the same ship with improved rigging requires a crew of 15.
@@ -1153,7 +1153,7 @@ Additional rigging also means there is more for the crew to do. The minimum numb
 Rigging can be added only once per ship. It can be used to offset the effect of plating. Rigging is many things, but never subtle. A nautiloid with additional steering oars or a Shou Lung dragonship with multiple sails will attract attention, and enemies will know (if they are familiar with the hull) whether a ship is fully rigged. Such ships are referred to as being "topped out."
 
 ### Stripping
-**Cost**: 100 gp per ton
+**Cost**: 100 gp per ton<br>
 Removing nonessential weight can increase the MC of a ship by one rank as well, raising, for example, B to A. This results in dropping the armor rating by 2 points. A ship is considered the same base tonnage despite the loss, and the missing pieces are not obvious to the casual observer.
 
 </div>
@@ -1168,7 +1168,7 @@ Removing nonessential weight can increase the MC of a ship by one rank as well, 
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 ### Smoke Powder
-**Cost**: Whatever the market will bear
+**Cost**: Whatever the market will bear<br>
 Smoke powder is an alchemical mixture of two inert substances which, when combined, form an explosive mix. This mixture is used in arquebuses, wheel locks, and (in large doses) bombards.
 
 A single charge of smoke powder inflicts 1d4 points of damage. Two charges inflict 2d4, 3 charges 3d4, and so forth. Any smoke powder explosion that causes 30 points of damage or more affects everything within a 5-foot radius. Any explosion of at least 50 points affects a 15-foot radius. Divide points of damage by 10 to determine how many hull points are lost to an explosion.
@@ -1177,7 +1177,7 @@ Smoke powder is more common in space than on the planets. It is a good seller fo
 
 ### Alchemist Fire
 **Cost**: 100 gp per shot<br>
-**Weight**: 4 lbs
+**Weight**: 4 lbs<br>
 Alchemist fire is a slightly corrosive liquid. It usually is stored in stone or ceramic jugs, each jug containing enough alchemist fire for one shot. Loaded into a alchemist fire projector and lit, it fires a stream of flame which can set almost any target ablaze. No one has yet refined it to the point where a hand-held projector is feasible.
 
 Alchemist fire is always flammable. If a cask is opened and comes in contact with fire, it will explode automatically, causing 3d10 points of damage to everyone within a 15-foot radius. Any other alchemist fire containers exposed to this explosion will also explode with identical results unless their containers save versus fire. Exploding alchemist fire also causes a fire in the hold.
@@ -1188,28 +1188,28 @@ Alchemist fire is sometimes called bannaple gas.
 **Cost**: 5 sp<br>
 **Weight**: 4 lbs<br>
 **Type**: Piercing<br>
-**Damage**: As listed for ballista, as a spear in hand-to-hand combat
+**Damage**: As listed for ballista, as a spear in hand-to-hand combat<br>
 A ballista bolt is a large arrow used in all the standard ballistas. A standard ballista bolt will fit a light, medium, or heavy ballista. The difference in damage is caused by the power of the ballista's mechanism.
 
 ### Catapult Stones
 **Cost**: 3 sp<br>
 **Weight**: 3-10 lbs<br>
 **Type**: Bludgeoning<br>
-**Damage**: As listed for catapult
+**Damage**: As listed for catapult<br>
 Unlike ballista bolts, three types of catapult stones are available, one for each type of catapult: light, medium, and heavy. Only the proper sort of stone is useful in each catapult type. A copper-pinching captain can use any type of similarly-sized and readily available rock to inflict similar damage, and some combats have involved tossing tables, dead bodies, cows, and other items through space as shot.
 
 ### Stone Shot and Jettison Shot
 **Cost**: 2 sp per load<br>
 **Weight**: 20 lbs per load<br>
 **Type**: Bludgeoning<br>
-**Damage**: As listed for catapult or jettison
+**Damage**: As listed for catapult or jettison<br>
 A bundle of stone shot or jettison shot can fit any catapult or jettison. Usually, this type of shot is stored as packages of rocks in thick bags which burst when fired. Almost any sort of stuff can be substituted in an emergency.
 
 ### Bombard Shot
 **Cost**: 1 gp (stone), 2 gp (iron)<br>
 **Weight**: 10 lbs<br>
 **Type**: Bludgeoning<br>
-**Damage**: As for bombard
+**Damage**: As for bombard<br>
 Two types of shot are used in bombards: large, round stones and cast iron "cannonballs." Using the latter increases the bombard's damage against a ship but not against crew members. (Stone shot often breaks up on impact, scattering sharp fragments, while iron is less likely to do so.) Bombards using iron shot have a +2 modifier to hit.
 
 </div>

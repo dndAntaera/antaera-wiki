@@ -46,7 +46,7 @@ Any character with access to Knowledge (any), Knowledge (geography), or Knowledg
 - Synergy: 5 or more ranks in Knowledge (wildspace) grants a +2 bonus to Profession (wildspace navigator) checks.
 
 ### Profession
-**Siege Engineer**
+**Siege Engineer**<br>
 If you join a ship's weapon team without at least one rank in this skill, your presence adds one round to the reload time.
 
 Additional professions for Spelljammer campaigns:
@@ -54,7 +54,7 @@ Additional professions for Spelljammer campaigns:
 - **Spacehand**: Trained in shipboard duties.
 - **Wildspace Navigator**: Capable of using charts to navigate through space.
 
-These professions are available only to spacefaring characters who have the Spacefarer feat.
+These professions are available only to spacefaring characters who have the Spacefarer feat.<br>
 Synergies:
 
 - 5 or more ranks in Profession (sailor) grants a +2 bonus on Profession (spacehand) checks and vice versa.
@@ -111,7 +111,7 @@ A Wildspace Survival check applies for the full day. Checks made to identify haz
 **Prerequisites**: Int 10+.<br>
 **Benefit**: You operate a Helm as an arcane spellcaster of half your highest class level (round down, minimum 1st). For example, a 3rd level Fighter with this feat would operate a Helm as effectively as a 1st level Wizard. Helm Pilot skill is now considered a class skill and can be used untrained.
 
-This feat allows a non-spellcaster to tap into their latent magical talent for the purpose of operating a spelljamming helm. If something prevents their access to this talent, then just as a Wizard who was cut off from their magical power by some means, they cannot operate a Helm.
+This feat allows a non-spellcaster to tap into their latent magical talent for the purpose of operating a spelljamming helm. If something prevents their access to this talent, then just as a Wizard who was cut off from their magical power by some means, they cannot operate a Helm.<br>
 **Normal**: Without this feat, a character who is not a spellcaster cannot operate a standard Spelljamming Helm.
 
 ### Freefall [General]
@@ -164,7 +164,7 @@ This feat allows a non-spellcaster to tap into their latent magical talent for t
 
 **Benefit**: Characters from unaware societies may acquire this feat for free after gaining familiarity with Wildspace and the Phlogiston over the course of one full level of experience. This can be achieved by adventuring at an asteroid port, learning from a spelljamming relative, or traveling with others familiar with spacefaring life.
 
-Characters are not required to take this feat but must actively seek to learn and acclimate themselves to the spacefaring lifestyle to gain it.
+Characters are not required to take this feat but must actively seek to learn and acclimate themselves to the spacefaring lifestyle to gain it.<br>
 **Special**: Characters hailing from a spelljamming-aware society, such as the Rock of Bral, automatically gain this feat at character creation. Characters without this feat suffer a -4 circumstance penalty on all knowledge-based skills related to spelljamming and cannot select feats or learn skills that have Spacefarer as a prerequisite.
 
 ### Existing Feat Notice

@@ -63,28 +63,28 @@ When making your character, head to the Character Sheets forum in the Discord an
 
 ### Misc Limitations
 
-**Limited Magic Items**
+**Limited Magic Items**<br>
 Characters may only have 1 of any single magic item. This does not apply to consumables, armor, shields, and weapons.
 
-**Limited Consumables**
+**Limited Consumables**<br>
 Players may only bring a number of consumables into a game equal to their proficiency modifier. Spell Scrolls of 6th-9th level count as two consumables for this calculation. Healing potions have the same limit, but their own counter. Ammunition does not count against this limit, nor do spell components.
 
-**Rapid Chugging**
+**Rapid Chugging**<br>
 Drinking your own healing potions is a bonus action, feeding a potion to another player is an action, as is drinking any other type of potion.
 
-**Magic Item Flight**
+**Magic Item Flight**<br>
 A magic item that allows the user to move without expending movement (such as a broom of flying or a carpet of flying) is considered to be voluntary movement, and so provokes opportunity attacks from creatures as normal.
 
-**Magic Item Usage and Attunement Slots**
+**Magic Item Usage and Attunement Slots**<br>
 Companions (minions, summons, pets, etc) do not use your attunement slots. They instead have their own slots. This being said, unintelligent or mindless creatures (such as mindless undead and animals) cannot use items that require spell completion or spell triggers to activate. IE: mindless skeletons cannot use things like wands, scrolls, or Lanterns of Revealing.
 
-**Mounts and Summons**
+**Mounts and Summons**<br>
 You may bring up to two permanent magical summons into a one-shot (find familiar, find greater steed, etc.), and only a single non-magically obtained mount. This does not apply to Planar Binding.
 
-**Precast Spells**
+**Precast Spells**<br>
 This one is more of a guideline than an actual rule. The recommended amount of precast spells coming into a session is equal to the character’s proficiency bonus (5e) or ¼ their ECL (3.5e). While this obviously shouldn’t be used for minion-spell based characters (like shepherds or necromancers), it is mainly to prevent people from abusing things like Glyph of Warding or Demiplane. This one is entirely up to DM discretion as to how it is applied.
 
-**Healing Spells**
+**Healing Spells**<br>
 Spells that restore health points may target friendly undead, even if the spell says otherwise.
 
 </div>

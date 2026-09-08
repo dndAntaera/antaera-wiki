@@ -852,24 +852,40 @@ def expand_item_blocks(s):
     return "\n".join(lines)
 
 
+# Lines that are their own block. A newline next to one of these is a break
+# between blocks, not a break inside a paragraph.
+BLOCK_LINE = re.compile(
+    r"^\s*$|^#{1,6}\s|^<|^\||^\s*[-*+]\s|^\s*\d+\.\s|^>|^!\[|^\s*```|^!!!|^\?\?\?|^\s{4}")
+
+
 def stat_line_breaks(s):
-    """Put the line breaks back into every run of labelled stat lines.
+    """Put back the line breaks Markdown drops.
 
-    Wikidot renders a single newline inside a paragraph as <br>; Markdown
-    folds the lines into one paragraph instead. Every block written as
+    Wikidot renders a single newline inside a paragraph as <br>. Markdown
+    folds those lines into one paragraph instead, so anything the wiki wrote
+    as a stack of short lines arrived as a run-on sentence:
 
-        **Price (Item Level)**: 2800 gp
-        **Body Slot**: Neck
+        **Price (Item Level)**: 2800 gp        Price (Item Level): 2800 gp
+        **Body Slot**: Neck             ->     Body Slot: Neck Caster Level:
+        **Caster Level**: 5th                  5th ...
 
-    was therefore reaching the page as one run-on line of prose. It is the
-    same defect the spell blocks had, and it is not confined to them: items,
-    backgrounds, feats, ship weapons and ammunition are all written this way.
+    Checked against the live wiki rather than assumed: Orion's "Appearance:"
+    renders there as "<strong>Appearance</strong>:<br>" with the prose on the
+    next line, and the spell panels break between every stat.
 
-    A run of two or more consecutive labelled lines gets its breaks back. One
-    such line on its own is a sentence with a bold lead-in, not a stat block,
-    and is left alone. Magic items are also put in the wiki's field order.
+    This is not confined to stat blocks. Items, backgrounds, feats, ship
+    weapons, ammunition, the deity pages' Appearance and Backstory labels, and
+    weapon category lines are all written as adjacent lines, and all of them
+    were folding. Any two adjacent lines that are both ordinary paragraph text
+    get the break; headings, lists, tables, HTML, images and code are blocks of
+    their own and are left alone.
+
+    Magic items are also put in the wiki's field order while their run is in
+    hand, so the rule holds for anything added later.
     """
     lines = s.split("\n")
+
+    # Field order first, so the sort sees the run before it is broken up.
     i = 0
     while i < len(lines):
         if not STAT.match(lines[i]) or lines[i].endswith("<br>"):
@@ -878,14 +894,20 @@ def stat_line_breaks(s):
         j = i
         while j < len(lines) and STAT.match(lines[j]) and not lines[j].endswith("<br>"):
             j += 1
-        if j - i >= 2:
-            run = [STAT.match(l).groups() for l in lines[i:j]]
-            if any(k.strip().lower() == "price (item level)" for k, _ in run):
-                run.sort(key=lambda kv: ITEM_ORDER.get(kv[0].strip().lower(), 99))
-            lines[i:j] = ["**%s**: %s%s" % (k.strip(), v.strip(),
-                                            "" if n == len(run) - 1 else "<br>")
-                          for n, (k, v) in enumerate(run)]
+        run = [STAT.match(l).groups() for l in lines[i:j]]
+        if any(k.strip().lower() == "price (item level)" for k, _ in run):
+            run.sort(key=lambda kv: ITEM_ORDER.get(kv[0].strip().lower(), 99))
+        # Rebuilt rather than left alone, so that a label written without the
+        # space after its colon - "**Type**:Regional" - reads like the rest.
+        lines[i:j] = [("**%s**: %s" % (k.strip(), v.strip())).rstrip()
+                      for k, v in run]
         i = j
+
+    for i in range(len(lines) - 1):
+        if BLOCK_LINE.match(lines[i]) or BLOCK_LINE.match(lines[i + 1]):
+            continue
+        if not lines[i].endswith("<br>"):
+            lines[i] += "<br>"
     return "\n".join(lines)
 
 
@@ -1135,9 +1157,11 @@ def main(backup):
     with open(os.path.join(DOCS, "archived.md"), "w", encoding="utf-8", newline="\n") as fh:
         fh.write(
             '---\ntitle: "Archived Pages"\n---\n\n'
-            "Material kept for reference but no longer part of the current\n"
-            "setting. Archived pages do not appear in the glossary or in search\n"
-            "results.\n\n"
+            # One line, not wrapped: adjacent lines are a line break on this
+            # wiki, and this is a single paragraph.
+            "Material kept for reference but no longer part of the current"
+            " setting. Archived pages do not appear in the glossary or in"
+            " search results.\n\n"
             "<!-- ARCHIVED-INDEX -->\n"
         )
     written += 1

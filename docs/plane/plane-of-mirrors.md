@@ -84,7 +84,7 @@ Sillits are the leaders of the nerras, but they rule through necessity more than
 
 <div class="wd-spell" data-wd-kind="Spell" markdown>
 
-**Mirror Walking**
+**Mirror Walking**<br>
 *Transmutation*
 
 **Level**: Clr 5, Sor/Wiz 7<br>
@@ -114,7 +114,7 @@ Using the mirror walk spell is not without danger. When you travel to a Plane of
 <div class="wd-cell" markdown>
 
 # Mirror Survival
-Other than battling yourself in combat to the death, there are no obvious perils on the Plane of Mirror. Travelers can breathe normally on the plane. Food and water must be brought along by long-term visitors, for there are no natural sources of sustenance on the Plane
+Other than battling yourself in combat to the death, there are no obvious perils on the Plane of Mirror. Travelers can breathe normally on the plane. Food and water must be brought along by long-term visitors, for there are no natural sources of sustenance on the Plane<br>
 of Mirrors.
 
 Vision on the Plane of Mirrors is like in any interior castle hallway. The various mirror-portals may provide light if there is light on the planes they connect to.

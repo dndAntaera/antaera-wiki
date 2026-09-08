@@ -90,137 +90,137 @@ If a character’s commander rank is reduced, he may not replace his commander a
 
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
-**Animal Commander**
+**Animal Commander**<br>
 You are adept at using warbeasts to assault your foes—and bringing them back alive when the battle is done.
 <u>Prerequisite</u>: Commander rating 1, any neutral alignment, wild empathy class feature.
 <u>Benefit</u>: Animal and magical beast allies within 30 feet of you gain a +2 morale bonus on saving throws. This aura affects allies with Intelligence scores of 1 or higher.
 
-**Archery Commander**
+**Archery Commander**<br>
 You have a knack for directing arrows from the archers in your command.
 <u>Prerequisite</u>: Commander rating 2, any chaotic alignment, Point Blank Shot.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on ranged attacks. Add 1 to the save DC of any volley of arrows (see page 68) that you direct.
 
-**Bloodthirsty Commander**
+**Bloodthirsty Commander**<br>
 You are most effective when you direct your troopers to finish off wounded enemies.
 <u>Prerequisite</u>: Commander rating 3, any evil alignment.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on damage rolls against wounded creatures.
 
-**Deathslayer Commander**
+**Deathslayer Commander**<br>
 Your allies battle undead with exceptional fervor.
 <u>Prerequisite</u>: Commander rating 2, any good alignment, ability to turn undead.
 <u>Benefit</u>: Living allies within 30 feet of you deal an extra 1d6 points of damage on melee attacks made against undead creatures. This benefit is considered a morale bonus.
 
-**Defensive Commander**
+**Defensive Commander**<br>
 The orders you give in combat always keep the safety of your troops paramount.
 <u>Prerequisite</u>: Commander rating 2, lawful good alignment.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus to Armor Class.
 
-**Doublestrike Commander**
+**Doublestrike Commander**<br>
 You direct your troops to press the advantage against enemies they have wounded.
 <u>Prerequisite</u>: Commander rating 5, chaotic good alignment.
 <u>Benefit</u>: If an ally within 30 feet of you rolls a natural 20 on a melee attack, that ally can immediately make another melee attack with the same weapon or natural attack, using the same attack bonus.
 
-**Dwarf Commander**
+**Dwarf Commander**<br>
 You are adept at inspiring your troops to stand fast against giants and other foes of the dwarf people.
 <u>Prerequisite</u>: Commander rating 3, dwarf, lawful good alignment.
 <u>Benefit</u>: Dwarf allies within 30 feet of you gain a +2 morale bonus to Armor Class, or a +4 morale bonus to AC against giants.
 
-**Elf Commander**
+**Elf Commander**<br>
 You are particularly good at safeguarding the elves under your command.
 <u>Prerequisite</u>: Commander rating 3, elf, chaotic good alignment.
 <u>Benefit</u>: Elf allies within 30 feet of you gain a +2 morale bonus on saving throws.
 
-**Feral Commander**
+**Feral Commander**<br>
 You can whip animals under your command into a bloodthirsty frenzy.
 <u>Prerequisite</u>: Commander rating 3, any neutral alignment, Handle Animal 5 ranks.
 <u>Benefit</u>: Animal and magical beast allies within 30 feet of you gain a +2 morale bonus on attack rolls. This aura affects allies with Intelligence scores of 1 or higher.
 
-**Giant-Killer Commander**
+**Giant-Killer Commander**<br>
 You can direct your troops to bring down enemies bigger than they are.
 <u>Prerequisite</u>: Commander rating 2, Small or smaller size, any good alignment.
 <u>Benefit</u>: Allies within 30 feet of you gain a +2 morale bonus on melee attacks against creatures at least two size categories larger than they are.
 
-**Goblinoid Commander**
+**Goblinoid Commander**<br>
 You bring out the bloodthirsty, savage nature in your goblinoid troops.
 <u>Prerequisite</u>: Commander rating 3, goblinoid, lawful evil alignment.
 <u>Benefit</u>: Goblinoid allies within 30 feet of you gain a +2 morale bonus on melee attack rolls.
 
-**Healing Commander**
+**Healing Commander**<br>
 Your healing touch can inspire your troops to charge back into battle.
 <u>Prerequisite</u>: Commander rating 3, any good alignment.
 <u>Benefit</u>: Whenever you use a spell or effect to heal damage taken by an ally, you can attempt a rally check as a free action to improve that ally’s morale.
 
-**Maneuvering Commander**
+**Maneuvering Commander**<br>
 You keep your soldiers always on the move, looking for the weakest points in your enemies’ defenses.
 <u>Prerequisite</u>: Commander rating 2, chaotic good alignment.
 <u>Benefit</u>: Any ally who starts her turn within 30 feet of you and moves at least 10 feet gains a +2 morale bonus on the next melee attack roll she makes during her turn.
 
-**Melee Commander**
+**Melee Commander**<br>
 You are most effective when inspiring your soldiers to take the fight to the enemy in hand-to-hand combat.
 <u>Prerequisite</u>: Commander rating 3, any lawful alignment, base attack bonus +2 or higher.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on melee attack rolls.
 
-**Mobile Commander**
+**Mobile Commander**<br>
 Your troops are exceptionally fleet of foot.
 <u>Prerequisite</u>: Commander rating 3, any chaotic alignment.
 <u>Benefit</u>: Any ally who begins his turn within 30 feet of you gains a 5-foot bonus to his speed. This benefit is considered a morale bonus.
 
-**Necromantic Commander**
+**Necromantic Commander**<br>
 Your unliving allies battle the living with exceptional fervor.
 <u>Prerequisite</u>: Commander rating 2, any evil alignment, ability to command or rebuke undead.
 <u>Benefit</u>: Undead allies within 30 feet of you that have an Intelligence score of 1 or higher deal an extra 1d6 points of damage on melee attacks made against living creatures. This benefit is considered a morale bonus.
 
-**Opportunistic Commander**
+**Opportunistic Commander**<br>
 You can direct your soldiers to take advantage whenever your enemies are distracted or overwhelmed.
 <u>Prerequisite</u>: Commander rating 1, any chaotic alignment.
 <u>Benefit</u>: Allies within 30 feet of you deal an extra 1d6 points of damage on any successful attack of opportunity. This benefit is considered a morale bonus.
 
-**Orc Commander**
+**Orc Commander**<br>
 You can hone the fighting instincts of the orcs under your command.
 <u>Prerequisite</u>: Commander rating 3, orc, chaotic evil alignment.
 <u>Benefit</u>: Orc allies within 30 feet of you deal an extra 1d6 points of damage on melee attacks. This benefit is considered a morale bonus.
 
-**Orderly Commander**
+**Orderly Commander**<br>
 You are adept at getting your soldiers back into the fray quickly.
 <u>Prerequisite</u>: Commander rating 2, any lawful alignment.
 <u>Benefit</u>: Any ally rallied by you gains a 10-foot bonus to its speed for 1 round. This benefit is considered a morale bonus.
 
-**Protective Commander**
+**Protective Commander**<br>
 Your allies benefit from your protective guidance.
 <u>Prerequisite</u>: Commander rating 1, any lawful alignment.
 <u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on saving throws.
 
-**Pursuing Commander**
+**Pursuing Commander**<br>
 You direct your soldiers to chase down any cowards who dare to escape your iron grip.
 <u>Prerequisite</u>: Commander rating 2, lawful evil alignment.
 <u>Benefit</u>: Allies within 30 feet of you deal an extra 1d6 points of damage against foes who are frightened or panicked. This benefit is considered a morale bonus.
 
-**Reckless Commander**
+**Reckless Commander**<br>
 You inspire your allies to charge ferociously into battle.
 <u>Prerequisite</u>: Commander rating 2, chaotic evil alignment.
 <u>Benefit</u>: Any ally who begins her turn within 30 feet of you deals an extra 1d6 points of damage on the next charge attack she makes during her turn. This benefit is considered a morale bonus.
 
-**Runt-Squasher Commander**
+**Runt-Squasher Commander**<br>
 Your soldiers delight in fighting foes that are smaller than themselves.
 <u>Prerequisite</u>: Commander rating 2, Large or larger size, any evil alignment.
 <u>Benefit</u>: Allies within 30 feet of you gain a +2 morale bonus on attacks made against foes at least one size category smaller than they are.
 
-**Sneaky Commander**
+**Sneaky Commander**<br>
 You are good at surrounding your enemies, then striking from all sides.
 <u>Prerequisite</u>: Commander rating 5, chaotic evil alignment, sneak attack ability.
 <u>Benefit</u>: Allies within 30 feet of you deal an extra 1d6 points of damage against foes that they flank. This benefit is considered a morale bonus.
 
-**Spellslinging Commander**
+**Spellslinging Commander**<br>
 The spellcasters in your command are inspired by your presence and can channel extra energy into their combat spells.
 <u>Prerequisite</u>: Commander rating 3, ability to cast 1st-level spells, Spellcraft 5 ranks.
 <u>Benefit</u>: Any area spell cast by an ally within 30 feet of you deals an extra 1d6 points of damage. Only spells that deal damage gain this bonus. This benefit is considered a morale bonus.
 
-**Steadfast Commander**
+**Steadfast Commander**<br>
 You are skilled at getting your troops to hold the line against the fiercest attacks.
 <u>Prerequisite</u>: Commander rating 5, lawful good alignment.
 <u>Benefit</u>: Allies within 30 feet of you gain a +2 morale bonus to Armor Class against foes who move at least 5 feet before attacking.
 
-**Tyrannical Commander**
+**Tyrannical Commander**<br>
 Your soldiers are more afraid of you than they are of the enemy.
 <u>Prerequisite</u>: Commander rating 5, lawful evil alignment, Intimidate 5 ranks.
 <u>Benefit</u>: Allies within 30 feet of you gain a +5 morale bonus on morale checks but automatically become panicked if they fail a morale check.
@@ -239,14 +239,14 @@ A creature who begins to succumb to fear progresses down a slippery slope. First
 
 Morale is a creature’s defense against fear. This fact is simulated by the morale check, which is simply a term describing a DC 20 Will save against a fear effect. Any modifiers applying to Will saves (or against fear-based effects) function normally. Additional bonuses or penalties on the morale check are assessed based upon the conditions of battle, as listed below.
 
-**When to Use the Morale Check**
+**When to Use the Morale Check**<br>
 Morale has always been an important part of both real-world and fantasy wars, so it’s an important factor in the battlefield adventures you create at the gaming table. The effects of morale—from brave knights rallying their fellows to hapless peasants throwing down their spears as they flee—are fundamental to the genre.
 
 When the action focuses on the PCs battling small groups of enemies (which should be almost always), morale checks aren’t usually necessary. However, if you’re describing action on another part of the battlefield—or if high-level PCs confront a big group of low-level enemies—the morale check allows you to simulate the swinging fortunes of battle quickly and effectively.
 
 Because the PCs are the protagonists and the focus of the game, they don’t ordinarily make morale checks. The decision to retreat and fight another day is for the players to make and shouldn’t be forced by a die roll (unless everyone has agreed to use this rule; see the sidebar on page 75). However, their NPC allies must make morale checks just as the enemy does.
 
-**Morale in the Dungeon**
+**Morale in the Dungeon**<br>
 You can also take these rules beyond the battlefield if you wish, using them in dungeon-based adventures, urban settings, or elsewhere. In most cases, using the morale rules means that monsters run away more often than they do in a typical D&D adventure. That situation is common in organized warfare, but rare in a dungeon because the monsters are found in their lair and have nowhere else to go. In contrast, a smart commander encourages her units to retreat (or at least make a strategic withdrawal) when they’re overmatched or needed elsewhere. If you use these morale rules in a traditional D&D adventure, make sure you account for the greater likelihood of NPCs retreating.
 
 </div>
@@ -272,7 +272,7 @@ If a creature is required to attempt a morale check, it makes the check at the s
 
 *Table: Morale Check Modifiers*
 
-**Group Morale Checks**
+**Group Morale Checks**<br>
 In cases when you need to know whether a large group of creatures stays or runs, a single morale check can often take the place of individual checks for each member of the unit, with the result applying equally to all creatures in the unit. This saves a lot of time and effort on the DM’s part.
 
 Use this shortcut only when you’re dealing with a large group and the fate of individual soldiers doesn’t matter, such as when the PCs are observing part of a battle but haven’t waded into melee themselves. If you feel it’s important to know how each individual soldier reacts, use the normal morale check rules instead.
@@ -281,7 +281,7 @@ Since you probably aren’t keeping track of the hit points of the individuals i
 
 For the purpose of making a group morale check, the unit’s Will save modifier is the average of the individual Will save modifiers of each soldier. If the group consists of essentially identical creatures, this value is the same as any single creature’s Will save modifier. In groups of differing creatures, add together the Will save modifiers for all creatures in the group and divide the result by the number of creatures in the group. If you anticipate using this shortcut, you should figure out this value before the gaming session begins to save time at the table.
 
-**Morale Check Effects**
+**Morale Check Effects**<br>
 If the morale check succeeds, the creature can act normally.
 
 Each time a creature (or unit) fails a morale check, the morale condition of that creature (or the creatures of that unit) worsens by one category. Morale conditions are described in the accompanying sidebar.
@@ -290,7 +290,7 @@ If a creature fails a morale check by 10 or more, the morale condition worsens b
 
 Panicked is normally the worst morale condition; panicked creatures can’t get any worse. However, strange things can happen on the battlefield when a soldier snaps.  If a creature rolls a natural 1 on a morale check that would make it panicked, it becomes crazed instead.
 
-**Morale Conditions**
+**Morale Conditions**<br>
 The following morale conditions are organized from highest morale to lowest morale, with the special morale condition of “crazed” listed at the bottom. Unless otherwise noted, all conditions last for the duration of the battle or until the character’s morale condition changes as the result of another morale check or a rally check.
 
 - Heartened: A heartened character has been encouraged and is confident of victory. Heartened characters gain a +1 morale bonus on Will saves against fear effects (including morale checks).

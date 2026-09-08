@@ -145,7 +145,7 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 # Weapons
 
 ### Grappling Hook
-*Exotic Two-Handed Thrown Melee*
+*Exotic Two-Handed Thrown Melee*<br>
 **Critical**: x2<br>
 **Type**: Piercing<br>
 **Range Increment**: 40 ft<br>
@@ -174,7 +174,7 @@ When using a grappling hook, you get a +2 bonus on opposed attack rolls made to 
 You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a grappling hook sized for you, even though it isn’t a light weapon for you.
 
 ### Boarding Pike
-*Martial Two-Handed Melee*
+*Martial Two-Handed Melee*<br>
 **Critical**: x3<br>
 **Type**: Piercing<br>
 **Range Increment**: -<br>

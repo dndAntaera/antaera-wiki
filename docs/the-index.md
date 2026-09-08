@@ -141,54 +141,54 @@ title: "The Index"
 # Altered Content
 
 ## <u>Feats</u>
-**Greenbound Summoning**
+**Greenbound Summoning**<br>
 [Metamagic]
 
-*Prerequisite*
+*Prerequisite*<br>
 Ability to cast Speak with Plants as a spell or spell-like ability, any Summon Nature's Ally spell, Augment Summoning
 
-*Benefit*
+*Benefit*<br>
 All animals that you summon using summon nature's ally acquire the greenbound template (see page 173) for as long as the summoning spell lasts. A greenbound summoning spell uses up a spell slot two levels higher than the spell's actual level.
 
-**Psicrystal Affinity**
+**Psicrystal Affinity**<br>
 If the psicrystal dies or is dismissed by the manifester, the manifester must attempt a DC 15 Fortitude saving throw. Failure means he loses 200 experience points per manifester level; success reduces the loss to one-half that amount. However, a manifester’s experience point total can never go below 0 as the result of a psicrystal's demise or dismissal. A slain or dismissed psicrystal cannot be replaced for a year and day. A slain psicrystal can be raised from the dead just as a character can be, and it does not lose a level or a Constitution point when this happy event occurs.
 
 Psicrystals gain the Living Construct subtype and a Constitution score of 3.
 
-**Exceptional Artisan**
+**Exceptional Artisan**<br>
 [Item Creation]
 
-*Prerequisite*
+*Prerequisite*<br>
 Any item creation feat,
 
-*Benefit*
+*Benefit*<br>
 Choose one item creation feat that you possess. When you make an item with that feat and are determining the time you need to craft, reduce the base cost by 25%.
 
-**Legendary Artisan**
+**Legendary Artisan**<br>
 [Item Creation]
 
-*Prerequisite*
+*Prerequisite*<br>
 Any item creation feat,
 
-*Benefit*
+*Benefit*<br>
 Choose one item creation feat that you possess. When you make an item with that feat and are determining your XP cost, reduce the base cost by 25%.
 
-**Extraordinary Artisan**
+**Extraordinary Artisan**<br>
 [Item Creation]
 
-*Prerequisite*
+*Prerequisite*<br>
 Any item creation feat,
 
-*Benefit*
+*Benefit*<br>
 Choose one item creation feat that you possess. When you make an item with that feat and determine the gold piece's cost in raw materials, reduce the base cost by 25%.
 
-**Pure Soul**
+**Pure Soul**<br>
 [Exalted]
 
-*Prerequisite*
+*Prerequisite*<br>
 No taint
 
-*Benefit*
+*Benefit*<br>
 You gain a +4 bonus on Corruption or Depravity saves. This bonus increases by +1 for every Exalted feat you possess.
 
 - Ancestry feats can only be taken by creatures who are members of a true breeding race or can trace their ancestry.
@@ -198,7 +198,7 @@ You gain a +4 bonus on Corruption or Depravity saves. This bonus increases by +1
 - All races/templates with the "Naturally Psionic" feature have the following clause added: "This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class."
 
 ## <u>Classes</u>
-**Shadowcaster** ([source](https://www.enworld.org/threads/shadowcaster-fixes-by-mouseferatu.184955/))
+**Shadowcaster** ([source](https://www.enworld.org/threads/shadowcaster-fixes-by-mouseferatu.184955/))<br>
 *This fix was posted by the original author of the class, and were the changes that he wanted to include but was not able to.*
 
 1. Charisma determines the DC to save against your mysteries. Intelligence determines the highest level mystery you can cast.
@@ -213,28 +213,28 @@ You gain a +4 bonus on Corruption or Depravity saves. This bonus increases by +1
 
 - ~~AC Bonus: Starting at 2nd level, you can add your Wisdom modifier as a bonus to Armor Class, so long as you wear light armor, are unencumbered, and do not use a shield. This bonus to AC applies even against touch attacks or when you are flat-footed. However, you lose this bonus when you are immobilized or helpless.~~ -> AC Bonus: as per the Monk class feature.
 
-**ACF: Dragonscale Husk**
+**ACF: Dragonscale Husk**<br>
 You gain an increasing arcane spell failure chance as you gain levels. At level 1, you have 10%, at 5th level you have 15%, at 10th level you have 20%, at 15th level you have 25%, and at 20th level you have 30%. Your speed is reduced as if you were wearing medium armor. The bonus to Armor Class granted by this ACF is a Natural Armor bonus which does not stack with other sources of natural armor.
 
-**Apostle of Peace**
+**Apostle of Peace**<br>
 Pacifying Touch (Su): At 2nd level, an apostle of peace gains the ability to pacify hostile or angry creatures by touch. The effect is similar to the *calm emotions* spell. The apostle can affect only a single target with each use of the ability, and must touch the target. A potentially affected creature that succeeds on a Will save (DC 10 + ½ your levels in this class + the apostle of peace's Wisdom modifier) remains immune to your pacifying touch for 24 hours. This ability is not affected by spell resistance. The pacifying touch does not suppress positive emotions, just anger, rage, and hostility. The apostle of peace can make a level check as if casting dispel magic, using his character level as his caster level, to dispel certain mind-affecting spells affecting the target. The pacifying touch can only dispel spells that incite violent emotions in the target, such as fear or rage.
 
-**Warshaper**
+**Warshaper**<br>
 Morphic Weapons (Su): A Warshaper may use this ability a number of times per day equal to 1 + their Con mod. They gain 1 additional use of this ability per day at 3rd level, and again at 5th.
 
 This ability lasts for a number of minutes equal to your levels in this class.
 
 Using this ability is a Swift action and allows the Warshaper to grow a single morphic weapon or extend a single existing natural weapon, dismissing any previous morphic weapons and extended natural weapons in the process.
 
-**Ur-Priest**
-Alignment: Any Chaotic.
+**Ur-Priest**<br>
+Alignment: Any Chaotic.<br>
 Feats: Iron Will, Spell Focus (chaos)
 
 Aboninable Aura (Ex): Due to the nature of an Ur-Priest's power, she has a particularly powerful aura of chaos (see the detect evil spell for details). Additionally, divine casters who cast detect chaos and succeed on a caster level check (DC 8 + Wis + your levels in this class) will sense that you are an Ur-Priest. Divine characters who know you are an Ur-Priest will have a starting attitude of unfriendly towards you and, depending on the character, may turn hostile.
 
 Turn or Rebuke Undead (Su): An Ur-Priest of 2nd level or higher can turn or rebuke undead like a cleric of their alignment. She uses her ur-priest level as the cleric level for determining success and damage (see Turn and Rebuke Undead in Chapter 8 of the Player's Handbook).
 
-**Shaper of Form**
+**Shaper of Form**<br>
 Renaissance: The shaper of form changes race, gender, or general physical appearance (or any combination thereof). Thus, if the character is weak and becomes an orc, she becomes a weak orc.  This change is a permanent Transmutation effect that cannot be dispelled except with a Wish or Miracle, and has the following restrictions and changes:
 
 - She may only change into another race with the same type as her, she does not gain any of the subtypes of the new race.
@@ -243,22 +243,22 @@ Renaissance: The shaper of form changes race, gender, or general physical appear
 - The shaper of form cannot choose to become a member of a race with a level adjustment greater than her own.
 
 ## <u>Spells/Powers</u>
-**Identify, psionic**
+**Identify, psionic**<br>
 Manifesting Time: ~~1 day~~ -> 1 hour
 
-**Resurgence**
+**Resurgence**<br>
 Spells, Powers, Effects, Etc. can only be affected by this spell once.
 
-**Spell Storing Item (infusion)**
+**Spell Storing Item (infusion)**<br>
 Spells that can be emulated must be from the sorcerer/wizard, cleric, druid, bard, paladin, or ranger list in that order. If it is exclusive to a certain class or prestige class, then that takes precedence. The minimum caster level that can be emulated is the minimum level a character could take the class whose list they are emulating from.
 
-**Raging Flame**
+**Raging Flame**<br>
 This spell inflames existing ~~fire~~ normal fire, giving it a passion to burn. All normal fires within the affected area flare up, burning twice as hot and twice as bright. The illumination radii of all ~~nonmagical~~ normal fires double (so a torch casts bright illumination in a 40-foot radius), and all ~~nonmagical~~ normal fires deal double damage (so a creature that catches on fire takes 2d6 points of fire damage per round). ~~Fire~~ Normal fire that leaves the area remains affected by the spell.
 
 ~~Fire~~ Normal fires affected by this spell burns out twice as quickly, so a torch that is the subject of a raging flame spell burns out in 30 minutes instead of the normal hour.
 
 ## <u>Martial Maneuvers</u>
-White Raven Tactics: Can only be used on an individual once per combat
+White Raven Tactics: Can only be used on an individual once per combat<br>
 White Raven Tactics: Cannot affect the user
 
 ## <u>Items</u>

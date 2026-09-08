@@ -77,7 +77,7 @@ Your background item must follow these criteria to be approved:
 </div>
 <div class="wd-cell wd-aside" markdown>
 
-**Character Forum Post**
+**Character Forum Post**<br>
 *It is mentioned several times throughout the rules that players must include things in their character forum post. I am putting a quick synopsis of what needs to be in there for redundancy's sake.*
 
 - Character sheet

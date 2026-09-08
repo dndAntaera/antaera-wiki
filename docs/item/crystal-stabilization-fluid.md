@@ -18,7 +18,7 @@ Crystal Stabilization Fluid was originally invented by the House of Fabrication 
 | Crystal Stabilization Fluid, lesser | Craft (alchemy) | 20 |
 | Crystal Stabilization Fluid, greater | Craft (alchemy) | 25 |
 
-*Skill checks to create.*
+*Skill checks to create.*<br>
  _
 
 | Goods | Cost | Weight |

@@ -20,7 +20,7 @@ These dark crystals cast a pall of Corruption over the land. Flora succumbs to w
 
 In tandem, a shadow of Depravity invades the minds of those dwelling too close to these malevolent crystals. It is a quagmire of despair and aggression that ensnares the soul, distorting thoughts and wills toward darkness. Those afflicted hear the whispers of madness and are plagued by visions of their darkest fears, driving them to acts of cruelty and malice that mirror the chaos of the Negative Plane.
 
-Though a paladin might remain entirely virtuous in their actions and thoughts, long years of struggle against the forces of evil can erode their body and soul. True heroes refuse to allow the taint of evil to spread, warding it off through magic or penance. Sometimes, however, even well-intentioned characters embrace the taint within them, using it to increase their physical or mental power.
+Though a paladin might remain entirely virtuous in their actions and thoughts, long years of struggle against the forces of evil can erode their body and soul. True heroes refuse to allow the taint of evil to spread, warding it off through magic or penance. Sometimes, however, even well-intentioned characters embrace the taint within them, using it to increase their physical or mental power.<br>
 A creature's effective level of Taint is the combined total of their Corruption and Depravity scores.
 
 </div>
@@ -50,7 +50,7 @@ Characters can acquire taint by entering a place suffused with evil, coming into
 
 Every 24 hours spent in a tainted place or carrying a tainted object can bestow an additional 1 point of corruption or depravity for every 24 hours of exposure. In most cases, a character can attempt a saving throw to resist the effects of taint. Corruption allows a Fortitude save, while depravity allows a Will save. The base DC is 10 + 5 for every 24 hours of consecutive exposure. Multiple simultaneous exposures (such as carrying a tainted weapon in a tainted place) increase the DC by +5 per source of exposure every 24 hours. If the character fails their saving throw, their Corruption or Depravity score goes up by 1, depending on the nature of the taint.
 
-Any time a character acquires more points of corruption at one time than half their current Constitution score (rounded down), they must attempt another Fortitude save (DC 15 + points of corruption acquired). If this save is successful, they are sickened for 1d4 rounds; if they fail, they are nauseated for 1d4 rounds. Similarly, any time a character acquires more points of depravity at one time than half their current Wisdom score (rounded down), they must attempt another Will save (DC 15 + points of depravity acquired). If this save is successful, they are shaken for 1d4 rounds; if they fail, they are panicked for 1d4 rounds.
+Any time a character acquires more points of corruption at one time than half their current Constitution score (rounded down), they must attempt another Fortitude save (DC 15 + points of corruption acquired). If this save is successful, they are sickened for 1d4 rounds; if they fail, they are nauseated for 1d4 rounds. Similarly, any time a character acquires more points of depravity at one time than half their current Wisdom score (rounded down), they must attempt another Will save (DC 15 + points of depravity acquired). If this save is successful, they are shaken for 1d4 rounds; if they fail, they are panicked for 1d4 rounds.<br>
 Any immunity to these effects is ignored. Creatures without a Constitution score are immune to the effects of gaining massive amounts of Corruption at once. Similarly, creatures without a Wisdom score are immune to the effects of gaining massive amounts of Depravity at once.
 
 #### Evil and Taint
@@ -89,8 +89,8 @@ Other environments, such as [Dread Effects](taint-dread-effects.md) and [Hauntin
 
 You can sense the presence of taint in nearby objects and creatures. The amount of information revealed depends on how long you study a particular area or subject:
 
-*1st Round*: Presence or absence of taint within the area.
-*2nd Round*:Number of tainted creatures in the area and the strength of the strongest tainted aura present. If you are free of taint, if the strongest tainted aura is overwhelming (see below), and if the strength of the tainted aura is at least twice your character level, you are nauseated for 1 round and the spell ends.
+*1st Round*: Presence or absence of taint within the area.<br>
+*2nd Round*:Number of tainted creatures in the area and the strength of the strongest tainted aura present. If you are free of taint, if the strongest tainted aura is overwhelming (see below), and if the strength of the tainted aura is at least twice your character level, you are nauseated for 1 round and the spell ends.<br>
 *3rd Round*: The strength and location of each tainted aura. If a tainted aura is outside your line of sight, you discern its direction but not its exact location.
 
 **Aura Strength**: The strength of a tainted aura depends on the corruption or depravity score (whichever is higher) of the creature you are detecting, or the amount of taint bestowed by an object, location, or creature without a taint score. If an aura falls into more than one strength category, you learn about the stronger of the two.
@@ -130,12 +130,12 @@ It is possible to remove taint from characters in several ways, including throug
 #### Spells
 The following spells can reduce taint scores when cast outside tainted areas. No character can have a taint score reduced by any particular spell more than once per day, although different spells can reduce taint if cast on the same character on the same day.
 
-*Atonement*: This spell can remove taint, but with limits. First, it always requires a quest. Second, the caster chooses a number up to their caster level when he casts the atonement, and the spell reduces the target's corruption and depravity scores by that amount. This use of atonement, which costs the caster 500 XP, can reduce taint to a lower taint level.
-*Heal*: This spell reduces a character's corruption and depravity scores by 1 point per three caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild or moderate taint, heal can reduce taint below that threshold.
-*Miracle* or *Wish*: These spells remove sufficient taint to place the target at the highest threshold of the next lower taint level, regardless of how much time has passed.
-*Remove Curse*: This spell reduces the character's depravity score by 1.
-*Remove Disease*: This spell reduces the character's corruption score by 1.
-*Restoration*: This spell reduces the character's corruption and depravity scores by 1 point per four caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild taint, it can reduce taint below that threshold.
+*Atonement*: This spell can remove taint, but with limits. First, it always requires a quest. Second, the caster chooses a number up to their caster level when he casts the atonement, and the spell reduces the target's corruption and depravity scores by that amount. This use of atonement, which costs the caster 500 XP, can reduce taint to a lower taint level.<br>
+*Heal*: This spell reduces a character's corruption and depravity scores by 1 point per three caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild or moderate taint, heal can reduce taint below that threshold.<br>
+*Miracle* or *Wish*: These spells remove sufficient taint to place the target at the highest threshold of the next lower taint level, regardless of how much time has passed.<br>
+*Remove Curse*: This spell reduces the character's depravity score by 1.<br>
+*Remove Disease*: This spell reduces the character's corruption score by 1.<br>
+*Restoration*: This spell reduces the character's corruption and depravity scores by 1 point per four caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild taint, it can reduce taint below that threshold.<br>
 *Greater Restoration*: This spell reduces the character's corruption and depravity scores by a number of points equal to the caster level of the cleric casting greater restoration. If ﻿used within 24 hours of a taint threshold being crossed, it can reduce taint to below that threshold.
 
 #### Good Deeds
@@ -174,7 +174,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 
 \*\* Subtract the number of taint absorbing items from the total amount of points absorbed.
 
-*Table: Multiple Items*
+*Table: Multiple Items*<br>
  _
 
 | Purity | Absorption | Craft DC | Craft Cost | Market Price |
@@ -228,7 +228,7 @@ To determine the exact nature of a character's physical or mental taint symptoms
 | 29–32 | – | 15–18 | 19–24 | 25–32 | 33+ |
 | 33–36 | – | 17–20 | 21–26 | 27–34 | 35+ |
 
-*Table: Taint Threshold*
+*Table: Taint Threshold*<br>
  _
 
 | HD Before Death | Transforms Into |

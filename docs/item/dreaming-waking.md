@@ -23,7 +23,7 @@ A thick, leather-bound tome written in an ancient elven script. Dates included i
 
 **Ritual**: 4 hours of uninterrupted studying every day over the span of 5 weeks. For every additional 2 hours spent studying, the reader becomes fatigued. If they are already fatigued, they become exhausted. Exhaustion penalties accrued this way are instead placed on Charisma and Wisdom. If the reader completes 8 hours of uninterrupted studying, the time required to complete the ritual is reduced by an amount equal to how many times they do this. For example, if the reader spends 8 hours every day studying, the time it requires is instead reduced to 17 days and 4 hours.
 
-*Prerequisites*: Craft Wondrous Item, Sanctify Relic, Legend Lore, Alignment matching that of the chosen deity
+*Prerequisites*: Craft Wondrous Item, Sanctify Relic, Legend Lore, Alignment matching that of the chosen deity<br>
 *Cost to Create*: 40,000 gp, 3200 EXP, 80 days.
 
 </div>

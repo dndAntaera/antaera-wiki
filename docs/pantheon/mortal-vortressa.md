@@ -9,7 +9,7 @@ title: "Mortal Vortressa"
 
 **Domains:** Evil, Hunger, Pestilence, Spider
 
-**Appearance:**
+**Appearance:**<br>
 Vortressa is an alluring and fearsome Eladrin, her appearance a captivating blend of beauty and monstrosity. Her skin is adorned with subtle patterns resembling exotic tattoos that seem to writhe with a life of their own. Vortressa's eyes are pools of darkness, reflecting the twisted desires that fuel her dominion. She is often depicted surrounded by monstrous beings, each a manifestation of dark and twisted creatures.
 
 **Backstory:**

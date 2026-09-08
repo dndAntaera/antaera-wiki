@@ -50,7 +50,7 @@ In general, the time between two planetary bodies can be figured as:
 - Time to escape the gravity well (in turns)
 - Time to cover the distance to the next planet (in rounds, turns, or days, as appropriate)
 - Time to land (in turns, reverse of time to reach edge of gravity field)
-Example:
+Example:<br>
 A trip from Earth to Mars, assuming that they were as near as possible (about 50 million miles), would take:
 
 - 1d8 rounds for warm-up on Earth
@@ -67,13 +67,13 @@ If the time it would take to travel between two bodies is less than the time it 
 All of this assumes that the celestial bodies remain at the same relative distance during the course of the trip. In many systems, including the "real" one, this is not the case. How does the Spelljamming DM figure travel times without going crazy?
 
 ## Methods for Calculating Travel Times
-**Method 1**: The Short Way
+**Method 1**: The Short Way<br>
 All planets are considered to be close to each other when figuring travel times: Figure out the distance from the primary, subtract the two, and divide by 100 million. This gives the number of days it will take. Round all fractions up to the nearest day.
 
-**Method 2**: The Long Way
+**Method 2**: The Long Way<br>
 All planets are considered to be at the furthest distance apart. Add the two distances from the primary and divide by 100 million. For each 0.04 of the remainder, add an hour to the final time.
 
-**Method 3**: The Average Way
+**Method 3**: The Average Way<br>
 All planets are assumed to be at their average separation. Determine the distances using Method 1 and Method 2 and use their average. Round fractions up to the nearest day.
 
 <u>Method 1</u> is the fastest method and lets the characters move about the system very quickly. <u>Method 2</u> slows them down a little, particularly when they are moving around the outer planets. <u>Method 3</u> is the most accurate but takes slightly more time. <u>Method 4</u> is recommended for long-term campaigns where the movement of the planets becomes an important factor (such as when an invasion is planned for the next time two planets are close to each other).
@@ -460,7 +460,7 @@ Celestial bodies are divided into various types and classifications for easy ref
 
 *Earth, and most earth-like fantasy campaigns, are Size E.*
 
-**Shape Classes**:
+**Shape Classes**:<br>
 The symbol following the size letter denotes the general shape of the celestial body as it appears from space.
 
 - ✱ Amorphous or flexible shape
@@ -473,7 +473,7 @@ The symbol following the size letter denotes the general shape of the celestial 
 - △ None of the above, but regularly shaped (such as a tetrahedron)
 - ⟡ None of the above, but irregularly shaped
 
-**Type Classes**:
+**Type Classes**:<br>
 The second entry in defining a celestial body is the Type, which is usually determined by the most abundant substance of the object, in terms of the four elements (five in some cultures). If a body is defined as primarily fire in nature, it does not preclude the existence on its surface of earth, water, and air. All that the type declares is the general make-up of the planet.
 
 The official name used by cartographers is provided first, followed by the common name used by space voyagers (the name used in conversations is often an idea of whether the speaker is a voyager or a groundling).

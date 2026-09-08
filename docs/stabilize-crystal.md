@@ -93,7 +93,7 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 
 As the *Stabilize Crystal, lesser* spell, except as noted here.
 
-**Augment**
+**Augment**<br>
 Spending 9 power points allows the manifester to affect Lesser Planar Crystals. Spending 15 power points allows the manifester to affect Greater Planar Crystals.
 
 **Material Component**<br>

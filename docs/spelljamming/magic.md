@@ -356,8 +356,8 @@ This spell causes a large area of the shell to become temporarily insubstantial 
 
 The opening does not weaken the crystal shell, and any objects resting physically on the shell are unaffected by the portal. It takes but a fraction of a round for a ship to pass through a portal opened in this fashion. However, if the portal is dispelled or otherwise prematurely closed, roll 1d10 to determine the fate of the object passing through the opening as it closes:
 
-**1-5**: Portal closes before the ship reaches the shell. Ship must turn or ram the shell.
-**6**: Portal closes on the ship. Ship is cut in half.
+**1-5**: Portal closes before the ship reaches the shell. Ship must turn or ram the shell.<br>
+**6**: Portal closes on the ship. Ship is cut in half.<br>
 **7-10**: Portal closes after the ship passes through.
 
 Portals created by this spell are magical and temporary, so they can be dispelled. Portals that occur naturally in the crystal shell may not be dispelled.

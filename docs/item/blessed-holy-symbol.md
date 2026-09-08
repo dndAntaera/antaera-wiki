@@ -7,11 +7,11 @@ title: "Profane/Blessed (Un)Holy Symbol"
 
 # Profane/Blessed (Un)Holy Symbol
 
-**Price (Item Level)**: 2800 gp (5th level)
-**Body Slot**: Neck
-**Caster Level**: 5th
-**Aura**: Weak; (DC 18) Enchantment (Compulsion) [Mind-Affecting]
-**Activation**: - and Swift (command)
+**Price (Item Level)**: 2800 gp (5th level)<br>
+**Body Slot**: Neck<br>
+**Caster Level**: 5th<br>
+**Aura**: Weak; (DC 18) Enchantment (Compulsion) [Mind-Affecting]<br>
+**Activation**: - and Swift (command)<br>
 **Weight**: -
 
 Usually made with the material preferred by the god it is tied to, this relic bestows upon the user the blessings of its deity. If the user meets the prerequisites set forth by the deity who blessed it, they gain the benefits of the Bless spell.

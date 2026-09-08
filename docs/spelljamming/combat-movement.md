@@ -473,9 +473,9 @@ After the initial placement of the ships, there is no surprise roll. Some ships 
 
 Use the Encounter Reactions table on page 103 of the Dungeon Master's Guide to determine the reactions of the individuals, unless those reactions are previously determined by the DM (for example, a ship filled with raging xenophobes tends to not be friendly under any circumstances). A good rule of thumb to determine intentions is to use the following guidelines:
 
-**Friendly**: Large weapons unloaded, crew not carrying personal weapons.
-**Indifferent**: One of the large weapons loaded, but crew unarmed.
-**Threatening**: All large weapons loaded.
+**Friendly**: Large weapons unloaded, crew not carrying personal weapons.<br>
+**Indifferent**: One of the large weapons loaded, but crew unarmed.<br>
+**Threatening**: All large weapons loaded.<br>
 **Hostile**: All large weapons loaded, crew packed to the gunwales and armed to the teeth, shouting for blood.
 
 It is possible to make a situation appear less threatening than it is through the use of illusions, concealed weapons or crew, etc. The DM is encouraged to be as devious as necessary.

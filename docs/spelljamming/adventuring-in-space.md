@@ -146,9 +146,9 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 
 ### Grappling Hook
 *Exotic Two-Handed Thrown Melee*
-**Critical**: x2
-**Type**: Piercing
-**Range Increment**: 40 ft
+**Critical**: x2<br>
+**Type**: Piercing<br>
+**Range Increment**: 40 ft<br>
 **Hardness**: 10
 
 | Size | Cost | Damage | Weight | HP |
@@ -175,9 +175,9 @@ You can use the Weapon Finesse feat to apply your Dexterity modifier instead of 
 
 ### Boarding Pike
 *Martial Two-Handed Melee*
-**Critical**: x3
-**Type**: Piercing
-**Range Increment**: -
+**Critical**: x3<br>
+**Type**: Piercing<br>
+**Range Increment**: -<br>
 **Hardness**: 10
 
 | Size | Cost | Damage | Weight | HP |

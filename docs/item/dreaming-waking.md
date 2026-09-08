@@ -8,11 +8,11 @@ wip: true
 
 # The Book of Dreams, a Treatise on the Waking & Dreaming
 
-**Price (Item Level)**: 80,000 gp (10th level)
-**Body Slot**: -
-**Caster Level**: 10th
-**Aura**: Moderate; (DC 18) Divination
-**Activation**: - Use-Activated (see text)
+**Price (Item Level)**: 80,000 gp (10th level)<br>
+**Body Slot**: -<br>
+**Caster Level**: 10th<br>
+**Aura**: Moderate; (DC 18) Divination<br>
+**Activation**: - Use-Activated (see text)<br>
 **Weight**: 5 lbs
 
 A thick, leather-bound tome written in an ancient elven script. Dates included in the book place its authorship somewhere in the 1st Era, during the mythical times of the Ancient Antærans. The knowledge contained herein describes the planar traits of the Region of Dreams, as well as the intricacies surrounding the ability needed to traverse between the Waking and the Dreaming (safely). The reader of the book may, once per day as a swift action, gain a +5 Insight bonus to Knowledge (planes) checks regarding the Region of Dreams.

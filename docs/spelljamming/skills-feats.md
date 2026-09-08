@@ -84,7 +84,7 @@ This skill allows a character to speak and read/write languages, including new l
 ### Helm Pilot (varies)
 Use this skill to effectively pilot a Spelljamming vessel.
 
-**Check**: This skill's ability score is based on the primary casting/manifesting ability from the spellcasting/manifesting class you got it from. For example, a Wizard or Psion would use Int, a Cleric or Druid or Paladin or Ranger Wis, a Sorcerer or Bard Cha. If you would gain it from multiple sources, you may alternate this skill's ability score between them. For example, if someone is a Wizard and a Sorcerer, they may use either Int or Cha for this skill. Someone who is not a spellcaster and is using a helm not powered by spells, such as a Lifejammer, Series Helm, Forge or Furnace, would use their Cha; spellcasters/manifesters using a non-spell-powered helm would still use their spellcasting/manifesting ability. This skill is a class skill for all spellcasters/manifesters and a cross-class skill for all others.
+**Check**: This skill's ability score is based on the primary casting/manifesting ability from the spellcasting/manifesting class you got it from. For example, a Wizard or Psion would use Int, a Cleric or Druid or Paladin or Ranger Wis, a Sorcerer or Bard Cha. If you would gain it from multiple sources, you may alternate this skill's ability score between them. For example, if someone is a Wizard and a Sorcerer, they may use either Int or Cha for this skill. Someone who is not a spellcaster and is using a helm not powered by spells, such as a Lifejammer, Series Helm, Forge or Furnace, would use their Cha; spellcasters/manifesters using a non-spell-powered helm would still use their spellcasting/manifesting ability. This skill is a class skill for all spellcasters/manifesters and a cross-class skill for all others.<br>
 **Special**: This skill is 'Trained Only' for non-spellcasters; all spellcasters can use it untrained.
 
 ### Wildspace Survival (wis)
@@ -108,7 +108,7 @@ A Wildspace Survival check applies for the full day. Checks made to identify haz
 ### Apprentice Helmsman [General]
 *You can operate a spelljamming Helm.*
 
-**Prerequisites**: Int 10+.
+**Prerequisites**: Int 10+.<br>
 **Benefit**: You operate a Helm as an arcane spellcaster of half your highest class level (round down, minimum 1st). For example, a 3rd level Fighter with this feat would operate a Helm as effectively as a 1st level Wizard. Helm Pilot skill is now considered a class skill and can be used untrained.
 
 This feat allows a non-spellcaster to tap into their latent magical talent for the purpose of operating a spelljamming helm. If something prevents their access to this talent, then just as a Wizard who was cut off from their magical power by some means, they cannot operate a Helm.
@@ -117,46 +117,46 @@ This feat allows a non-spellcaster to tap into their latent magical talent for t
 ### Freefall [General]
 *You have adjusted to maneuvering in an environment with low or no gravity.*
 
-**Prerequisites**: Dex 10+, Int 10+, Spacefarer feat.
+**Prerequisites**: Dex 10+, Int 10+, Spacefarer feat.<br>
 **Benefit**: No penalty to actions in low/zero gravity. Grants a +4 bonus to balance when gravity shifts. The character will not provoke attacks of opportunity for most actions in these environments.
 
 ### Journeyman Helmsman [General]
 *You can operate a Spelljamming Helm more efficiently.*
 
-**Prerequisites**: Int 10+, Apprentice Helmsman.
-**Benefit**: You operate a Helm as an arcane spellcaster of two-thirds your highest class level (rounded down, minimum 1st). For example, a 3rd-level Fighter with this feat would operate a Helm as effectively as a 2nd-level Wizard.
+**Prerequisites**: Int 10+, Apprentice Helmsman.<br>
+**Benefit**: You operate a Helm as an arcane spellcaster of two-thirds your highest class level (rounded down, minimum 1st). For example, a 3rd-level Fighter with this feat would operate a Helm as effectively as a 2nd-level Wizard.<br>
 **Normal**: Without a Helmsman feat, a character who is not a spellcaster cannot operate a standard Spelljamming Helm.
 
 ### Master Helmsman [General]
 *You can expertly operate a Spelljamming Helm.*
 
-**Prerequisites**: Int 10+, Apprentice Helmsman, Journeyman Helmsman.
-**Benefit**: You operate a Helm as an arcane spellcaster of equal to your highest class level. For example, a 3rd level Fighter with this feat would operate a Helm as effectively as a 3rd level Wizard.
+**Prerequisites**: Int 10+, Apprentice Helmsman, Journeyman Helmsman.<br>
+**Benefit**: You operate a Helm as an arcane spellcaster of equal to your highest class level. For example, a 3rd level Fighter with this feat would operate a Helm as effectively as a 3rd level Wizard.<br>
 **Normal**: Without a Helmsman feat, a character who is not a spellcaster cannot operate a standard Spelljamming Helm.
 
 ### Phlogiston Sense [General]
 *You intuitively understand the movement of Phlogiston and can navigate through it more effectively.*
 
-**Prerequisites**: Profession (wildspace navigator) 4 ranks, Spacefarer feat, one trip between spheres.
+**Prerequisites**: Profession (wildspace navigator) 4 ranks, Spacefarer feat, one trip between spheres.<br>
 **Benefit**: Allows the use of Profession (wildspace navigator) to shorten trips through Phlogiston, but cannot create a path where none exists.
 
 ### Ship Focus [General]
 *Choose a type of spelljammer, such as a Hammership. You have special training with that ship.*
 
-**Prerequisites**: None
-**Benefit**: Having this feat for the specific type of spelljammer you are on gives you +2 to all ship-related skills involving that ship.
+**Prerequisites**: None<br>
+**Benefit**: Having this feat for the specific type of spelljammer you are on gives you +2 to all ship-related skills involving that ship.<br>
 **Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new spelljammer.
 
 ### Slow Respiration [General]
 *You can enter a trance to conserve air while in wildspace.*
 
-**Prerequisites**: Wildspace Survival 4 ranks.
+**Prerequisites**: Wildspace Survival 4 ranks.<br>
 **Benefit**: Enter a trance that reduces air consumption to one-tenth of normal. You can take no actions during this time, but remain aware of your surroundings and can regain full consciousness in 1d6 rounds.
 
 ### Space Mariner [General]
 *You are experienced in traveling the spaceways.*
 
-**Prerequisites**: Spacefarer feat.
+**Prerequisites**: Spacefarer feat.<br>
 **Benefit**: Grants a +2 bonus to Wildspace Survival and Profession (spacehand) checks.
 
 ### Spacefarer [General]

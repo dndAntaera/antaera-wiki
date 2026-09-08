@@ -12,15 +12,7 @@ Stabilizing a [Planar Crystal](item/planar-crystal.md) can be done with magic or
 </div>
 </div>
 
-<div class="wd-row wd-label" style="--wd-rw: 935px" markdown>
-<div class="wd-cell wd-plain" markdown>
-
-## Spell
-
-</div>
-</div>
-
-<div class="wd-row" style="--wd-rw: 350px" markdown>
+<div id="spell" class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
 
 ### Stabilize Crystal, lesser
@@ -83,15 +75,7 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 </div>
 </div>
 
-<div class="wd-row wd-label" style="--wd-rw: 935px" markdown>
-<div class="wd-cell wd-plain" markdown>
-
-## Psionic Power
-
-</div>
-</div>
-
-<div class="wd-row" style="--wd-rw: 350px" markdown>
+<div id="psionic-power" class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell wd-spell" data-wd-kind="Psionic Power" markdown>
 
 ### Stabilize Crystal, psionic

@@ -659,6 +659,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"[ \t]+$", "", s, flags=re.M)
     s = re.sub(r"\n{3,}", "\n\n", s)
     s = spell_cards(s)
+    s = stat_line_breaks(s)
     return s.strip() + "\n"
 
 
@@ -703,6 +704,16 @@ STAT_ORDER = {
 
 # A stat block using any of these is a psionic power rather than a spell.
 PSIONIC_STATS = {"display", "manifesting time", "power points"}
+
+# The order a magic item lists its stats in.
+ITEM_ORDER = {
+    "price (item level)": 0,
+    "body slot": 1,
+    "caster level": 2,
+    "aura": 3,
+    "activation": 4,
+    "weight": 5,
+}
 
 # Sub-headers that introduce a component. The wiki wrote these three different
 # ways - bold, italic, and inline with a colon - for the same thing.
@@ -784,6 +795,43 @@ def normalise_spell(block):
 
     kind = "Psionic Power" if any(k.lower() in PSIONIC_STATS for k, _ in stats) else "Spell"
     return out, kind
+
+
+def stat_line_breaks(s):
+    """Put the line breaks back into every run of labelled stat lines.
+
+    Wikidot renders a single newline inside a paragraph as <br>; Markdown
+    folds the lines into one paragraph instead. Every block written as
+
+        **Price (Item Level)**: 2800 gp
+        **Body Slot**: Neck
+
+    was therefore reaching the page as one run-on line of prose. It is the
+    same defect the spell blocks had, and it is not confined to them: items,
+    backgrounds, feats, ship weapons and ammunition are all written this way.
+
+    A run of two or more consecutive labelled lines gets its breaks back. One
+    such line on its own is a sentence with a bold lead-in, not a stat block,
+    and is left alone. Magic items are also put in the wiki's field order.
+    """
+    lines = s.split("\n")
+    i = 0
+    while i < len(lines):
+        if not STAT.match(lines[i]) or lines[i].endswith("<br>"):
+            i += 1
+            continue
+        j = i
+        while j < len(lines) and STAT.match(lines[j]) and not lines[j].endswith("<br>"):
+            j += 1
+        if j - i >= 2:
+            run = [STAT.match(l).groups() for l in lines[i:j]]
+            if any(k.strip().lower() == "price (item level)" for k, _ in run):
+                run.sort(key=lambda kv: ITEM_ORDER.get(kv[0].strip().lower(), 99))
+            lines[i:j] = ["**%s**: %s%s" % (k.strip(), v.strip(),
+                                            "" if n == len(run) - 1 else "<br>")
+                          for n, (k, v) in enumerate(run)]
+        i = j
+    return "\n".join(lines)
 
 
 def spell_cards(s):
@@ -1014,9 +1062,13 @@ def main(backup):
             # card - those cards are spell cards, and a section heading is not
             # part of the spell.
             half = re.sub(r"^##(?=\s)", "###", half, flags=re.M)
-            parts += ['<div class="wd-row wd-label" style="--wd-rw: 935px" markdown>',
-                      '<div class="wd-cell wd-plain" markdown>', "",
-                      "## " + label, "", "</div>", "</div>", ""]
+            # No heading for the group: each card already says whether it is a
+            # spell or a psionic power, and a divider saying it again is the
+            # same label twice. The anchor moves onto the first card of the
+            # group so the links that meant this half still land on it.
+            anchor = label.lower().replace(" ", "-")
+            half = half.replace('<div class="wd-row"',
+                                '<div id="%s" class="wd-row"' % anchor, 1)
             parts.append(half.rstrip() + "\n")
         with open(os.path.join(DOCS, rel), "w", encoding="utf-8", newline="\n") as fh:
             fh.write('---\ntitle: "' + spec["title"] + '"\n---\n\n'

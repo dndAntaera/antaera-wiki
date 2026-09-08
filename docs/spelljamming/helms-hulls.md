@@ -905,27 +905,27 @@ Catapults can be loaded with stone shot instead of large rocks. Stone shot is mo
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 ### Light Catapult
-**Cost**: 500 gp
-**Range**: 5 hexes (2,500 ft)
-**Damage**: 2d10 hit points, 1d4 hull points
-**Crew**: 1
-**Rate of Fire**: 1/2
+**Cost**: 500 gp<br>
+**Range**: 5 hexes (2,500 ft)<br>
+**Damage**: 2d10 hit points, 1d4 hull points<br>
+**Crew**: 1<br>
+**Rate of Fire**: 1/2<br>
 **Critical**: -
 
 ### Medium Catapult
-**Cost**: 700 gp
-**Range**: 4 hexes (2,000 ft)
-**Damage**: 3d10 hit points, 2d4 hull points
-**Crew**: 3
-**Rate of Fire**: 1/2
+**Cost**: 700 gp<br>
+**Range**: 4 hexes (2,000 ft)<br>
+**Damage**: 3d10 hit points, 2d4 hull points<br>
+**Crew**: 3<br>
+**Rate of Fire**: 1/2<br>
 **Critical**: -
 
 ### Heavy Catapult (Trebuchet)
-**Cost**: 1,000 gp
-**Range**: 3 hexes (1.500 ft)
-**Damage**: 3d10 hit points, 2d4 hull points
-**Crew**: 5
-**Rate of Fire**: 1/3
+**Cost**: 1,000 gp<br>
+**Range**: 3 hexes (1.500 ft)<br>
+**Damage**: 3d10 hit points, 2d4 hull points<br>
+**Crew**: 5<br>
+**Rate of Fire**: 1/3<br>
 **Critical**: -
 *Counts as two large weapons for installation.*
 
@@ -952,36 +952,36 @@ The gnomish sweeper does not inflict any hull damage but can be used as a light 
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 ### Light Ballista
-**Cost**: 400 gp
-**Range**: 6 hexes (3,000 ft)
-**Damage**: 2d6 hit points, no hull damage
-**Crew**: 1
+**Cost**: 400 gp<br>
+**Range**: 6 hexes (3,000 ft)<br>
+**Damage**: 2d6 hit points, no hull damage<br>
+**Crew**: 1<br>
 **Rate of Fire**: 1/2
 Critical: -
 
 ### Medium Ballista
-**Cost**: 600 gp
-**Range**: 4 hexes (2,000 ft)
-**Damage**: 3d6 hit points, 1d4 hull points
-**Crew**: 2
-**Rate of Fire**: 1/3
+**Cost**: 600 gp<br>
+**Range**: 4 hexes (2,000 ft)<br>
+**Damage**: 3d6 hit points, 1d4 hull points<br>
+**Crew**: 2<br>
+**Rate of Fire**: 1/3<br>
 **Critical**: x2
 
 ### Heavy Ballista
-**Cost**: 800 gp
-**Range**: 2 Hexes (1,000 yds)
-**Damage**: 3d10 hit points, 2d4 hull points
-**Crew**: 4
-**Rate of Fire**: 1/4
+**Cost**: 800 gp<br>
+**Range**: 2 Hexes (1,000 yds)<br>
+**Damage**: 3d10 hit points, 2d4 hull points<br>
+**Crew**: 4<br>
+**Rate of Fire**: 1/4<br>
 **Critical**: x2
 *Counts as two weapons or one large weapon for installation.*
 
 ### Gnomish Sweepers
-**Cost**: 800 gp
-**Range**: 3 Hexes (1,500 yds)
-**Damage**: 1d8 hit points, Special
-**Crew**: 3
-**Rate of Fire**: 1/4
+**Cost**: 800 gp<br>
+**Range**: 3 Hexes (1,500 yds)<br>
+**Damage**: 1d8 hit points, Special<br>
+**Crew**: 3<br>
+**Rate of Fire**: 1/4<br>
 **Critical**: -
 
 </div>
@@ -1021,11 +1021,11 @@ The other reason that bombards are rare is that fire travels poorly through the 
 Bombards are fixed in position once mounted, though they can be remounted in 1d4 turns in a new position. Bombards use magical smoke powder to function. One shot uses 10 charges of powder. The scarcity of smoke powder (which is a magical item in fantasy space) makes bombards impractical compared to ballistas and catapults.
 
 ### Typical Bombard
-**Cost**: 20,000 gp
-**Range**: 2 hexes (1,000 ft)
-**Damage**: 2d10 hit points, 1d6 hull points
-**Crew**: 3
-**Rate of Fire**: 1/3
+**Cost**: 20,000 gp<br>
+**Range**: 2 hexes (1,000 ft)<br>
+**Damage**: 2d10 hit points, 1d6 hull points<br>
+**Crew**: 3<br>
+**Rate of Fire**: 1/3<br>
 **Critical**: x2
 
 ## Jettisons
@@ -1041,30 +1041,30 @@ Many spelljammers use catapults as temporary jettisons when they need to. Often 
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 ### Light Jettison
-**Cost**: 400 gp
-**Range**: 3 hexes (1,500 ft)
-**Damage**: 1d6 hit points, no hull damage
-**Crew**: 2
-**Rate of Fire**: 1/2
-**Radius**: 5 ft
+**Cost**: 400 gp<br>
+**Range**: 3 hexes (1,500 ft)<br>
+**Damage**: 1d6 hit points, no hull damage<br>
+**Crew**: 2<br>
+**Rate of Fire**: 1/2<br>
+**Radius**: 5 ft<br>
 **Critical**: -
 
 ### Medium Jettison
-**Cost**: 600 gp
-**Range**: 2 hexes (1,000 yds)
-**Damage**: 2d6 hit points, no hull damage
-**Crew**: 3
-**Rate of Fire**: 1/3
-**Radius**: 10 ft
+**Cost**: 600 gp<br>
+**Range**: 2 hexes (1,000 yds)<br>
+**Damage**: 2d6 hit points, no hull damage<br>
+**Crew**: 3<br>
+**Rate of Fire**: 1/3<br>
+**Radius**: 10 ft<br>
 **Critical**: -
 
 ### Heavy Jettison
-**Cost**: 800 gp
-**Range**: 1 Hex (500 ft)
-**Damage**: 3d6 hit points, no hull damage
-**Crew**: 4
-**Rate of Fire**: 1/4
-**Radius**: 15 ft
+**Cost**: 800 gp<br>
+**Range**: 1 Hex (500 ft)<br>
+**Damage**: 3d6 hit points, no hull damage<br>
+**Crew**: 4<br>
+**Rate of Fire**: 1/4<br>
+**Radius**: 15 ft<br>
 **Critical**: -
 *Counts as two weapons or one large weapon for installation.*
 
@@ -1082,11 +1082,11 @@ Ships carrying alchemical fire projectors are more vulnerable to critical hits, 
 
 Alchemical fire projectors start fires where they hit, even on stone and treated wood; flammable materials nearby will catch fire and feed the flames.
 
-**Cost**: 1,000 gp
-**Range**: 1 Hex (500 ft)
-**Damage**: 3d10 hit points, 1d4-2 hull points + Fire
-**Crew**: 3
-**Rate of Fire**: 1/4
+**Cost**: 1,000 gp<br>
+**Range**: 1 Hex (500 ft)<br>
+**Damage**: 3d10 hit points, 1d4-2 hull points + Fire<br>
+**Crew**: 3<br>
+**Rate of Fire**: 1/4<br>
 **Critical**: -
 
 ## Turrets
@@ -1176,7 +1176,7 @@ A single charge of smoke powder inflicts 1d4 points of damage. Two charges infli
 Smoke powder is more common in space than on the planets. It is a good seller for the Arcane, who will sell 10 charges (a bombard shot) for 3,000 gp. They may also throw in two to five bombard charges free to anyone who purchases a bombard from them.
 
 ### Alchemist Fire
-**Cost**: 100 gp per shot
+**Cost**: 100 gp per shot<br>
 **Weight**: 4 lbs
 Alchemist fire is a slightly corrosive liquid. It usually is stored in stone or ceramic jugs, each jug containing enough alchemist fire for one shot. Loaded into a alchemist fire projector and lit, it fires a stream of flame which can set almost any target ablaze. No one has yet refined it to the point where a hand-held projector is feasible.
 
@@ -1185,30 +1185,30 @@ Alchemist fire is always flammable. If a cask is opened and comes in contact wit
 Alchemist fire is sometimes called bannaple gas.
 
 ### Ballista Bolts
-**Cost**: 5 sp
-**Weight**: 4 lbs
-**Type**: Piercing
+**Cost**: 5 sp<br>
+**Weight**: 4 lbs<br>
+**Type**: Piercing<br>
 **Damage**: As listed for ballista, as a spear in hand-to-hand combat
 A ballista bolt is a large arrow used in all the standard ballistas. A standard ballista bolt will fit a light, medium, or heavy ballista. The difference in damage is caused by the power of the ballista's mechanism.
 
 ### Catapult Stones
-**Cost**: 3 sp
-**Weight**: 3-10 lbs
-**Type**: Bludgeoning
+**Cost**: 3 sp<br>
+**Weight**: 3-10 lbs<br>
+**Type**: Bludgeoning<br>
 **Damage**: As listed for catapult
 Unlike ballista bolts, three types of catapult stones are available, one for each type of catapult: light, medium, and heavy. Only the proper sort of stone is useful in each catapult type. A copper-pinching captain can use any type of similarly-sized and readily available rock to inflict similar damage, and some combats have involved tossing tables, dead bodies, cows, and other items through space as shot.
 
 ### Stone Shot and Jettison Shot
-**Cost**: 2 sp per load
-**Weight**: 20 lbs per load
-**Type**: Bludgeoning
+**Cost**: 2 sp per load<br>
+**Weight**: 20 lbs per load<br>
+**Type**: Bludgeoning<br>
 **Damage**: As listed for catapult or jettison
 A bundle of stone shot or jettison shot can fit any catapult or jettison. Usually, this type of shot is stored as packages of rocks in thick bags which burst when fired. Almost any sort of stuff can be substituted in an emergency.
 
 ### Bombard Shot
-**Cost**: 1 gp (stone), 2 gp (iron)
-**Weight**: 10 lbs
-**Type**: Bludgeoning
+**Cost**: 1 gp (stone), 2 gp (iron)<br>
+**Weight**: 10 lbs<br>
+**Type**: Bludgeoning<br>
 **Damage**: As for bombard
 Two types of shot are used in bombards: large, round stones and cast iron "cannonballs." Using the latter increases the bombard's damage against a ship but not against crew members. (Stone shot often breaks up on impact, scattering sharp fragments, while iron is less likely to do so.) Bombards using iron shot have a +2 modifier to hit.
 

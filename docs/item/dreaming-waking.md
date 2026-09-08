@@ -1,5 +1,5 @@
 ---
-title: "Dreaming Waking"
+title: "The Dreaming & Waking"
 wip: true
 ---
 

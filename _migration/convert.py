@@ -200,6 +200,31 @@ TITLES = {
     "calendar": "Antæran Calendar",
     "spelljamming-main": "Spelljamming",
     "wm-index": "Stellar Marches (5e: 2014)",
+
+    # The items. None of these pages carried a name of its own, so the titles
+    # were built from their slugs and lost the punctuation - "Poisoners
+    # Quiver", "Elven Climbers Gloves". These are the names The Index gives
+    # them, which is the wiki's own naming rather than a guess.
+    "crystal-stabilization-fluid": "Crystal Stabilization Fluid",
+    "elven-climbers-gloves": "Elven Climber's Gloves",
+    "poisoners-quiver": "Poisoner's Quiver",
+    "item-blessed-holy-symbol": "Profane/Blessed (Un)Holy Symbol",
+    "item-dreaming-waking": "The Dreaming & Waking",
+}
+
+# Items whose page opens straight into the stat block, with the item's name
+# nowhere on it. On Wikidot the name came from the page header above the body;
+# here it has to be on the page. The title becomes the opening heading.
+#
+# "The Dreaming & Waking" is not in this list: its page already opens with the
+# book's full in-world title, "The Book of Dreams, a Treatise on the Waking &
+# Dreaming". The short name from The Index is the page title, the long one
+# stays the heading.
+NAME_HEADING = {
+    "crystal-stabilization-fluid",
+    "elven-climbers-gloves",
+    "poisoners-quiver",
+    "item-blessed-holy-symbol",
 }
 
 
@@ -913,6 +938,16 @@ def main(backup):
             plain = re.sub(r"[*_`~]", "", m.group(1)).strip().lower()
             if plain in GENERIC_HEADINGS:
                 body = body[:m.start()] + "# " + title + body[m.end():]
+
+        # A page that never names itself gets its title as an opening heading,
+        # put inside the first card so it is the panel's title rather than a
+        # line floating above the layout.
+        if slug in NAME_HEADING:
+            # A lambda, not a replacement string: these names carry slashes
+            # and parentheses that re would otherwise have to be escaped for.
+            body = re.sub(r'<div class="wd-cell[^"]*" markdown>\n\n',
+                          lambda m: m.group(0) + "# " + title + "\n\n",
+                          body, count=1)
 
         # The glossary was 26 ListPages queries. It is regenerated at build
         # time by hooks/glossary.py, so the page is just a marker.

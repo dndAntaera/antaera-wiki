@@ -431,3 +431,89 @@
 [data-md-color-scheme="slate"] {
   --md-typeset-a-color: #cd3dff;
 }
+
+
+/* ---------------------------------------------------------------------------
+   Spell cards
+
+   A spell or psionic power written as a stat block. Wikidot gave the ones on
+   their own page a panel of their own - measured on the live wiki: a quarter
+   of the page wide, 1px solid grey on #F6F9F6, 10px of padding, and text at
+   110% (14.43px inside a 13.12px page). Stat blocks written into a wider page
+   got the plain cell instead, so the size here is relative: a spell card is
+   1.1x whatever surrounds it, exactly as the original's 110% was.
+
+   The surface follows the parchment and slate sheets rather than the original
+   #F6F9F6, which was near-white on a white wiki and would read as a hole cut
+   in the parchment. It is a lighter, cooler sheet than the card it sits on.
+   --------------------------------------------------------------------------- */
+
+.wd-spell {
+  font-size: 1.1em;
+  border: 1px solid var(--wd-spell-edge);
+  background-color: var(--wd-spell-surface);
+  border-radius: .2rem;
+  padding: .8rem 1rem;
+  margin: 1.2rem 0;
+}
+
+/* When the block is the whole card, it is the card - not a box inside one. */
+.wd-cell.wd-spell {
+  margin: 0;
+  background-image: none;
+}
+
+.wd-spell > :first-child { margin-top: 0; }
+.wd-spell > :last-child { margin-bottom: 0; }
+
+/* The category label. Kept out of the Markdown so it cannot be edited into
+   the wrong thing, and so a page's text stays the page's text. */
+.wd-spell::before {
+  content: attr(data-wd-kind);
+  display: block;
+  font-size: .58em;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--wd-spell-tag);
+  margin-bottom: .5rem;
+}
+
+/* The spell's name. Bold, no rule under it, and the same whether the page
+   wrote it as a heading or as a bold line. */
+.wd-spell h2,
+.wd-spell h3,
+.wd-spell h4 {
+  font-size: 1.15em;
+  font-weight: 700;
+  margin: 0 0 .15rem;
+  padding: 0;
+  border: none;
+}
+
+/* School line, and the stat block under it. */
+.wd-spell h2 + p,
+.wd-spell h3 + p,
+.wd-spell h4 + p { margin-top: 0; }
+
+.wd-spell p { margin: .6rem 0; }
+
+/* A sidebar sets its own text size; the spell card is a notch above it, the
+   same relationship it has to body text elsewhere. */
+.wd-cell.wd-aside.wd-spell { font-size: .79rem; }
+
+[data-md-color-scheme="default"] {
+  --wd-spell-surface: #fbf6e9;
+  --wd-spell-edge: #c6b795;
+  --wd-spell-tag: #8a7a58;
+}
+
+[data-md-color-scheme="slate"] {
+  --wd-spell-surface: #2d333e;
+  --wd-spell-edge: #48515f;
+  --wd-spell-tag: #9aa6b8;
+}
+
+@media screen and (max-width: 60em) {
+  .wd-spell { padding: .7rem .8rem; }
+}

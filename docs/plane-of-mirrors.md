@@ -82,15 +82,19 @@ Sillits are the leaders of the nerras, but they rule through necessity more than
 ## How to Get to the Plane of Mirrors
 *Those who try to walk through mirrors unaided get nothing but a bump on the forehead for their trouble. It takes a spell to access the Plane of Mirrors.*
 
+<div class="wd-spell" data-wd-kind="Spell" markdown>
+
 **Mirror Walking**
-Transmutation
-**Level**: Clr 5, Sor/Wiz 7
-**Components**: V, S, F
-**Casting Time**: 1 full round
-**Range**: Touch
-**Targets**: Creature touched, and see text
-**Duration**: Special
+*Transmutation*
+
+**Level**: Clr 5, Sor/Wiz 7<br>
+**Components**: V, S, F<br>
+**Casting Time**: 1 full round<br>
+**Range**: Touch<br>
+**Targets**: Creature touched, and see text<br>
+**Duration**: Special<br>
 **Spell Resistance**: Yes
+
 You or the one you touch may pass through any mirror or reflecting surface of sufficient size onto the Plane of Mirrors. The mirror must be large enough for the creature touched to fit through, as if it were a window or other opening. The spell lasts until the subject passes through a mirror again, either the same mirror or a related one.
 
 On the Plane of Mirrors, you will find other windows that represent similar mirrors tied together by some strong bond. Frequently they were all made by the same artisan, but mirrors with particularly strong-willed owners or mirrors made at a particular historic moment may also be tied together.
@@ -99,7 +103,10 @@ When on the Plane of Mirrors, you can see through these other mirrors without be
 
 Using the mirror walk spell is not without danger. When you travel to a Plane of Mirrors, you create a mirror-self that will try to slay you and escape through the mirror to take over your life.
 
-*Focus*: A mirror or other reflective surface of sufficient size to step through.
+**Focus**<br>
+*A mirror or other reflective surface of sufficient size to step through.*
+
+</div>
 
 </div>
 </div>

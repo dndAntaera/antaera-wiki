@@ -12,45 +12,51 @@ Stabilizing a [Planar Crystal](planar-crystal.md) can be done with magic or with
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 350px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-row wd-label" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ## Spell
 
-### Stabilize Crystal, lesser
-***Transmutation***
+</div>
+</div>
 
-**Level**: Brd 1, Clr 2, Drd 2, Sor/Wiz 2
-**Components**: V, S, M
-**Casting Time**: 1 hour
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Planar Crystal, least
-**Duration**: Instantaneous
-**Saving Throw**: none
+<div class="wd-row" style="--wd-rw: 350px" markdown>
+<div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
+
+### Stabilize Crystal, lesser
+*Transmutation*
+
+**Level**: Brd 1, Clr 2, Drd 2, Sor/Wiz 2<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 hour<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Planar Crystal, least<br>
+**Duration**: Instantaneous<br>
+**Saving Throw**: none<br>
 **Spell Resistance**: none
 
 *You outstretch your arms, speak the incantation, and planar energies coalesce into the targeted Planar Crystal. You infuse an unstable Planar Crystal with sufficient planar magic to stabilize it.*
 
 After a ritual that takes 1 hour to complete, you cause the target Planar Crystal to become stabilized. All effects caused by touching the crystal cease, though any lasting ill effects they caused do not end.
 
-Material Component
+**Material Component**<br>
 *The Planar Crystal being stabilized.*
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 350px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
 
 ### Stabilize Crystal
-***Transmutation***
+*Transmutation*
 
-**Level**: Brd 3, Clr 5, Drd 5, Sor/Wiz 5
-**Components**: V, S, M
-**Casting Time**: 1 hour
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Least or Lesser Planar Crystal
-**Duration**: Instantaneous
-**Saving Throw**: none
+**Level**: Brd 3, Clr 5, Drd 5, Sor/Wiz 5<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 hour<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Least or Lesser Planar Crystal<br>
+**Duration**: Instantaneous<br>
+**Saving Throw**: none<br>
 **Spell Resistance**: none
 
 This spell functions like *Stabilize Crystal, lesser*, except that it affects Planar Crystals of least and lesser quality.
@@ -58,18 +64,18 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 350px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
 
 ### Stabilize Crystal, greater
-***Transmutation***
+*Transmutation*
 
-**Level**: Brd 5, Clr 8, Drd 8, Sor/Wiz 8
-**Components**: V, S, M
-**Casting Time**: 1 hour
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Least, Lesser or Greater Planar Crystal
-**Duration**: Instantaneous
-**Saving Throw**: none
+**Level**: Brd 5, Clr 8, Drd 8, Sor/Wiz 8<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 hour<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Least, Lesser or Greater Planar Crystal<br>
+**Duration**: Instantaneous<br>
+**Saving Throw**: none<br>
 **Spell Resistance**: none
 
 This spell functions like *Stabilize Crystal, lesser*, except that it affects Planar Crystals of least, lesser and greater quality.
@@ -77,22 +83,28 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 </div>
 </div>
 
-<div class="wd-row" style="--wd-rw: 350px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-row wd-label" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ## Psionic Power
 
-### Stabilize Crystal, psionic
-***Transmutation***
+</div>
+</div>
 
-**Level**: Psion/wilder 2, psychic warrior 1
-**Display**: A, M, V
-**Manifesting Time**: 1 hour
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Planar Crystal, least
-**Duration**: Instantaneous
-**Saving Throw**: none
-**Spell Resistance**: none
+<div class="wd-row" style="--wd-rw: 350px" markdown>
+<div class="wd-cell wd-spell" data-wd-kind="Psionic Power" markdown>
+
+### Stabilize Crystal, psionic
+*Transmutation*
+
+**Level**: Psion/wilder 2, psychic warrior 1<br>
+**Display**: A, M, V<br>
+**Manifesting Time**: 1 hour<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Planar Crystal, least<br>
+**Duration**: Instantaneous<br>
+**Saving Throw**: none<br>
+**Spell Resistance**: none<br>
 **Power Points**: 3
 
 As the *Stabilize Crystal, lesser* spell, except as noted here.
@@ -100,7 +112,7 @@ As the *Stabilize Crystal, lesser* spell, except as noted here.
 **Augment**
 Spending 9 power points allows the manifester to affect Lesser Planar Crystals. Spending 15 power points allows the manifester to affect Greater Planar Crystals.
 
-Material Component
+**Material Component**<br>
 *The Planar Crystal being stabilized.*
 
 </div>

@@ -27,18 +27,20 @@ The many dreamscapes created by dreamers last but a short time, and they rarely 
 - *Planar Relations* - Remote: the only way to reach the Region of Dreams from anywhere is through the psychic projection of dreaming and the Dream Travel spell
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-spell wd-aside" data-wd-kind="Spell" markdown>
 
 ## Dream Travel
 *Transmutation*
-**Level**: Sor/Wiz 8
-**Components**: V, S
-**Casting Time**: 1 action
-**Range**: Touch
-**Targets**: You plus one additional creature touched per level
-**Duration**: 1 hour/level (D)
-**Saving Throw**: Will negates (harmless)
+
+**Level**: Sor/Wiz 8<br>
+**Components**: V, S<br>
+**Casting Time**: 1 action<br>
+**Range**: Touch<br>
+**Targets**: You plus one additional creature touched per level<br>
+**Duration**: 1 hour/level (D)<br>
+**Saving Throw**: Will negates (harmless)<br>
 **Spell Resistance**: Yes
+
 You and any creature you touch are drawn along a crystal arc of reverie to the edge of conscious thought and into the Region of Dreams. You can take more than one creature along with you (subject to your level limit), but all must be touching each other when you cast the spell. You physically enter the plane of Dream, leaving nothing behind.
 
 In Dream, you move through a menagerie of thoughts, desires, and phantoms created by the minds of dreamers everywhere. For every minute you move through Dream (which is only a single round on the Material Plane), you can “wake” to find yourself five miles displaced in the waking world. Thus, a character can use this spell to travel rapidly by physically entering where only dreams prowl, moving the desired distance, and stepping back into the waking world. You know where you will come out in the waking world.

@@ -592,7 +592,181 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"\x00U(\d+)\x00", lambda m: urls[int(m.group(1))], s)
     s = re.sub(r"[ \t]+$", "", s, flags=re.M)
     s = re.sub(r"\n{3,}", "\n\n", s)
+    s = spell_cards(s)
     return s.strip() + "\n"
+
+
+# ---------------------------------------------------------------------------
+# Spell cards
+#
+# A spell or psionic power written as a stat block. The wiki has one house
+# format for these; the pages disagreed with each other on nearly every point
+# of it, so this normalises them all to:
+#
+#   title        the spell's name, bold, no italics
+#   school       directly below, italic, no bold
+#   stat block   after a blank line, one stat per line, "**Label**: value", in
+#                the order Level, Components, Casting Time, Range, Target (or
+#                Area/Effect), Duration, Saving Throw, Spell Resistance
+#   flavour      after a blank line, one fully italic paragraph - where the
+#                spell already has one. None are invented.
+#   description  after a blank line, plain text, any number of paragraphs
+#   component    a bold sub-header ("Material Component", "Focus") with its
+#                description italicised on the line below
+#
+# The stat lines need explicit breaks. Wikidot renders a single newline inside
+# a paragraph as <br> and Markdown does not, so every stat block on the site
+# was running together into one paragraph of prose.
+# ---------------------------------------------------------------------------
+
+SPELL_HEAD = re.compile(r"^(?:(#{2,4})\s+(.+)|\*\*([^*]+)\*\*)\s*$")
+STAT = re.compile(r"^\*\*([^*]+?)\*\*\s*:\s?(.*)$")
+
+# The order stats are listed in. Alternatives share a rank because they fill
+# the same slot: a power's Display is its Components, an Area is its Target.
+STAT_ORDER = {
+    "level": 0,
+    "components": 1, "display": 1,
+    "casting time": 2, "manifesting time": 2,
+    "range": 3,
+    "target": 4, "targets": 4, "area": 4, "area of effect": 4, "effect": 4,
+    "duration": 5,
+    "saving throw": 6,
+    "spell resistance": 7,
+}
+
+# A stat block using any of these is a psionic power rather than a spell.
+PSIONIC_STATS = {"display", "manifesting time", "power points"}
+
+# Sub-headers that introduce a component. The wiki wrote these three different
+# ways - bold, italic, and inline with a colon - for the same thing.
+COMPONENT_HEAD = re.compile(
+    r"^[*]{0,3}(Material Components?|Focus|Arcane Focus|Divine Focus|"
+    r"XP Cost)[*]{0,3}\s*:?\s*(.*)$", re.I)
+
+
+def _emphasise(text, marks):
+    """Re-mark a line: strip any existing emphasis, then apply `marks`."""
+    text = text.strip()
+    text = re.sub(r"^[*_]+|[*_]+$", "", text).strip()
+    return marks + text + marks if text else text
+
+
+def normalise_spell(block):
+    """One spell block, rewritten to the house format."""
+    out = [block[0]]                                   # title, left as it is
+    i = 1
+    while i < len(block) and not block[i].strip():      # skip a blank after it
+        i += 1
+
+    # School: italic, never bold, directly under the title.
+    if i < len(block) and not STAT.match(block[i]):
+        out.append(_emphasise(block[i], "*"))
+        i += 1
+
+    # Stat block: gather the run, order it, one per line.
+    stats = []
+    while i < len(block):
+        if not block[i].strip():
+            i += 1
+            continue
+        m = STAT.match(block[i])
+        if not m:
+            break
+        stats.append((m.group(1).strip(), m.group(2).strip()))
+        i += 1
+
+    if stats:
+        stats.sort(key=lambda kv: STAT_ORDER.get(kv[0].lower(), 99))
+        out.append("")
+        for n, (k, v) in enumerate(stats):
+            # <br> on every line but the last: Markdown would otherwise fold
+            # the whole run into a single paragraph.
+            out.append("**%s**: %s%s" % (k, v, "" if n == len(stats) - 1 else "<br>"))
+
+    # The rest of the block, with component sub-headers put right.
+    rest = block[i:]
+    # Two pages ran the description straight on from the last stat, which
+    # Markdown reads as more of the same paragraph.
+    if stats and rest and rest[0].strip():
+        out.append("")
+    n = 0
+    while n < len(rest):
+        ln = rest[n]
+        m = COMPONENT_HEAD.match(ln.strip()) if ln.strip() else None
+        if m and not STAT.match(ln):
+            while out and not out[-1].strip():
+                out.pop()
+            out.append("")
+            # The description goes on the line below the sub-header, which
+            # needs the same explicit break the stat lines do.
+            out.append("**" + m.group(1) + "**<br>")
+            trailing = m.group(2).strip()
+            if trailing:                       # was written inline: "*Focus*: a mirror"
+                out.append(_emphasise(trailing, "*"))
+                n += 1
+                continue
+            n += 1
+            while n < len(rest) and not rest[n].strip():
+                n += 1
+            if n < len(rest):
+                out.append(_emphasise(rest[n], "*"))
+                n += 1
+            continue
+        out.append(ln)
+        n += 1
+
+    kind = "Psionic Power" if any(k.lower() in PSIONIC_STATS for k, _ in stats) else "Spell"
+    return out, kind
+
+
+def spell_cards(s):
+    """Find the stat blocks, normalise them, and put each in a spell card."""
+    lines = s.split("\n")
+    found = []
+    i = 0
+    while i < len(lines):
+        m = SPELL_HEAD.match(lines[i])
+        if m and any(l.startswith("**Level**") for l in lines[i + 1:i + 4]):
+            depth = len(m.group(1)) if m.group(1) else 99
+            j = i + 1
+            while j < len(lines):
+                h = re.match(r"^(#{1,6})\s+", lines[j])
+                if (h and len(h.group(1)) <= depth) or lines[j].startswith("</div>"):
+                    break
+                j += 1
+            found.append((i, j))
+            i = j
+            continue
+        i += 1
+
+    for start, end in reversed(found):
+        block, kind = normalise_spell(lines[start:end])
+        while block and not block[-1].strip():
+            block.pop()
+
+        # A block that is the whole of its card becomes that card, rather than
+        # a second box drawn inside the first.
+        a = start - 1
+        while a >= 0 and not lines[a].strip():
+            a -= 1
+        b = end
+        while b < len(lines) and not lines[b].strip():
+            b += 1
+        whole_cell = (
+            a >= 0 and 'class="wd-cell' in lines[a]
+            and b < len(lines) and lines[b].startswith("</div>")
+        )
+        if whole_cell:
+            lines[a] = lines[a].replace(
+                ' markdown>', ' data-wd-kind="%s" markdown>' % kind).replace(
+                'class="wd-cell', 'class="wd-cell wd-spell', 1)
+            lines[start:end] = block + [""]
+        else:
+            lines[start:end] = (
+                ['<div class="wd-spell" data-wd-kind="%s" markdown>' % kind, ""]
+                + block + ["", "</div>", ""])
+    return "\n".join(lines)
 
 
 def main(backup):
@@ -759,13 +933,14 @@ def main(backup):
                  "# " + spec["title"], "", lead, "", "</div>", "</div>", ""]
         for label, part in spec["parts"]:
             half = merged_bodies[part]
-            # The variants drop a level to sit under their form's heading, and
-            # the label goes inside the first card so it picks up the card
-            # styling every other heading on the page has.
+            # The variants drop a level to sit under their form's heading. The
+            # label gets a row of its own rather than going inside the first
+            # card - those cards are spell cards, and a section heading is not
+            # part of the spell.
             half = re.sub(r"^##(?=\s)", "###", half, flags=re.M)
-            half = half.replace(
-                '<div class="wd-cell" markdown>\n\n',
-                '<div class="wd-cell" markdown>\n\n## ' + label + "\n\n", 1)
+            parts += ['<div class="wd-row wd-label" style="--wd-rw: 935px" markdown>',
+                      '<div class="wd-cell wd-plain" markdown>', "",
+                      "## " + label, "", "</div>", "</div>", ""]
             parts.append(half.rstrip() + "\n")
         with open(os.path.join(DOCS, rel), "w", encoding="utf-8", newline="\n") as fh:
             fh.write('---\ntitle: "' + spec["title"] + '"\n---\n\n'

@@ -73,17 +73,18 @@ Depending on the nature of the site, a tainted location can bestow either corrup
 Other environments, such as [Dread Effects](taint-dread-effects.md) and [Haunting Presences](taint-haunting-presences.md), may affect the amount of Taint in an area.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-spell wd-aside" data-wd-kind="Spell" markdown>
 
 ## Detect Taint
 *Divination*
-**Level**: Cleric 1
-**Components**: V, S,
-**Casting Time**: 1 standard action
-**Range**: 60 ft.
-**Area**: Cone-shaped emanation
-**Duration**: Concentration, up to 10 min./level (D)
-**Saving Throw**: None
+
+**Level**: Cleric 1<br>
+**Components**: V, S,<br>
+**Casting Time**: 1 standard action<br>
+**Range**: 60 ft.<br>
+**Area**: Cone-shaped emanation<br>
+**Duration**: Concentration, up to 10 min./level (D)<br>
+**Saving Throw**: None<br>
 **Spell Resistance**: No
 
 You can sense the presence of taint in nearby objects and creatures. The amount of information revealed depends on how long you study a particular area or subject:

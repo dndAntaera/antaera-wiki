@@ -201,28 +201,36 @@ In addition to the various magical items that can propel a ship, there are sever
 
 # Spell Descriptions
 
+<div class="wd-spell" data-wd-kind="Spell" markdown>
+
 ## Chill Fire
 *Transmutation*
-**Level**: Sorc/Wiz 2
-**Components**: V, S, M
-**Casting Time**: 1 standard action
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Area of Effect**: 20 ft radius
-**Duration**: 1 round/level
+
+**Level**: Sorc/Wiz 2<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 standard action<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Area of Effect**: 20 ft radius<br>
+**Duration**: 1 round/level<br>
 **Saving Throw**: None
 
 The chill fire spell functions only in the phlogiston; casting it in other surroundings is useless. In the phlogiston, however, the spell reduces its flammable nature. The damage caused by the phlogiston igniting will be normal rather than tripled. This applies to both magical and non-magical fire.
 
-*Material Component*
-A sliver of glass or ice.
+**Material Component**<br>
+*A sliver of glass or ice.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Contact Home Power
 *Divination*
-**Level**: Clr 2
-**Components**: V, S, M
-**Casting Time**: 10 minutes
-**Range**: Personal
-**Target**: You
+
+**Level**: Clr 2<br>
+**Components**: V, S, M<br>
+**Casting Time**: 10 minutes<br>
+**Range**: Personal<br>
+**Target**: You<br>
 **Duration**: 1 week
 
 The user of this spell establishes a tenuous link through the Astral Plane between his present location and that of the power he venerates. This link allows the caster to regain his spells as if their god is recognized and venerated within the sphere.
@@ -231,56 +239,76 @@ Distance does not affect the caster's attempt to contact the home power, but dim
 
 The spell remains in effect for the entire duration as long as the caster remains in the same crystal sphere he cast the spell. Passage into another plane (even the ethereal) will end the spell, as will a targeted dispel magic. This spell cannot be cast in the phlogiston.
 
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
+
 ## Create/Destroy Air
 *Conjuration (Creation) [Air]*
-**Level**: Clr 0, Drd 0, Pal 1
-**Components**: V, S
-**Casting Time**: 1 standard action
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: You or one other willing medium-sized creature, see text
-**Duration**: Instantaneous
-**Saving Throw**: No and Yes, see text
+
+**Level**: Clr 0, Drd 0, Pal 1<br>
+**Components**: V, S<br>
+**Casting Time**: 1 standard action<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: You or one other willing medium-sized creature, see text<br>
+**Duration**: Instantaneous<br>
+**Saving Throw**: No and Yes, see text<br>
 **Spell Resistance**: No and Yes, see text
 
 By means of this spell, the caster may generate a bubble of fresh, breathable air around the target. This air will drive out the stale air around the target and restore it to the "fresh" state. In cases of individuals adrift in space, this allows another rolling of the die to determine the duration of the fresh air. Within a larger envelope of air (such as the deck of a spelljammer or a planet's atmosphere), the freshened air will drift off, combining with the existing air. The spell can replace air that may be stale or befouled, including air that is poisoned or tainted by a cloudkill or stinking cloud spell.
 
 You may target one additional willing Medium or smaller creature per two caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be targeted must be within range of the spell. As with all spells where the range is personal and the target is you, you need not make a saving throw, nor is spell resistance applicable to you. Only other creatures receive saving throws and spell resistance.
 
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
+
 ## Create Major Helm
 *Transmutation*
-**Level**: Sorc/Wiz 5
-**Components**: V, S, F
-**Casting Time**: 10 minutes
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Object to be turned into a major helm
-**Duration**: 1 day/level
+
+**Level**: Sorc/Wiz 5<br>
+**Components**: V, S, F<br>
+**Casting Time**: 10 minutes<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Object to be turned into a major helm<br>
+**Duration**: 1 day/level<br>
 **Saving Throw**: No
 
 As the spell Create Minor Helm, except as noted.
 
+</div>
+
+<div class="wd-spell" data-wd-kind="Psionic Power" markdown>
+
 ## Create Major Helm, psionic
 *Psychometabolism*
-**Level**: Psion 5
-**Display**: Auditory, Visual, Material
-**Manifesting Time**: 10 minutes
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Object to be turned into a helm
-**Duration**: 1 day/level
+
+**Level**: Psion 5<br>
+**Display**: Auditory, Visual, Material<br>
+**Manifesting Time**: 10 minutes<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Object to be turned into a helm<br>
+**Duration**: 1 day/level<br>
 **Saving Throw**: No
 
 As the spell Create Major Helm, except as noted.
 
-*Material Component*
-A chair, stool, or other seat suitable for use as a helm. The material component is not consumed on use.
+**Material Component**<br>
+*A chair, stool, or other seat suitable for use as a helm. The material component is not consumed on use.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Create Minor Helm
 *Transmutation*
-**Level**: Clr 4, Sorc/Wiz 4
-**Components**: V, S, F
-**Casting Time**: 10 minutes
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Object to be turned into a minor helm
-**Duration**: 1 day/level
+
+**Level**: Clr 4, Sorc/Wiz 4<br>
+**Components**: V, S, F<br>
+**Casting Time**: 10 minutes<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Object to be turned into a minor helm<br>
+**Duration**: 1 day/level<br>
 **Saving Throw**: No
 
 The caster may transform a normal chair or seat within range into a minor spelljamming helm suitable for powering a ship through space. This spell does not replace the need for a permanent magical helm onboard and is used primarily as a backup system or in emergency situations.
@@ -289,29 +317,39 @@ The minor helm may power a ship of no more than two times the spellcaster's leve
 
 Creating a helm counts as the casting of one spell, and therefore reduces the caster's effectiveness in using the helm for that day. Of course, this does not mean another user cannot act as the helmsman, using a helm created by another person.
 
-*Focus*
-A chair, stool, or other seat suitable for use as a helm.
+**Focus**<br>
+*A chair, stool, or other seat suitable for use as a helm.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Psionic Power" markdown>
 
 ## Create Minor Helm, psionic
 *Psychometabolism*
-**Level**: Psion 4
-**Display**: Auditory, Visual, Material
-**Manifesting Time**: 10 minutes
-**Range**: Close (25 ft. + 5 ft./2 levels)
-**Target**: Object to be turned into a helm
-**Duration**: 1 day/level
+
+**Level**: Psion 4<br>
+**Display**: Auditory, Visual, Material<br>
+**Manifesting Time**: 10 minutes<br>
+**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Target**: Object to be turned into a helm<br>
+**Duration**: 1 day/level<br>
 **Saving Throw**: No
 
 As the spell Create Minor Helm, except as noted.
 
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
+
 ## Create Portal
 *Transmutation*
-**Level**: Sorc/Wiz 5
-**Components**: V, S, M
-**Casting Time**: 1 minute
-**Range**: Medium (100 ft. + 10 ft./level)
-**Area of Effect**: Area of crystal shell 100 feet in radius
-**Duration**: 1 round/level (D)
+
+**Level**: Sorc/Wiz 5<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 minute<br>
+**Range**: Medium (100 ft. + 10 ft./level)<br>
+**Area of Effect**: Area of crystal shell 100 feet in radius<br>
+**Duration**: 1 round/level (D)<br>
 **Saving Throw**: None
 
 This spell causes a large area of the shell to become temporarily insubstantial and ethereal, allowing a ship (or anything else) of the correct size to pass through.
@@ -324,17 +362,22 @@ The opening does not weaken the crystal shell, and any objects resting physicall
 
 Portals created by this spell are magical and temporary, so they can be dispelled. Portals that occur naturally in the crystal shell may not be dispelled.
 
-*Material Component*
-A piece of wire wrapped around a bit of amber.
+**Material Component**<br>
+*A piece of wire wrapped around a bit of amber.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Detect Powers
 *Divination*
-**Level**: Clr 2
-**Components**: V, S, M
-**Casting Time**: 1 round
-**Range**: Long (400 ft. + 40 ft./level)
-**Target**: A crystal shell in range
-**Duration**: Instantaneous
+
+**Level**: Clr 2<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 round<br>
+**Range**: Long (400 ft. + 40 ft./level)<br>
+**Target**: A crystal shell in range<br>
+**Duration**: Instantaneous<br>
 **Saving Throw**: None
 
 Casting this spell outside a crystal shell allows the caster to determine if there are friendly gods and/or other powers so that he may recharge his higher-level spells within its borders. The detect powers spell will also reveal if the gods revered by the caster are worshipped within that sphere.
@@ -352,65 +395,85 @@ While many powers will have similar portfolios and areas of interest (war, heali
 
 The caster will be able to tell the alignment of the power closest to his deity through the detect powers spell. Accepting spells from a power of similar outlook but opposite alignment is dangerous, and any cleric that does so must regain favor with his chief deity (through quest or atonement) before further advancement in his class is possible.
 
-*Material Component*
-A handful of sand, which is cast towards the crystal shell.
+**Material Component**<br>
+*A handful of sand, which is cast towards the crystal shell.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Enhance/Decrease Rating
 *Transmutation*
-**Level**: Sor/Wiz 3
-**Components**: V, S, M
-**Casting Time**: 1 Round
-**Range**: Close (25 ft. + 5 ft./level)
-**Duration**: 1 round/ level
-**Target**: A single creature using a spelljammer helm you can see
+
+**Level**: Sor/Wiz 3<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 Round<br>
+**Range**: Close (25 ft. + 5 ft./level)<br>
+**Target**: A single creature using a spelljammer helm you can see<br>
+**Duration**: 1 round/ level<br>
 **Saving Throw**: Will negates
 
 This spell will raise the spelljamming rating (SR) of the ship using the helm by 1d4-2 points for the duration of the spell. Only one enhance rating spell may be used at a time, and the caster may not use it on himself.
 
 The reverse of this spell, decrease rating, reduces the SR of the spelljamming helm and its user by the same amount for the duration of the spell.
 
-*Material Component*
-A small ivory arrow, pointed upward for the enhance rating spell or broken for the decrease rating spell.
+**Material Component**<br>
+*A small ivory arrow, pointed upward for the enhance rating spell or broken for the decrease rating spell.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Enhance/Decrease Maneuverability
 *Transmutation*
-**Level**: Sor/Wiz 3
-**Components**: V, S, M
-**Casting Time**: 1 Round
-**Range**: Close (25 ft. + 5 ft./level)
-**Duration**: 1 round/level
-**Target**: 1 ship of up to 10 times the caster's level in tonnage
+
+**Level**: Sor/Wiz 3<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 Round<br>
+**Range**: Close (25 ft. + 5 ft./level)<br>
+**Target**: 1 ship of up to 10 times the caster's level in tonnage<br>
+**Duration**: 1 round/level<br>
 **Saving Throw**: None
 
 This spell may be cast on any ship to either increase or decrease its maneuverability class (MC). A ship's MC may only be increased or decreased by one class using this spell. No ship can have its MC increased or decreased more than one class above or below its initial MC, through the use of this spell, no matter how many times it was cast upon it.
 
-*Material Component*
-A vial of wind from an air-based world.
+**Material Component**<br>
+*A vial of wind from an air-based world.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Locate Portal
 *Divination*
-**Level**: Sor/Wiz 2
-**Components**: V, S, M
-**Casting Time**: 1 Round
-**Range**: Long (400 ft. + 40 ft./level)
-**Target**: A crystal shell in range
+
+**Level**: Sor/Wiz 2<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 Round<br>
+**Range**: Long (400 ft. + 40 ft./level)<br>
+**Target**: A crystal shell in range<br>
 **Duration**: Instantaneous
 
 The caster of a locate portal spell can find the nearest portal through a crystal shell either into or out of the Flow. The spell indicates direction and distance (either in miles or in travel time if the caster knows the particulars of his own ship).
 
 In general, from any point on a crystal shell, the portals for a normal-sized ship are 2d20 days away from any location. At the DM's option, there may be more portals than normally available, less, or none at all. This is up to the DM to determine.
 
-*Material Component*
-A conch shell.
+**Material Component**<br>
+*A conch shell.*
+
+</div>
+
+<div class="wd-spell" data-wd-kind="Spell" markdown>
 
 ## Softwood
 *Transmutation*
-**Level**: Clr 4, Druid 4
-**Components**: V, S, M
-**Casting Time**: 1 Round
-**Range**: Touch
-**Area of Effect**: A medium-sized creature, see text
-**Duration**: Permanent, see text
+
+**Level**: Clr 4, Druid 4<br>
+**Components**: V, S, M<br>
+**Casting Time**: 1 Round<br>
+**Range**: Touch<br>
+**Area of Effect**: A medium-sized creature, see text<br>
+**Duration**: Permanent, see text<br>
 **Saving Throw**: Will negates
 
 The recipient of a softwood spell immediately has his body surrounded by soft, spongy wood, similar to that of a rotting stump. The softwood is a living entity that inhabits the individual's air envelope, sustaining that individual's life at a lower level than normal. The character is placed in suspended animation, like an individual lost in the Flow.
@@ -421,8 +484,10 @@ Softwood dissolves in open air. If a character enters and stays in a new envelop
 
 The softwood spell was created as a defensive measure, to preserve those cast adrift in space. For every three levels, the caster may target an additional creature. Enterprising and aggressive priests have turned the spell into both a handy method of containing enemies, as well as a way of sending both foes and mutinous friends into wildspace (and off their ships) without having to slay them.
 
-*Material Component*
-A bit of bark. The softwood will become that type of bark covering the body. (If maple is used, then the covering will appear as maple; if pine, it will appear as pine.) If the bark of a sentient or "monster"-type plant is used, the softwood will be of similar physical features, but will lack any special abilities of the original plant.
+**Material Component**<br>
+*A bit of bark. The softwood will become that type of bark covering the body. (If maple is used, then the covering will appear as maple; if pine, it will appear as pine.) If the bark of a sentient or "monster"-type plant is used, the softwood will be of similar physical features, but will lack any special abilities of the original plant.*
+
+</div>
 
 </div>
 </div>

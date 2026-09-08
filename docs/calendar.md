@@ -5,7 +5,7 @@ title: "Antæran Calendar"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Overview
+# Antæran Calendar
 
 The lunar calendar of Antæra, a sophisticated timekeeping system bestowed by Selene, believed to be an ancient lunar scholar, holds profound significance across the diverse cultures of Antæra. This meticulously structured calendar divides the year into 360 days, organized into twelve months, each consisting of thirty days. This division is meticulously aligned with the lunar cycles, where each phase—New Moon, Waxing Moon, Full Moon, and Waning Moon—plays a critical role in shaping agricultural practices, spiritual rituals, and communal life.
 

@@ -116,36 +116,36 @@ All deities have access to the domains associated with their alignment, even if 
     - Urog, Father of Metallic Dragons
 - Neutral Good
     - Homoth, Lord of Beasts
-    - [Trelanni](trelanni.md), Patron of Elves
+    - [Trelanni](deity/trelanni.md), Patron of Elves
     - [Cervidûr](deity/cervidur.md), Lord of the Hunt
 - Chaotic Good
     - Typhus, Prince of Water
-    - [Cavri](cavri.md), Queen of the Seelie Court
+    - [Cavri](deity/cavri.md), Queen of the Seelie Court
 - Lawful Neutral
-    - [Ornus](ornus.md), Lord of Constructs
-    - [Sil’Faraan](silfaraan.md), Lord of the Wastes
+    - [Ornus](deity/ornus.md), Lord of Constructs
+    - [Sil’Faraan](deity/silfaraan.md), Lord of the Wastes
 - True Neutral
-    - [Enigma](enigma.md), the Lost God
+    - [Enigma](deity/enigma.md), the Lost God
 - Chaotic Neutral
     - Helius, Prince of Air
     - Gollus, Prince of Earth
-    - [Droma](droma.md), God of Craftsmen
-    - [Ithlwick](ithlwick.md), God of Prosperity
-    - [Rasmin](rasmin.md), God of Mischief
-    - [Fink](fink.md), Patron of Goblinoids
-    - [Orion](orion.md), Patron of Smallfolk
+    - [Droma](deity/droma.md), God of Craftsmen
+    - [Ithlwick](deity/ithlwick.md), God of Prosperity
+    - [Rasmin](deity/rasmin.md), God of Mischief
+    - [Fink](deity/fink.md), Patron of Goblinoids
+    - [Orion](deity/orion.md), Patron of Smallfolk
     - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
 - Lawful Evil
-    - [Ythedie](ythedie.md), Mother of Chromatic Dragons
-    - [Leshrac](leshrac.md), Lord of the Undead
+    - [Ythedie](deity/ythedie.md), Mother of Chromatic Dragons
+    - [Leshrac](deity/leshrac.md), Lord of the Undead
     - [Ukrol](deity/ukrol.md), Patron of Humans
-    - [Asmodeus](asmodeus.md), Supreme Master of the Nine Hells
-    - [Sezzek](sezzek.md), Patron of Scaly Ones
+    - [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
+    - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
 - Neutral Evil
-    - [Fronir](fronir.md), Patron of Giants
-    - [Nessa](nessa.md), Patron of Vermin
+    - [Fronir](deity/fronir.md), Patron of Giants
+    - [Nessa](deity/nessa.md), Patron of Vermin
 - Chaotic Evil
-    - [Tari](tari.md), Queen of the Unseelie Court
+    - [Tari](deity/tari.md), Queen of the Unseelie Court
     - Infernus, Prince of Fire
     - Mil’Anaara, Goddess of Storms
 

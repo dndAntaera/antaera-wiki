@@ -177,19 +177,19 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 
 ## Intermediate Gods (The Paragons)
 
-- [Ornus](ornus.md), Lord of Constructs
+- [Ornus](deity/ornus.md), Lord of Constructs
     - Alignment: Lawful Neutral
     - Portfolio: Constructs, order, artifice, creation
     - Symbol: A gear set within a perfect square
-- [Fink](fink.md), Patron of Goblinoids
+- [Fink](deity/fink.md), Patron of Goblinoids
     - Alignment: Chaotic Neutral
     - Portfolio: Goblinoids, greed, cunning, survival
     - Symbol: A grinning goblin face biting a coin
-- [Orion](orion.md), Patron of Smallfolk
+- [Orion](deity/orion.md), Patron of Smallfolk
     - Alignment: Chaotic Good
     - Portfolio: Smallfolk, artifice, ingenuity, resilience
     - Symbol: A small hammer striking a star
-- [Leshrac](leshrac.md), Lord of the Undead
+- [Leshrac](deity/leshrac.md), Lord of the Undead
     - Alignment: Lawful Evil
     - Portfolio: Undead, cruelty, control, decay
     - Symbol: A skull bound in iron bands
@@ -197,38 +197,38 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: Lawful Evil
     - Portfolio: Humans, conquest, dominion, authority
     - Symbol: A crowned gauntlet gripping a globe
-- [Sezzek](sezzek.md), Patron of Scaly Ones
+- [Sezzek](deity/sezzek.md), Patron of Scaly Ones
     - Alignment: Neutral Evil
     - Portfolio: Scalykind, poison, venom, instinct
     - Symbol: A fanged serpent coiled around a droplet
-- [Fronir](fronir.md), Patron of Giants
+- [Fronir](deity/fronir.md), Patron of Giants
     - Alignment: True Neutral
     - Portfolio: Giants, creation, strength, stone
     - Symbol: A towering rune-carved pillar
-- [Nessa](nessa.md), Patron of Vermin
+- [Nessa](deity/nessa.md), Patron of Vermin
     - Alignment: Neutral Evil
     - Portfolio: Pestilence, plagues, decay, infestation
     - Symbol: A swarm forming a hollow circle
 
 ## Lesser Deities (The Patrons)
 
-- [Sil’Faraan](silfaraan.md), Lord of the Wastes
+- [Sil’Faraan](deity/silfaraan.md), Lord of the Wastes
     - Alignment: Neutral Evil
     - Portfolio: Deserts, drought, decay, endurance
     - Symbol: A cracked sun over a barren dune
-- [Enigma](enigma.md), the Lost God
+- [Enigma](deity/enigma.md), the Lost God
     - Alignment: True Neutral
     - Portfolio: Secrets, forgotten knowledge, paradox, obscurity
     - Symbol: A closed eye within a spiraling void
-- [Droma](droma.md), God of Craftsmen
+- [Droma](deity/droma.md), God of Craftsmen
     - Alignment: Lawful Neutral
     - Portfolio: Craftsmanship, creation, labor, invention
     - Symbol: A hammer crossed with a chisel
-- [Ithlwick](ithlwick.md), God of Prosperity
+- [Ithlwick](deity/ithlwick.md), God of Prosperity
     - Alignment: Neutral Good
     - Portfolio: Wealth, trade, fortune, success
     - Symbol: A golden coin stamped with a rising sun
-- [Rasmin](rasmin.md), God of Mischief
+- [Rasmin](deity/rasmin.md), God of Mischief
     - Alignment: Chaotic Neutral
     - Portfolio: Trickery, pranks, deception, chance
     - Symbol: A laughing mask split down the middle
@@ -236,7 +236,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: Chaotic Good
     - Portfolio: Travel, oceans, winds, safe passage
     - Symbol: A ship beneath a guiding star
-- [Asmodeus](asmodeus.md), Supreme Master of the Nine Hells
+- [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
     - Alignment: Lawful Evil
     - Portfolio: Tyranny, contracts, domination, devils
     - Symbol: A ruby-tipped scepter or inverted pentagram

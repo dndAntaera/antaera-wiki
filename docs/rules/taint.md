@@ -13,7 +13,7 @@ title: "Taint"
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Overview
+# Taint
 In the shadowed depths of the Negative Energy Plane, a place consisting entirely of the essence of evil, a force known as Taint infiltrates the world through manifest zones. These zones are marked by the presence of Negative Planar Crystals, pure and undiluted negative energy in crystalline form, which inflict their corruption upon all living beings in proximity and their environment.
 
 These dark crystals cast a pall of Corruption over the land. Flora succumbs to withering death, fauna is either struck down by disease or twisted into unnatural forms, and waters turn foul and deadly. This blight of Corruption festers in the heart of forests, fields, and streams, despoiling the natural vitality of the land.

@@ -5,7 +5,7 @@ title: "Soulvein"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Description
+# Soulvein
 Located on the [Ethereal Plane](ethereal-plane.md), the radiant Soulvein weaves its mystical influence through the entire plane, resembling a sprawling, deep blue mist that dances and undulates like ethereal waves. This luminous network of magical ley-lines serves as the conduit for the essence of souls, a phenomenon known as Incarnum, that pervades the very fabric of this plane. The Soulvein itself appears as a borealis, blanketing the sky in a weaving of colors, all in different shades and hues of blue: ranging from indigo in the less saturated areas to a midnight blue in the areas with a higher saturation of Incarnum. The borealis itself follows the currents of life and death, gathering around planes where there is a higher intensity of Incarnum. This essentially functions as a map, when viewed from outside the planar boundaries, that shows the general locations of settlements.
 
 The Soulvein is not a static phenomenon but a living essence that permeates the Ethereal Plane. Its deep blue hue, a manifestation of the myriad soul energies it contains, glows with an otherworldly brilliance that captivates the senses. As one traverses the [Ethereal Plane](ethereal-plane.md), the mist-like Soulvein becomes an ever-present companion, a celestial river of soul energy that courses through the very essence of the plane.

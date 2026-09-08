@@ -13,7 +13,7 @@ title: "Spelljamming"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Introduction
+# Spelljamming
 Spelljamming in this setting is based on the 2e spelljammer setting, and is translated into the 3.5 edition of D&D. The lore has been adjusted to fit the Antæra setting. Over time, more will be added and translated, including an eventual 5e translation for the mechanics found herein.
 
 </div>

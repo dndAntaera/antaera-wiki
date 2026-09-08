@@ -11,7 +11,7 @@ title: "Enigma"
 
 **Domain:** Luck
 
-**Origins:** Shrouded in Mystery (speculations suggest he originated as a Sillit Nerra in the [Plane of Mirrors](plane-of-mirrors.md) due to his appearance)
+**Origins:** Shrouded in Mystery (speculations suggest he originated as a Sillit Nerra in the [Plane of Mirrors](../plane-of-mirrors.md) due to his appearance)
 
 **Appearance:**
 

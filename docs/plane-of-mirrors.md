@@ -5,7 +5,7 @@ title: "Plane Of Mirrors"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Description
+# Plane Of Mirrors
 The Plane of Mirrors is a variant Transitive Plane—or more accurately a collection of Transitive Planes—that exists in the space behind reflective surfaces. Some scholars maintain that the common belief that mirrors simply reflect light is wrong—in truth, they allow the viewer to gaze into a reality that exists alongside the one they know. That reality is known as the Plane of Mirrors. With the proper spell, a traveler can turn this window into a door and move into the space between the mirrors, a place of power and danger.
 
 Once through the mirror into the space behind it, the traveler finds himself in a long corridor leading to the right and left. Behind him, the Material Plane is clearly visible through the mirror, though others on the Material Plane see nothing in the mirror but their own reflections.

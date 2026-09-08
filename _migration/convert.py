@@ -53,6 +53,21 @@ TITLE_PREFIXES = {
     "faction", "settlement", "poi", "events", "taxonomy",
 }
 
+# Deities whose slug never got the "deity-" prefix. Twelve gods were filed
+# under "deity-" on Wikidot and eighteen were not, which was inconsistent
+# authoring rather than a distinction - the pages are the same shape, and
+# every one of these is linked from the pantheon index. Naming them here files
+# them alongside the rest instead of leaving them loose at the root.
+#
+# Membership is deliberately a list rather than a rule: "Void" and
+# "Plane of Faerie" are stubs of exactly the same shape and are not gods, so
+# there is nothing in the page itself to test for.
+DEITY_PAGES = {
+    "asmodeus", "cavri", "droma", "enigma", "fink", "fronir", "frymrit",
+    "ithlwick", "leshrac", "nessa", "orion", "ornus", "rasmin", "sezzek",
+    "silfaraan", "tari", "trelanni", "ythedie",
+}
+
 # Images kept in docs/img but not placed on any page. The file stays where it
 # is, so putting one back is a matter of referencing it again.
 #
@@ -94,6 +109,8 @@ def target_path(slug):
     if slug == "start":
         return "index.md"
     slug = slug.replace(":", "-")
+    if slug in DEITY_PAGES:
+        return "deity/" + slug + ".md"
     m = re.match(r"^([a-z]+)-(.+)$", slug)
     if m and m.group(1) in FOLDERS:
         return FOLDERS[m.group(1)] + "/" + m.group(2) + ".md"
@@ -621,6 +638,20 @@ def main(backup):
         if not title:
             title = title_from(slug)
         title = TITLES.get(slug, title)
+
+        # A page whose first heading is "Overview" or "Description" opens with
+        # that word where its name should be. On Wikidot the name was supplied
+        # by the page header above the body, so the heading only ever had to
+        # label the section; here there is no such header, and the heading is
+        # the first thing on the page. Rename it to the page's own title.
+        #
+        # Only the leading heading is touched. "Overview" further down a page
+        # is a section among others and is doing its job.
+        m = re.search(r"^#\s+(.+)$", body, re.M)
+        if m:
+            plain = re.sub(r"[*_`~]", "", m.group(1)).strip().lower()
+            if plain in GENERIC_HEADINGS:
+                body = body[:m.start()] + "# " + title + body[m.end():]
 
         # The glossary was 26 ListPages queries. It is regenerated at build
         # time by hooks/glossary.py, so the page is just a marker.

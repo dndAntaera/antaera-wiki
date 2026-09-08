@@ -205,23 +205,47 @@ This is a common hooked polearm used in space, primarily for repelling boarders 
 There are a few other items that may be useful to the star voyager in his travels, some magical, some not.
 
 ### Passage Device
+
+**Price (Item Level)**: 81,000 gp<br>
+**Body Slot**: —<br>
+**Caster Level**: 9th<br>
+**Aura**: Moderate Transmutation<br>
+**Activation**: —<br>
+**Weight**: 5 lbs
+
 The passage device is a creation of the Mercane, used to create portals through the crystal shell between the phlogiston and wildspace. Upon speaking the command word, the device creates a portal big enough for a spelljamming ship to pass through a crystal shell. This effect functions like the spell *Create Portal*, except that the portal always closes immediately after the ship passes through.
 
-Moderate Transmutation; CL 9; Craft Wondrous Item, *create portal*; Price 81,000 gp; Weight 5 lbs
+*Prerequisites*: Craft Wondrous Item, *create portal*
 
 ### Portal Locator
+
+**Price (Item Level)**: 12,000 gp<br>
+**Body Slot**: —<br>
+**Caster Level**: 3rd<br>
+**Aura**: Faint Divination<br>
+**Activation**: —<br>
+**Weight**: ½ lbs
+
 Another Mercane device which appears as a sort of compass with no cardinal directions marked on it. The device is fairly reliable (90% accurate in pointing a direction to the portal) and is often "thrown in" by Mercane salesmen as a giveaway.
 
-Faint Divination; CL 3; Craft Wondrous Item, *locate portal*; Price 12,000 gp; Weight ½ lbs
+*Prerequisites*: Craft Wondrous Item, *locate portal*
 
 ### Planetary Locator
+
+**Price (Item Level)**: 15,000 gp<br>
+**Body Slot**: —<br>
+**Caster Level**: 3rd<br>
+**Aura**: Faint Divination<br>
+**Activation**: —<br>
+**Weight**: 25 lbs
+
 An Arcane device often tossed in as a bonus to purchasers of a Mercane hull, this desk-sized device contains a map similar to the System Display included with this product. When a ship carrying a locator enters a crystal shell, the device immediately tracks the major celestial bodies in that sphere and displays them.
 
 The planetary locator will not track planets or celestial bodies smaller than size B, but should these be encountered, the information can be entered manually and displayed thereafter. The planetary locator will also show asteroid bases that choose to be located (in other words, those that bought a device from the Arcane that causes them to appear on locators). Some of these devices have been stolen and are used by Neogi, pirates, and other marauders to trap unwary travelers.
 
 Finally, the planetary locator cannot show accurately those planetary systems which do not align with the central-body-with-other-bodies-moving-around-it type. Chaotic, strange, or other types of systems cause the locator board to turn a single solid color, or go black. The planetary locator will not operate in the phlogiston. The recommended use of the planetary locator is to determine landmarks in a system that can be used to guide the traveler to a civilized area where he can purchase a reliable star chart.
 
-Faint Divination; CL 3; Craft Wondrous Item, *locate object, silent image*; Price 15,000 gp; Weight 25 lbs
+*Prerequisites*: Craft Wondrous Item, *locate object, silent image*
 
 ### Star Charts
 The star charts of a system vary in price according to how well that system is known and visited. Star charts indicate the location and relative position of the various planets in the system, but do not indicate current positions. They are not magical but are very useful for determining things like hostile forces, mean temperature, and spaceborne powers operating in the region.

@@ -659,6 +659,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"[ \t]+$", "", s, flags=re.M)
     s = re.sub(r"\n{3,}", "\n\n", s)
     s = spell_cards(s)
+    s = expand_item_blocks(s)
     s = stat_line_breaks(s)
     return s.strip() + "\n"
 
@@ -795,6 +796,60 @@ def normalise_spell(block):
 
     kind = "Psionic Power" if any(k.lower() in PSIONIC_STATS for k, _ in stats) else "Spell"
     return out, kind
+
+
+# The older, compressed way the wiki wrote a magic item: everything on one
+# line, semicolon separated.
+#
+#   Moderate Transmutation; CL 9; Craft Wondrous Item, *create portal*;
+#   Price 81,000 gp; Weight 5 lbs
+#
+# It carries four of the six fields. Body Slot and Activation were never
+# written down for these items, so they get an em dash rather than a guess.
+COMPRESSED_ITEM = re.compile(
+    r"^(?P<aura>[^;]+); CL (?P<cl>\d+); (?P<prereq>.+); "
+    r"Price (?P<price>[^;]+); Weight (?P<weight>.+?)\s*$")
+
+
+def _ordinal(n):
+    n = int(n)
+    if 10 <= n % 100 <= 20:
+        return "%dth" % n
+    return "%d%s" % (n, {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th"))
+
+
+def expand_item_blocks(s):
+    """Rewrite the compressed item line as the wiki's six-field block.
+
+    The block moves to the top of its section, under the item's name, which is
+    where the other item pages put it. The crafting prerequisites are not one
+    of the six fields, so they stay at the foot of the section in the same
+    italic form those pages use for them.
+    """
+    lines = s.split("\n")
+    for i in range(len(lines) - 1, -1, -1):
+        m = COMPRESSED_ITEM.match(lines[i])
+        if not m:
+            continue
+        # Back up to the heading this item sits under.
+        h = i
+        while h >= 0 and not re.match(r"^#{2,4}\s+\S", lines[h]):
+            h -= 1
+        if h < 0:
+            continue
+        lines[i] = "*Prerequisites*: " + m.group("prereq").strip()
+        block = [
+            "",
+            "**Price (Item Level)**: " + m.group("price").strip(),
+            "**Body Slot**: —",
+            "**Caster Level**: " + _ordinal(m.group("cl")),
+            "**Aura**: " + m.group("aura").strip(),
+            "**Activation**: —",
+            "**Weight**: " + m.group("weight").strip(),
+            "",          # or the description folds into the stat paragraph
+        ]
+        lines[h + 1:h + 1] = block
+    return "\n".join(lines)
 
 
 def stat_line_breaks(s):

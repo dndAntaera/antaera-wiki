@@ -53,6 +53,34 @@ TITLE_PREFIXES = {
     "faction", "settlement", "poi", "events", "taxonomy",
 }
 
+# Pages that are two halves of one thing. Wikidot filed the arcane and the
+# psionic version of a spell as separate pages, which split one rules entry
+# across two URLs and gave both the same name. The wiki's own spelljamming
+# magic page already keeps such pairs together - "Create Major Helm" and
+# "Create Major Helm, psionic" sit side by side there - so this follows the
+# convention the wiki set for itself.
+#
+# Each part keeps its own section and its own anchor, so a link that meant the
+# psionic version still lands on the psionic version.
+MERGES = {
+    "stabilize-crystal": {
+        "title": "Stabilize Crystal",
+        "lead": "Stabilizing a [[[planar-crystal|Planar Crystal]]] can be done "
+                "with magic or with psionics. Both forms are below.",
+        "parts": [
+            ("Spell", "spell-stabilize-crystal"),
+            ("Psionic Power", "power-stabilize-crystal"),
+        ],
+    },
+}
+
+# part slug -> (merged slug, anchor of its section)
+MERGE_PARTS = {}
+for _merged, _spec in MERGES.items():
+    for _label, _part in _spec["parts"]:
+        MERGE_PARTS[_part] = (_merged, _label.lower().replace(" ", "-"))
+
+
 # Deities whose slug never got the "deity-" prefix. Twelve gods were filed
 # under "deity-" on Wikidot and eighteen were not, which was inconsistent
 # authoring rather than a distinction - the pages are the same shape, and
@@ -109,6 +137,8 @@ def target_path(slug):
     if slug == "start":
         return "index.md"
     slug = slug.replace(":", "-")
+    if slug in MERGE_PARTS:
+        return MERGE_PARTS[slug][0] + ".md"
     if slug in DEITY_PAGES:
         return "deity/" + slug + ".md"
     m = re.match(r"^([a-z]+)-(.+)$", slug)
@@ -481,7 +511,12 @@ def convert(src, slug, img_by_url, tables, linkmap):
         dest = linkmap.get(norm_slug(target))
         if not dest:
             return text
+        # A merged page's entry carries the anchor of the half that was asked
+        # for. Only the path part takes place in the relative-path maths.
+        dest, _, anchor = dest.partition("#")
         rel = os.path.relpath(dest, here or ".").replace("\\", "/")
+        if anchor:
+            rel += "#" + anchor
         return "[" + text + "](" + rel + ")"
 
     s = re.sub(r"\[\[\[([^\]|]+)\|([^\]]+)\]\]\]", lambda m: link(m.group(1), m.group(2).strip()), s)
@@ -571,6 +606,10 @@ def main(backup):
     linkmap = {}
     for s in keep:
         linkmap[norm_slug(s)] = target_path(s)
+    # A link to half of a merged page goes to that half's section, not to the
+    # top of the page, so "the psionic power" still means the psionic power.
+    for part, (merged, anchor) in MERGE_PARTS.items():
+        linkmap[norm_slug(part)] = merged + ".md#" + anchor
     for s in keep:
         raw = open(os.path.join(src_dir, s + ".txt"), "rb").read().decode("utf-8", "replace")
         heading = re.search(r"^\+\s+(.+)$", raw, re.M)
@@ -611,9 +650,16 @@ def main(backup):
                 os.rmdir(p)
 
     written = 0
+    merged_bodies = {}
     for slug in keep:
         raw = open(os.path.join(src_dir, slug + ".txt"), "rb").read().decode("utf-8", "replace")
         body = convert(raw, slug, img_by_url, tables, linkmap)
+
+        # Half of a merged page: keep the converted body and write nothing.
+        # The whole page is assembled once every half has been converted.
+        if slug in MERGE_PARTS:
+            merged_bodies[slug] = body
+            continue
 
         # Promote the opening heading to the title only when the page has a
         # single top-level heading. A page like the glossary uses "# A", "# B"
@@ -695,6 +741,35 @@ def main(backup):
         os.makedirs(os.path.dirname(out_abs), exist_ok=True)
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
+        written += 1
+
+    # Merged pages, assembled from the halves collected above.
+    for merged, spec in MERGES.items():
+        rel = merged + ".md"
+        here = os.path.dirname(rel)
+        lead = re.sub(
+            r"\[\[\[([^\]|]+)\|([^\]]+)\]\]\]",
+            lambda m: "[%s](%s)" % (
+                m.group(2),
+                os.path.relpath(linkmap[norm_slug(m.group(1))], here or ".")
+                  .replace("\\", "/")),
+            spec["lead"])
+        parts = ['<div class="wd-row" style="--wd-rw: 935px" markdown>',
+                 '<div class="wd-cell" markdown>', "",
+                 "# " + spec["title"], "", lead, "", "</div>", "</div>", ""]
+        for label, part in spec["parts"]:
+            half = merged_bodies[part]
+            # The variants drop a level to sit under their form's heading, and
+            # the label goes inside the first card so it picks up the card
+            # styling every other heading on the page has.
+            half = re.sub(r"^##(?=\s)", "###", half, flags=re.M)
+            half = half.replace(
+                '<div class="wd-cell" markdown>\n\n',
+                '<div class="wd-cell" markdown>\n\n## ' + label + "\n\n", 1)
+            parts.append(half.rstrip() + "\n")
+        with open(os.path.join(DOCS, rel), "w", encoding="utf-8", newline="\n") as fh:
+            fh.write('---\ntitle: "' + spec["title"] + '"\n---\n\n'
+                     + "\n".join(parts))
         written += 1
 
     # Pages with no Wikidot source. They have to be written here because this

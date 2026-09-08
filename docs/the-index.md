@@ -367,8 +367,8 @@ White Raven Tactics: Cannot affect the user
 
 ## S
 
-- [Stabilize Crystal](spell-stabilize-crystal.md)
-- [Stabilize Crystal (psionic)](power-stabilize-crystal.md)
+- [Stabilize Crystal](stabilize-crystal.md#spell)
+- [Stabilize Crystal (psionic)](stabilize-crystal.md#psionic-power)
 ## T
 ## U
 ## V

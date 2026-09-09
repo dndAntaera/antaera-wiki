@@ -640,3 +640,31 @@ body,
 @media screen and (max-width: 60em) {
   .wd-wip img { max-width: var(--wd-sign-width-sm); }
 }
+
+
+/* ---------------------------------------------------------------------------
+   The page's date markers
+
+   Material prints the "last update" and "created" facts in a translucent black
+   inherited from its light theme. On the sky that measured 1.05:1 - black on
+   near-black, effectively invisible. They take the sky's dim ink, and the
+   outline so they stay legible wherever a nebula or a bright star passes
+   behind them.
+   --------------------------------------------------------------------------- */
+
+.md-source-file,
+.md-source-file__fact,
+.md-content__inner .md-source-file,
+.md-content__inner .md-source-file__fact {
+  color: var(--wd-sky-ink-dim);
+  text-shadow: var(--wd-outline-sky);
+}
+
+/* The little clock and pencil are SVG, so they take a drop-shadow rather than
+   a text-shadow, and their fill has to follow the text or they stay black. */
+.md-source-file .md-icon svg,
+.md-source-file__fact svg {
+  fill: currentColor;
+  filter: drop-shadow(0 0 2px var(--wd-sky-far))
+          drop-shadow(0 1px 1px var(--wd-sky-far));
+}

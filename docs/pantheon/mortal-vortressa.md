@@ -41,12 +41,10 @@ The clergy of Vortressa includes evil druids, warlocks, and those who seek to ha
 Vortressa opposes deities associated with pristine nature, purity, and the untouched Feywild. Her influence seeks to transform and corrupt the natural order, making her a foe to those who stand for the untainted beauty of the world.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/pantheon_mortal_vortressa_header.png)
 *Vortressa, the Mother of Monsters*
-
-*Holy Symbol of Vortressa*
 
 </div>
 </div>

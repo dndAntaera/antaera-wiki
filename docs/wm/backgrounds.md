@@ -6,15 +6,6 @@ search:
   exclude: true
 ---
 
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
-Header Image<br>
-*Image description...*
-
-</div>
-</div>
-
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 

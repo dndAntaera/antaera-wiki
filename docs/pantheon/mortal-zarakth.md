@@ -2,7 +2,7 @@
 title: "Mortal Zarakth"
 ---
 
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # **Name:** Zarakth, the Abyssal Scourge
@@ -38,13 +38,6 @@ The cult of Zarakth consists of bloodthirsty demons, deranged cultists, and nihi
 **Rivalries:**
 
 Zarakth opposes deities and entities associated with order, creation, and the preservation of life. His influence seeks to tear down the fabric of existence, making him a sworn enemy to those who stand for stability, creation, and the balance of the cosmos.
-
-</div>
-<div class="wd-cell wd-aside" markdown>
-
-*Zarakth, the Abyssal Scourge*
-
-*Holy Symbol of Zarakth*
 
 </div>
 </div>

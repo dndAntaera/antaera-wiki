@@ -142,6 +142,14 @@
   --wd-accent-on: #ffffff;
 
   --wd-flag-wip: #d9a406;           /* the work-in-progress marker */
+
+  /* An outline for text printed straight onto the sky, where a nebula or a
+     bright star can pass behind it. Four hard 1px offsets make the edge, and
+     the soft halo behind them stops thin strokes breaking up. */
+  --wd-outline-sky:
+    -1px -1px 0 var(--wd-sky-far), 1px -1px 0 var(--wd-sky-far),
+    -1px 1px 0 var(--wd-sky-far), 1px 1px 0 var(--wd-sky-far),
+    0 0 4px var(--wd-sky-far);
   --wd-shadow-sign: 0 2px 10px rgba(0, 0, 0, .45);
 }
 

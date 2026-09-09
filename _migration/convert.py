@@ -547,6 +547,19 @@ def convert(src, slug, img_by_url, tables, linkmap):
                lambda m: todo("include " + m.group(1)), s, flags=re.S | re.I)
     s = re.sub(r"\[\[iframe.*?\]\]", lambda m: todo("iframe"), s, flags=re.S | re.I)
 
+    # A placeholder for art that was never added, together with the caption
+    # written under it. The two are one thing: the caption describes a picture
+    # that does not exist. Dropping the image and keeping the caption left a
+    # card holding nothing but a label for a missing header - which is what was
+    # on The Known Spheres.
+    #
+    # Two shapes. Most pages hold the slot open with a sourceless [[image]];
+    # the unfilled templates just write the words out.
+    s = re.sub(r"^[ \t]*\[\[f?image\s+(?!https?)[^\]]*\]\][ \t]*\n"
+               r"(?://[^\n]*//[ \t]*\n)?", "", s, flags=re.I | re.M)
+    s = re.sub(r"^[ \t]*Header Image[ \t]*\n"
+               r"(?://[^\n]*//[ \t]*\n)?", "", s, flags=re.I | re.M)
+
     s = tables_to_layout(s)
 
     # Images: swap the imgur URL for the local file, or inline the transcribed

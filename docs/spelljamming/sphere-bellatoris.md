@@ -5,7 +5,7 @@ title: "The Bellatoris Sphere"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Bellatoris Sphere
+# The Bellatoris Sphere
 
 The Bellatoris Sphere is a realm of martial pride and ancestral strength, where the silence of wildspace is broken by the clash of blades and the roar of challenge. Its worlds are divided among a handful of great tribes, each a sovereign power with a history written in conquest and ritual. These clans—beastfolk of lion’s blood, wolf’s howl, iron scale, and mountain horn—rule not by decree, but through strength, heritage, and the enduring weight of tradition. Laws are few, but honor is absolute. Celestial guardians, neither rulers nor subjects, walk the skies and sacred places, serving as judges, heralds, and spiritual patrons to the tribes below.
 

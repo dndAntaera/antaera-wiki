@@ -5,7 +5,7 @@ title: "The Gallamarketh Sphere"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Gallamarketh
+# The Gallamarketh Sphere
 
 Gallamarketh is the mercantile heart of the Outer Constellation, a brilliant sphere lit by spelljammer lanterns, crowded trade lanes, and quiet diplomatic halls. Wildspace within teems with arcane observatories, contract outposts, and chartered clerks who ensure pacts are honored from star to stone. Life here is orderly, ambitious, and steeped in tradition. Entire moons serve as campuses for ancient universities that teach law, magical theory, interplanar commerce, and practical philosophy.
 

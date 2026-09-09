@@ -5,7 +5,7 @@ title: "The Sanctum Æternum Sphere"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Sanctum Æternum
+# The Sanctum Æternum Sphere
 
 Travelers who chart a course through the Sphere of Sanctum Æternum often remark on its stillness. Not the stillness of emptiness, but of vigilance. At its heart burns Veritas Dei, a great white star whose light carries no warmth. It radiates endlessly, casting a pale glow across the void—brilliant, unwavering, and without flicker. Yet those who know the deeper mysteries speak cautiously: Veritas Dei is no true sun, but a fixed tear in the veil of reality—a manifest zone to the Positive Energy Plane, restrained by holy force. Some call it the Breath of Judgement. Others, the First Eye. None look upon it long.
 

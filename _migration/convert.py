@@ -235,6 +235,10 @@ TITLES = {
 # "The Dreaming & Waking" is not in this list: its page already opens with the
 # book's full in-world title, "The Book of Dreams, a Treatise on the Waking &
 # Dreaming". The short name is the page title, the long one stays the heading.
+# Pages whose opening heading should be replaced by the page's title, because
+# the two disagreed. Filled in at run time - see the sphere names in main().
+TITLE_HEADING = set()
+
 NAME_HEADING = {
     "crystal-stabilization-fluid",
     "elven-climbers-gloves",
@@ -1148,6 +1152,12 @@ def main(backup):
             for s in keep:
                 if norm_slug(s) == norm_slug(t):
                     TITLES.setdefault(s, "The %s Sphere" % name.strip())
+                    # Their own headings disagreed with each other as well as
+                    # with the titles - "Aerivagus Sphere", "Custodæ",
+                    # "The Sidhe Sphere", "Cineræxis", four spellings of one
+                    # idea. The heading takes the title so a sphere is called
+                    # the same thing in the tab, the index and on the page.
+                    TITLE_HEADING.add(s)
                     break
 
     imgs = json.load(open(os.path.join(ROOT, "_migration", "images.json"), encoding="utf-8"))
@@ -1230,6 +1240,13 @@ def main(backup):
         if m:
             plain = re.sub(r"[*_`~]", "", m.group(1)).strip().lower()
             if plain in GENERIC_HEADINGS:
+                body = body[:m.start()] + "# " + title + body[m.end():]
+
+        # A page whose opening heading disagrees with its title takes the
+        # title, so the page is called one thing throughout.
+        if slug in TITLE_HEADING:
+            m = re.search(r"^#\s+(.+)$", body, re.M)
+            if m:
                 body = body[:m.start()] + "# " + title + body[m.end():]
 
         # A disambiguation stub gets the link it was missing, put inside its

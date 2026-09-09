@@ -561,26 +561,61 @@
 .md-header,
 .md-footer { position: relative; z-index: 1; }
 
-[data-md-color-scheme="default"] {
-  /* Warm paper, not white: the cards are parchment and the ground behind them
-     should read as the same material lit from behind. */
-  --wd-sky-ground: linear-gradient(170deg, #efe6d2 0%, #e7dcc4 55%, #ded1b4 100%);
-}
-
-[data-md-color-scheme="slate"] {
-  /* Deep space is not black. It is a very dark blue that lets the nebulae and
-     the dimmest stars stay visible instead of clipping to the background. */
+/* One sky, both themes. It is the same space either way - day and night are a
+   property of the paper you are reading, not of what is outside the window -
+   so the ground is declared once, on :root, and neither scheme overrides it.
+   Deep space is not black: a very dark blue keeps the nebulae and the dimmest
+   stars visible instead of clipping them to the background. */
+:root {
   --wd-sky-ground: radial-gradient(ellipse at 50% 0%, #12172a 0%, #0b0e1a 45%, #06070f 100%);
+  /* Anything printed straight onto the sky - the glossary's entries, image
+     captions, the headings between cards - is on space in both themes and so
+     takes one colour in both. */
+  --wd-sky-ink: #d7dced;
+  --wd-sky-ink-dim: #97a0bb;
+  --wd-sky-link: #d773ff;
 }
 
 /* Material paints its own background on these; both must give way or the sky
    is covered by an opaque sheet. */
-[data-md-color-scheme="slate"] body,
-[data-md-color-scheme="slate"] .md-main,
-[data-md-color-scheme="default"] body,
-[data-md-color-scheme="default"] .md-main { background-color: transparent; }
+body,
+.md-main { background-color: transparent; }
 
-/* With a sky behind them the cards need to be opaque, or the stars show
-   through the text. They were already solid; this makes that a requirement
-   rather than a coincidence. */
-.wd-cell { background-blend-mode: normal; }
+/* Text on the sky. Scoped to the content area so the header and the nav panel,
+   which have surfaces of their own, are untouched. The cards override this
+   with their own ink - that override is the only thing day and night change. */
+.md-content__inner,
+.md-content__inner .md-typeset { color: var(--wd-sky-ink); }
+
+.md-content__inner h1,
+.md-content__inner h2,
+.md-content__inner h3,
+.md-content__inner h4 { color: var(--wd-sky-ink); }
+
+.md-content__inner em { color: var(--wd-sky-ink-dim); }
+
+.md-content__inner a:not(.md-button) { color: var(--wd-sky-link); }
+
+/* Inside a card the ink is the card's, not the sky's. */
+.wd-cell,
+.wd-cell .md-typeset,
+.wd-cell h1,
+.wd-cell h2,
+.wd-cell h3,
+.wd-cell h4 { color: var(--wd-surface-ink); }
+
+[data-md-color-scheme="default"] .wd-cell em { color: #6a5b42; }
+[data-md-color-scheme="slate"] .wd-cell em { color: var(--wd-sky-ink-dim); }
+
+[data-md-color-scheme="default"] .wd-cell a:not(.md-button) { color: #8f00bf; }
+[data-md-color-scheme="slate"] .wd-cell a:not(.md-button) { color: var(--wd-sky-link); }
+
+/* A media cell has no box, so its caption is on the sky like any other loose
+   text and must not take the card's ink. */
+.wd-cell.wd-plain,
+.wd-cell.wd-plain em { color: var(--wd-sky-ink-dim); }
+
+/* With a sky behind them the cards must be opaque, or the stars show through
+   the text. They were already solid; this makes it a requirement rather than
+   a coincidence. */
+.wd-cell:not(.wd-plain) { background-blend-mode: normal; }

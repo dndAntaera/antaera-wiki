@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Serve the Antaera Wiki from this machine when the live site is unavailable.
+    Serve the Antæra Wiki from this machine when the live site is unavailable.
 
 .DESCRIPTION
     Disaster-recovery entry point. Rebuilds the site from the Markdown in this

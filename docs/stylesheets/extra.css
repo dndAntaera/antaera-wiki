@@ -672,3 +672,36 @@ body,
   filter: drop-shadow(0 0 2px var(--wd-sky-far))
           drop-shadow(0 1px 1px var(--wd-sky-far));
 }
+
+
+/* ---------------------------------------------------------------------------
+   Search highlighting
+
+   Arriving from a search result, Material wraps every match on the page in
+   <mark data-md-highlight>. That is useful for a moment - it shows you where
+   the word you searched for actually is - and then it is in the way: the page
+   stays striped for as long as you read it, and for the rest of the visit if
+   you scroll back to it.
+
+   So the highlight holds, then fades out and stays gone. No script: the mark
+   elements are still in the page, they just stop being marked. Highlighting
+   from any other source - a <mark> written into the text - is untouched,
+   because only Material's own attribute is selected.
+   --------------------------------------------------------------------------- */
+
+.md-typeset mark[data-md-highlight] {
+  animation: wd-highlight var(--wd-highlight-fade) ease-in var(--wd-highlight-hold) forwards;
+}
+
+@keyframes wd-highlight {
+  from { background-color: var(--md-typeset-mark-color); }
+  to   { background-color: transparent; }
+}
+
+/* Someone who has asked for less movement still wants the highlight to go;
+   it just goes without the fade. */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset mark[data-md-highlight] {
+    animation: wd-highlight 1ms linear var(--wd-highlight-hold) forwards;
+  }
+}

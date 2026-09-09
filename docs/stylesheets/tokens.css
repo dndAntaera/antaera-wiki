@@ -150,6 +150,11 @@
 
   --wd-flag-wip: #d9a406;           /* the work-in-progress marker */
 
+  /* How long a search hit stays lit on the page it took you to. Long enough
+     to find the word, short enough that the page is not left striped. */
+  --wd-highlight-hold: 4s;
+  --wd-highlight-fade: 2s;
+
   /* An outline for text printed straight onto the sky, where a nebula or a
      bright star can pass behind it. Four hard 1px offsets make the edge, and
      the soft halo behind them stops thin strokes breaking up. */

@@ -84,6 +84,24 @@ APPEND_TO = {
     "map-antaera": "spelljamming-sphere-antaera",
 }
 
+# Sections rewritten since the import, keyed by slug and by the heading the
+# section sits under. The converter rebuilds docs/ from the backup on every
+# run, so a section edited in docs/ is overwritten the next time it runs; a
+# rewrite has to live here to survive one.
+REWRITES = {
+    "anthropology-warforged": {
+        "Origin Story": """\
+When the House of Fabrication first began to develop the world of Crucibulum, they found that the conditions there were too inhospitable to living workers. None of their existing constructs could survive the heat, and their joints were continuously clogged by the volcanic ash ever-present in the atmosphere. Their only solution was to turn to the Ancient Antaeran relic discovered nested within Probatio, which House Scholars could only determine was an ancient construct forge of some kind.
+
+Out of necessity, the House redoubled their efforts into discovering the purpose behind this strange artifact. After several years of dedicated research and experimentation, it was discovered that it was in fact a Forge of War, a thing of legend that no mortal has been able to find previously. They discovered the means to begin its operation: by binding elemental spirits to frames of metal and wood, they brought forth the living constructs known as Warforged.
+
+They did not discover this alone, however. There was a guardian of the forge that guided their hand as they woke the forge again after an untold amount of time. Why it helped them, no one knows, however they named this creature Alpha and designed the future models of Warforged after it. It stayed and guided the newly created Warforged and eventually gained both their admiration and worship. The strength of the Warforged souls, however, was not anticipated by the house and Alpha ascended to divinity. It is said that the creation of Warforged is still guided by their hand to this day.
+
+These new souls proved themselves to be useful on the new world of Crucibulum, though this newfound sentient would prove to be a thorn in the House's side. This eventually created a deep philosophical debate between the House and the rest of the Known Spheres: the House believed Warforged to be mindless automatons that simply had the capability of understanding and performing complex tasks, while the rest of the Known Spheres believed the Warforged to exhibit signs of sentience. This debate would eventually lead to the event known as the Warforged Civil War.""",
+    },
+}
+
+
 # Disambiguation stubs, and the page each one is disambiguating. The stub said
 # only "This page is currently used for disambiguation" and gave the reader no
 # way to reach the article it was pointing at - a dead end where a signpost was
@@ -1023,6 +1041,23 @@ def house_style(s):
     return s
 
 
+def apply_rewrites(slug, body):
+    """Swap in a section that has been rewritten since the import.
+
+    The section runs from its heading to whichever comes first: the next
+    heading, or the end of the card it sits in. Everything between is replaced,
+    so the rewrite does not have to reproduce the layout around it.
+    """
+    for heading, text in REWRITES.get(slug, {}).items():
+        pat = re.compile(
+            r"(^#{1,6}[ \t]+" + re.escape(heading) + r"[ \t]*\n)"
+            r".*?(?=\n</div>|\n#{1,6}[ \t]|\Z)", re.S | re.M)
+        body, n = pat.subn(lambda m: m.group(1) + text.strip(), body)
+        if n != 1:
+            TODO.append((slug, "rewrite for '%s' matched %d sections" % (heading, n)))
+    return body
+
+
 def heading_levels(s):
     """Close the gaps in a page's heading levels.
 
@@ -1282,6 +1317,10 @@ def main(backup):
     for slug in keep:
         raw = open(os.path.join(src_dir, slug + ".txt"), "rb").read().decode("utf-8", "replace")
         body = convert(raw, slug, img_by_url, tables, linkmap)
+        # Rewrites go in before the title and heading passes, so a rewritten
+        # section is held to the same house style as the rest of the page.
+        if slug in REWRITES:
+            body = house_style(apply_rewrites(slug, body))
 
         # Half of a merged page: keep the converted body and write nothing.
         # The whole page is assembled once every half has been converted.

@@ -212,19 +212,22 @@ TITLES = {
     "item-dreaming-waking": "The Dreaming & Waking",
 }
 
-# Items whose page opens straight into the stat block, with the item's name
-# nowhere on it. On Wikidot the name came from the page header above the body;
-# here it has to be on the page. The title becomes the opening heading.
+# Pages that never name themselves - they open on a stat block, or on a run of
+# sub-headings, or straight into prose. The title becomes the opening heading,
+# so a reader landing on the page can see what it is about.
 #
 # "The Dreaming & Waking" is not in this list: its page already opens with the
 # book's full in-world title, "The Book of Dreams, a Treatise on the Waking &
-# Dreaming". The short name from The Index is the page title, the long one
-# stays the heading.
+# Dreaming". The short name is the page title, the long one stays the heading.
 NAME_HEADING = {
     "crystal-stabilization-fluid",
     "elven-climbers-gloves",
     "poisoners-quiver",
     "item-blessed-holy-symbol",
+    "disclaimer",
+    # Opens on eight sub-headings - Personality, Physical Description,
+    # Relations - with nothing above them, so it began mid-structure.
+    "race-deepfolk",
 }
 
 
@@ -326,6 +329,16 @@ def tables_to_layout(s):
             if not kept:
                 continue
             widths = [_cell_width(a) for a, _ in kept]
+            # Two cells that both claim 75% do not describe a split - there is
+            # no room for it. Four rows are written that way. A browser drops
+            # to auto table layout there and sizes by content, which is how
+            # they were read: measured, 69% against 22%. That is this wiki's
+            # ordinary sidebar, so use it, with the fuller cell taking the
+            # larger share. Taken literally the row came out as two columns of
+            # equal weight and the sidebar was as wide as the article.
+            if len(kept) == 2 and all(widths) and sum(widths) > 100:
+                big = 0 if len(kept[0][1]) >= len(kept[1][1]) else 1
+                widths = [75.0, 25.0] if big == 0 else [25.0, 75.0]
             # Wikidot rows often size only some cells - "width: 75%" on the
             # content, nothing on the sidebar beside it. Requiring every cell
             # to declare a width made those rows fall back to stacking, which
@@ -661,6 +674,15 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = spell_cards(s)
     s = expand_item_blocks(s)
     s = stat_line_breaks(s)
+    # One race, two names. "Mercane" is the name in use - the passage device is
+    # "a creation of the Mercane" and the planetary locator comes with "a
+    # Mercane hull" - while sixteen other mentions still said "Arcane", one of
+    # them in the same sentence as a Mercane. They are one people; the wiki now
+    # calls them one thing.
+    #
+    # Arcane Space is a region and Arcane Talent is a feat. Neither is the
+    # race, so both are left as they are.
+    s = re.sub(r"\bArcane\b(?!\s+(?:Space|Talent))", "Mercane", s)
     return s.strip() + "\n"
 
 

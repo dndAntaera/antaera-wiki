@@ -11,7 +11,7 @@ title: "Astrology Planetology"
 </div>
 </div>
 
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Traveling in Wildspace
@@ -30,7 +30,7 @@ What slows movement among the more crowded inner planets is the presence of mult
 This "sudden stop" when moving at high speeds does not affect anyone riding on the ship. The effortless deceleration is believed to be created primarily as a safety factor to prevent spelljamming ships from colliding with other ships, meteors, asteroids, and planetary bodies. In reality, this often means that a ship en route from one point to another in a (relatively) more crowded section of space may have more encounters than a ship moving through an emptier area (out near the shell, for example), so the ship has to continually slow down between locations.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ### Approaching a Larger Ship
 
@@ -94,7 +94,7 @@ Ships in the Flow slow down when they encounter other bodies, such as ships and 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Astrology & The Starcharts
@@ -110,7 +110,7 @@ Whether operating under Newtonian physics, riding on the back of giant turtles, 
 Given the great difference between planetary speeds and spelljammer speeds, planetary motion is not a major factor in determining travel times and positions. For the Solar System (ours), a planet on the outer track moves an average of one space every four years, while those on the inner track move one space every 12 days. Planets can certainly move faster or slower than this (this is fantasy), but unless the DM wishes to deal in more detail with planetary motion, take these figures as standard for the planets.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ### Why are Crystal Shells Round?
 

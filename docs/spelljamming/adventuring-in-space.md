@@ -44,7 +44,7 @@ The crew is usually (but not always) non-player characters, brought along for th
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Crew
@@ -106,7 +106,7 @@ A weapons specialist is usually versed in one type of weapon: catapult, ballista
 A character with proficiencies in any of these weapons can hire on as a weapon specialist or use his proficiency to provide a bonus to hit from a single turret. A character doing this cannot be engaged in another position on the ship (such as captain, navigator, or helmsman) or leave his position, or the benefit is lost.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ### Common Ship Commands
 *(Or, things the captain bellows and expects everyone else to understand.)*
@@ -239,9 +239,9 @@ Another Mercane device which appears as a sort of compass with no cardinal direc
 **Activation**: —<br>
 **Weight**: 25 lbs
 
-An Arcane device often tossed in as a bonus to purchasers of a Mercane hull, this desk-sized device contains a map similar to the System Display included with this product. When a ship carrying a locator enters a crystal shell, the device immediately tracks the major celestial bodies in that sphere and displays them.
+An Mercane device often tossed in as a bonus to purchasers of a Mercane hull, this desk-sized device contains a map similar to the System Display included with this product. When a ship carrying a locator enters a crystal shell, the device immediately tracks the major celestial bodies in that sphere and displays them.
 
-The planetary locator will not track planets or celestial bodies smaller than size B, but should these be encountered, the information can be entered manually and displayed thereafter. The planetary locator will also show asteroid bases that choose to be located (in other words, those that bought a device from the Arcane that causes them to appear on locators). Some of these devices have been stolen and are used by Neogi, pirates, and other marauders to trap unwary travelers.
+The planetary locator will not track planets or celestial bodies smaller than size B, but should these be encountered, the information can be entered manually and displayed thereafter. The planetary locator will also show asteroid bases that choose to be located (in other words, those that bought a device from the Mercane that causes them to appear on locators). Some of these devices have been stolen and are used by Neogi, pirates, and other marauders to trap unwary travelers.
 
 Finally, the planetary locator cannot show accurately those planetary systems which do not align with the central-body-with-other-bodies-moving-around-it type. Chaotic, strange, or other types of systems cause the locator board to turn a single solid color, or go black. The planetary locator will not operate in the phlogiston. The recommended use of the planetary locator is to determine landmarks in a system that can be used to guide the traveler to a civilized area where he can purchase a reliable star chart.
 

@@ -796,7 +796,7 @@ Series helms vary from species to species, but in general are inferior to spellj
 
 Series helms save against all damage on a 3; they are not quite as tough as spelljammer helms, but almost. Spelljammer helms cannot work on the same ship with operating series helms and vice versa, but a spelljammer helm can be installed on a ship that previously used a series helm without problem (as long as the two do not co-exist on the same ship. If they do, neither functions at all).
 
-Series helms were developed either by the illithids or by the Arcane with the illithids in mind (accounts vary according to the situation). There are other series helms for those social creatures with spell-like abilities, except for the beholders, who have found their own solution.
+Series helms were developed either by the illithids or by the Mercane with the illithids in mind (accounts vary according to the situation). There are other series helms for those social creatures with spell-like abilities, except for the beholders, who have found their own solution.
 
 ## Pool Helms
 **Cost**: 500,000 gp (mind flayers only)<br>
@@ -808,7 +808,7 @@ The orbus is a living being that functions much like a series helm on the behold
 
 Orbi appear as blind beholders, with milky skin over all their eyes. They are pale and practically helpless on their own. They have been bred by the spacefaring beholder factions to serve and serve well—they have almost no will of their own.<br>
 A single orbus can create spelljamming energy for 20 tons of ship, two to a limit of 40 tons, and three or more to a limit of 60 tons. If insufficient orbi exist, then the SR of the ship is 1.<br>
-Given the simplicity of beholder ships, it seems possible that humanoid races could make use of the orbus as well, either as a primary or backup system. The beholders guard their orbi carefully, and would rather disintegrate them than see them turned over to other races. The above price is what an Arcane or beholder of another faction would pay for an orbus.
+Given the simplicity of beholder ships, it seems possible that humanoid races could make use of the orbus as well, either as a primary or backup system. The beholders guard their orbi carefully, and would rather disintegrate them than see them turned over to other races. The above price is what an Mercane or beholder of another faction would pay for an orbus.
 
 ## Forges
 **Cost**: 500,000 gp (initially), 100,000 gp (per year)<br>
@@ -1173,7 +1173,7 @@ Smoke powder is an alchemical mixture of two inert substances which, when combin
 
 A single charge of smoke powder inflicts 1d4 points of damage. Two charges inflict 2d4, 3 charges 3d4, and so forth. Any smoke powder explosion that causes 30 points of damage or more affects everything within a 5-foot radius. Any explosion of at least 50 points affects a 15-foot radius. Divide points of damage by 10 to determine how many hull points are lost to an explosion.
 
-Smoke powder is more common in space than on the planets. It is a good seller for the Arcane, who will sell 10 charges (a bombard shot) for 3,000 gp. They may also throw in two to five bombard charges free to anyone who purchases a bombard from them.
+Smoke powder is more common in space than on the planets. It is a good seller for the Mercane, who will sell 10 charges (a bombard shot) for 3,000 gp. They may also throw in two to five bombard charges free to anyone who purchases a bombard from them.
 
 ### Alchemist Fire
 **Cost**: 100 gp per shot<br>

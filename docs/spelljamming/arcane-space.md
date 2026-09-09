@@ -128,7 +128,7 @@ Weightless conditions apply to both wildspace and the phlogiston with no differe
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 75fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Crystal Shells
@@ -154,7 +154,7 @@ The crystal sphere itself represents the outer limit of the influence of gods an
 Those fantasy systems with stars in the night sky often have these stars mounted along the inside of the crystal sphere. The nature of stars varies from sphere to sphere; within some spheres, the stars are small portholes looking out on the phlogiston, in some they are painted lights along the interior, in some they are great cities inhabited by alien creatures, and in others they are great bowls of fire held aloft by huge statues of forgotten gods.
 
 </div>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-aside" markdown>
 
 ### Why are Crystal Shells Round?
 

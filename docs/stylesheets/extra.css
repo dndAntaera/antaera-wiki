@@ -169,7 +169,16 @@
     padding-top: 1.2rem;
   }
 
-  .md-sidebar--primary .md-sidebar__scrollwrap { height: auto; }
+  /* Material makes this wrapper the scroll container. Once the nav got its
+     own bordered panel, the panel's padding and border pushed the content 7px
+     past the wrapper and it grew a scrollbar of its own - on a menu of twelve
+     items with the whole viewport to spare. The wrapper stops scrolling; the
+     sidebar above it already scrolls if the menu is ever genuinely too tall
+     for the window. */
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    height: auto;
+    overflow: visible;
+  }
 }
 
 /* The right-hand table of contents duplicates what the page already shows and
@@ -517,3 +526,61 @@
 @media screen and (max-width: 60em) {
   .wd-spell { padding: .7rem .8rem; }
 }
+
+
+/* ---------------------------------------------------------------------------
+   The sky
+
+   A procedural starfield behind the page - see javascripts/starfield.js. The
+   canvases are painted there; everything here is placement, and the ground
+   colour they sit on.
+
+   Fixed rather than scrolled: the layers move themselves, at three different
+   rates, and a fixed element gives them a stable frame to move within.
+   --------------------------------------------------------------------------- */
+
+.wd-sky {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--wd-sky-ground);
+}
+
+.wd-sky canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+
+/* The page floats above it. Material's own containers are transparent by
+   default, so without this the sky would paint over the article. */
+.md-container,
+.md-header,
+.md-footer { position: relative; z-index: 1; }
+
+[data-md-color-scheme="default"] {
+  /* Warm paper, not white: the cards are parchment and the ground behind them
+     should read as the same material lit from behind. */
+  --wd-sky-ground: linear-gradient(170deg, #efe6d2 0%, #e7dcc4 55%, #ded1b4 100%);
+}
+
+[data-md-color-scheme="slate"] {
+  /* Deep space is not black. It is a very dark blue that lets the nebulae and
+     the dimmest stars stay visible instead of clipping to the background. */
+  --wd-sky-ground: radial-gradient(ellipse at 50% 0%, #12172a 0%, #0b0e1a 45%, #06070f 100%);
+}
+
+/* Material paints its own background on these; both must give way or the sky
+   is covered by an opaque sheet. */
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="default"] body,
+[data-md-color-scheme="default"] .md-main { background-color: transparent; }
+
+/* With a sky behind them the cards need to be opaque, or the stars show
+   through the text. They were already solid; this makes that a requirement
+   rather than a coincidence. */
+.wd-cell { background-blend-mode: normal; }

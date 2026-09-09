@@ -37,6 +37,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/starfield.js
+
 hooks:
   - hooks/glossary.py
   - hooks/flags.py

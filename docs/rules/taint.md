@@ -103,6 +103,7 @@ You can sense the presence of taint in nearby objects and creatures. The amount 
 | 15+ | 1d4+ | Overwhelming |
 
 \* An object or location that is tainted in some way but does not bestow taint generally has a faint aura strength.
+{: .wd-table-note }
 
 **Length Aura Lingers**: How long the aura lingers depends on its original strength:
 
@@ -171,11 +172,13 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 | 7 or more | \*\* |
 
 \* Points absorbed are determined by the purity of the crystal incorporated into the item, as shown on the Taint-Absorbing Items table.
+{: .wd-table-note }
 
 \*\* Subtract the number of taint absorbing items from the total amount of points absorbed.
+{: .wd-table-note }
 
-*Table: Multiple Items*<br>
- _
+*Table: Multiple Items*
+{: .wd-table-note }
 
 | Purity | Absorption | Craft DC | Craft Cost | Market Price |
 |---|---|---|---|---|
@@ -184,6 +187,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 | Greater | 10 | 30 | 150gp | 450gp |
 
 *Table: Taint-Absorbing Items*
+{: .wd-table-note }
 
 </div>
 </div>
@@ -228,8 +232,8 @@ To determine the exact nature of a character's physical or mental taint symptoms
 | 29–32 | – | 15–18 | 19–24 | 25–32 | 33+ |
 | 33–36 | – | 17–20 | 21–26 | 27–34 | 35+ |
 
-*Table: Taint Threshold*<br>
- _
+*Table: Taint Threshold*
+{: .wd-table-note }
 
 | HD Before Death | Transforms Into |
 |---|---|
@@ -239,6 +243,7 @@ To determine the exact nature of a character's physical or mental taint symptoms
 | 9+ | Bodak |
 
 *Table: Tainted Reanimation*
+{: .wd-table-note }
 
 </div>
 </div>

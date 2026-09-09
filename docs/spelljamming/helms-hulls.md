@@ -82,13 +82,16 @@ The remaining interior space is needed for crew, armament, and other necessities
 | Wood, thin | Good | Good | – ¹ | +1 | −3 | −9 | −1 | −6 | −4 | +0 | +8 |
 
 *Columns Fort / Ref / Will are Base Saving Throw; the rest are Bonus.*
+{: .wd-table-note }
 
 ¹ Objects are unaffected by spells or effects that require a Will saving throw.<br>
 ² Metal includes glassteel spells<br>
 ³ Crushing blow includes all crashes<br>
 ⁴ Normal fire includes alchemical fire
+{: .wd-table-note }
 
 *Table: Item Saving Throws*
+{: .wd-table-note }
 
 </div>
 </div>

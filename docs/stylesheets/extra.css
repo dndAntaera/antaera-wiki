@@ -4,7 +4,7 @@
 
 /* Slightly roomier prose for long lore entries */
 .md-typeset {
-  line-height: 1.5;
+  line-height: var(--wd-leading);
 }
 
 /* ---------------------------------------------------------------------------
@@ -17,12 +17,12 @@
 
 .wd-row {
   display: grid;
-  gap: 1rem;
+  gap: var(--wd-gap);
   /* Centred, and no wider than it needs to be. --wd-rw carries the width the
      table asked for in the source - 107 of them ask for 66.7% - and the
      fallback keeps undeclared rows from running the full width of the page. */
-  max-width: var(--wd-rw, 52rem);
-  margin: 1.2rem auto;
+  max-width: var(--wd-rw, var(--wd-row-width));
+  margin: var(--wd-row-gap-y) auto;
   grid-template-columns: 1fr;      /* stacked by default: phones first */
   /* Grid items stretch to the row's height by default, so a short sidebar was
      drawn down to match the column beside it and ended in a long empty box.
@@ -38,11 +38,11 @@
 }
 
 .wd-cell {
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border: var(--wd-line) solid var(--md-default-fg-color--lightest);
   background-color: var(--md-default-fg-color--lightest);
   background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 35%, transparent);
-  border-radius: .2rem;
-  padding: .9rem 1.1rem;
+  border-radius: var(--wd-radius);
+  padding: var(--wd-pad-y) var(--wd-pad-x);
   min-width: 0;                    /* let wide content shrink, not overflow */
 }
 
@@ -84,8 +84,8 @@
    a narrow column gets twice the share (set in the converter) and a smaller
    font to keep the line length readable. */
 .wd-cell.wd-aside {
-  font-size: .72rem;
-  line-height: 1.6;
+  font-size: var(--wd-text-aside);
+  line-height: var(--wd-leading-aside);
 }
 
 /* Column layouts that lived inside a cell - [[div style="float:left; width:33%"]].
@@ -101,9 +101,9 @@
 .wd-col--right { float: right; padding-right: 0; padding-left: 1.2rem; }
 
 .wd-col--boxed {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: .2rem;
-  padding: .8rem 1rem;
+  border: var(--wd-line) solid var(--md-default-fg-color--lightest);
+  border-radius: var(--wd-radius);
+  padding: .8rem var(--wd-space-4);
   margin: 0 0 1rem;
 }
 
@@ -135,7 +135,7 @@
    --------------------------------------------------------------------------- */
 
 :root {
-  font-size: 112.75%;
+  font-size: var(--wd-root-scale);
 }
 
 /* ---------------------------------------------------------------------------
@@ -151,7 +151,7 @@
    together as a pair in the middle of the screen instead of the nav being
    pinned to the far edge with dead space between it and the content. */
 .md-grid {
-  max-width: 70rem;
+  max-width: var(--wd-page-width);
 }
 
 /* The nav rides alongside the body: it stays put while the page scrolls, and
@@ -205,15 +205,15 @@
    them, rather than smaller and bold. */
 .wd-cell h1,
 .wd-cell h2 {
-  font-size: 1.15rem;
-  font-weight: 400;
+  font-size: var(--wd-text-panel-title);
+  font-weight: var(--wd-weight-panel-title);
 }
 
 /* A rule under the panel title only. Sub-headings inside a card are not
    section breaks and should not be underlined. */
 .wd-cell h1 {
   padding-bottom: .25rem;
-  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  border-bottom: var(--wd-line) solid var(--md-default-fg-color--lighter);
 }
 
 .wd-cell h2,
@@ -227,17 +227,17 @@
    --------------------------------------------------------------------------- */
 
 .wd-flag {
-  border: 1px solid var(--md-default-fg-color--light);
+  border: var(--wd-line) solid var(--md-default-fg-color--light);
   border-left-width: .25rem;
-  border-radius: .2rem;
-  padding: .8rem 1rem;
+  border-radius: var(--wd-radius);
+  padding: .8rem var(--wd-space-4);
   margin: 0 0 1.4rem;
 }
 
 .wd-flag > :first-child { margin-top: 0; }
 .wd-flag > :last-child { margin-bottom: 0; }
 
-.wd-flag--wip { border-left-color: #d9a406; }
+.wd-flag--wip { border-left-color: var(--wd-flag-wip); }
 .wd-flag--archived { border-left-color: var(--md-default-fg-color--light); }
 
 /* The sign is a 1300px image; it is a marker, not an illustration. */
@@ -264,14 +264,14 @@
      already has one. Stacked, they are the whole width and read as unfinished
      without it. */
   .wd-cell.wd-plain {
-    border: 1px solid var(--md-default-fg-color--light);
+    border: var(--wd-line) solid var(--md-default-fg-color--light);
     background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 85%, transparent);
     padding: .7rem;
   }
 
   /* Tighter gutters: at 375px every pixel of reading width counts. */
-  .wd-cell { padding: .7rem .8rem; }
-  .wd-row { gap: .7rem; margin: .8rem auto; }
+  .wd-cell { padding: var(--wd-pad-y-sm) var(--wd-pad-x-sm); }
+  .wd-row { gap: var(--wd-gap-sm); margin: var(--wd-row-gap-y-sm) auto; }
 
   /* The flag images are signage, not illustration - smaller on a phone. */
   .wd-flag--wip img { max-width: 160px; }
@@ -317,10 +317,10 @@
 
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary .md-nav--primary {
-    border: 1px solid var(--md-default-fg-color--light);
+    border: var(--wd-line) solid var(--md-default-fg-color--light);
     background-color: color-mix(in srgb, var(--md-default-fg-color--lightest) 85%, transparent);
-    border-radius: .2rem;
-    padding: .7rem .5rem;
+    border-radius: var(--wd-radius);
+    padding: var(--wd-space-3) var(--wd-space-2);
   }
 
   .md-sidebar--primary .md-nav__title { padding-top: 0; }
@@ -336,27 +336,6 @@
    theme's own toggle has to win.
    --------------------------------------------------------------------------- */
 
-[data-md-color-scheme="default"] {
-  --wd-surface: #f7f0dd;
-  --wd-surface-edge: #cfc0a0;
-  --wd-surface-ink: #33291b;
-  --wd-surface-rule: #ded0b2;
-  /* Very low-contrast warmth across the sheet, so it reads as paper rather
-     than a flat beige panel. */
-  --wd-surface-grain:
-    radial-gradient(ellipse at 15% 12%, rgba(196, 172, 122, .18), transparent 55%),
-    radial-gradient(ellipse at 85% 78%, rgba(176, 150, 100, .14), transparent 60%);
-}
-
-[data-md-color-scheme="slate"] {
-  --wd-surface: #262b34;
-  --wd-surface-edge: #3c4453;
-  --wd-surface-ink: inherit;
-  --wd-surface-rule: #3c4453;
-  --wd-surface-grain:
-    radial-gradient(ellipse at 15% 12%, rgba(255, 255, 255, .022), transparent 55%),
-    radial-gradient(ellipse at 85% 78%, rgba(0, 0, 0, .10), transparent 60%);
-}
 
 .wd-cell {
   background-color: var(--wd-surface);
@@ -423,10 +402,10 @@
    --------------------------------------------------------------------------- */
 
 [data-md-color-primary="custom"] {
-  --md-primary-fg-color:        #bf00ff;
-  --md-primary-fg-color--light: #cd3dff;
-  --md-primary-fg-color--dark:  #8f00bf;
-  --md-primary-bg-color:        #ffffff;
+  --md-primary-fg-color:        var(--wd-accent);
+  --md-primary-fg-color--light: var(--wd-accent-light);
+  --md-primary-fg-color--dark:  var(--wd-accent-dark);
+  --md-primary-bg-color:        var(--wd-accent-on);
   --md-primary-bg-color--light: rgba(255, 255, 255, .7);
 }
 
@@ -434,11 +413,11 @@
    being left on the old hue. On parchment the lighter variant is too pale to
    read, so the light scheme takes the darker one. */
 [data-md-color-scheme="default"] {
-  --md-typeset-a-color: #8f00bf;
+  --md-typeset-a-color: var(--wd-surface-link);
 }
 
 [data-md-color-scheme="slate"] {
-  --md-typeset-a-color: #cd3dff;
+  --md-typeset-a-color: var(--wd-accent-light);
 }
 
 
@@ -458,11 +437,11 @@
    --------------------------------------------------------------------------- */
 
 .wd-spell {
-  font-size: 1.1em;
-  border: 1px solid var(--wd-spell-edge);
+  font-size: var(--wd-text-spell);
+  border: var(--wd-line) solid var(--wd-spell-edge);
   background-color: var(--wd-spell-surface);
-  border-radius: .2rem;
-  padding: .8rem 1rem;
+  border-radius: var(--wd-radius);
+  padding: .8rem var(--wd-space-4);
   margin: 1.2rem 0;
 }
 
@@ -480,7 +459,7 @@
 .wd-spell::before {
   content: attr(data-wd-kind);
   display: block;
-  font-size: .58em;
+  font-size: var(--wd-text-tag);
   font-weight: 700;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -509,22 +488,11 @@
 
 /* A sidebar sets its own text size; the spell card is a notch above it, the
    same relationship it has to body text elsewhere. */
-.wd-cell.wd-aside.wd-spell { font-size: .79rem; }
+.wd-cell.wd-aside.wd-spell { font-size: var(--wd-text-aside-spell); }
 
-[data-md-color-scheme="default"] {
-  --wd-spell-surface: #fbf6e9;
-  --wd-spell-edge: #c6b795;
-  --wd-spell-tag: #8a7a58;
-}
-
-[data-md-color-scheme="slate"] {
-  --wd-spell-surface: #2d333e;
-  --wd-spell-edge: #48515f;
-  --wd-spell-tag: #9aa6b8;
-}
 
 @media screen and (max-width: 60em) {
-  .wd-spell { padding: .7rem .8rem; }
+  .wd-spell { padding: var(--wd-pad-y-sm) var(--wd-pad-x-sm); }
 }
 
 
@@ -566,15 +534,6 @@
    so the ground is declared once, on :root, and neither scheme overrides it.
    Deep space is not black: a very dark blue keeps the nebulae and the dimmest
    stars visible instead of clipping them to the background. */
-:root {
-  --wd-sky-ground: radial-gradient(ellipse at 50% 0%, #12172a 0%, #0b0e1a 45%, #06070f 100%);
-  /* Anything printed straight onto the sky - the glossary's entries, image
-     captions, the headings between cards - is on space in both themes and so
-     takes one colour in both. */
-  --wd-sky-ink: #d7dced;
-  --wd-sky-ink-dim: #97a0bb;
-  --wd-sky-link: #d773ff;
-}
 
 /* Material paints its own background on these; both must give way or the sky
    is covered by an opaque sheet. */
@@ -604,10 +563,10 @@ body,
 .wd-cell h3,
 .wd-cell h4 { color: var(--wd-surface-ink); }
 
-[data-md-color-scheme="default"] .wd-cell em { color: #6a5b42; }
+[data-md-color-scheme="default"] .wd-cell em { color: var(--wd-surface-ink-dim); }
 [data-md-color-scheme="slate"] .wd-cell em { color: var(--wd-sky-ink-dim); }
 
-[data-md-color-scheme="default"] .wd-cell a:not(.md-button) { color: #8f00bf; }
+[data-md-color-scheme="default"] .wd-cell a:not(.md-button) { color: var(--wd-surface-link); }
 [data-md-color-scheme="slate"] .wd-cell a:not(.md-button) { color: var(--wd-sky-link); }
 
 /* A media cell has no box, so its caption is on the sky like any other loose
@@ -619,3 +578,58 @@ body,
    the text. They were already solid; this makes it a requirement rather than
    a coincidence. */
 .wd-cell:not(.wd-plain) { background-blend-mode: normal; }
+
+
+/* ---------------------------------------------------------------------------
+   Table notes
+
+   A note that belongs to the table above it, moved into the table as a cell
+   across its foot by hooks/tablenotes.py. Styled as part of the table rather
+   than as a paragraph: the same border and surface, smaller and quieter, so it
+   reads as an annotation on the data and not as the next thing to read.
+   --------------------------------------------------------------------------- */
+
+.md-typeset td.wd-table-note {
+  font-size: var(--wd-text-note);
+  line-height: var(--wd-leading);
+  padding: var(--wd-space-2) var(--wd-space-3);
+  border-top: var(--wd-line) solid var(--wd-surface-edge);
+  background-color: color-mix(in srgb, var(--wd-surface-edge) 18%, transparent);
+  color: inherit;
+  opacity: .85;
+}
+
+/* Anything still marked as a note but not moved - a note with no table above
+   it - should not look like body copy either. */
+.md-typeset p.wd-table-note {
+  font-size: var(--wd-text-note);
+  opacity: .85;
+}
+
+/* ---------------------------------------------------------------------------
+   The work-in-progress sign
+
+   The wiki's own under-construction image, hung at the foot of a page that is
+   still being written. Deliberately without a card: it is a note about the
+   page's state rather than part of the article, so it hangs on the background
+   below everything else rather than presenting itself as a section.
+   --------------------------------------------------------------------------- */
+
+.wd-wip {
+  margin: var(--wd-space-6) auto var(--wd-space-2);
+  text-align: center;
+}
+
+.wd-wip img {
+  display: inline-block;
+  max-width: var(--wd-sign-width);
+  width: 100%;
+  height: auto;
+  /* No box, so the sign has to sit on the sky on its own terms. */
+  opacity: .9;
+  filter: drop-shadow(var(--wd-shadow-sign));
+}
+
+@media screen and (max-width: 60em) {
+  .wd-wip img { max-width: var(--wd-sign-width-sm); }
+}

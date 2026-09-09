@@ -78,6 +78,12 @@ MERGES = {
     },
 }
 
+# Pages whose content belongs at the foot of another page rather than on one
+# of its own. The source page is not written; links to it follow the content.
+APPEND_TO = {
+    "map-antaera": "spelljamming-sphere-antaera",
+}
+
 # part slug -> (merged slug, anchor of its section)
 MERGE_PARTS = {}
 for _merged, _spec in MERGES.items():
@@ -180,6 +186,8 @@ def target_path(slug):
     slug = slug.replace(":", "-")
     if slug in MERGE_PARTS:
         return MERGE_PARTS[slug][0] + ".md"
+    if slug in APPEND_TO:
+        return target_path(APPEND_TO[slug])
     if slug in PAGE_FOLDER:
         return PAGE_FOLDER[slug] + "/" + slug + ".md"
     m = re.match(r"^([a-z]+)-(.+)$", slug)
@@ -200,6 +208,9 @@ TITLES = {
     "calendar": "Antæran Calendar",
     "spelljamming-main": "Spelljamming",
     "wm-index": "Stellar Marches (5e: 2014)",
+    # The world map now sits at the foot of this page, and the page
+    # is in the sidebar, so it needs a name rather than its slug.
+    "spelljamming-sphere-antaera": "The Antæra Sphere",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
@@ -670,10 +681,15 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = re.sub(r"\x00T(\d+)\x00", lambda m: blocks[int(m.group(1))], s)
     s = re.sub(r"\x00U(\d+)\x00", lambda m: urls[int(m.group(1))], s)
     s = re.sub(r"[ \t]+$", "", s, flags=re.M)
+    # A lone underscore is Wikidot's spacer, used to force a blank line. It is
+    # not content, and left in place it prints as a stray "_" - or, since every
+    # adjacent line now gets a break, tacks one onto the caption above it.
+    s = re.sub(r"^[ \t]*_[ \t]*$", "", s, flags=re.M)
     s = re.sub(r"\n{3,}", "\n\n", s)
     s = spell_cards(s)
     s = expand_item_blocks(s)
     s = stat_line_breaks(s)
+    s = table_notes(s)
     # One race, two names. "Mercane" is the name in use - the passage device is
     # "a creation of the Mercane" and the planetary locator comes with "a
     # Mercane hull" - while sixteen other mentions still said "Arcane", one of
@@ -880,6 +896,59 @@ BLOCK_LINE = re.compile(
     r"^\s*$|^#{1,6}\s|^<|^\||^\s*[-*+]\s|^\s*\d+\.\s|^>|^!\[|^\s*```|^!!!|^\?\?\?|^\s{4}")
 
 
+def table_notes(s):
+    """Mark the note that belongs to the table above it.
+
+    A table's notes were written under it as ordinary paragraphs, so they came
+    out as loose text sitting below a bordered table with nothing tying the two
+    together. Marked here and moved into the table itself, as a full-width cell
+    across its foot, by hooks/tablenotes.py.
+
+    Only three shapes count as a note, and every line of the run has to be one
+    of them or none of it is taken: a line opening with an asterisk, which is
+    how the wiki writes them; a line opening with a superscript marker, which
+    is how it writes the numbered ones; and a short italic line, which is how
+    it captions them. Anything else after a table is the next paragraph of the
+    article and is left where it is.
+    """
+    NOTE = re.compile(r"^(?:\\\*|[¹²³⁴⁵⁶⁷⁸⁹⁰])")
+    CAPTION = re.compile(r"^\*[^*].{0,200}\*(?:<br>)?$")
+
+    def is_note(ln):
+        return bool(NOTE.match(ln) or CAPTION.match(ln))
+
+    lines = s.split("\n")
+    i = 0
+    while i < len(lines):
+        if not lines[i].startswith("|"):
+            i += 1
+            continue
+        while i < len(lines) and lines[i].startswith("|"):
+            i += 1
+        # Gather the paragraphs under the table for as long as they are notes.
+        # A note can be several paragraphs - a caption, then the numbered
+        # footnotes - and every one of them has to be marked, or the ones left
+        # over stay loose below the table the rest just moved into.
+        j = i
+        paras = []
+        while True:
+            k = j
+            while k < len(lines) and not lines[k].strip():
+                k += 1
+            para = []
+            while k < len(lines) and lines[k].strip():
+                para.append(k)
+                k += 1
+            if not para or not all(is_note(lines[p]) for p in para):
+                break
+            paras.append(para)
+            j = k
+        for para in reversed(paras):
+            lines.insert(para[-1] + 1, "{: .wd-table-note }")
+        i = j + len(paras)
+    return "\n".join(lines)
+
+
 def stat_line_breaks(s):
     """Put back the line breaks Markdown drops.
 
@@ -1038,6 +1107,7 @@ def main(backup):
 
     written = 0
     merged_bodies = {}
+    appended = {}
     for slug in keep:
         raw = open(os.path.join(src_dir, slug + ".txt"), "rb").read().decode("utf-8", "replace")
         body = convert(raw, slug, img_by_url, tables, linkmap)
@@ -1046,6 +1116,12 @@ def main(backup):
         # The whole page is assembled once every half has been converted.
         if slug in MERGE_PARTS:
             merged_bodies[slug] = body
+            continue
+
+        # Content that belongs at the foot of another page. Held here and
+        # appended once that page has been written.
+        if slug in APPEND_TO:
+            appended.setdefault(APPEND_TO[slug], []).append(body)
             continue
 
         # Promote the opening heading to the title only when the page has a
@@ -1100,10 +1176,9 @@ def main(backup):
         # time by hooks/glossary.py, so the page is just a marker.
         if slug == "glossary":
             title = "Glossary"
-            body = (
-                "An index of every page on the wiki, in alphabetical order.\n\n"
-                "<!-- GLOSSARY -->\n"
-            )
+            # Marker only. The lead goes inside the first card, which the hook
+            # builds, so that nothing on the page sits loose on the background.
+            body = "<!-- GLOSSARY -->\n"
 
         # The Index is the hub for the wiki's own indexes, so Archived Pages
         # hangs off it rather than off the sidebar - the sidebar is a flat list
@@ -1139,6 +1214,14 @@ def main(backup):
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1
+
+    # Content moved onto the end of another page, added once that page exists.
+    for target, bodies in appended.items():
+        p = os.path.join(DOCS, target_path(target))
+        with open(p, encoding="utf-8") as fh:
+            text = fh.read()
+        with open(p, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(text.rstrip() + "\n\n" + "\n".join(b.strip() for b in bodies) + "\n")
 
     # Merged pages, assembled from the halves collected above.
     for merged, spec in MERGES.items():
@@ -1179,11 +1262,6 @@ def main(backup):
     with open(os.path.join(DOCS, "archived.md"), "w", encoding="utf-8", newline="\n") as fh:
         fh.write(
             '---\ntitle: "Archived Pages"\n---\n\n'
-            # One line, not wrapped: adjacent lines are a line break on this
-            # wiki, and this is a single paragraph.
-            "Material kept for reference but no longer part of the current"
-            " setting. Archived pages do not appear in the glossary or in"
-            " search results.\n\n"
             "<!-- ARCHIVED-INDEX -->\n"
         )
     written += 1

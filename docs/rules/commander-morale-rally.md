@@ -35,6 +35,7 @@ For example, a lieutenant trying to rally shaken troops gets a +3 bonus on the r
 | 7 | General | 5,000 or more |
 
 *Table: Commander Ratings*
+{: .wd-table-note }
 
 Not every army uses the same rank structure, of course—one army’s captain is another’s warchief is another’s lord knight. Regardless of the name by which a rank is known, all characters of a certain rank have more or less the same amount of responsibility.
 
@@ -56,6 +57,7 @@ These staff officers make up the bulk of many armies’ officer corps. They rare
 | General (7) | Sovereign lord | Horde king | Army commander | Shauselakiak ("Purest soul") | High master of the crusade |
 
 *Table: Sample Ranks*
+{: .wd-table-note }
 
 ## Rank Has Its Privileges
 
@@ -271,6 +273,7 @@ If a creature is required to attempt a morale check, it makes the check at the s
 | Unit outnumbers nearby enemies 4:1 | 5 |
 
 *Table: Morale Check Modifiers*
+{: .wd-table-note }
 
 **Group Morale Checks**<br>
 In cases when you need to know whether a large group of creatures stays or runs, a single morale check can often take the place of individual checks for each member of the unit, with the result applying equally to all creatures in the unit. This saves a lot of time and effort on the DM’s part.
@@ -309,6 +312,7 @@ The following morale conditions are organized from highest morale to lowest mora
 | 81–100 | **Nauseated:** unable to attack, cast spells, concentrate, or take any action other than a single move action. |
 
 *Table: Crazed*
+{: .wd-table-note }
 
 </div>
 </div>
@@ -336,8 +340,10 @@ For example, troops that are panicked can be made frightened with a successful D
 | Normal\* | | | | 20 |
 
 \* Can only be attempted before the battle (see below).
+{: .wd-table-note }
 
 *Table: Rally Attempts*
+{: .wd-table-note }
 
 | Situation | Modifier |
 |---|---|
@@ -348,6 +354,7 @@ For example, troops that are panicked can be made frightened with a successful D
 | No enemies within line of sight | 5 |
 
 *Table: Rally Check Modifiers*
+{: .wd-table-note }
 
 </div>
 

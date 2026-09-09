@@ -1,5 +1,5 @@
 ---
-title: "Sphere Antaera"
+title: "The Antæra Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
@@ -119,6 +119,39 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 - Mordac, the Arbiter of Tyranny (Lawful Evil)
 - Vortressa, the Mother of Monsters (Neutral Evil)
 - Zarakth, the Abyssal Scourge (Chaotic Evil)
+
+</div>
+</div>
+
+<div class="wd-row" markdown>
+<div class="wd-cell wd-plain" markdown>
+
+![](/antaera-wiki/img/map_antaera_header.jpg)
+
+</div>
+<div class="wd-cell" markdown>
+
+# **Legend**
+
+- [Antæran Plains](../region/antaeran-plains.md)
+- Angheh Wastes
+- Broken Spire Isles
+- [Coastal Barrier Range](../region/coastal-barrier-range.md)
+- Dark Mire
+- Kir'raask Desert
+- Mir'raask Gulf
+- Old Spire Mountains
+- [Sea of Innas](../region/sea-of-innas.md)
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# **Index**
+
+- [Kingdoms & Empires](../kingdoms-empires.md)
+- [Languages](../languages.md)
 
 </div>
 </div>

@@ -73,14 +73,14 @@ Astral crystals have hardness and hp based on their purity: least (hardness 8, 5
 <div class="wd-col" style="--wd-w: 50%" markdown>
 
 ![](/antaera-wiki/img/planar_crystal_header.jpg)
-*Planar Crystal: Fire*<br>
- _
+*Planar Crystal: Fire*
+
 ![](/antaera-wiki/img/planar_crystal_inline.jpg)
-*Planar Crystal: Water*<br>
- _
+*Planar Crystal: Water*
+
 ![](/antaera-wiki/img/planar_crystal_inline_2.jpg)
-*Planar Crystal: Air*<br>
- _
+*Planar Crystal: Air*
+
 ![](/antaera-wiki/img/planar_crystal_inline_3.jpg)
 *Planar Crystal: Earth*
 
@@ -89,11 +89,11 @@ Astral crystals have hardness and hp based on their purity: least (hardness 8, 5
 <div class="wd-col wd-col~~right" style="~~wd-w: 50%" markdown>
 
 ![](/antaera-wiki/img/planar_crystal_inline_4.jpg)
-*Planar Crystal: Negative*<br>
- _
+*Planar Crystal: Negative*
+
 ![](/antaera-wiki/img/planar_crystal_inline_5.jpg)
-*Planar Crystal: Positive*<br>
- _
+*Planar Crystal: Positive*
+
 ![](/antaera-wiki/img/planar_crystal_inline_6.jpg)
 *Planar Crystal: Astral*
 
@@ -152,8 +152,8 @@ Planar Crystals have a half-life based on their purity, with the least pure crys
 | Appraise | Appraisal of (large, lesser) crystals | 20 |
 | Appraise | Appraisal of (large, greater) crystals | 25 |
 
-*New skill uses*<br>
- _
+*New skill uses*
+{: .wd-table-note }
 
 | 5 or more ranks in… | gives a +2 bonus on… |
 |---|---|
@@ -163,6 +163,7 @@ Planar Crystals have a half-life based on their purity, with the least pure crys
 | Knowledge (the planes) | Knowledge (gemology) checks related to planar crystals |
 
 *New skill synnergies*
+{: .wd-table-note }
 
 </div>
 </div>

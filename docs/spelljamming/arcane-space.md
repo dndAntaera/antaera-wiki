@@ -212,6 +212,7 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 | Match (fuse)\* | 1d4−2 (min 1) | Self |
 
 \* Immediately causes an arquebus to misfire.
+{: .wd-table-note }
 
 </div>
 </div>

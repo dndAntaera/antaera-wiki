@@ -164,6 +164,7 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 | Colossal | \* | 3d6 | \* | 32 |
 
 \* For values marked with an asterisk, the SRD gives neither this value directly nor a means to determine it.
+{: .wd-table-note }
 
 These are the grappling hooks described in the SRD with slight modifications to be used as weapons and have a slightly increased range, making them more useful for boarding ships. A grappling hook has reach, so you can strike opponents 10 feet away with it. In addition, unlike most other weapons with reach, it can be used against an adjacent foe.
 
@@ -193,6 +194,7 @@ You can use the Weapon Finesse feat to apply your Dexterity modifier instead of 
 | Colossal | \* | 6d6 | \* | 160 |
 
 \* For values marked with an asterisk, the SRD gives neither this value directly nor a means to determine it.
+{: .wd-table-note }
 
 This is a common hooked polearm used in space, primarily for repelling boarders and cutting grappling lines. It is of very little use when trying to board an enemy ship. Built similarly to a longspear, the boarding pike is almost 15 feet long. You can strike opponents 15 feet away with it, but you can't use it against foes closer than that. If you use a ready action to set an awl pike against a charge, you deal double damage on a successive hit against a charging character.
 

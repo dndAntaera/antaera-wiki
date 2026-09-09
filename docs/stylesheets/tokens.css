@@ -1,0 +1,194 @@
+/* ===========================================================================
+   Antæra Wiki - design tokens
+   ===========================================================================
+
+   Every value the site's look depends on is named here, and nowhere else. The
+   rules in extra.css say what an element is; this file says what the site is
+   made of. Change a number here and it changes everywhere it applies, which is
+   the point: before this existed the card radius appeared in four rules, the
+   hairline width in nine, and the parchment in three, so "make the cards a
+   little rounder" meant finding all four.
+
+   Two rules keep it honest:
+
+     1. extra.css contains no literal colours and no literal spacing. If a rule
+        needs a value, that value gets a name here first.
+     2. Tokens are grouped by what they mean, not by where they are used. There
+        is one ink colour for the sky and one for a card, not one per element
+        that happens to sit on either.
+
+   The theme switch is the only place a token is redefined: the sky, the type
+   scale and the spacing are the same by day and by night, and only the card
+   surface and its ink change. See "Surfaces" at the foot of this file.
+   =========================================================================== */
+
+
+/* ---------------------------------------------------------------------------
+   Type
+
+   Material sizes the whole theme in rem from the root, so scaling the root
+   scales body copy, headings, navigation and sidebars together. 112.75% of a
+   16px default gives an 18.04px root and a 14.43px body, which is the size
+   this site's long lore pages were tuned at. A percentage rather than a pixel
+   value, so a reader who has raised their browser's default still gets a
+   correspondingly larger site.
+
+   Note on units: CSS points are not document points - "10pt" resolves to
+   13.3px, larger than the body size here. Pixels are meant throughout.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --wd-root-scale: 112.75%;
+
+  /* Relative to body copy, so they hold together if the root ever moves. */
+  --wd-text-panel-title: 1.15rem;   /* a card's own heading */
+  --wd-text-aside: .72rem;          /* sidebar cells */
+  --wd-text-aside-spell: .79rem;    /* a spell card inside a sidebar: 1.1x */
+  --wd-text-note: .82em;            /* a table's notes */
+  --wd-text-tag: .58em;             /* the SPELL / PSIONIC POWER label */
+  --wd-text-spell: 1.1em;           /* a spell card, against its surroundings */
+
+  --wd-weight-panel-title: 400;
+  --wd-weight-spell-title: 700;
+
+  --wd-leading: 1.5;
+  --wd-leading-aside: 1.6;
+
+
+  /* -------------------------------------------------------------------------
+     Space
+
+     Four steps, used everywhere. A card's padding and a row's gutter come from
+     the same scale so the gap between two cards and the gap inside one are
+     visibly related.
+     ------------------------------------------------------------------------- */
+
+  --wd-space-1: .25rem;
+  --wd-space-2: .5rem;
+  --wd-space-3: .7rem;
+  --wd-space-4: 1rem;
+  --wd-space-5: 1.2rem;
+  --wd-space-6: 2.5rem;
+
+  --wd-pad-y: .9rem;                /* card padding, desktop */
+  --wd-pad-x: 1.1rem;
+  --wd-pad-y-sm: .7rem;             /* card padding, phone */
+  --wd-pad-x-sm: .8rem;
+
+  --wd-gap: var(--wd-space-4);      /* between cells in a row */
+  --wd-gap-sm: var(--wd-space-3);
+  --wd-row-gap-y: var(--wd-space-5); /* between rows */
+  --wd-row-gap-y-sm: .8rem;
+
+  --wd-radius: .2rem;
+  --wd-line: 1px;                   /* every hairline on the site */
+
+
+  /* -------------------------------------------------------------------------
+     Layout
+
+     The page is as wide as the nav plus one column of cards and no wider, so
+     the two sit together in the middle of the screen rather than the nav being
+     pinned to the far edge with dead space between.
+
+     --wd-rw and --wd-cols are set per row by the converter and are listed here
+     only so the fallbacks live with everything else.
+     ------------------------------------------------------------------------- */
+
+  --wd-page-width: 70rem;           /* .md-grid */
+  --wd-row-width: 52rem;            /* a row that does not ask for a width */
+  --wd-card-width: 935px;           /* the standard single-column card */
+  --wd-sign-width: 200px;           /* the work-in-progress sign */
+  --wd-sign-width-sm: 150px;
+
+
+  /* -------------------------------------------------------------------------
+     Colour: the sky
+
+     The background is the same space by day and by night - day and night are a
+     property of the paper you are reading, not of what is outside the window -
+     so none of these are redefined per theme. Deep space is not black: a very
+     dark blue keeps the nebulae and the dimmest stars visible instead of
+     clipping them to the background.
+
+     Anything printed straight onto the sky takes the sky's ink in both themes.
+     Measured: 13.0:1 for text and 6.6:1 for links, against a 4.5:1 bar.
+     ------------------------------------------------------------------------- */
+
+  --wd-sky-near: #12172a;
+  --wd-sky-mid: #0b0e1a;
+  --wd-sky-far: #06070f;
+  --wd-sky-ground: radial-gradient(ellipse at 50% 0%,
+                     var(--wd-sky-near) 0%, var(--wd-sky-mid) 45%,
+                     var(--wd-sky-far) 100%);
+
+  --wd-sky-ink: #d7dced;
+  --wd-sky-ink-dim: #97a0bb;
+  --wd-sky-link: #d773ff;
+
+
+  /* -------------------------------------------------------------------------
+     Colour: accent
+
+     Material's palette option only takes named colours, so the hex is set here
+     and the config asks for "custom". The light and dark variants are the same
+     hue - Material uses them for hover states and the header shadow, and
+     leaving them unset falls back to a different purple entirely.
+     ------------------------------------------------------------------------- */
+
+  --wd-accent: #bf00ff;
+  --wd-accent-light: #cd3dff;
+  --wd-accent-dark: #8f00bf;        /* 6.3:1 on parchment; the plain accent is 4.0 */
+  --wd-accent-on: #ffffff;
+
+  --wd-flag-wip: #d9a406;           /* the work-in-progress marker */
+  --wd-shadow-sign: 0 2px 10px rgba(0, 0, 0, .45);
+}
+
+
+/* ---------------------------------------------------------------------------
+   Surfaces
+
+   The only tokens that change with the theme. A card is parchment by day and
+   slate by night; everything else - the sky, the type scale, the spacing - is
+   the same in both.
+
+   Material sets data-md-color-scheme on <body>, so both schemes are declared
+   explicitly rather than leaning on prefers-color-scheme: the theme's own
+   toggle has to win.
+   --------------------------------------------------------------------------- */
+
+[data-md-color-scheme="default"] {
+  --wd-surface: #f7f0dd;
+  --wd-surface-edge: #cfc0a0;
+  --wd-surface-ink: #33291b;
+  --wd-surface-ink-dim: #6a5b42;
+  --wd-surface-rule: #ded0b2;
+  --wd-surface-link: var(--wd-accent-dark);
+  /* Very low-contrast warmth across the sheet, so it reads as paper rather
+     than a flat beige panel. */
+  --wd-surface-grain:
+    radial-gradient(ellipse at 15% 12%, rgba(196, 172, 122, .18), transparent 55%),
+    radial-gradient(ellipse at 85% 78%, rgba(176, 150, 100, .14), transparent 60%);
+
+  /* A spell card is a lighter, cooler sheet laid on the one below it. */
+  --wd-spell-surface: #fbf6e9;
+  --wd-spell-edge: #c6b795;
+  --wd-spell-tag: #8a7a58;
+}
+
+[data-md-color-scheme="slate"] {
+  --wd-surface: #262b34;
+  --wd-surface-edge: #3c4453;
+  --wd-surface-ink: var(--wd-sky-ink);
+  --wd-surface-ink-dim: var(--wd-sky-ink-dim);
+  --wd-surface-rule: #3c4453;
+  --wd-surface-link: var(--wd-sky-link);
+  --wd-surface-grain:
+    radial-gradient(ellipse at 15% 12%, rgba(255, 255, 255, .022), transparent 55%),
+    radial-gradient(ellipse at 85% 78%, rgba(0, 0, 0, .10), transparent 60%);
+
+  --wd-spell-surface: #2d333e;
+  --wd-spell-edge: #48515f;
+  --wd-spell-tag: #9aa6b8;
+}

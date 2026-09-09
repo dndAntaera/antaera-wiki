@@ -120,21 +120,42 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         return "number" if c == "#" else c.lower()
 
     total = sum(len(v) for v in buckets.values())
-    parts = [
+    # The heading is here rather than left to Material, which injects a bare
+    # <h1> when a page has none - and that one would sit outside the cards.
+    parts = _card([
+        "# Glossary",
+        "",
+        "An index of every page on the wiki, in alphabetical order.",
+        "",
         " · ".join("[%s](#%s)" % (heading(c), anchor(c)) for c in letters),
         "",
         "*%d entries, generated from page titles when the site is built.*" % total,
-    ]
+    ])
+    # A card per letter rather than one long sheet: the index is 24 sections of
+    # very different lengths, and a box around each is what tells them apart.
     for c in letters:
-        parts += ["", "## " + heading(c), ""]
+        body = ["## " + heading(c), ""]
         for title, uri, summary in sorted(buckets[c], key=lambda e: e[0].lower()):
             line = "**[%s](%s)**" % (title, uri)
             if summary:
                 line += " — " + summary
-            parts.append(line)
-            parts.append("")
+            body.append(line)
+            body.append("")
+        parts += _card(body)
 
     return markdown.replace(MARKER, "\n".join(parts))
+
+
+def _card(body):
+    """Wrap generated content in the same card the rest of the wiki uses.
+
+    Every page with a body on this wiki puts it on a card; these two pages are
+    generated here rather than converted, so the card has to be built here too
+    or they are the only pages whose text sits loose on the background.
+    """
+    return (['<div class="wd-row" style="--wd-rw: 935px" markdown>',
+             '<div class="wd-cell" markdown>', ""]
+            + body + ["", "</div>", "</div>", ""])
 
 
 def _archived_index(page, files):
@@ -155,16 +176,23 @@ def _archived_index(page, files):
         sections.setdefault(folder, []).append((title, f.src_uri, _first_paragraph(text)))
 
     if not sections:
-        return "*Nothing is archived.*"
+        return "\n".join(_card(["*Nothing is archived.*"]))
 
     labels = {"wm": "Stellar Marches (5e: 2014)"}
-    parts = []
+    parts = _card([
+        "# Archived Pages",
+        "",
+        "Material kept for reference but no longer part of the current"
+        " setting. Archived pages do not appear in the glossary or in search"
+        " results.",
+    ])
     for folder in sorted(sections):
-        parts += ["", "## " + labels.get(folder, folder or "Other"), ""]
+        body = ["## " + labels.get(folder, folder or "Other"), ""]
         for title, uri, summary in sorted(sections[folder], key=lambda e: e[0].lower()):
             line = "**[%s](%s)**" % (title, uri)
             if summary:
                 line += " — " + summary
-            parts.append(line)
-            parts.append("")
+            body.append(line)
+            body.append("")
+        parts += _card(body)
     return "\n".join(parts)

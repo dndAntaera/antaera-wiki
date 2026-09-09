@@ -35,6 +35,8 @@ theme:
         name: Switch to light mode
 
 extra_css:
+  # Tokens first: extra.css is written entirely in terms of them.
+  - stylesheets/tokens.css
   - stylesheets/extra.css
 
 extra_javascript:
@@ -43,6 +45,7 @@ extra_javascript:
 hooks:
   - hooks/glossary.py
   - hooks/flags.py
+  - hooks/tablenotes.py
   - hooks/cachebust.py
 
 plugins:
@@ -88,7 +91,7 @@ nav:
   - The Pantheons: pantheons.md
   - The Cosmology: cosmology.md
   - The Known Spheres: spelljamming/known-spheres.md
-  - Antæra World Map: map-antaera.md
+  - The Antæra Sphere: spelljamming/sphere-antaera.md
   - Taxonomies: taxonomy-main.md
   - Antæran Calendar: calendar.md
   - Spelljamming: spelljamming/main.md

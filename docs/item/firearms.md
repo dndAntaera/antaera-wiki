@@ -97,7 +97,6 @@ Rifles count as Heavy Crossbows in terms of being affected by feats such as Rapi
 <div class="wd-cell" markdown>
 
 # Gunpowder Weapons
- _
 
 | Simple Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range Increment | Weight | Type |
 |---|---|---|---|---|---|---|---|
@@ -121,6 +120,7 @@ Rifles count as Heavy Crossbows in terms of being affected by feats such as Rapi
 | Bullets, firearm (10) | 3 gp | – | – | – | – | 2 lbs | – |
 
 \* Blunderbuss shot consists of 1 pound of nearly any form of scrap metal, stones, or other improvised bullets.
+{: .wd-table-note }
 
 </div>
 </div>

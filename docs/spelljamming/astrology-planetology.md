@@ -331,6 +331,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 96–00 | Size J |
 
 *Table: Fire and Air Types*
+{: .wd-table-note }
 
 | d% | Size Category |
 |---|---|
@@ -344,6 +345,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 91–00 | Size H |
 
 *Table: Earth and Water Types*
+{: .wd-table-note }
 
 | d% | Shape |
 |---|---|
@@ -358,6 +360,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 0 | Irregular |
 
 *Table: Shapes*
+{: .wd-table-note }
 
 </div>
 

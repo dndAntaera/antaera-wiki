@@ -1,5 +1,5 @@
 ---
-title: "Sphere Sanctum Aeternum"
+title: "The Sanctum Æternum Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

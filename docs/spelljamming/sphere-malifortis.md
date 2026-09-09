@@ -1,5 +1,5 @@
 ---
-title: "Sphere Malifortis"
+title: "The Malifortis Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

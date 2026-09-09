@@ -1,5 +1,5 @@
 ---
-title: "Sphere Aerivagus"
+title: "The Aerivagus Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

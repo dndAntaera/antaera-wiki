@@ -1130,6 +1130,26 @@ def main(backup):
         for n in names:
             linkmap.setdefault(norm_slug(n), target_path(s))
 
+    # The spheres take their names from the wiki's own index rather than from
+    # their slugs, which had produced "Sphere Cineraexis" for Cineræxis and
+    # "Sphere Sanctum Aeternum" for Sanctum Æternum. The Known Spheres page
+    # links to every one of them and spells each correctly, so that is the
+    # authority; deriving it means a sphere added later is named right without
+    # anyone editing a list here.
+    index_src = os.path.join(src_dir, "spelljamming-known-spheres.txt")
+    if os.path.exists(index_src):
+        raw = open(index_src, "rb").read().decode("utf-8", "replace")
+        for target, name in re.findall(r"\[\[\[([^\]|]+)\|([^\]]+)\]\]\]", raw):
+            t = target.strip()
+            if "sphere-" not in t:
+                continue
+            # The index links one sphere by its display name rather than its
+            # slug; match on the normalised form so that one lands too.
+            for s in keep:
+                if norm_slug(s) == norm_slug(t):
+                    TITLES.setdefault(s, "The %s Sphere" % name.strip())
+                    break
+
     imgs = json.load(open(os.path.join(ROOT, "_migration", "images.json"), encoding="utf-8"))
     img_by_url = {e["url"]: e["final"] for e in imgs}
 

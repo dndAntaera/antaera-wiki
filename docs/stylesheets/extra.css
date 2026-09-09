@@ -510,7 +510,7 @@
 .wd-sky {
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: var(--wd-layer-sky);
   overflow: hidden;
   pointer-events: none;
   background: var(--wd-sky-ground);
@@ -531,10 +531,14 @@
 }
 
 /* The page floats above it. Material's own containers are transparent by
-   default, so without this the sky would paint over the article. */
+   default, so without this the sky would paint over the article.
+
+   The header is deliberately not in this list. Material already gives it
+   position: sticky and a z-index of 4, which is above the sky; including it
+   here overrode the sticky with position: relative and the bar scrolled away
+   with the page. It needs nothing from this rule. */
 .md-container,
-.md-header,
-.md-footer { position: relative; z-index: 1; }
+.md-footer { position: relative; z-index: var(--wd-layer-page); }
 
 /* One sky, both themes. It is the same space either way - day and night are a
    property of the paper you are reading, not of what is outside the window -

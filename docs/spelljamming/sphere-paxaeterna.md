@@ -1,5 +1,5 @@
 ---
-title: "Sphere Paxaeterna"
+title: "The Paxæterna Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

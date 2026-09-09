@@ -1,5 +1,5 @@
 ---
-title: "Sphere Antaera"
+title: "The Antæra Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

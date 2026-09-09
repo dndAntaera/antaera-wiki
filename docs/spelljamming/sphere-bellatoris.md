@@ -1,5 +1,5 @@
 ---
-title: "Sphere Bellatoris"
+title: "The Bellatoris Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

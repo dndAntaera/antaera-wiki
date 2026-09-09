@@ -1,5 +1,5 @@
 ---
-title: "Sphere Graveyard Of The Gods"
+title: "The Graveyard of the Gods Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

@@ -1,5 +1,5 @@
 ---
-title: "Sphere Sidhe"
+title: "The Sidhe Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

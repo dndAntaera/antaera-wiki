@@ -1,5 +1,5 @@
 ---
-title: "Sphere Custodae"
+title: "The Custodæ Sphere"
 wip: true
 ---
 

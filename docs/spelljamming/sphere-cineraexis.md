@@ -1,5 +1,5 @@
 ---
-title: "Sphere Cineraexis"
+title: "The Cineræxis Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

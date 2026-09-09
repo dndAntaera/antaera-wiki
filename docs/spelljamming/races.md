@@ -110,8 +110,8 @@ Their homeworld contains large, shallow seas and at least one large moon. Beyond
 
 - +9 Str, -3 Dex, +4 Con
 - **Large Size**: -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.
-- **Space/Reach**: 10 feet/5 feet.
-- A dracon's base land speed is 50 feet.
+- **Space/Reach**: 10 ft/5 ft
+- A dracon's base land speed is 50 ft
 - Darkvision out to 60 ft
 - **Racial Hit Dice**: A dracon begins with two levels of monstrous humanoid, which provide: 2d8 Hit Dice; Base Attack Bonus +1; Base Saving Throw Bonuses; Fort +0, Ref +3, Will +3
 - **Racial Skills**: A dracon's monstrous humanoid levels give it skill points equal to 7 × (2 + Int modifier). Its class skills are Listen, Move Silently, Spot, and Survival.
@@ -192,7 +192,7 @@ Other giff adventure under orders—giff platoons try their best regardless of t
 
 - Str +4, Con +2, Int -2
 - **Medium**: As Medium creatures, giff have no special bonuses or penalties due to size.
-- Giff base land speed is 20 feet.
+- Giff base land speed is 20 ft
 - **Powerful Build**: The physical stature of a giff lets it function in many ways as if it were one size category larger. Whenever a giff is subject to a size modifier or special size modifier for an opposed check (such as during grapple checks, bull rush attempts, and trip attempts), the giff is treated as one size larger if doing so is advantageous to him. A giff is also considered to be one size larger when determining whether a creature's special attacks based on size (such as improved grab or swallow whole) can affect him. A giff can use weapons designed for a creature one size larger without penalty. However, his space and reach remain those of a creature of his actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.
 - **Nonmagical Nature**: By nature, giff are nonmagical and never cast spells. In fact, their nature is so nonmagical that they cannot use spelljamming helms. Furthermore, they gain SR 8 and have a 5% spell failure chance that applies to all spells they cast and magic items that require activation. Items thus affected use the spell completion or spell activation method of use.
 - **Weapon Familiarity**: Giff culture prizes gunpowder weapons. As such, giff treat firearms as martial weapons, rather than exotic weapons.
@@ -215,7 +215,7 @@ Other giff adventure under orders—giff platoons try their best regardless of t
 
 # Grommams
 
-Grommams are gorilla-like apes with heavy upper-body musculature. Their legs are short, and their feet are roughly soled with toes that have limited ability to grasp objects. Grommams have short, rough, copper-red fur all over their bodies except on their faces, the palms of their hands, and the soles of their feet. Their skin is a rich chocolate brown. Most grommams stand five feet tall with arm spans up to nine feet wide. Males weigh 350-500 lbs., while females weigh half as much.
+Grommams are gorilla-like apes with heavy upper-body musculature. Their legs are short, and their feet are roughly soled with toes that have limited ability to grasp objects. Grommams have short, rough, copper-red fur all over their bodies except on their faces, the palms of their hands, and the soles of their feet. Their skin is a rich chocolate brown. Most grommams stand five feet tall with arm spans up to nine feet wide. Males weigh 350–500 lbs, while females weigh half as much.
 
 Grommams use a gestural and finger-sign language. Body postures, facial expressions, and a variety of vocal hoots, screams, grunts, and calls add to the basic language, called "grommish" by other races.
 
@@ -230,7 +230,7 @@ Chain mail is used almost exclusively for its light weight and flexibility. Shie
 ## Habitat/Society
 Grommams are generally peaceful, with their leadership made up of "director" females led by a demigod. (The grommam demigods openly live among the grommams, but they never adventure.) Unmarried males form the backbone of the military forces, and more than a few become adventurers. They make their homes in forests, but they enjoy the same climates as humans. They climb extremely well, and some build treehouses, but most grommams are ground dwellers.
 
-A grommam family usually consists of one adult male, 1-2 adult females, and 1d4 children.
+A grommam family usually consists of one adult male, 1–2 adult females, and 1d4 children.
 
 - One female generally cooks, cleans, and manages the children.
 - The other female directs all household affairs such as finances, purchases, and dealings with other grommam families.
@@ -255,7 +255,7 @@ Because grommams are so adept at climbing, they make heavy use of ropes, rigging
 
 - +2 Str, +2 Dex, -2 Int, -2 Wis
 - **Medium**: As Medium creatures, grommam have no special bonuses or penalties due to size.
-- Grommam base land speed is 30 feet.
+- Grommam base land speed is 30 ft
 - Grommam have a +8 racial bonus on Climb and Use Rope checks and can always choose to take 10 on Climb and Use Rope checks, even if rushed or threatened.
 - **Speak With Kin (Ex))**: Grommams have the ability to communicate with apes (and other similar animals) as if they were under the effect of the *Speak With Animals* spell.
 - Grommams have a -2 penalty on Bluff and Diplomacy checks made with non-ape-like races.
@@ -349,8 +349,8 @@ Hadozee often use their gliding abilities and dexterity to great effect, whether
 
 - +2 Dexterity, –2 Charisma.
 - Medium: As a Medium creature, a hadozee has no special bonuses or penalties due to her size.
-- Hadozee base land speed is 30 feet.
-- Gliding: Hadozee can use their arm-flaps to glide, negating damage from a fall of any height and allowing them to travel 20 feet horizontally for every 5 feet of descent. A hadozee glides at a speed of 40 feet (average maneuverability).
+- Hadozee base land speed is 30 ft
+- Gliding: Hadozee can use their arm-flaps to glide, negating damage from a fall of any height and allowing them to travel 20 ft horizontally for every 5 ft of descent. A hadozee glides at a speed of 40 ft (average maneuverability).
 - +4 racial bonus on Balance and Climb checks: Hadozee are natural climbers and have no fear of narrow pathways. A hadozee does not lose her Dexterity bonus to AC while climbing and can climb unimpeded while holding something in one hand.
 - Automatic Languages: Common, Hadozee. Bonus Languages: Any (other than secret languages, such as Druidic). See the *Speak Language* skill.
 - Favored Class: Rogue
@@ -376,7 +376,7 @@ They are brave, stubborn, and persistent, with a cultural disdain for surrender.
 ## Physical Description
 Hurwaeti have thick, tough, glossy olive-green scales that can appear damp or slimy to observers. Their bodies are humanoid but feature long frog-like legs, webbed fingers and toes, and gnome-like faces with large ears, pointed noses, and sharp bearded chins. Adult hurwaeti tend to have sparse beards and tufts of coarse hair on their heads. Venerable hurwaeti may develop thick brows and fuller facial hair.
 
-They range from six to seven feet tall and typically weigh between 190 and 230 pounds. They wear simple, brightly colored loincloths and belts, often decorated with jewelry made from ceramic, shell, or bone. Favorite adornments include large earrings, armbands, wristbands, and ankle bracelets. Their clothing tends to be minimal and practical, supplemented with packs for carrying equipment.
+They range from six to seven feet tall and typically weigh between 190 and 230 lbs. They wear simple, brightly colored loincloths and belts, often decorated with jewelry made from ceramic, shell, or bone. Favorite adornments include large earrings, armbands, wristbands, and ankle bracelets. Their clothing tends to be minimal and practical, supplemented with packs for carrying equipment.
 
 ## Relations With Others
 Hurwaeti tribes are composed of multiple clans, each ruled by an elder. The senior clan head, usually the oldest and wealthiest, governs the tribe. All disputes are settled by appealing to the chief. When a chief dies, a new one is elected from among the clan elders. Wealth and honor are earned by service, particularly on ships or through independent ventures.
@@ -410,7 +410,7 @@ Many hurwaeti who venture out as adventurers are former crew members, mercenarie
 - -2 Con, +2 Wis
 - **Type**: Humanoid (Scalykind)
 - **Medium**: As a Medium creature, a hurwaet has no special bonuses or penalties due to her size.
-- Hurwaet base land speed is 30 feet.
+- Hurwaet base land speed is 30 ft
 - +1 racial bonus on attack rolls against neogi, illithid, and beholderkin.
 - +4 racial bonus on Jump checks: Hurwaet have anatomy similar to frogs. In addition, hurwaet treat all Jump checks as though they have a running start.
 - **Scaly Hide**: Hurwaeti have a natural armor bonus of +2. Additionally, non-magical armor must be custom made to fit a hurwaet's body shape. Such armor costs 50% more than normal armor.
@@ -530,8 +530,8 @@ Though peaceful by nature, rastipedes are capable of defending themselves and do
 - +2 Str, +2 Dex, -2 Int, +2 Wis
 - **Type**: Monstrous Humanoid (Insectoid)
 - **Medium**: As Medium creatures, rastipedes have no special bonuses or penalties due to their size.
-- Rastipede base land speed is 40 ft. Additionally, rastipedes have a 20 ft. burrow speed.
-- Darkvision out to 60 feet.
+- Rastipede base land speed is 40 ft. Additionally, rastipedes have a 20 ft burrow speed.
+- Darkvision out to 60 ft
 - **Natural Attacks**: Rastipedes can attack with four claws and a bite. The claws deal 1d4 points of damage, and the bite is a secondary attack that also deals 1d4 points of damage. A rastipede can attack with a weapon (or multiple weapons) at its normal attack bonus and make either a bite or claw attack as a secondary attack. For example, a rastipede ranger with the Multiweapon Fighting feat who is armed with four short swords could attack with all four swords at a -2 penalty (the normal penalty for fighting with multiple weapons while using light weapons in off hands) and also make a bite attack at a -5 penalty.
 - **Racial Hit Dice**: A rastipede begins with one level of monstrous humanoid, which provides 1d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +2, Will +2.
 - **Racial Skills**: A rastipede's monstrous humanoid levels grant skill points equal to 5 × (2 + Int modifier). Class skills include Balance, Climb, Jump, Listen, and Spot.
@@ -557,7 +557,7 @@ The Scro are advanced orcs from a distant sphere, forged into a disciplined and 
 Scro are aggressive and intense by nature, but their iron discipline keeps their emotions buried beneath a cold exterior. Even among their own kind, they maintain a rigid chain of command and suppress individuality for the greater good of their race. Unlike most evil creatures, the typical Scro is selfless, focused, and self-disciplined. In battle, they remain composed, unleashing calculated violence rather than rage. They show tact in social settings, but are quick to deliver scathing, alliterative insults in combat, often crafted to throw enemies off balance.
 
 ## Physical Description
-Scro resemble orcs in their brutish features, pig-like snouts, and powerful jaws, but they are taller (averaging 6 to 8 feet), stronger, and more erect in posture. Their teeth are filed into points and often inscribed or decorated with gems and tribal symbols. Their skin tones range from jet black to moss green to burnt orange, with rare albino variations. Their eyes glow a phosphorescent green in dim light. Scro wear highly maintained, jet-black studded leather or heavier armor, adorned with insignias of tribe and rank. Their weapons and gear are kept in meticulous condition, and they take pride in their appearance as warriors.
+Scro resemble orcs in their brutish features, pig-like snouts, and powerful jaws, but they are taller (averaging 6 to 8 ft), stronger, and more erect in posture. Their teeth are filed into points and often inscribed or decorated with gems and tribal symbols. Their skin tones range from jet black to moss green to burnt orange, with rare albino variations. Their eyes glow a phosphorescent green in dim light. Scro wear highly maintained, jet-black studded leather or heavier armor, adorned with insignias of tribe and rank. Their weapons and gear are kept in meticulous condition, and they take pride in their appearance as warriors.
 
 ## Relations With Others
 The Scro are notorious for their genocidal hatred of elves and open disdain for all non-orcish humanoids. Their worldview is one of contempt, superiority, and isolationism. Dragons, beholders, and other powerful beings are seen as threats to avoid, while other humanoids are viewed as tools or fodder. When forced to interact socially, Scro show restraint and tact but remain ever alert and dominant. Their war against elves is both cultural and ideological, and all Scro are required to learn Elvish—to ensure their enemies know who is killing them.
@@ -585,8 +585,8 @@ Scro adventurers are often from the lower castes—those who failed to meet the 
 - Str +4, Dex +2, Con +2: Scro possess the best traits of orcs and hobgoblins with few of the drawbacks.
 - **Type**: Humanoid (orc)
 - **Medium**: As medium creatures, scro have no special bonuses or penalties due to size.
-- **Speed**: Scro base land speed is 30 ft.
-- **Darkvision**: Scro can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise just like normal sight, and scro can function just fine with no light at all.
+- **Speed**: Scro base land speed is 30 ft
+- **Darkvision**: Scro can see in the dark up to 60 ft. Darkvision is black and white only, but it is otherwise just like normal sight, and scro can function just fine with no light at all.
 - +1 racial bonus on attack rolls against elves
 - **Automatic Languages**: Common and Scro. Bonus Languages: Common, Dowhar, Dwarven, Elven, Gnome, Giff, Goblin, Undercommon, and Orc.
 - **Favored Class**: Monk
@@ -638,8 +638,8 @@ Xixchil adventurers are known for modifying themselves with extra limbs or comba
 - +2 Dex, -4 Cha
 - **Type**: Monstrous Humanoid (Insectoid)
 - **Medium**: As medium creatures, xixchil have no special bonuses or penalties due to size.
-- **Speed**: Xixchil base land speed is 30 ft.
-- **Darkvision**: Xixchil can see in the dark up to 60 feet.
+- **Speed**: Xixchil base land speed is 30 ft
+- **Darkvision**: Xixchil can see in the dark up to 60 ft
 - **Body Manipulation**: Xixchil are proficient with augmenting and manipulating the physical body. They gain proficiency in the Body Manipulation skill and it is always considered a class skill for them.
 - **Secretions**: 3 times per day, as a move action, a xixchil may secret a substance that causes their next attack to apply an anesthetic poison, which paralyzes the target for 1d6 rounds. Xixchil are immune to their own secretions. A successful Fort Save (DC 10 + 1/2 HD + Con Mod) negates the effect, and the creature is immune to the character's secretions for 24 hours. The character's secretions have no effect on creatures that have more HD than the character. These secretions only last for 10 minutes outside the character's body before breaking down and becoming useless.
 - **Automatic Languages**: Common and Xixchil. Bonus Languages: Dowhar, Elven, Gnome, Scro, Undercommon, and any other insectoid racial dialect.
@@ -717,8 +717,8 @@ Insectare adventurers act in service to their race. They seek lost knowledge, ar
 - Dex +2, Con –2, Int +2, Cha +2
 - **Type**: Humanoid (Elf, Insectoid)
 - **Medium**: As Medium creatures, insectare have no special bonuses or penalties due to size.
-- Insectare base land speed is 30 feet.
-- **Darkvision**: Darkvision out to 60 feet. Darkvision is black and white only, but it is otherwise just like normal sight, and insectare can function just fine with no light at all.
+- Insectare base land speed is 30 ft
+- **Darkvision**: Darkvision out to 60 ft. Darkvision is black and white only, but it is otherwise just like normal sight, and insectare can function just fine with no light at all.
 - **Natural Weapons (antenna rake)**: An insectare can make two attacks with his antennae each round, treating them as an off-hand weapon (with all the associated penalties). These attacks deal 1d3 points of slashing damage plus one-half the insectare’s Strength bonus. An insectare can instead attack with only a single antenna as an attack action at his normal bonus.
 - Natural Armor +2
 - +2 racial bonus on Bluff and Disguise checks

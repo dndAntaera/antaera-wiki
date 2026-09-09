@@ -49,7 +49,7 @@ Dream travel can also be used to travel to other planes that contain creatures w
 
 Any creatures touched by you when dream travel is cast also makes the transition to the borders of unconscious thought. They may opt to follow you, wander into other dreamscapes, or stumble back into the waking world (50% chance for either of the latter results if they are lost or abandoned by you). Creatures unwilling to accompany you into the Region of Dreams receive a Will saving throw, negating the effect if successful.
 
-*Note*: Unlike the normal rules for dreaming, items you use, spells you cast, and other consumables are still gone when you return to the waking world after being under the effect of this spell. Likewise, items you gain and experience you accumulate while under the effect of this spell stay with you.
+**Note**: Unlike the normal rules for dreaming, items you use, spells you cast, and other consumables are still gone when you return to the waking world after being under the effect of this spell. Likewise, items you gain and experience you accumulate while under the effect of this spell stay with you.
 
 </div>
 </div>
@@ -193,9 +193,9 @@ Use this skill to realize that you are dreaming, consciously direct elements of 
 
 *You must first successfully grapple your opponent. Then, instead of attempting to pin him or her, make a Lucid Dreaming check (DC 25) on your next action. If you succeed, you and your foe tumble into the Dreamheart.
 
-*Change Aspect*: An aspect of a dreamscape includes background features such as lighting, terrain, architecture of a given building, vegetation (or lack thereof), and other relatively innocuous characteristics of a dreamscape. You can’t use Lucid Dreaming to make a bolt of lightning strike a foe or open a pit below an enemy.
+**Change Aspect**: An aspect of a dreamscape includes background features such as lighting, terrain, architecture of a given building, vegetation (or lack thereof), and other relatively innocuous characteristics of a dreamscape. You can’t use Lucid Dreaming to make a bolt of lightning strike a foe or open a pit below an enemy.
 
-*Change Appearance*: You can adopt the outward appearance of another creature within two size categories of your own. None of your abilities change, just your appearance.
+**Change Appearance**: You can adopt the outward appearance of another creature within two size categories of your own. None of your abilities change, just your appearance.
 
 **Retry**: You can make a Lucid Dreaming check once per round.
 

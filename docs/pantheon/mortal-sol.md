@@ -27,11 +27,11 @@ Sol resides within the Ethereal Plane, a realm of mists and shifting realities t
 
 **Tenets of Sol**:
 
-*Harmony in All Things*: Sol teaches that balance is the key to existence. Followers are encouraged to seek harmony within themselves, their relationships, and the world around them.
+**Harmony in All Things**: Sol teaches that balance is the key to existence. Followers are encouraged to seek harmony within themselves, their relationships, and the world around them.
 
-*Guardians of Equilibrium*: Those who venerate Sol are tasked with preserving the balance of the cosmos. They act as stewards of both the natural and metaphysical order, preventing the scales from tipping too far in any direction.
+**Guardians of Equilibrium**: Those who venerate Sol are tasked with preserving the balance of the cosmos. They act as stewards of both the natural and metaphysical order, preventing the scales from tipping too far in any direction.
 
-*The Cosmic Connection*: Sol's worshipers are taught to recognize the interconnectedness of all things. They understand that actions in one part of the universe can have far-reaching consequences, and they strive to act with awareness and purpose.
+**The Cosmic Connection**: Sol's worshipers are taught to recognize the interconnectedness of all things. They understand that actions in one part of the universe can have far-reaching consequences, and they strive to act with awareness and purpose.
 
 **Holy Symbol**:
 

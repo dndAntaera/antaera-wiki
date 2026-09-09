@@ -35,7 +35,7 @@ While characters with a minor amount of taint aren’t necessarily evil, they pr
 
 The Paladin's Detect Evil ability also detects Taint.
 
-#### ﻿Deities and Codes of Conduct
+### ﻿Deities and Codes of Conduct
 Clerics of good deities risk divine displeasure if they acquire too much taint. Divine warnings might begin when a cleric acquires moderate levels of corruption or depravity, or perhaps even sooner. If a cleric of a good deity acquires severe levels of taint, they are considered to have grossly violated the deity's code of conduct and loses all spells and class features until they atone and reduce their taint to at most moderate levels.
 
 A paladin who acquires moderate levels of taint loses all paladin spells and abilities and cannot advance further as a paladin until they atone and reduce their taint to at most mild levels.
@@ -53,17 +53,17 @@ Every 24 hours spent in a tainted place or carrying a tainted object can bestow 
 Any time a character acquires more points of corruption at one time than half their current Constitution score (rounded down), they must attempt another Fortitude save (DC 15 + points of corruption acquired). If this save is successful, they are sickened for 1d4 rounds; if they fail, they are nauseated for 1d4 rounds. Similarly, any time a character acquires more points of depravity at one time than half their current Wisdom score (rounded down), they must attempt another Will save (DC 15 + points of depravity acquired). If this save is successful, they are shaken for 1d4 rounds; if they fail, they are panicked for 1d4 rounds.<br>
 Any immunity to these effects is ignored. Creatures without a Constitution score are immune to the effects of gaining massive amounts of Corruption at once. Similarly, creatures without a Wisdom score are immune to the effects of gaining massive amounts of Depravity at once.
 
-#### Evil and Taint
+### Evil and Taint
 Simply having an evil alignment is no defense against taint—it is too profound an effect for personal beliefs or moral codes to ward it off. Creatures with the Evil subtype and undead creatures are immune to any negative effects from taint. They automatically have effective corruption and depravity scores equal to one-half their Charisma score, +1 for undead or +2 for outsiders. They take no penalties due to these taint scores, but they can use them to qualify for feats or prestige classes.
 
 Evil creatures can become tainted by good. Sacred places and objects taint evil creatures, while the inverse is also true. For example, creatures with the Good subtype are immune to the effects of taint in sacred places, but those sacred places would rot away creatures of the Evil subtype.
 
-#### Alternative Saving Throws
+### Alternative Saving Throws
 Often, fantasy literature portrays characters who delve into ancient, lost, or forbidden knowledge as becoming warped by their exposure to such knowledge. When a creature is subjected to an effect that would cause Depravity, they are subjected to a Will saving throw, and a creature that is subjected to something that would accrue Corruption they will need to make a Fortitude save.
 
 Whether a Fortitude save or a Will save is used, clerics, druids, and monks are equally resistant to taint, which supports the genre conceit of horrible secrets hidden in inaccessible temples and monasteries. Rogues are vulnerable either way, explaining how thieves often appear in the genre as unwittingly releasing horror on the world when they steal something that was better left lost and protected.
 
-#### Tainted Places and Locations
+### Tainted Places and Locations
 Tainted locales have additional effects beyond increasing the taint of characters who enter them. Whenever a character casts a spell with the evil descriptor in a tainted area, she gains +1 effective caster level but must make a Will save (DC 15+ spell level) or have their depravity score increase by 1. Whenever a character casts a spell with the good descriptor or a spell from the healing subschool in a tainted area, she takes -1 effective caster level. Occasionally, entire planes may inflict taint. Mildly evil-aligned planes inflict taint, as outlined in Becoming Tainted (see above). On strongly evil-aligned planes, the saving throw DC increases by +5 every 12 hours instead of every 24 hours.
 
 Some locations are so suffused with evil that simply entering them exposes a character to corruption or depravity, and lingering there deals increasing taint. For example, an evil temple that has hosted hundreds of human sacrifices, a portal to an evil plane, the crypt-home of a powerful lich, or the site of a mass murder might all harbor some degree of taint. Entire planes of existence might also be suffused with taint.
@@ -81,7 +81,7 @@ Other environments, such as [Dread Effects](taint-dread-effects.md) and [Hauntin
 **Level**: Cleric 1<br>
 **Components**: V, S,<br>
 **Casting Time**: 1 standard action<br>
-**Range**: 60 ft.<br>
+**Range**: 60 ft<br>
 **Area**: Cone-shaped emanation<br>
 **Duration**: Concentration, up to 10 min./level (D)<br>
 **Saving Throw**: None<br>
@@ -89,9 +89,9 @@ Other environments, such as [Dread Effects](taint-dread-effects.md) and [Hauntin
 
 You can sense the presence of taint in nearby objects and creatures. The amount of information revealed depends on how long you study a particular area or subject:
 
-*1st Round*: Presence or absence of taint within the area.<br>
-*2nd Round*:Number of tainted creatures in the area and the strength of the strongest tainted aura present. If you are free of taint, if the strongest tainted aura is overwhelming (see below), and if the strength of the tainted aura is at least twice your character level, you are nauseated for 1 round and the spell ends.<br>
-*3rd Round*: The strength and location of each tainted aura. If a tainted aura is outside your line of sight, you discern its direction but not its exact location.
+**1st Round**: Presence or absence of taint within the area.<br>
+**2nd Round**:Number of tainted creatures in the area and the strength of the strongest tainted aura present. If you are free of taint, if the strongest tainted aura is overwhelming (see below), and if the strength of the tainted aura is at least twice your character level, you are nauseated for 1 round and the spell ends.<br>
+**3rd Round**: The strength and location of each tainted aura. If a tainted aura is outside your line of sight, you discern its direction but not its exact location.
 
 **Aura Strength**: The strength of a tainted aura depends on the corruption or depravity score (whichever is higher) of the creature you are detecting, or the amount of taint bestowed by an object, location, or creature without a taint score. If an aura falls into more than one strength category, you learn about the stronger of the two.
 
@@ -114,7 +114,7 @@ You can sense the presence of taint in nearby objects and creatures. The amount 
 | Strong | 1d6 hours |
 | Overwhelming | 1d6 days |
 
-Each round, you can turn to detect things in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+Each round, you can turn to detect things in a new area. The spell can penetrate barriers, but 1 ft of stone, 1 inch of common metal, a thin sheet of lead, or 3 ft of wood or dirt blocks it.
 
 *Spell is unedited, HoH 128*
 
@@ -128,18 +128,18 @@ It is possible to remove taint from characters in several ways, including throug
 
 **Cleansing Tainted Places**: The *hallow* spell can remove taint from an area, but it takes time. The spell must remain intact for an entire year to remove the taint. If, during that time, an opposing character casts unhallow on some or all of the area, the effort is lost and must be reinstated by another casting of hallow. The hallow spell only affects a 40-foot-radius area, so large areas could require many clerics working simultaneously to cleanse them completely.
 
-#### Spells
+### Spells
 The following spells can reduce taint scores when cast outside tainted areas. No character can have a taint score reduced by any particular spell more than once per day, although different spells can reduce taint if cast on the same character on the same day.
 
-*Atonement*: This spell can remove taint, but with limits. First, it always requires a quest. Second, the caster chooses a number up to their caster level when he casts the atonement, and the spell reduces the target's corruption and depravity scores by that amount. This use of atonement, which costs the caster 500 XP, can reduce taint to a lower taint level.<br>
-*Heal*: This spell reduces a character's corruption and depravity scores by 1 point per three caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild or moderate taint, heal can reduce taint below that threshold.<br>
+**Atonement**: This spell can remove taint, but with limits. First, it always requires a quest. Second, the caster chooses a number up to their caster level when he casts the atonement, and the spell reduces the target's corruption and depravity scores by that amount. This use of atonement, which costs the caster 500 XP, can reduce taint to a lower taint level.<br>
+**Heal**: This spell reduces a character's corruption and depravity scores by 1 point per three caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild or moderate taint, heal can reduce taint below that threshold.<br>
 *Miracle* or *Wish*: These spells remove sufficient taint to place the target at the highest threshold of the next lower taint level, regardless of how much time has passed.<br>
-*Remove Curse*: This spell reduces the character's depravity score by 1.<br>
-*Remove Disease*: This spell reduces the character's corruption score by 1.<br>
-*Restoration*: This spell reduces the character's corruption and depravity scores by 1 point per four caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild taint, it can reduce taint below that threshold.<br>
-*Greater Restoration*: This spell reduces the character's corruption and depravity scores by a number of points equal to the caster level of the cleric casting greater restoration. If ﻿used within 24 hours of a taint threshold being crossed, it can reduce taint to below that threshold.
+**Remove Curse**: This spell reduces the character's depravity score by 1.<br>
+**Remove Disease**: This spell reduces the character's corruption score by 1.<br>
+**Restoration**: This spell reduces the character's corruption and depravity scores by 1 point per four caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild taint, it can reduce taint below that threshold.<br>
+**Greater Restoration**: This spell reduces the character's corruption and depravity scores by a number of points equal to the caster level of the cleric casting greater restoration. If ﻿used within 24 hours of a taint threshold being crossed, it can reduce taint to below that threshold.
 
-#### Good Deeds
+### Good Deeds
 Simple good deeds are not enough to remove taint. A character wishing to reduce their depravity score through good deeds must undertake a specific ritual under the guidance of one of their deity's clerics. The ritual prepares the character to undertake the deed.
 
 Each deity's faith has a list of ritual good deeds the faithful can perform to prove their dedication to the deity. For example, the faithful of a god can choose to put on garments sacred to their faith (and which identify their faith to anyone who sees them) and patrol a particular part of their home as part of the militia or city guard. Adventuring is never part of such a good deed, and a character who undertakes an adventure prior to completing their deed must begin again with the ritual (but see the alternate option below).
@@ -148,10 +148,10 @@ The good deed must be repeated every day for a week. On completion, the characte
 
 Alternatively, good deeds might be quests undertaken on behalf of the deity. After the quest ends, the character's depravity score is reduced by 1 point per week required to complete the quest.
 
-#### Sacred Springs
+### Sacred Springs
 Springs sacred to a particular deity or cause are located in remote regions and can be reached only by long and dangerous travel. For each day a character spends resting and cleansing himself at a sacred spring, their corruption score is reduced by 1 point. A character using this method to reduce their corruption score can undertake no activities other than resting, eating, sleeping, meditation, and normal conversation.
 
-#### Resisting Taint
+### Resisting Taint
 ﻿﻿There are natural substances that absorb taint and thus protect those who carry them. Some examples include a locket containing holy scriptures, a book containing holy and pure imagery, an intricately crafted silver ring, or a silk sash. Regardless of the shape or substance of the item, taint-absorbing items must contain a stabilized Positive Planar Crystal. The amount of taint an object absorbs is determined by the purity of the Planar Crystal that it features.
 
 As the crystal absorbs taint, it darkens, becomes brittle, and gradually dissolves into nothing. During this time, it absorbs all taint to which the carrier is exposed up to a number of points determined by its purity. Multiple items protect a character from more taint, but only to a point, as described in the Multiple Items table. If a character carries multiple taint-absorbing items, they all decompose gradually at the same time, distributing the absorbed taint among every item carried. The presence of multiple items seems to amplify the taint even as the items absorb it, causing them to decompose more rapidly.
@@ -177,7 +177,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 \*\* Subtract the number of taint absorbing items from the total amount of points absorbed.
 {: .wd-table-note }
 
-*Table: Multiple Items*
+*Multiple Items*
 {: .wd-table-note }
 
 | Purity | Absorption | Craft DC | Craft Cost | Market Price |
@@ -186,7 +186,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 | Lesser | 7 | 25 | 100gp | 300gp |
 | Greater | 10 | 30 | 150gp | 450gp |
 
-*Table: Taint-Absorbing Items*
+*Taint-Absorbing Items*
 {: .wd-table-note }
 
 </div>
@@ -222,17 +222,17 @@ To determine the exact nature of a character's physical or mental taint symptoms
 
 | Con/Wis Score | No Taint | Mild Taint | Moderate Taint | Severe Taint | Dead/Insane |
 |---|---|---|---|---|---|
-| 1–4 | – | 1–4 | 5–10 | 11–18 | 19+ |
-| 5–8 | – | 3–6 | 7–12 | 13–20 | 21+ |
-| 9–12 | – | 5–8 | 9–14 | 15–22 | 23+ |
-| 13–16 | – | 7–10 | 11–16 | 17–24 | 25+ |
-| 17–20 | – | 9–12 | 13–18 | 19–26 | 27+ |
-| 21–24 | – | 11–14 | 15–20 | 21–28 | 29+ |
-| 25–28 | – | 13–16 | 17–22 | 23–30 | 31+ |
-| 29–32 | – | 15–18 | 19–24 | 25–32 | 33+ |
-| 33–36 | – | 17–20 | 21–26 | 27–34 | 35+ |
+| 1–4 | — | 1–4 | 5–10 | 11–18 | 19+ |
+| 5–8 | — | 3–6 | 7–12 | 13–20 | 21+ |
+| 9–12 | — | 5–8 | 9–14 | 15–22 | 23+ |
+| 13–16 | — | 7–10 | 11–16 | 17–24 | 25+ |
+| 17–20 | — | 9–12 | 13–18 | 19–26 | 27+ |
+| 21–24 | — | 11–14 | 15–20 | 21–28 | 29+ |
+| 25–28 | — | 13–16 | 17–22 | 23–30 | 31+ |
+| 29–32 | — | 15–18 | 19–24 | 25–32 | 33+ |
+| 33–36 | — | 17–20 | 21–26 | 27–34 | 35+ |
 
-*Table: Taint Threshold*
+*Taint Threshold*
 {: .wd-table-note }
 
 | HD Before Death | Transforms Into |
@@ -242,7 +242,7 @@ To determine the exact nature of a character's physical or mental taint symptoms
 | 6–8 | Wraith |
 | 9+ | Bodak |
 
-*Table: Tainted Reanimation*
+*Tainted Reanimation*
 {: .wd-table-note }
 
 </div>
@@ -253,10 +253,10 @@ To determine the exact nature of a character's physical or mental taint symptoms
 # Physical Symptoms
 Corruption manifests as physical symptoms: muscular degeneration, illness, frailty, and the like.
 
-#### Mild Corruption Effects
+### Mild Corruption Effects
 **Dead Eye**: Your eyes begin to cloud over, obscuring your vision. In combat, every time you attack an opponent that has concealment, roll your miss chance twice. If either or both results indicate that you miss, your attack fails.<br>
 **Ear Scabs**: Your ears fill up with a crusty, scabrous substance. You take a -2 penalty on Listen checks.<br>
-**Feet Curl**: Your feet warp and curl inward. Your speed is reduced by 5 feet.<br>
+**Feet Curl**: Your feet warp and curl inward. Your speed is reduced by 5 ft<br>
 **Gums Swell**: Your gums swell, bleed, and rot. You have difficulty pronouncing words clearly. Whenever you cast a spell with a verbal component, you must succeed on a DC 15 + Spell Level caster level check, or the spell fails to activate.<br>
 **Lumps**: Burning hot lumps rise up all over your body. You have a constant fever. Every time you try to run or charge you must make a DC 20 Fortitude Save or become fatigued.<br>
 **Odor of Decay**: You give off an unhealthy odor of decay. Animals find your smell repellent. You take a -2 penalty on Handle Animal, Ride, and wild empathy checks.<br>
@@ -265,7 +265,7 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 **Skin Sloughs**: The skin on your face peels off in long, papery strips, leaving unsightly red patches. You take a -2 penalty on Diplomacy, Gather Information, and Perform checks.<br>
 **Winded**: You are constantly short of breath and feel like you can't get enough air. Starting on the third round of combat, you must make a DC 15 Fort save or be fatigued for that round. The DC increases by 1 for each subsequent round of combat.
 
-#### Moderate Corruption Effects
+### Moderate Corruption Effects
 **Blood Eruption**: In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 1d4 rounds.<br>
 **Bones Thicken**: Your skeleton warps and thickens. Raise your Strength score by 2, and reduce your Dexterity score by 4.<br>
 **Chronic Illness**: You are plagued with a phlegm-laden, wracking cough. You also suffer occasional bouts of vomiting, ﻿often at specific times of day. You take a -2 penalty on Fortitude saves.<br>
@@ -277,13 +277,13 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 **Skin Thickens**: Your skin thickens, cracking and turning leathery. You gain +1 natural armor, and take a -2 penalty on Dexterity-based ability checks and skill checks.<br>
 **Uncontrollable Seizures**: You suffer from uncontrollable seizures that wrack your body with spasms. You take a -4 penalty on initiative rolls.
 
-#### Severe Corruption Effects
+### Severe Corruption Effects
 **Great Swollen Growths**: Great swollen growths appear on your body. You take a -2 penalty to your Armor Class.<br>
 **Internal Corruption**: Though your corruption is not visible to others, the inside of your body is a festering cesspool of corruption. Bloody pus pools in your body cavities, strange ﻿growths develop on your organs, or tiny limbs or heads bud beneath your skin. Reduce your Constitution score by 2.
 
 Some prestige classes allow a character to take this symptom in place of any other one. This symptom allows you to hide your corruption because it is all internal. This symptom can even be taken to replace a mild or moderate symptom if desired. No extra bonus feat is granted if this symptom is taken to replace a mild symptom.
 
-**Lich Eyes**: Your eyes rot away, leaving eerie green flames in their empty sockets. You gain darkvision out to 60 feet, or add 30 feet to the range of your existing darkvision. You also gain light blindness: Abrupt exposure to bright light (such as *sunlight* or a *daylight* spell) blinds you for 1 round. On subsequent rounds, you are dazzled as long as you remain in the affected area.<br>
+**Lich Eyes**: Your eyes rot away, leaving eerie green flames in their empty sockets. You gain darkvision out to 60 ft, or add 30 ft to the range of your existing darkvision. You also gain light blindness: Abrupt exposure to bright light (such as *sunlight* or a *daylight* spell) blinds you for 1 round. On subsequent rounds, you are dazzled as long as you remain in the affected area.<br>
 **Lungs Eaten Away**: Your lungs are eaten away from the inside, resulting in wet, labored, painful breathing. Your physical ability scores (Strength, Dexterity, and Constitution) are each reduced by 1.<br>
 **Nose Rots**: The flesh of your nose rots away, leaving skull-like openings. Reduce your Charisma score by 2.<br>
 **Shriveled Flesh**: Your flesh shrivels and clings to your bones, making you unnaturally gaunt. When you manifest this symptom, subtract your Hit Dice from your hit point total. Thereafter, subtract 1 from the number of hit points you gain at each level. This effect can reduce the number of hit points you gain to 0 (but not below).<br>
@@ -318,7 +318,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 # Mental Symptoms
 Depravity manifests as mental symptoms: growing paranoia, visual and auditory hallucinations, and other problems that could be described as madness. It is important to note that madness in fantastic horror is not an illness that afflicts good and evil alike: It is an expression or a result of evil gnawing away at the mind and soul.
 
-#### Mild Depravity Effects
+### Mild Depravity Effects
 **Aggressive**: You are easily angered and cannot hide your feelings. In combat, you try so hard to hurt your enemies that you neglect your own defense. You gain a +2 bonus to initiative and you take a -1 penalty to Armor Class.<br>
 **Bestial**: You take on a ferocious, wild demeanor. You gain a +2 circumstance bonus on Handle Animal, Ride, and wild empathy checks. You take a -1 penalty on other Charisma-based ability checks and skill checks.<br>
 **Compulsive**: Pick a compulsive ritual to adopt. For example, you and your equipment are never clean enough. You can only break out of the compulsive pattern by eating bugs, which sometimes disagree with you. Once each day, make a DC 10 Fortitude save; if you fail, take 1d4 points of nonlethal damage.<br>
@@ -330,7 +330,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Prophetic**: Your dark dreams torment you with strange visions of things that might occur in the future. You zealously proclaim a different prophecy each week, making sure everyone you meet knows what is about to transpire. Your DM determines what prophetic insight you envision each week (10% are actually accurate!). In addition, you take all the usual ill effects of continual nightmares.<br>
 **Sycophantic**: You fill the air with a torrent of unctuous flattery of your companions, opponents, or imaginary friends. You take a -2 penalty on Listen checks and Spot checks. Enemies gain a +2 bonus on Listen checks to hear you.
 
-#### Moderate Depravity Effects
+### Moderate Depravity Effects
 **Delusional**: You're convinced that the world is an illusion and that you and your companions are being controlled by inhabitants of a distant, alien realm. You take a -2 penalty on Wisdom-based ability checks and skill checks.<br>
 **Deranged**: Your grasp upon reality becomes tenuous. You take a -2 penalty on Intelligence-based ability checks and skill checks.<br>
 **Distracted**: You pay more attention to the whispers in your mind than to your surroundings. You take a -2 penalty on skill checks.<br>
@@ -342,7 +342,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Treacherous**: Any time the chance to make an attack of opportunity presents itself, whether against an opponent or an ally, make a DC 20 Will save. If you fail the save, you must make the attack of opportunity, even if the target is your closest ally. If presented with multiple targets, determine randomly which you attack.<br>
 **Weak-Willed**: The constant presence of demonic voices whispering in your ears has sapped your will. You take a -3 penalty on Will saves.
 
-#### Severe Depravity Effects
+### Severe Depravity Effects
 **Apathetic**: You withdraw into yourself, losing contact with the world. Reduce both your Charisma and Wisdom scores by 2.<br>
 **Craven**: You become a lily-livered coward. When casting, you must always cast defensively. When attacking, you must always fight defensively.<br>
 **Enthralled**: You are drawn to and fascinated by evil. You no longer have the will to strike it down. Whenever you fight ﻿an evil opponent, you always attack at -4 and any damage you do counts only as nonlethal damage.<br>

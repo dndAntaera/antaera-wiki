@@ -27,11 +27,11 @@ Ukrol's divine realm, known as the Dominion of Exiles, is a realm shrouded in sh
 
 **Tenets of Ukrol**:
 
-*Sovereignty*: Uphold human dominance and strive to establish human supremacy over all other races. This tenet encourages followers to assert human authority and control in all aspects of life, ensuring that humans remain the dominant force in the world.
+**Sovereignty**: Uphold human dominance and strive to establish human supremacy over all other races. This tenet encourages followers to assert human authority and control in all aspects of life, ensuring that humans remain the dominant force in the world.
 
-*Expansion*: Expand human influence through territorial expansion and military conquest. Followers are urged to seek out new lands to conquer and subjugate, spreading the reach of human civilization and furthering Ukrol's vision of human supremacy.
+**Expansion**: Expand human influence through territorial expansion and military conquest. Followers are urged to seek out new lands to conquer and subjugate, spreading the reach of human civilization and furthering Ukrol's vision of human supremacy.
 
-*Unity*: Unite the human race under a common banner and stand strong against those who oppose human dominance. This tenet emphasizes the importance of solidarity among humans, encouraging cooperation and collaboration in the pursuit of shared goals and aspirations.
+**Unity**: Unite the human race under a common banner and stand strong against those who oppose human dominance. This tenet emphasizes the importance of solidarity among humans, encouraging cooperation and collaboration in the pursuit of shared goals and aspirations.
 
 **Holy Symbol**:
 

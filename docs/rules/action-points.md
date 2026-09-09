@@ -87,7 +87,7 @@ You can spend 1 action point to double the bonus to Armor Class granted by the f
 You can spend 1 action point to increase the dodge bonus granted by the feat to +2. The effect lasts for the entire encounter.
 
 **Improved Critical**<br>
-You can spend 1 action point to double your critical threat range. Since two doublings equals a tripling, this benefit increases your threat range from 19-20 to 18-20, from 17-20 to 15-20, or from 15-20 to 12-20, including the effect of your Improved Critical feat. This benefit stacks with the benefit from Improved Critical, but not with other effects that increase threat range.
+You can spend 1 action point to double your critical threat range. Since two doublings equals a tripling, this benefit increases your threat range from 19–20 to 18–20, from 17–20 to 15–20, or from 15–20 to 12–20, including the effect of your Improved Critical feat. This benefit stacks with the benefit from Improved Critical, but not with other effects that increase threat range.
 
 **Improved Initiative**<br>
 You can spend 1 action point to double the bonus on initiative checks granted by the feat, from +4 to +8.

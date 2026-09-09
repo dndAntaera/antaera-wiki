@@ -48,9 +48,9 @@ As an adventurer moves higher (whether climbing a mountain or on the back of a r
 
 The disadvantage to such an envelope is its small size. The envelope of breathable air that attaches to any body has an all-around depth equal to the cross-sectional diameter of that body.
 
-Example: A spherical beholder 5 feet across has an air envelope 15 feet in diameter. Similarly, a block of wood which is 1 foot by 2 feet by 3 feet is surrounded by a more-or-less rectangular envelope of air which is 3 feet by 6 feet by 9 feet.
+Example: A spherical beholder 5 ft across has an air envelope 15 ft in diameter. Similarly, a block of wood which is 1 ft by 2 ft by 3 ft is surrounded by a more-or-less rectangular envelope of air which is 3 ft by 6 ft by 9 ft.
 
-A creature will exhaust the air in its personal envelope in 2d10 turns. Since this is barely enough time to get anywhere, most crossing of wildspace is done with larger vessels that have correspondingly larger atmospheres. The amount of air which a vessel can bring along limits the minimum size of most space-going ships to no less than 100 feet in length (this measurement is called the keel). The cost of moving this amount of mass limits the upper size of the ship.
+A creature will exhaust the air in its personal envelope in 2d10 turns. Since this is barely enough time to get anywhere, most crossing of wildspace is done with larger vessels that have correspondingly larger atmospheres. The amount of air which a vessel can bring along limits the minimum size of most space-going ships to no less than 100 ft in length (this measurement is called the keel). The cost of moving this amount of mass limits the upper size of the ship.
 
 </div>
 </div>
@@ -77,7 +77,7 @@ This situation results in most ships having a definite "up." Whether they can la
 
 ## Matters of Gravity
 
-In space, whether in the flow or in wildspace, gravity performs the same way. A plane of gravity runs through the long axis of any large body. Any structure or creature with an axis at least 25 feet long has a plane of gravity sufficient to attract other objects. A person could walk on the back of a 25-foot-tall giant floating in space as if the giant were a planet.
+In space, whether in the flow or in wildspace, gravity performs the same way. A plane of gravity runs through the long axis of any large body. Any structure or creature with an axis at least 25 ft long has a plane of gravity sufficient to attract other objects. A person could walk on the back of a 25-foot-tall giant floating in space as if the giant were a planet.
 
 Every body with a plane of gravity (including asteroids, most standard ships, and some huge or larger monsters) exerts a pull identical to that on a standard planet ("Earth-normal" gravity). A body without a plane of gravity still maintains an envelope of air but exerts no pull on other solid objects.
 
@@ -105,7 +105,7 @@ A weightless character who enters the air envelope of a larger body is immediate
 
 In cases where the drop is more than one mile, there is also danger of the subject heating up and igniting from friction with the air (becoming a shooting star). This happens after one mile of uncontrolled descent. The falling object catches fire and takes normal damage from fire for the remainder of the plunge. Flight, levitation, or any sort of control over speed and descent can negate this effect.
 
-Characters who are weightless can move under the familiar laws of physics. Any force has an opposite force. A drifting fighter can move (slowly) by throwing equipment in the opposite direction. Maximum movement in this fashion is 3 feet per round.
+Characters who are weightless can move under the familiar laws of physics. Any force has an opposite force. A drifting fighter can move (slowly) by throwing equipment in the opposite direction. Maximum movement in this fashion is 3 ft per round.
 
 ## Combat
 
@@ -209,7 +209,7 @@ The crystal spheres bob in the phlogiston like corks in an ocean (mind-boggling,
 | Oil Flask (lit) | 3d6 fire | 3 ft |
 | Cooking Fire | 4d6 fire | 10 ft |
 | Fireball | ×3 | ×3 |
-| Match (fuse)\* | 1d4−2 (min 1) | Self |
+| Match (fuse)\* | 1d4–2 (min 1) | Self |
 
 \* Immediately causes an arquebus to misfire.
 {: .wd-table-note }
@@ -253,15 +253,15 @@ Merchants and pirates will offer the lost individual passage in exchange for wor
 
 As a character ascends a mountain, the air becomes thinner and thinner until finally, it becomes the unbreathable vacuum of wildspace. Fortunately, all bodies take an envelope of air with them, providing some breathable atmosphere. Unfortunately, this envelope is rarely large enough to support life for very long.
 
-A single, human-sized body drags along with it enough air to last 2-20 turns. If that human-sized body is standing on a rock 100 cubic yards in size (roughly 40 feet in diameter), it may have enough air to survive for several months. Larger-than-man-size creatures (ogres and giants, for example) drag along enough air to last twice as long (4-40 turns).
+A single, human-sized body drags along with it enough air to last 2–20 turns. If that human-sized body is standing on a rock 100 cubic yards in size (roughly 40 ft in diameter), it may have enough air to survive for several months. Larger-than-man-size creatures (ogres and giants, for example) drag along enough air to last twice as long (4–40 turns).
 
 Larger objects, such as ships, are rated for their tonnage. Each ton represents 100 cubic yards of space, which brings along enough air to support one human-sized crew member for four to eight months. A 30-ton frigate, therefore, could support 30 crew members for four to eight months under normal circumstances and double that under reduced circumstances. This is explained fully in the chapter on Ship Design. The minimum size for a usable ship in space is 1 ton (100 cubic yards). The limitations on moving a ship through space determine the upper limit of ship size.
 
 ## Air Quality
 The air envelope around a body or ship can be one of three classes or qualities: fresh, fouled, or deadly. Air can change from one quality to another over time.
 
-- **Fresh air** is completely breathable. The air around an individual body remains fresh for 2-20 (2d10) turns. Air around a larger body (one ton or more) remains fresh for four months if the vessel carries a normal crew.
-- **Fouled air** is stale and partially depleted. It is humid and smells bad. Air becomes fouled after the first 2-20 turns around a single body and remains fouled until the 30th turn. For example, if the air was fresh for 12 turns, it would be fouled for 18 turns, for a total of 30 turns. The air around a ship is fouled from the beginning of the fifth month until the end of the eighth month. All attack rolls and ability checks made by characters or creatures that must breathe air have a -2 penalty if the air is fouled.
+- **Fresh air** is completely breathable. The air around an individual body remains fresh for 2–20 (2d10) turns. Air around a larger body (one ton or more) remains fresh for four months if the vessel carries a normal crew.
+- **Fouled air** is stale and partially depleted. It is humid and smells bad. Air becomes fouled after the first 2–20 turns around a single body and remains fouled until the 30th turn. For example, if the air was fresh for 12 turns, it would be fouled for 18 turns, for a total of 30 turns. The air around a ship is fouled from the beginning of the fifth month until the end of the eighth month. All attack rolls and ability checks made by characters or creatures that must breathe air have a -2 penalty if the air is fouled.
 - **Deadly air** is completely depleted and filled with carbon dioxide. It cannot support life. The air around an individual becomes deadly at the beginning of the 31st turn; that around a ship becomes deadly at the beginning of the ninth month in space. Anyone trapped inside a deadly atmosphere must make a saving throw versus poison each turn. Failure means the character passes out. A second failure brings death. Only fresh (or fouled) air can revive the character after he passes out.
 
 Most trips aboard a ship take less than four months to complete, or at least present the opportunity to replenish and refresh the air supply within four months. Air usually is not a problem except in extreme cases and emergencies.

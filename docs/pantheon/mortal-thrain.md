@@ -23,11 +23,11 @@ Thrain's divine realm, known as the Hearthforge, is a vast cavern within the Old
 
 **Tenets of Thrain**:
 
-*Balance in All Things*: Thrain encourages his followers to seek harmony in their actions, understanding that both strength and peace are essential components of a fulfilling life.
+**Balance in All Things**: Thrain encourages his followers to seek harmony in their actions, understanding that both strength and peace are essential components of a fulfilling life.
 
-*The Forge of Unity*: Followers are taught to use their skills and talents to build bridges between communities and bring people together. The act of creation, whether through art, craftsmanship, or diplomacy, is seen as a sacred pursuit.
+**The Forge of Unity**: Followers are taught to use their skills and talents to build bridges between communities and bring people together. The act of creation, whether through art, craftsmanship, or diplomacy, is seen as a sacred pursuit.
 
-*Defender of the Peaceful*: Thrain's worshipers are tasked with defending the innocent and protecting those who cannot protect themselves. However, this defense is not only physical but extends to the preservation of cultural heritage, traditions, and the pursuit of knowledge.
+**Defender of the Peaceful**: Thrain's worshipers are tasked with defending the innocent and protecting those who cannot protect themselves. However, this defense is not only physical but extends to the preservation of cultural heritage, traditions, and the pursuit of knowledge.
 
 **Holy Symbol**:
 

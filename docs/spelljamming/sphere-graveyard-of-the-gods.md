@@ -31,7 +31,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 ## Inner Track
 
-- <u>Austerion</u>
+- Austerion
     - Distance: 94 million miles
     - Size: F
     - Type: Tomb World
@@ -40,7 +40,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 ## Goldilocks Zone
 
-- <u>Collar of Helus</u>
+- Collar of Helus
     - Distance: 211 million miles
     - Size: H
     - Type: Asteroid Belt

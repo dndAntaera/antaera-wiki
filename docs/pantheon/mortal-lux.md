@@ -25,11 +25,11 @@ Lux's divine realm, known as the Luminara, is a celestial plane bathed in eterna
 
 **Tenets of Lux**:
 
-*Embrace the Light*: Followers are encouraged to seek the light within themselves and others. Acts of kindness, compassion, and selflessness are considered offerings to Lux.
+**Embrace the Light**: Followers are encouraged to seek the light within themselves and others. Acts of kindness, compassion, and selflessness are considered offerings to Lux.
 
-*Dispelling Darkness*: The faithful are tasked with confronting and dispelling the shadows that threaten to envelop the world. This could manifest as combating literal darkness, such as undead or creatures of the night, or metaphorical darkness, such as despair and hopelessness.
+**Dispelling Darkness**: The faithful are tasked with confronting and dispelling the shadows that threaten to envelop the world. This could manifest as combating literal darkness, such as undead or creatures of the night, or metaphorical darkness, such as despair and hopelessness.
 
-*Guiding Hope*: Lux's worshipers are expected to be beacons of hope in their communities. They are encouraged to inspire and uplift others through their actions and words.
+**Guiding Hope**: Lux's worshipers are expected to be beacons of hope in their communities. They are encouraged to inspire and uplift others through their actions and words.
 
 **Holy Symbol**:
 

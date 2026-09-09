@@ -9,15 +9,15 @@ wip: true
 # On Divinity
 There is a finite number of divine ranks, the number of which is known only to the Overdeities. If new deities are to earn their divinity, they must meet the requirements set forth by them. Divinity is broken down into the ways that one obtains their ranks: Innate, Earned, Stolen, Imparted, and Surrendered. The methods are rather self-explanatory, but are defined as such:
 
-<u>Innate</u>: when a deity is born with their divinity
+Innate: when a deity is born with their divinity
 
-<u>Earned</u>: divinity that is achieved through achievements or by meeting certain requirements (such as completing a great feat or obtaining a certain number of worshippers)
+Earned: divinity that is achieved through achievements or by meeting certain requirements (such as completing a great feat or obtaining a certain number of worshippers)
 
-<u>Stolen</u>: divinity that is taken unwillingly from an existing deity (usually by slaying the holder, or being confiscated by a higher-ranking deity)
+Stolen: divinity that is taken unwillingly from an existing deity (usually by slaying the holder, or being confiscated by a higher-ranking deity)
 
-<u>Imparted</u>: divinity that is bestowed by a source that already had it
+Imparted: divinity that is bestowed by a source that already had it
 
-<u>Surrendered</u>: divinity that is temporarily or permanently given up by a deity
+Surrendered: divinity that is temporarily or permanently given up by a deity
 
 ## The Divine Mandate
 During the beginning times, the Overdeities of each sphere in the Known Spheres came together and discussed the implications of allowing their deities to set foot into the Material Planes. It was determined that allowing such an event to occur would bring about too many power shifts among the mortals that the Divine Mandate was forged between them. The Divine Mandate reads as such:

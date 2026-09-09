@@ -19,11 +19,11 @@ The Wanderer's Trove, located within Zephyr Haven, serves as Vaylen’s divine a
 
 **Tenets**:
 
-*Seek the Horizon*: This tenet encourages followers to approach the unknown with curiosity and an open heart, seeing every discovery as a valuable treasure. It’s about finding joy and wisdom in the journey, urging adventurers to embrace the lessons hidden in every corner of the world, transforming each step into an enriching experience that broadens their understanding of the universe and themselves.
+**Seek the Horizon**: This tenet encourages followers to approach the unknown with curiosity and an open heart, seeing every discovery as a valuable treasure. It’s about finding joy and wisdom in the journey, urging adventurers to embrace the lessons hidden in every corner of the world, transforming each step into an enriching experience that broadens their understanding of the universe and themselves.
 
-*Cherish Freedom*: This tenet advocates for living life freely, away from oppression and societal expectations. Vaylen inspires her followers to value their right to choose their destiny, to stand up against tyranny, and to help others find their own path to freedom. It's a call to live boldly and authentically, ensuring that liberty is preserved and celebrated.
+**Cherish Freedom**: This tenet advocates for living life freely, away from oppression and societal expectations. Vaylen inspires her followers to value their right to choose their destiny, to stand up against tyranny, and to help others find their own path to freedom. It's a call to live boldly and authentically, ensuring that liberty is preserved and celebrated.
 
-*Deliver Hope*: Followers are called to be beacons of hope, offering support and positivity to those facing challenges. This tenet is about showing compassion, providing encouragement, and helping light the way for others during difficult times. It emphasizes the impact of kindness and the strength found in collective optimism, ensuring that no one feels alone in their journey.
+**Deliver Hope**: Followers are called to be beacons of hope, offering support and positivity to those facing challenges. This tenet is about showing compassion, providing encouragement, and helping light the way for others during difficult times. It emphasizes the impact of kindness and the strength found in collective optimism, ensuring that no one feels alone in their journey.
 
 **Holy Symbol**:<br>
 A compass encircled by symbols of waves and meandering paths, signifying Vaylen's safeguarding of all travelers, whether they navigate by the stars above or the currents below.

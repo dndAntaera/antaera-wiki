@@ -1,5 +1,5 @@
 ---
-title: "Antaeran Plains"
+title: "Antæran Plains"
 ---
 
 <div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>

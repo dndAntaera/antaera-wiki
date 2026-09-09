@@ -32,7 +32,7 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 
 ## Inner Track
 
-- Planet Name: <u>Avernus</u>
+- Planet Name: Avernus
     - Distance: 57 million miles
     - Size: E
     - Type: Fire
@@ -41,21 +41,21 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 
 ## Goldilocks Zone
 
-- Planet Name: <u>Dis</u>
+- Planet Name: Dis
     - Distance: 122 million miles
     - Size: H
     - Type: Earth
     - Shape: Spherical
     - Other Notes: Built from layers of crumbling basalt and fused stone, Dis is a sprawling, ruinous expanse with no central structure. Its surface is crowded with refugee camps, tenement districts, and tightly packed neighborhoods of exiles from across the planes. The cities are loosely organized under contract-bound house guilds, but most governance is local and self-enforced. The planet’s asteroid ring is home to floating arcane furnaces, independent guild halls, and vast, multi-tiered markets that act as neutral ground for trade, diplomacy, and espionage. The moon Kynra serves as a neutral zone where rival factions exchange oaths.
 
-- Planet Name: <u>Minauros</u>
+- Planet Name: Minauros
     - Distance: 164 million miles
     - Size: F
     - Type: Water
     - Shape: Spherical
     - Other Notes: A dank, fetid world of slow-moving sludge and half-submerged ruins, Minauros is often said to reflect the decay of civilization. While inspired by the layer of the same name, it lacks any true replication. Its infernal inhabitants simply embraced its natural squalor. Floating walkways and magical stilts keep cities above the mire. The planet is divided into numerous baronies, each functionally autonomous and steeped in corruption. With no central enforcement, Minauros has become a hotbed for narcotics production, contraband trade, and black-market spell components. The moon Vresh serves as a repository for plague magic and alchemical waste.
 
-- Planet Name: <u>Phlegethos</u>
+- Planet Name: Phlegethos
     - Distance: 193 million miles
     - Size: E
     - Type: Fire
@@ -64,35 +64,35 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 
 ## Outer Track
 
-- Planet Name: <u>Stygia</u>
+- Planet Name: Stygia
     - Distance: 309 million miles
     - Size: G
     - Type: Water
     - Shape: Spherical
     - Other Notes: Stygia is a cold ocean world locked beneath endless permafrost and glacial sheets. There is no visible ground; the surface consists entirely of frozen ocean, layered ice, and patches of long-dead, frost-coated vegetation. Wind-scoured ridges and shattered floes drift across the surface like glacial tectonics. It shares a name with Baator’s fifth layer but bears only superficial resemblance. Ancient wrecks rest half-buried in the ice, rumored to be remnants of early crusader invasions. The moon Azphor is hollow and layered with enchanted frostglass, used for memory preservation and magical isolation.
 
-- Planet Name: <u>Malbolge</u>
+- Planet Name: Malbolge
     - Distance: 361 million miles
     - Size: H
     - Type: Earth
     - Shape: Spherical
     - Other Notes: Malbolge is a tectonically active tomb world composed primarily of dense basalt. The surface is fractured by constant seismic upheaval, with earthquakes and magma vents reshaping its geography regularly. A massive floating city known as Gravenhold drifts through the skies, powered by infernal engines and arcane anchors. It serves as the central hub for magical education and research, hosting the most prestigious academies of the sphere. Infernal pacts, planar theory, and advanced magical disciplines are studied here by the scholarly elite, who wield both infernal and arcane power with equal reverence. The moon Varnis holds observatories that chart the planet’s unpredictable seismic tides.
 
-- Planet Name: <u>Maladomini</u>
+- Planet Name: Maladomini
     - Distance: 402 million miles
     - Size: E
     - Type: Earth
     - Shape: Spherical
     - Other Notes: Maladomini is a smaller terrestrial world that hosts the only known Antæran ruins still intact enough for habitation. Scattered across its surface are multiple ruined cities, carved directly from basalt with surprisingly simple forms and functional layouts. The structures are angular, precise, and laced with inert channels and conduits. None of the ancient machines or arcane systems remain functional, but the basic infrastructure—walls, towers, cisterns, and crude transit tunnels—has been repurposed for limited modern use. Archaeological guilds have established semi-permanent camps within these sites, devoting generations of study to uncovering the truths of the lost Antæran civilization. Despite centuries of effort, meaningful breakthroughs remain rare. The temples within these cities remain sealed and unexplored, fiercely guarded by ancient constructs that attack any who approach. The moon Thull is fragmented, forming a slow-falling belt of broken towers and floating vaults.
 
-- Planet Name: <u>Cania</u>
+- Planet Name: Cania
     - Distance: 450 million miles
     - Size: H
     - Type: Water
     - Shape: Spherical
     - Other Notes: Cania is a frozen prison world of jagged ice peaks and bladed ridgelines, where flesh-shredding winds howl through narrow chasms like the screams of the damned. Beneath the surface lies a sprawling subterranean complex—a fortress of chains, wards, and wardens—designed to hold the most dangerous prisoners from across the Known Spheres. Devils, demigods, warlords, and ancient horrors are locked away in dimensional cells and arcane oubliettes. The prison is said to be inescapable, not merely because of its enchantments, but because any who flee into the open air are quickly slain by the unforgiving climate. No one survives the cold judgment of Cania. The planet has no moons, but a belt of massive ice chunks drifts in orbit, slowly grinding against each other like celestial millstones.
 
-- Planet Name: <u>Nessus</u>
+- Planet Name: Nessus
     - Distance: 498 million miles
     - Size: D
     - Type: Earth

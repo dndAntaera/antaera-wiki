@@ -36,11 +36,11 @@ title: "The Index"
 </div>
 <div class="wd-cell wd-aside" markdown>
 
-*<u>**Note from the DM**</u>: All rules are subject to change at the DM's discretion. If something is found to be too powerful, it will be banned/restricted/altered, and you will be asked to swap the content for something else. If players would like banned content added, they must talk to the DM about inclusion and give suggestions on their use and how they could be integrated into the world.*
+**Note from the DM**: All rules are subject to change at the DM's discretion. If something is found to be too powerful, it will be banned/restricted/altered, and you will be asked to swap the content for something else. If players would like banned content added, they must talk to the DM about inclusion and give suggestions on their use and how they could be integrated into the world.
 
 *I understand this page is a bit extensive. However, this is a result of previous players attempting to slide things past me or use obscure combinations that would otherwise be too powerful to be allowed.*
 
-*<u>**Rules Lawyers**</u>: It is fine to know the rules. However, arguing with the DM on the RAW or a ruling is not okay. If you are found to be too aggressive in this, you WILL be removed.*
+**Rules Lawyers**: It is fine to know the rules. However, arguing with the DM on the RAW or a ruling is not okay. If you are found to be too aggressive in this, you WILL be removed.
 
 </div>
 </div>
@@ -140,7 +140,7 @@ title: "The Index"
 
 # Altered Content
 
-## <u>Feats</u>
+## Feats
 **Greenbound Summoning**<br>
 [Metamagic]
 
@@ -193,11 +193,11 @@ You gain a +4 bonus on Corruption or Depravity saves. This bonus increases by +1
 
 - Ancestry feats can only be taken by creatures who are members of a true breeding race or can trace their ancestry.
 
-## <u>Races</u>
+## Races
 
 - All races/templates with the "Naturally Psionic" feature have the following clause added: "This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class."
 
-## <u>Classes</u>
+## Classes
 **Shadowcaster** ([source](https://www.enworld.org/threads/shadowcaster-fixes-by-mouseferatu.184955/))<br>
 *This fix was posted by the original author of the class, and were the changes that he wanted to include but was not able to.*
 
@@ -242,7 +242,7 @@ Renaissance: The shaper of form changes race, gender, or general physical appear
 - She gains the Augmented subtype.
 - The shaper of form cannot choose to become a member of a race with a level adjustment greater than her own.
 
-## <u>Spells/Powers</u>
+## Spells/Powers
 **Identify, psionic**<br>
 Manifesting Time: ~~1 day~~ -> 1 hour
 
@@ -257,11 +257,11 @@ This spell inflames existing ~~fire~~ normal fire, giving it a passion to burn. 
 
 ~~Fire~~ Normal fires affected by this spell burns out twice as quickly, so a torch that is the subject of a raging flame spell burns out in 30 minutes instead of the normal hour.
 
-## <u>Martial Maneuvers</u>
+## Martial Maneuvers
 White Raven Tactics: Can only be used on an individual once per combat<br>
 White Raven Tactics: Cannot affect the user
 
-## <u>Items</u>
+## Items
 **Chaos Flask**
 
 - No item worth more than 50g
@@ -275,9 +275,9 @@ White Raven Tactics: Cannot affect the user
 
 **Knowstones** have a psionic equivalent, using the same pricing guidelines as regular knowstones.
 
-## <u>Misc</u>
+## Misc
 
-- Non-Standard/Supernatural/Extraordinary Sight (Mindsight, Blindsight, etc.): It can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+- Non-Standard/Supernatural/Extraordinary Sight (Mindsight, Blindsight, etc.): It can penetrate barriers, but 1 ft of stone, 1 inch of common metal, a thin sheet of lead, or 3 ft of wood or dirt blocks it.
 - A dying creature is unconscious and near death. Creatures that have negative hit points and have not stabilized are dying. A dying creature can take no actions. On the character’s next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become stable. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. If a dying creature has an amount of negative hit points equal to its Constitution score, it dies.
 - Anything that deals with nautical content can be used for their spelljamming counterparts. This does not apply to any such content specific to aquatic or zero-g environments.
 - Classes and Prestige Classes dealing with nautical content may be adapted to spelljamming, but must be approved by the DM before use.

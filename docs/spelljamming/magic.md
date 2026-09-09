@@ -144,51 +144,51 @@ In addition to the various magical items that can propel a ship, there are sever
 # New Spells/Powers
 
 ## Cleric
-<u>0th Level</u>
+0th Level
 
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
-<u>2nd Level</u>
+2nd Level
 
 - **Contact Home Power**: Establishes a tenuous link which permits the caster to regain his spells as if their god is recognized and venerated within the sphere.
 - **Detect Powers**: Allows the caster to determine if there are friendly gods and/or other powers so that he may recharge his higher-level spells.
-<u>4th Level</u>
+4th Level
 
 - **Softwood**: The target is placed in suspended animation in a manner similar to that of individuals lost in the Flow.
 - **Create Minor Helm**: Transform a normal chair or seat into a minor spelljamming helm.
 
 ## Druid
-<u>0th Level</u>
+0th Level
 
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
-<u>4th Level</u>
+4th Level
 
 - **Softwood**: The target is placed in suspended animation in a manner similar to that of individuals lost in the Flow
 
 ## Paladin
-<u>0th Level</u>
+0th Level
 
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
 
 ## Psion
-<u>4th Level</u>
+4th Level
 
 - **Create Minor Helm, psionic**: Transform a normal chair or seat into a minor spelljamming helm.
-<u>5th Level</u>
+5th Level
 
 - **Create Major Helm, psionic**: Transform a normal chair or seat into a major spelljamming helm.
 
 ## Sorcerer/Wizard
-<u>2nd Level</u>
+2nd Level
 
 - **Locate Portal**: Find the nearest portal through a crystal shell into or out of the Flow.
 - **Chill Fire**: Reduces the flammable nature of the phlogiston.
-<u>3rd level</u>
+3rd level
 
 - **Enhance/Decrease Rating**: This spell raises the SR of the ship using the helm for the duration of the spell.
-<u>4th Level</u>
+4th Level
 
 - **Create Minor Helm**: Transform a normal chair or seat into a minor spelljamming helm.
-<u>5th level</u>
+5th level
 
 - **Create Portal**: Causes a large area of a crystal shell to become temporarily insubstantial and ethereal.
 - **Enhance Maneuverability**: Increase or decrease the maneuverability class of target ship
@@ -209,7 +209,7 @@ In addition to the various magical items that can propel a ship, there are sever
 **Level**: Sorc/Wiz 2<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 standard action<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Area of Effect**: 20 ft radius<br>
 **Duration**: 1 round/level<br>
 **Saving Throw**: None
@@ -249,7 +249,7 @@ The spell remains in effect for the entire duration as long as the caster remain
 **Level**: Clr 0, Drd 0, Pal 1<br>
 **Components**: V, S<br>
 **Casting Time**: 1 standard action<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: You or one other willing medium-sized creature, see text<br>
 **Duration**: Instantaneous<br>
 **Saving Throw**: No and Yes, see text<br>
@@ -269,7 +269,7 @@ You may target one additional willing Medium or smaller creature per two caster 
 **Level**: Sorc/Wiz 5<br>
 **Components**: V, S, F<br>
 **Casting Time**: 10 minutes<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Object to be turned into a major helm<br>
 **Duration**: 1 day/level<br>
 **Saving Throw**: No
@@ -286,7 +286,7 @@ As the spell Create Minor Helm, except as noted.
 **Level**: Psion 5<br>
 **Display**: Auditory, Visual, Material<br>
 **Manifesting Time**: 10 minutes<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Object to be turned into a helm<br>
 **Duration**: 1 day/level<br>
 **Saving Throw**: No
@@ -306,7 +306,7 @@ As the spell Create Major Helm, except as noted.
 **Level**: Clr 4, Sorc/Wiz 4<br>
 **Components**: V, S, F<br>
 **Casting Time**: 10 minutes<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Object to be turned into a minor helm<br>
 **Duration**: 1 day/level<br>
 **Saving Throw**: No
@@ -330,7 +330,7 @@ Creating a helm counts as the casting of one spell, and therefore reduces the ca
 **Level**: Psion 4<br>
 **Display**: Auditory, Visual, Material<br>
 **Manifesting Time**: 10 minutes<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Object to be turned into a helm<br>
 **Duration**: 1 day/level<br>
 **Saving Throw**: No
@@ -347,8 +347,8 @@ As the spell Create Minor Helm, except as noted.
 **Level**: Sorc/Wiz 5<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 minute<br>
-**Range**: Medium (100 ft. + 10 ft./level)<br>
-**Area of Effect**: Area of crystal shell 100 feet in radius<br>
+**Range**: Medium (100 ft + 10 ft/level)<br>
+**Area of Effect**: Area of crystal shell 100 ft in radius<br>
 **Duration**: 1 round/level (D)<br>
 **Saving Throw**: None
 
@@ -356,9 +356,9 @@ This spell causes a large area of the shell to become temporarily insubstantial 
 
 The opening does not weaken the crystal shell, and any objects resting physically on the shell are unaffected by the portal. It takes but a fraction of a round for a ship to pass through a portal opened in this fashion. However, if the portal is dispelled or otherwise prematurely closed, roll 1d10 to determine the fate of the object passing through the opening as it closes:
 
-**1-5**: Portal closes before the ship reaches the shell. Ship must turn or ram the shell.<br>
+**1–5**: Portal closes before the ship reaches the shell. Ship must turn or ram the shell.<br>
 **6**: Portal closes on the ship. Ship is cut in half.<br>
-**7-10**: Portal closes after the ship passes through.
+**7–10**: Portal closes after the ship passes through.
 
 Portals created by this spell are magical and temporary, so they can be dispelled. Portals that occur naturally in the crystal shell may not be dispelled.
 
@@ -375,7 +375,7 @@ Portals created by this spell are magical and temporary, so they can be dispelle
 **Level**: Clr 2<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 round<br>
-**Range**: Long (400 ft. + 40 ft./level)<br>
+**Range**: Long (400 ft + 40 ft/level)<br>
 **Target**: A crystal shell in range<br>
 **Duration**: Instantaneous<br>
 **Saving Throw**: None
@@ -408,12 +408,12 @@ The caster will be able to tell the alignment of the power closest to his deity 
 **Level**: Sor/Wiz 3<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 Round<br>
-**Range**: Close (25 ft. + 5 ft./level)<br>
+**Range**: Close (25 ft + 5 ft/level)<br>
 **Target**: A single creature using a spelljammer helm you can see<br>
 **Duration**: 1 round/ level<br>
 **Saving Throw**: Will negates
 
-This spell will raise the spelljamming rating (SR) of the ship using the helm by 1d4-2 points for the duration of the spell. Only one enhance rating spell may be used at a time, and the caster may not use it on himself.
+This spell will raise the spelljamming rating (SR) of the ship using the helm by 1d4–2 points for the duration of the spell. Only one enhance rating spell may be used at a time, and the caster may not use it on himself.
 
 The reverse of this spell, decrease rating, reduces the SR of the spelljamming helm and its user by the same amount for the duration of the spell.
 
@@ -430,7 +430,7 @@ The reverse of this spell, decrease rating, reduces the SR of the spelljamming h
 **Level**: Sor/Wiz 3<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 Round<br>
-**Range**: Close (25 ft. + 5 ft./level)<br>
+**Range**: Close (25 ft + 5 ft/level)<br>
 **Target**: 1 ship of up to 10 times the caster's level in tonnage<br>
 **Duration**: 1 round/level<br>
 **Saving Throw**: None
@@ -450,7 +450,7 @@ This spell may be cast on any ship to either increase or decrease its maneuverab
 **Level**: Sor/Wiz 2<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 Round<br>
-**Range**: Long (400 ft. + 40 ft./level)<br>
+**Range**: Long (400 ft + 40 ft/level)<br>
 **Target**: A crystal shell in range<br>
 **Duration**: Instantaneous
 

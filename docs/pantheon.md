@@ -37,15 +37,15 @@ title: "Pantheon"
 ## The Nature of Divinity
 Divinity is broken down into the ways that one obtains their ranks: Innate, Earned, Stolen, Imparted, and Surrendered. The methods are rather self-explanatory, but are defined as such:
 
-*Innate*: when a deity is born with their divinity
+**Innate**: when a deity is born with their divinity
 
-*Earned*: divinity that is achieved through achievements or by meeting certain requirements (such as completing a great feat or obtaining a certain amount of worshippers)
+**Earned**: divinity that is achieved through achievements or by meeting certain requirements (such as completing a great feat or obtaining a certain amount of worshippers)
 
-*Stolen*: divinity that is taken unwillingly from an existing deity (usually by slaying the holder, or being confiscated by a higher ranking deity)
+**Stolen**: divinity that is taken unwillingly from an existing deity (usually by slaying the holder, or being confiscated by a higher ranking deity)
 
-*Imparted*: divinity that is bestowed by a source that already had it
+**Imparted**: divinity that is bestowed by a source that already had it
 
-*Surrendered*: divinity that is temporarily or permanently given up by a deity
+**Surrendered**: divinity that is temporarily or permanently given up by a deity
 
 The only recorded Innate Deities are the Primals, and what information there is on them is limited and safeguarded by the other deities. Earned and Imparted divinity are the most common types, as the deities of this type are usually the chosen of an existing deity, or are paragons that ascended, respectively. Deities with Imparted divinity rarely ever become more than a Patron as a deity is not likely to ascend someone above themself. The only recorded deity to have surrendered their ranks is Enigma, the Lost God.
 
@@ -55,7 +55,7 @@ When the Cael Nivalis crystal sphere was created, the overdeity Tal created 5 pr
 
 While they have been assigned alignments, they are assigned to them by the other deities based on how their actions are perceived, as they do not have egos to act on. Their primary drives are to maintain their respective aspects of existence. It is unknown how many divine ranks the Primals hold, however it is certain that they hold the most, and equally so. Due to their nature, the existence of the Primals are not widely known by mortals, and they do not take clergies or followers. If a mortal were to discover the existence of one of the Primals and worship it, they would find that their prayers go unanswered, as the Primals are not concerned with the affairs of mortals. The closest thing to a clergy the Primals have, are those who worship principles that align to their Portfolio. Otherwise, their powers are imparted inadvertently. For example, a cleric who worships the principles of law would get their powers from Primus, but would now know it. At the same time, good druids and rangers would gain their divine powers from Mundus, the Primal god of nature, and never realize it. To them, it would appear that their power comes from nature itself. While technically true, the origin of said power would be Mundus.
 ## The Living Gods
-The Living Gods are the deities that have amassed enough power to ascend past the Patron status. The only way for a deity to obtain this status is to either obtain the ranks of a previous Living God or to be granted them by the Primals. These deities are the major players in the multiverse, and hold 4-6 divine ranks. However, they are restricted from entering the material plane, as their influence over mortals would upset the balance between each other. The amount of power they hold would also overwhelm and overpower the mortals on the Material Plane. Because of this, they generally exert their influence through their followers. Their home dominions are the Outer Planes they inhabit, in which they have absolute power.
+The Living Gods are the deities that have amassed enough power to ascend past the Patron status. The only way for a deity to obtain this status is to either obtain the ranks of a previous Living God or to be granted them by the Primals. These deities are the major players in the multiverse, and hold 4–6 divine ranks. However, they are restricted from entering the material plane, as their influence over mortals would upset the balance between each other. The amount of power they hold would also overwhelm and overpower the mortals on the Material Plane. Because of this, they generally exert their influence through their followers. Their home dominions are the Outer Planes they inhabit, in which they have absolute power.
 ## The Patrons
 The Patrons are deities that are either agents of more powerful deities, mortals that ascended, paragons of their race, or the progenitors of their race. They are the least powerful among the gods but are the most numerous. These deities are most active on the Inner Planes, Transitional Planes, and Parallel Material Planes. Though they occasionally make appearances on the Material Plane.
 ## A Note On Domains

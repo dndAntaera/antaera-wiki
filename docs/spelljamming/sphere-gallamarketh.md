@@ -32,14 +32,14 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 
 ## Inner Track
 
-- <u>Praesium</u>
+- Praesium
     - Distance: 94 million miles
     - Size: C
     - Type: scorched
     - Shape: spherical
     - Other Notes: Praesium is a blinding world of radiant stone and heat-shattered terrain. Its surface is constantly reshaped by solar flares and intense winds that scour the land to bare obsidian. The Vitara Consortium operates sunmetal crucibles and lens-towers across the surface, extracting volatile minerals only accessible under extreme heat. There are no natural cities—only guild-built bunkers sunken deep beneath the crust, where crews rotate in and out through shielded teleport anchors. Entry is tightly controlled, with unauthorized spelljammers repelled by automated flare-lances positioned in high orbit. One moon, Khastrin, serves as the Consortium’s primary legal and administrative headquarters. Its barren surface hides a sprawling network of underground offices, conference vaults, archive catacombs, and corporate suites. Most business on Praesium is decided on Khastrin, where contracts are sealed far from the noise and glare of the surface.
 
-- <u>Ferrux</u>
+- Ferrux
     - Distance: 147 million miles
     - Size: D
     - Type: volcanic
@@ -48,14 +48,14 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 
 ## Goldilocks Zone
 
-- <u>Virellia</u>
+- Virellia
     - Distance: 210 million miles
     - Size: I
     - Type: temperate
     - Shape: spherical
     - Other Notes: Virellia is a colossal, culture-rich world and the crown jewel of Gallamarketh. Vast metropoles sprawl across its surface, punctuated by floating arcades, crystalline towers, and impossibly vast markets where every known currency holds sway. The divine edict woven into its foundation prevents all acts of violence, making it the most secure commercial hub among the Known Spheres. Representatives from every plane and sphere do business here under the sacred neutrality of the Accord of Solion. Celestials, fiends, genies, mortals, and stranger beings trade under the same sun, watched by silent judicial constructs. Virellia has three moons: Saphae, Demeran, and Hollis, each hosting consulates, auction houses, and overflow trading grounds.
 
-- <u>The Collar</u>
+- The Collar
     - Distance: 250 million miles
     - Size: varies (individual asteroids: A–B)
     - Type: stone
@@ -64,21 +64,21 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 
 ## Outer Track
 
-- <u>Kalandrix</u>
+- Kalandrix
     - Distance: 340 million miles
     - Size: D
     - Type: cold steppe
     - Shape: spherical
     - Other Notes: Kalandrix is a frigid, windswept planet of silver plains and frozen cliffs. Its terrain consists of long stretches of frost-coated grasslands broken by icy mesas and snow-filled crevasses. The surface is sparsely inhabited, except for isolated research facilities and knowledge archives maintained by the Ledger Triune. These institutes are shielded by enchantments and heated by planar vents. Kalandrix is known for being a planet of secrecy and record, where paper holds more value than gold. One artificial moon, Tallyn, orbits in a slow circuit, acting as an intake and filtration hub for visitors and classified freight.
 
-- <u>Molgurra</u>
+- Molgurra
     - Distance: 390 million miles
     - Size: E
     - Type: frozen desert
     - Shape: ringed
     - Other Notes: Molgurra is a bleak and dust-laden world swept by freezing winds. Its atmosphere is barely breathable and requires magical filtration in most settlements. Guild fortresses dot the ice dunes, built entirely from enchanted stone reinforced by sigils of stability and warmth. The planet’s surface serves as a vast interplanar freight yard, where cargo from dozens of spheres is offloaded, sorted, enchanted, and redistributed across the network of planar trade routes. Massive teleport chambers and dimensional anchoring towers operate day and night, cycling bulk goods through delay wards and customs grids. The Harmonium Freight Charter, which governs all operations, specializes in long-haul elemental fuel, time-sensitive stasis freight, and bonded planar constructs. The rings of Molgurra are used as staging platforms for dormant inventory and secured vault-capsules, while underground vaults house inventory too volatile or valuable to circulate. No natural moons exist, though orbital markers are used to triangulate planar drop points.
 
-- <u>Nexura</u>
+- Nexura
     - Distance: 440 million miles
     - Size: F
     - Type: glacial

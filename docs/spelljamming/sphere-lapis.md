@@ -28,14 +28,14 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 
 ## Inner Track
 
-- Planet Name: <u>Ardentem</u>
+- Planet Name: Ardentem
     - Distance: 91 million miles
     - Size: C
     - Type: volcanic-fungal
     - Shape: cracked spheroid
     - Other Notes: Ardentem is a blistered world of petrified lava flows and creeping mycelial forests. Columns of luminous spores erupt from its pressure vents like ghostly geysers, giving the planet a halo of drifting bioluminescence. Beneath the crust, blind fungal sages maintain labyrinthine shrines carved in cooled magma. The world thrums with low-frequency psionic noise, often causing confusion in passing minds. Its lone moon, Umbrosa, is coated in chitinous bark and hosts dense rings of fungal monoliths, used as waystations for deep void pilgrims.
 
-- Planet Name: <u>Cineris</u>
+- Planet Name: Cineris
     - Distance: 163 million miles
     - Size: D
     - Type: scorched stone
@@ -44,14 +44,14 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 
 ## Goldilocks Zone
 
-- Planet Name: <u>Mycundis</u>
+- Planet Name: Mycundis
     - Distance: 233 million miles
     - Size: F
     - Type: fungal forest
     - Shape: hollow
     - Other Notes: Mycundis is a mycelial sphere, whose outer surface is riddled with fungal towers that exhale sparkling spores into the void. Inside its hollow crust, entire subterranean ecosystems bloom in phosphorescent blues and purples, cultivated by semi-symbiotic, psionically gifted inhabitants. These communities build from living fungus, shaping their dwellings through focused thought and ritual song. The planet’s biosphere is semi-conscious, reacting to the mental states of those who dwell there. It is orbited by Viritas and Quassor, twin moons that resonate in precise psychic rhythm during the sphere’s solstice, amplifying telepathic abilities across the system.
 
-- Planet Name: <u>Radicula</u>
+- Planet Name: Radicula
     - Distance: 281 million miles
     - Size: G
     - Type: stony overgrown
@@ -60,21 +60,21 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 
 ## Outer Track
 
-- Planet Name: <u>Tellurex</u>
+- Planet Name: Tellurex
     - Distance: 351 million miles
     - Size: H
     - Type: frozen cavernous
     - Shape: spherical
-    - Other Notes: <u>Tellurex</u> appears lifeless at first glance, with a surface entombed in frost and silence. But buried deep within is a vast hollow core where glittering crystal formations act as natural psionic relays. Suspended in this inner void is the city of Iximane, a ghostly ruin held aloft by unknown forces, where every surface reflects glimpses of possible futures. Those who enter Iximane often return changed, haunted by visions of paths untaken. The planet’s silence is total, broken only by thought.
+    - Other Notes: Tellurex appears lifeless at first glance, with a surface entombed in frost and silence. But buried deep within is a vast hollow core where glittering crystal formations act as natural psionic relays. Suspended in this inner void is the city of Iximane, a ghostly ruin held aloft by unknown forces, where every surface reflects glimpses of possible futures. Those who enter Iximane often return changed, haunted by visions of paths untaken. The planet’s silence is total, broken only by thought.
 
-- Planet Name: <u>Fractus</u>
+- Planet Name: Fractus
     - Distance: 419 million miles
     - Size: F
     - Type: crystalline-fungal
     - Shape: shardlike
-    - Other Notes: <u>Fractus</u> is a jagged orb of translucent minerals and glowing, tendriled fungus, shaped like a shard driven into the void. Its caverns amplify thoughts, distorting mental signals into echoing cascades of memory and imagination. Entire sects of contemplatives live within these mind-mazes, seeking to lose themselves in the hum of their own reflections. During eclipses of Umbravore, the planet partially phases into another realm, allowing travelers to walk between dimensions for brief windows. Many ships that enter during this time do not return.
+    - Other Notes: Fractus is a jagged orb of translucent minerals and glowing, tendriled fungus, shaped like a shard driven into the void. Its caverns amplify thoughts, distorting mental signals into echoing cascades of memory and imagination. Entire sects of contemplatives live within these mind-mazes, seeking to lose themselves in the hum of their own reflections. During eclipses of Umbravore, the planet partially phases into another realm, allowing travelers to walk between dimensions for brief windows. Many ships that enter during this time do not return.
 
-- Asteroid Field: <u>Cinctum Veneris</u>
+- Asteroid Field: Cinctum Veneris
     - Distance: 475 million miles
     - Composition: shattered moons, dormant stone titans, fungal debris
     - Other Notes: The Cinctum Veneris is a wide belt of fragmented moons and shattered titans, held in erratic orbits by ancient gravitational eddies. Many of its asteroids are hollow and support cloistered psionic colonies or fungal enclaves that drift in timeless meditation. Strange, half-sentient spore clouds flit between them, their presence heralded by drifting lights that mimic stars. Explorers report that some stones respond to telepathic thought, shifting their courses or revealing long-buried passages. Rumors persist of lost temples within the belt that still pulse faintly with Antæran echoes.

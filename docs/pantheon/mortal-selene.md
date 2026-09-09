@@ -27,9 +27,9 @@ Selene's divine realm, known as the Moonshadow Sanctum, is a citadel suspended b
 
 *Embrace the Night: Selene encourages her followers to find solace, wisdom, and inspiration in the embrace of the night. The night is a canvas for dreams, a realm where secrets are revealed and hidden truths come to light.*
 
-*Lunar Reflection*: Selene teaches the importance of reflection and introspection, symbolized by the moon's changing phases. Followers are urged to look within themselves and uncover the truths that lie hidden beneath the surface.
+**Lunar Reflection**: Selene teaches the importance of reflection and introspection, symbolized by the moon's changing phases. Followers are urged to look within themselves and uncover the truths that lie hidden beneath the surface.
 
-*Keepers of Secrets*: Selene's worshipers are tasked with guarding secrets, not as a means of deception but as a source of power and understanding. They are entrusted with the responsibility of using hidden knowledge for the greater good.
+**Keepers of Secrets**: Selene's worshipers are tasked with guarding secrets, not as a means of deception but as a source of power and understanding. They are entrusted with the responsibility of using hidden knowledge for the greater good.
 
 **Holy Symbol**:
 

@@ -9,7 +9,7 @@ title: "Elven Climber's Gloves"
 
 Functions as a Climbers Kit, but provides a +4 circumstance bonus to climb.
 
-<u>Cost</u>: 160 gp
+Cost: 160 gp
 
 </div>
 </div>

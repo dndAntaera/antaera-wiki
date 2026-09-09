@@ -25,7 +25,7 @@ For example, a lieutenant trying to rally shaken troops gets a +3 bonus on the r
 
 | Commander Rating | Sample Rank Name | Troops Commanded |
 |---|---|---|
-| 0 | Private | n/a |
+| 0 | Private | — |
 | 1 | Corporal | 1–4 |
 | 2 | Sergeant | 6–12 |
 | 3 | Lieutenant | 15–25 |
@@ -34,7 +34,7 @@ For example, a lieutenant trying to rally shaken troops gets a +3 bonus on the r
 | 6 | Colonel | 500–5,000 |
 | 7 | General | 5,000 or more |
 
-*Table: Commander Ratings*
+*Commander Ratings*
 {: .wd-table-note }
 
 Not every army uses the same rank structure, of course—one army’s captain is another’s warchief is another’s lord knight. Regardless of the name by which a rank is known, all characters of a certain rank have more or less the same amount of responsibility.
@@ -56,7 +56,7 @@ These staff officers make up the bulk of many armies’ officer corps. They rare
 | Colonel (6) | Battle commander | Tribal chieftain | Division commander | Alenethiak ("Discerning judge") | Master of blades |
 | General (7) | Sovereign lord | Horde king | Army commander | Shauselakiak ("Purest soul") | High master of the crusade |
 
-*Table: Sample Ranks*
+*Sample Ranks*
 {: .wd-table-note }
 
 ## Rank Has Its Privileges
@@ -82,7 +82,7 @@ Pulling Rank: A commander can issue orders to soldiers of lower rank, and they�
 
 As a character’s commander rating improves, he gains access to special abilities that he can share with his allies. These abilities are called commander auras. Despite being a reward for military rank, these auras are beneficial to almost any group of adventurers (or, in the hands of NPC enemies, to the foes the PCs face).
 
-Unless otherwise noted, a commander aura provides its benefit only to allies with an Intelligence score of 3 or higher within 30 feet of the commander. Characters can benefit from more than one commander aura simultaneously. Commander aura benefits never stack.
+Unless otherwise noted, a commander aura provides its benefit only to allies with an Intelligence score of 3 or higher within 30 ft of the commander. Characters can benefit from more than one commander aura simultaneously. Commander aura benefits never stack.
 
 Commander auras do not provide any benefit to characters whose commander rating is equal to or higher than the commander who has the aura. Thus, a commander can’t ever benefit directly from his own commander aura.
 
@@ -94,138 +94,138 @@ If a character’s commander rank is reduced, he may not replace his commander a
 
 **Animal Commander**<br>
 You are adept at using warbeasts to assault your foes—and bringing them back alive when the battle is done.
-<u>Prerequisite</u>: Commander rating 1, any neutral alignment, wild empathy class feature.
-<u>Benefit</u>: Animal and magical beast allies within 30 feet of you gain a +2 morale bonus on saving throws. This aura affects allies with Intelligence scores of 1 or higher.
+Prerequisite: Commander rating 1, any neutral alignment, wild empathy class feature.
+Benefit: Animal and magical beast allies within 30 ft of you gain a +2 morale bonus on saving throws. This aura affects allies with Intelligence scores of 1 or higher.
 
 **Archery Commander**<br>
 You have a knack for directing arrows from the archers in your command.
-<u>Prerequisite</u>: Commander rating 2, any chaotic alignment, Point Blank Shot.
-<u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on ranged attacks. Add 1 to the save DC of any volley of arrows (see page 68) that you direct.
+Prerequisite: Commander rating 2, any chaotic alignment, Point Blank Shot.
+Benefit: Allies within 30 ft of you gain a +1 morale bonus on ranged attacks. Add 1 to the save DC of any volley of arrows (see page 68) that you direct.
 
 **Bloodthirsty Commander**<br>
 You are most effective when you direct your troopers to finish off wounded enemies.
-<u>Prerequisite</u>: Commander rating 3, any evil alignment.
-<u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on damage rolls against wounded creatures.
+Prerequisite: Commander rating 3, any evil alignment.
+Benefit: Allies within 30 ft of you gain a +1 morale bonus on damage rolls against wounded creatures.
 
 **Deathslayer Commander**<br>
 Your allies battle undead with exceptional fervor.
-<u>Prerequisite</u>: Commander rating 2, any good alignment, ability to turn undead.
-<u>Benefit</u>: Living allies within 30 feet of you deal an extra 1d6 points of damage on melee attacks made against undead creatures. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 2, any good alignment, ability to turn undead.
+Benefit: Living allies within 30 ft of you deal an extra 1d6 points of damage on melee attacks made against undead creatures. This benefit is considered a morale bonus.
 
 **Defensive Commander**<br>
 The orders you give in combat always keep the safety of your troops paramount.
-<u>Prerequisite</u>: Commander rating 2, lawful good alignment.
-<u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus to Armor Class.
+Prerequisite: Commander rating 2, lawful good alignment.
+Benefit: Allies within 30 ft of you gain a +1 morale bonus to Armor Class.
 
 **Doublestrike Commander**<br>
 You direct your troops to press the advantage against enemies they have wounded.
-<u>Prerequisite</u>: Commander rating 5, chaotic good alignment.
-<u>Benefit</u>: If an ally within 30 feet of you rolls a natural 20 on a melee attack, that ally can immediately make another melee attack with the same weapon or natural attack, using the same attack bonus.
+Prerequisite: Commander rating 5, chaotic good alignment.
+Benefit: If an ally within 30 ft of you rolls a natural 20 on a melee attack, that ally can immediately make another melee attack with the same weapon or natural attack, using the same attack bonus.
 
 **Dwarf Commander**<br>
 You are adept at inspiring your troops to stand fast against giants and other foes of the dwarf people.
-<u>Prerequisite</u>: Commander rating 3, dwarf, lawful good alignment.
-<u>Benefit</u>: Dwarf allies within 30 feet of you gain a +2 morale bonus to Armor Class, or a +4 morale bonus to AC against giants.
+Prerequisite: Commander rating 3, dwarf, lawful good alignment.
+Benefit: Dwarf allies within 30 ft of you gain a +2 morale bonus to Armor Class, or a +4 morale bonus to AC against giants.
 
 **Elf Commander**<br>
 You are particularly good at safeguarding the elves under your command.
-<u>Prerequisite</u>: Commander rating 3, elf, chaotic good alignment.
-<u>Benefit</u>: Elf allies within 30 feet of you gain a +2 morale bonus on saving throws.
+Prerequisite: Commander rating 3, elf, chaotic good alignment.
+Benefit: Elf allies within 30 ft of you gain a +2 morale bonus on saving throws.
 
 **Feral Commander**<br>
 You can whip animals under your command into a bloodthirsty frenzy.
-<u>Prerequisite</u>: Commander rating 3, any neutral alignment, Handle Animal 5 ranks.
-<u>Benefit</u>: Animal and magical beast allies within 30 feet of you gain a +2 morale bonus on attack rolls. This aura affects allies with Intelligence scores of 1 or higher.
+Prerequisite: Commander rating 3, any neutral alignment, Handle Animal 5 ranks.
+Benefit: Animal and magical beast allies within 30 ft of you gain a +2 morale bonus on attack rolls. This aura affects allies with Intelligence scores of 1 or higher.
 
 **Giant-Killer Commander**<br>
 You can direct your troops to bring down enemies bigger than they are.
-<u>Prerequisite</u>: Commander rating 2, Small or smaller size, any good alignment.
-<u>Benefit</u>: Allies within 30 feet of you gain a +2 morale bonus on melee attacks against creatures at least two size categories larger than they are.
+Prerequisite: Commander rating 2, Small or smaller size, any good alignment.
+Benefit: Allies within 30 ft of you gain a +2 morale bonus on melee attacks against creatures at least two size categories larger than they are.
 
 **Goblinoid Commander**<br>
 You bring out the bloodthirsty, savage nature in your goblinoid troops.
-<u>Prerequisite</u>: Commander rating 3, goblinoid, lawful evil alignment.
-<u>Benefit</u>: Goblinoid allies within 30 feet of you gain a +2 morale bonus on melee attack rolls.
+Prerequisite: Commander rating 3, goblinoid, lawful evil alignment.
+Benefit: Goblinoid allies within 30 ft of you gain a +2 morale bonus on melee attack rolls.
 
 **Healing Commander**<br>
 Your healing touch can inspire your troops to charge back into battle.
-<u>Prerequisite</u>: Commander rating 3, any good alignment.
-<u>Benefit</u>: Whenever you use a spell or effect to heal damage taken by an ally, you can attempt a rally check as a free action to improve that ally’s morale.
+Prerequisite: Commander rating 3, any good alignment.
+Benefit: Whenever you use a spell or effect to heal damage taken by an ally, you can attempt a rally check as a free action to improve that ally’s morale.
 
 **Maneuvering Commander**<br>
 You keep your soldiers always on the move, looking for the weakest points in your enemies’ defenses.
-<u>Prerequisite</u>: Commander rating 2, chaotic good alignment.
-<u>Benefit</u>: Any ally who starts her turn within 30 feet of you and moves at least 10 feet gains a +2 morale bonus on the next melee attack roll she makes during her turn.
+Prerequisite: Commander rating 2, chaotic good alignment.
+Benefit: Any ally who starts her turn within 30 ft of you and moves at least 10 ft gains a +2 morale bonus on the next melee attack roll she makes during her turn.
 
 **Melee Commander**<br>
 You are most effective when inspiring your soldiers to take the fight to the enemy in hand-to-hand combat.
-<u>Prerequisite</u>: Commander rating 3, any lawful alignment, base attack bonus +2 or higher.
-<u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on melee attack rolls.
+Prerequisite: Commander rating 3, any lawful alignment, base attack bonus +2 or higher.
+Benefit: Allies within 30 ft of you gain a +1 morale bonus on melee attack rolls.
 
 **Mobile Commander**<br>
 Your troops are exceptionally fleet of foot.
-<u>Prerequisite</u>: Commander rating 3, any chaotic alignment.
-<u>Benefit</u>: Any ally who begins his turn within 30 feet of you gains a 5-foot bonus to his speed. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 3, any chaotic alignment.
+Benefit: Any ally who begins his turn within 30 ft of you gains a 5-foot bonus to his speed. This benefit is considered a morale bonus.
 
 **Necromantic Commander**<br>
 Your unliving allies battle the living with exceptional fervor.
-<u>Prerequisite</u>: Commander rating 2, any evil alignment, ability to command or rebuke undead.
-<u>Benefit</u>: Undead allies within 30 feet of you that have an Intelligence score of 1 or higher deal an extra 1d6 points of damage on melee attacks made against living creatures. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 2, any evil alignment, ability to command or rebuke undead.
+Benefit: Undead allies within 30 ft of you that have an Intelligence score of 1 or higher deal an extra 1d6 points of damage on melee attacks made against living creatures. This benefit is considered a morale bonus.
 
 **Opportunistic Commander**<br>
 You can direct your soldiers to take advantage whenever your enemies are distracted or overwhelmed.
-<u>Prerequisite</u>: Commander rating 1, any chaotic alignment.
-<u>Benefit</u>: Allies within 30 feet of you deal an extra 1d6 points of damage on any successful attack of opportunity. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 1, any chaotic alignment.
+Benefit: Allies within 30 ft of you deal an extra 1d6 points of damage on any successful attack of opportunity. This benefit is considered a morale bonus.
 
 **Orc Commander**<br>
 You can hone the fighting instincts of the orcs under your command.
-<u>Prerequisite</u>: Commander rating 3, orc, chaotic evil alignment.
-<u>Benefit</u>: Orc allies within 30 feet of you deal an extra 1d6 points of damage on melee attacks. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 3, orc, chaotic evil alignment.
+Benefit: Orc allies within 30 ft of you deal an extra 1d6 points of damage on melee attacks. This benefit is considered a morale bonus.
 
 **Orderly Commander**<br>
 You are adept at getting your soldiers back into the fray quickly.
-<u>Prerequisite</u>: Commander rating 2, any lawful alignment.
-<u>Benefit</u>: Any ally rallied by you gains a 10-foot bonus to its speed for 1 round. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 2, any lawful alignment.
+Benefit: Any ally rallied by you gains a 10-foot bonus to its speed for 1 round. This benefit is considered a morale bonus.
 
 **Protective Commander**<br>
 Your allies benefit from your protective guidance.
-<u>Prerequisite</u>: Commander rating 1, any lawful alignment.
-<u>Benefit</u>: Allies within 30 feet of you gain a +1 morale bonus on saving throws.
+Prerequisite: Commander rating 1, any lawful alignment.
+Benefit: Allies within 30 ft of you gain a +1 morale bonus on saving throws.
 
 **Pursuing Commander**<br>
 You direct your soldiers to chase down any cowards who dare to escape your iron grip.
-<u>Prerequisite</u>: Commander rating 2, lawful evil alignment.
-<u>Benefit</u>: Allies within 30 feet of you deal an extra 1d6 points of damage against foes who are frightened or panicked. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 2, lawful evil alignment.
+Benefit: Allies within 30 ft of you deal an extra 1d6 points of damage against foes who are frightened or panicked. This benefit is considered a morale bonus.
 
 **Reckless Commander**<br>
 You inspire your allies to charge ferociously into battle.
-<u>Prerequisite</u>: Commander rating 2, chaotic evil alignment.
-<u>Benefit</u>: Any ally who begins her turn within 30 feet of you deals an extra 1d6 points of damage on the next charge attack she makes during her turn. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 2, chaotic evil alignment.
+Benefit: Any ally who begins her turn within 30 ft of you deals an extra 1d6 points of damage on the next charge attack she makes during her turn. This benefit is considered a morale bonus.
 
 **Runt-Squasher Commander**<br>
 Your soldiers delight in fighting foes that are smaller than themselves.
-<u>Prerequisite</u>: Commander rating 2, Large or larger size, any evil alignment.
-<u>Benefit</u>: Allies within 30 feet of you gain a +2 morale bonus on attacks made against foes at least one size category smaller than they are.
+Prerequisite: Commander rating 2, Large or larger size, any evil alignment.
+Benefit: Allies within 30 ft of you gain a +2 morale bonus on attacks made against foes at least one size category smaller than they are.
 
 **Sneaky Commander**<br>
 You are good at surrounding your enemies, then striking from all sides.
-<u>Prerequisite</u>: Commander rating 5, chaotic evil alignment, sneak attack ability.
-<u>Benefit</u>: Allies within 30 feet of you deal an extra 1d6 points of damage against foes that they flank. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 5, chaotic evil alignment, sneak attack ability.
+Benefit: Allies within 30 ft of you deal an extra 1d6 points of damage against foes that they flank. This benefit is considered a morale bonus.
 
 **Spellslinging Commander**<br>
 The spellcasters in your command are inspired by your presence and can channel extra energy into their combat spells.
-<u>Prerequisite</u>: Commander rating 3, ability to cast 1st-level spells, Spellcraft 5 ranks.
-<u>Benefit</u>: Any area spell cast by an ally within 30 feet of you deals an extra 1d6 points of damage. Only spells that deal damage gain this bonus. This benefit is considered a morale bonus.
+Prerequisite: Commander rating 3, ability to cast 1st-level spells, Spellcraft 5 ranks.
+Benefit: Any area spell cast by an ally within 30 ft of you deals an extra 1d6 points of damage. Only spells that deal damage gain this bonus. This benefit is considered a morale bonus.
 
 **Steadfast Commander**<br>
 You are skilled at getting your troops to hold the line against the fiercest attacks.
-<u>Prerequisite</u>: Commander rating 5, lawful good alignment.
-<u>Benefit</u>: Allies within 30 feet of you gain a +2 morale bonus to Armor Class against foes who move at least 5 feet before attacking.
+Prerequisite: Commander rating 5, lawful good alignment.
+Benefit: Allies within 30 ft of you gain a +2 morale bonus to Armor Class against foes who move at least 5 ft before attacking.
 
 **Tyrannical Commander**<br>
 Your soldiers are more afraid of you than they are of the enemy.
-<u>Prerequisite</u>: Commander rating 5, lawful evil alignment, Intimidate 5 ranks.
-<u>Benefit</u>: Allies within 30 feet of you gain a +5 morale bonus on morale checks but automatically become panicked if they fail a morale check.
+Prerequisite: Commander rating 5, lawful evil alignment, Intimidate 5 ranks.
+Benefit: Allies within 30 ft of you gain a +5 morale bonus on morale checks but automatically become panicked if they fail a morale check.
 
 </div>
 
@@ -261,7 +261,7 @@ Typically, a creature must attempt a morale check on the first round that one of
 
 - Once a creature’s hit point total falls to 50% or less of its full normal hit points, that creature must make a morale check.
 - Creatures make a morale check if half or more of the comrades in their unit are unable to fight, whether they’re dead, unconscious, fleeing, paralyzed, or otherwise out of commission.
-If a creature is required to attempt a morale check, it makes the check at the start of its turn, before it takes any other action. Depending on the situation, certain modifiers might apply to the check. (For the purpose of these modifiers, “nearby” is defined as in sight and within 120 feet.)
+If a creature is required to attempt a morale check, it makes the check at the start of its turn, before it takes any other action. Depending on the situation, certain modifiers might apply to the check. (For the purpose of these modifiers, “nearby” is defined as in sight and within 120 ft)
 
 | Condition | Modifier |
 |---|---|
@@ -272,7 +272,7 @@ If a creature is required to attempt a morale check, it makes the check at the s
 | Unit outnumbers nearby enemies 2:1 | 2 |
 | Unit outnumbers nearby enemies 4:1 | 5 |
 
-*Table: Morale Check Modifiers*
+*Morale Check Modifiers*
 {: .wd-table-note }
 
 **Group Morale Checks**<br>
@@ -311,7 +311,7 @@ The following morale conditions are organized from highest morale to lowest mora
 | 61–80 | **Deafened:** cannot hear, −4 initiative, no Listen checks, 20% spell failure on spells with verbal component. |
 | 81–100 | **Nauseated:** unable to attack, cast spells, concentrate, or take any action other than a single move action. |
 
-*Table: Crazed*
+*Crazed*
 {: .wd-table-note }
 
 </div>
@@ -342,7 +342,7 @@ For example, troops that are panicked can be made frightened with a successful D
 \* Can only be attempted before the battle (see below).
 {: .wd-table-note }
 
-*Table: Rally Attempts*
+*Rally Attempts*
 {: .wd-table-note }
 
 | Situation | Modifier |
@@ -353,7 +353,7 @@ For example, troops that are panicked can be made frightened with a successful D
 | Rallying character has 5 or more ranks in Diplomacy or Intimidate | 2 |
 | No enemies within line of sight | 5 |
 
-*Table: Rally Check Modifiers*
+*Rally Check Modifiers*
 {: .wd-table-note }
 
 </div>

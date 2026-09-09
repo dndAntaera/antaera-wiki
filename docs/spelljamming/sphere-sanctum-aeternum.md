@@ -30,7 +30,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 
 ## Inner Track
 
-- Planet Name: <u>Purgantis</u>
+- Planet Name: Purgantis
     - Distance: 47 million miles
     - Size: D
     - Type: terrestrial
@@ -39,14 +39,14 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 
 ## Goldilocks Zone
 
-- Planet Name: <u>Iusticar</u>
+- Planet Name: Iusticar
     - Distance: 262 million miles
     - Size: G
     - Type: terrestrial
     - Shape: spherical
     - Other Notes: Iusticar is a planet of order manifest, a world where nature is permitted only in cultivated forms—fruiting trees aligned by liturgical geometry, rivers that curve by chartered design, and winds that change direction according to holy calendar. Cities of glass and alabaster rise in layers from continent-wide boulevards, and every citizen lives beneath the unblinking gaze of the Seraphim Tribunal. Visiting ships are docked at skyward sanctums where every piece of cargo is blessed, cataloged, and sanctified. The moon, Legatus, is seen only during periods of high justice and is said to carry the weight of judgment in its shadow.
 
-- Planet Name: <u>Caelatium</u>
+- Planet Name: Caelatium
     - Distance: 293 million miles
     - Size: F
     - Type: terrestrial

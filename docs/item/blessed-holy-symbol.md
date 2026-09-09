@@ -22,8 +22,8 @@ To use the relic's power, you must worship the deity tied to the relic and sacri
 
 **Lore**: Deities often bestow their faithful with simple tokens to express their gratitude for their continued faith (Knowledge [religion] DC 15). Often, it is not explained that greater blessings can be achieved by those who display their faith to their chosen deity through this relic (Knowledge [religion] DC 20).
 
-*Prerequisites*: Craft Wondrous Item, Sanctify Relic, Bless, Prayer, Alignment matching that of the chosen deity<br>
-*Cost to Create*: 1400 gp, 112 EXP, 3 days.
+**Prerequisites**: Craft Wondrous Item, Sanctify Relic, Bless, Prayer, Alignment matching that of the chosen deity<br>
+**Cost to Create**: 1400 gp, 112 EXP, 3 days.
 
 </div>
 </div>

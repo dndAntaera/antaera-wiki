@@ -33,14 +33,14 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 
 ## Inner Track
 
-- <u>Mnemograv</u>
+- Mnemograv
     - Distance: 40 Million Miles
     - Size: D
     - Type: Debris Field
     - Shape: Shattered Planetary Debris
     - Other Notes: Dense bands of splintered matter containing the ruins of meditative strongholds and psionic shrines. Among them drift aberrant predators that consume memory and identity. Echoes of thought still linger, causing hallucinations in unshielded minds.
 
-- <u>Scriptura</u>
+- Scriptura
     - Distance: 110 Million Miles
     - Size: C
     - Type: Debris Field
@@ -49,7 +49,7 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 
 ## Goldilocks Zone
 
-- <u>Voxpelagos</u>
+- Voxpelagos
     - Distance: 230 Million Miles
     - Size: E
     - Type: Debris Field
@@ -58,7 +58,7 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 
 ## Outer Track
 
-- <u>Ossilentia</u>
+- Ossilentia
     - Distance: 460 Million Miles
     - Size: H
     - Type: Debris Field

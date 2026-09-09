@@ -21,11 +21,11 @@ Zarakth rules over an abyssal dominion known as the Shattered Abyss, a nightmari
 
 **Tenets of Zarakth:**
 
-*Unbridled Destruction*: Zarakth revels in the wanton destruction of realms and civilizations. His followers are tasked with spreading chaos, leaving ruin in their wake as they unleash the destructive forces at their disposal.
+**Unbridled Destruction**: Zarakth revels in the wanton destruction of realms and civilizations. His followers are tasked with spreading chaos, leaving ruin in their wake as they unleash the destructive forces at their disposal.
 
-*Blood-soaked Murder*: The Abyssal Scourge is a patron of murder and bloodshed. His cultists and minions are encouraged to sow discord, engage in ruthless assassination, and revel in the act of taking life for the sheer pleasure of it.
+**Blood-soaked Murder**: The Abyssal Scourge is a patron of murder and bloodshed. His cultists and minions are encouraged to sow discord, engage in ruthless assassination, and revel in the act of taking life for the sheer pleasure of it.
 
-*Chaos Unleashed*: Zarakth values uncontrolled chaos and the unraveling of order. His followers are urged to incite chaos wherever they go, dismantling structures of authority and plunging the world into the anarchic embrace of destruction.
+**Chaos Unleashed**: Zarakth values uncontrolled chaos and the unraveling of order. His followers are urged to incite chaos wherever they go, dismantling structures of authority and plunging the world into the anarchic embrace of destruction.
 
 **Unholy Symbol:**
 

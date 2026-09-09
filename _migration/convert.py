@@ -743,6 +743,8 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = spell_cards(s)
     s = expand_item_blocks(s)
     s = stat_line_breaks(s)
+    s = house_style(s)
+    s = heading_levels(s)
     s = table_notes(s)
     # One race, two names. "Mercane" is the name in use - the passage device is
     # "a creation of the Mercane" and the planetary locator comes with "a
@@ -948,6 +950,95 @@ def expand_item_blocks(s):
 # between blocks, not a break inside a paragraph.
 BLOCK_LINE = re.compile(
     r"^\s*$|^#{1,6}\s|^<|^\||^\s*[-*+]\s|^\s*\d+\.\s|^>|^!\[|^\s*```|^!!!|^\?\?\?|^\s{4}")
+
+
+def house_style(s):
+    """Bring the page into the wiki's house style.
+
+    Six inconsistencies, each of them the same idea written two or three ways
+    because the wiki was authored by hand over a long time.
+    """
+    # 1. The world's name carries the ligature. Only the capitalised forms are
+    #    touched, so the ASCII in slugs and link targets is left alone - a URL
+    #    has no business carrying an æ.
+    s = re.sub(r"\bAntaera(n?)\b", r"Antæra\1", s)
+
+    # 2 and 3. A label at the start of a line is bold. It was bold on most
+    #    pages, underlined on many and italic on a few - Benefit and
+    #    Prerequisite were close to an even split between bold and <u>.
+    #
+    #    The underline tag is Wikidot markup with no Markdown equivalent, so it
+    #    goes entirely: as a label it becomes bold, and anywhere else the tag is
+    #    dropped and the words it wrapped stay as they are.
+    s = s.replace("<u>", "").replace("</u>", "")
+    #    Emphasis around a label is normalised after the tags are gone, which
+    #    also repairs the three lines where the tag sat inside bold or italic
+    #    and left "***Note from the DM**:" behind once it was removed.
+    s = re.sub(r"^(\s*(?:[-*+]\s+)?)\*{1,3}([^*\n]{1,40}?)\*{1,3}\s*:",
+               r"\1**\2**:", s, flags=re.M)
+    #    An italic paragraph that opened on such a label has lost its opening
+    #    marker; drop the stray closer at the end of it rather than leave an
+    #    asterisk printed on the page.
+    s = re.sub(r"^(\*\*[^*\n]{1,40}\*\*:[^\n]*[^*\s])\*$", r"\1", s, flags=re.M)
+
+    # 4. In a table, a lone dash means "nothing here" and takes an em dash.
+    #    The minus signs are not touched: all 64 of them are negative numbers -
+    #    -1, -6, -9 in the saving throw tables - and an em dash there would not
+    #    be a dash, it would be a wrong value. Ranges keep the en dash, which
+    #    is what 98 of the 100 of them already use.
+    def cells(m):
+        row = m.group(0)
+        out = []
+        for c in row.split("|"):
+            t = c.strip()
+            # A dash on its own, or a dash carrying a footnote marker, both
+            # mean the same thing and take the same character.
+            m = re.fullmatch(r"([-–]|n/a|N/A)(\s*[¹²³⁴⁵⁶⁷⁸⁹⁰]+)?", t)
+            if m:
+                out.append(c.replace(t, "—" + (m.group(2) or "")))
+            else:
+                out.append(c)
+        return "|".join(out)
+    s = re.sub(r"^\|.*\|[ \t]*$", cells, s, flags=re.M)
+    #    The two range outliers, brought into line with the other 98.
+    s = re.sub(r"(?<=\d)[-−](?=\d)", "–", s)
+
+    # 5. Units are the short form, without a stop: ft and lbs. "ft." keeps its
+    #    full stop only where that stop is ending a sentence rather than
+    #    abbreviating the word.
+    s = re.sub(r"(\d)\s*feet\b", r"\1 ft", s)
+    s = re.sub(r"(\d)\s*foot\b", r"\1 ft", s)
+    s = re.sub(r"(\d)\s*pounds\b", r"\1 lbs", s)
+    #    The stop comes off last, after the long forms have been shortened, or
+    #    "230 pounds." turns into "230 lbs." and keeps a stop the rest lost. A
+    #    stop that is ending a sentence rather than abbreviating stays put.
+    s = re.sub(r"(?<![A-Za-z])ft\.(?!\s+[A-Z])", "ft", s)
+    s = re.sub(r"(?<![A-Za-z])lbs\.(?!\s+[A-Z])", "lbs", s)
+
+    # 6. A heading is a name, not a sentence, so it does not end in a colon.
+    s = re.sub(r"^(#{1,6}\s+.+?)\s*:\s*$", r"\1", s, flags=re.M)
+    #    A caption sits under its table and does not need to announce that it
+    #    is one; 156 of the 170 already do not.
+    s = re.sub(r"^(\*)Table:\s*", r"\1", s, flags=re.M)
+    return s
+
+
+def heading_levels(s):
+    """Close the gaps in a page's heading levels.
+
+    Eleven pages jumped from # straight to ### or ####, because the levels came
+    from however deep the original author happened to nest that section rather
+    than from the structure of the page. The levels a page uses are remapped
+    onto consecutive ones, keeping their order and their nesting.
+    """
+    used = sorted({len(m.group(1)) for m in re.finditer(r"^(#{1,6})\s", s, re.M)})
+    if len(used) < 2:
+        return s
+    rank = {lv: i + 1 for i, lv in enumerate(used)}
+    if all(lv == r for lv, r in rank.items()):
+        return s
+    return re.sub(r"^(#{1,6})(\s)",
+                  lambda m: "#" * rank[len(m.group(1))] + m.group(2), s, flags=re.M)
 
 
 def table_notes(s):
@@ -1227,6 +1318,10 @@ def main(backup):
         if not title:
             title = title_from(slug)
         title = TITLES.get(slug, title)
+        # A title built from a slug inherits the slug's ASCII. The URL keeps
+        # the "ae" - a URL has no business carrying an æ - but the name the
+        # reader sees is spelled the way the wiki spells it everywhere else.
+        title = re.sub(r"\bAntaera(n?)\b", r"Antæra\1", title)
 
         # A page whose first heading is "Overview" or "Description" opens with
         # that word where its name should be. On Wikidot the name was supplied
@@ -1304,6 +1399,10 @@ def main(backup):
 
         out_abs = os.path.join(DOCS, rel)
         os.makedirs(os.path.dirname(out_abs), exist_ok=True)
+        # Last, after the title heading and any injected section: those arrive
+        # after the conversion pass and can reopen a gap in the heading levels
+        # that pass had just closed.
+        body = heading_levels(body)
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1
@@ -1346,8 +1445,10 @@ def main(backup):
                                 '<div id="%s" class="wd-row"' % anchor, 1)
             parts.append(half.rstrip() + "\n")
         with open(os.path.join(DOCS, rel), "w", encoding="utf-8", newline="\n") as fh:
+            # The halves were levelled separately and then demoted a step when
+            # they were joined, so the levels are closed up once more here.
             fh.write('---\ntitle: "' + spec["title"] + '"\n---\n\n'
-                     + "\n".join(parts))
+                     + heading_levels("\n".join(parts)))
         written += 1
 
     # Pages with no Wikidot source. They have to be written here because this

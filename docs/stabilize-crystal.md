@@ -15,13 +15,13 @@ Stabilizing a [Planar Crystal](item/planar-crystal.md) can be done with magic or
 <div id="spell" class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
 
-### Stabilize Crystal, lesser
+## Stabilize Crystal, lesser
 *Transmutation*
 
 **Level**: Brd 1, Clr 2, Drd 2, Sor/Wiz 2<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 hour<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Planar Crystal, least<br>
 **Duration**: Instantaneous<br>
 **Saving Throw**: none<br>
@@ -39,13 +39,13 @@ After a ritual that takes 1 hour to complete, you cause the target Planar Crysta
 <div class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
 
-### Stabilize Crystal
+## Stabilize Crystal
 *Transmutation*
 
 **Level**: Brd 3, Clr 5, Drd 5, Sor/Wiz 5<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 hour<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Least or Lesser Planar Crystal<br>
 **Duration**: Instantaneous<br>
 **Saving Throw**: none<br>
@@ -58,13 +58,13 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 <div class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell wd-spell" data-wd-kind="Spell" markdown>
 
-### Stabilize Crystal, greater
+## Stabilize Crystal, greater
 *Transmutation*
 
 **Level**: Brd 5, Clr 8, Drd 8, Sor/Wiz 8<br>
 **Components**: V, S, M<br>
 **Casting Time**: 1 hour<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Least, Lesser or Greater Planar Crystal<br>
 **Duration**: Instantaneous<br>
 **Saving Throw**: none<br>
@@ -78,13 +78,13 @@ This spell functions like *Stabilize Crystal, lesser*, except that it affects Pl
 <div id="psionic-power" class="wd-row" style="--wd-rw: 350px" markdown>
 <div class="wd-cell wd-spell" data-wd-kind="Psionic Power" markdown>
 
-### Stabilize Crystal, psionic
+## Stabilize Crystal, psionic
 *Transmutation*
 
 **Level**: Psion/wilder 2, psychic warrior 1<br>
 **Display**: A, M, V<br>
 **Manifesting Time**: 1 hour<br>
-**Range**: Close (25 ft. + 5 ft./2 levels)<br>
+**Range**: Close (25 ft + 5 ft/2 levels)<br>
 **Target**: Planar Crystal, least<br>
 **Duration**: Instantaneous<br>
 **Saving Throw**: none<br>

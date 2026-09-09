@@ -30,7 +30,7 @@ Primary Body:
 
 ## Inner Track
 
-- Planet Name: <u>Auræra</u>
+- Planet Name: Auræra
     - Distance: 134 million miles
     - Size: D
     - Type: terrestrial
@@ -39,14 +39,14 @@ Primary Body:
 
 ## Goldilocks Zone
 
-- Planet Name: <u>Pacemundi</u>
+- Planet Name: Pacemundi
     - Distance: 205 million miles
     - Size: F
     - Type: terrestrial
     - Shape: spherical
     - Other Notes: The spiritual heart of the sphere, Pacemundi is a temperate and fertile world of forests, glades, and flowering plains. Pilgrims arrive here by spelljammer to walk the meditative spiral paths or to study in the mirrored halls of the Great Cloister. Two moons, Seren and Nivo, orbit in perfect resonance, creating subtle tides of ambient magic that ebb across the land at dawn and dusk, believed to help regulate emotion and memory.
 
-- Planet Name: <u>Floravere</u>
+- Planet Name: Floravere
     - Distance: 233 million miles
     - Size: E
     - Type: terrestrial
@@ -55,14 +55,14 @@ Primary Body:
 
 ## Outer Track
 
-- Planet Name: <u>Tessalis</u>
+- Planet Name: Tessalis
     - Distance: 318 million miles
     - Size: E
     - Type: terrestrial
     - Shape: spherical
     - Other Notes: Covered in pale-blue tundras and windless basins of frost-silt, Tessalis is the coldest of the five worlds. Despite this, certain lowland regions bloom in short, serene growing seasons. Stone-bloom groves form vast patterned rings across its plains, thought to reflect the shifting auroras overhead. There are no moons, but the planet’s atmosphere refracts Serenitas’s light in brilliant halo patterns during its long twilight hours.
 
-- Planet Name: <u>Verdelux</u>
+- Planet Name: Verdelux
     - Distance: 349 million miles
     - Size: E
     - Type: terrestrial

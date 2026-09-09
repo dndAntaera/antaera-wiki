@@ -17,7 +17,7 @@ title: "Astrology Planetology"
 # Traveling in Wildspace
 Traveling in a straight line, spelljamming ships can attain high velocity relatively quickly, spanning the great emptiness between the planets in a short time. The operative phrase, however, is "straight line." Upon making a turn or coming into the gravity field of another large body, the spelljammer helm automatically decelerates to a more manageable speed described under Combat. This is a function of all spelljamming, regardless of the type of helm or owning race of the ship.
 
-A "large body" is any body of 10 tons or greater space displacement (300 ft^3, or a cube slightly less than 7 feet on a side), which includes most spelljamming ships, planets, stars, and other worthwhile celestial bodies. Small items such as boats and elvish flitters, which rate under 10 tons, do not have this effect.
+A "large body" is any body of 10 tons or greater space displacement (300 ft^3, or a cube slightly less than 7 ft on a side), which includes most spelljamming ships, planets, stars, and other worthwhile celestial bodies. Small items such as boats and elvish flitters, which rate under 10 tons, do not have this effect.
 
 A ship can travel 100 million miles per day regardless of its SR rating. This is the speed of all spelljamming ships over long distances, regardless of the size of the ship or the level of the helmsman manning the helm. As long as a ship has a functioning spelljamming device of any type and an individual who can use it, a ship can move 100 million miles in a single standard day (about four million miles per hour).
 
@@ -76,7 +76,7 @@ All planets are considered to be at the furthest distance apart. Add the two dis
 **Method 3**: The Average Way<br>
 All planets are assumed to be at their average separation. Determine the distances using Method 1 and Method 2 and use their average. Round fractions up to the nearest day.
 
-<u>Method 1</u> is the fastest method and lets the characters move about the system very quickly. <u>Method 2</u> slows them down a little, particularly when they are moving around the outer planets. <u>Method 3</u> is the most accurate but takes slightly more time. <u>Method 4</u> is recommended for long-term campaigns where the movement of the planets becomes an important factor (such as when an invasion is planned for the next time two planets are close to each other).
+Method 1 is the fastest method and lets the characters move about the system very quickly. Method 2 slows them down a little, particularly when they are moving around the outer planets. Method 3 is the most accurate but takes slightly more time. Method 4 is recommended for long-term campaigns where the movement of the planets becomes an important factor (such as when an invasion is planned for the next time two planets are close to each other).
 
 </div>
 </div>
@@ -86,7 +86,7 @@ All planets are assumed to be at their average separation. Determine the distanc
 # Movement in the Flow
 The rainbow ocean allows spelljamming ships to attain greater velocities. These speeds have defied measurement since the phlogiston is without permanent landmarks or markers. Time is the only constant.
 
-In general, it takes from 10-100 days to travel from one crystal sphere to another. The sphere reached is random unless a locator device is used to find a particular sphere. These locators, supplied by the Mercane or duplicated by spells, target the particular sphere that is sought. Some spheres are unreachable from others due to the Flow itself, and travelers must go through a third or fourth sphere to reach their goal. These anomalies are noted under the individual spheres— which spheres are nearby and can be reached regularly, and which ones are not. Some spheres drift into and out of proximity with each other, so that just because you reach an area once does not mean that you will find it again.
+In general, it takes from 10–100 days to travel from one crystal sphere to another. The sphere reached is random unless a locator device is used to find a particular sphere. These locators, supplied by the Mercane or duplicated by spells, target the particular sphere that is sought. Some spheres are unreachable from others due to the Flow itself, and travelers must go through a third or fourth sphere to reach their goal. These anomalies are noted under the individual spheres— which spheres are nearby and can be reached regularly, and which ones are not. Some spheres drift into and out of proximity with each other, so that just because you reach an area once does not mean that you will find it again.
 
 A ship's last port of call determines which spheres it can move to. Port of call is the sighting or landing within a crystal sphere. If a ship heading for Krynn from Greyhawk accidentally ends up at the Realms, the Realms becomes its new port of call.
 
@@ -139,7 +139,7 @@ The simple fact is that no one knows save perhaps the gods, and if they know, th
 
 When the player characters enter wildspace, whether from a planet’s surface or from outside a crystal shell, the planets can be set out in their orbits. If the player characters are operating from a planetary surface in wildspace, then they will usually have an idea of the general location of the planets. If entering from outside the crystal shell, they must discover the relative locations of the planets by exploration.
 
-The following system is for showing the positions of the Known Worlds. Each of the planetary rings is marked with six “starter points” to help determine the location of the worlds that use those paths. In addition, by the “1” starting point, there is a note indicating the type of die used to determine the number of spaces the planet is from that starting point. “1d6” means that a single six-sided die is rolled, “1d10” that a single ten-sided die is rolled, and “1d2” that a six-sided die is rolled with 1-3 meaning 1 and 4-6 meaning 2. “10d1” means that no dice are rolled. After rolling this placement die, count that number of spaces from the starting point to show the planet’s position.
+The following system is for showing the positions of the Known Worlds. Each of the planetary rings is marked with six “starter points” to help determine the location of the worlds that use those paths. In addition, by the “1” starting point, there is a note indicating the type of die used to determine the number of spaces the planet is from that starting point. “1d6” means that a single six-sided die is rolled, “1d10” that a single ten-sided die is rolled, and “1d2” that a six-sided die is rolled with 1–3 meaning 1 and 4–6 meaning 2. “10d1” means that no dice are rolled. After rolling this placement die, count that number of spaces from the starting point to show the planet’s position.
 
 Example: The planet Griffix, in the third orbit ring of its primary on the inner planetary track, is to be placed.
 
@@ -242,46 +242,46 @@ OK, you’re tired of putting brain power into figuring out civilizations and or
 
 Roll percentile dice:
 
-- 01-95 Standard system (as shown on system display)
-- 96-00 Special system (roll again on the following table or choose)
+- 01–95 Standard system (as shown on system display)
+- 96–00 Special system (roll again on the following table or choose)
 
-- 01-20 Fixed system
-- 21-30 Random movement
-- 31-40 Semi-random movement
-- 41-70 Single planet (roll no further)
-- 71-95 Void
-- 96-00 Nested spheres
+- 01–20 Fixed system
+- 21–30 Random movement
+- 31–40 Semi-random movement
+- 41–70 Single planet (roll no further)
+- 71–95 Void
+- 96–00 Nested spheres
 
 ## Part 2: Primary Type
 
-- 01-70: Sun (fire body)
-- 71-95: Planet (roll again)
-- 01-80: Earth body
-- 81-90: Air body
-- 91-00: Water body
-- 96-99: No primary; the planets orbit an empty spot at the center
+- 01–70: Sun (fire body)
+- 71–95: Planet (roll again)
+- 01–80: Earth body
+- 81–90: Air body
+- 91–00: Water body
+- 96–99: No primary; the planets orbit an empty spot at the center
 
 *Note to DMs: If the system has no fire bodies or portals to the Positive Energy Plane, then the sphere is in darkness (except for the stars), and the planets exist in eternal night. Space is colder than normal, but the planets and life on them remain unaffected. In scientific terms, this would be impossible, but in the land of gods, such mysteries can exist.*
 
 ## Part 3: Number of Planets
 
-- 01-05: One planet
-- 06-10: Two planets
-- 11-15: Three planets
-- 16-20: Four planets
-- 21-30: Five planets
-- 31-45: Six planets
-- 46-55: Seven planets
-- 56-65: Eight planets
-- 66-75: Nine planets
-- 76-85: Ten planets
-- 86-90: 1d20 planets
-- 91-00: No major planets; entire sphere has small planetoids, debris, etc. (roll no further)
+- 01–05: One planet
+- 06–10: Two planets
+- 11–15: Three planets
+- 16–20: Four planets
+- 21–30: Five planets
+- 31–45: Six planets
+- 46–55: Seven planets
+- 56–65: Eight planets
+- 66–75: Nine planets
+- 76–85: Ten planets
+- 86–90: 1d20 planets
+- 91–00: No major planets; entire sphere has small planetoids, debris, etc. (roll no further)
 
 ### Planetary Movement
 
-- 01-95: Planets orbit around a central point
-- 96-00: Planets are carried on the backs of large world-creatures that move the spheres
+- 01–95: Planets orbit around a central point
+- 96–00: Planets are carried on the backs of large world-creatures that move the spheres
 
 **Other Possible Movement Types**:
 
@@ -293,11 +293,11 @@ Roll percentile dice:
 
 ### Planetary Motion
 
-- 01-10: No movement - fixed planets
-- 11-15: Random movement within the sphere
-- 16-50: All planets move clockwise in orbit
-- 51-90: All planets move counterclockwise in orbit
-- 91-00: Each planet moves either clockwise (01-50), counterclockwise (51-90), or is fixed (91-00)
+- 01–10: No movement - fixed planets
+- 11–15: Random movement within the sphere
+- 16–50: All planets move clockwise in orbit
+- 51–90: All planets move counterclockwise in orbit
+- 91–00: Each planet moves either clockwise (01–50), counterclockwise (51–90), or is fixed (91–00)
 
 Again, this list does not exhaust the possibilities. Planets could move up and down instead of around, or they could follow extreme, cometary orbits, creating severe seasonal changes and long winters. The DM is urged to be creative and not feel restrained by science.
 
@@ -307,10 +307,10 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 
 **Planet Type**
 
-- 01-40: Earth type
-- 41-60: Fire type
-- 61-80: Air type
-- 81-99: Water type
+- 01–40: Earth type
+- 41–60: Fire type
+- 61–80: Air type
+- 81–99: Water type
 - 00: Liveworld (optional)
 
 **Planet Size**
@@ -330,7 +330,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 86–95 | Size I |
 | 96–00 | Size J |
 
-*Table: Fire and Air Types*
+*Fire and Air Types*
 {: .wd-table-note }
 
 | d% | Size Category |
@@ -344,7 +344,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 81–90 | Size G |
 | 91–00 | Size H |
 
-*Table: Earth and Water Types*
+*Earth and Water Types*
 {: .wd-table-note }
 
 | d% | Shape |
@@ -359,7 +359,7 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 | 96–99 | Regular |
 | 0 | Irregular |
 
-*Table: Shapes*
+*Shapes*
 {: .wd-table-note }
 
 </div>
@@ -369,18 +369,18 @@ Roll on the following tables for each of the planets Involved. At the DM's optio
 ## Goodies (Optional)
 Goodies are moons, rings, strange atmosphere (or no atmosphere), and other unusual features that can flesh out a system's planets. Roll once for each planet.
 
-- 01-10: Single moon. Also roll again, ignoring a second result of 01-10
-- 11-20: 1-4 moons
-- 21-25: Cluster of asteroids
-- 26-35: Ring (earth)
-- 36-45: Ring (fire)
-- 46-55: Ring (water/ice)
-- 56-65: Planet hotter than normal
-- 66-75: Planet colder than normal
-- 76-85: Vacuum
-- 86-95: Civilization—world empire
-- 96-99: Roll twice
-- 00: 1-4 moons and roll again
+- 01–10: Single moon. Also roll again, ignoring a second result of 01–10
+- 11–20: 1–4 moons
+- 21–25: Cluster of asteroids
+- 26–35: Ring (earth)
+- 36–45: Ring (fire)
+- 46–55: Ring (water/ice)
+- 56–65: Planet hotter than normal
+- 66–75: Planet colder than normal
+- 76–85: Vacuum
+- 86–95: Civilization—world empire
+- 96–99: Roll twice
+- 00: 1–4 moons and roll again
 
 ### Explanations
 
@@ -415,24 +415,24 @@ The crystal shell of the system will always be as far from the outermost orbit a
 
 The system presented, with planets moving around a single central point, is common in 90% of the systems encountered in the phlogiston. There are other types, including:
 
-<u>Stationary</u> – The planets and other orbiting bodies are literally fixed points in the sky, unmoving in their relationship with the primary. The planets, once placed, do not move.
+Stationary – The planets and other orbiting bodies are literally fixed points in the sky, unmoving in their relationship with the primary. The planets, once placed, do not move.
 
-<u>Chaotic</u> – The planets and other orbiting bodies do not stay in their orbits, but rather move like ships, able to cross orbits and enter new orbits at will. When moving a chaotic planet, choose from the spaces available and roll randomly, starting with the innermost planet and moving outward.
+Chaotic – The planets and other orbiting bodies do not stay in their orbits, but rather move like ships, able to cross orbits and enter new orbits at will. When moving a chaotic planet, choose from the spaces available and roll randomly, starting with the innermost planet and moving outward.
 
 A chaotic planet will never move into a square containing another planet (or else there would be nothing in the sphere but debris).
 
-<u>Debris Fields</u> – Chaotic planets which have rammed into each other, leaving an enormous field of cosmic debris. The entire sphere is considered an asteroid belt.
+Debris Fields – Chaotic planets which have rammed into each other, leaving an enormous field of cosmic debris. The entire sphere is considered an asteroid belt.
 
-<u>Semi-Random</u> – When moving a planet, check to see if it moves inward (toward the primary) or outward (away from the primary) in this move. On a 1-2, the move is inward. On a 9-10, outward.
+Semi-Random – When moving a planet, check to see if it moves inward (toward the primary) or outward (away from the primary) in this move. On a 1–2, the move is inward. On a 9–10, outward.
 
-<u>Opposing Revolutions</u> – In most cases, the planets move in the same direction (DM’s choice). In systems with opposing revolutions, each planet may move in one direction or the other.
+Opposing Revolutions – In most cases, the planets move in the same direction (DM’s choice). In systems with opposing revolutions, each planet may move in one direction or the other.
 
 Roll 1d6 when setting up the system:
 
-- 1-3: Clockwise
-- 4-6: Counterclockwise
+- 1–3: Clockwise
+- 4–6: Counterclockwise
 
-<u>Small Systems and Other Special Worlds</u> – Some systems are smaller than normal planets, contain one planetary body, or otherwise are not represented on the standard solar display.
+Small Systems and Other Special Worlds – Some systems are smaller than normal planets, contain one planetary body, or otherwise are not represented on the standard solar display.
 
 - Single flat world, filling a small crystal sphere. In this case, a traveler may walk to the edge of the universe.
 - Nested spheres, one small crystal sphere within the next, forming a series of ringed worlds around a central, unseen hub. Each ring may have its own environments and physical attributes.
@@ -451,9 +451,9 @@ Celestial bodies are divided into various types and classifications for easy ref
 **Size Classes**:
 
 - Size A: Less than 10 miles across
-- Size B: From 10-100 miles across
-- Size C: From 100-1K (1000) miles across
-- Size D: From 1-4K across
+- Size B: From 10–100 miles across
+- Size C: From 100–1K (1000) miles across
+- Size D: From 1–4K across
 - Size E: From 4K-10K across
 - Size F: From 10K-40K across
 - Size G: From 40K-100K across

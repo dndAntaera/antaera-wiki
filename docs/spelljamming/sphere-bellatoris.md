@@ -29,21 +29,21 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 ## Inner Track
 
-- <u>Ferrus</u>
+- Ferrus
     - Distance: 51 million miles
     - Size: C
     - Type: Terrestrial
     - Shape: Spherical
     - Other Notes: Closest to Solarianus, Ferrus is a world overflowing with wild and unchecked growth. Towering trees with radiant leaves blot out the sky, their roots burrowing through layers of red-black stone. The ground itself pulses faintly with lifelight, and it is said that no ruin remains uncovered for long. Vines and moss smother the land in vibrant layers, and the beasts of Ferrus are massive, territorial, and instinctually aggressive. Life here is relentless—flourishing to the point of overwhelming anything that cannot match its pace.
 
-- <u>Varkhaal</u>
+- Varkhaal
     - Distance: 93 million miles
     - Size: D
     - Type: Terrestrial
     - Shape: Spherical
     - Other Notes: Varkhaal teems with forested canyons, living stone cliffs, and densely wooded lowlands. Trees spiral into the sky, forming natural towers where skybeasts perch and launch into wildspace. Dense undergrowth tangles around ancient paths, and deep glades echo with the songs of beasts and spirits. The clans here dwell in living fortresses shaped from root and bark, and their druids are revered as war-sages who speak the will of the forest.
 
-- <u>Thassari</u>
+- Thassari
     - Distance: 146 million miles
     - Size: D
     - Type: Terrestrial
@@ -52,21 +52,21 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 ## Goldilocks Zone
 
-- <u>Bellatoris Prime</u>
+- Bellatoris Prime
     - Distance: 210 million miles
     - Size: I
     - Type: Terrestrial
     - Shape: Spherical
     - Other Notes: Bellatoris Prime is a vast metropolis-world, layered in stone and living architecture, where colossal cities rise from the bones of old forests and thundering arenas crown every major district. From horizon to horizon, the land is alive with color and motion—towering temples of war, coliseums that seat tens of thousands, training grounds carved into cliff-faces, and bustling markets overflowing with masterwork arms, ceremonial armor, and exotic beast-mounts. Each city-state is ruled by a dominant clan, its strength proven in ritual combat, and its prestige measured by the champions it produces. Verdant groves and sacred parks are cultivated within the cities, not as wilderness, but as places of trial and spiritual reckoning. The planet’s four moons—Goruun, Velsha, Tarn, and Mykael—govern the arena calendar and are watched closely for signs of fortune, challenge, or impending war. It is here that the greatest warriors of the sphere gather, where blood is spilled not in hate, but in glory.
 
-- <u>Lupinal</u>
+- Lupinal
     - Distance: 247 million miles
     - Size: G
     - Type: Terrestrial
     - Shape: Spherical
     - Other Notes: Lupinal is a temperate realm of evergreen forests, wind-carved hills, and twilight meadows. Verdancy is resilient here—concentrated in the deep woods and valley hollows where the light of Solarianus lingers longest. The wolf-tribes wander vast territories, guided by old trails and sacred clearings where spirit-beasts are said to appear beneath certain moons. Its flora is slow-growing, but deeply rooted, and the land favors endurance over speed.
 
-- <u>Caerakos</u>
+- Caerakos
     - Distance: 289 million miles
     - Size: F
     - Type: Terrestrial
@@ -75,21 +75,21 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 ## Outer Track
 
-- <u>Dravannar</u>
+- Dravannar
     - Distance: 312 million miles
     - Size: F
     - Type: Terrestrial
     - Shape: Spherical
     - Other Notes: A cold and cragged world, Dravannar is crowned with snow-dusted peaks and wide valleys of thin pine. Verdancy clings to the land in narrow bands: along hot springs, deep rifts, and geothermal fissures. The flora is dark and slow-growing, and the fauna heavy-coated and reclusive. The tribes here live by long memory and deep roots, carving their stories into stone and bark alike. Life is harder here—but those who endure it are forged in quiet strength.
 
-- <u>Varunel</u>
+- Varunel
     - Distance: 355 million miles
     - Size: E
     - Type: Terrestrial
     - Shape: Spherical
     - Other Notes: Verdancy in Varunel is twisted and thick, but sparse in coverage. Gnarled roots and darkleaf groves cluster in mist-choked basins and the ruins of fallen ziggurats. Swamps flicker with strange light, and the positive energy of Solarianus reaches here only in fragments. Life is still potent—but secretive, cautious, and shaped by shadow. The scaled tribes speak in riddles, and the beasts are ambush predators born from still water and deeper silence.
 
-- <u>Urothis</u>
+- Urothis
     - Distance: 397 million miles
     - Size: F
     - Type: Terrestrial

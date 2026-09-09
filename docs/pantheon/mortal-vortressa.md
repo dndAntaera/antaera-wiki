@@ -22,11 +22,11 @@ Vortressa presides over a corrupted grove known as the Abyssal Grove, a nightmar
 
 **Tenets of Vortressa:**
 
-*Creation of Monstrous Beings*: Vortressa encourages the creation of monstrous beings that embody the savage beauty of the wilderness. Followers are tasked with channeling the corruptive forces of the Abyss to craft creatures that seamlessly blend ferocity and malevolence.
+**Creation of Monstrous Beings**: Vortressa encourages the creation of monstrous beings that embody the savage beauty of the wilderness. Followers are tasked with channeling the corruptive forces of the Abyss to craft creatures that seamlessly blend ferocity and malevolence.
 
-*Savage Dominion*: The Mother of Monsters values the untamed and corrupted aspects of nature. Her followers are urged to embrace their primal instincts within, becoming agents of raw savagery in the world.
+**Savage Dominion**: The Mother of Monsters values the untamed and corrupted aspects of nature. Her followers are urged to embrace their primal instincts within, becoming agents of raw savagery in the world.
 
-*Corruptive Evolution*: Vortressa encourages the corruption and evolution of nature’s creations into monstrous forms. Followers are tasked with manipulating the natural order, fostering the growth of twisted creatures that embody the dual essence of nature and corruption.
+**Corruptive Evolution**: Vortressa encourages the corruption and evolution of nature’s creations into monstrous forms. Followers are tasked with manipulating the natural order, fostering the growth of twisted creatures that embody the dual essence of nature and corruption.
 
 **Unholy Symbol:**
 

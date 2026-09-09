@@ -12,7 +12,7 @@ title: "Character Creation"
 - Ability Scores (options)
     - 30 PB
     - Roll 2 arrays and pick one (reroll if the sum of your scores is lower than 65 or higher than 85)
-    - Make a thread in the forum channel in Discord labeled "#scars-characters" using your character's name as the title (it may be edited later). Use the Avrae bot in Discord to roll (using the command !rollstats <u>in the forum thread you made</u>)
+    - Make a thread in the forum channel in Discord labeled "#scars-characters" using your character's name as the title (it may be edited later). Use the Avrae bot in Discord to roll (using the command !rollstats in the forum thread you made)
 - HP
     - Max at 1st level
     - For every level after you may choose to take average or roll, once you make this decision, you must stick with it for every level
@@ -33,9 +33,9 @@ title: "Character Creation"
 </div>
 <div class="wd-cell wd-aside" markdown>
 
-***<u>Note from the DM</u>**: This campaign is a continuous WIP, meaning that <u>everything is subject to change at any time</u>. Core mechanics will be the same as standard, and I will try to keep any additions in line with how the core mechanics function. But remember that if something that gets introduced does not have a precedent, I will write something in for it.*
+**Note from the DM**: This campaign is a continuous WIP, meaning that everything is subject to change at any time. Core mechanics will be the same as standard, and I will try to keep any additions in line with how the core mechanics function. But remember that if something that gets introduced does not have a precedent, I will write something in for it.
 
-*If a mechanic is adjusted that would need reallocation of skill points or other character decisions, you will be allowed to do so in a way that reflects <u>that change</u>.*
+*If a mechanic is adjusted that would need reallocation of skill points or other character decisions, you will be allowed to do so in a way that reflects that change.*
 
 *Whenever I make new content for the campaign, there will be an announcement in the announcement channel on Discord. It will only be pinged once, so check it periodically throughout the day to see if it has been updated. I will also ask for feedback on content. For my sanity, I ask that you provide feedback and offer constructive criticism and suggestions on changing it rather than simply complaining. Responses that will be ignored include any that only suggest removing it or any that are simple complaints.*
 
@@ -47,7 +47,7 @@ title: "Character Creation"
 <div class="wd-cell" markdown>
 
 # Misc
-#### Content Restrictions
+## Content Restrictions
 
 - 1st & 2nd party content allowed
 - No homebrew or 3rd party content
@@ -57,19 +57,19 @@ title: "Character Creation"
     - Regional/Racial content of races/regions that don't exist in the world
 - Environmental content is restricted to that environment, if you do not visit/research the environment, you cannot learn/use the content
 
-#### Backgrounds/Backstories
+## Backgrounds/Backstories
 At 1st level, players must select one of the [backgrounds](rules/backgrounds.md) for their character.
 
 If a player writes up a comprehensive, but not exhaustively long, backstory for their character, they may pick an item from the MIC as their background item. It must make sense in your backstory for your character to have it, and it must be approved by the DM before it is allowed. Please get creative with your backstory, as you will be helping me shape the world around you. As all things, it may be subject to slight change depending on existing things in the world.
 
 Your background item must follow these criteria to be approved:
 
-- Levels 1-3: Work with the DM on what would be appropriate
+- Levels 1–3: Work with the DM on what would be appropriate
 - Level 4+: Must be worth no more than 1/4 WBL
 - Cannot be a Specific item
 - Cannot be part of an item set
 
-#### Other
+## Other
 
 - Players may not start with Level Adjustment greater than 1/4 their ECL (min +1 or +0 in the case of LA +0) if choosing to play something with Level Adjustment
     - Exceptions may be made on a case by case basis

@@ -18,7 +18,7 @@ title: "Helms Hulls"
 
 **Size**: The size of the vehicle, using the same size categories as for creatures. The dimensions are given in parenthesis (length x width x height)
 
-**Tonnage (T)**: A ship's size is further defined in tonnage—the amount of displacement the ship takes up. Since this displacement also influences the amount of breathable air surrounding the ship in space, a ship's tonnage is also a reflection of both its crew capacity and requirements. One ton is not a measure of weight; instead, it is arbitrarily set to equal 100 cubic yards (2,700 cubic feet, a cube approximately 14 feet on a side).
+**Tonnage (T)**: A ship's size is further defined in tonnage—the amount of displacement the ship takes up. Since this displacement also influences the amount of breathable air surrounding the ship in space, a ship's tonnage is also a reflection of both its crew capacity and requirements. One ton is not a measure of weight; instead, it is arbitrarily set to equal 100 cubic yards (2,700 cubic feet, a cube approximately 14 ft on a side).
 
 A ship's air envelope carries enough air for a medium sized creature to breath for 6 months per ton.
 
@@ -69,17 +69,17 @@ The remaining interior space is needed for crew, armament, and other necessities
 
 | Material | Fort | Ref | Will | Acid | Crushing Blow ³ | Disintegration | Fall | Magical Fire | Normal Fire ⁴ | Cold | Electricity |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Bone | Poor | Poor | – ¹ | −1 | −6 | −9 | +4 | +1 | +7 | +2 | +2 |
-| Cloth | Poor | Good | – ¹ | −2 | +0 | −9 | −6 | +1 | +7 | +2 | −8 |
-| Glass | Poor | Poor | – ¹ | +5 | −10 | −4 | +3 | +6 | +4 | +4 | +4 |
-| Leather | Poor | Good | – ¹ | +0 | +7 | −9 | +3 | +3 | +6 | +4 | −6 |
-| Metal ² | Good | Poor | – ¹ | −3 | −7 | −7 | +7 | +1 | +5 | +4 | +4 |
-| Ceramics | Poor | Good | – ¹ | +6 | +6 | −8 | +8 | +2 | +5 | +2 | +3 |
-| Crystal | Good | Poor | – ¹ | +7 | +3 | −8 | +7 | +7 | +8 | +2 | −4 |
-| Stone | Good | Poor | – ¹ | −7 | −8 | +2 | +8 | +7 | +8 | −4 | +8 |
-| Rope | Poor | Good | – ¹ | −2 | +8 | −9 | +0 | −8 | −6 | +4 | +4 |
-| Wood, thick | Good | Good | – ¹ | +2 | +2 | +0 | +4 | −4 | −2 | +4 | +4 |
-| Wood, thin | Good | Good | – ¹ | +1 | −3 | −9 | −1 | −6 | −4 | +0 | +8 |
+| Bone | Poor | Poor | — ¹ | −1 | −6 | −9 | +4 | +1 | +7 | +2 | +2 |
+| Cloth | Poor | Good | — ¹ | −2 | +0 | −9 | −6 | +1 | +7 | +2 | −8 |
+| Glass | Poor | Poor | — ¹ | +5 | −10 | −4 | +3 | +6 | +4 | +4 | +4 |
+| Leather | Poor | Good | — ¹ | +0 | +7 | −9 | +3 | +3 | +6 | +4 | −6 |
+| Metal ² | Good | Poor | — ¹ | −3 | −7 | −7 | +7 | +1 | +5 | +4 | +4 |
+| Ceramics | Poor | Good | — ¹ | +6 | +6 | −8 | +8 | +2 | +5 | +2 | +3 |
+| Crystal | Good | Poor | — ¹ | +7 | +3 | −8 | +7 | +7 | +8 | +2 | −4 |
+| Stone | Good | Poor | — ¹ | −7 | −8 | +2 | +8 | +7 | +8 | −4 | +8 |
+| Rope | Poor | Good | — ¹ | −2 | +8 | −9 | +0 | −8 | −6 | +4 | +4 |
+| Wood, thick | Good | Good | — ¹ | +2 | +2 | +0 | +4 | −4 | −2 | +4 | +4 |
+| Wood, thin | Good | Good | — ¹ | +1 | −3 | −9 | −1 | −6 | −4 | +0 | +8 |
 
 *Columns Fort / Ref / Will are Base Saving Throw; the rest are Bonus.*
 {: .wd-table-note }
@@ -90,7 +90,7 @@ The remaining interior space is needed for crew, armament, and other necessities
 ⁴ Normal fire includes alchemical fire
 {: .wd-table-note }
 
-*Table: Item Saving Throws*
+*Item Saving Throws*
 {: .wd-table-note }
 
 </div>
@@ -133,15 +133,15 @@ There are as many names for the various ships as there are races and inhabited w
 
 Names by Size:
 
-- <u>Boat</u>: less than 10 tons and unarmed; a derogatory term versus any actual ship
-- <u>Fighter</u>: less than 10 tons and armed. Elven fighters are often called flitters
-- <u>Galley/Cog</u>: 10–20 tons, taken from their earthbound analogies but ignoring the differences in the ship types. Also called a sloop
-- <u>Schooner</u>: 20–30 tons
-- <u>Frigate</u>: 30–40 tons. In trading ships, also called a skipjack
-- <u>Corvette</u>: 40–50 tons, also called a barkentine
-- <u>Ship of the Line</u>: 50+ tons. If primarily cargo, it is also referred to as a clipper. If primarily a warship, it is also called a man-of-war.
-- <u>Dreadnaught</u>: rare ships of 100+ tons.
-- <u>Rock</u>: a ship lacking a spelljamming helm. Used generally in reference to dwarven ships.
+- Boat: less than 10 tons and unarmed; a derogatory term versus any actual ship
+- Fighter: less than 10 tons and armed. Elven fighters are often called flitters
+- Galley/Cog: 10–20 tons, taken from their earthbound analogies but ignoring the differences in the ship types. Also called a sloop
+- Schooner: 20–30 tons
+- Frigate: 30–40 tons. In trading ships, also called a skipjack
+- Corvette: 40–50 tons, also called a barkentine
+- Ship of the Line: 50+ tons. If primarily cargo, it is also referred to as a clipper. If primarily a warship, it is also called a man-of-war.
+- Dreadnaught: rare ships of 100+ tons.
+- Rock: a ship lacking a spelljamming helm. Used generally in reference to dwarven ships.
 
 Further, a ship may be referred to by appearance and ownership. Dwarven ships are regarded as rocks primarily for their appearance, though any ship adrift is considered a Rock. A ship used primarily by a single race is referred to by that in general descriptions of the ship types (such as a mind flayer nautiloid, or a beholder tyrant-ship). Ships that owe allegiance to no particular race or nation are referred to as “Free.” A free trader out of Krynnspace owes no allegiance beyond its own ship and crew, while a Krynnish trader can be counted on to act in the best interest of its home sphere, and eventually to return there. If a ship is confined to a particular crystal shell, whether by choice or not, it is referred to as a system ship.
 
@@ -227,7 +227,7 @@ A groundling ocean trader, popular with merchants.
 - **Cargo** 100 lbs
 - **Landing** Yes / Yes
 - **Cost** 5 gp
-A small and very simple groundling vessel, the coracle is made from a light wicker or branch frame, over which waterproofed hide or bark is stretched. A coracle weighs only 40 pounds, and can easily be carried for short distances.
+A small and very simple groundling vessel, the coracle is made from a light wicker or branch frame, over which waterproofed hide or bark is stretched. A coracle weighs only 40 lbs, and can easily be carried for short distances.
 
 ### Dhow
 
@@ -690,7 +690,7 @@ A common ship among individuals from Kara-Tur and other oriental lands. A cross 
 - **Cargo** 84000 ft^3
 - **Landing** No / No
 - **Cost** 100000 gp
-The oddly curved, graceful ships of the elves are grown and twisted into their shapes, much like bonsai trees. As a result, their plane of gravity is not linear; each ship is a large, delicately fluted vessel with a lot of potential firepower. The crystalline wings of the elven ship reach 300 feet from tip to tip, brushing the edge of its own atmospheric envelope.
+The oddly curved, graceful ships of the elves are grown and twisted into their shapes, much like bonsai trees. As a result, their plane of gravity is not linear; each ship is a large, delicately fluted vessel with a lot of potential firepower. The crystalline wings of the elven ship reach 300 ft from tip to tip, brushing the edge of its own atmospheric envelope.
 
 ### Elven Flitter
 
@@ -1087,7 +1087,7 @@ Alchemical fire projectors start fires where they hit, even on stone and treated
 
 **Cost**: 1,000 gp<br>
 **Range**: 1 Hex (500 ft)<br>
-**Damage**: 3d10 hit points, 1d4-2 hull points + Fire<br>
+**Damage**: 3d10 hit points, 1d4–2 hull points + Fire<br>
 **Crew**: 3<br>
 **Rate of Fire**: 1/4<br>
 **Critical**: -
@@ -1196,7 +1196,7 @@ A ballista bolt is a large arrow used in all the standard ballistas. A standard 
 
 ### Catapult Stones
 **Cost**: 3 sp<br>
-**Weight**: 3-10 lbs<br>
+**Weight**: 3–10 lbs<br>
 **Type**: Bludgeoning<br>
 **Damage**: As listed for catapult<br>
 Unlike ballista bolts, three types of catapult stones are available, one for each type of catapult: light, medium, and heavy. Only the proper sort of stone is useful in each catapult type. A copper-pinching captain can use any type of similarly-sized and readily available rock to inflict similar damage, and some combats have involved tossing tables, dead bodies, cows, and other items through space as shot.

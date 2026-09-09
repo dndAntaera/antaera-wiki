@@ -16,7 +16,7 @@ Both of these theories have truths in them: the crystals are indeed crystallized
 <div class="wd-cell" markdown>
 
 # Variants
-Due to the primal nature of the elemental planes themselves, the crystals take on properties similar to the planes they are attuned to. As such, it requires certain spells or abilities to touch them, let alone harvest them. Small crystals typically weigh anywhere from 1-2 lbs, mediums typically weight anywhere from 2-4 lbs, and large crystals typically weigh anywhere from 4-6 lbs.
+Due to the primal nature of the elemental planes themselves, the crystals take on properties similar to the planes they are attuned to. As such, it requires certain spells or abilities to touch them, let alone harvest them. Small crystals typically weigh anywhere from 1–2 lbs, mediums typically weight anywhere from 2–4 lbs, and large crystals typically weigh anywhere from 4–6 lbs
 
 ## Planar Crystal: Fire
 Planar crystals attuned to the elemental plane of fire can be found anywhere on the Prime Material Plane where there is a manifest zone connected to the Elemental Plane of Fire, and vice versa.

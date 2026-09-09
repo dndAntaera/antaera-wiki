@@ -25,11 +25,11 @@ Tome's divine realm is the Astral Archive, a plane that exists somewhere in the 
 
 **Tenets of Tome**:
 
-*Pursuit of Knowledge*: Followers of Tome are encouraged to seek knowledge in all its forms. The deity values the thirst for understanding and the relentless pursuit of truth.
+**Pursuit of Knowledge**: Followers of Tome are encouraged to seek knowledge in all its forms. The deity values the thirst for understanding and the relentless pursuit of truth.
 
-*Guardians of Wisdom*: Those who venerate Tome are tasked with preserving and sharing knowledge. They act as custodians of wisdom, ensuring that the fruits of enlightenment are not hoarded but shared for the benefit of all.
+**Guardians of Wisdom**: Those who venerate Tome are tasked with preserving and sharing knowledge. They act as custodians of wisdom, ensuring that the fruits of enlightenment are not hoarded but shared for the benefit of all.
 
-*Respect for Secrets*: While Tome is a deity of knowledge, they understand the importance of certain secrets. Followers are taught to discern when knowledge should be revealed and when it should remain veiled, respecting the delicate balance between revelation and concealment.
+**Respect for Secrets**: While Tome is a deity of knowledge, they understand the importance of certain secrets. Followers are taught to discern when knowledge should be revealed and when it should remain veiled, respecting the delicate balance between revelation and concealment.
 
 **Holy Symbol**:
 

@@ -12,7 +12,7 @@ Once through the mirror into the space behind it, the traveler finds himself in 
 
 Moving through the corridors, the traveler sees other windows: the backs of other mirrors on other planes.
 
-There are usually 5d4 other mirrors connected to a single Plane of Mirrors, and they can connect anywhere: Inner Planes, Outer Planes, Alternate Material Planes, or even different locations on the same Material Plane. The stone-and-mortar corridor that connects the mirrors winds and curves. Travelers usually find a new mirror every 2d6×20 feet.
+There are usually 5d4 other mirrors connected to a single Plane of Mirrors, and they can connect anywhere: Inner Planes, Outer Planes, Alternate Material Planes, or even different locations on the same Material Plane. The stone-and-mortar corridor that connects the mirrors winds and curves. Travelers usually find a new mirror every 2d6×20 ft.
 
 The Plane of Mirrors is a secret plane, unknown to most inhabitants of the Material Plane it borders. The only visitors to the Plane of Mirrors are those seeking secrets or passage into other regions. Its existence may allow individuals to breach areas otherwise inaccessible because of lack of connection to the Astral Plane.
 

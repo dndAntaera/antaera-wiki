@@ -47,7 +47,7 @@ Normally, aasimar are a planetouched race of goodly folk, descended from celesti
 <div class="wd-cell" markdown>
 
 # Tainted Aasimar Racial Traits
-Tainted aasimars have all the aasimar racial traits given in Chapter 4 of the Races of Destiny (pp 92-93) except as follows:
+Tainted aasimars have all the aasimar racial traits given in Chapter 4 of the Races of Destiny (pp 92–93) except as follows:
 
 - Animate Dead (Sp): Instead of *daylight*, a tainted aasimar can cast the *animate dead* spell once per week as a 1st-level caster or a caster of her class level, whichever is higher. No variant skeletons or zombies can be made with this spell.
 - [Pure Soul](../the-index.md): Tainted aasimars do not gain the normal resistances of their race, and instead gain access to the Pure Soul feat, ignoring its prerequisites. They also do not lose the feat for changing their alignment, as per normal for Exalted feats.

@@ -31,7 +31,7 @@ When making your character, head to the Character Sheets forum in the Discord an
 <div class="wd-cell" markdown>
 
 # Houserules
-### Altered Spells
+## Altered Spells
 
 - **Simulacrum**
     - Simulacrums cannot make more simulacrums, magen, or homunculi
@@ -61,7 +61,7 @@ When making your character, head to the Character Sheets forum in the Discord an
     - True Polymorph is dispelled at the start of the mission
     - DM’s have the option to suppress it during their missions
 
-### Misc Limitations
+## Misc Limitations
 
 **Limited Magic Items**<br>
 Characters may only have 1 of any single magic item. This does not apply to consumables, armor, shields, and weapons.

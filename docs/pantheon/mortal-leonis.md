@@ -23,11 +23,11 @@ Leonus' divine realm, known as the Verdant Bastion, is a sprawling, untamed wild
 
 **Tenets of Leonus**:
 
-*Valor Above All*: Always stand strong in the face of adversity. The true measure of a warrior is their bravery and resolve, even when the odds are against them.
+**Valor Above All**: Always stand strong in the face of adversity. The true measure of a warrior is their bravery and resolve, even when the odds are against them.
 
-*Glory in Battle*: Seek out worthy challenges and never shy away from a fight that furthers the cause of justice. Battle is a sacred rite where the strong prove their worth.
+**Glory in Battle**: Seek out worthy challenges and never shy away from a fight that furthers the cause of justice. Battle is a sacred rite where the strong prove their worth.
 
-*Guardians of the Wild*: Leonus' worshipers are tasked with protecting the natural world and all its inhabitants. They are stewards of the wilderness, ensuring that the delicate balance of nature is preserved.
+**Guardians of the Wild**: Leonus' worshipers are tasked with protecting the natural world and all its inhabitants. They are stewards of the wilderness, ensuring that the delicate balance of nature is preserved.
 
 **Holy Symbol**:
 

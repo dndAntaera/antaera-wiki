@@ -23,11 +23,11 @@ Mordac oversees an infernal dominion known as the Iron Citadel, a fortress forge
 
 **Tenets of Mordac:**
 
-*Strategic Deception*: Mordac encourages the use of deception as a strategic tool, a means to secure power and dominion. Followers are taught to meticulously plan and execute deceitful schemes to achieve their ambitions.
+**Strategic Deception**: Mordac encourages the use of deception as a strategic tool, a means to secure power and dominion. Followers are taught to meticulously plan and execute deceitful schemes to achieve their ambitions.
 
-*Tyrannical Order*: Mordac views tyranny as the ultimate form of order, where power is centralized and maintained through calculated cruelty. Followers are tasked with establishing and enforcing a rigid order through manipulation and oppressive rule.
+**Tyrannical Order**: Mordac views tyranny as the ultimate form of order, where power is centralized and maintained through calculated cruelty. Followers are tasked with establishing and enforcing a rigid order through manipulation and oppressive rule.
 
-*Subjugation of Will*: Mordac values the subjugation of free will, seeing it as a necessary step toward absolute authority. Followers are urged to bend the wills of others to their own, ensuring unwavering loyalty and obedience.
+**Subjugation of Will**: Mordac values the subjugation of free will, seeing it as a necessary step toward absolute authority. Followers are urged to bend the wills of others to their own, ensuring unwavering loyalty and obedience.
 
 **Unholy Symbol**:
 

@@ -21,14 +21,14 @@ Darkastle appears nearly isolated from the outside world, shrouded in a fog that
 
 The inhabitants of Darkastle themselves seem like phantoms, occasionally seen through the dense mist, conducting their lives with quiet resignation and caution that speaks volumes about the town’s grim atmosphere. They converse in subdued tones, or not at all, their voices seldom louder than the soft rustling of the fog. It's as though the town imposes silence—occasionally broken by the creak of ancient timbers or the remote, haunting whistle of wind passing through the venerable tower. In Darkastle, history seems palpable, alive within the mist and hidden in the shadows, constantly reminding those who reside here that they inhabit a place utterly unique.
 
-### Political and Military Structure
+## Political and Military Structure
 Darkastle's governance is orchestrated through a council of town aldermen alongside a mayor. The council is composed of elected aldermen who are respected members of the community, often recognized for their significant contributions to the town's welfare. They are tasked with voicing the collective interests and concerns of all townspeople. The mayor, elected by the populace, serves as the chief executive officer of the town, responsible for policy implementation, public representation, and leading the council meetings. The mayor also coordinates crucial emergency responses, especially important given the town's supernatural challenges.
 
 Darkastle does not maintain a formal military force but relies on a militia to safeguard the community. This militia is primarily made up of former adventurers and capable locals who volunteer to defend the town against the dark forces surrounding it. Led by a captain chosen for their combat skills and leadership qualities, the militia organizes patrols, trains its members, and strategizes defenses against both natural and supernatural threats. They specialize in tactics that are well-suited to the eerie and fog-laden environment of Darkastle, ensuring readiness through regular training and emergency drills.
 
 The town council closely collaborates with the militia, ensuring that military actions are well-coordinated with the town's policies and overall safety strategies. This integrated approach ensures that Darkastle is not only protected against physical threats but also maintains a structure that supports the civic participation and security of its residents. Through this cohesive governance and defense system, Darkastle fosters a strong sense of community and collective responsibility.
 
-### Dominant Religions and Cultural Uniformity in Darkastle
+## Dominant Religions and Cultural Uniformity in Darkastle
 In Darkastle, the spiritual and cultural atmosphere is shaped by a variety of core beliefs. The main religion is devoted to Lux Dawnbringer, the Luminous Sovereign, whose principles of light, justice, and safeguarding influence the town’s ethical and social structures prominently. The central chapel dedicated to Lux is a focal point for many residents.
 
 Conversely, the town’s militia aligns with Leonus Ironmane, the Stalwart Guardian, embracing ideals of courage and defense. This alignment influences their approach to safeguarding the town and their personal conduct. In contrast, Darkastle’s more secluded residents, including outlaws and rogues, secretly follow Selene, the Nightweaver, drawing guidance from her association with stealth and obscurity, which supports their existence on the town’s edges.
@@ -48,26 +48,26 @@ Additionally, the local druid grove is believed to honor various lesser deities 
 
 # The Fog
 
-### Mysterious Aura
+## Mysterious Aura
 In Darkastle, the fog serves not just as a shroud but as a gateway to the supernatural, transforming the environment into a realm where the unseen becomes visible. This dense, persistent mist cloaks everything, setting the stage for eerie occurrences. Residents and a handful of intrepid visitors share stories of chilling encounters: spectral figures that flicker into existence only to disappear, unsettling sounds echoing down deserted streets, and shadows that seem to move independently, skirting the periphery of vision.
 
 These eerie events are magnetically drawn to the Darkastle Tower, a foreboding structure that pierces the grey skies above. Ancient and enshrouded in mystery, the tower is the heart of the supernatural activity that envelops the town. Its silhouette, often glimpsed through the dense fog, stands as a sentinel overseeing Darkastle, its very form intertwined with each spectral sighting and hushed tale passed among the townsfolk.
 
 The mist weaves through the town like a sentient entity, enveloping the streets and buildings in a maze-like embrace where the supernatural seems as tangible as the cobblestones beneath one's feet. For those who navigate its paths, the boundaries between the tangible world and the spectral realm blur, anchoring Darkastle firmly in a liminal space where past hauntings and present realities converge, bound together by the relentless fog that perpetually envelops the town.
 
-### Sinister Rumors
+## Sinister Rumors
 Beyond the oppressive shadow of Darkastle tower, the surrounding woods stretch out, a dark haven for creatures as fearsome as they are mysterious. These forests, thick with underbrush and cloaked in perpetual twilight, resonate with the same dark energies that emanate from the tower's ancient stones. It's said that the creatures within are strangely drawn to the tower's malevolence, thriving in the cursed landscape.
 
 The woods are notoriously treacherous, and their reputation for danger is whispered in hushed tones among the townsfolk and brave travelers. The dense foliage and shadowy paths form a barrier that only the boldest dare cross, as tales of unspeakable encounters and eerie disappearances dissuade most from venturing too far into their depths.
 
-### Ever-Present Fog and Illnesses
+## Ever-Present Fog and Illnesses
 The thick fog that blankets Darkastle holds a sinister reputation among the residents, woven deeply with the dark legacies of the looming tower. This fog is more than a climatic condition; it's believed to emanate directly from the depths of the ancient structure, a physical manifestation of the shadowy magics contained within its walls. As it rolls in, enveloping homes and streets in its ghostly pall, the mist brings an oppressive chill and a distinct, ominous presence.
 
 Tales passed down through generations suggest this fog is imbued with malevolent forces, casting a spell of sickness over anyone it touches. The symptoms are unusual and severe, with townsfolk suffering from intense respiratory issues that no healer can seem to cure, overwhelming fatigue that clamps down like a vise, and a disquieting malaise that clouds mind and mood. It's as if the very life force of the afflicted is being siphoned away, leaving behind a hollow emptiness.
 
 This mysterious illness has woven itself into the fabric of Darkastle’s daily life, with residents treating the fog as a malevolent entity to be feared and respected. They close windows tightly and cover their faces with cloth when they must venture outside, but the fog is relentless and pervasive, seeping into every possible refuge. The eerie health afflictions contribute to the town's isolation, as few dare to visit, and those born here rarely leave, bound by the fog’s enigmatic curse that hangs over Darkastle as surely as the shadow of the ancient tower.
 
-### Alarming Aftereffects of Visits
+## Alarming Aftereffects of Visits
 Adding to Darkastle's eerie reputation are the unsettling tales from those who have dared venture too close to the tower or deep into the encompassing fog. Local lore is rife with stories of individuals who appear irrevocably changed upon returning from such journeys. It is said that these unfortunate souls come back with their minds fractured, their thoughts scattered, and haunted by what they witnessed or imagined in the shrouded gloom.
 
 Many of these individuals suffer from severe, mysterious ailments that leave them physically diminished, their bodies as twisted and broken as their psyches. The illnesses seem beyond the aid of local healers, defying explanation and cure, as if the fog itself seeds a unique and devastating blight upon those it touches.

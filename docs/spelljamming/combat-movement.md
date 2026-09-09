@@ -196,7 +196,7 @@ When a critical hit is called for, roll on the table below and apply the result.
 Definition of Effects:
 
 - **Loss of 5 or 10 Hull Points**: This loss is in addition to the initial damage. In some cases, it may cause the ship to break up or force another critical hit check. Multiple rolls for the same attack are cumulative.
-- **Deck Crew Casualty**: One exposed crew member is struck and suffers the same damage as the ship. Choose the target randomly from exposed crew. All characters within 5 feet of that individual must make a saving throw against death or suffer the same damage.
+- **Deck Crew Casualty**: One exposed crew member is struck and suffers the same damage as the ship. Choose the target randomly from exposed crew. All characters within 5 ft of that individual must make a saving throw against death or suffer the same damage.
 - **Interior Crew Casualty**: Same as Deck Casualty, but everyone aboard is a potential target, including prisoners, the captain, and spelljamming mages. This reflects not so much the effect of the missile itself, but shattered parts of the ship’s interior bouncing around during combat.
 - **Ship Shaken**: Ship rings from the blow of the attack. All characters not sitting or otherwise firmly tied down (the spelljamming mage is considered secure) have a chance to fall to the deck, disallowing any attacks or spell use that round. NPCs have a flat 40% chance of falling as a result of this critical hit, while PCs (and those NPCs important enough to rate their own Dexterity) must make a Dexterity check to maintain their balance.
 - **Large Weapon Damaged**: One large weapon (chosen randomly) is inoperable until repaired (see Repairs). Its crew is unharmed.
@@ -227,9 +227,9 @@ When figuring out how many crew members are available, PCs and officers are excl
 When calculating halves and fourths for manpower requirements, round fractions in the players' favor. The breakdowns for a ship with a 10-man minimum crew, for example, would be:
 
 - 10 crew | Full MC
-- 6-9 crew | Down one MC
-- 3-5 crew | Down two MC
-- 1-2 crew | Down three MC
+- 6–9 crew | Down one MC
+- 3–5 crew | Down two MC
+- 1–2 crew | Down three MC
 
 A ship that is breaking up stops moving. The hex it occupies and all hexes surrounding it are filled with debris. Surviving characters are considered to be in the last hex occupied by the ship.
 
@@ -278,7 +278,7 @@ Personal weapons cause one point of hull damage for every 10 points inflicted to
 
 ## Magic at Close Range
 
-All spells with a range greater than 150 ft can be cast on another ship in the same hex. Spells with ranges less than 150 ft can be cast on enemy (or friendly) ships only when they are obviously within 150 feet (such as when they are grappled and being boarded).
+All spells with a range greater than 150 ft can be cast on another ship in the same hex. Spells with ranges less than 150 ft can be cast on enemy (or friendly) ships only when they are obviously within 150 ft (such as when they are grappled and being boarded).
 
 Magic which inflicts damage in points has the same effect as personal weapons. For every 10 points of damage inflicted by a spell that is directed against a ship, it inflicts one point of hull damage. A fireball which causes 30 points of damage inflicts 3 points of hull damage (and starts a fire, if possible).
 
@@ -389,7 +389,7 @@ Either side can grapple, but the moving ship has the first opportunity. The purp
 
 The most common method for grappling is a large hook at the end of a long rope or chain. There are also ballista bolts which are similarly equipped and can be fired into the opponent’s hull. In either case, once the hooks have caught hold, the two ships can be hauled together.
 
-A grappling hook requires about 5 feet of space from side to side to be thrown at another ship in the same hex. The number of hooks that can be thrown depends on the length of the ship making the attack and how many hooks it can bring to bear.
+A grappling hook requires about 5 ft of space from side to side to be thrown at another ship in the same hex. The number of hooks that can be thrown depends on the length of the ship making the attack and how many hooks it can bring to bear.
 
 Two ships are considered grappled when the number of lines between them is at least equal to one-tenth of the tonnage of the smaller ship. For example, a 50-ton ship and a 30-ton ship are grappled if they are connected by three or more grappling lines. If there are fewer lines than this connecting the two ships, either ship can break them all simply by moving out of the hex. (This is a good way to pick up some free grappling hooks.)
 
@@ -450,7 +450,7 @@ Only the stronger of the two spelljamming devices will function when the ships a
 # Encounters, Evasion, and Running Away
 Given the nature of space movement, an opposing craft may appear suddenly in the distance, then slow to combat speed almost immediately. Since it is the nature of the spelljamming helm to stop when it nears the gravity plane of another body, many encounters will occur without the desire of either side.
 
-The opposing ship(s) will appear 11-20 hexes away (1d10+10) in a random direction determined by rolling 1d6:
+The opposing ship(s) will appear 11–20 hexes away (1d10+10) in a random direction determined by rolling 1d6:
 
 1. Directly Ahead
 1. Ahead & Right (Starboard)
@@ -489,7 +489,7 @@ Time is important in pursuit. For every round of delay since the departure of th
 
 When pursuing, the trailing craft does not know if it is on the same track as its quarry unless the crew is aided by magical means. Depending on the situation, a pursuing ship may lose interest in the chase quickly or hang on until the lead ship reaches its destination or another encounter which will slow it down.
 
-Small shot like a jettison load will not stop a pursuer, but does have a 5% chance of hitting at high speed. If the pursued ship cuts loose a mass of at least 10 tons, the opposing ship will be slowed by its encounter with the dropped material. A towed ship or one of the elvish moth-ships is often used this way. (Of course, once that mass is free of the towing ship, that ship slows down also. There is a net gain, however, because the lead ship can accelerate once it is 25 hexes away from the mass. The pursuing ship will stop 11-20 hexes short of the mass and must pass it before accelerating again.)
+Small shot like a jettison load will not stop a pursuer, but does have a 5% chance of hitting at high speed. If the pursued ship cuts loose a mass of at least 10 tons, the opposing ship will be slowed by its encounter with the dropped material. A towed ship or one of the elvish moth-ships is often used this way. (Of course, once that mass is free of the towing ship, that ship slows down also. There is a net gain, however, because the lead ship can accelerate once it is 25 hexes away from the mass. The pursuing ship will stop 11–20 hexes short of the mass and must pass it before accelerating again.)
 
 If the fleeing ship slows down for some reason, then the pursuing ship will appear (as a normal encounter) in the same number of rounds as when the pursued ship disappeared. If it took two rounds for the pursuer to follow, it will appear two rounds after the lead ship stops. Ships trying to evade pursuit will often use such a lead to stop, turn, and flee in a new direction, hoping to be gone on a new course before their pursuer arrives.
 

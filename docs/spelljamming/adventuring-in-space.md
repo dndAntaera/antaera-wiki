@@ -17,15 +17,15 @@ title: "Adventuring In Space"
 # Officer Positions
 A spelljamming ship has a number of staff positions onboard. These vary from place to place and from race to race, but usually include the following:
 
-- <u>Owner</u>: The one who owns the ship and signs documents in the ship's name. Usually, but not always, the captain.
-- <u>Captain</u>: Ultimate authority on the ship when it is under sail. May or may not be the owner as well.
-- <u>First Officer</u>: Captain's second-in-command. Serves if the captain is not present or is incapacitated. Often responsible for boarding parties.
-- <u>Helmsman</u>: The spellcaster or manifester currently linked into the helm, whose abilities determine the speed and movement of the craft. There may be several helmsmen aboard a ship, with different levels of ability and additional duties as well.
-- <u>Ship's Mage</u>: Highest level arcane spellcaster or manifester not currently involved in spelljamming.
-- <u>Ship's Cleric</u>: Highest level priest not currently involved in spelljamming.
-- <u>Ship's Spellmaster</u>: Usually, the most powerful mage or cleric onboard, regardless of class or whether spelljamming or not.
-- <u>Navigator</u>: Responsible for long-distance movement and tactics, keeps star charts.
-- <u>Quartermaster (QM)</u>: Is responsible for supplies, including food, air, and weapons. A boring job until the ship runs out of something.
+- Owner: The one who owns the ship and signs documents in the ship's name. Usually, but not always, the captain.
+- Captain: Ultimate authority on the ship when it is under sail. May or may not be the owner as well.
+- First Officer: Captain's second-in-command. Serves if the captain is not present or is incapacitated. Often responsible for boarding parties.
+- Helmsman: The spellcaster or manifester currently linked into the helm, whose abilities determine the speed and movement of the craft. There may be several helmsmen aboard a ship, with different levels of ability and additional duties as well.
+- Ship's Mage: Highest level arcane spellcaster or manifester not currently involved in spelljamming.
+- Ship's Cleric: Highest level priest not currently involved in spelljamming.
+- Ship's Spellmaster: Usually, the most powerful mage or cleric onboard, regardless of class or whether spelljamming or not.
+- Navigator: Responsible for long-distance movement and tactics, keeps star charts.
+- Quartermaster (QM): Is responsible for supplies, including food, air, and weapons. A boring job until the ship runs out of something.
 
 All of the above are considered “The Officers” and may hold duplicate titles or share multiple responsibilities. The helmsman, spelljammer, and chief mage may all be the same individual. Similarly, there may be additional titles onboard. A ship that makes boarding its primary way of saying “Howdy” might have a battlemaster, or one that carries archery troops, a chief bowman. Similarly, non-human races vary in their positions, from the elves, who add a battlepoet to their officers, to the mind flayers, who keep a “faith officer,” to the beholders, who lack any real organization save for that based on subspecies.
 
@@ -112,30 +112,30 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 *(Or, things the captain bellows and expects everyone else to understand.)*
 
 - Steady: Maintain heading and speed.
-- <u>Full ahead (number)</u>: Maintain heading, increase speed to given number.
-- <u>Bear port</u>: Turn one hex side to the left.
-- <u>Hard port</u>: Turn two hex sides to the left as soon as possible.
-- <u>Bear starboard</u>: Turn one hex side to the right.
-- <u>Hard starboard</u>: Turn two hex sides to the right as soon as possible.
-- <u>Full astern</u>: Back up as fast as possible.
-- <u>All stop</u>: Stop.
-- <u>Hull strikes</u>: Fire at enemy hull.
-- <u>Crew strikes</u>: Fire at enemy crew.
-- <u>All strikes</u>: Fire as all individuals see fit (also used to cover specific pre-planned fire patterns, such as “Everybody fire at the wizard”).
-- <u>Hold fire</u>: Stop firing.
-- <u>Prepare to ram</u>: Ship is ramming this turn if it can.
-- <u>Prepare to board</u>: Ship is grappling and boarding this turn if it can.
-- <u>Prepare to repel boarders</u>: Ship is about to be grappled or rammed; be ready for it.
-- <u>Helm down</u>: We’ve lost the spelljamming mage, either to death or system failure. Someone else get down there right away!
-- <u>Fire in the hold</u>: General term for ugliness below decks; includes fire, being holed, being boarded through a hole, or damage to a nasty section of the ship.
-- <u>Strike the colors</u>: Surrender.
-- <u>Hail</u>: No hostile moves; we’re opening communications.
-- <u>Full evasion</u>: Let’s run away from these guys.
-- <u>Battle evasion</u> or <u>Evasive maneuvers</u>: Spin the ship along its long axis. This maneuver grants the ship a -1 penalty to attack rolls, but a +1 bonus to AC, with a bonus of +4 AC against specific strikes. This effect lasts for a single round and can be done as part of the ship's move action.
-- <u>Jettison away</u>: Fire the jettison (or all jettisons).
-- <u>Catapult away</u>: Fire the catapult (or all catapults).
-- <u>Ballista away</u>: Fire the ballista (or all ballistae).
-- <u>&%#$</u>: Standard reaction to combat results.
+- Full ahead (number): Maintain heading, increase speed to given number.
+- Bear port: Turn one hex side to the left.
+- Hard port: Turn two hex sides to the left as soon as possible.
+- Bear starboard: Turn one hex side to the right.
+- Hard starboard: Turn two hex sides to the right as soon as possible.
+- Full astern: Back up as fast as possible.
+- All stop: Stop.
+- Hull strikes: Fire at enemy hull.
+- Crew strikes: Fire at enemy crew.
+- All strikes: Fire as all individuals see fit (also used to cover specific pre-planned fire patterns, such as “Everybody fire at the wizard”).
+- Hold fire: Stop firing.
+- Prepare to ram: Ship is ramming this turn if it can.
+- Prepare to board: Ship is grappling and boarding this turn if it can.
+- Prepare to repel boarders: Ship is about to be grappled or rammed; be ready for it.
+- Helm down: We’ve lost the spelljamming mage, either to death or system failure. Someone else get down there right away!
+- Fire in the hold: General term for ugliness below decks; includes fire, being holed, being boarded through a hole, or damage to a nasty section of the ship.
+- Strike the colors: Surrender.
+- Hail: No hostile moves; we’re opening communications.
+- Full evasion: Let’s run away from these guys.
+- Battle evasion or Evasive maneuvers: Spin the ship along its long axis. This maneuver grants the ship a -1 penalty to attack rolls, but a +1 bonus to AC, with a bonus of +4 AC against specific strikes. This effect lasts for a single round and can be done as part of the ship's move action.
+- Jettison away: Fire the jettison (or all jettisons).
+- Catapult away: Fire the catapult (or all catapults).
+- Ballista away: Fire the ballista (or all ballistae).
+- &%#$: Standard reaction to combat results.
 
 </div>
 </div>
@@ -166,7 +166,7 @@ A character with proficiencies in any of these weapons can hire on as a weapon s
 \* For values marked with an asterisk, the SRD gives neither this value directly nor a means to determine it.
 {: .wd-table-note }
 
-These are the grappling hooks described in the SRD with slight modifications to be used as weapons and have a slightly increased range, making them more useful for boarding ships. A grappling hook has reach, so you can strike opponents 10 feet away with it. In addition, unlike most other weapons with reach, it can be used against an adjacent foe.
+These are the grappling hooks described in the SRD with slight modifications to be used as weapons and have a slightly increased range, making them more useful for boarding ships. A grappling hook has reach, so you can strike opponents 10 ft away with it. In addition, unlike most other weapons with reach, it can be used against an adjacent foe.
 
 You can make trip attacks with the hook. If you are tripped during your own trip attempt, you can drop the hook to avoid being tripped.
 
@@ -186,7 +186,7 @@ You can use the Weapon Finesse feat to apply your Dexterity modifier instead of 
 | Fine | \* | 1d2 | \* | 1 |
 | Diminutive | \* | 1d3 | \* | 1 |
 | Tiny | \* | 1d4 | \* | 2 |
-| Small | 5 gp | 1d6 | 4-1/2 lb. | 5 |
+| Small | 5 gp | 1d6 | 4–1/2 lb. | 5 |
 | Medium | 5 gp | 1d8 | 9 lb. | 10 |
 | Large | 10 gp | 2d6 | 18 lb. | 20 |
 | Huge | \* | 3d6 | \* | 40 |
@@ -196,7 +196,7 @@ You can use the Weapon Finesse feat to apply your Dexterity modifier instead of 
 \* For values marked with an asterisk, the SRD gives neither this value directly nor a means to determine it.
 {: .wd-table-note }
 
-This is a common hooked polearm used in space, primarily for repelling boarders and cutting grappling lines. It is of very little use when trying to board an enemy ship. Built similarly to a longspear, the boarding pike is almost 15 feet long. You can strike opponents 15 feet away with it, but you can't use it against foes closer than that. If you use a ready action to set an awl pike against a charge, you deal double damage on a successive hit against a charging character.
+This is a common hooked polearm used in space, primarily for repelling boarders and cutting grappling lines. It is of very little use when trying to board an enemy ship. Built similarly to a longspear, the boarding pike is almost 15 ft long. You can strike opponents 15 ft away with it, but you can't use it against foes closer than that. If you use a ready action to set an awl pike against a charge, you deal double damage on a successive hit against a charging character.
 
 </div>
 </div>
@@ -217,7 +217,7 @@ There are a few other items that may be useful to the star voyager in his travel
 
 The passage device is a creation of the Mercane, used to create portals through the crystal shell between the phlogiston and wildspace. Upon speaking the command word, the device creates a portal big enough for a spelljamming ship to pass through a crystal shell. This effect functions like the spell *Create Portal*, except that the portal always closes immediately after the ship passes through.
 
-*Prerequisites*: Craft Wondrous Item, *create portal*
+**Prerequisites**: Craft Wondrous Item, *create portal
 
 ### Portal Locator
 
@@ -230,7 +230,7 @@ The passage device is a creation of the Mercane, used to create portals through 
 
 Another Mercane device which appears as a sort of compass with no cardinal directions marked on it. The device is fairly reliable (90% accurate in pointing a direction to the portal) and is often "thrown in" by Mercane salesmen as a giveaway.
 
-*Prerequisites*: Craft Wondrous Item, *locate portal*
+**Prerequisites**: Craft Wondrous Item, *locate portal
 
 ### Planetary Locator
 
@@ -247,24 +247,24 @@ The planetary locator will not track planets or celestial bodies smaller than si
 
 Finally, the planetary locator cannot show accurately those planetary systems which do not align with the central-body-with-other-bodies-moving-around-it type. Chaotic, strange, or other types of systems cause the locator board to turn a single solid color, or go black. The planetary locator will not operate in the phlogiston. The recommended use of the planetary locator is to determine landmarks in a system that can be used to guide the traveler to a civilized area where he can purchase a reliable star chart.
 
-*Prerequisites*: Craft Wondrous Item, *locate object, silent image*
+**Prerequisites**: Craft Wondrous Item, *locate object, silent image
 
 ### Star Charts
 The star charts of a system vary in price according to how well that system is known and visited. Star charts indicate the location and relative position of the various planets in the system, but do not indicate current positions. They are not magical but are very useful for determining things like hostile forces, mean temperature, and spaceborne powers operating in the region.
 
-<u>Cost</u>: typically 100-600 gp
+Cost: typically 100–600 gp
 
 ### Anchors/Tethers
 Anchors are used to moor a ship to a larger body such as an asteroid or tie together two ships. Anchors and tethers are also used at space docks to secure ships and keep them from drifting off in difficult situations. In general, a larger ship will require a greater anchor, but for very large ships, multiple tether/anchors serve the purpose as well as a single large anchor.
 
-<u>Cost</u>: 10 gp per ton of ship
+Cost: 10 gp per ton of ship
 
 ### Life Boats
 Lifeboats are hard-shelled vehicles designed to bring the occupants relatively safely to the surface of a planet or rescue ship. The lifeboat falls toward the nearest gravity well (using a lifeboat close to a star can have nasty results). The lifeboat descends according to the rules listed for landing but may only land. Once landed, it will never fly again.
 
 A lifeboat takes up as much tonnage as one-half the number of people it can carry. A large lifeboat occupies 10 tons of cargo space (including jettisons for launching). Collapsible versions shrink this requirement to 1 ton of storage, but collapsible lifeboats require 2d4 rounds of setup before they can be launched. Collapsible versions cost three times the listed price.
 
-<u>Cost</u>: Small (2 person): 1,000 gp, Medium (5 person): 5,000 gp, Large (20 person): 10,000 gp
+Cost: Small (2 person): 1,000 gp, Medium (5 person): 5,000 gp, Large (20 person): 10,000 gp
 
 </div>
 </div>

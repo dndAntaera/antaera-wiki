@@ -57,6 +57,20 @@
      of all - about a screen width every twenty minutes. */
   var NEBULA_PAN = 0.5;
 
+  /* Comets. Rare on purpose: something you catch out of the corner of your eye
+     rather than a feature of the page. On average one every couple of minutes,
+     rolled once a second, so a reader who is not looking will usually miss it
+     and one who stays a while will see several.
+
+     Unlike the stars, a comet is not seeded from the page: it is genuinely
+     random, so it is never in the same place twice and cannot be waited for. */
+  var COMET = {
+    chancePerSecond: 1 / 130,
+    speed: [420, 760],      /* px per second */
+    length: [110, 220],     /* tail, in px */
+    thickness: [1.1, 2.0]
+  };
+
   /* Star colours: mostly white, with the occasional blue or amber giant, which
      is what stops a starfield reading as grey noise. */
   var STAR_HUES = [
@@ -109,6 +123,15 @@
     root.appendChild(c);
     return c;
   });
+
+  /* The comet gets a canvas of its own, on top and the size of the viewport.
+     It is the one thing here that is cleared and repainted every frame, which
+     is why it is not sharing a layer with the stars: those are painted once
+     and never touched again. */
+  var comets = document.createElement("canvas");
+  comets.className = "wd-sky__comets";
+  root.appendChild(comets);
+  var flying = null;
 
   var dpr = 1, W = 0, H = 0;
 
@@ -195,6 +218,13 @@
     var rand = rng(seedFromPath(location.pathname));
     drawNebula(rand);
     drawStars(rand);
+    /* One viewport wide, unlike the layers: it is redrawn every frame rather
+       than slid, so it has nothing to wrap around. */
+    comets.width = Math.round(W * dpr);
+    comets.height = Math.round(H * dpr);
+    comets.style.width = W + "px";
+    comets.style.height = H + "px";
+    flying = null;
     place();
   }
 
@@ -221,11 +251,87 @@
     }
   }
 
+  /* --- comets ----------------------------------------------------------- */
+
+  function launchComet() {
+    var r = Math.random;
+    /* Always downward, and always across rather than straight down: a comet
+       that fell vertically would read as a glitch. The direction is mirrored
+       at random so they do not all travel the same way. */
+    var dir = r() < 0.5 ? 1 : -1;
+    var angle = (18 + r() * 22) * Math.PI / 180;
+    flying = {
+      x: dir === 1 ? -80 : W + 80,
+      y: r() * H * 0.55,
+      vx: dir * (COMET.speed[0] + r() * (COMET.speed[1] - COMET.speed[0])),
+      vy: 0,
+      len: COMET.length[0] + r() * (COMET.length[1] - COMET.length[0]),
+      w: COMET.thickness[0] + r() * (COMET.thickness[1] - COMET.thickness[0]),
+      life: 0
+    };
+    flying.vy = Math.abs(flying.vx) * Math.tan(angle);
+  }
+
+  function drawComet(dt) {
+    var ctx = comets.getContext("2d");
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    if (!flying) return;
+
+    flying.x += flying.vx * dt;
+    flying.y += flying.vy * dt;
+    flying.life += dt;
+
+    /* Off the far edge, or below the fold: done. */
+    if (flying.y > H + 120 || flying.x < -220 || flying.x > W + 220) {
+      flying = null;
+      return;
+    }
+
+    /* The tail lies back along the direction of travel, and fades out along
+       its length rather than ending in a hard edge. */
+    var sp = Math.hypot(flying.vx, flying.vy);
+    var tx = flying.x - (flying.vx / sp) * flying.len;
+    var ty = flying.y - (flying.vy / sp) * flying.len;
+
+    /* Fade in over the first fifth of a second and out over the last half, so
+       it does not appear or vanish mid-air. */
+    var a = Math.min(1, flying.life / 0.2);
+
+    var g = ctx.createLinearGradient(flying.x, flying.y, tx, ty);
+    g.addColorStop(0, "rgba(255,255,255," + (0.85 * a) + ")");
+    g.addColorStop(0.25, "rgba(214,226,255," + (0.35 * a) + ")");
+    g.addColorStop(1, "rgba(190,205,255,0)");
+    ctx.strokeStyle = g;
+    ctx.lineWidth = flying.w;
+    ctx.lineCap = "round";
+    ctx.beginPath();
+    ctx.moveTo(flying.x, flying.y);
+    ctx.lineTo(tx, ty);
+    ctx.stroke();
+
+    /* The head: a small bright core with a halo, the same trick the brightest
+       stars use. */
+    var h = ctx.createRadialGradient(flying.x, flying.y, 0,
+                                     flying.x, flying.y, flying.w * 5);
+    h.addColorStop(0, "rgba(255,255,255," + (0.95 * a) + ")");
+    h.addColorStop(1, "rgba(200,215,255,0)");
+    ctx.fillStyle = h;
+    ctx.fillRect(flying.x - flying.w * 5, flying.y - flying.w * 5,
+                 flying.w * 10, flying.w * 10);
+  }
+
   function frame(now) {
     if (paused) return;
-    if (last) elapsed += (now - last) / 1000;
+    var dt = last ? (now - last) / 1000 : 0;
+    /* A tab that has been throttled can hand back a huge gap; clamp it so the
+       comet does not teleport across the screen in one frame. */
+    if (dt > 0.1) dt = 0.1;
+    elapsed += dt;
     last = now;
     place();
+    if (!flying && Math.random() < COMET.chancePerSecond * dt) launchComet();
+    drawComet(dt);
     window.requestAnimationFrame(frame);
   }
 

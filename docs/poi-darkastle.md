@@ -9,5 +9,8 @@ wip: true
 # Darkastle
 *This page is currently used for disambiguation.*
 
+
+See **[Darkastle](settlement/darkastle.md)**.
+
 </div>
 </div>

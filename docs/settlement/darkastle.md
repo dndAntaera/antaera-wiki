@@ -11,7 +11,7 @@ wip: true
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Darkastle
@@ -43,7 +43,7 @@ Additionally, the local druid grove is believed to honor various lesser deities 
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # The Fog
@@ -90,7 +90,7 @@ Furthermore, after encounters with the tower or fog, some develop an overwhelmin
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Notable Locations

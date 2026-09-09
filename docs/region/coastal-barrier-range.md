@@ -2,7 +2,7 @@
 title: "Coastal Barrier Range"
 ---
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
 <div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/coastal_barrier_range_header.jpg)

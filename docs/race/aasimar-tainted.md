@@ -36,7 +36,7 @@ Normally, aasimar are a planetouched race of goodly folk, descended from celesti
 **Adventurers**: Tainted aasimars make natural adventurers; their desire to connect with others and stave off their inherent loneliness drives them to seek companionship. Many pursue a divine calling, becoming paladins or clerics, but the race also boasts many powerful sorcerers, bards, fighters, and rangers.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/race_aasimar_tainted_inline.png)
 *A tainted aasimar male and female.*

@@ -19,7 +19,7 @@ As with most forested areas on the continent, the woods here are mostly dominate
 Legends hold that there is a manifest zone located inside that can take travelers to the [Plane of Faerie](../plane/plane-of-faerie.md). Where on the plane you are taken is unknown, however there are rumors that this is how the Sylvan Sect travels between it's territories, as every time the wood has come under attack, it is defended by a legion greater than normal. It is for this reason that the Imperium has attempted to seize it multiple times, as they view it as a tactical advantage.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/aesc_wood_inline.jpg)
 *Representation of the what the manifest zone may look like, not an actual depiction. [Credits](https://www.deviantart.com/abyssal-explorer/art/Scenes-from-the-Elven-Lands-Glowing-portal-945176295)*

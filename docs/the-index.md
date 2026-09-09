@@ -567,7 +567,7 @@ White Raven Tactics: Cannot affect the user
 
 # Archived Pages
 
-Sections retired from the current setting, kept for reference. They do not appear in the glossary or in search.
+Sections retired from the current setting, kept for reference. They do not appear in search.
 
 [Browse archived pages](archived.md)
 

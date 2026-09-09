@@ -28,7 +28,7 @@ SKIP = re.compile(
     r"^(admin_|chatter|nav[:_]|forum_|featured|talk_|inc_|template|glossary_|_"
     r"|wiki[:_]|snippet[:_]|system[:_]|legal[:_]|theme[:_]|search[:_])"
     r"|^(1234|amadeus-mozart|help|new-wiki-help|main_about|random|wiki|contact"
-    r"|about|donate|spelljamming-sphere-template)$"
+    r"|about|donate|spelljamming-sphere-template|glossary)$"
 )
 
 # Slug prefixes with enough pages to be worth a folder.
@@ -82,6 +82,14 @@ MERGES = {
 # of its own. The source page is not written; links to it follow the content.
 APPEND_TO = {
     "map-antaera": "spelljamming-sphere-antaera",
+}
+
+# Disambiguation stubs, and the page each one is disambiguating. The stub said
+# only "This page is currently used for disambiguation" and gave the reader no
+# way to reach the article it was pointing at - a dead end where a signpost was
+# meant to be.
+DISAMBIGUATION = {
+    "poi-darkastle": "settlement-darkastle",
 }
 
 # part slug -> (merged slug, anchor of its section)
@@ -172,7 +180,7 @@ IMAGE_CREDITS = {
 }
 
 # Sections retired from the live wiki. Pages under these folders are flagged
-# archived: kept and readable, but out of the glossary and out of search, so
+# archived: kept and readable, but kept out of search, so
 # they cannot be mistaken for current material.
 ARCHIVED_FOLDERS = {"wm"}
 
@@ -197,7 +205,7 @@ def target_path(slug):
 
 
 # Titles a slug cannot produce. Set here rather than in the nav so the browser
-# tab, search results and the glossary all agree with the sidebar.
+# tab, the search results and the sidebar all agree.
 TITLES = {
     "start": "Main Page",
     "pantheons": "The Pantheons",
@@ -208,9 +216,6 @@ TITLES = {
     "calendar": "Antæran Calendar",
     "spelljamming-main": "Spelljamming",
     "wm-index": "Stellar Marches (5e: 2014)",
-    # The world map now sits at the foot of this page, and the page
-    # is in the sidebar, so it needs a name rather than its slug.
-    "spelljamming-sphere-antaera": "The Antæra Sphere",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
@@ -355,6 +360,15 @@ def tables_to_layout(s):
             # to declare a width made those rows fall back to stacking, which
             # is exactly the layout the width was there to prevent. Share what
             # is left over among the cells that did not declare one.
+            # A row where no cell declares a width and one of them holds only a
+            # picture: the picture is an illustration beside the article, not a
+            # second column of it. Nothing in the markup said so - the original
+            # sized these by content and came out at 76/23 - so with no widths
+            # at all the row collapsed to one column and the picture was drawn
+            # full width underneath the text it belonged next to.
+            media = [i for i, (_, b) in enumerate(kept) if _media_only(b)]
+            if len(kept) == 2 and not any(widths) and len(media) == 1:
+                widths = [25.0 if i == media[0] else 75.0 for i in range(2)]
             if len(kept) > 1 and any(w for w in widths) and not all(w for w in widths):
                 known = sum(w for w in widths if w)
                 blanks = [i for i, w in enumerate(widths) if not w]
@@ -372,7 +386,10 @@ def tables_to_layout(s):
             total = sum(w for w in widths if w) or 100.0
             if len(kept) > 1:
                 for i, w in enumerate(widths):
-                    if w and (w / total) * 100 < 35:
+                    # A picture is not a text aside and does not want the
+                    # smaller type; it wants the box taken off, which the
+                    # media-cell pass below gives it.
+                    if w and (w / total) * 100 < 35 and i not in media:
                         classes[i] = "wd-cell wd-aside"
 
             props = []
@@ -481,6 +498,26 @@ def unwrap_table_only_cards(s):
         return m.group(0).replace('class="wd-cell"', 'class="wd-cell wd-plain"', 1)
 
     return re.sub(r'<div class="wd-cell" markdown>(.*?)\n</div>', repl, s, flags=re.S)
+
+
+def _media_only(body):
+    """True when a cell holds a picture, or a table, and nothing but a caption.
+
+    Both spellings of a picture are matched. This is called from the layout
+    pass, which runs before Wikidot's [[image]] becomes Markdown, so testing
+    only for the Markdown form found nothing and every picture-beside-text row
+    on the site stacked instead of sitting side by side.
+    """
+    lines = [l for l in body.strip().split("\n") if l.strip()]
+    if not lines:
+        return False
+    images = [l for l in lines
+              if l.lstrip().startswith("![](")
+              or re.match(r"^\s*\[\[f?image\b", l, re.I)]
+    rows = [l for l in lines if l.lstrip().startswith("|")]
+    # One spare line each way, so a caption still counts as media-only.
+    return ((len(images) >= 1 and len(lines) - len(images) <= 1)
+            or (len(rows) >= 2 and len(lines) - len(rows) <= 1))
 
 
 def convert(src, slug, img_by_url, tables, linkmap):
@@ -1162,6 +1199,19 @@ def main(backup):
             if plain in GENERIC_HEADINGS:
                 body = body[:m.start()] + "# " + title + body[m.end():]
 
+        # A disambiguation stub gets the link it was missing, put inside its
+        # card so the page reads as a signpost rather than a dead end.
+        if slug in DISAMBIGUATION:
+            dest = DISAMBIGUATION[slug]
+            rel = os.path.relpath(target_path(dest),
+                                  os.path.dirname(target_path(slug)) or ".")
+            link = "\nSee **[%s](%s)**.\n" % (
+                TITLES.get(dest, title_from(dest)), rel.replace("\\", "/"))
+            # Inside the card, not after it: the stub is one card, and a line
+            # appended to the page would sit on the sky below it.
+            cut = body.rstrip().rfind("\n</div>\n</div>")
+            body = (body[:cut] + "\n" + link + body[cut:]) if cut != -1 else body + link
+
         # A page that never names itself gets its title as an opening heading,
         # put inside the first card so it is the panel's title rather than a
         # line floating above the layout.
@@ -1172,13 +1222,6 @@ def main(backup):
                           lambda m: m.group(0) + "# " + title + "\n\n",
                           body, count=1)
 
-        # The glossary was 26 ListPages queries. It is regenerated at build
-        # time by hooks/glossary.py, so the page is just a marker.
-        if slug == "glossary":
-            title = "Glossary"
-            # Marker only. The lead goes inside the first card, which the hook
-            # builds, so that nothing on the page sits loose on the background.
-            body = "<!-- GLOSSARY -->\n"
 
         # The Index is the hub for the wiki's own indexes, so Archived Pages
         # hangs off it rather than off the sidebar - the sidebar is a flat list
@@ -1190,7 +1233,7 @@ def main(backup):
                 "<div class=\"wd-cell\" markdown>\n\n"
                 "# Archived Pages\n\n"
                 "Sections retired from the current setting, kept for reference. "
-                "They do not appear in the glossary or in search.\n\n"
+                "They do not appear in search.\n\n"
                 "[Browse archived pages](archived.md)\n\n"
                 "</div>\n</div>\n"
             )

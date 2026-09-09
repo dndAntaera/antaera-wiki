@@ -20,7 +20,7 @@ The town itself has been run by the ducal family of Blademoore for several gener
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Districts

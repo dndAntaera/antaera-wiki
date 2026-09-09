@@ -124,7 +124,7 @@ Their homeworld contains large, shallow seas and at least one large moon. Beyond
 - **Level Adjustment**: +2
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_races_header.jpg)
 *A typical Dracon.*
@@ -203,7 +203,7 @@ Other giff adventure under orders—giff platoons try their best regardless of t
 - **Level Adjustment**: +2
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/spelljamming_races_inline.jpg)
 *A typical Giff.*

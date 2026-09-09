@@ -26,7 +26,7 @@ It is commonly believed in other parts of the continent that the [Imperium](../n
 
 </div>
 </div>
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
 # Districts

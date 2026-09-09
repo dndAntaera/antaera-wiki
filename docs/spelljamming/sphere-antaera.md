@@ -1,5 +1,5 @@
 ---
-title: "The Antæra Sphere"
+title: "Sphere Antaera"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
@@ -123,7 +123,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 </div>
 </div>
 
-<div class="wd-row" markdown>
+<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>
 <div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/map_antaera_header.jpg)

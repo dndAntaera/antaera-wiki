@@ -523,6 +523,13 @@
   will-change: transform;
 }
 
+/* The comet layer sits on top of the stars and does not move as a whole - it
+   is cleared and repainted each frame, so it must not be given a transform. */
+.wd-sky__comets {
+  transform: none !important;
+  z-index: 1;
+}
+
 /* The page floats above it. Material's own containers are transparent by
    default, so without this the sky would paint over the article. */
 .md-container,

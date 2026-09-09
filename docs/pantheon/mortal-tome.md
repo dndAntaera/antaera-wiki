@@ -44,7 +44,7 @@ The clergy of Tome consists of scholars, sages, and librarians who dedicate thei
 Tome's mysterious origin has led to speculation and intrigue among other deities. Some view the celestial being suspiciously, wondering if their enigmatic nature hides darker motives. Despite this, Tome remains neutral, offering knowledge to those who seek it without favoritism.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/pantheon_mortal_tome_heraldry.jpg)
 *Holy Symbol of Tome*

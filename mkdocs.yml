@@ -43,7 +43,7 @@ extra_javascript:
   - javascripts/starfield.js
 
 hooks:
-  - hooks/glossary.py
+  - hooks/archived.py
   - hooks/flags.py
   - hooks/tablenotes.py
   - hooks/cachebust.py
@@ -91,9 +91,7 @@ nav:
   - The Pantheons: pantheons.md
   - The Cosmology: cosmology.md
   - The Known Spheres: spelljamming/known-spheres.md
-  - The Antæra Sphere: spelljamming/sphere-antaera.md
   - Taxonomies: taxonomy-main.md
   - Antæran Calendar: calendar.md
   - Spelljamming: spelljamming/main.md
-  - Glossary: glossary.md
   - Disclaimer: disclaimer.md

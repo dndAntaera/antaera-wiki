@@ -167,7 +167,7 @@ Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, 
 Due to the unpredictable nature of nightmare realms and dreams, any spells or spell-like abilities used therein might not work normally. The more complex the spell, the greater the chance it will go wrong. Each time a character casts a spell, roll 1d20+the spell level. If the result is 21 or over, the spell is twisted by the mutable nature of the nightmare realm. Roll 1d20 again and consult the following table to determine the impact on the spell.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 | d20 | Result |
 |---|---|
@@ -200,7 +200,7 @@ Use this skill to realize that you are dreaming, consciously direct elements of 
 **Retry**: You can make a Lucid Dreaming check once per round.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 | Task | DC |
 |---|---|

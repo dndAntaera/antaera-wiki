@@ -107,7 +107,7 @@ You can spend 1 action point to double the increase to save DCs granted by the f
 You can spend 1 action point to double the bonus on caster level checks granted by the feat, from +2 to +4. The effect lasts for the entire encounter.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+<div class="wd-cell wd-plain" markdown>
 
 | Character Level | Action Point Dice Rolled |
 |---|---|

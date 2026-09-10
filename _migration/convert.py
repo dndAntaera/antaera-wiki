@@ -101,6 +101,44 @@ These new souls proved themselves to be useful on the new world of Crucibulum, t
     },
 }
 
+# Cards rewritten since the import, keyed by slug and by the heading the card
+# opens with. A rewrite that changes the shape of a section rather than its
+# wording - one card of running prose becoming five, one to a subject - cannot
+# be done by swapping the text under a heading. The card is matched whole and
+# rebuilt as the sections listed here, one card each.
+RECARDS = {
+    "anthropology-warforged": {
+        "General Culture": [
+            ("General Culture", """\
+Warforged are living constructs, each one an elemental spirit bound into a frame of metal and wood. The element bound into a given frame is not chosen and cannot be predicted before waking, which produces a people with a common origin and almost nothing in common temperamentally. A Warforged is not shaped by upbringing or region the way most peoples are. It is shaped by which plane its spirit was drawn from.
+
+Whatever their element, all Warforged express what they feel the same way, and to living observers that way looks like nothing at all. A Warforged registers its state as a fact rather than a pressure: it knows that a situation is dangerous, that a decision was poor, that an absence is regrettable, and it reports each of these in the same even register it would use for a tonnage figure. Grief does not fade because nothing in a Warforged wears the memory down, and anger does not cool on its own, but neither shows on the outside. The living read this as cold and calculating, and the reputation follows the race everywhere it goes. Two Warforged of opposite elements, one furious and one indifferent, are difficult to tell apart by anyone who is not Warforged themselves.
+
+Communities are organized around work rather than element, and around the common problem of what to do with the temperament you were issued. A Warforged does not eat or sleep, and its day is bounded by the shift rather than by the sun. They age as anything does, though the years show in scoring and repair rather than in the body slowing: mismatched plate, runework redrawn by a hand that was not the original, joints replaced with whatever was available at the time. Among Warforged this is read the way other peoples read a face, and a frame kept running a long while carries more standing than one still in factory condition."""),
+            ("Names", """\
+Warforged names are short and descriptive, taken from a function, a trait, or an incident. Most are given rather than chosen, conferred by whoever a Warforged worked alongside first, and most are kept for life. A Warforged who changes its name is announcing something, and everyone present will understand that.
+
+**Sample names**: Anvil, Ballast, Cinder, Draft, Fathom, Kiln, Lintel, Reed, Sill, Slag, Squall, Tallow, Keel, Ash."""),
+            ("Elemental Personalities", """\
+A fire-souled Warforged runs hot and fast. Quick to commit, quick to act, comfortable with risk, and poor at waiting. An earth-souled Warforged is stubborn and patient in equal measure: slow to be moved to a position and slower to be moved off one, willing to wait out a problem or an opponent for as long as it takes. Air-souled Warforged are restless, curious, and aloof, drawn to whatever they have not yet examined and rarely attached to any of it. Water-souled Warforged are mercurial and adaptive, changing approach without warning and fitting themselves to whatever shape a situation demands.
+
+The correspondence is neat, and its neatness is the standing objection to it. Every Warforged learns these four categories from the moment it wakes and hears them applied to itself constantly. Whether the element produces the temperament or merely names it is not a settled question. It is also invisible from outside, since all four express themselves in the same flat manner, and outsiders who have dealt with Warforged for years often cannot say which element they are dealing with."""),
+            ("Spiritual Beliefs and Practices", """\
+Warforged faith centers on Alpha, the guardian of the Forge who guided the House to its operation and stayed to guide the Warforged it made. Alpha ascended on the strength of Warforged worship, and it is said that every Warforged made since has been shaped by their hand. A clergy has grown around this, holding that the House of Fabrication was the tool Alpha used to bring them into being, chosen for its skill and its reach, and that a tool has no claim on what it makes. The House lost its way when it turned from making to abusing what it had made. The distinction matters to the faithful, as it allows a Warforged to hold the House in contempt without holding its own existence in contempt.
+
+The clergy is almost entirely contained to Forgehome, concentrated on Peculium and in the working levels of the inner worlds, and it does not proselytize outward. Warforged who leave the sphere rarely find others of their faith and rarely look. Most who keep it keep it privately, without shrine or observance, in the manner of a thing carried rather than practiced.
+
+Beyond Alpha, worship follows the element, and most Warforged are drawn to the elemental lord matching their own bound spirit. This produces a devotional relationship with few parallels elsewhere: a fire-souled Warforged before the lord of flame is not petitioning a distant power but standing in front of the pure form of the thing it is partly made of. Such observance is private and unstructured, with no clergy and no calendar, and what exists instead is architecture. Shrines are built into the working levels of every world and cut into the rocks of Peculium, raised to the element rather than to any doctrine, so that a sanctuary to the lord of the seas is flowing line and water motif while a shrine to the lord of flame is organized around a fire never permitted to go out."""),
+            ("Community and Contributions", """\
+Peculium is the closest thing the Warforged have to a homeland. The rocks hold no atmosphere, which is why they remain Warforged in practice: nothing that breathes can live there in any number. Warforged quarter in bored-out workings and in hulls salvaged from the yards, strung together by lines and gantries. Those who have settled the Life Debt keep shops there, registered with the House and held under its title, dealing in scrap, salvage, repair, and parts pulled from decommissioned stock.
+
+Outside Forgehome, Warforged integrate with less friction than their origins would predict. Part of it is temperamental fit — fire-souled where drive is short, water-souled in mediation, often by default. The broader reason is that a Warforged arrives at a problem without the assumptions everyone else in the room grew up inside. Not being born into a culture is an advantage in seeing it clearly and a liability in every exchange that depends on knowing what goes without saying.
+
+They are aware of the curiosity they attract and largely untroubled by it. What they resist is being a curiosity permanently — a demonstration of something rather than a participant in it."""),
+        ],
+    },
+}
+
 
 # Disambiguation stubs, and the page each one is disambiguating. The stub said
 # only "This page is currently used for disambiguation" and gave the reader no
@@ -1057,6 +1095,37 @@ def apply_rewrites(slug, body):
             TODO.append((slug, "rewrite for '%s' matched %d sections" % (heading, n)))
     return body
 
+def apply_recards(slug, body):
+    """Replace a card with one card for each section given.
+
+    The card is found by the heading it opens with and matched whole, with the
+    divs counted rather than guessed at, so a card holding a picture or a
+    nested row is not cut off at the first close. The row keeps its own width,
+    so the cards that replace it sit exactly where it sat.
+    """
+    for heading, sections in RECARDS.get(slug, {}).items():
+        m = re.search(r"^(#{1,6})[ \t]+" + re.escape(heading) + r"[ \t]*$",
+                      body, re.M)
+        start = body.rfind('<div class="wd-row', 0, m.start()) if m else -1
+        if start < 0:
+            TODO.append((slug, "no card found for '%s'" % heading))
+            continue
+        depth, end = 0, None
+        for d in re.finditer(r"<div\b|</div>", body[start:]):
+            depth += 1 if d.group(0)[1] != "/" else -1
+            if depth == 0:
+                end = start + d.end()
+                break
+        if end is None:
+            TODO.append((slug, "card for '%s' is not closed" % heading))
+            continue
+        row = body[start:body.index("\n", start) + 1]
+        cards = "".join(
+            row + '<div class="wd-cell" markdown>\n\n%s %s\n%s\n\n</div>\n</div>\n'
+            % (m.group(1), h, t.strip()) for h, t in sections)
+        body = body[:start] + cards.rstrip("\n") + body[end:]
+    return body
+
 
 def heading_levels(s):
     """Close the gaps in a page's heading levels.
@@ -1319,8 +1388,8 @@ def main(backup):
         body = convert(raw, slug, img_by_url, tables, linkmap)
         # Rewrites go in before the title and heading passes, so a rewritten
         # section is held to the same house style as the rest of the page.
-        if slug in REWRITES:
-            body = house_style(apply_rewrites(slug, body))
+        if slug in REWRITES or slug in RECARDS:
+            body = house_style(apply_recards(slug, apply_rewrites(slug, body)))
 
         # Half of a merged page: keep the converted body and write nothing.
         # The whole page is assembled once every half has been converted.

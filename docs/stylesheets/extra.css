@@ -422,6 +422,25 @@
 
 
 /* ---------------------------------------------------------------------------
+   The wiki's name in the header, which is a link home - see hooks/homelink.py.
+
+   It should not announce itself as a link: the header is not running text, and
+   underlining the site name would be the only underline on the bar. It reads
+   as it always did and dims on hover, which is how Material's own header
+   buttons behave.
+   --------------------------------------------------------------------------- */
+
+.md-header__title .wd-home {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 125ms;
+}
+
+.md-header__title .wd-home:hover,
+.md-header__title .wd-home:focus-visible { opacity: .7; }
+
+
+/* ---------------------------------------------------------------------------
    Spell cards
 
    A spell or psionic power written as a stat block. Wikidot gave the ones on
@@ -530,15 +549,16 @@
   z-index: 1;
 }
 
-/* The page floats above it. Material's own containers are transparent by
-   default, so without this the sky would paint over the article.
+/* Nothing needs lifting above the sky, because the sky is below the page
+   rather than the page above the sky - see --wd-layer-sky in tokens.css for
+   why that is not the same thing. Material's containers keep the positioning
+   it gives them, and the drawer, the overlay behind it and the header all
+   stack the way Material intends. */
 
-   The header is deliberately not in this list. Material already gives it
-   position: sticky and a z-index of 4, which is above the sky; including it
-   here overrode the sticky with position: relative and the bar scrolled away
-   with the page. It needs nothing from this rule. */
-.md-container,
-.md-footer { position: relative; z-index: var(--wd-layer-page); }
+/* The root takes the deepest of the sky's three colours, so the page is
+   already dark while it is still loading and there is nothing to show through
+   from underneath. The sky itself paints the gradient over this. */
+html { background-color: var(--wd-sky-far); }
 
 /* One sky, both themes. It is the same space either way - day and night are a
    property of the paper you are reading, not of what is outside the window -

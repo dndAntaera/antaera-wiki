@@ -43,6 +43,7 @@ extra_javascript:
   - javascripts/starfield.js
 
 hooks:
+  - hooks/homelink.py
   - hooks/archived.py
   - hooks/flags.py
   - hooks/tablenotes.py

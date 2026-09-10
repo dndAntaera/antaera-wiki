@@ -83,12 +83,16 @@
   --wd-radius: .2rem;
   --wd-line: 1px;                   /* every hairline on the site */
 
-  /* Stacking order. The sky is painted behind everything; the page floats on
-     it. The header is not listed: Material gives it a z-index of 4 of its own,
-     which is already above both, and overriding that once cost it its sticky
-     positioning and the bar scrolled away with the page. */
-  --wd-layer-sky: 0;
-  --wd-layer-page: 1;
+  /* Stacking order. One layer, and it is below the page rather than the page
+     being above it. Nothing else on the site sets a z-index.
+
+     The distinction matters. Lifting the page above a sky at layer 0 needs a
+     z-index on the containers holding it, and a z-index makes a container a
+     stacking context that everything inside it is then trapped within - which
+     is how the navigation drawer on a phone ended up underneath the dark
+     overlay that is supposed to sit behind it. Putting the sky underneath
+     instead leaves Material's own layering exactly as it was designed. */
+  --wd-layer-sky: -1;
 
 
   /* -------------------------------------------------------------------------

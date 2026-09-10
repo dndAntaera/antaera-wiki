@@ -204,6 +204,23 @@ def main():
                     bad.append("%s  %r" % (f, cell))
     check("a blank table cell is an em dash", bad)
 
+    # A z-index on one of Material's own containers makes it a stacking
+    # context, and everything inside it is then trapped at that container's
+    # level however high its own z-index is. That is not visible in a build or
+    # on a desktop screen: it is what put the navigation drawer on a phone
+    # underneath the dark overlay meant to sit behind it, so the menu opened,
+    # the screen went dark, and nothing could be tapped. The site's own sheets
+    # should leave Material's layering alone and put the sky below the page.
+    bad = []
+    for sheet in sorted(glob.glob(os.path.join(DOCS, "stylesheets", "*.css"))):
+        css = io.open(sheet, encoding="utf-8").read()
+        for m in re.finditer(r"([^{}]+)\{([^{}]*)\}", css):
+            sel, body = m.group(1).strip().split("\n")[-1], m.group(2)
+            if ".md-" in sel and re.search(r"\bz-index\s*:", body):
+                bad.append("%s  %s" % (os.path.basename(sheet), sel[:48]))
+    check("no z-index on a Material container", bad,
+          "it becomes a stacking context and traps the drawer under the overlay")
+
     check("units are ft and lbs",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()

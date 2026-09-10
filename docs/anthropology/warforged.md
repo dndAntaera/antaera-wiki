@@ -19,6 +19,18 @@ These new souls proved themselves to be useful on the new world of Crucibulum, t
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
+# The Life Debt
+After the resolution of the [Warforged Civil War](../faction/house-of-fabrication.md#warforged-civil-war), Warforged gained their personhood in the eyes of the House. However, this caused the creation of the Life Debt: the sum total of the materials used in its creation. In practice, it is used as a way for the House to keep the Warforged in their service in exchange for freeing them from slavery. While a Warforged has a Life Debt, they cannot hold any property nor can they refuse an order by the House. Their wages are used to reduce the Debt, yet their repairs are used to increase it, keeping them in a perpetual juggling act for their livelihood.
+
+Opinions are split among the [Known Spheres](../spelljamming/known-spheres.md) as to whether this is a justified exchange for their creation, and whether it is just slavery by another name. Those in favor see it as a way for the Warforged to earn their place in a world that made them, since they cannot naturally be born. The opposition to the Debt see it as a cheap and abusive way for the House to maintain their slave labor under the guise of paying off your own existence, which they were not able to consent to. The Debt has caused a state of destitute and disrepair among its Populace: Warforged refuse repairs for months at a time as a way to pay off their Debt faster, causing lifelong complications.
+
+Those who are able to pay off their Life Debt are given a ceremony where they are offered a choice: join the [Artisan Caste](../faction/house-of-fabrication.md#caste-system) and work for the company as a citizen, or free yourself of the company and the sphere by leaving and never returning. Most Warforged join the Artisan Caste and take ownership of their personal affects and living quarters, continuing their work but making a wage. Others start businesses in [Peculium](../spelljamming/sphere-forgehome.md) helping other Warforged with makeshift repairs and other services. Fewer still decide to leave the sphere, whereupon they are given their personal affects and equipment to survive in the Known Spheres, then delivered to a sphere and planet of their choice.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
 # General Culture
 Warforged are living constructs, each one an elemental spirit bound into a frame of metal and wood. The element bound into a given frame is not chosen and cannot be predicted before waking, which produces a people with a common origin and almost nothing in common temperamentally. A Warforged is not shaped by upbringing or region the way most peoples are. It is shaped by which plane its spirit was drawn from.
 
@@ -64,7 +76,7 @@ Beyond Alpha, worship follows the element, and most Warforged are drawn to the e
 <div class="wd-cell" markdown>
 
 # Community and Contributions
-[Peculium](../spelljamming/sphere-forgehome.md) is the closest thing the Warforged have to a homeland. The rocks hold no atmosphere, which is why they remain Warforged in practice: nothing that breathes can live there in any number. Warforged quarter in bored-out workings and in hulls salvaged from the yards, strung together by lines and gantries. Those who have settled the [Life Debt](../faction/house-of-fabrication.md#caste-system) keep shops there, registered with the House and held under its title, dealing in scrap, salvage, repair, and parts pulled from decommissioned stock.
+[Peculium](../spelljamming/sphere-forgehome.md) is the closest thing the Warforged have to a homeland. The rocks hold no atmosphere, which is why they remain Warforged in practice: nothing that breathes can live there in any number. Warforged quarter in bored-out workings and in hulls salvaged from the yards, strung together by lines and gantries. Those who have settled the [Life Debt](#the-life-debt) keep shops there, registered with the House and held under its title, dealing in scrap, salvage, repair, and parts pulled from decommissioned stock.
 
 Outside [Forgehome](../spelljamming/sphere-forgehome.md), Warforged integrate with less friction than their origins would predict. Part of it is temperamental fit — fire-souled where drive is short, water-souled in mediation, often by default. The broader reason is that a Warforged arrives at a problem without the assumptions everyone else in the room grew up inside. Not being born into a culture is an advantage in seeing it clearly and a liability in every exchange that depends on knowing what goes without saying.
 

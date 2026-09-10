@@ -130,13 +130,27 @@ The clergy is almost entirely contained to [Forgehome](../spelljamming/sphere-fo
 
 Beyond Alpha, worship follows the element, and most Warforged are drawn to the elemental lord matching their own bound spirit. This produces a devotional relationship with few parallels elsewhere: a fire-souled Warforged before the lord of flame is not petitioning a distant power but standing in front of the pure form of the thing it is partly made of. Such observance is private and unstructured, with no clergy and no calendar, and what exists instead is architecture. Shrines are built into the working levels of every world and cut into the rocks of [Peculium](../spelljamming/sphere-forgehome.md), raised to the element rather than to any doctrine, so that a sanctuary to the lord of the seas is flowing line and water motif while a shrine to the lord of flame is organized around a fire never permitted to go out."""),
             ("Community and Contributions", """\
-[Peculium](../spelljamming/sphere-forgehome.md) is the closest thing the Warforged have to a homeland. The rocks hold no atmosphere, which is why they remain Warforged in practice: nothing that breathes can live there in any number. Warforged quarter in bored-out workings and in hulls salvaged from the yards, strung together by lines and gantries. Those who have settled the [Life Debt](../faction/house-of-fabrication.md#caste-system) keep shops there, registered with the House and held under its title, dealing in scrap, salvage, repair, and parts pulled from decommissioned stock.
+[Peculium](../spelljamming/sphere-forgehome.md) is the closest thing the Warforged have to a homeland. The rocks hold no atmosphere, which is why they remain Warforged in practice: nothing that breathes can live there in any number. Warforged quarter in bored-out workings and in hulls salvaged from the yards, strung together by lines and gantries. Those who have settled the [Life Debt](#the-life-debt) keep shops there, registered with the House and held under its title, dealing in scrap, salvage, repair, and parts pulled from decommissioned stock.
 
 Outside [Forgehome](../spelljamming/sphere-forgehome.md), Warforged integrate with less friction than their origins would predict. Part of it is temperamental fit — fire-souled where drive is short, water-souled in mediation, often by default. The broader reason is that a Warforged arrives at a problem without the assumptions everyone else in the room grew up inside. Not being born into a culture is an advantage in seeing it clearly and a liability in every exchange that depends on knowing what goes without saying.
 
 They are aware of the curiosity they attract and largely untroubled by it. What they resist is being a curiosity permanently — a demonstration of something rather than a participant in it."""),
         ],
     },
+}
+
+# Cards written since the import, listed under the card they follow. A card
+# added here goes in after that one, so the page keeps the order it is meant to
+# read in rather than collecting new material at the foot.
+NEWCARDS = {
+    "anthropology-warforged": [
+        ("Origin Story", "The Life Debt", """\
+After the resolution of the [Warforged Civil War](../faction/house-of-fabrication.md#warforged-civil-war), Warforged gained their personhood in the eyes of the House. However, this caused the creation of the Life Debt: the sum total of the materials used in its creation. In practice, it is used as a way for the House to keep the Warforged in their service in exchange for freeing them from slavery. While a Warforged has a Life Debt, they cannot hold any property nor can they refuse an order by the House. Their wages are used to reduce the Debt, yet their repairs are used to increase it, keeping them in a perpetual juggling act for their livelihood.
+
+Opinions are split among the [Known Spheres](../spelljamming/known-spheres.md) as to whether this is a justified exchange for their creation, and whether it is just slavery by another name. Those in favor see it as a way for the Warforged to earn their place in a world that made them, since they cannot naturally be born. The opposition to the Debt see it as a cheap and abusive way for the House to maintain their slave labor under the guise of paying off your own existence, which they were not able to consent to. The Debt has caused a state of destitute and disrepair among its Populace: Warforged refuse repairs for months at a time as a way to pay off their Debt faster, causing lifelong complications.
+
+Those who are able to pay off their Life Debt are given a ceremony where they are offered a choice: join the [Artisan Caste](../faction/house-of-fabrication.md#caste-system) and work for the company as a citizen, or free yourself of the company and the sphere by leaving and never returning. Most Warforged join the Artisan Caste and take ownership of their personal affects and living quarters, continuing their work but making a wage. Others start businesses in [Peculium](../spelljamming/sphere-forgehome.md) helping other Warforged with makeshift repairs and other services. Fewer still decide to leave the sphere, whereupon they are given their personal affects and equipment to survive in the Known Spheres, then delivered to a sphere and planet of their choice."""),
+    ],
 }
 
 
@@ -1095,35 +1109,61 @@ def apply_rewrites(slug, body):
             TODO.append((slug, "rewrite for '%s' matched %d sections" % (heading, n)))
     return body
 
+def _card_span(body, heading):
+    """Where the card that opens with `heading` starts and ends.
+
+    The divs are counted rather than guessed at, so a card holding a picture or
+    a nested row is not cut off at the first close. Returns the bounds, the
+    heading's own level, and the row's opening line, so a caller can rebuild
+    the card at the width the page already uses.
+    """
+    m = re.search(r"^(#{1,6})[ \t]+" + re.escape(heading) + r"[ \t]*$", body, re.M)
+    if not m:
+        return None
+    start = body.rfind('<div class="wd-row', 0, m.start())
+    if start < 0:
+        return None
+    depth = 0
+    for d in re.finditer(r"<div\b|</div>", body[start:]):
+        depth += 1 if d.group(0)[1] != "/" else -1
+        if depth == 0:
+            end = start + d.end()
+            return start, end, m.group(1), body[start:body.index("\n", start) + 1]
+    return None
+
+
+def _card(row, level, heading, text):
+    return (row + '<div class="wd-cell" markdown>\n\n%s %s\n%s\n\n</div>\n</div>\n'
+            % (level, heading, text.strip()))
+
+
 def apply_recards(slug, body):
     """Replace a card with one card for each section given.
 
-    The card is found by the heading it opens with and matched whole, with the
-    divs counted rather than guessed at, so a card holding a picture or a
-    nested row is not cut off at the first close. The row keeps its own width,
-    so the cards that replace it sit exactly where it sat.
+    The card is matched whole and rebuilt as the sections listed against it,
+    keeping the row's own width so the cards that replace it sit exactly where
+    it sat.
     """
     for heading, sections in RECARDS.get(slug, {}).items():
-        m = re.search(r"^(#{1,6})[ \t]+" + re.escape(heading) + r"[ \t]*$",
-                      body, re.M)
-        start = body.rfind('<div class="wd-row', 0, m.start()) if m else -1
-        if start < 0:
+        span = _card_span(body, heading)
+        if span is None:
             TODO.append((slug, "no card found for '%s'" % heading))
             continue
-        depth, end = 0, None
-        for d in re.finditer(r"<div\b|</div>", body[start:]):
-            depth += 1 if d.group(0)[1] != "/" else -1
-            if depth == 0:
-                end = start + d.end()
-                break
-        if end is None:
-            TODO.append((slug, "card for '%s' is not closed" % heading))
-            continue
-        row = body[start:body.index("\n", start) + 1]
-        cards = "".join(
-            row + '<div class="wd-cell" markdown>\n\n%s %s\n%s\n\n</div>\n</div>\n'
-            % (m.group(1), h, t.strip()) for h, t in sections)
+        start, end, level, row = span
+        cards = "".join(_card(row, level, h, t) for h, t in sections)
         body = body[:start] + cards.rstrip("\n") + body[end:]
+    return body
+
+
+def apply_newcards(slug, body):
+    """Add a card after the one it belongs behind."""
+    for after, heading, text in NEWCARDS.get(slug, []):
+        span = _card_span(body, after)
+        if span is None:
+            TODO.append((slug, "no card found for '%s'" % after))
+            continue
+        _, end, level, row = span
+        body = body[:end] + "\n" + _card(row, level, heading, text).rstrip("\n") + body[end:]
     return body
 
 
@@ -1388,8 +1428,9 @@ def main(backup):
         body = convert(raw, slug, img_by_url, tables, linkmap)
         # Rewrites go in before the title and heading passes, so a rewritten
         # section is held to the same house style as the rest of the page.
-        if slug in REWRITES or slug in RECARDS:
-            body = house_style(apply_recards(slug, apply_rewrites(slug, body)))
+        if slug in REWRITES or slug in RECARDS or slug in NEWCARDS:
+            body = house_style(
+                apply_newcards(slug, apply_recards(slug, apply_rewrites(slug, body))))
 
         # Half of a merged page: keep the converted body and write nothing.
         # The whole page is assembled once every half has been converted.

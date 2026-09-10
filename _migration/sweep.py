@@ -143,6 +143,11 @@ def main():
             dest = os.path.normpath(os.path.join(here, m.group(1))).replace("\\", "/")
             if dest in anchors and m.group(2) not in anchors[dest]:
                 bad.append("%s -> %s#%s" % (f, m.group(1), m.group(2)))
+        # A link with nothing in front of the "#" points into its own page, and
+        # goes stale the moment the heading it names is reworded.
+        for m in re.finditer(r"\]\(#([^)]+)\)", t):
+            if m.group(1) not in anchors[f[len(DOCS) + 1:]]:
+                bad.append("%s -> #%s" % (f, m.group(1)))
     check("every link anchor exists", bad)
 
     have = {os.path.basename(p) for p in glob.glob(os.path.join(DOCS, "img", "*"))}

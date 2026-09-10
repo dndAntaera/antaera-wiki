@@ -358,6 +358,29 @@ def norm_slug(target):
     return t.strip("-")
 
 
+def slug_keys(target):
+    """Every name a link might be using for this page.
+
+    The apostrophe is the awkward one, because Wikidot's own page names
+    disagree about it. The page for Sil'Faraan is "silfaraan", with the
+    apostrophe dropped; the page for Vrog'thul is "vrog-thul", with it turned
+    into a hyphen the way any other punctuation would be. A link written one
+    way has to find a page named the other, so both spellings are offered and
+    the first one that names a real page wins.
+
+    This is not hypothetical: the pantheon lists all eleven Heralds, and
+    Vrog'thul was the only one whose name was not a link, because
+    "pantheon-deity-Vrog'thul" resolved to "pantheon-deity-vrogthul" and the
+    page is "pantheon-deity-vrog-thul". It left the page reachable from nowhere
+    on the site.
+    """
+    keys = [norm_slug(target)]
+    alt = norm_slug(re.sub(r"['‘’]", "-", target))
+    if alt and alt not in keys:
+        keys.append(alt)
+    return keys
+
+
 def title_from(slug):
     """Human title from a slug, minus any prefix that only classifies it."""
     m = re.match(r"^([a-z]+)-(.+)$", slug)
@@ -732,7 +755,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     here = os.path.dirname(target_path(slug))
 
     def link(target, text):
-        dest = linkmap.get(norm_slug(target))
+        dest = next((linkmap[k] for k in slug_keys(target) if k in linkmap), None)
         if not dest:
             return text
         # A merged page's entry carries the anchor of the half that was asked
@@ -1403,7 +1426,8 @@ def main(backup):
     # for the page "faction-house-of-fabrication").
     linkmap = {}
     for s in keep:
-        linkmap[norm_slug(s)] = target_path(s)
+        for key in slug_keys(s):
+            linkmap.setdefault(key, target_path(s))
     # A link to half of a merged page goes to that half's section, not to the
     # top of the page, so "the psionic power" still means the psionic power.
     for part, (merged, anchor) in MERGE_PARTS.items():

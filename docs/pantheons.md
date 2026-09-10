@@ -114,7 +114,7 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
     - Alignment: Neutral Good
     - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
     - Symbol: Pickaxe crossed with a radiant crystal
-- Vrog'thul, Herald of Ooze
+- [Vrog'thul](pantheon/deity-vrog-thul.md), Herald of Ooze
     - Alignment: Chaotic Evil
     - Portfolio: Ooze, Corruption, Filth, Hunger
     - Symbol: A dribbling, open eye melting into slime

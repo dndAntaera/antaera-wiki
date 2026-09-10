@@ -19,7 +19,7 @@ title: "The Index"
 - Leveling Up/ Training Time
     - Base classes: 1st level in a class (2 days), 2nd level and up (new class level/2 rounded down) days
     - Prestige classes: 1st level (3 days), 2nd level and up (new class level) days
-    - Gestalt Only
+    - [Gestalt Only](rules/gestalt.md)
         - Training times overlap their durations for each side. IE: a Fighter 3 // Rogue 2/ Sorcerer 1 taking its second level in rogue would require 1 day and 3 days of training instead of 3 days
         - If one of the classes in the gestalt is more than 2x the levels in the other class, it only counts as 3/4 of its actual level when calculating training time. IE: Fighter 6 // Rogue 4/ Sorcerer 2 would take 2 days 1 day to train.
 - The Natural Bond feat functions similarly to Practiced Caster/Manifestor. It makes up for druid progression for companions due to multiclassing. It does not increase your effective druid level when using animal companions who are treated as if your effective druid level was -X. IE: a level 4 druid with a fleshraker animal companion and Natural Bond is still considered a 1st-level druid for animal companion purposes.
@@ -67,6 +67,9 @@ title: "The Index"
 ## E
 ## F
 ## G
+
+- [Gestalt](rules/gestalt.md)
+
 ## H
 ## I
 

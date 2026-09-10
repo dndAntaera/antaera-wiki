@@ -49,6 +49,36 @@ TEMPLATE_ONLY = {
     "wm-taint-exaltation",
 }
 
+# Corrections to a page made since the import, as exact replacements applied to
+# the finished page. A rewrite replaces a section and a recard rebuilds a card;
+# this is for the smaller thing, a line or a word, where naming the surrounding
+# section would say far more than the change does.
+#
+# Each one must match exactly once. A replacement that stops matching is a sign
+# the page it edits has changed underneath it, and it says so rather than
+# quietly doing nothing.
+EDITS = {
+    "the-index": [
+        # The index lists the variant rules in effect from A to Z, and Gestalt,
+        # which the houserules above it lean on twice, was not among them. The
+        # section has to be named: The Index runs the alphabet four times over,
+        # once for the rules and again for the homebrew items, feats and
+        # spells, so "## G" on its own names four places on the page.
+        ("# Variant Rules In Effect", "## G\n## H",
+         "## G\n\n- [Gestalt](rules/gestalt.md)\n\n## H"),
+        # And the houserule that leans on it now points at it.
+        (None, "- Gestalt Only",
+         "- [Gestalt Only](rules/gestalt.md)"),
+    ],
+}
+# Pages taken off the wiki since the import. Frymrit's was a disambiguation
+# stub - "This page is currently used for disambiguation" and nothing else -
+# with nothing to disambiguate: no other page carries the name, and nothing in
+# the whole Wikidot backup mentions it outside that stub.
+REMOVED = {
+    "frymrit",
+}
+
 # Slug prefixes with enough pages to be worth a folder.
 FOLDERS = {
     "pantheon": "pantheon",
@@ -318,6 +348,11 @@ TITLES = {
     "poisoners-quiver": "Poisoner's Quiver",
     "item-blessed-holy-symbol": "Profane/Blessed (Un)Holy Symbol",
     "item-dreaming-waking": "The Dreaming & Waking",
+
+    # The one god of fifty-nine whose page writes the epithet in lower case.
+    # Every other one is "Patron of", "Lord of", "Herald of"; this is the only
+    # place the wiki disagrees with itself about it.
+    "orion": "Orion, Patron of Smallfolk",
 }
 
 # Pages whose opening heading should be replaced by the page's title, because
@@ -1236,6 +1271,32 @@ def title_card(title, body):
         return body[:len(lead)] + "\n" + card + body[len(lead):].lstrip("\n")
     return card + body
 
+def apply_edits(slug, text):
+    """Make the small corrections listed for this page.
+
+    An edit may name the section it belongs in, which runs from that heading to
+    the next one at the same level or above. A page that repeats a structure -
+    The Index runs the alphabet four times - needs that, or the same three
+    characters name four different places on it.
+    """
+    for after, old, new in EDITS.get(slug, []):
+        lo, hi = 0, len(text)
+        if after:
+            lo = text.find(after)
+            if lo < 0:
+                TODO.append((slug, "edit anchor %r not found" % after[:30]))
+                continue
+            level = len(after) - len(after.lstrip("#"))
+            nxt = re.compile(r"^#{1,%d}[ \t]" % level, re.M).search(text, lo + len(after))
+            hi = nxt.start() if nxt else len(text)
+        n = text.count(old, lo, hi)
+        if n != 1:
+            TODO.append((slug, "edit %r matched %d times" % (old[:30], n)))
+            continue
+        cut = text.index(old, lo, hi)
+        text = text[:cut] + new + text[cut + len(old):]
+    return text
+
 
 def heading_levels(s):
     """Close the gaps in a page's heading levels.
@@ -1419,7 +1480,8 @@ def main(backup):
     src_dir = os.path.join(backup, "source")
     slugs = [f[:-4] for f in sorted(os.listdir(src_dir))]
     keep = [s for s in slugs
-            if not SKIP.match(s) and s not in TEMPLATE_ONLY]
+            if not SKIP.match(s)
+            and s not in TEMPLATE_ONLY and s not in REMOVED]
     # Link targets are matched by several names, most specific first, because
     # Wikidot links reference pages by slug and by title interchangeably and
     # often omit the category prefix a slug carries ("House of Fabrication"
@@ -1644,7 +1706,7 @@ def main(backup):
         # Last, after the title heading and any injected section: those arrive
         # after the conversion pass and can reopen a gap in the heading levels
         # that pass had just closed.
-        body = title_card(title, heading_levels(body))
+        body = apply_edits(slug, title_card(title, heading_levels(body)))
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1

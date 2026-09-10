@@ -1,18 +1,18 @@
 ---
-title: "Deity Pyrius"
+title: "Pyrius, Herald of Ash"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Pyrius
+# Pyrius, Herald of Ash
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Pyrius, Herald of Ash
+# Overview
 
 - **Symbol**: A dark spiral ring devouring light at its center
 - **Home Plane**: Quasi-Elemental Plane of Ash

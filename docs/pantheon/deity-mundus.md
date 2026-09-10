@@ -1,18 +1,18 @@
 ---
-title: "Deity Mundus"
+title: "Mundus, Goddess of Life"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Mundus
+# Mundus, Goddess of Life
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Mundus, Goddess of Life
+# Overview
 
 - **Symbol**: Oak tree
 - **Home Plane**: Elysium

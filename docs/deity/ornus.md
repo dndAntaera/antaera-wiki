@@ -1,18 +1,18 @@
 ---
-title: "Ornus"
+title: "Ornus, Lord of Constructs"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Ornus
+# Ornus, Lord of Constructs
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Ornus, Lord of Constructs
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

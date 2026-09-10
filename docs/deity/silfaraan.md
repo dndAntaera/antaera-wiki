@@ -1,18 +1,18 @@
 ---
-title: "Silfaraan"
+title: "Sil’Faraan, Lord of the Wastes"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Silfaraan
+# Sil’Faraan, Lord of the Wastes
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Sil’Faraan, Lord of the Wastes
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

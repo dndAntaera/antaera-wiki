@@ -1,18 +1,18 @@
 ---
-title: "Deity Ignaraxis"
+title: "Ignaraxis, Lord of Fire"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Ignaraxis
+# Ignaraxis, Lord of Fire
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Ignaraxis, Lord of Fire
+# Overview
 
 - **Symbol**: A blazing flame consuming a crowned skull
 - **Home Plane**: Elemental Plane of Fire

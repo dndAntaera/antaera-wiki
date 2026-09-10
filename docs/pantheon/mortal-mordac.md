@@ -1,18 +1,18 @@
 ---
-title: "Mortal Mordac"
+title: "Mordac, the Arbiter of Tyranny"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Mordac
+# Mordac, the Arbiter of Tyranny
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Mordac, the Arbiter of Tyranny
+# Overview
 
 **Domains**: Domination, Evil, Law, Tyranny
 

@@ -1,18 +1,18 @@
 ---
-title: "Deity Vaeltharion"
+title: "Vaeltharion, Herald of Dust"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Vaeltharion
+# Vaeltharion, Herald of Dust
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Vaeltharion, Herald of Dust
+# Overview
 
 - **Symbol**: A hooded lantern with a dim, ember-like glow
 - **Home Plane**: Quasi-Elemental Plane of Dust

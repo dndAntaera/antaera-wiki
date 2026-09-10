@@ -1,18 +1,18 @@
 ---
-title: "Deity Jinzai"
+title: "Jinzai, Herald of Steam"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Jinzai
+# Jinzai, Herald of Steam
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Jinzai, Herald of Steam
+# Overview
 
 - **Symbol**: Coiling plume rising from a calm pool
 - **Home Plane**: Quasi-Elemental Plane of Steam

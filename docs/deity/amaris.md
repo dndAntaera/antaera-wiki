@@ -1,18 +1,18 @@
 ---
-title: "Amaris"
+title: "Amaris, the Beacon of Law"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Amaris
+# Amaris, the Beacon of Law
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Amaris, the Beacon of Law
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

@@ -1,18 +1,18 @@
 ---
-title: "Asmodeus"
+title: "Asmodeus, Supreme Master of the Nine Hells"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Asmodeus
+# Asmodeus, Supreme Master of the Nine Hells
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Asmodeus, Supreme Master of the Nine Hells
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

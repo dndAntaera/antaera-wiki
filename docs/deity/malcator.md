@@ -1,18 +1,18 @@
 ---
-title: "Malcator"
+title: "Malcator, the Unbound"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Malcator
+# Malcator, the Unbound
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Malcator, the Unbound
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

@@ -1,18 +1,18 @@
 ---
-title: "Deity Nihil"
+title: "Nihil, Herald of Void"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Nihil
+# Nihil, Herald of Void
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Nihil, Herald of Void
+# Overview
 
 - **Symbol**: A black circle surrounded by fading stars
 - **Home Plane**: Quasi-Elemental Plane of Vacuum

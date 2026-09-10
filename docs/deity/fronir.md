@@ -1,18 +1,18 @@
 ---
-title: "Fronir"
+title: "Fronir, Patron of Giants"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Fronir
+# Fronir, Patron of Giants
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Fronir, Patron of Giants
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

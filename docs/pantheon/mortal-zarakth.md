@@ -1,18 +1,18 @@
 ---
-title: "Mortal Zarakth"
+title: "Zarakth, the Abyssal Scourge"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Zarakth
+# Zarakth, the Abyssal Scourge
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# **Name:** Zarakth, the Abyssal Scourge
+# Overview
 
 **Domains:** Destruction, Evil, War, Wrath
 

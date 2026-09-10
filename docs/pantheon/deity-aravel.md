@@ -1,18 +1,18 @@
 ---
-title: "Deity Aravel"
+title: "Aravel, Herald of Storms"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Aravel
+# Aravel, Herald of Storms
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Aravel, Herald of Storms
+# Overview
 
 - **Symbol**: A jagged bolt cleaving a raincloud
 - **Home Plane**: Quasi-Elemental Plane of Lightning

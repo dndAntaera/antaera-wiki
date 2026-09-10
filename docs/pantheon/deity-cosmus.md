@@ -1,18 +1,18 @@
 ---
-title: "Deity Cosmus"
+title: "Cosmus, God of Magic"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Cosmus
+# Cosmus, God of Magic
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Cosmus, God of Magic
+# Overview
 
 - **Symbol**: Star in front of a book
 - **Home Plane**: The Astral Plane

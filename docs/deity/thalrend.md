@@ -1,18 +1,18 @@
 ---
-title: "Thalrend"
+title: "Thalrend, the Just Arbiter"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Thalrend
+# Thalrend, the Just Arbiter
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Thalrend, the Just Arbiter
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

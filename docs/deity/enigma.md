@@ -1,18 +1,18 @@
 ---
-title: "Enigma"
+title: "Enigma, the Lost God"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Enigma
+# Enigma, the Lost God
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Enigma, the Lost God
+# Overview
 
 **Name:** Enigma, the Lost God
 

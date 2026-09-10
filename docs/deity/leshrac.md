@@ -1,18 +1,18 @@
 ---
-title: "Leshrac"
+title: "Leshrac, Lord of the Undead"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Leshrac
+# Leshrac, Lord of the Undead
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Leshrac, Lord of the Undead
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

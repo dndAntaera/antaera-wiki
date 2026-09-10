@@ -1,18 +1,18 @@
 ---
-title: "Mortal Lux"
+title: "Lux Dawnbringer, the Luminous Sovereign"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Lux
+# Lux Dawnbringer, the Luminous Sovereign
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Lux Dawnbringer, the Luminous Sovereign
+# Overview
 
 **Domains**: Glory, Healing, Purification, Sun
 

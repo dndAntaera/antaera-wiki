@@ -1,18 +1,18 @@
 ---
-title: "Mortal Sol"
+title: "Sol, the Eternal Equilibrium"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Sol
+# Sol, the Eternal Equilibrium
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Sol, the Eternal Equilibrium
+# Overview
 
 **Domains**: Balance, Dragon, Fate, Pact
 

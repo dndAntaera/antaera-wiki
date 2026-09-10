@@ -1,18 +1,18 @@
 ---
-title: "Deity Khurash"
+title: "Khurash, Herald of Smoke"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Khurash
+# Khurash, Herald of Smoke
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Khurash, Herald of Smoke
+# Overview
 
 - **Symbol**: Coiling spiral of ash over smoldering embers
 - **Home Plane**: Great Conflagration

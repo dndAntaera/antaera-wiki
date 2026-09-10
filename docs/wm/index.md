@@ -39,14 +39,14 @@ This campaign uses its own Spelljammer rules, as the published 5e Spelljammer ru
 <div class="wd-cols" style="--wd-n: 2" markdown>
 
 1. [Character Creation & Houserules](creation-houserules.md)
-2. [Anthropology](races.md)
+2. Anthropology
 3. [Backgrounds](backgrounds.md)
-4. [Questing & Progression](questing-progression.md)
+4. Questing & Progression
 
-5. [The World](lore-main.md)
-6. [Spelljamming](rules-spelljammer.md)
-7. [Taint & Exaltation](taint-exaltation.md)
-8. [Purchasing & Crafting Items](items.md)
+5. The World
+6. Spelljamming
+7. Taint & Exaltation
+8. Purchasing & Crafting Items
 
 </div>
 

@@ -1,18 +1,18 @@
 ---
-title: "Deity Seralyne"
+title: "Seralyne, Herald of Radiance"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Seralyne
+# Seralyne, Herald of Radiance
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Seralyne, Herald of Radiance
+# Overview
 
 - **Symbol**: Burning sun framed by silver wings
 - **Home Plane**: Radiance

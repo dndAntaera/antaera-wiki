@@ -1,18 +1,18 @@
 ---
-title: "Deity Tharuun"
+title: "Tharuun, Herald of Gems"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Tharuun
+# Tharuun, Herald of Gems
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Tharuun, Herald of Gems
+# Overview
 
 - **Symbol**: Pickaxe crossed with a radiant crystal
 - **Home Plane**: Plane of Gems

@@ -1,18 +1,18 @@
 ---
-title: "Mortal Leonis"
+title: "Leonus Ironmane, the Stalwart Guardian"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Leonis
+# Leonus Ironmane, the Stalwart Guardian
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Leonus Ironmane, the Stalwart Guardian
+# Overview
 
 **Domain**: Competition, Courage, Good, Protection
 

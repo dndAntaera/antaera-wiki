@@ -1,18 +1,18 @@
 ---
-title: "Ithlwick"
+title: "Ithlwick, God of Prosperity"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Ithlwick
+# Ithlwick, God of Prosperity
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Ithlwick, God of Prosperity
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

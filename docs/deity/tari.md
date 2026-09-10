@@ -1,18 +1,18 @@
 ---
-title: "Tari"
+title: "Tari, Queen of the Unseelie Court"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Tari
+# Tari, Queen of the Unseelie Court
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Tari, Queen of the Unseelie Court
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

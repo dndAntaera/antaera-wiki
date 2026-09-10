@@ -1,18 +1,18 @@
 ---
-title: "Deity Aezhera"
+title: "Aezhera, Lady of Air"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Aezhera
+# Aezhera, Lady of Air
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Aezhera, Lady of Air
+# Overview
 
 - **Symbol**: A spiral of clouds coiled around a silver feather
 - **Home Plane**: Elemental Plane of Air

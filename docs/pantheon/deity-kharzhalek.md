@@ -1,18 +1,18 @@
 ---
-title: "Deity Kharzhalek"
+title: "Kharzhalek, Lord of Earth"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Kharzhalek
+# Kharzhalek, Lord of Earth
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Kharzhalek, Lord of Earth
+# Overview
 
 - **Symbol**: A jagged obsidian crown atop a crumbling stone pillar
 - **Home Plane**: Elemental Plane of Earth

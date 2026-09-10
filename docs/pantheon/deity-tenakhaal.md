@@ -1,18 +1,18 @@
 ---
-title: "Deity Tenakhaal"
+title: "Tenakhaal, Herald of Salt"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Tenakhaal
+# Tenakhaal, Herald of Salt
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Tenakhaal, Herald of Salt
+# Overview
 
 - **Symbol**: A cracked seashell leaking dry grains
 - **Home Plane**: Quasi-Elemental Plane of Salt

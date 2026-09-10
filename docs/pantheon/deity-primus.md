@@ -1,18 +1,18 @@
 ---
-title: "Deity Primus"
+title: "Primus, God of Order"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Primus
+# Primus, God of Order
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Primus, God of Order
+# Overview
 
 - **Symbol**: Closed gauntlet with infinity symbol embedded
 - **Home Plane**: Mechanus

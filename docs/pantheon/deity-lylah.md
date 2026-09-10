@@ -1,18 +1,18 @@
 ---
-title: "Deity Lylah"
+title: "Lylah, Lady of Water"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Lylah
+# Lylah, Lady of Water
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Lylah, Lady of Water
+# Overview
 
 - **Symbol**: A silver wave coiled around a pearl
 - **Home Plane**: Elemental Plane of Water

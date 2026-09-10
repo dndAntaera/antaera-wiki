@@ -1,18 +1,18 @@
 ---
-title: "Mortal Vortressa"
+title: "Vortressa, the Mother of Monsters"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Vortressa
+# Vortressa, the Mother of Monsters
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# **Name:** Vortressa, the Mother of Monsters
+# Overview
 
 **Domains:** Evil, Hunger, Pestilence, Spider
 

@@ -1,18 +1,18 @@
 ---
-title: "Mortal Thrain"
+title: "Thrain Stoneheart, the Tranquil Forgemaster"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Thrain
+# Thrain Stoneheart, the Tranquil Forgemaster
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Thrain Stoneheart, the Tranquil Forgemaster
+# Overview
 
 **Domains**: Community, Craft, Dwarf, Family
 

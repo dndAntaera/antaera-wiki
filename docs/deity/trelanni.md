@@ -1,18 +1,18 @@
 ---
-title: "Trelanni"
+title: "Trelanni, Patron of the Elves"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Trelanni
+# Trelanni, Patron of the Elves
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Trelanni, Patron of the Elves
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

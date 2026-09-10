@@ -1,18 +1,18 @@
 ---
-title: "Deity Vrog Thul"
+title: "Vrog’thul, Herald of Ooze"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Vrog Thul
+# Vrog’thul, Herald of Ooze
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Vrog’thul, Herald of Ooze
+# Overview
 
 - **Symbol**: A dribbling, open eye melting into slime
 - **Home Plane**: Swamp of Oblivion

@@ -1,18 +1,18 @@
 ---
-title: "Mortal Selene"
+title: "Selene, the Nightweaver"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Mortal Selene
+# Selene, the Nightweaver
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Selene, the Nightweaver
+# Overview
 
 **Domains**: Darkness, Moon, Mysticism, Shadow
 

@@ -1,18 +1,18 @@
 ---
-title: "Cervidur"
+title: "Cervidûr, Lord of the Hunt"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Cervidur
+# Cervidûr, Lord of the Hunt
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Cervidûr, Lord of the Hunt
+# Overview
 
 **Domains**: Animal, Fey, Strength, Moon
 

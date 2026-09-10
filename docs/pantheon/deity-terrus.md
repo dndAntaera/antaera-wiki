@@ -1,18 +1,18 @@
 ---
-title: "Deity Terrus"
+title: "Terrus, God of Chaos"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Terrus
+# Terrus, God of Chaos
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Terrus, God of Chaos
+# Overview
 
 - **Symbol**: Open gauntlet with a star behind it
 - **Home Plane**: All Elemental and Energy Planes

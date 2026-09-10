@@ -1,18 +1,18 @@
 ---
-title: "Gorthak"
+title: "Gorthak, the Herald of Chaos"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Gorthak
+# Gorthak, the Herald of Chaos
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Gorthak, the Herald of Chaos
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

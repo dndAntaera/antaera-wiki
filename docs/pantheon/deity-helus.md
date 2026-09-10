@@ -1,18 +1,18 @@
 ---
-title: "Deity Helus"
+title: "Helus, God of Death"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Helus
+# Helus, God of Death
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Helus, God of Death
+# Overview
 
 - **Symbol**: Blindfolded skull
 - **Home Plane**: Ethereal Plane

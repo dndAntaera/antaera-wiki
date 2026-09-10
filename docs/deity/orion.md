@@ -1,18 +1,18 @@
 ---
-title: "Orion"
+title: "Orion, patron of Smallfolk"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Orion
+# Orion, patron of Smallfolk
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Orion, patron of Smallfolk
+# Overview
 
 **Domains**: Gnome, Halfling, Dwarf, Protection
 

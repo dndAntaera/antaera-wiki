@@ -31,6 +31,24 @@ SKIP = re.compile(
     r"|about|donate|spelljamming-sphere-template|glossary)$"
 )
 
+# Pages that are the site's page template and nothing else. Six of the eight
+# chapters the West Marches index lists were made from the template and never
+# written: the whole of each one is "Title / Body / Sidebar Body", the words the
+# template ships with, twice over. They are not stubs of an article; they are
+# the template wearing a name, and they are the only pages on the wiki whose
+# heading says "Title". The index still lists them, as plain text rather than
+# as links, so the outline of what the campaign meant to cover survives.
+#
+# Take a line out of here to publish one the moment it has something in it.
+TEMPLATE_ONLY = {
+    "wm-items",
+    "wm-lore-main",
+    "wm-questing-progression",
+    "wm-races",
+    "wm-rules-spelljammer",
+    "wm-taint-exaltation",
+}
+
 # Slug prefixes with enough pages to be worth a folder.
 FOLDERS = {
     "pantheon": "pantheon",
@@ -253,6 +271,10 @@ IMAGE_CREDITS = {
 # archived: kept and readable, but kept out of search, so
 # they cannot be mistaken for current material.
 ARCHIVED_FOLDERS = {"wm"}
+
+# Folders holding a page per god. Their titles are read off the page rather
+# than built from the slug - see the title block in main().
+DEITY_FOLDERS = {"deity", "pantheon"}
 
 TODO = []
 
@@ -1373,7 +1395,8 @@ def spell_cards(s):
 def main(backup):
     src_dir = os.path.join(backup, "source")
     slugs = [f[:-4] for f in sorted(os.listdir(src_dir))]
-    keep = [s for s in slugs if not SKIP.match(s)]
+    keep = [s for s in slugs
+            if not SKIP.match(s) and s not in TEMPLATE_ONLY]
     # Link targets are matched by several names, most specific first, because
     # Wikidot links reference pages by slug and by title interchangeably and
     # often omit the category prefix a slug carries ("House of Fabrication"
@@ -1502,6 +1525,29 @@ def main(backup):
         # reader sees is spelled the way the wiki spells it everywhere else.
         title = re.sub(r"\bAntaera(n?)\b", r"Antæra\1", title)
 
+        # A god's page is named for the god, and this wiki writes that name in
+        # full: "Ukrol, Patron Deity of Humanity". The slug carries only the
+        # short form of it, and under the pantheon it carried the shelf the
+        # page sits on as well - "pantheon-deity-aezhera", "pantheon-mortal-
+        # leonis" - which came out as the titles "Deity Aezhera" and "Mortal
+        # Leonis". Neither is a name.
+        #
+        # The opening heading has the full form on every one of these pages, so
+        # it becomes the title, and the card it was heading becomes the page's
+        # overview like every other opening card. A comma is required: it is
+        # what separates the name from the epithet, and a heading without one
+        # is not the name-and-title form this is reading.
+        if (slug not in TITLES
+                and target_path(slug).split("/")[0] in DEITY_FOLDERS):
+            m = re.search(r"^#{1,6}\s+(.+)$", body, re.M)
+            if m:
+                name = re.sub(r"[*_`~]", "", m.group(1)).strip()
+                name = re.sub(r"^\s*Name\s*:\s*", "", name, flags=re.I).strip()
+                if "," in name:
+                    title = name
+                else:
+                    TODO.append((slug, "no name and title in the opening heading"))
+
         # A page whose opening heading disagrees with its title takes the
         # title, so the page is called one thing throughout.
         if slug in TITLE_HEADING:
@@ -1521,6 +1567,9 @@ def main(backup):
         m = re.search(r"^(#{1,6})\s+(.+)$", body, re.M)
         if m:
             plain = re.sub(r"[*_`~]", "", m.group(2)).strip()
+            # Two of the gods' pages label the heading "Name:" before giving
+            # it, which is the same heading with a word in front of it.
+            plain = re.sub(r"^\s*Name\s*:\s*", "", plain, flags=re.I).strip()
             if plain.lower() in GENERIC_HEADINGS or plain == title:
                 body = body[:m.start()] + m.group(1) + " Overview" + body[m.end():]
 

@@ -1,18 +1,18 @@
 ---
-title: "Ukrol"
+title: "Ukrol, Patron Deity of Humanity"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Ukrol
+# Ukrol, Patron Deity of Humanity
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Ukrol, Patron Deity of Humanity
+# Overview
 
 **Domains**: Domination, Hatred, Law, Tyrrany
 

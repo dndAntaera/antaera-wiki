@@ -1,18 +1,18 @@
 ---
-title: "Vaylen"
+title: "Vaylen, Patron of Sailors and Travelers"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Vaylen
+# Vaylen, Patron of Sailors and Travelers
 
 </div>
 </div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Vaylen, Patron of Sailors and Travelers
+# Overview
 **Domains**: Celerity, Liberation, Ocean, Travel
 
 **Appearance**:<br>

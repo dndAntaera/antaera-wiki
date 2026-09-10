@@ -1,18 +1,18 @@
 ---
-title: "Draxus"
+title: "Draxus, the Iron Tyrant"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Draxus
+# Draxus, the Iron Tyrant
 
 </div>
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-# Draxus, the Iron Tyrant
+# Overview
 *This page is currently used for disambiguation.*
 
 </div>

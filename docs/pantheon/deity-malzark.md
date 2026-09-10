@@ -1,18 +1,18 @@
 ---
-title: "Deity Malzark"
+title: "Malzark, Herald of Magma"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Deity Malzark
+# Malzark, Herald of Magma
 
 </div>
 </div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Malzark, Herald of Magma
+# Overview
 
 - **Symbol**: Black iron gauntlet grasping a molten core
 - **Home Plane**: Para-Elemental Plane of Magma

@@ -288,6 +288,14 @@
 
   /* The flag images are signage, not illustration - smaller on a phone. */
   .wd-flag--wip img { max-width: 160px; }
+
+  /* Material sets table text at .64rem, which buys density on a wide screen.
+     A phone has no density to win - the table scrolls sideways whatever size
+     it is set at - and .64rem measured 11.5px here, with the notes under the
+     tables at 9.5px. Both are below what anyone should be asked to read on a
+     phone, and the saving throw tables are exactly the thing a reader looks up
+     at the table rather than at a desk. */
+  .md-typeset table:not([class]) { font-size: var(--wd-text-table-sm); }
 }
 
 /* ---------------------------------------------------------------------------

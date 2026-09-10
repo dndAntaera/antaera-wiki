@@ -46,6 +46,7 @@
   --wd-text-aside: .72rem;          /* sidebar cells */
   --wd-text-aside-spell: .79rem;    /* a spell card inside a sidebar: 1.1x */
   --wd-text-note: .82em;            /* a table's notes */
+  --wd-text-table-sm: .78rem;       /* table text, on a phone */
   --wd-text-tag: .58em;             /* the SPELL / PSIONIC POWER label */
   --wd-text-spell: 1.1em;           /* a spell card, against its surroundings */
 
@@ -168,6 +169,15 @@
     -1px 1px 0 var(--wd-sky-far), 1px 1px 0 var(--wd-sky-far),
     0 0 4px var(--wd-sky-far);
   --wd-shadow-sign: 0 2px 10px rgba(0, 0, 0, .45);
+}
+
+
+/* On a phone the tables are set larger - see the mobile block in extra.css -
+   and a note at .82em of that was still under 12px. It is the one token the
+   screen size changes; everything else about the type scale is the same on a
+   phone as on a desk. */
+@media screen and (max-width: 60em) {
+  :root { --wd-text-note: .9em; }
 }
 
 

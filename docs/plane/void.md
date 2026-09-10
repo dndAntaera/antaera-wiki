@@ -3,6 +3,13 @@ title: "Void"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Void
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # The Void

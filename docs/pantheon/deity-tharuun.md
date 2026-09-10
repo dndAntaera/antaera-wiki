@@ -3,6 +3,13 @@ title: "Deity Tharuun"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Deity Tharuun
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Tharuun, Herald of Gems

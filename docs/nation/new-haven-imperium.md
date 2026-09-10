@@ -4,6 +4,13 @@ wip: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# New Haven Imperium
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Disambiguation

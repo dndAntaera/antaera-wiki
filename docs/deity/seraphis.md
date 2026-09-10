@@ -3,6 +3,13 @@ title: "Seraphis"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Seraphis
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Seraphis, the Eternal Equinox

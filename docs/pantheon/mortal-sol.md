@@ -2,6 +2,13 @@
 title: "Mortal Sol"
 ---
 
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Mortal Sol
+
+</div>
+</div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 

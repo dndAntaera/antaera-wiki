@@ -3,6 +3,13 @@ title: "Malcator"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Malcator
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Malcator, the Unbound

@@ -3,6 +3,13 @@ title: "Ornus"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Ornus
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Ornus, Lord of Constructs

@@ -3,9 +3,16 @@ title: "The Paxæterna Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # The Paxæterna Sphere
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 
 Paxæterna is a sphere adrift in calm—a luminous stillness that envelopes all within. Spelljamming pilgrims journey from distant spheres not for wealth or conquest, but to kneel in the monasteries and sanctuaries that crown its peaceful worlds. Here, harmony is not merely encouraged—it is reality’s rhythm. Across hills and plains, in lake-girt cloisters and silent mountain retreats, the cultures of Paxæterna live by contemplative creed. Conflict is rare, settled not through trial or blade, but by consensus, song, and shared silence. The wildspace itself glows faintly with auroral currents that soothe unrest.
 

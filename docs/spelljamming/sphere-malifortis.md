@@ -3,9 +3,16 @@ title: "The Malifortis Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # The Malifortis Sphere
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 
 The Malifortis Sphere is a scorched dominion of ash-hung void and flickering soulflame, ruled not by tyranny, but by sanctuary forged in infernal fire. Infernal historians claim the first settlers of this sphere were planetouched humanoids—tieflings, fire genasi, and others with infernal bloodlines—driven from their homelands across wildspace and the lower planes. They were drawn to the abandoned relic at the sphere’s heart: a supermassive gate of ancient Antæran design known now as the Scævolan Gate. Once thought to be a path to the Antæran homeworld, the relic was eventually corrupted, torn open to the Nine Hells of Baator. Devils spilled forth—but instead of conquest, they found kinship among the outcast descendants of Hell.
 

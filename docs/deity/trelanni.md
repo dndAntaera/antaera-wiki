@@ -3,6 +3,13 @@ title: "Trelanni"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Trelanni
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Trelanni, Patron of the Elves

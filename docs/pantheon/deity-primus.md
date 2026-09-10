@@ -3,6 +3,13 @@ title: "Deity Primus"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Deity Primus
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Primus, God of Order

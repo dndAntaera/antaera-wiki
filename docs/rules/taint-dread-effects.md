@@ -3,9 +3,16 @@ title: "Taint Dread Effects"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Taint Dread Effects
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 The effects described in this section are similar to terrain features. While terrain affects the physical capabilities of creatures within it, dread effects have an impact on abilities and characteristics in a magical or apparently magical way. For example, rather than granting cover or hindering movement, blood rock increases the threat range of attacks made in its area, and abyssal blackgrass restricts healing near it.
 
 </div>

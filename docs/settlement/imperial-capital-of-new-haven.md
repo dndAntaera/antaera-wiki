@@ -11,9 +11,16 @@ title: "Imperial Capital Of New Haven"
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Imperial Capital Of New Haven
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 The city of New Haven is the self proclaimed bastion of humanity’s imperial superiority. It is the capital city of the [New Haven Imperium](../nation/new-haven-imperium.md), ruled by the emperor Nicolaus Poplicola IX. The [New Haven Imperium](../nation/new-haven-imperium.md), or colloquially known as the [Imperium](../nation/new-haven-imperium.md), rules over a vast majority of the eastern side of the continent, and is of the belief that humanity is the apex of the mortal races and strives to share its beliefs and influence across the land.
 
 The [Imperium](../nation/new-haven-imperium.md) believes in ruling with an iron fist, and those who are too weak to lead in The [Imperium](../nation/new-haven-imperium.md) are of better use serving it in more menial ways, such as in a trade or as a laborer. It is a heavily militaristic society and believes that the populace should receive a standard but equal share of wealth. However, those who contribute more to society get more back. Those who enlist in the legions receive more incentives than those who are conscripted, least of all are the enslaved. The [Imperium](../nation/new-haven-imperium.md) does not discriminate in who it enslaves, as they are war prisoners all. However, human slaves are treated marginally better than non-human slaves in most cases.

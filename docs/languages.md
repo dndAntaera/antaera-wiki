@@ -3,9 +3,16 @@ title: "Languages"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Languages
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 The world of Antæra is vast and diverse, with many different civilizations and cultures. One of the effects of this is the development of languages that are as diverse as the places they come from. They are created by the various cultures in the world and are influenced by many things, such as the pressures of the plane or divine intervention. Some may even be directly descended from, or related to, other languages. The languages presented here are unique to this world, and any languages present in base D&D, such as Sylvan and Gith, are still present. The given list of languages is incomplete and will be added when new languages are discovered over the course of time.
 
 </div>

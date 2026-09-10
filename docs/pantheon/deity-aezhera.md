@@ -3,6 +3,13 @@ title: "Deity Aezhera"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Deity Aezhera
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Aezhera, Lady of Air

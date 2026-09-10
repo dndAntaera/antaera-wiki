@@ -3,9 +3,16 @@ title: "Planar Crystal"
 ---
 
 <div class="wd-row" style="--wd-rw: 1262px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Planar Crystal
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 1262px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 These strange crystals are found in and around manifest zones and their properties correspond to the plane that the manifest zone is tuned to. Little is truly known of these enigmatic crystals, especially the circumstances surrounding their formation. Academic scholars theorize that the crystals are merely crystalized elemental energy, through which magic can be channeled when properly harnessed or refined. Religious scholars theorize that these crystals are the blood of the plane, which oozes forth from the earthly wounds known as manifest zones.
 
 Both of these theories have truths in them: the crystals are indeed crystallized elemental energies, however, they only appear when a planar breach occurs, forming a manifest zone. The crystals themselves grow naturally as the strength of the manifest zone grows, storing the energies of the zone itself and functioning as the power banks of the manifest zone. Remove all of the crystals, and the zone disappears. However, as the crystals grow, so does the manifest zone. Should the zone grow too large for the crystals to contain, the manifest zone will rupture, causing a massive rift between the connecting planes. All creatures and objects caught in the rift are sent scattered throughout the Ethereal Plane. Their trajectory is based upon the size of the rift and their proximity to its center.

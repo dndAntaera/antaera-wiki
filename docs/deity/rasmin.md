@@ -3,6 +3,13 @@ title: "Rasmin"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Rasmin
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Rasmin, God of Mischief

@@ -11,10 +11,17 @@ wip: true
 
 </div>
 </div>
+<div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Darkastle
+
+</div>
+</div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
-# Darkastle
+# Overview
 Nestled deep within a dense, ominous forest rests the town of Darkastle, perpetually enveloped by a disturbing mist that adheres to its structures' weathered stone and aged wood. This thick, chilling mist infiltrates every crevice, draping the town in a gloomy veil that feels almost tangible. Above the tree line, the ancient Darkastle tower, constructed of imposing stone, casts a substantial shadow across the town, literally and symbolically. Its presence is a constant reminder of the town's long history and the secrets it conceals.
 
 Darkastle appears nearly isolated from the outside world, shrouded in a fog that muffles sound and blurs visibility, transforming every corner into a scene of vague shapes and quiet murmurs of apprehension. The fog affects everything, rendering the cobblestone paths slick and the air moist, imparting a chill that penetrates the buildings and residents' structures.

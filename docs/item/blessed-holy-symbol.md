@@ -3,9 +3,14 @@ title: "Profane/Blessed (Un)Holy Symbol"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Profane/Blessed (Un)Holy Symbol
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
 
 **Price (Item Level)**: 2800 gp (5th level)<br>
 **Body Slot**: Neck<br>

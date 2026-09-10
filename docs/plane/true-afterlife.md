@@ -3,9 +3,16 @@ title: "True Afterlife"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # True Afterlife
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 Welcome to the enigmatic realm known as the True Afterlife, a plane of existence that beckons souls from the Material Plane through the [Ethereal Plane](ethereal-plane.md), an ethereal conduit that serves as the gateway to the eternal unknown. This afterlife is a cosmic enigma, shrouded in infinite layers, where each soul finds itself in a personalized haven, mirroring the essence of their mortal existence.
 
 Souls traverse the [Ethereal Plane](ethereal-plane.md), guided by the currents of the radiant [Soulvein](../soulvein.md), until they reach the True Afterlife. Once here, the veil of mystery descends, for no one who embarks on this journey returns with recollections of what truly lies beyond. The True Afterlife remains an elusive destination, its nature concealed in a tapestry of layers that weave an intricate mosaic of individual experiences.

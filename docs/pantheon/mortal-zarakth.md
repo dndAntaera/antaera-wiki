@@ -3,6 +3,13 @@ title: "Mortal Zarakth"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Mortal Zarakth
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # **Name:** Zarakth, the Abyssal Scourge

@@ -3,6 +3,13 @@ title: "Asmodeus"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Asmodeus
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Asmodeus, Supreme Master of the Nine Hells

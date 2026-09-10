@@ -10,10 +10,17 @@ title: "Hnaleah"
 
 </div>
 </div>
+<div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Hnaleah
+
+</div>
+</div>
 <div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
 <div class="wd-cell" markdown>
 
-# Hnaleah
+# Overview
 The Holy City of Hnaleah stands as a bastion of devout belief and unyielding theocratic rule. Governed by an Imperial Theocracy, this city is a stronghold of faith, dedicated to the deities Lux Dawnbringer, Thrain Stoneheart, and Leonus Ironmane. This devotion is not a matter of personal choice but a mandated aspect of life in the city, deeply ingrained in its cultural and social fabric. Its society is shaped by the fervent adherence to these divine figures and the teachings they represent. It stands as a symbol of unwavering faith and rigid theocracy. It is a city where devotion to its deities permeates every aspect of life, from governance to warfare. Despite its prosperity and power, Hnaleah's uncompromising stance on religious purity and its crusade against perceived evil cast a shadow over its holy aspirations. The city's rulers are not mere political figures but spiritual leaders, each wielding authority derived from their devotion to the divine. The city's fervent adherence to its theocratic principles fosters an environment of intolerance and rigidity, often leading to repercussions both within and beyond its walls. Despite the stringent theocracy that governs its society, Hnaleah has flourished, becoming a beacon of both spiritual and material wealth. Governed by a stern and protective regime, the city's theocratic leadership exerts a pervasive influence over the lives of its citizens, often at the cost of personal liberty and privacy.
 
 ### Political and Military Structure

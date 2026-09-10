@@ -10,11 +10,17 @@ title: "Crucible Of Valor"
 
 </div>
 </div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
 
+# Crucible Of Valor
+
+</div>
+</div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Crucible Of Valor
+# Overview
 In honor of Leonus Ironmane, the god of valor and war, a grand tournament known as the Crucible of Valor has been established. This legendary competition is not confined to a single arena but spans the entire world, challenging warriors from every corner of the realm to prove their mettle.
 
 The faithful of Leonus Ironmane, driven by their god’s unquenchable thirst for valor and glory, have organized the Crucible of Valor, a gladiatorial contest like no other. This tournament transcends borders, taking place in diverse and treacherous environments, from sun-scorched deserts to frozen wastelands, ancient forests, and towering mountain ranges.

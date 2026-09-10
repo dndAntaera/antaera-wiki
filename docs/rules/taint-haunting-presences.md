@@ -3,9 +3,16 @@ title: "Taint Haunting Presences"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Taint Haunting Presences
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 Sometimes when undead are created they come into being without a physical form and are merely presences of malign evil. Haunting presences usually occur as the result of atrocious crimes. Tied to particular locations or objects, these beings might reveal their unquiet natures only indirectly, at least at first.
 
 As a haunting presence, an undead is impossible to affect or even sense directly. A haunting presence is more fleeting than undead who appear as incorporeal ghosts or wraiths, or even those undead enterprising enough to range the Ethereal Plane. Each haunting presence is tied to an object or location and can only be dispelled by exorcism or the destruction of the object or location. Despite having no physicality, each haunting presence still possesses the identity of a specific kind of undead. For instance, one haunting presence might be similar to a vampire, while another is more like a wraith.

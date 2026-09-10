@@ -3,9 +3,16 @@ title: "The Forgehome Sphere"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # The Forgehome Sphere
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 
 The primary is a manifest zone to the Elemental Plane of Fire, which provides a blazing light that sustains life and lends a deep orange hue to everything its light touches. It emits fire straight from the depths of the connected plane, and serves as the gravitational center of the sphere.
 

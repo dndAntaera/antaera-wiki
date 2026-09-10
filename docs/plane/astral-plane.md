@@ -3,9 +3,16 @@ title: "Astral Plane"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Astral Plane
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 The Astral Plane, a mysterious and otherworldly realm, serves as a vital conduit connecting the Material Plane to the myriad Outer Planes that sprawl across the multiverse. This enigmatic realm is infinitely expansive, stretching endlessly in all directions beyond mortal comprehension.
 
 The Astral Plane, with its timeless flow and eerie emptiness, remains a profound enigma in the tapestry of the multiverse. It is a place where travelers can tread the ethereal pathways between worlds, where the very essence of reality is distilled into an endless expanse of emptiness and possibility.

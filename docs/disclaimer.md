@@ -3,9 +3,14 @@ title: "Disclaimer"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Disclaimer
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
 
 Welcome to Legends of Antæra, an immersive Dungeons & Dragons experience. Before embarking on this epic journey, we want to ensure that all players are aware of the themes and content that may arise during the course of the campaign. Please read the following disclaimer carefully:
 

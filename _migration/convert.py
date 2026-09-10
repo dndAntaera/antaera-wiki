@@ -298,27 +298,15 @@ TITLES = {
     "item-dreaming-waking": "The Dreaming & Waking",
 }
 
-# Pages that never name themselves - they open on a stat block, or on a run of
-# sub-headings, or straight into prose. The title becomes the opening heading,
-# so a reader landing on the page can see what it is about.
-#
-# "The Dreaming & Waking" is not in this list: its page already opens with the
-# book's full in-world title, "The Book of Dreams, a Treatise on the Waking &
-# Dreaming". The short name is the page title, the long one stays the heading.
 # Pages whose opening heading should be replaced by the page's title, because
 # the two disagreed. Filled in at run time - see the sphere names in main().
+#
+# There was a second list beside this one, of the six pages that never named
+# themselves at all - they opened on a stat block, on a run of sub-headings, or
+# straight into prose - and had their title inserted as an opening heading. It
+# is gone: every page carries its name on a card of its own now, so there is
+# nothing left for that list to fix.
 TITLE_HEADING = set()
-
-NAME_HEADING = {
-    "crystal-stabilization-fluid",
-    "elven-climbers-gloves",
-    "poisoners-quiver",
-    "item-blessed-holy-symbol",
-    "disclaimer",
-    # Opens on eight sub-headings - Personality, Physical Description,
-    # Relations - with nothing above them, so it began mid-structure.
-    "race-deepfolk",
-}
 
 
 # Headings too generic to serve as a page title.
@@ -1166,6 +1154,43 @@ def apply_newcards(slug, body):
         body = body[:end] + "\n" + _card(row, level, heading, text).rstrip("\n") + body[end:]
     return body
 
+def _first_row(body):
+    """The opening row of a page, divs counted rather than guessed at."""
+    if not body.startswith('<div class="wd-row'):
+        return None
+    depth = 0
+    for d in re.finditer(r"<div\b|</div>", body):
+        depth += 1 if d.group(0)[1] != "/" else -1
+        if depth == 0:
+            return body[:d.end()]
+    return None
+
+
+def title_card(title, body):
+    """Put the page's name on a card of its own, above everything else.
+
+    The name used to be the heading of the first card, which asked one heading
+    to do two jobs: name the page, and label the section beneath it. It could
+    not do both, and the section was the one that lost - a page's opening card
+    said "Beastfolk" where it meant "Overview".
+
+    A page that opens on a header picture keeps the picture on top and takes
+    the name underneath, where a title band belongs. The card is given the
+    width the first row asks for, so it lines up with the page rather than
+    running wider than everything under it.
+    """
+    width = re.search(r"--wd-rw:\s*([^;\"]+)", body)
+    card = ('<div class="wd-row"%s markdown>\n'
+            '<div class="wd-cell wd-title" markdown>\n\n'
+            "# %s\n\n"
+            "</div>\n</div>\n"
+            % (' style="--wd-rw: %s"' % width.group(1).strip() if width else "",
+               title))
+    lead = _first_row(body)
+    if lead and "wd-plain" in lead and lead.count('<div class="wd-cell') == 1:
+        return body[:len(lead)] + "\n" + card + body[len(lead):].lstrip("\n")
+    return card + body
+
 
 def heading_levels(s):
     """Close the gaps in a page's heading levels.
@@ -1174,9 +1199,14 @@ def heading_levels(s):
     from however deep the original author happened to nest that section rather
     than from the structure of the page. The levels a page uses are remapped
     onto consecutive ones, keeping their order and their nesting.
+
+    A page using one level throughout is remapped too, onto the first. Deepfolk
+    wrote every one of its sections at level four and nothing else at all, so
+    there was no gap to close and it was left alone - and then the page's name
+    arrived above them at level one, four levels up from its own headings.
     """
     used = sorted({len(m.group(1)) for m in re.finditer(r"^(#{1,6})\s", s, re.M)})
-    if len(used) < 2:
+    if not used:
         return s
     rank = {lv: i + 1 for i, lv in enumerate(used)}
     if all(lv == r for lv, r in rank.items()):
@@ -1472,26 +1502,27 @@ def main(backup):
         # reader sees is spelled the way the wiki spells it everywhere else.
         title = re.sub(r"\bAntaera(n?)\b", r"Antæra\1", title)
 
-        # A page whose first heading is "Overview" or "Description" opens with
-        # that word where its name should be. On Wikidot the name was supplied
-        # by the page header above the body, so the heading only ever had to
-        # label the section; here there is no such header, and the heading is
-        # the first thing on the page. Rename it to the page's own title.
-        #
-        # Only the leading heading is touched. "Overview" further down a page
-        # is a section among others and is doing its job.
-        m = re.search(r"^#\s+(.+)$", body, re.M)
-        if m:
-            plain = re.sub(r"[*_`~]", "", m.group(1)).strip().lower()
-            if plain in GENERIC_HEADINGS:
-                body = body[:m.start()] + "# " + title + body[m.end():]
-
         # A page whose opening heading disagrees with its title takes the
         # title, so the page is called one thing throughout.
         if slug in TITLE_HEADING:
             m = re.search(r"^#\s+(.+)$", body, re.M)
             if m:
                 body = body[:m.start()] + "# " + title + body[m.end():]
+
+        # The page's name is a card of its own now, at the top of the page, so
+        # the opening heading is free to label the section it holds instead of
+        # naming the page over again. A heading that says the page's name, or
+        # says "Description" or "Introduction", is the page's overview - which
+        # is what most of them called it before the name was moved into them -
+        # so that is what it is called, and all of them call it the same thing.
+        #
+        # Only the leading heading is touched. "Overview" further down a page
+        # is a section among others and is doing its job.
+        m = re.search(r"^(#{1,6})\s+(.+)$", body, re.M)
+        if m:
+            plain = re.sub(r"[*_`~]", "", m.group(2)).strip()
+            if plain.lower() in GENERIC_HEADINGS or plain == title:
+                body = body[:m.start()] + m.group(1) + " Overview" + body[m.end():]
 
         # A disambiguation stub gets the link it was missing, put inside its
         # card so the page reads as a signpost rather than a dead end.
@@ -1505,17 +1536,6 @@ def main(backup):
             # appended to the page would sit on the sky below it.
             cut = body.rstrip().rfind("\n</div>\n</div>")
             body = (body[:cut] + "\n" + link + body[cut:]) if cut != -1 else body + link
-
-        # A page that never names itself gets its title as an opening heading,
-        # put inside the first card so it is the panel's title rather than a
-        # line floating above the layout.
-        if slug in NAME_HEADING:
-            # A lambda, not a replacement string: these names carry slashes
-            # and parentheses that re would otherwise have to be escaped for.
-            body = re.sub(r'<div class="wd-cell[^"]*" markdown>\n\n',
-                          lambda m: m.group(0) + "# " + title + "\n\n",
-                          body, count=1)
-
 
         # The Index is the hub for the wiki's own indexes, so Archived Pages
         # hangs off it rather than off the sidebar - the sidebar is a flat list
@@ -1551,7 +1571,7 @@ def main(backup):
         # Last, after the title heading and any injected section: those arrive
         # after the conversion pass and can reopen a gap in the heading levels
         # that pass had just closed.
-        body = heading_levels(body)
+        body = title_card(title, heading_levels(body))
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1
@@ -1577,7 +1597,7 @@ def main(backup):
             spec["lead"])
         parts = ['<div class="wd-row" style="--wd-rw: 935px" markdown>',
                  '<div class="wd-cell" markdown>', "",
-                 "# " + spec["title"], "", lead, "", "</div>", "</div>", ""]
+                 "# Overview", "", lead, "", "</div>", "</div>", ""]
         for label, part in spec["parts"]:
             half = merged_bodies[part]
             # The variants drop a level to sit under their form's heading. The
@@ -1597,7 +1617,8 @@ def main(backup):
             # The halves were levelled separately and then demoted a step when
             # they were joined, so the levels are closed up once more here.
             fh.write('---\ntitle: "' + spec["title"] + '"\n---\n\n'
-                     + heading_levels("\n".join(parts)))
+                     + title_card(spec["title"],
+                                  heading_levels("\n".join(parts))))
         written += 1
 
     # Pages with no Wikidot source. They have to be written here because this
@@ -1605,7 +1626,8 @@ def main(backup):
     with open(os.path.join(DOCS, "archived.md"), "w", encoding="utf-8", newline="\n") as fh:
         fh.write(
             '---\ntitle: "Archived Pages"\n---\n\n'
-            "<!-- ARCHIVED-INDEX -->\n"
+            + title_card("Archived Pages", "")
+            + "<!-- ARCHIVED-INDEX -->\n"
         )
     written += 1
 

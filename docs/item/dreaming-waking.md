@@ -4,6 +4,13 @@ wip: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# The Dreaming & Waking
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # The Book of Dreams, a Treatise on the Waking & Dreaming

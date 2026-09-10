@@ -3,6 +3,13 @@ title: "Kingdoms Empires"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Kingdoms Empires
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Kingdoms & Empires

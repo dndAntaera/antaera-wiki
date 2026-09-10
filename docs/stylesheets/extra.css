@@ -222,6 +222,19 @@
   padding-bottom: 0;
 }
 
+/* The page's own name, on a card of its own above everything else. It is the
+   one heading on a page that names the whole of it rather than a section, so
+   it is the one heading that is allowed to be large. No rule under it: the
+   card's edge is already the line, and a second one directly above it read as
+   a mistake. */
+.wd-title h1 {
+  font-size: var(--wd-text-page-title);
+  line-height: 1.15;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 /* ---------------------------------------------------------------------------
    Page flags
    --------------------------------------------------------------------------- */

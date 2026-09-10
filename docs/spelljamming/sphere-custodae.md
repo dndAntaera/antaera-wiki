@@ -4,9 +4,16 @@ wip: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # The Custodæ Sphere
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 
 The Custode Sphere is a shattered, drifting monument to knowledge lost and guarded. At its center looms the fossilized skull of a dead Ancient Antæran god, vast beyond comprehension and studded with silent starmetal inlays. The rest of the sphere is composed of broken worlds—scattered debris fields filled with the ruins of fallen civilizations and the drifting remains of the god’s own skeleton. Ribcages, vertebrae, and splintered limbs hang in slow, solemn orbit among the wreckage.
 

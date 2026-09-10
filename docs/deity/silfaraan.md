@@ -3,6 +3,13 @@ title: "Silfaraan"
 ---
 
 <div class="wd-row" markdown>
+<div class="wd-cell wd-title" markdown>
+
+# Silfaraan
+
+</div>
+</div>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Sil’Faraan, Lord of the Wastes

@@ -7,9 +7,16 @@ search:
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Backgrounds
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 When selecting your background at 1st level, you may choose any of the Core backgrounds or one discussed on this page. Some backgrounds presented will have prerequisites that must be met to be taken.
 
 Certain backgrounds have specific effects:

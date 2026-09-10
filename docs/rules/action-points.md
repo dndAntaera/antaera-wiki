@@ -3,9 +3,16 @@ title: "Action Points"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell" markdown>
+<div class="wd-cell wd-title" markdown>
 
 # Action Points
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Overview
 Action points give character the means to affect game play in significant ways, by improving important rolls or unlocking special abilities. Each character has a limited number of action points, and once an action point is spent, it is gone for good.
 
 **Metagame Analysis: Action Points**<br>

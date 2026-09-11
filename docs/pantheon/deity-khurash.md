@@ -14,12 +14,13 @@ title: "Khurash, Herald of Smoke"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: Coiling spiral of ash over smoldering embers
 - **Home Plane**: Great Conflagration
-- **Alignment**: True Neutral
+- **Alignment**: N
 - **Portfolio**: Smoke, Breath, Transition, Obscurity
 - **Worshipers**: Druids, monks, assassins, rangers
-- **Cleric Alignments**: Neutral Good, Lawful Neutral, True Neutral, Chaotic Neutral, Neutral Evil
+- **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Air, Darkness, Travel, Balance, Fire, Void
 - **Favored Weapon**: Scimitar
 

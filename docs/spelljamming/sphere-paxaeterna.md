@@ -85,30 +85,30 @@ Primary Body:
 
 **Lesser**
 
-- Serenai, Spirit of the First Garden (Chaotic Good)
-- Elior, Monk of the Celestial Tone (Lawful Good)
+- Serenai, Spirit of the First Garden (CG)
+- Elior, Monk of the Celestial Tone (LG)
 
 **Intermediate**
 
-- Vaselra, Blooming Silence (Chaotic Good)
-- Thalanis, Keeper of the Inner Veil (Neutral Good)
+- Vaselra, Blooming Silence (CG)
+- Thalanis, Keeper of the Inner Veil (NG)
 
 **Greater**
 
-- Aureus, Harmonizer Supreme (Lawful Good)
-- Ivenari, the Golden Cup (Neutral Good)
+- Aureus, Harmonizer Supreme (LG)
+- Ivenari, the Golden Cup (NG)
 
 **Demigods**
 
-- Mirith, Wandering Bell (Chaotic Good)
-- Dalenos, Keeper of Whispered Oaths (Lawful Good)
-- Nael’yth, Watcher of Soft Light (Neutral Good)
-- Althira, Voice Among Petals (Chaotic Good)
-- Cireth, Still Flame of Vigilance (Lawful Good)
-- Omberil, Dreamtide Healer (Neutral Good)
-- Faelune, Lark of the Crystal Sky (Chaotic Good)
-- Zenvar, Stonepath Guide (Neutral Good)
-- Lysamir, Candle in Dusk (Lawful Good)
+- Mirith, Wandering Bell (CG)
+- Dalenos, Keeper of Whispered Oaths (LG)
+- Nael’yth, Watcher of Soft Light (NG)
+- Althira, Voice Among Petals (CG)
+- Cireth, Still Flame of Vigilance (LG)
+- Omberil, Dreamtide Healer (NG)
+- Faelune, Lark of the Crystal Sky (CG)
+- Zenvar, Stonepath Guide (NG)
+- Lysamir, Candle in Dusk (LG)
 
 </div>
 </div>

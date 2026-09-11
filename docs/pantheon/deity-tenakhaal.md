@@ -14,12 +14,13 @@ title: "Tenakhaal, Herald of Salt"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A cracked seashell leaking dry grains
 - **Home Plane**: Quasi-Elemental Plane of Salt
-- **Alignment**: Neutral Evil
+- **Alignment**: NE
 - **Portfolio**: Salt, hatred, dehydration, vengeance, suffering
 - **Worshipers**: Clerics, sorcerers, pirates, cultists, necromancers
-- **Cleric Alignments**: Chaotic Evil, Neutral Evil, Lawful Evil
+- **Cleric Alignments**: CE, LE, NE
 - **Domains**: Destruction, Evil, Water, Wrath
 - **Favored Weapon**: Trident
 

@@ -14,14 +14,15 @@ title: "Cervidûr, Lord of the Hunt"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A stag's head with wide antlers adorned with runes of fey magic
 - **Home Plane**: The Moonlit Glade, Sidhe Wilderness
-- **Alignment**: Chaotic Neutral
+- **Alignment**: CN
 - **Portfolio**: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
 - **Worshipers**: Druids, rangers, shamans, lycanthropes
-- **Cleric Alignments**: Chaotic Neutral, Chaotic Good, Neutral
-- **Domains**: Animal, Fey, Strength, Moon
-- **Favored Weapon**: *TBD*
+- **Cleric Alignments**: CE, CG, CN
+- **Domains**: —
+- **Favored Weapon**: —
 
 **Origins**
 Cervidûr is an ancient fey deity, born from the primal essence of the wilderness itself. As the Lord of the Hunt, he embodies the untamed spirit of the wild and the relentless pursuit of prey under the moonlit sky. Legends tell of how Cervidûr roams the forests and plains, leading the Wild Hunt—a spectral procession of fey hunters and beasts that chase across the night sky.
@@ -30,8 +31,6 @@ In ages past, Cervidûr forged pacts with mortal hunters and lycanthropes, grant
 
 **Description**
 Cervidûr appears as a majestic stag of immense size, his form exuding an aura of ancient power. His antlers are vast and appear to be made of intricately woven wood, adorned with glowing runes that pulse with fey magic. His eyes are deep and seem to hold the wisdom of countless ages within their depths, reflecting the shifting phases of the moon. Ethereal moonlight seems to dance upon his fur, giving him an otherworldly and mesmerizing presence.
-
-Cervidûr's holy symbol is a stylized depiction of a majestic stag's head, with antlers spreading wide and adorned with runes of fey magic. The stag's eyes are depicted as deep pools reflecting the moon, symbolizing Cervidûr's watchful presence and guidance over his followers.
 
 **Dogma**
 **Embrace the Wild**: Followers of Cervidûr are encouraged to forge deep connections with the animals and spirits that inhabit the wilds. This tenet emphasizes the importance of respecting and understanding the natural world, fostering harmony between the fey and mortal realms. Through communion with wildlife and nature spirits, adherents seek to maintain a balanced coexistence where both predators and prey play vital roles in the ecosystem.

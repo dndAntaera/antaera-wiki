@@ -14,12 +14,13 @@ title: "Terrus, God of Chaos"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: Open gauntlet with a star behind it
 - **Home Plane**: All Elemental and Energy Planes
-- **Alignment**: Chaotic Neutral
+- **Alignment**: CN
 - **Portfolio**: Chaos, Change, Elementals
 - **Worshipers**: Sorcerers, druids, barbarians, elementalists
-- **Cleric Alignments**: Chaotic Good, Chaotic Neutral, Chaotic Evil, Neutral
+- **Cleric Alignments**: CE, CG, CN
 - **Domains**: Chaos, Air, Earth, Fire, Water
 - **Favored Weapon**: Morningstar
 

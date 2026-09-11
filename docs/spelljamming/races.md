@@ -248,7 +248,7 @@ Several dozen related families form a clan, the basic social unit, and 2d4 clans
 Grommams are omnivorous, eating almost any sort of fruits, vegetables, nuts, roots, and small game animals. They have no trouble eating the food of any human or demihuman race. Grommams have little effect on the affairs of other races.
 
 ## Religion
-Like other races, grommams have gods—but their gods (of demigod level) openly live among them as their rulers and advisors. Most are lawful good.
+Like other races, grommams have gods—but their gods (of demigod level) openly live among them as their rulers and advisors. Most are LG.
 
 ## Spelljamming and Ship Design
 Grommam spelljammer ships (usually purchased from humans) are altered to appear powerful and dramatic, with bright colors and wild designs, but they function like any other spelljamming ships.
@@ -570,7 +570,7 @@ Scro resemble orcs in their brutish features, pig-like snouts, and powerful jaws
 The Scro are notorious for their genocidal hatred of elves and open disdain for all non-orcish humanoids. Their worldview is one of contempt, superiority, and isolationism. Dragons, beholders, and other powerful beings are seen as threats to avoid, while other humanoids are viewed as tools or fodder. When forced to interact socially, Scro show restraint and tact but remain ever alert and dominant. Their war against elves is both cultural and ideological, and all Scro are required to learn Elvish—to ensure their enemies know who is killing them.
 
 ## Alignment
-Generations of regimentation have bred chaos out of the Scro. They are nearly always lawful, driven by an internalized sense of hierarchy and discipline. While their goals are cruel and expansionist, they rarely indulge in senseless brutality, preferring calculated violence toward strategic ends. Most are lawful evil, though rare exceptions exist.
+Generations of regimentation have bred chaos out of the Scro. They are nearly always lawful, driven by an internalized sense of hierarchy and discipline. While their goals are cruel and expansionist, they rarely indulge in senseless brutality, preferring calculated violence toward strategic ends. Most are LE, though rare exceptions exist.
 
 ## Scro Lands
 The Scro homeworld is unnamed and secret, though it is ruled by the Ultimate High Overlord and organized into 24 tribes, each led by an Almighty Leader. The planet is marked by strong fortresses, efficient shipyards, and a harsh but well-ordered society. Populations range from 10,000 to 100,000 per city. While they do not seek multiversal conquest, they intend to remove all non-Scro from wildspace, reducing them to slaves or exterminating them outright. Outside their homeworld, the Scro establish militarized outposts and warships to enforce their dominance.
@@ -619,7 +619,7 @@ Xixchil are tall, insectoid beings with six limbs and a body structure resemblin
 Xixchil can be difficult for other species to relate to. Their obsession with bodily modification and their alien aesthetic values are unsettling to many. They form bonds sparingly, usually based on utility rather than sentiment, and rarely show vulnerability or affection. Nevertheless, their surgical skill and battlefield effectiveness make them respected, if not trusted, allies. Adventuring parties who earn a xixchil’s respect may be acknowledged as “family,” though true emotional connection is rare.
 
 ## Alignment
-Most xixchil lean toward neutral or neutral evil alignments. Their motivations are usually internal—focused on self-improvement and mastery—rather than driven by morality, justice, or altruism. While not cruel by nature, they are unapologetically pragmatic and often disregard the needs of others if those needs conflict with their goals.
+Most xixchil lean toward N or NE alignments. Their motivations are usually internal—focused on self-improvement and mastery—rather than driven by morality, justice, or altruism. While not cruel by nature, they are unapologetically pragmatic and often disregard the needs of others if those needs conflict with their goals.
 
 ## Xixchil Lands
 The xixchil evolved on a dangerous world full of predators, where only the most cunning and adaptable survived. There, they developed advanced biological control, camouflage, and metabolic enhancements, eventually rising to dominance. Modern xixchil are spacefarers, establishing surgical enclaves instead of permanent settlements. These mobile clinics, outfitted with tools and biological workspaces, serve as both homes and laboratories. Their spelljamming ships reflect their unique culture—covered in living plant structures, floral ornamentation, and organically grown components.
@@ -700,13 +700,13 @@ Insectare resemble tall, slim elves with lime-green skin and elongated limbs. Th
 Few races trust the insectare, and those who understand their goals trust them even less. Their manipulative and clandestine nature causes widespread suspicion. Elves, in particular, hate them and deny any connection. Goblinoids, orcs, and scro also see them as dangerous rivals. Insectare hide their origins and often pretend to be members of other races to better manipulate their surroundings.
 
 ## Alignment
-Insectare are lawful evil. Their ultimate goal is the domination of all life through magical research and calculated manipulation. They operate within a rigid hierarchy and pursue their objectives with discipline, strategy, and a long-term perspective.
+Insectare are LE. Their ultimate goal is the domination of all life through magical research and calculated manipulation. They operate within a rigid hierarchy and pursue their objectives with discipline, strategy, and a long-term perspective.
 
 ## Insectare Lands
 Their homeworld is isolated and heavily protected. It features enormous forests and vast, hollowed-out mountains used as hive-like cities. These subterranean homes extend deep into the ground, similar to dwarven citadels. Insectare prefer dark, enclosed environments and often settle in similar terrain elsewhere. Outsiders are forbidden from their homeworld and are executed after interrogation if captured.
 
 ## Religion
-The insectare worship Klikral, a lawful evil godlike entity who resides on their homeworld. Klikral is the spiritual and societal anchor of the insectare, seen as the father of the race. Worship is kept secret even among fellow worshippers, and priests are fanatically loyal. Insectare priests never pursue other roles. Klikral grants powers such as summoning insect swarms to punish enemies. Priests alone are born with humanlike eyes, setting them apart from others.
+The insectare worship Klikral, an LE godlike entity who resides on their homeworld. Klikral is the spiritual and societal anchor of the insectare, seen as the father of the race. Worship is kept secret even among fellow worshippers, and priests are fanatically loyal. Insectare priests never pursue other roles. Klikral grants powers such as summoning insect swarms to punish enemies. Priests alone are born with humanlike eyes, setting them apart from others.
 
 ## Language
 Insectare speak a unique language that combines clicking and lilting insectoid sounds with elements of Common. Among themselves, they communicate emotion and meaning through their antennae. While they also speak Common and often Elven to blend in, their native language cannot be fully translated by outsiders. At best, non-insectare may grasp the general idea of a conversation, but never its full nuance.

@@ -14,12 +14,13 @@ title: "Malzark, Herald of Magma"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: Black iron gauntlet grasping a molten core
 - **Home Plane**: Para-Elemental Plane of Magma
-- **Alignment**: Neutral Evil
+- **Alignment**: NE
 - **Portfolio**: Magma, destruction, subterranean conquest, volcanic wrath
 - **Worshipers**: clerics, blacksmiths, sorcerers, warlocks, fire dwarves
-- **Cleric Alignments**: Lawful Evil, Neutral Evil, Chaotic Evil, Neutral
+- **Cleric Alignments**: CE, LE, NE
 - **Domains**: Destruction, Earth, Evil, Fire, Strength
 - **Favored Weapon**: Warhammer
 

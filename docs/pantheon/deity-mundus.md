@@ -14,12 +14,13 @@ title: "Mundus, Goddess of Life"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: Oak tree
 - **Home Plane**: Elysium
-- **Alignment**: Neutral Good
+- **Alignment**: NG
 - **Portfolio**: Life, Nature, Light
 - **Worshipers**: Cleric, druid, healer, farmer, ranger, midwife
-- **Cleric Alignments**: LG, NG, CG, N
+- **Cleric Alignments**: CG, LG, NG
 - **Domains**: Life, Healing, Sun, Nature, Good
 - **Favored Weapon**: Quarterstaff
 

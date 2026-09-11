@@ -14,14 +14,15 @@ title: "Sol, the Eternal Equilibrium"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A set of scales held by a draconic hand
 - **Home Plane**: Ethereal Plane
-- **Alignment**: True Neutral
+- **Alignment**: N
 - **Portfolio**: Balance, pacts, cycles, order
 - **Worshipers**: Dragon priests, scholars
-- **Cleric Alignments**: Neutral, Lawful Neutral, Chaotic Neutral, Neutral Good, Neutral Evil
+- **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Balance, Dragon, Fate, Pact
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Sol, the Eternal Equilibrium, emerged from the celestial realms beyond the stars at the dawn of creation. Unlike other dragons, Sol was not born of the physical world but was woven from the very fabric of cosmic energies. As the first of his kind, Sol's existence is intertwined with the fundamental forces that govern the multiverse.
@@ -32,8 +33,6 @@ Sol is not merely an observer; he is a guardian deity whose essence is interwove
 
 **Description**
 Sol is a massive and majestic elder dragon. His form radiates the equilibrium he embodies, standing tall against the backdrop of the cosmos. Sol's scales are imbued with the deep blue of an endless twilight sky, each one reflecting his dominion over the vast firmament. His grandeur is further accentuated by the ornate armor that graces his powerful form, crafted from gold and set with jewels that glimmer with the essence of the celestial bodies. His wings, vast and otherworldly, seem to envelop the very heavens. They are the canvas upon which the astral panorama plays, stars and nebulae dancing within their ethereal folds. The cosmic design woven into his wings speaks of Sol's ancient wisdom and his role as the keeper of celestial harmony.
-
-The symbol of Sol is a set of scales held by a draconic hand. This symbol represents the desire of Sol to maintain the balance in all things.
 
 **Dogma**
 **Harmony in All Things**: Sol teaches that balance is the key to existence. Followers are encouraged to seek harmony within themselves, their relationships, and the world around them.

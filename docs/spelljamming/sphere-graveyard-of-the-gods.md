@@ -67,7 +67,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 **Greater**
 
-- Helus, God of Death (Neutral Evil)
+- Helus, God of Death (NE)
 
 </div>
 </div>

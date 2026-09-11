@@ -14,12 +14,13 @@ title: "Aezhera, Lady of Air"
 
 # Overview
 
+- **Rank**: Intermediate God
 - **Symbol**: A spiral of clouds coiled around a silver feather
 - **Home Plane**: Elemental Plane of Air
-- **Alignment**: Chaotic Good
+- **Alignment**: CG
 - **Portfolio**: Freedom, Air, Sky, Mercy
 - **Worshipers**: Druids, rangers, monks, scouts, bards
-- **Cleric Alignments**: CG, NG, CN
+- **Cleric Alignments**: CG, CN, NG
 - **Domains**: Air, Good, Travel, Liberation
 - **Favored Weapon**: Scimitar
 

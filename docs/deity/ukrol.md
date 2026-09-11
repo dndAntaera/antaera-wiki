@@ -14,14 +14,15 @@ title: "Ukrol, Patron Deity of Humanity"
 
 # Overview
 
+- **Rank**: Intermediate God
 - **Symbol**: A featureless humanoid face with a spiked crown
 - **Home Plane**: The Dominion of Exiles
-- **Alignment**: Lawful Evil
+- **Alignment**: LE
 - **Portfolio**: Humans, conquest, dominion, authority
 - **Worshipers**: Charismatic leaders, conquerors, Imperial clergy
-- **Cleric Alignments**: Lawful Evil, Lawful Neutral, Neutral Evil
-- **Domains**: Domination, Hatred, Law, Tyrrany
-- **Favored Weapon**: *TBD*
+- **Cleric Alignments**: LE, LN, NE
+- **Domains**: Domination, Hatred, Law, Tyranny
+- **Favored Weapon**: —
 
 **Origins**
 Ukrol's origins are shrouded in mystery, but legends speak of him as the first human, born from the depths of the Abyss itself. It is said that an Abyssal god sought to create the perfect race of mortals, and Ukrol was the culmination of this divine experiment. Endowed with incredible strength, intelligence, and ambition, Ukrol quickly rose to prominence among his kind, leading them with unmatched fervor and determination.
@@ -32,8 +33,6 @@ However, as Ukrol's empire expanded, so too did the opposition against him. Face
 
 **Description**
 Ukrol is depicted as a figure of imposing stature, with features reminiscent of the idealized human form. His countenance exudes an air of authority and command, tempered with a sense of ambition and determination. Clad in regal attire adorned with symbols of power, Ukrol's presence inspires awe and reverence among his followers.
-
-The symbol of Ukrol is a featureless humanoid face with a spiked crown, representing human strength, dominion, and the crown of authority. It serves as a potent emblem of Ukrol's power and the aspirations of his followers for human supremacy.
 
 **Dogma**
 **Sovereignty**: Uphold human dominance and strive to establish human supremacy over all other races. This tenet encourages followers to assert human authority and control in all aspects of life, ensuring that humans remain the dominant force in the world.
@@ -52,7 +51,7 @@ Temples dedicated to Ukrol can be found in human settlements across Antæra, ser
 Ukrol's teachings and ambitions put him at odds with deities who champion the cause of equality and oppose human dominance. He views these deities as threats to his divine mandate and seeks to undermine their influence at every turn.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 <div class="wd-cell wd-aside" markdown>

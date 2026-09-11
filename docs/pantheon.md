@@ -15,23 +15,23 @@ title: "Pantheon"
 # The Primal Gods (Greater Deities)
 
 - [Mundus](pantheon/deity-mundus.md), Goddess of Life
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Life, Nature, Light
     - Symbol: Oak tree
 - [Primus](pantheon/deity-primus.md), God of Order
-    - Alignment: Lawful Neutral
+    - Alignment: LN
     - Portfolio: Order, Law, Pacts
     - Symbol: Closed gauntlet with infinity symbol embedded
 - [Terrus](pantheon/deity-terrus.md), God of Chaos
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Chaos, Change, Elementals
     - Symbol: Open gauntlet with a star behind it
 - [Helus](pantheon/deity-helus.md), God of Death
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Death, Afterlife, Darkness
     - Symbol: Blindfolded skull
 - [Cosmus](pantheon/deity-cosmus.md), God of Magic
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Knowledge, Magic, Balance
     - Symbol: Star in front of a book
 
@@ -66,7 +66,7 @@ The Living Gods are the deities that have amassed enough power to ascend past th
 ## The Patrons
 The Patrons are deities that are either agents of more powerful deities, mortals that ascended, paragons of their race, or the progenitors of their race. They are the least powerful among the gods but are the most numerous. These deities are most active on the Inner Planes, Transitional Planes, and Parallel Material Planes. Though they occasionally make appearances on the Material Plane.
 ## A Note On Domains
-All deities have access to the domains associated with their alignment, even if it is not listed in their descriptions. For example, deities of the Lawful Good alignment always have the Law and Good domains on their list of domains, while deities of the Lawful Evil alignment always have the Law and Evil domains.
+All deities have access to the domains associated with their alignment, even if it is not listed in their descriptions. For example, deities of the LG alignment always have the Law and Good domains on their list of domains, while deities of the LE alignment always have the Law and Evil domains.
 
 </div>
 </div>
@@ -76,39 +76,39 @@ All deities have access to the domains associated with their alignment, even if 
 # The Living Gods (Intermediate Deities)
 
 - Lux Dawnbringer, the Luminous Sovereign
-    - Alignment: Lawful Good
+    - Alignment: LG
     - Portfolio: Justice, Light
     - Symbol: A radiant sun, its rays extending outward in a circular pattern
 - Thrain Stoneheart, the Tranquil Forgemaster
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Peace, Unity
     - Symbol: A stylized anvil, with a hammer crossed over it
 - Leonus Ironmane, the Stalwart Guardian
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Valor, War
     - Symbol: A roaring lion's head, often surrounded by symbols representing justice scales and a crossed sword and shield
 - Tome, Keeper of the Celestial Library
-    - Alignment: Lawful Neutral
+    - Alignment: LN
     - Portfolio: Knowledge, Wisdom
     - Symbol: an intricate celestial sigil with cosmic runes swirling around it
 - Sol, the Eternal Equilibrium
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Balance, Pacts
     - Symbol: A roaring celestial dragon and runes forming a perfect circle
 - Selene, the Nightweaver
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Secrets, Shadows
     - Symbol: A crescent moon intertwined with intricate elven glyphs
 - Mordac, the Arbiter of Tyranny
-    - Alignment: Lawful Evil
+    - Alignment: LE
     - Portfolio: Corruption, Death
     - Symbol: A twisted serpent entwined around a scepter
 - Vortressa, the Mother of Monsters
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Monsters, Dark Desires
     - Symbol: A corrupted representation of a traditional Druidic glyph intertwined with monstrous teeth
 - Zarakth, the Abyssal Scourge
-    - Alignment: Chaotic Evil
+    - Alignment: CE
     - Portfolio: Destruction, Murder
     - Symbol: A blood-red vortex swirling around a jagged, shattered blade.
 
@@ -119,21 +119,21 @@ All deities have access to the domains associated with their alignment, even if 
 
 # The Patrons (Lesser Deities)
 
-- Lawful Good
+- LG
     - Urog, Father of Metallic Dragons
-- Neutral Good
+- NG
     - Homoth, Lord of Beasts
     - [Trelanni](deity/trelanni.md), Patron of Elves
     - [Cervidûr](deity/cervidur.md), Lord of the Hunt
-- Chaotic Good
+- CG
     - Typhus, Prince of Water
     - [Cavri](deity/cavri.md), Queen of the Seelie Court
-- Lawful Neutral
+- LN
     - [Ornus](deity/ornus.md), Lord of Constructs
     - [Sil’Faraan](deity/silfaraan.md), Lord of the Wastes
-- True Neutral
+- N
     - [Enigma](deity/enigma.md), the Lost God
-- Chaotic Neutral
+- CN
     - Helius, Prince of Air
     - Gollus, Prince of Earth
     - [Droma](deity/droma.md), God of Craftsmen
@@ -142,16 +142,16 @@ All deities have access to the domains associated with their alignment, even if 
     - [Fink](deity/fink.md), Patron of Goblinoids
     - [Orion](deity/orion.md), Patron of Smallfolk
     - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
-- Lawful Evil
+- LE
     - [Ythedie](deity/ythedie.md), Mother of Chromatic Dragons
     - [Leshrac](deity/leshrac.md), Lord of the Undead
     - [Ukrol](deity/ukrol.md), Patron of Humans
     - [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
     - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
-- Neutral Evil
+- NE
     - [Fronir](deity/fronir.md), Patron of Giants
     - [Nessa](deity/nessa.md), Patron of Vermin
-- Chaotic Evil
+- CE
     - [Tari](deity/tari.md), Queen of the Unseelie Court
     - Infernus, Prince of Fire
     - Mil’Anaara, Goddess of Storms
@@ -163,23 +163,23 @@ All deities have access to the domains associated with their alignment, even if 
 
 # Dead Gods (Known)
 
-- Lawful Good
+- LG
     - [Amaris](deity/amaris.md), the Beacon of Law
-- Neutral Good
+- NG
     - [Thalrend](deity/thalrend.md), the Just Arbiter
-- Chaotic Good
+- CG
     - [Eldron](deity/eldron.md), the Freeheart
-- Lawful Neutral
+- LN
     - [Virelia](deity/virelia.md), the Order’s Hand
-- True Neutral
+- N
     - [Seraphis](deity/seraphis.md), the Eternal Equinox
-- Chaotic Neutral
+- CN
     - [Malcator](deity/malcator.md), the Unbound
-- Lawful Evil
+- LE
     - [Draxus](deity/draxus.md), the Iron Tyrant
-- Neutral Evil
+- NE
     - [Nyxara](deity/nyxara.md), the Shadow Queen
-- Chaotic Evil
+- CE
     - [Gorthak](deity/gorthak.md), the Herald of Chaos
 
 </div>

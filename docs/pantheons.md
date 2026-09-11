@@ -49,89 +49,89 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
 ## Greater Gods (The Primals)
 
 - [Mundus](pantheon/deity-mundus.md), Goddess of Life
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Life, Nature, Light
     - Symbol: Oak tree
 - [Primus](pantheon/deity-primus.md), God of Order
-    - Alignment: Lawful Neutral
+    - Alignment: LN
     - Portfolio: Order, Law, Pacts
     - Symbol: Closed gauntlet with infinity symbol embedded
 - [Terrus](pantheon/deity-terrus.md), God of Chaos
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Chaos, Change, Elementals
     - Symbol: Open gauntlet with a star behind it
 - [Helus](pantheon/deity-helus.md), God of Death
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Death, Afterlife, Darkness
     - Symbol: Blindfolded skull
 - [Cosmus](pantheon/deity-cosmus.md), God of Magic
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Knowledge, Magic, Balance
     - Symbol: Star in front of a book
 
 ## Intermediate Gods (Elemental Lords & Ladies)
 
 - [Lylah](pantheon/deity-lylah.md), Lady of Water
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Water, Freedom, Change, Intuition
-    - Symbol: silver wave coiled around a pearl
+    - Symbol: A silver wave coiled around a pearl
 - [Aezhera](pantheon/deity-aezhera.md), Lady of Air
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Freedom, Air, Sky, Mercy
     - Symbol: A spiral of clouds coiled around a silver feather
 - [Kharzhalek](pantheon/deity-kharzhalek.md), Lord of Earth
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Earth, Wealth, Psionics, Tyranny
     - Symbol: A jagged obsidian crown atop a crumbling stone pillar
 - [Ignaraxis](pantheon/deity-ignaraxis.md), Lord of Fire
-    - Alignment: Lawful Evil
+    - Alignment: LE
     - Portfolio: Fire, Destruction, Rebirth
     - Symbol: A blazing flame consuming a crowned skull
 
 ## Lesser Gods (Elemental Heralds)
 
 - [Aravel](pantheon/deity-aravel.md), Herald of Storms
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Storms, Lightning, Courage, Freedom
     - Symbol: A jagged bolt cleaving a raincloud
 - [Jinzai](pantheon/deity-jinzai.md), Herald of Steam
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Steam, Endurance, Primates, Renewal, Hospitality
     - Symbol: Coiling plume rising from a calm pool
 - [Khurash](pantheon/deity-khurash.md), Herald of Smoke
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Smoke, Breath, Transition, Obscurity
     - Symbol: Coiling spiral of ash over smoldering embers
 - [Malzark](pantheon/deity-malzark.md), Herald of Magma
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Magma, destruction, subterranean conquest, volcanic wrath
     - Symbol: Black iron gauntlet grasping a molten core
 - [Seralyne](pantheon/deity-seralyne.md), Herald of Radiance
-    - Alignment: Lawful Good
+    - Alignment: LG
     - Portfolio: Radiance, Zeal, Crusades, Purity, Sunlight
     - Symbol: Burning sun framed by silver wings
 - [Tharuun](pantheon/deity-tharuun.md), Herald of Gems
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
     - Symbol: Pickaxe crossed with a radiant crystal
 - [Vrog'thul](pantheon/deity-vrog-thul.md), Herald of Ooze
-    - Alignment: Chaotic Evil
+    - Alignment: CE
     - Portfolio: Ooze, Corruption, Filth, Hunger
     - Symbol: A dribbling, open eye melting into slime
 - [Tenakhaal](pantheon/deity-tenakhaal.md), Herald of Salt
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Salt, hatred, dehydration, vengeance, suffering
     - Symbol: A cracked seashell leaking dry grains
 - [Vaeltharion](pantheon/deity-vaeltharion.md), Herald of Dust
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Death, Preservation, Funerary Rites, Hospitality
-    - Symbol: hooded lantern with a dim, ember-like glow
+    - Symbol: A hooded lantern with a dim, ember-like glow
 - [Nihil](pantheon/deity-nihil.md), Herald of Void
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Emptiness, entropy, silence, cosmic erasure
     - Symbol: A black circle surrounded by fading stars
 - [Pyrius](pantheon/deity-pyrius.md)
-    - Alignment: Chaotic Evil
+    - Alignment: CE
     - Portfolio: Entropy, decay, dying worlds, extinction, finality
     - Symbol: A dark spiral ring devouring light at its center
 
@@ -146,105 +146,105 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 ## Greater Gods (The Living Gods)
 
 - [Lux Dawnbringer](pantheon/mortal-lux.md), the Luminous Sovereign
-    - Alignment: Lawful Good
+    - Alignment: LG
     - Portfolio: Justice, light, radiance, judgment
     - Symbol: A radiant sun, its rays extending outward in a circular pattern
 - [Thrain Stoneheart](pantheon/mortal-thrain.md), the Tranquil Forgemaster
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Peace, unity, craft, community
-    - Symbol: A stylized anvil, with a hammer crossed over it
+    - Symbol: A stylized anvil with a hammer crossed over it
 - [Leonus Ironmane](pantheon/mortal-leonis.md), the Stalwart Guardian
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Valor, war, protection, courage
-    - Symbol: A roaring lion's head, often surrounded by symbols representing justice scales and a crossed sword and shield
+    - Symbol: A roaring lion's head surrounded by justice scales and a crossed sword and shield
 - [Tome](pantheon/mortal-tome.md), Keeper of the Celestial Library
-    - Alignment: Lawful Neutral
+    - Alignment: LN
     - Portfolio: Knowledge, wisdom, memory, truth
-    - Symbol: an intricate celestial sigil with cosmic runes swirling around it
+    - Symbol: An intricate celestial sigil with cosmic runes swirling around it
 - [Sol](pantheon/mortal-sol.md), the Eternal Equilibrium
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Balance, pacts, cycles, order
     - Symbol: A set of scales held by a draconic hand
 - [Selene](pantheon/mortal-selene.md), the Nightweaver
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Secrets, shadows, night, illusion
     - Symbol: A crescent moon intertwined with intricate elven glyphs
 - [Mordac](pantheon/mortal-mordac.md), the Arbiter of Tyranny
-    - Alignment: Lawful Evil
+    - Alignment: LE
     - Portfolio: Corruption, death, domination, oppression
     - Symbol: A twisted serpent entwined around a scepter
 - [Vortressa](pantheon/mortal-vortressa.md), the Mother of Monsters
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Monsters, dark desires, mutation, hunger
-    - Symbol: A corrupted representation of a traditional Druidic glyph intertwined with monstrous teeth
+    - Symbol: A corrupted Druidic glyph intertwined with monstrous teeth
 - [Zarakth](pantheon/mortal-zarakth.md), the Abyssal Scourge
-    - Alignment: Chaotic Evil
+    - Alignment: CE
     - Portfolio: Destruction, murder, chaos, ruin
-    - Symbol: A blood-red vortex swirling around a jagged, shattered blade.
+    - Symbol: A blood-red vortex swirling around a jagged, shattered blade
 
 ## Intermediate Gods (The Paragons)
 
 - [Ornus](deity/ornus.md), Lord of Constructs
-    - Alignment: Lawful Neutral
+    - Alignment: LN
     - Portfolio: Constructs, order, artifice, creation
     - Symbol: A gear set within a perfect square
 - [Fink](deity/fink.md), Patron of Goblinoids
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Goblinoids, greed, cunning, survival
     - Symbol: A grinning goblin face biting a coin
 - [Orion](deity/orion.md), Patron of Smallfolk
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Smallfolk, artifice, ingenuity, resilience
     - Symbol: A crystal radiating astral light
 - [Leshrac](deity/leshrac.md), Lord of the Undead
-    - Alignment: Lawful Evil
+    - Alignment: LE
     - Portfolio: Undead, cruelty, control, decay
     - Symbol: A skull bound in iron bands
 - [Ukrol](deity/ukrol.md), Patron of Humans
-    - Alignment: Lawful Evil
+    - Alignment: LE
     - Portfolio: Humans, conquest, dominion, authority
     - Symbol: A featureless humanoid face with a spiked crown
 - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Scalykind, poison, venom, instinct
     - Symbol: A fanged serpent coiled around a droplet
 - [Fronir](deity/fronir.md), Patron of Giants
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Giants, creation, strength, stone
     - Symbol: A towering rune-carved pillar
 - [Nessa](deity/nessa.md), Patron of Vermin
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Pestilence, plagues, decay, infestation
     - Symbol: A swarm forming a hollow circle
 
 ## Lesser Deities (The Patrons)
 
 - [Sil’Faraan](deity/silfaraan.md), Lord of the Wastes
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Deserts, drought, decay, endurance
     - Symbol: A cracked sun over a barren dune
 - [Enigma](deity/enigma.md), the Lost God
-    - Alignment: True Neutral
+    - Alignment: N
     - Portfolio: Secrets, forgotten knowledge, paradox, obscurity
     - Symbol: A closed eye within a spiraling void
 - [Droma](deity/droma.md), God of Craftsmen
-    - Alignment: Lawful Neutral
+    - Alignment: LN
     - Portfolio: Craftsmanship, creation, labor, invention
     - Symbol: A hammer crossed with a chisel
 - [Ithlwick](deity/ithlwick.md), God of Prosperity
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Wealth, trade, fortune, success
     - Symbol: A golden coin stamped with a rising sun
 - [Rasmin](deity/rasmin.md), God of Mischief
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Trickery, pranks, deception, chance
     - Symbol: A laughing mask split down the middle
 - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Travel, oceans, winds, safe passage
-    - Symbol: A compass encircled by symbols of waves and meandering paths
+    - Symbol: A compass encircled by waves and meandering paths
 - [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
-    - Alignment: Lawful Evil
+    - Alignment: LE
     - Portfolio: Tyranny, contracts, domination, devils
     - Symbol: A ruby-tipped scepter or inverted pentagram
 
@@ -263,111 +263,106 @@ Due to their unique source of divinity, these gods possess no ability to grant d
 ## Greater Gods
 
 - Aelthirion, the Verdant Crown, Sovereign of the Summer Court
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Summer wilds, rampant growth, blazing life, fey beasts, verdant dominance
     - Symbol: A crown of oak and ivy wreathed in golden sunlight
 
 - Thiralyth Bloomveil, the First Dawn, Queen of the Spring Court
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Spring awakening, birth of beasts, blossoms, rain-soaked soil, new fey life
     - Symbol: A budding branch crowned with morning dew
 
 - Caerthos Emberfall, the Withered King, Lord of the Autumn Court
-    - Alignment: Neutral Evil
+    - Alignment: NE
     - Portfolio: Autumn decline, harvest cruelty, falling leaves, the taking season, beautiful decay
     - Symbol: A falling leaf burning at the edges
 
 - Nyssara Vael, the Gloam Empress, Matron of the Winter Court
-    - Alignment: Chaotic Evil
+    - Alignment: CE
     - Portfolio: Winter death, frozen stillness, starvation, merciless predation, dark survival
     - Symbol: A black rose encased in jagged ice
 
 - Lirael Starbough, Mother of Elvenkind
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Elven souls, ancestral forests, fey bloodlines, birth, song, moonlit groves
     - Symbol: A silver-leafed tree beneath a seven-pointed star
 
 ## Intermediate Gods
 
 - Vaesryn Manyskins, the Mutable Lord
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Shapechanging, fluid identity, moonbound forms, fey-blooded transformations
     - Symbol: A mask melting into antlers, claws, and leaves
 
 - Sylraeth Moonwhisper, the Dreaming Canopy
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Fey dreams, moonlit magic, prophetic visions, sleeping forests
     - Symbol: A moon caught in tangled branches
 
 - Letharis Gleamstep, the Dancing Blade
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Elven battle-dance, martial art, ritual movement, graceful violence
     - Symbol: A curved blade traced with flowing ribbons
 
 - Elarion Silversong, the First Chord
-    - Alignment: Chaotic Good
+    - Alignment: CG
     - Portfolio: Elven music, song-magic, harmony, emotional resonance
     - Symbol: A harp strung with moonlight
 
 - Myravel Heartfire, the Unbound Muse
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Passion, love, obsession, creative frenzy, artistic inspiration
     - Symbol: A burning heart wrapped in vines
 
 - Thalos Briarwind, the Stormhart
-    - Alignment: Neutral
+    - Alignment: N
     - Portfolio: Fey storms, violent seasons, winds, stampeding beasts
     - Symbol: Antlers split by lightning
 
 - Eirwyn Ashroot, the Buried Seed
-    - Alignment: Neutral
+    - Alignment: N
     - Portfolio: Decay feeding life, fallen forests, rebirth from ruin
     - Symbol: A seed sprouting from ash
-
-- [Cervidûr](deity/cervidur.md), Lord of the Hunt, Master of the Wild Hunt
-    - Alignment: Chaotic Neutral
-    - Portfolio: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
-    - Symbol: A stag's head with wide antlers adorned with runes of fey magic
 
 ## Lesser Gods
 
 - Faeloria Dewkissed, the Spring Bloom
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Healing plants, fresh water, blossoms, gentle beasts
     - Symbol: A flower cupping a drop of dew
 
 - Puckren Quickshade, the Laughing Thorn
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Mischievous spirits, trick paths, warped luck, wild magic surges
     - Symbol: A thorn bent into a grin
 
-- Rhazek Glimmerclaw, the Blood Moon Hunter
-    - Alignment: Chaotic Evil
-    - Portfolio: Predation, moon-hunts, apex beasts, the thrill of the kill
-    - Symbol: A clawed moon smeared red
+- [Cervidûr](deity/cervidur.md), Lord of the Hunt, Master of the Wild Hunt
+    - Alignment: CN
+    - Portfolio: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
+    - Symbol: A stag's head with wide antlers adorned with runes of fey magic
 
 - Calithra Starloom, the Living Tapestry
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Elven art, weaving, painting, visual storytelling, memory made manifest
     - Symbol: A loom threaded with stars
 
 - Thandoril Brightforge, the Graceful Hand
-    - Alignment: Neutral
+    - Alignment: N
     - Portfolio: Elven craft, smithing, woodwork, perfection of form, patient creation
     - Symbol: A hammer striking a leaf-shaped anvil
 
 - Aerethil Leafborn, the First Sapling
-    - Alignment: Neutral Good
+    - Alignment: NG
     - Portfolio: Young elves, first awakenings, coming of age, inherited talent
     - Symbol: A small leaf unfurling from a glowing bud
 
 - Silphae Gossamerwing, the Many-Blooded
-    - Alignment: Chaotic Neutral
+    - Alignment: CN
     - Portfolio: Fey-touched lineages, elves of mixed descent, mutation, adaptation
     - Symbol: Overlapping wings of leaf, silk, and shadow
 
 - Oruvain Barkvein, the Rooted Elder
-    - Alignment: Neutral
+    - Alignment: N
     - Portfolio: Long-lived elves, tradition, slow mastery, endurance of craft and song
     - Symbol: A gnarled root wrapped around a star-shaped leaf
 

@@ -14,14 +14,15 @@ title: "Leonus Ironmane, the Stalwart Guardian"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A roaring lion's head surrounded by justice scales and a crossed sword and shield
 - **Home Plane**: The Verdant Bastion, Ysgard
-- **Alignment**: Chaotic Good
+- **Alignment**: CG
 - **Portfolio**: Valor, war, protection, courage
 - **Worshipers**: Warriors, druids
-- **Cleric Alignments**: Chaotic Good, Neutral Good, Chaotic Neutral
+- **Cleric Alignments**: CG, CN, NG
 - **Domains**: Competition, Courage, Good, Protection
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Leonus Ironmane, born in the heart of the Greater Ironpine Forest, was a guardian of the wild from his earliest days. The Ironpine Forest, known for its mystical and ancient qualities, shaped Leonus into a creature of unparalleled strength and noble character. As he roamed the vast woodlands, he witnessed both the beauty and brutality of the natural world.
@@ -30,8 +31,6 @@ Leonus realized that valor and honor were not only virtues of civilization but p
 
 **Description**
 Leonus appears as a majestic anthropomorphic lion, his mane a fiery golden hue symbolizing the unwavering flame of honor. His eyes burn with a fierce determination, and his muscular form exudes a regal aura. Leonus is often depicted wearing armor adorned with intricate engravings, showcasing symbols of loyalty, courage, and justice.
-
-The symbol of Leonus Ironmane is a roaring lion's head, often surrounded by symbols representing justice scales and a crossed sword and shield. This symbol is worn proudly by his followers as a mark of their commitment to valor and honor.
 
 **Dogma**
 **Valor Above All**: Always stand strong in the face of adversity. The true measure of a warrior is their bravery and resolve, even when the odds are against them.

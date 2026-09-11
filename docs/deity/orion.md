@@ -14,14 +14,15 @@ title: "Orion, Patron of Smallfolk"
 
 # Overview
 
+- **Rank**: Intermediate God
 - **Symbol**: A crystal radiating astral light
 - **Home Plane**: Astral Plane
-- **Alignment**: Chaotic Good
+- **Alignment**: CG
 - **Portfolio**: Smallfolk, artifice, ingenuity, resilience
 - **Worshipers**: Smallfolk clergy, community leaders, artisans
-- **Cleric Alignments**: Chaotic Good, Neutral Good, Chaotic Neutral
+- **Cleric Alignments**: CG, CN, NG
 - **Domains**: Gnome, Halfling, Dwarf, Protection
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Orion began his existence not as a deity, but as a supermassive [planar crystal](../item/planar-crystal.md) located in the heart of Antæra. This crystal was no ordinary formation; it was deeply attuned to the energies and the very essence of the [Astral Plane](../plane/astral-plane.md). Over millennia, this crystal absorbed the surrounding cosmic forces, which led to a profound transformation. As the crystal absorbed more astral energy, it began to awaken, slowly developing a consciousness. This was a gradual process, where the crystal transitioned from an inanimate object into a sentient being. Its awareness of the cosmos and the planes grew, and with this awareness came an understanding of its place in the universe.
@@ -30,8 +31,6 @@ Orion's burgeoning consciousness and growing power eventually led to his ascensi
 
 **Description**
 In his divine form, Orion is often depicted or visualized as a humanoid figure radiating with astral light, his body seemingly made of the same cosmic material as his original crystalline form. He is sometimes shown with facets of crystal jutting from his form, a reminder of his origins.
-
-Orion's symbols are often those associated with the cosmos and the smallfolk he patronizes. These might include a crystal radiating astral light or a simple figure surrounded by the stars of the [Astral Plane](../plane/astral-plane.md).
 
 **Dogma**
 **Seek knowledge and harmony with the cosmos**: This tenet emphasizes the pursuit of understanding and cosmic awareness. Followers of Orion are encouraged to explore the mysteries of the universe and seek a deeper connection with the astral energies that pervade all existence. This pursuit is not just intellectual but spiritual, promoting a sense of unity with the cosmos. It involves studying the stars, delving into astral phenomena, and understanding the interconnectedness of all beings and planes. Orion's followers believe that true wisdom comes from comprehending the vastness of the universe and finding one's place within it.

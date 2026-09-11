@@ -14,22 +14,21 @@ title: "Mordac, the Arbiter of Tyranny"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A twisted serpent entwined around a scepter
 - **Home Plane**: The Iron Citadel, the Nine Hells
-- **Alignment**: Lawful Evil
+- **Alignment**: LE
 - **Portfolio**: Corruption, death, domination, oppression
 - **Worshipers**: Manipulators, enforcers, devils
-- **Cleric Alignments**: Lawful Evil, Lawful Neutral, Neutral Evil
+- **Cleric Alignments**: LE, LN, NE
 - **Domains**: Domination, Evil, Law, Tyranny
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Mordac ascended to the Pinnacle of the Infernal Hierarchy, born from the treacherous depths of the Hells. His rise to power was swift and calculated, as he outwitted and manipulated other devils to become the undisputed lord of deception and tyranny. Mordac thrives on the subjugation of others and the meticulous orchestration of deceit to secure his dominion.
 
 **Description**
 Mordac is a commanding and imposing figure, with obsidian-black horns curling around his fiendish visage. His eyes are pools of malevolence, reflecting the intricate webs of deception that he spins. Mordac's form is adorned with regal, infernal armor that exudes an aura of cruel authority. His voice is a resonant, commanding tone that compels obedience from those who dare listen.
-
-The symbol of Mordac is a twisted serpent entwined around a scepter, symbolizing the entwined forces of deception and tyranny that he uses to command his infernal dominion.
 
 **Dogma**
 **Strategic Deception**: Mordac encourages the use of deception as a strategic tool, a means to secure power and dominion. Followers are taught to meticulously plan and execute deceitful schemes to achieve their ambitions.
@@ -48,7 +47,7 @@ The clergy of Mordac includes master manipulators and ruthless enforcers who thr
 Mordac actively seeks to undermine other deities and their domains, particularly those who stand for freedom, justice, and chaos. His influence is felt as a calculating force, aiming to unravel the foundations of opposing belief systems.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 <div class="wd-cell wd-aside" markdown>

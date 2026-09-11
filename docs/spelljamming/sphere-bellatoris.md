@@ -112,33 +112,33 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 **Lesser Deities**
 
-- Caelreth, Voice of the Blade (Chaotic Good)
-- Theluna, Warden of the Arena (Neutral Good)
-- Branthor, the Shaper of Horn and Fang (Lawful Good)
+- Caelreth, Voice of the Blade (CG)
+- Theluna, Warden of the Arena (NG)
+- Branthor, the Shaper of Horn and Fang (LG)
 
 **Intermediate Deities**
 
-- Myrian, Flame of Trial (Chaotic Good)
-- Orien, Banner of Kinship (Neutral Good)
-- Haldran, The Oathbound Shield (Lawful Good)
+- Myrian, Flame of Trial (CG)
+- Orien, Banner of Kinship (NG)
+- Haldran, The Oathbound Shield (LG)
 
 **Greater Deities**
 
-- Solarian, Crown of Valor (Lawful Good)
-- Ysmera, Queen of Roaring Stars (Neutral Good)
-- Karion, the Challenger Eternal (Chaotic Good)
+- Solarian, Crown of Valor (LG)
+- Ysmera, Queen of Roaring Stars (NG)
+- Karion, the Challenger Eternal (CG)
 
 **Demigods**
 
-- Verrin, the Painted Duelist (Chaotic Neutral)
-- Skarru, of the Crimson Silence (Neutral Evil)
-- Thaless, the Dreaming Fang (Chaotic Neutral)
-- Vorn, Beast-Father of Bloodhorn Vale (Neutral)
-- Ezzari, the Blind Caller (Lawful Neutral)
-- Mareth, Iron-Spoken Flame (Lawful Evil)
-- Silik, the Laughing Mask (Chaotic Evil)
-- Durn, the Grave-Climber (True Neutral)
-- Arlien, the Pale Firebrand (Neutral Good)
+- Verrin, the Painted Duelist (CN)
+- Skarru, of the Crimson Silence (NE)
+- Thaless, the Dreaming Fang (CN)
+- Vorn, Beast-Father of Bloodhorn Vale (N)
+- Ezzari, the Blind Caller (LN)
+- Mareth, Iron-Spoken Flame (LE)
+- Silik, the Laughing Mask (CE)
+- Durn, the Grave-Climber (N)
+- Arlien, the Pale Firebrand (NG)
 
 </div>
 </div>

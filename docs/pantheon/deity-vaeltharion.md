@@ -14,12 +14,13 @@ title: "Vaeltharion, Herald of Dust"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A hooded lantern with a dim, ember-like glow
 - **Home Plane**: Quasi-Elemental Plane of Dust
-- **Alignment**: Neutral Evil
+- **Alignment**: NE
 - **Portfolio**: Death, Preservation, Funerary Rites, Hospitality
 - **Worshipers**: Death clerics, meldshapers
-- **Cleric Alignments**: Lawful Evil, Lawful Neutral, Neutral, Neutral Evil, Chaotic Evil
+- **Cleric Alignments**: CE, LE, NE
 - **Domains**: Death, Protection, Repose, Earth
 - **Favored Weapon**: Oar-staff
 

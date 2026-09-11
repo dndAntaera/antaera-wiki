@@ -87,33 +87,33 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
 
 **Lesser Deities**
 
-- Brextor, Architect of Collapse (Lawful Evil)
-- Cynestha, the Withering Gale (Neutral Evil)
-- Alarique, the Skywanderer (Chaotic Good)
+- Brextor, Architect of Collapse (LE)
+- Cynestha, the Withering Gale (NE)
+- Alarique, the Skywanderer (CG)
 
 **Intermediate Deities**
 
-- Ferrion, the Anchor Below (Lawful Neutral)
-- Aurial, Breath of Mercy (Neutral Good)
-- Zephoryn, Voice of the Vortex (Chaotic Neutral)
+- Ferrion, the Anchor Below (LN)
+- Aurial, Breath of Mercy (NG)
+- Zephoryn, Voice of the Vortex (CN)
 
 **Greater Deities**
 
-- Caelitas, Keeper of the Harmonies (Lawful Good)
-- Vexem, the Hollow Wind (True Neutral)
-- Ralithar, Devourer of Directions (Chaotic Evil)
+- Caelitas, Keeper of the Harmonies (LG)
+- Vexem, the Hollow Wind (N)
+- Ralithar, Devourer of Directions (CE)
 
 **Demigods**
 
-- Thrennos, Mourning Dust (True Neutral)
-- Lyskari, the Wind-Torn Veil (Chaotic Neutral)
-- Dravik, Ironwake (Neutral Evil)
-- Solenth, Star-Eyed Beggar (Chaotic Good)
-- Morvhex, Shardbrood Sire (Chaotic Evil)
-- Vallix, the Wandering Silence (True Neutral)
-- Saetria, Last Breath of the Exiled (Chaotic Neutral)
-- Uthrem, Splinter-Fanged Gale (Neutral Evil)
-- Aetraxa, The Ruin-Clad Tempest (Chaotic Evil)
+- Thrennos, Mourning Dust (N)
+- Lyskari, the Wind-Torn Veil (CN)
+- Dravik, Ironwake (NE)
+- Solenth, Star-Eyed Beggar (CG)
+- Morvhex, Shardbrood Sire (CE)
+- Vallix, the Wandering Silence (N)
+- Saetria, Last Breath of the Exiled (CN)
+- Uthrem, Splinter-Fanged Gale (NE)
+- Aetraxa, The Ruin-Clad Tempest (CE)
 
 </div>
 </div>

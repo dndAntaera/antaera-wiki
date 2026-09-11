@@ -99,30 +99,30 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
 
 **Lesser Gods**:
 
-- Vorthis, the Ember Judge (Lawful Evil)
-- Caelyra of the Hearthsong (Neutral Good)
-- Ryzek Flamechild (Chaotic Neutral)
+- Vorthis, the Ember Judge (LE)
+- Caelyra of the Hearthsong (NG)
+- Ryzek Flamechild (CN)
 
 **Intermediate Gods**:
 
-- Pyrak-Zhul, Chain of the Inferno (Lawful Neutral)
-- Ithriin the Blooming Pyre (True Neutral)
-- Zevakari the Scorch-Sister (Chaotic Evil)
+- Pyrak-Zhul, Chain of the Inferno (LN)
+- Ithriin the Blooming Pyre (N)
+- Zevakari the Scorch-Sister (CE)
 
 **Greater Gods**:
 
-- Aurem Sol'Kai, the Dawnfire King (Lawful Good)
-- Kharrum the Black Flame (Neutral Evil)
-- Velashar of the Molten Veil (Chaotic Good)
+- Aurem Sol'Kai, the Dawnfire King (LG)
+- Kharrum the Black Flame (NE)
+- Velashar of the Molten Veil (CG)
 
 **Demigods**:
 
-- Scaelix the Spark-Drake (Chaotic Neutral)
-- Jhulane of the Candlelight Vigil (Lawful Good)
-- Morvrath the Ashworn (Neutral Evil)
-- Emberra the Flame-Whisperer (Neutral)
-- Surnyx, Dancer on Coals (Chaotic Good)
-- Cindarth the Crucible-Faced (True Neutral)
+- Scaelix the Spark-Drake (CN)
+- Jhulane of the Candlelight Vigil (LG)
+- Morvrath the Ashworn (NE)
+- Emberra the Flame-Whisperer (N)
+- Surnyx, Dancer on Coals (CG)
+- Cindarth the Crucible-Faced (N)
 
 </div>
 </div>

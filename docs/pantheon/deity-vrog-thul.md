@@ -14,12 +14,13 @@ title: "Vrog’thul, Herald of Ooze"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A dribbling, open eye melting into slime
 - **Home Plane**: Swamp of Oblivion
-- **Alignment**: Chaotic Evil
+- **Alignment**: CE
 - **Portfolio**: Ooze, Corruption, Filth, Hunger
 - **Worshipers**: Druids, sorcerers, warlocks, cultists
-- **Cleric Alignments**: Chaotic Evil, Neutral Evil, Chaotic Neutral
+- **Cleric Alignments**: CE, CN, NE
 - **Domains**: Chaos, Evil, Ooze, Slime
 - **Favored Weapon**: Heavy flail
 

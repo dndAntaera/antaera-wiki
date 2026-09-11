@@ -14,12 +14,13 @@ title: "Helus, God of Death"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: Blindfolded skull
 - **Home Plane**: Ethereal Plane
-- **Alignment**: Neutral Evil
+- **Alignment**: NE
 - **Portfolio**: Death, Afterlife, Darkness, Souls
 - **Worshipers**: Cleric, necromancer, assassin, undertaker, meldshaper
-- **Cleric Alignments**: Lawful Evil, Neutral Evil, Chaotic Evil, Neutral
+- **Cleric Alignments**: CE, LE, NE
 - **Domains**: Death, Darkness, Evil, Repose
 - **Favored Weapon**: Scythe
 

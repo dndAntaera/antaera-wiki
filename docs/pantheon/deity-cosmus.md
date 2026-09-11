@@ -14,12 +14,13 @@ title: "Cosmus, God of Magic"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: Star in front of a book
 - **Home Plane**: The Astral Plane
-- **Alignment**: True Neutral
+- **Alignment**: N
 - **Portfolio**: Knowledge, Magic, Balance
 - **Worshipers**: Wizards, sorcerers, archivists, bards, sages
-- **Cleric Alignments**: Neutral Good, Lawful Neutral, True Neutral, Chaotic Neutral, Neutral Evil
+- **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Knowledge, Magic, Balance, Spell, Mind
 - **Favored Weapon**: Quarterstaff
 

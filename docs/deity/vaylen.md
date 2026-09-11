@@ -14,22 +14,21 @@ title: "Vaylen, Patron of Sailors and Travelers"
 
 # Overview
 
-- **Symbol**: A compass encircled by symbols of waves and meandering paths
+- **Rank**: Lesser God
+- **Symbol**: A compass encircled by waves and meandering paths
 - **Home Plane**: The Wanderer's Trove, Zephyr Haven
-- **Alignment**: Chaotic Good
+- **Alignment**: CG
 - **Portfolio**: Travel, oceans, winds, safe passage
 - **Worshipers**: Seafarers, explorers, messengers
-- **Cleric Alignments**: Chaotic Good, Neutral Good, Chaotic Neutral
+- **Cleric Alignments**: CG, CN, NG
 - **Domains**: Celerity, Liberation, Ocean, Travel
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 From the mysterious depths, Vaylen emerged as an aquatic elf consumed by an insatiable desire to discover what lay beyond the known. Her voyages across the realms, by sea and by land, transcended the tales of ordinary adventurers, elevating her to the status of a deity of guidance and exploration. She became a beacon for those who dared to dream of charting the uncharted, inspiring countless to follow the paths she blazed.
 
 **Description**
 Vaylen presents herself as an aquatic elf adventurer, her skin shimmering with the iridescent hues of the deep sea caressed by sunlight. Her eyes, wide with the wisdom of countless journeys, mirror the ever-changing sea—captivating and deep. Adorned in attire suited for a seasoned traveler, she combines the practicality necessary for exploration with the grace inherent to her elven lineage. A tricorn hat, emblematic of her seafaring adventures, rests atop her head, symbolizing her indomitable spirit of exploration. Essential to her ensemble are a compass, ever-present at her side, maps secured in her belt, and a cloak that undulates as if moved by unseen tides, signaling her as a voyager of the boundless oceans and endless terrains.
-
-A compass encircled by symbols of waves and meandering paths, signifying Vaylen's safeguarding of all travelers, whether they navigate by the stars above or the currents below.
 
 **Dogma**
 **Seek the Horizon**: This tenet encourages followers to approach the unknown with curiosity and an open heart, seeing every discovery as a valuable treasure. It’s about finding joy and wisdom in the journey, urging adventurers to embrace the lessons hidden in every corner of the world, transforming each step into an enriching experience that broadens their understanding of the universe and themselves.
@@ -48,7 +47,7 @@ Vaylen's devout followers, ranging from seafarers and explorers to messengers an
 Vaylen, with her indomitable spirit, opposes forces that seek to curtail the freedoms of exploration and adventure. She stands as a guardian against those who threaten the essence of discovery, protecting the right of all souls to journey freely and fearlessly.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 <div class="wd-cell wd-aside" markdown>

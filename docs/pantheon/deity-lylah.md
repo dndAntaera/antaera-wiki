@@ -14,12 +14,13 @@ title: "Lylah, Lady of Water"
 
 # Overview
 
+- **Rank**: Intermediate God
 - **Symbol**: A silver wave coiled around a pearl
 - **Home Plane**: Elemental Plane of Water
-- **Alignment**: Chaotic Neutral
+- **Alignment**: CN
 - **Portfolio**: Water, Freedom, Change, Intuition
 - **Worshipers**: Druids, sorcerers, rangers, sailors, various aquatic races
-- **Cleric Alignments**: CG, CN, CE, N
+- **Cleric Alignments**: CE, CG, CN
 - **Domains**: Chaos, Water, Travel, Trickery
 - **Favored Weapon**: Trident
 

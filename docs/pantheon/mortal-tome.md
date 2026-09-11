@@ -14,14 +14,15 @@ title: "Tome, Keeper of the Celestial Library"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: An intricate celestial sigil with cosmic runes swirling around it
 - **Home Plane**: The Astral Archive, Astral Plane
-- **Alignment**: Lawful Neutral
+- **Alignment**: LN
 - **Portfolio**: Knowledge, wisdom, memory, truth
 - **Worshipers**: Scholars, sages, librarians
-- **Cleric Alignments**: Lawful Neutral, Lawful Good, Lawful Evil, Neutral
+- **Cleric Alignments**: LE, LG, LN
 - **Domains**: Knowledge, Magic, Rune, Spell
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 The origins of Tome are shrouded in mystery. Unlike other deities whose tales are woven into the fabric of creation, Tome's existence seems to transcend time and space. The celestial being appeared in the celestial realms without clear origin, sparking intrigue and curiosity among both mortal scholars and divine beings.
@@ -30,8 +31,6 @@ Tome is said to have manifested at the convergence of celestial energies, a phen
 
 **Description**
 Tome usually manifests as an androgynous celestial being, their form constantly shifting between ethereal forms. They emanate a soft, iridescent glow, and their eyes reflect the vast expanse of the cosmos. Tome's presence is both awe-inspiring and calming, as if the very essence of all knowledge and wisdom is encapsulated within their celestial form. Tome never takes the same form twice, so scholars are never able to draw an accurate depiction of Tome.
-
-The symbol of Tome is an intricate celestial sigil with cosmic runes swirling around it. This symbol is often inscribed on tomes, scrolls, and artifacts associated with knowledge.
 
 **Dogma**
 **Pursuit of Knowledge**: Followers of Tome are encouraged to seek knowledge in all its forms. The deity values the thirst for understanding and the relentless pursuit of truth.
@@ -50,7 +49,7 @@ The clergy of Tome consists of scholars, sages, and librarians who dedicate thei
 Tome's mysterious origin has led to speculation and intrigue among other deities. Some view the celestial being suspiciously, wondering if their enigmatic nature hides darker motives. Despite this, Tome remains neutral, offering knowledge to those who seek it without favoritism.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 <div class="wd-cell wd-aside" markdown>

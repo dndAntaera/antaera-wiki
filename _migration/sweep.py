@@ -221,6 +221,12 @@ def main():
     check("no z-index on a Material container", bad,
           "it becomes a stacking context and traps the drawer under the overlay")
 
+    check("alignments are abbreviated",
+          ["%s  %s" % (f, m.group(0))
+           for f, t in pages.items()
+           for m in re.finditer(r"\b(?:lawful|chaotic|neutral|true) (?:good|evil|neutral)\b"
+                                r"|\((?:Neutral|TN)\)", body_of(t), re.I)])
+
     check("units are ft and lbs",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()
@@ -232,8 +238,19 @@ def main():
     # sidebar only where there is a picture to put in it. Stubs follow the stub
     # template. A new god is usually made by copying an old one, and this is
     # what drifts when that happens.
-    fields = ["Symbol", "Home Plane", "Alignment", "Portfolio", "Worshipers",
+    fields = ["Rank", "Symbol", "Home Plane", "Alignment", "Portfolio", "Worshipers",
               "Cleric Alignments", "Domains", "Favored Weapon"]
+    axes = {"LG": (0, 0), "LN": (0, 1), "LE": (0, 2), "NG": (1, 0), "N": (1, 1),
+            "NE": (1, 2), "CG": (2, 0), "CN": (2, 1), "CE": (2, 2)}
+
+    def clerics(code):
+        # One step on one axis, and no N cleric unless the god is N.
+        lc, ge = axes[code]
+        near = {(lc, ge)} | {(lc + d, ge) for d in (-1, 1) if 0 <= lc + d <= 2} \
+            | {(lc, ge + d) for d in (-1, 1) if 0 <= ge + d <= 2}
+        if code != "N":
+            near.discard((1, 1))
+        return ", ".join(sorted(c for c, a in axes.items() if a in near))
     bad = []
     for f, t in pages.items():
         if not re.match(r"docs/(deity|pantheon)/", f):
@@ -246,8 +263,24 @@ def main():
                 bad.append("%s  stub is not in the stub template" % f)
             continue
         got = re.findall(r"^- \*\*([^*]+)\*\*: ", b, re.M)
-        if got[:8] != fields:
-            bad.append("%s  facts are %s" % (f, got[:8]))
+        if got[:9] != fields:
+            bad.append("%s  facts are %s" % (f, got[:9]))
+        al = re.search(r"^- \*\*Alignment\*\*: (\S+)$", b, re.M)
+        ca = re.search(r"^- \*\*Cleric Alignments\*\*: (.+)$", b, re.M)
+        if not al or al.group(1) not in axes:
+            bad.append("%s  alignment is not an abbreviation" % f)
+        elif not ca or ca.group(1) != clerics(al.group(1)):
+            bad.append("%s  cleric alignments %s, should be %s" % (
+                f, ca.group(1) if ca else None, clerics(al.group(1))))
+        if re.search(r"^- \*\*Rank\*\*: (?!(Greater|Intermediate|Lesser) God$)", b, re.M):
+            bad.append("%s  no rank" % f)
+        if "*TBD*" in b:
+            bad.append("%s  says TBD where it should be an em dash" % f)
+        sym = re.search(r"^- \*\*Symbol\*\*: (.+)$", b, re.M)
+        if sym and re.search(r"symboli[sz]|represent|signif|\bsymbols? of\b|\bthis symbol\b", sym.group(1), re.I):
+            bad.append("%s  symbol describes itself: %s" % (f, sym.group(1)[:40]))
+        if re.search(r"^(The symbol of|This symbol)\b", b, re.M):
+            bad.append("%s  prose about the symbol that talks about itself" % f)
         for sec in ("Origins", "Description", "Dogma", "Home Sphere"):
             if not re.search(r"^\*\*%s\*\*$" % re.escape(sec), b, re.M):
                 bad.append("%s  no %s" % (f, sec))
@@ -261,6 +294,52 @@ def main():
             if "![](" not in m.group(1):
                 bad.append("%s  a sidebar with no picture" % f)
     check("every god's page follows Format A", bad)
+
+    # A god on The Pantheons is listed on a sphere under the rank and with the
+    # alignment The Pantheons gives. The spheres are copied from it by hand,
+    # and drifted: four gods under the wrong rank on Antaera, one under the
+    # wrong alignment.
+    gods, tier, last = {}, None, None
+    for line in pages.get("docs/pantheons.md", "").split("\n"):
+        m = re.match(r"^##[ \t]+(\w+)", line)
+        if m:
+            tier = m.group(1) if m.group(1) in ("Greater", "Intermediate", "Lesser") else None
+            last = None
+            continue
+        if re.match(r"^#[ \t]", line):
+            tier = last = None
+            continue
+        m = re.match(r"^- \[?([^\],\n]+)", line)
+        if m and tier:
+            last = m.group(1).strip().lower()
+            gods[last] = [tier, None]
+            continue
+        a = re.match(r"^\s+- Alignment:[ \t]*(\S+)", line)
+        if a and last:
+            gods[last][1] = a.group(1)
+    bad = []
+    for f, t in pages.items():
+        if not re.match(r"docs/spelljamming/sphere-", f):
+            continue
+        sec = re.search(r"^# Recognized Pantheon[ \t]*\n(.*?)(?=\n</div>|\n# |\Z)", t, re.M | re.S)
+        if not sec:
+            continue
+        label = ""
+        for line in sec.group(1).split("\n"):
+            g = re.match(r"^\*\*(.+?)\*\*", line)
+            if g:
+                label = g.group(1)
+                continue
+            m = re.match(r"^- (.+?) \(([^)]+)\)[ \t]*$", line)
+            if not m:
+                continue
+            key = re.split(r",| —", m.group(1))[0].strip().lower()
+            if key in gods:
+                want_tier, want_al = gods[key]
+                if want_tier.lower() not in label.lower() or (want_al and m.group(2) != want_al):
+                    bad.append("%s  %s under %r (%s); The Pantheons: %s (%s)" % (
+                        f, key, label, m.group(2), want_tier, want_al))
+    check("sphere pantheons agree with The Pantheons", bad)
 
     # --- content -----------------------------------------------------------
     print("\nCONTENT")

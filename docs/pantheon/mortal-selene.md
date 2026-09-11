@@ -14,14 +14,15 @@ title: "Selene, the Nightweaver"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A crescent moon intertwined with intricate elven glyphs
 - **Home Plane**: The Moonshadow Sanctum, between the Ethereal and Material Planes
-- **Alignment**: Chaotic Neutral
+- **Alignment**: CN
 - **Portfolio**: Secrets, shadows, night, illusion
 - **Worshipers**: Moon priests, shadowcasters
-- **Cleric Alignments**: Chaotic Neutral, Chaotic Good, Chaotic Evil, Neutral
+- **Cleric Alignments**: CE, CG, CN
 - **Domains**: Darkness, Moon, Mysticism, Shadow
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Selene Starwhisper was born in the Ethereal Enclave, a city existing on the Ethereal Plane and is the capital of ghost elven society. As a former priestess of the previous goddess of the night, she was gifted the title and role when the time was right. And she will do so for her favored priestess when it is time.
@@ -30,8 +31,6 @@ Selene's existence is a blend of ethereal and tangible, reflecting the dual natu
 
 **Description**
 Selene is an ethereal elf of timeless beauty, her skin radiating a soft, silvery luminescence. Her hair flows like liquid moonlight, and her eyes gleam with the mysteries of the night. Selene is often depicted in flowing, star-studded robes that seem to mirror the night sky. When she walks, it's as if shadows and moonbeams dance around her, leaving an ethereal trail.
-
-The symbol of Selene is a crescent moon intertwined with intricate elven glyphs. This symbol represents the goddess's influence over the night, the moon, and the weaving of secrets.
 
 **Dogma**
 **Embrace the Night**: Selene encourages her followers to find solace, wisdom, and inspiration in the embrace of the night. The night is a canvas for dreams, a realm where secrets are revealed and hidden truths come to light.
@@ -50,7 +49,7 @@ The clergy of Selene includes moon priests and shadowcasters who channel the mys
 Selene maintains a neutral stance, as the night itself encompasses both light and shadow. However, she opposes entities that seek to exploit secrets for malicious purposes or disturb the delicate balance between light and darkness.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 <div class="wd-cell wd-aside" markdown>

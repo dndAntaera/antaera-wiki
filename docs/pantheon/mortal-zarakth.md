@@ -14,22 +14,21 @@ title: "Zarakth, the Abyssal Scourge"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A blood-red vortex swirling around a jagged, shattered blade
 - **Home Plane**: The Shattered Abyss
-- **Alignment**: Chaotic Evil
+- **Alignment**: CE
 - **Portfolio**: Destruction, murder, chaos, ruin
 - **Worshipers**: Demons, cultists, nihilistic warlords
-- **Cleric Alignments**: Chaotic Evil, Neutral Evil, Chaotic Neutral
+- **Cleric Alignments**: CE, CN, NE
 - **Domains**: Destruction, Evil, War, Wrath
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Zarakth emerged from the depths of the Abyss, a realm saturated with pure chaos and malice. Born from the malevolent energies that thrive in the heart of the Abyss, he swiftly ascended to become the feared lord of destruction and murder. Zarakth's influence spreads like a plague, fanning the flames of chaos and sowing the seeds of annihilation across the multiverse.
 
 **Description**
 Zarakth is a monstrous and imposing demon lord, towering over lesser denizens of the Abyss. His form is a grotesque fusion of nightmarish features—horns that twist like blackened spires, scales that shimmer with an abyssal radiance, and eyes that burn with an insatiable hunger for chaos. His very presence distorts the air, evoking the essence of impending destruction.
-
-The symbol of Zarakth is a blood-red vortex swirling around a jagged, shattered blade—a representation of the chaotic destruction he brings to the cosmos.
 
 **Dogma**
 **Unbridled Destruction**: Zarakth revels in the wanton destruction of realms and civilizations. His followers are tasked with spreading chaos, leaving ruin in their wake as they unleash the destructive forces at their disposal.
@@ -48,7 +47,7 @@ The cult of Zarakth consists of bloodthirsty demons, deranged cultists, and nihi
 Zarakth opposes deities and entities associated with order, creation, and the preservation of life. His influence seeks to tear down the fabric of existence, making him a sworn enemy to those who stand for stability, creation, and the balance of the cosmos.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 </div>

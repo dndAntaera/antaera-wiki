@@ -14,12 +14,13 @@ title: "Seralyne, Herald of Radiance"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: Burning sun framed by silver wings
 - **Home Plane**: Radiance
-- **Alignment**: Lawful Good
+- **Alignment**: LG
 - **Portfolio**: Radiance, Zeal, Crusades, Purity, Sunlight
 - **Worshipers**: Paladins, clerics, rangers, inquisitors
-- **Cleric Alignments**: LG, NG, LN
+- **Cleric Alignments**: LG, LN, NG
 - **Domains**: Good, Law, Sun, Glory, Purification
 - **Favored Weapon**: Scimitar
 

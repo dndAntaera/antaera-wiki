@@ -90,7 +90,7 @@ If a character has 5 ranks in the associated profession skill, they gain a +2 in
 **Benefit**: Once per day, you may gain a +2 insight bonus on the associated skill you selected.
 
 ## Sailor
-*Whether it is a ship that sails the ocean, the sky, or the Astral Sea, you are skilled at manning one of these vessels.*
+*Whether it is a ship that sails the ocean, the sky, or the Astral Plane, you are skilled at manning one of these vessels.*
 
 **Associated Skills**: Profession (sailor), plus any one of the following: Balance, Use Rope, Tumble<br>
 **Type**: General<br>
@@ -234,7 +234,7 @@ You must work with the DM to pick a guild to which you belong.
 **Benefit**: Once per month, you may purchase a single item for 10% less than the asking price.
 
 ## Guild: Sailor
-*You belong to some sort of organization that runs one or more sailing ships. Whether it is a ship that sails the ocean, the sky, or the Astral Sea, you are skilled at manning one of these vessels.*
+*You belong to some sort of organization that runs one or more sailing ships. Whether it is a ship that sails the ocean, the sky, or the Astral Plane, you are skilled at manning one of these vessels.*
 
 **Associated Skills**: Profession (sailor), plus any one of the following: Balance, Use Rope, Tumble<br>
 **Type**: Guild<br>
@@ -333,7 +333,7 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Prerequisite**: Native to a tainted plane<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Intimidate<br>
 **Type**: Extraplanar<br>
-**Benefit**: You gain the [Pure Soul](../the-index.md) feat for free at 1st level without needing to meet the prerequisites, nor do you lose the feat for changing alignment as per normal with Exalted feats. This feat cannot be retrained. If you would gain this feat from another source, you instead gain a +1 bonus to Depravity and Corruption checks as if you had an additional Exalted feat. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. For example, a character that is Lawful Neutral has a Lawful Evil Aura.
+**Benefit**: You gain the [Pure Soul](../the-index.md) feat for free at 1st level without needing to meet the prerequisites, nor do you lose the feat for changing alignment as per normal with Exalted feats. This feat cannot be retrained. If you would gain this feat from another source, you instead gain a +1 bonus to Depravity and Corruption checks as if you had an additional Exalted feat. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. For example, a character that is LN has an LE Aura.
 
 ## Zephyr Native
 *You were born and raised in the Zephyr Haven, as such your ancestors hailed from the Elemental Plane of Air.*

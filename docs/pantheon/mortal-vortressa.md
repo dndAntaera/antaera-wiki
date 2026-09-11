@@ -14,22 +14,21 @@ title: "Vortressa, the Mother of Monsters"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A corrupted Druidic glyph intertwined with monstrous teeth
-- **Home Plane**: The Abyssal Grove, a layer of the Abyss
-- **Alignment**: Neutral Evil
+- **Home Plane**: The Abyssal Grove, the Beastlands
+- **Alignment**: NE
 - **Portfolio**: Monsters, dark desires, mutation, hunger
 - **Worshipers**: Evil druids, warlocks
-- **Cleric Alignments**: Neutral Evil, Lawful Evil, Chaotic Evil, Neutral
+- **Cleric Alignments**: CE, LE, NE
 - **Domains**: Evil, Hunger, Pestilence, Spider
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Vortressa emerged from the depths of the Abyssal Grove, a realm where natural and abyssal forces intertwine. Born as an Eladrin who embraced the powers of the Abyss, she swiftly ascended to become the revered matron of monsters. Vortressa's influence spreads like a shadow, shaping monstrous beings in the image of the twisted yearnings within. Her ascension involved the consumption of monstrous souls and spending centuries among the corruption of the Abyss, until her depravity and domination of monsters earned her the divinity she craved.
 
 **Description**
 Vortressa is an alluring and fearsome Eladrin, her appearance a captivating blend of beauty and monstrosity. Her skin is adorned with subtle patterns resembling exotic tattoos that seem to writhe with a life of their own. Vortressa's eyes are pools of darkness, reflecting the twisted desires that fuel her dominion. She is often depicted surrounded by monstrous beings, each a manifestation of dark and twisted creatures.
-
-The symbol of Vortressa is a corrupted representation of a traditional Druidic glyph intertwined with monstrous teeth, symbolizing the fusion of corrupted nature and monstrous evolution under her influence.
 
 **Dogma**
 **Creation of Monstrous Beings**: Vortressa encourages the creation of monstrous beings that embody the savage beauty of the wilderness. Followers are tasked with channeling the corruptive forces of the Abyss to craft creatures that seamlessly blend ferocity and malevolence.
@@ -39,7 +38,7 @@ The symbol of Vortressa is a corrupted representation of a traditional Druidic g
 **Corruptive Evolution**: Vortressa encourages the corruption and evolution of nature’s creations into monstrous forms. Followers are tasked with manipulating the natural order, fostering the growth of twisted creatures that embody the dual essence of nature and corruption.
 
 **Divine Realm**
-Vortressa presides over a corrupted grove known as the Abyssal Grove, a nightmarish realm occupying its own layer of the Abyss, where monstrous creatures are bred and cultivated. The Abyssal Grove is a place where the boundaries between the natural and unnatural mingle, and the miasma of corruption is a constant presence. It is a haven for those who seek forbidden powers and the creation of monstrous forms.
+Vortressa presides over a corrupted grove known as the Abyssal Grove, a nightmarish realm located in the Beastlands where monstrous creatures are bred and cultivated. The Abyssal Grove is a place where the boundaries between the natural and unnatural mingle, and the miasma of corruption is a constant presence. It is a haven for those who seek forbidden powers and the creation of monstrous forms.
 
 **Clergy and Temples**
 The clergy of Vortressa includes evil druids, warlocks, and those who seek to harness the power of corrupted nature. Temples dedicated to the Mother of Monsters are hidden within corrupted forests and other similar places. They are corrupted groves adorned with symbols that reflect the dual nature of the corrupted sylvan dominion.
@@ -48,7 +47,7 @@ The clergy of Vortressa includes evil druids, warlocks, and those who seek to ha
 Vortressa opposes deities associated with pristine nature, purity, and the untouched Feywild. Her influence seeks to transform and corrupt the natural order, making her a foe to those who stand for the untainted beauty of the world.
 
 **Home Sphere**
-*TBD*
+—
 
 </div>
 <div class="wd-cell wd-aside" markdown>

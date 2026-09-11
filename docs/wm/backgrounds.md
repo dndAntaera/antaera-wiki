@@ -204,7 +204,7 @@ Those who look into your eyes can see that you have an eternal tie to Law. Commo
 **Prerequisite**: Native to a tainted plane<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Intimidate<br>
 **Type**: Extraplanar<br>
-**Benefit**: You gain the Pure Soul feat for free at 1st level without needing to meet the prerequisites. This feat cannot be retrained. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. IE: a character that is Lawful Neutral has a Lawful Evil Aura.
+**Benefit**: You gain the Pure Soul feat for free at 1st level without needing to meet the prerequisites. This feat cannot be retrained. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. IE: a character that is LN has an LE Aura.
 
 </div>
 </div>

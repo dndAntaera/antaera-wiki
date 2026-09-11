@@ -120,22 +120,22 @@ Benefit: Living allies within 30 ft of you deal an extra 1d6 points of damage on
 
 **Defensive Commander**<br>
 The orders you give in combat always keep the safety of your troops paramount.
-Prerequisite: Commander rating 2, lawful good alignment.
+Prerequisite: Commander rating 2, LG alignment.
 Benefit: Allies within 30 ft of you gain a +1 morale bonus to Armor Class.
 
 **Doublestrike Commander**<br>
 You direct your troops to press the advantage against enemies they have wounded.
-Prerequisite: Commander rating 5, chaotic good alignment.
+Prerequisite: Commander rating 5, CG alignment.
 Benefit: If an ally within 30 ft of you rolls a natural 20 on a melee attack, that ally can immediately make another melee attack with the same weapon or natural attack, using the same attack bonus.
 
 **Dwarf Commander**<br>
 You are adept at inspiring your troops to stand fast against giants and other foes of the dwarf people.
-Prerequisite: Commander rating 3, dwarf, lawful good alignment.
+Prerequisite: Commander rating 3, dwarf, LG alignment.
 Benefit: Dwarf allies within 30 ft of you gain a +2 morale bonus to Armor Class, or a +4 morale bonus to AC against giants.
 
 **Elf Commander**<br>
 You are particularly good at safeguarding the elves under your command.
-Prerequisite: Commander rating 3, elf, chaotic good alignment.
+Prerequisite: Commander rating 3, elf, CG alignment.
 Benefit: Elf allies within 30 ft of you gain a +2 morale bonus on saving throws.
 
 **Feral Commander**<br>
@@ -150,7 +150,7 @@ Benefit: Allies within 30 ft of you gain a +2 morale bonus on melee attacks agai
 
 **Goblinoid Commander**<br>
 You bring out the bloodthirsty, savage nature in your goblinoid troops.
-Prerequisite: Commander rating 3, goblinoid, lawful evil alignment.
+Prerequisite: Commander rating 3, goblinoid, LE alignment.
 Benefit: Goblinoid allies within 30 ft of you gain a +2 morale bonus on melee attack rolls.
 
 **Healing Commander**<br>
@@ -160,7 +160,7 @@ Benefit: Whenever you use a spell or effect to heal damage taken by an ally, you
 
 **Maneuvering Commander**<br>
 You keep your soldiers always on the move, looking for the weakest points in your enemies’ defenses.
-Prerequisite: Commander rating 2, chaotic good alignment.
+Prerequisite: Commander rating 2, CG alignment.
 Benefit: Any ally who starts her turn within 30 ft of you and moves at least 10 ft gains a +2 morale bonus on the next melee attack roll she makes during her turn.
 
 **Melee Commander**<br>
@@ -185,7 +185,7 @@ Benefit: Allies within 30 ft of you deal an extra 1d6 points of damage on any su
 
 **Orc Commander**<br>
 You can hone the fighting instincts of the orcs under your command.
-Prerequisite: Commander rating 3, orc, chaotic evil alignment.
+Prerequisite: Commander rating 3, orc, CE alignment.
 Benefit: Orc allies within 30 ft of you deal an extra 1d6 points of damage on melee attacks. This benefit is considered a morale bonus.
 
 **Orderly Commander**<br>
@@ -200,12 +200,12 @@ Benefit: Allies within 30 ft of you gain a +1 morale bonus on saving throws.
 
 **Pursuing Commander**<br>
 You direct your soldiers to chase down any cowards who dare to escape your iron grip.
-Prerequisite: Commander rating 2, lawful evil alignment.
+Prerequisite: Commander rating 2, LE alignment.
 Benefit: Allies within 30 ft of you deal an extra 1d6 points of damage against foes who are frightened or panicked. This benefit is considered a morale bonus.
 
 **Reckless Commander**<br>
 You inspire your allies to charge ferociously into battle.
-Prerequisite: Commander rating 2, chaotic evil alignment.
+Prerequisite: Commander rating 2, CE alignment.
 Benefit: Any ally who begins her turn within 30 ft of you deals an extra 1d6 points of damage on the next charge attack she makes during her turn. This benefit is considered a morale bonus.
 
 **Runt-Squasher Commander**<br>
@@ -215,7 +215,7 @@ Benefit: Allies within 30 ft of you gain a +2 morale bonus on attacks made again
 
 **Sneaky Commander**<br>
 You are good at surrounding your enemies, then striking from all sides.
-Prerequisite: Commander rating 5, chaotic evil alignment, sneak attack ability.
+Prerequisite: Commander rating 5, CE alignment, sneak attack ability.
 Benefit: Allies within 30 ft of you deal an extra 1d6 points of damage against foes that they flank. This benefit is considered a morale bonus.
 
 **Spellslinging Commander**<br>
@@ -225,12 +225,12 @@ Benefit: Any area spell cast by an ally within 30 ft of you deals an extra 1d6 p
 
 **Steadfast Commander**<br>
 You are skilled at getting your troops to hold the line against the fiercest attacks.
-Prerequisite: Commander rating 5, lawful good alignment.
+Prerequisite: Commander rating 5, LG alignment.
 Benefit: Allies within 30 ft of you gain a +2 morale bonus to Armor Class against foes who move at least 5 ft before attacking.
 
 **Tyrannical Commander**<br>
 Your soldiers are more afraid of you than they are of the enemy.
-Prerequisite: Commander rating 5, lawful evil alignment, Intimidate 5 ranks.
+Prerequisite: Commander rating 5, LE alignment, Intimidate 5 ranks.
 Benefit: Allies within 30 ft of you gain a +5 morale bonus on morale checks but automatically become panicked if they fail a morale check.
 
 </div>

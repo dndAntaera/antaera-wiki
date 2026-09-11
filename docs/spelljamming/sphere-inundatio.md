@@ -94,28 +94,28 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
 
 **Lesser Gods**
 
-- Shuiling, Weaver of Tides and Threads (Neutral Good)
-- Kōzaru, Lord of the Hungry Deep (Chaotic Evil)
-- Jinhai, Keeper of the Mist-Seal (Lawful Neutral)
+- Shuiling, Weaver of Tides and Threads (NG)
+- Kōzaru, Lord of the Hungry Deep (CE)
+- Jinhai, Keeper of the Mist-Seal (LN)
 
 **Intermediate Gods**
 
-- Yuurei-no-Kami, Lady of Forgotten Foam (Chaotic Good)
-- Daisensui, the Stone Anchor (Lawful Neutral)
-- Haijun, the Salt Tyrant (Neutral Evil)
+- Yuurei-no-Kami, Lady of Forgotten Foam (CG)
+- Daisensui, the Stone Anchor (LN)
+- Haijun, the Salt Tyrant (NE)
 
 **Greater Gods**
 
-- Seikatsu-no-Mikoto, Sovereign of the Living Pearl (True Neutral)
-- Namiya, the Spiral Empress (Chaotic Neutral)
-- Ryugokami, Drowned Dragon King (Lawful Evil)
+- Seikatsu-no-Mikoto, Sovereign of the Living Pearl (N)
+- Namiya, the Spiral Empress (CN)
+- Ryugokami, Drowned Dragon King (LE)
 
 **Demigods**
 
-- Amei-no-Ko, Daughter of the Storm Pearl (Chaotic Neutral)
-- Shugenka, the Sunken Seer (Lawful Evil)
-- Umi no Arare, Spinner of Sea-Salts (True Neutral)
-- Haruka, Whisper of the Shoals (Neutral Good)
+- Amei-no-Ko, Daughter of the Storm Pearl (CN)
+- Shugenka, the Sunken Seer (LE)
+- Umi no Arare, Spinner of Sea-Salts (N)
+- Haruka, Whisper of the Shoals (NG)
 
 </div>
 </div>

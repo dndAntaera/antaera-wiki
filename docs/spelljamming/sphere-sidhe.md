@@ -108,7 +108,7 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tanâ€
 **Intermediate Deities**
 
 - Ithirial, Bloommother of the Spring Courts (NG)
-- Sylmadros, Keeper of Feywild Balance (TN)
+- Sylmadros, Keeper of Feywild Balance (N)
 - Vaelrix, the Gloam-Lord of Wounds (NE)
 
 **Greater Deities**
@@ -122,12 +122,12 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tanâ€
 - Liraeth, the Dancer of Petal and Flame (CG)
 - Orynne, the Lark-Voiced Duelist (CN)
 - Farethin, the Shepherd of Blooming Beasts (NG)
-- Nyssael, Lady of Verdant Whim (TN)
-- Tholivar, the Ink-Scribe of Forgotten Songs (TN)
+- Nyssael, Lady of Verdant Whim (N)
+- Tholivar, the Ink-Scribe of Forgotten Songs (N)
 - Verisyl, the Dewleaf Cantor (NG)
 - Caemira, Weaver of Mirrorwinds (CG)
 - Sylorien, the Mist-Walker (CN)
-- Emelthar, the Moth Lord of the Lamp (TN)
+- Emelthar, the Moth Lord of the Lamp (N)
 
 </div>
 </div>

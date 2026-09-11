@@ -99,33 +99,33 @@ Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy
 
 **Lesser Deities**
 
-- Saphrael, The Eclipsed Rose (Lawful Good)
-- Myris Veld, The Whispering Root (Lawful Neutral)
-- Ankarion, Pallid King of Ash (Lawful Evil)
+- Saphrael, The Eclipsed Rose (LG)
+- Myris Veld, The Whispering Root (LN)
+- Ankarion, Pallid King of Ash (LE)
 
 **Intermediate Deities**
 
-- Seressa of the Hollow Eyes (Neutral Good)
-- Caltraxis, Veil-Spanner and Duskseer (True Neutral)
-- Vorthuun the Bone-Masked Tyrant (Neutral Evil)
+- Seressa of the Hollow Eyes (NG)
+- Caltraxis, Veil-Spanner and Duskseer (N)
+- Vorthuun the Bone-Masked Tyrant (NE)
 
 **Greater Deities**
 
-- Elestryn, the Gilded Shade (Chaotic Good)
-- Yzurrith, the Verdant Rot — Queen of the Unseelie Court (Chaotic Neutral)
-- Luriath, the Devourer of Names — King of the Unseelie Court (Chaotic Evil)
+- Elestryn, the Gilded Shade (CG)
+- Yzurrith, the Verdant Rot — Queen of the Unseelie Court (CN)
+- Luriath, the Devourer of Names — King of the Unseelie Court (CE)
 
 **Demigods**
 
-- Moraelin the Still (True Neutral)
-- Vellharn, Lord of Dimming Veils (Neutral Evil)
-- Sorrowbranch, the Thorn-Wreathed Crone (Neutral Evil)
-- Cythrea the Thorn-Marked (Chaotic Neutral)
-- Thryssis of the Pale Mirth (Chaotic Evil)
-- Skavren the Inkmaw (Chaotic Evil)
-- Nelathe, Weaver of Feral Dances (Chaotic Neutral)
-- Voresh, the Bleeding Antler (True Neutral)
-- Kyrasith, the Hollow Seed (Neutral)
+- Moraelin the Still (N)
+- Vellharn, Lord of Dimming Veils (NE)
+- Sorrowbranch, the Thorn-Wreathed Crone (NE)
+- Cythrea the Thorn-Marked (CN)
+- Thryssis of the Pale Mirth (CE)
+- Skavren the Inkmaw (CE)
+- Nelathe, Weaver of Feral Dances (CN)
+- Voresh, the Bleeding Antler (N)
+- Kyrasith, the Hollow Seed (N)
 
 </div>
 </div>

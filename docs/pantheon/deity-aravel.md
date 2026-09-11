@@ -14,12 +14,13 @@ title: "Aravel, Herald of Storms"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A jagged bolt cleaving a raincloud
 - **Home Plane**: Quasi-Elemental Plane of Lightning
-- **Alignment**: Chaotic Good
+- **Alignment**: CG
 - **Portfolio**: Storms, Lightning, Courage, Freedom
 - **Worshipers**: Sorcerers, druids, barbarians, sailors
-- **Cleric Alignments**: Chaotic Good, Neutral Good, Chaotic Neutral
+- **Cleric Alignments**: CG, CN, NG
 - **Domains**: Air, Storm, Weather, Good, Chaos
 - **Favored Weapon**: Cutlass
 

@@ -37,15 +37,15 @@ To use the relic's power, you must worship the deity tied to the relic and sacri
 
 # Rituals
 
-- **Lawful Good**: typically an exaltation and the ringing of a bell.
-- **Neutral Good**: typically a silent prayer and the burning of incense.
-- **Chaotic Good**: typically an audible prayer and the banging of a drum or gong.
-- **Lawful Neutral**: typically a quick exaltation and the burning of incense.
-- **True Neutral**: typically a silent prayer.
-- **Chaotic Neutral**: typically a display of passion or ambition.
-- **Lawful Evil**: typically a profane ritual involving incense and a prayer.
-- **Neutral Evil**: typically a silent prayer and a blood sacrifice.
-- **Chaotic Evil**: typically a loud exaltation and a blood sacrifice.
+- **LG**: typically an exaltation and the ringing of a bell.
+- **NG**: typically a silent prayer and the burning of incense.
+- **CG**: typically an audible prayer and the banging of a drum or gong.
+- **LN**: typically a quick exaltation and the burning of incense.
+- **N**: typically a silent prayer.
+- **CN**: typically a display of passion or ambition.
+- **LE**: typically a profane ritual involving incense and a prayer.
+- **NE**: typically a silent prayer and a blood sacrifice.
+- **CE**: typically a loud exaltation and a blood sacrifice.
 
 </div>
 </div>

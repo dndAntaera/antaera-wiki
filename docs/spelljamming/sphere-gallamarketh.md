@@ -101,31 +101,31 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 
 **Lesser**
 
-- Bravari, The Silent Seal (Lawful Good)
-- Cindhaera, The Guildmother's Grace (Neutral Good)
-- Varnel, Hand of Inspired Chaos (Chaotic Good)
+- Bravari, The Silent Seal (LG)
+- Cindhaera, The Guildmother's Grace (NG)
+- Varnel, Hand of Inspired Chaos (CG)
 
 **Intermediate**
 
-- Tollenar, Lord of Ledgers (Lawful Neutral)
-- Mirellien, The Masked Artisan (True Neutral)
-- Zepharii, Muse of Fleeting Works (Chaotic Neutral)
+- Tollenar, Lord of Ledgers (LN)
+- Mirellien, The Masked Artisan (N)
+- Zepharii, Muse of Fleeting Works (CN)
 
 **Greater**
 
-- Encarthis, The Prime Binder (Lawful Neutral)
+- Encarthis, The Prime Binder (LN)
 
 **Demigods**
 
-- Rezzin, Curator of Dyes and Threads (Neutral Good)
-- Alvon Marr, Architect of the Folded City (Lawful Neutral)
-- Taedrix, Chisel-Soul of the Vaulted Stone (True Neutral)
-- Quess, Ink-Hand of Unfinished Deeds (Chaotic Neutral)
-- Yrria of the One Song (Neutral Good)
-- Dellik, Patron of the Broken Tool (Chaotic Good)
-- Selkesh, Voice Beneath the Contract (Neutral Evil)
-- Harmonel, The Ledger Reclaimed (Lawful Evil)
-- Fyraza, Firehand of Artisan's Spite (Chaotic Evil)
+- Rezzin, Curator of Dyes and Threads (NG)
+- Alvon Marr, Architect of the Folded City (LN)
+- Taedrix, Chisel-Soul of the Vaulted Stone (N)
+- Quess, Ink-Hand of Unfinished Deeds (CN)
+- Yrria of the One Song (NG)
+- Dellik, Patron of the Broken Tool (CG)
+- Selkesh, Voice Beneath the Contract (NE)
+- Harmonel, The Ledger Reclaimed (LE)
+- Fyraza, Firehand of Artisan's Spite (CE)
 
 </div>
 </div>

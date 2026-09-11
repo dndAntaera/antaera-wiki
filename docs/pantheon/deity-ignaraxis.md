@@ -14,12 +14,13 @@ title: "Ignaraxis, Lord of Fire"
 
 # Overview
 
+- **Rank**: Intermediate God
 - **Symbol**: A blazing flame consuming a crowned skull
 - **Home Plane**: Elemental Plane of Fire
-- **Alignment**: Lawful Evil
+- **Alignment**: LE
 - **Portfolio**: Fire, Destruction, Rebirth
 - **Worshipers**: Warlocks, sorcerers, blacksmiths, evokers
-- **Cleric Alignments**: LE, NE, LN
+- **Cleric Alignments**: LE, LN, NE
 - **Domains**: Fire, Destruction, Evil, Law
 - **Favored Weapon**: Scimitar
 

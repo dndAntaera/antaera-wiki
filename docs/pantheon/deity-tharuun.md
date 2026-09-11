@@ -14,12 +14,13 @@ title: "Tharuun, Herald of Gems"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: Pickaxe crossed with a radiant crystal
 - **Home Plane**: Plane of Gems
-- **Alignment**: Neutral Good
+- **Alignment**: NG
 - **Portfolio**: Gems, Minerals, Buried Riches, Subterranean Life
 - **Worshipers**: Clerics, miners, dwarves, gemcarvers, gem mages, manifesters
-- **Cleric Alignments**: Neutral Good, Lawful Good, Chaotic Good, True Neutral
+- **Cleric Alignments**: CG, LG, NG
 - **Domains**: Earth, Good, Protection, Strength
 - **Favored Weapon**: Warpick
 

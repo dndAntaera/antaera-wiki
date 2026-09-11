@@ -14,14 +14,15 @@ title: "Lux Dawnbringer, the Luminous Sovereign"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A radiant sun, its rays extending outward in a circular pattern
 - **Home Plane**: Luminara
-- **Alignment**: Lawful Good
+- **Alignment**: LG
 - **Portfolio**: Justice, light, radiance, judgment
 - **Worshipers**: Priests and priestesses of the light, healers
-- **Cleric Alignments**: Lawful Good, Lawful Neutral, Neutral Good
+- **Cleric Alignments**: LG, LN, NG
 - **Domains**: Glory, Healing, Purification, Sun
-- **Favored Weapon**: *TBD*
+- **Favored Weapon**: —
 
 **Origins**
 Lux Dawnbringer was born in the city of Sewich, a place known for its deep connection to the arcane arts and mystical energies. From a young age, Lux exhibited an innate affinity for light and a natural ability to harness its power. The people of Sewich, recognizing her divine potential, believed her to be a living conduit to the source of all light.
@@ -30,8 +31,6 @@ As she grew older, Lux's abilities expanded, and she began to radiate an otherwo
 
 **Description**
 Lux is a radiant figure, with golden hair that seems to emit a soft glow. Her eyes shimmer with the warmth of sunlight, and she is often depicted in flowing, ethereal robes that seem to dance with beams of light. Lux's presence brings a sense of calm and hope, and her followers believe that her very essence embodies the purest form of light.
-
-The symbol of Lux Dawnbringer is a radiant sun, its rays extending outward in a circular pattern. This symbol is often worn or displayed by her followers as a mark of their devotion and a reminder of the eternal light that Lux represents.
 
 **Dogma**
 **Embrace the Light**: Followers are encouraged to seek the light within themselves and others. Acts of kindness, compassion, and selflessness are considered offerings to Lux.

@@ -14,12 +14,13 @@ title: "Primus, God of Order"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: Closed gauntlet with infinity symbol embedded
 - **Home Plane**: Mechanus
-- **Alignment**: Lawful Neutral
+- **Alignment**: LN
 - **Portfolio**: Order, Law, Pacts
 - **Worshipers**: clerics, judges, monks, wizards
-- **Cleric Alignments**: Lawful Good, Lawful Neutral, Lawful Evil, Neutral
+- **Cleric Alignments**: LE, LG, LN
 - **Domains**: Law, Pact, Planning, Inquisition
 - **Favored Weapon**: warhammer
 

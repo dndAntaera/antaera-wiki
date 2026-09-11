@@ -69,27 +69,27 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 
 **Lesser Deities**
 
-- Thaleon, Voice of the Dissonant Wind (Chaotic Good)
+- Thaleon, Voice of the Dissonant Wind (CG)
 
 **Intermediate Deities**
 
-- Aelthene, Mother of Fragrant Silence (Neutral Good)
+- Aelthene, Mother of Fragrant Silence (NG)
 
 **Greater Deities**
 
-- Aurion, the Burning Crown (Lawful Good)
+- Aurion, the Burning Crown (LG)
 
 **Demigods**
 
-- Imarel, the White-Throated Watcher (Lawful Good)
-- Molvenn, the Ink of Law (Lawful Good)
-- Synamar, the Rosary of Knives (Lawful Good)
-- Liraen, the Garden-Lost (Neutral Good)
-- Vessan, the Wreath of Ash (Neutral Good)
-- Korrakhel, the Dust-Cloaked Smile (Neutral Good)
-- Sayrel, the Sun-Drunk Fool (Chaotic Good)
-- Ezzoril, the Feather-Tongue (Chaotic Good)
-- Nyxaveth, the Hollow Voice (Chaotic Good)
+- Imarel, the White-Throated Watcher (LG)
+- Molvenn, the Ink of Law (LG)
+- Synamar, the Rosary of Knives (LG)
+- Liraen, the Garden-Lost (NG)
+- Vessan, the Wreath of Ash (NG)
+- Korrakhel, the Dust-Cloaked Smile (NG)
+- Sayrel, the Sun-Drunk Fool (CG)
+- Ezzoril, the Feather-Tongue (CG)
+- Nyxaveth, the Hollow Voice (CG)
 
 </div>
 </div>

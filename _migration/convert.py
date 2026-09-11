@@ -69,16 +69,23 @@ EDITS = {
         # And the houserule that leans on it now points at it.
         (None, "- Gestalt Only",
          "- [Gestalt Only](rules/gestalt.md)"),
+        # A typo: the example two lines up reads "1 day and 3 days".
+        (None, "would take 2 days 1 day to train",
+         "would take 2 days and 1 day to train"),
     ],
 
-    # Cervidûr joins the end of the Courts of Faerie's Intermediate Gods, written the
-    # way the entries already there are, but linked, since he has a page.
+    # Cervidûr takes the place of Rhazek Glimmerclaw, the Blood Moon Hunter,
+    # among the Courts of Faerie's Lesser Gods: the two held almost the same
+    # portfolio, and there is only one god to a portfolio. Written the way the
+    # entries already there are, but linked, since he has a page.
     # And four index entries whose symbols disagreed with the god's own page:
     # the page wins.
     "pantheons": [
-        ("# Courts of Faerie", "    - Symbol: A seed sprouting from ash\n",
-         "    - Symbol: A seed sprouting from ash\n"
-         "\n"
+        ("# Courts of Faerie",
+         "- Rhazek Glimmerclaw, the Blood Moon Hunter\n"
+         "    - Alignment: Chaotic Evil\n"
+         "    - Portfolio: Predation, moon-hunts, apex beasts, the thrill of the kill\n"
+         "    - Symbol: A clawed moon smeared red\n",
          "- [Cervidûr](deity/cervidur.md), Lord of the Hunt, Master of the Wild Hunt\n"
          "    - Alignment: Chaotic Neutral\n"
          "    - Portfolio: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts\n"
@@ -108,10 +115,18 @@ EDITS = {
         (None, "is a sprawling, untamed wilderness within the Greater Ironpine Forest.",
          "is a sprawling, untamed wilderness in Ysgard."),
     ],
-    # An author's note to self, left in the published text.
+    # An author's note to self, left in the published text. It asked for the
+    # beast plane; in the standard 3.5e cosmology that is the Beastlands.
     "pantheon-mortal-vortressa": [
         (None, "a nightmarish realm located in [insert beast plane equivalent] where monstrous creatures are bred",
-         "a nightmarish realm occupying its own layer of the Abyss, where monstrous creatures are bred"),
+         "a nightmarish realm located in the Beastlands where monstrous creatures are bred"),
+    ],
+    # Typos.
+    "deity-ukrol": [
+        (None, "Tyrrany", "Tyranny"),
+    ],
+    "firearms": [
+        (None, "consists of of scrap metal", "consists of scrap metal"),
     ],
 }
 # Pages taken off the wiki since the import. Frymrit's was a disambiguation
@@ -238,9 +253,9 @@ NEWCARDS = {
         ("Origin Story", "The Life Debt", """\
 After the resolution of the [Warforged Civil War](../faction/house-of-fabrication.md#warforged-civil-war), Warforged gained their personhood in the eyes of the House. However, this caused the creation of the Life Debt: the sum total of the materials used in its creation. In practice, it is used as a way for the House to keep the Warforged in their service in exchange for freeing them from slavery. While a Warforged has a Life Debt, they cannot hold any property nor can they refuse an order by the House. Their wages are used to reduce the Debt, yet their repairs are used to increase it, keeping them in a perpetual juggling act for their livelihood.
 
-Opinions are split among the [Known Spheres](../spelljamming/known-spheres.md) as to whether this is a justified exchange for their creation, and whether it is just slavery by another name. Those in favor see it as a way for the Warforged to earn their place in a world that made them, since they cannot naturally be born. The opposition to the Debt see it as a cheap and abusive way for the House to maintain their slave labor under the guise of paying off your own existence, which they were not able to consent to. The Debt has caused a state of destitute and disrepair among its Populace: Warforged refuse repairs for months at a time as a way to pay off their Debt faster, causing lifelong complications.
+Opinions are split among the [Known Spheres](../spelljamming/known-spheres.md) as to whether this is a justified exchange for their creation, and whether it is just slavery by another name. Those in favor see it as a way for the Warforged to earn their place in a world that made them, since they cannot naturally be born. The opposition to the Debt see it as a cheap and abusive way for the House to maintain their slave labor under the guise of paying off your own existence, which they were not able to consent to. The Debt has caused a state of destitution and disrepair among its populace: Warforged refuse repairs for months at a time as a way to pay off their Debt faster, causing lifelong complications.
 
-Those who are able to pay off their Life Debt are given a ceremony where they are offered a choice: join the [Artisan Caste](../faction/house-of-fabrication.md#caste-system) and work for the company as a citizen, or free yourself of the company and the sphere by leaving and never returning. Most Warforged join the Artisan Caste and take ownership of their personal affects and living quarters, continuing their work but making a wage. Others start businesses in [Peculium](../spelljamming/sphere-forgehome.md) helping other Warforged with makeshift repairs and other services. Fewer still decide to leave the sphere, whereupon they are given their personal affects and equipment to survive in the Known Spheres, then delivered to a sphere and planet of their choice."""),
+Those who are able to pay off their Life Debt are given a ceremony where they are offered a choice: join the [Artisan Caste](../faction/house-of-fabrication.md#caste-system) and work for the company as a citizen, or free yourself of the company and the sphere by leaving and never returning. Most Warforged join the Artisan Caste and take ownership of their personal effects and living quarters, continuing their work but making a wage. Others start businesses in [Peculium](../spelljamming/sphere-forgehome.md) helping other Warforged with makeshift repairs and other services. Fewer still decide to leave the sphere, whereupon they are given their personal effects and equipment to survive in the Known Spheres, then delivered to a sphere and planet of their choice."""),
     ],
 }
 
@@ -349,13 +364,13 @@ ARCHIVED_FOLDERS = {"wm"}
 # than built from the slug - see the title block in main().
 DEITY_FOLDERS = {"deity", "pantheon"}
 
-# Format A, the one layout every god's page follows. The facts first, all eight
-# and in this order, then the sections of prose under bold labels in the order
-# below, with Home Sphere always last. A fact or a required section the wiki has
-# nothing to fill says *TBD* rather than being left out or made up, so what is
-# missing shows on the page and can be counted.
+# Format A, the one layout every god's page follows. The facts first, all nine
+# and in this order - rank first, the way a 3.5e deity's entry opens - then the
+# sections of prose under bold labels in the order below, with Home Sphere
+# always last. A fact or a required section the wiki has nothing to fill is an
+# em dash.
 DEITY_FIELDS = [
-    "Symbol", "Home Plane", "Alignment", "Portfolio", "Worshipers",
+    "Rank", "Symbol", "Home Plane", "Alignment", "Portfolio", "Worshipers",
     "Cleric Alignments", "Domains", "Favored Weapon",
 ]
 DEITY_ORDER = [
@@ -363,7 +378,7 @@ DEITY_ORDER = [
     "Rivalries",
 ]
 DEITY_REQUIRED = ["Origins", "Description", "Dogma", "Home Sphere"]
-DEITY_TBD = "*TBD*"
+DEITY_TBD = "—"
 
 # The detailed gods' pages named their sections differently. Each old name and
 # the Format A section it is. Tenets of any kind become Dogma.
@@ -375,11 +390,10 @@ DEITY_RENAME = {
     "Cult and Temples": "Clergy and Temples",
 }
 
-# A god's symbol is a fact, not a section. What these sections said beyond the
-# bare description of the symbol - what it stands for, who wears it - moves to
-# the end of Description, whole rather than sentence by sentence: most of their
-# second sentences begin "This symbol...", and cut loose from the first they
-# would point at nothing.
+# A god's symbol is a fact, in the list, described the way a symbol is drawn:
+# "Oak tree", "Blindfolded skull". The Holy Symbol and Unholy Symbol sections
+# described it over again in prose that talked about itself - "The symbol of
+# Sol is...", "This symbol represents..." - and are not kept.
 DEITY_SYMBOL_SECTIONS = {"Holy Symbol", "Unholy Symbol"}
 
 # Every section label a god's page uses, so a label with its prose running on
@@ -392,143 +406,138 @@ DEITY_KNOWN_SECTIONS = {
 }
 
 # Facts for the fourteen detailed pages, which carried none but their domains.
-# Keyed by page file name. A value the page already gives wins over this table:
-# the domains above all, which stay exactly as each page writes them.
-#
-# The cleric alignments are worked out from each god's own alignment by the
-# 3.5 one-step convention, not taken from anything the wiki says, and want
-# review.
+# Keyed by page file name. A value the page already gives wins over this table.
+# Rank is not here: it is read from The Pantheons once every page is written.
+# Cleric Alignments are not here either: they follow from the god's alignment
+# by the official rule - see cleric_alignments().
 DEITY_STATBLOCK = {
     "mortal-lux": {
         "Symbol": "A radiant sun, its rays extending outward in a circular pattern",
         "Home Plane": "Luminara",
-        "Alignment": "Lawful Good",
+        "Alignment": "LG",
         "Portfolio": "Justice, light, radiance, judgment",
         "Worshipers": "Priests and priestesses of the light, healers",
-        "Cleric Alignments": "Lawful Good, Lawful Neutral, Neutral Good",
         "Domains": "Glory, Healing, Purification, Sun",
     },
     "mortal-thrain": {
         "Symbol": "A stylized anvil with a hammer crossed over it",
         "Home Plane": "The Hearthforge, Elysium",
-        "Alignment": "Neutral Good",
+        "Alignment": "NG",
         "Portfolio": "Peace, unity, craft, community",
         "Worshipers": "Artisans, diplomats, dwarves",
-        "Cleric Alignments": "Neutral Good, Lawful Good, Chaotic Good, Neutral",
         "Domains": "Community, Craft, Dwarf, Family",
         "Favored Weapon": "Warhammer",
     },
     "mortal-leonis": {
         "Symbol": "A roaring lion's head surrounded by justice scales and a crossed sword and shield",
         "Home Plane": "The Verdant Bastion, Ysgard",
-        "Alignment": "Chaotic Good",
+        "Alignment": "CG",
         "Portfolio": "Valor, war, protection, courage",
         "Worshipers": "Warriors, druids",
-        "Cleric Alignments": "Chaotic Good, Neutral Good, Chaotic Neutral",
         "Domains": "Competition, Courage, Good, Protection",
     },
     "mortal-tome": {
         "Symbol": "An intricate celestial sigil with cosmic runes swirling around it",
         "Home Plane": "The Astral Archive, Astral Plane",
-        "Alignment": "Lawful Neutral",
+        "Alignment": "LN",
         "Portfolio": "Knowledge, wisdom, memory, truth",
         "Worshipers": "Scholars, sages, librarians",
-        "Cleric Alignments": "Lawful Neutral, Lawful Good, Lawful Evil, Neutral",
         "Domains": "Knowledge, Magic, Rune, Spell",
     },
     "mortal-sol": {
         "Symbol": "A set of scales held by a draconic hand",
         "Home Plane": "Ethereal Plane",
-        "Alignment": "True Neutral",
+        "Alignment": "N",
         "Portfolio": "Balance, pacts, cycles, order",
         "Worshipers": "Dragon priests, scholars",
-        "Cleric Alignments": "Neutral, Lawful Neutral, Chaotic Neutral, Neutral Good, Neutral Evil",
         "Domains": "Balance, Dragon, Fate, Pact",
     },
     "mortal-selene": {
         "Symbol": "A crescent moon intertwined with intricate elven glyphs",
         "Home Plane": "The Moonshadow Sanctum, between the Ethereal and Material Planes",
-        "Alignment": "Chaotic Neutral",
+        "Alignment": "CN",
         "Portfolio": "Secrets, shadows, night, illusion",
         "Worshipers": "Moon priests, shadowcasters",
-        "Cleric Alignments": "Chaotic Neutral, Chaotic Good, Chaotic Evil, Neutral",
         "Domains": "Darkness, Moon, Mysticism, Shadow",
     },
     "mortal-mordac": {
         "Symbol": "A twisted serpent entwined around a scepter",
         "Home Plane": "The Iron Citadel, the Nine Hells",
-        "Alignment": "Lawful Evil",
+        "Alignment": "LE",
         "Portfolio": "Corruption, death, domination, oppression",
         "Worshipers": "Manipulators, enforcers, devils",
-        "Cleric Alignments": "Lawful Evil, Lawful Neutral, Neutral Evil",
         "Domains": "Domination, Evil, Law, Tyranny",
     },
     "mortal-vortressa": {
         "Symbol": "A corrupted Druidic glyph intertwined with monstrous teeth",
-        "Home Plane": "The Abyssal Grove, a layer of the Abyss",
-        "Alignment": "Neutral Evil",
+        # Her page asked for "the beast plane equivalent"; in the standard 3.5e
+        # cosmology that is the Beastlands.
+        "Home Plane": "The Abyssal Grove, the Beastlands",
+        "Alignment": "NE",
         "Portfolio": "Monsters, dark desires, mutation, hunger",
         "Worshipers": "Evil druids, warlocks",
-        "Cleric Alignments": "Neutral Evil, Lawful Evil, Chaotic Evil, Neutral",
         "Domains": "Evil, Hunger, Pestilence, Spider",
     },
     "mortal-zarakth": {
         "Symbol": "A blood-red vortex swirling around a jagged, shattered blade",
         "Home Plane": "The Shattered Abyss",
-        "Alignment": "Chaotic Evil",
+        "Alignment": "CE",
         "Portfolio": "Destruction, murder, chaos, ruin",
         "Worshipers": "Demons, cultists, nihilistic warlords",
-        "Cleric Alignments": "Chaotic Evil, Neutral Evil, Chaotic Neutral",
         "Domains": "Destruction, Evil, War, Wrath",
     },
     "orion": {
         "Symbol": "A crystal radiating astral light",
         "Home Plane": "Astral Plane",
-        "Alignment": "Chaotic Good",
+        "Alignment": "CG",
         "Portfolio": "Smallfolk, artifice, ingenuity, resilience",
         "Worshipers": "Smallfolk clergy, community leaders, artisans",
-        "Cleric Alignments": "Chaotic Good, Neutral Good, Chaotic Neutral",
         "Domains": "Gnome, Halfling, Dwarf, Protection",
     },
     "ukrol": {
         "Symbol": "A featureless humanoid face with a spiked crown",
         "Home Plane": "The Dominion of Exiles",
-        "Alignment": "Lawful Evil",
+        "Alignment": "LE",
         "Portfolio": "Humans, conquest, dominion, authority",
         "Worshipers": "Charismatic leaders, conquerors, Imperial clergy",
-        "Cleric Alignments": "Lawful Evil, Lawful Neutral, Neutral Evil",
         "Domains": "Domination, Hatred, Law, Tyranny",
     },
     "vaylen": {
-        "Symbol": "A compass encircled by symbols of waves and meandering paths",
+        # Clipped: it was "encircled by symbols of waves", a symbol describing
+        # itself as made of symbols.
+        "Symbol": "A compass encircled by waves and meandering paths",
         "Home Plane": "The Wanderer's Trove, Zephyr Haven",
-        "Alignment": "Chaotic Good",
+        "Alignment": "CG",
         "Portfolio": "Travel, oceans, winds, safe passage",
         "Worshipers": "Seafarers, explorers, messengers",
-        "Cleric Alignments": "Chaotic Good, Neutral Good, Chaotic Neutral",
         "Domains": "Celerity, Liberation, Ocean, Travel",
     },
     "cervidur": {
         "Symbol": "A stag's head with wide antlers adorned with runes of fey magic",
         "Home Plane": "The Moonlit Glade, Sidhe Wilderness",
-        "Alignment": "Chaotic Neutral",
+        "Alignment": "CN",
         "Portfolio": "The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts",
         "Worshipers": "Druids, rangers, shamans, lycanthropes",
-        "Cleric Alignments": "Chaotic Neutral, Chaotic Good, Neutral",
-        "Domains": "Animal, Fey, Strength, Moon",
     },
     "enigma": {
         "Symbol": "A closed eye within a spiraling void",
         "Home Plane": "None; Enigma roams the planes",
-        "Alignment": "True Neutral",
+        "Alignment": "N",
         "Portfolio": "Secrets, forgotten knowledge, paradox, obscurity",
         "Worshipers": "Scholars, theologians, opportunists",
         "Domains": "Luck",
     },
 }
 
-# Home Sphere for the detailed pages that have a source for it. The rest say
-# *TBD*.
+# Facts that win over what the page says. The Courts of Faerie grant no
+# domains - their gods are patrons to warlocks, not to clerics - so Cervidur,
+# one of them, has none, whatever his page used to list.
+DEITY_OVERRIDE = {
+    "cervidur": {"Domains": DEITY_TBD},
+}
+
+# Home Sphere for the detailed pages that have a source for it. The rest are an
+# em dash.
 DEITY_HOME_SPHERE = {
     "mortal-lux": "Lux hails from the Antæra Sphere, having been born in the city of Sewich on the prime world of Antæra.",
     "mortal-thrain": "Thrain hails from the Antæra Sphere, having emerged from the Old Spine Mountains on the prime world of Antæra.",
@@ -544,6 +553,26 @@ DEITY_APPEND = {
         "Origins": "Cervidûr is counted among the Courts of Faerie, taking his place in their ranks through the pacts he forged with mortal hunters rather than through any clergy.",
     },
 }
+
+# Alignments are written as their abbreviations everywhere on the wiki: LG, NE,
+# N. True neutral is N, as the 3.5e books write it, not TN.
+ALIGNMENT_CODES = {
+    "lawful good": "LG", "lawful neutral": "LN", "lawful evil": "LE",
+    "neutral good": "NG", "neutral": "N", "true neutral": "N",
+    "neutral evil": "NE", "chaotic good": "CG", "chaotic neutral": "CN",
+    "chaotic evil": "CE",
+}
+ALIGNMENT_AXES = {
+    "LG": (0, 0), "LN": (0, 1), "LE": (0, 2),
+    "NG": (1, 0), "N": (1, 1), "NE": (1, 2),
+    "CG": (2, 0), "CN": (2, 1), "CE": (2, 2),
+}
+
+# Where a page names a plane by a name from outside the standard 3.5e cosmology
+# that has a standard equivalent, it uses the standard name.
+COSMOLOGY_35 = [
+    (r"\bAstral Sea\b", "Astral Plane"),
+]
 
 TODO = []
 
@@ -1511,31 +1540,247 @@ def title_card(title, body):
     return card + body
 
 
+def alignment_code(text):
+    """An alignment as its abbreviation, from either spelling of it."""
+    t = re.sub(r"\s+", " ", (text or "").strip())
+    if t.upper() in ALIGNMENT_AXES:
+        return t.upper()
+    if t.upper() == "TN":
+        return "N"
+    return ALIGNMENT_CODES.get(t.lower())
+
+
+def cleric_alignments(code):
+    """The alignments a god's clerics may have, by the official 3.5e rule.
+
+    A cleric's alignment is within one step of the god's - one step along the
+    law-chaos axis or the good-evil axis, not both - and a cleric may not be
+    neutral unless the god is. Listed alphabetically, the way Deities and
+    Demigods lists them: a neutral good god's clerics are "CG, LG, NG".
+    """
+    names = {axes: c for c, axes in ALIGNMENT_AXES.items()}
+    lc, ge = ALIGNMENT_AXES[code]
+    near = {(lc, ge)}
+    for step in (-1, 1):
+        if 0 <= lc + step <= 2:
+            near.add((lc + step, ge))
+        if 0 <= ge + step <= 2:
+            near.add((lc, ge + step))
+    if code != "N":
+        near.discard((1, 1))
+    return ", ".join(sorted(names[x] for x in near))
+
+
+def abbreviate_alignments(text):
+    """Write every alignment on a page as its abbreviation.
+
+    "lawful good alignment" is "LG alignment", "(True Neutral)" is "(N)". An
+    article in front of one is corrected to match how the letters are said: "a
+    lawful evil entity" is "an LE entity", "a chaotic evil god" stays "a CE
+    god". A lone "Neutral" is only read as an alignment where it can be nothing
+    else - in brackets, in an alignment field, in a list of cleric alignments -
+    because in running prose "neutral" is as often just a word.
+    """
+    def phrase(m):
+        code = ALIGNMENT_CODES.get((m.group("a") + " " + m.group("b")).lower())
+        if not code:
+            return m.group(0)
+        art = m.group("art")
+        if not art:
+            return code
+        an = code[0] in "LN"
+        if art[0] == "A":
+            return ("An " if an else "A ") + code
+        return ("an " if an else "a ") + code
+
+    text = re.sub(r"\b(?:(?P<art>[Aa]n?)\s+)?(?P<a>lawful|neutral|chaotic|true)\s+"
+                  r"(?P<b>good|neutral|evil)\b", phrase, text, flags=re.I)
+    text = re.sub(r"\(\s*(?:TN|Neutral)\s*\)", "(N)", text)
+    text = re.sub(r"^(\s*- (?:\*\*)?Alignment(?:\*\*)?:[ \t]*)(?:TN|Neutral)[ \t]*$",
+                  r"\1N", text, flags=re.M)
+    text = re.sub(r"^(\s*- )(?:TN|Neutral)[ \t]*$", r"\1N", text, flags=re.M)
+    text = re.sub(r"^(\s*- (?:\*\*)?Cleric Alignments(?:\*\*)?:.*)$",
+                  lambda m: re.sub(r"\b(?:TN|Neutral)\b", "N", m.group(1)),
+                  text, flags=re.M)
+    text = re.sub(r"\bneutral or (?=(?:LG|LN|LE|NG|N|NE|CG|CN|CE)\b)", "N or ", text)
+    return text
+
+
+def pantheon_index(text):
+    """Every god on The Pantheons, by name: rank, alignment and page."""
+    gods, tier, last = {}, None, None
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        m = re.match(r"^##[ \t]+(\w+)", line)
+        if m:
+            tier = m.group(1) if m.group(1) in ("Greater", "Intermediate", "Lesser") else None
+            last = None
+            continue
+        if re.match(r"^#[ \t]", line):
+            tier, last = None, None
+            continue
+        m = re.match(r"^- (?:\[(?P<link>[^\]]+)\]\((?P<href>[^)]+)\)|(?P<plain>[^,\n]+))(?P<rest>.*)$", line)
+        if m and tier:
+            name = (m.group("link") or m.group("plain")).strip()
+            last = name.lower()
+            gods[last] = {"entry": name + m.group("rest").rstrip(), "tier": tier,
+                          "align": None, "href": m.group("href"), "line": i}
+            continue
+        a = re.match(r"^\s+- Alignment:[ \t]*(\S+)", line)
+        if a and last:
+            gods[last]["align"] = a.group(1)
+    return gods
+
+
+def favor_pantheon(text, gods):
+    """Make a sphere's Recognized Pantheon agree with The Pantheons.
+
+    A god on The Pantheons is listed under the rank and with the alignment and
+    title The Pantheons gives. The sphere's own headings, and gods only the
+    sphere knows, are left as they are.
+    """
+    sec = re.search(r"^# Recognized Pantheon[ \t]*\n(.*?)(?=\n</div>|\n# |\Z)", text, re.M | re.S)
+    if not sec:
+        return text
+    groups, cur = [], None
+    for line in sec.group(1).split("\n"):
+        if not line.strip():
+            continue
+        g = re.match(r"^\*\*(.+?)\*\*:?[ \t]*$", line)
+        if g:
+            cur = [line, []]
+            groups.append(cur)
+            continue
+        if line.startswith("- ") and cur is not None:
+            cur[1].append(line)
+            continue
+        return text
+    moved, changed = [], False
+    for group in groups:
+        keep = []
+        for entry in group[1]:
+            m = re.match(r"^- (?P<name>.+?) \((?P<al>[^)]+)\)[ \t]*$", entry)
+            key = re.split(r",| —", m.group("name"))[0].strip().lower() if m else None
+            god = gods.get(key) if key else None
+            if not god:
+                keep.append(entry)
+                continue
+            line = "- %s (%s)" % (re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", god["entry"]),
+                                  god["align"] or m.group("al"))
+            changed = changed or line != entry
+            home = next((x for x in groups if god["tier"].lower() in x[0].lower()), None)
+            if home is None or home is group:
+                keep.append(line)
+            else:
+                moved.append((home, line))
+                changed = True
+        group[1] = keep
+    if not changed:
+        return text
+    for home, line in moved:
+        home[1].append(line)
+    rebuilt = "\n" + "\n\n".join(g[0] + "\n\n" + "\n".join(g[1]) for g in groups) + "\n"
+    return text[:sec.start(1)] + rebuilt + text[sec.end(1):]
+
+
+def finish_site():
+    """The passes that need every page written first.
+
+    Alignments are abbreviated and 3.5e plane names used on every page. Then
+    The Pantheons is read, and three things are made to agree with it: the
+    spheres' pantheon lists, the Rank on every god's page, and - the other way
+    round - the symbol The Pantheons gives each god, which follows the god's
+    own page.
+    """
+    for root, _, files in os.walk(DOCS):
+        for name in files:
+            if not name.endswith(".md"):
+                continue
+            path = os.path.join(root, name)
+            with open(path, encoding="utf-8") as fh:
+                text = fh.read()
+            new = text
+            for pattern, standard in COSMOLOGY_35:
+                new = re.sub(pattern, standard, new)
+            new = abbreviate_alignments(new)
+            if new != text:
+                with open(path, "w", encoding="utf-8", newline="\n") as fh:
+                    fh.write(new)
+
+    ppath = os.path.join(DOCS, "pantheons.md")
+    with open(ppath, encoding="utf-8") as fh:
+        ptext = fh.read()
+    gods = pantheon_index(ptext)
+
+    sdir = os.path.join(DOCS, "spelljamming")
+    for name in sorted(os.listdir(sdir)):
+        if name.startswith("sphere-") and name.endswith(".md"):
+            path = os.path.join(sdir, name)
+            with open(path, encoding="utf-8") as fh:
+                text = fh.read()
+            new = favor_pantheon(text, gods)
+            if new != text:
+                with open(path, "w", encoding="utf-8", newline="\n") as fh:
+                    fh.write(new)
+
+    lines = ptext.split("\n")
+    by_href = {g["href"]: g for g in gods.values() if g["href"]}
+    for folder in ("deity", "pantheon"):
+        for name in sorted(os.listdir(os.path.join(DOCS, folder))):
+            rel = folder + "/" + name
+            path = os.path.join(DOCS, folder, name)
+            with open(path, encoding="utf-8") as fh:
+                text = fh.read()
+            if "used for disambiguation" in text or "- **Rank**:" not in text:
+                continue
+            god = by_href.get(rel)
+            if not god:
+                TODO.append((rel, "god's page is not on The Pantheons, so it has no rank"))
+                continue
+            new = re.sub(r"^- \*\*Rank\*\*: .*$", "- **Rank**: %s God" % god["tier"], text,
+                         count=1, flags=re.M)
+            if new != text:
+                with open(path, "w", encoding="utf-8", newline="\n") as fh:
+                    fh.write(new)
+            sym = re.search(r"^- \*\*Symbol\*\*: (.+)$", new, re.M)
+            if sym and sym.group(1) != DEITY_TBD:
+                for k in range(god["line"] + 1, min(god["line"] + 6, len(lines))):
+                    if lines[k].startswith("- "):
+                        break
+                    if re.match(r"^\s+- Symbol:", lines[k]):
+                        lines[k] = re.sub(r"^(\s+- Symbol:[ \t]*).*$",
+                                          lambda m: m.group(1) + sym.group(1), lines[k])
+    new = "\n".join(lines)
+    if new != ptext:
+        with open(ppath, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(new)
+
+
 def deity_format(body, title, slug):
     """Lay a god's page out in Format A.
 
-    The facts come first, as one list of all eight in a fixed order. Then the
-    prose, each section under a bold label with its text starting on the very
-    next line: Origins, Description, Dogma, the optional Divine Realm, Clergy
-    and Temples and Rivalries, and Home Sphere last. No sub-headings.
+    The facts come first, as one list of all nine in a fixed order, rank
+    first. Then the prose, each section under a bold label with its text
+    starting on the very next line: Origins, Description, Dogma, the optional
+    Divine Realm, Clergy and Temples and Rivalries, and Home Sphere last.
 
-    The twenty pantheon pages were already written this way. The fourteen
-    detailed pages are mapped onto it: their sections renamed (Backstory is
+    The detailed pages are mapped onto it: their sections renamed (Backstory is
     Origins, Appearance is Description, their tenets are Dogma, their
-    dominions are Divine Realms), put in Format A's order, their symbol
-    sections folded into the facts with what they said beyond the description
-    moved to the end of Description, and the facts they never had filled from
-    DEITY_STATBLOCK or marked *TBD*. The prose is not reworded. Enigma's three
-    sections that Format A has no name for keep their own labels and sit
-    before Home Sphere, and the one-line "Origins" fact on that page opens its
-    Origins section, so nothing on the page is lost.
+    dominions are Divine Realms) and put in Format A's order. Their symbol
+    sections are not kept; the symbol is a fact in the list. The facts they
+    never had come from DEITY_STATBLOCK or are an em dash. Alignment is written
+    as its abbreviation and Cleric Alignments follow from it by the official
+    rule. Rank is left as a dash here and filled from The Pantheons by
+    finish_site(), because The Pantheons may not be written yet.
 
-    A disambiguation stub stays a stub, in the stub template, with nothing
-    added to it.
+    Lore the schema has no section for - three of Enigma's - goes on a card
+    of its own under the god's main card, one card to a section, so the page
+    stays one page and nothing on it is lost.
+
+    A disambiguation stub stays a stub, in the stub template.
 
     The label and its prose are written on consecutive lines with no <br>:
-    hooks/labels.py adds the line break at build time, so the page source keeps
-    the shape the schema gives it.
+    hooks/labels.py adds the line break at build time.
     """
     stem = os.path.splitext(os.path.basename(target_path(slug)))[0]
 
@@ -1609,9 +1854,6 @@ def deity_format(body, title, slug):
             continue
 
         if tenets:
-            # "*Seek knowledge and harmony with the cosmos*<br>" with the tenet
-            # on the next line, and "*Embrace the Night: Selene encourages...*"
-            # wrapped whole in italics, both come out like every other tenet.
             it = re.match(r"^\*(?P<name>[^*]+?)\*[ \t]*<br>[ \t]*$", first)
             if it and len(lines) > 1:
                 current[1].append("**%s**: %s" % (it.group("name").strip(),
@@ -1635,12 +1877,9 @@ def deity_format(body, title, slug):
             order.append(name)
         merged[name].extend(paras)
 
-    symbol = []
     for name in [n for n in order if n in DEITY_SYMBOL_SECTIONS]:
-        symbol.extend(merged.pop(name))
+        merged.pop(name)
         order.remove(name)
-    if symbol:
-        merged.setdefault("Description", []).extend(symbol)
 
     for name, text in DEITY_APPEND.get(stem, {}).items():
         paras = merged.setdefault(name, [])
@@ -1658,12 +1897,20 @@ def deity_format(body, title, slug):
     if "Domain" in stats and "Domains" not in stats:
         stats["Domains"] = stats.pop("Domain")
     table = DEITY_STATBLOCK.get(stem, {})
-    facts = ["- **%s**: %s" % (f, stats.get(f) or table.get(f) or DEITY_TBD)
-             for f in DEITY_FIELDS]
+    override = DEITY_OVERRIDE.get(stem, {})
+    values = {f: override.get(f) or stats.get(f) or table.get(f) or DEITY_TBD
+              for f in DEITY_FIELDS}
+    code = alignment_code(values["Alignment"])
+    if code:
+        values["Alignment"] = code
+        values["Cleric Alignments"] = cleric_alignments(code)
+    else:
+        TODO.append((slug, "god's alignment %r not understood" % values["Alignment"]))
+    values["Rank"] = DEITY_TBD
+    facts = ["- **%s**: %s" % (f, values[f]) for f in DEITY_FIELDS]
 
-    extras = [n for n in order
-              if n not in DEITY_ORDER and n != "Home Sphere"]
-    names = [n for n in DEITY_ORDER if merged.get(n)] + extras + ["Home Sphere"]
+    extras = [n for n in order if n not in DEITY_ORDER and n != "Home Sphere"]
+    names = [n for n in DEITY_ORDER if merged.get(n)] + ["Home Sphere"]
 
     parts = [head.group(0), "\n".join(facts)] + lead
     for name in names:
@@ -1673,8 +1920,16 @@ def deity_format(body, title, slug):
     body = (body[:cell.start(1)] + "\n" + "\n\n".join(parts) + "\n"
             + body[cell.end(1):])
 
-    # Pictures go in a boxed sidebar. A caption with no picture above it is
-    # dropped, and a sidebar left with no picture is dropped with it.
+    if extras:
+        span = _card_span(body, re.sub(r"^#{1,6}[ \t]+", "", head.group(0)).strip())
+        if span:
+            row = '<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
+            cards = "".join(_card(row, "#", n, "\n\n".join(x.strip() for x in merged[n] if x.strip()))
+                            for n in extras)
+            body = body[:span[1]] + "\n" + cards.rstrip("\n") + body[span[1]:]
+        else:
+            TODO.append((slug, "no card to put a god's extra lore under"))
+
     body = body.replace('<div class="wd-cell wd-plain" markdown>',
                         '<div class="wd-cell wd-aside" markdown>')
 
@@ -1697,7 +1952,6 @@ def deity_format(body, title, slug):
     if "![](" not in body:
         body = re.sub(r"--wd-cols:[^;\"]*;\s*", "", body)
 
-    # Captions name the god the way the page title does.
     body = re.sub(r"^\*([^*\n]+)\*$",
                   lambda m: ("*%s*" % title) if m.group(1).lower() == title.lower()
                   else m.group(0), body, flags=re.M)
@@ -2201,6 +2455,8 @@ def main(backup):
             + "<!-- ARCHIVED-INDEX -->\n"
         )
     written += 1
+
+    finish_site()
 
     print("pages written : %d  (skipped %d system pages)" % (written, len(slugs) - len(keep)))
     print("TODO markers  : %d" % len(TODO))

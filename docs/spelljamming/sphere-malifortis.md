@@ -115,29 +115,29 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 
 **Lesser Deities**
 
-- Dolmyr, the Pale Ledger (Lawful Neutral)
-- Tyrialin, the Mourning Star (Neutral Good)
-- Yzzereth, the Blade-Mind (Chaotic Evil)
+- Dolmyr, the Pale Ledger (LN)
+- Tyrialin, the Mourning Star (NG)
+- Yzzereth, the Blade-Mind (CE)
 
 **Intermediate Deities**
 
-- The Hollow Queen, Sovereign of Silence (Neutral Evil)
-- Braxus, the Chainfather (Lawful Good)
-- Selveras, the Ashen Flow (Chaotic Neutral)
+- The Hollow Queen, Sovereign of Silence (NE)
+- Braxus, the Chainfather (LG)
+- Selveras, the Ashen Flow (CN)
 
 **Greater Deities**
 
-- Askalon, the Crimson Mandate (Lawful Evil)
-- Virethis, the Emberborn Crown (Lawful Neutral)
-- Calithar, the Masked Flame (Chaotic Good)
+- Askalon, the Crimson Mandate (LE)
+- Virethis, the Emberborn Crown (LN)
+- Calithar, the Masked Flame (CG)
 
 **Demigods**
 
-- Phalazhul, Sentinel of the Ebon Gates (Lawful Evil)
-- Lithiniel, Whisper in the Mire (Neutral Evil)
-- Varn, Architect of Ruin (Chaotic Neutral)
-- Eressai, the Hollow Veil (True Neutral)
-- Nyrixa, Ember-Dancer (Chaotic Good)
+- Phalazhul, Sentinel of the Ebon Gates (LE)
+- Lithiniel, Whisper in the Mire (NE)
+- Varn, Architect of Ruin (CN)
+- Eressai, the Hollow Veil (N)
+- Nyrixa, Ember-Dancer (CG)
 
 </div>
 </div>

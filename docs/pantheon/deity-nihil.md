@@ -14,12 +14,13 @@ title: "Nihil, Herald of Void"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A black circle surrounded by fading stars
 - **Home Plane**: Quasi-Elemental Plane of Vacuum
-- **Alignment**: True Neutral
+- **Alignment**: N
 - **Portfolio**: Emptiness, entropy, silence, cosmic erasure
 - **Worshipers**: Spelljammers, wanderers, exiles, assassins, philosophers of nothingness
-- **Cleric Alignments**: Neutral Good, Neutral Evil, Lawful Neutral, Chaotic Neutral, True Neutral
+- **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Darkness, Death, Destruction, Decay, Madness
 - **Favored Weapon**: Void-touched scythe
 

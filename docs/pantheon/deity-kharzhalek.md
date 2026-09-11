@@ -14,12 +14,13 @@ title: "Kharzhalek, Lord of Earth"
 
 # Overview
 
+- **Rank**: Intermediate God
 - **Symbol**: A jagged obsidian crown atop a crumbling stone pillar
 - **Home Plane**: Elemental Plane of Earth
-- **Alignment**: Neutral Evil
+- **Alignment**: NE
 - **Portfolio**: Earth, Wealth, Psionics, Tyranny
 - **Worshipers**: Clerics, sorcerers, psions, miners, tyrants
-- **Cleric Alignments**: Lawful Evil, Neutral Evil, Chaotic Evil, True Neutral
+- **Cleric Alignments**: CE, LE, NE
 - **Domains**: Earth, Evil, Strength, Domination, Mentalism
 - **Favored Weapon**: Heavy pick
 

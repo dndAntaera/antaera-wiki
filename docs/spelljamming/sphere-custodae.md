@@ -81,18 +81,18 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 
 **Greater**
 
-- Aramnesis, Steward of Magic and Knowledge (Lawful Neutral)
-- Caldyra, Steward of Psionics and the Mind (Lawful Neutral)
+- Aramnesis, Steward of Magic and Knowledge (LN)
+- Caldyra, Steward of Psionics and the Mind (LN)
 
 **Demigods**
 
-- Virelith, Curator of Evocation and Psychokinesis (Chaotic Evil)
-- Etris, Curator of Transmutation and Psychometabolism (Lawful Neutral)
-- Molgareth, Curator of Enchantment and Telepathy (Neutral Evil)
-- Tahlrix, Curator of Divination and Clairsentience (Neutral)
-- Thalos, Curator of Conjuration and Metacreativity (Neutral Good)
-- Brannoch, Curator of Necromancy (Neutral Evil)
-- Nyzhera, Keeper of Forbidden Knowledge (Neutral Evil)
+- Virelith, Curator of Evocation and Psychokinesis (CE)
+- Etris, Curator of Transmutation and Psychometabolism (LN)
+- Molgareth, Curator of Enchantment and Telepathy (NE)
+- Tahlrix, Curator of Divination and Clairsentience (N)
+- Thalos, Curator of Conjuration and Metacreativity (NG)
+- Brannoch, Curator of Necromancy (NE)
+- Nyzhera, Keeper of Forbidden Knowledge (NE)
 
 </div>
 </div>

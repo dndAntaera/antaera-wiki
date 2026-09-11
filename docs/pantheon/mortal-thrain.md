@@ -14,12 +14,13 @@ title: "Thrain Stoneheart, the Tranquil Forgemaster"
 
 # Overview
 
+- **Rank**: Greater God
 - **Symbol**: A stylized anvil with a hammer crossed over it
 - **Home Plane**: The Hearthforge, Elysium
-- **Alignment**: Neutral Good
+- **Alignment**: NG
 - **Portfolio**: Peace, unity, craft, community
 - **Worshipers**: Artisans, diplomats, dwarves
-- **Cleric Alignments**: Neutral Good, Lawful Good, Chaotic Good, Neutral
+- **Cleric Alignments**: CG, LG, NG
 - **Domains**: Community, Craft, Dwarf, Family
 - **Favored Weapon**: Warhammer
 
@@ -30,8 +31,6 @@ As he delved into the ancient dwarven arts of craftsmanship and forging, Thrain 
 
 **Description**
 Thrain is a stout and dignified dwarf, adorned in robes of earthy tones that mirror the colors of the mountain range he calls home. His beard, intricately braided with gemstones, radiates a calming aura. Thrain's eyes, though filled with the wisdom of ages, convey a deep serenity. He is often depicted carrying a staff that doubles as a mighty warhammer, symbolizing the balance between strength and peace.
-
-The symbol of Thrain Stoneheart is a stylized anvil, with a hammer crossed over it. This represents the forging of strength and peace, emphasizing the balance that the god encourages his followers to maintain.
 
 **Dogma**
 **Balance in All Things**: Thrain encourages his followers to seek harmony in their actions, understanding that both strength and peace are essential components of a fulfilling life.

@@ -94,21 +94,21 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
 
 **Lesser Gods**
 
-- Mensor, Keeper of the True Measure (Lawful Neutral)
-- Solvara, Who Settles the Ledger (Chaotic Good)
-- Fabrica, Mother of Honest Work (Neutral Good)
-- Alpha, Patron God of Warforged (Chaotic Neutral)
-- Cinerea, Who Sells the Flawed Casting (Neutral Evil)
+- Mensor, Keeper of the True Measure (LN)
+- Solvara, Who Settles the Ledger (CG)
+- Fabrica, Mother of Honest Work (NG)
+- Alpha, Patron God of Warforged (CN)
+- Cinerea, Who Sells the Flawed Casting (NE)
 
 **Intermediate Gods**
 
-- Astrilex, Warden of the Fair Contract (Lawful Good)
-- Malleor, the Hammer That Does Not Rest (Lawful Evil)
-- Ustrina, Who Burns the Rival Yard (Chaotic Evil)
+- Astrilex, Warden of the Fair Contract (LG)
+- Malleor, the Hammer That Does Not Rest (LE)
+- Ustrina, Who Burns the Rival Yard (CE)
 
 **Greater Gods**
 
-- Ignatarnus, the Unspent Flame and First Forge (True Neutral)
+- Ignatarnus, the Unspent Flame and First Forge (N)
 
 </div>
 </div>

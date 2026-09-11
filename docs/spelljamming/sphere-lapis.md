@@ -95,33 +95,33 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 
 **Lesser Deities**
 
-- Thalanor, the Gemwarden (Lawful Good)
-- Ilyrah, Mycelial Mother (Neutral Good)
-- Serelune, Breath of Caverns (Chaotic Good)
+- Thalanor, the Gemwarden (LG)
+- Ilyrah, Mycelial Mother (NG)
+- Serelune, Breath of Caverns (CG)
 
 **Intermediate Deities**
 
-- Ovrik, the Stone Judge (Lawful Neutral)
-- Xal-Themn, the Mind Root (True Neutral)
-- Vekzeth, Mad Echo (Chaotic Neutral)
+- Ovrik, the Stone Judge (LN)
+- Xal-Themn, the Mind Root (N)
+- Vekzeth, Mad Echo (CN)
 
 **Greater Deities**
 
-- Velgrith, Chain Below (Lawful Evil)
-- Urox the Hollow, Memory-Eater (Neutral Evil)
-- Ykraghar, King of Spores (Chaotic Evil)
+- Velgrith, Chain Below (LE)
+- Urox the Hollow, Memory-Eater (NE)
+- Ykraghar, King of Spores (CE)
 
 **Demigods**
 
-- Drexxel, the Vermin Voice (Neutral Evil)
-- Nymira, Lady of Still Minds (True Neutral)
-- Skoruun, the Unspoken Mold (Chaotic Evil)
-- Braxael, Lampbearer of Dust (Chaotic Neutral)
-- Ithk, the Root Without End (True Neutral)
-- Molgur, He Who Forgets (Neutral Evil)
-- Savaar, the Chittering Prophet (Chaotic Evil)
-- Othuun, Keeper of Deep Names (Chaotic Neutral)
-- Ezzith, the Hollow Bud (Chaotic Neutral)
+- Drexxel, the Vermin Voice (NE)
+- Nymira, Lady of Still Minds (N)
+- Skoruun, the Unspoken Mold (CE)
+- Braxael, Lampbearer of Dust (CN)
+- Ithk, the Root Without End (N)
+- Molgur, He Who Forgets (NE)
+- Savaar, the Chittering Prophet (CE)
+- Othuun, Keeper of Deep Names (CN)
+- Ezzith, the Hollow Bud (CN)
 
 </div>
 </div>

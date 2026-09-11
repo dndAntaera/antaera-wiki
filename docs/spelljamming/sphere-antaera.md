@@ -101,31 +101,31 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 
 **Lesser Gods**
 
-- Ukrol, Patron of Humans (Lawful Evil)
-- Nessa, Patron of Vermin (Neutral Evil)
-- Homoth, Lord of Beasts (Neutral Good)
-- Fink, Patron of Goblinoids (Chaotic Neutral)
-- Orion, Patron of Smallfolk (Chaotic Good)
+- Homoth, Lord of Beasts (NG)
+- Enigma, the Lost God (N)
+- Droma, God of Craftsmen (LN)
+- Rasmin, God of Mischief (CN)
 
 **Intermediate Gods**
 
-- Enigma, the Lost God (True Neutral)
-- Droma, God of Craftsmen (Chaotic Neutral)
-- Rasmin, God of Mischief (Chaotic Neutral)
-- Leshrac, Lord of the Undead (Lawful Evil)
-- Mil’Anaara, Goddess of Storms (Chaotic Evil)
+- Leshrac, Lord of the Undead (LE)
+- Mil’Anaara, Goddess of Storms (CE)
+- Ukrol, Patron of Humans (LE)
+- Nessa, Patron of Vermin (NE)
+- Fink, Patron of Goblinoids (CN)
+- Orion, Patron of Smallfolk (CG)
 
 **Greater Gods**
 
-- Lux Dawnbringer, the Luminous Sovereign (Lawful Good)
-- Thrain Stoneheart, the Tranquil Forgemaster (Neutral Good)
-- Leonus Ironmane, the Stalwart Guardian (Chaotic Good)
-- Tome, Keeper of the Celestial Library (Lawful Neutral)
-- Sol, the Eternal Equilibrium (True Neutral)
-- Selene, the Nightweaver (Chaotic Neutral)
-- Mordac, the Arbiter of Tyranny (Lawful Evil)
-- Vortressa, the Mother of Monsters (Neutral Evil)
-- Zarakth, the Abyssal Scourge (Chaotic Evil)
+- Lux Dawnbringer, the Luminous Sovereign (LG)
+- Thrain Stoneheart, the Tranquil Forgemaster (NG)
+- Leonus Ironmane, the Stalwart Guardian (CG)
+- Tome, Keeper of the Celestial Library (LN)
+- Sol, the Eternal Equilibrium (N)
+- Selene, the Nightweaver (CN)
+- Mordac, the Arbiter of Tyranny (LE)
+- Vortressa, the Mother of Monsters (NE)
+- Zarakth, the Abyssal Scourge (CE)
 
 </div>
 </div>

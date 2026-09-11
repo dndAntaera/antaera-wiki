@@ -14,12 +14,13 @@ title: "Jinzai, Herald of Steam"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: Coiling plume rising from a calm pool
 - **Home Plane**: Quasi-Elemental Plane of Steam
-- **Alignment**: Neutral Good
+- **Alignment**: NG
 - **Portfolio**: Steam, Endurance, Primates, Renewal, Hospitality
 - **Worshipers**: Monks, druids, rangers, barbarians, blacksmiths, shugenja
-- **Cleric Alignments**: LG, NG, CG, N
+- **Cleric Alignments**: CG, LG, NG
 - **Domains**: Water, Healing, Community, Strength
 - **Favored Weapon**: Quarterstaff
 

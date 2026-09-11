@@ -14,12 +14,13 @@ title: "Pyrius, Herald of Ash"
 
 # Overview
 
+- **Rank**: Lesser God
 - **Symbol**: A dark spiral ring devouring light at its center
 - **Home Plane**: Quasi-Elemental Plane of Ash
-- **Alignment**: Chaotic Evil
+- **Alignment**: CE
 - **Portfolio**: Entropy, decay, dying worlds, extinction, finality
 - **Worshipers**: Sorcerers, warlocks, necromancers, druids, doomsayers
-- **Cleric Alignments**: Chaotic Evil, Neutral Evil, Chaotic Neutral
+- **Cleric Alignments**: CE, CN, NE
 - **Domains**: Death, Destruction, Fire, Evil, Entropy
 - **Favored Weapon**: Scythe
 

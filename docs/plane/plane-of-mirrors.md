@@ -55,7 +55,7 @@ The Plane of Mirrors has few inhabitants. However, when a traveler passes throug
 ## Mirror-Self
 A mirror-self is created somewhere else on the Plane of Mirrors whenever someone mirrorwalks onto the Plane. This mirror-self is identical in every way with the original character, with the following exceptions:
 
-- The mirror-self has the opposite alignment as the original character. For example, a lawful good mirrorwalker would spawn a chaotic evil mirror-self. (A true neutral mirrorwalker spawns a neutral mirror-self.)
+- The mirror-self has the opposite alignment as the original character. For example, an LG mirrorwalker would spawn a CE mirror-self. (An N mirrorwalker spawns a neutral mirror-self.)
 - If the original self is carrying a mirror as equipment, the mirror isn’t duplicated by the mirror-self. All other items held, worn, or carried by the original are duplicated by the mirror-self.
 - The mirror-self knows the location of its original self, but the reverse isn’t true unless the two meet. The mirror-self also has the memories of the original at the moment of creation, including which mirror the original used to enter the Plane of Mirrors.
 - The mirror-self is an outsider, so it cannot be raised or resurrected if slain.

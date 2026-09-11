@@ -226,25 +226,41 @@ def main():
            for f, t in pages.items()
            for m in re.finditer(r"\d\s*(?:feet|foot|pounds)\b|(?<![A-Za-z])(?:ft|lbs)\.(?!\s+[A-Z])", t)])
 
-    # Every god's page shares one layout: an Overview that opens on a list of
-    # facts, each section under a heading, the tenets as a list, and pictures
-    # in a boxed sidebar. The pages came from three templates written down five
-    # ways, and a bold word standing in for a heading is exactly the kind of
-    # thing that creeps back in when a new god is added by copying an old one.
+    # Every god's page follows Format A (see deity_format in convert.py): all
+    # eight facts in order, the four required sections under bold labels with
+    # the prose on the next line, no sub-headings, no symbol section, and a
+    # sidebar only where there is a picture to put in it. Stubs follow the stub
+    # template. A new god is usually made by copying an old one, and this is
+    # what drifts when that happens.
+    fields = ["Symbol", "Home Plane", "Alignment", "Portfolio", "Worshipers",
+              "Cleric Alignments", "Domains", "Favored Weapon"]
     bad = []
     for f, t in pages.items():
-        if not re.match(r"docs/(deity|pantheon)/", f) or "used for disambiguation" in t:
+        if not re.match(r"docs/(deity|pantheon)/", f):
             continue
         b = body_of(t)
-        if not re.search(r"^# Overview[ \t]*\n[ \t]*\n- \*\*", b, re.M):
-            bad.append("%s  Overview does not open on its list of facts" % f)
-        for m in re.finditer(r"^\*\*[^*\n]+?:\*\*"
-                             r"|^\*\*[^*\n]+?\*\*:?[ \t]*(<br>)?[ \t]*$"
-                             r"|^\*[^*\n]+\*[ \t]*<br>", b, re.M):
-            bad.append("%s  %s" % (f, m.group(0)[:40]))
-        if "wd-plain" in b:
-            bad.append("%s  a sidebar without its box" % f)
-    check("every god's page shares one layout", bad)
+        if "used for disambiguation" in t:
+            if not re.search(r'<div class="wd-row" style="--wd-rw: 935px" markdown>\s*'
+                             r'<div class="wd-cell" markdown>\s*# [^\n]+\n\n'
+                             r'\*This page is currently used for disambiguation\.\*', b):
+                bad.append("%s  stub is not in the stub template" % f)
+            continue
+        got = re.findall(r"^- \*\*([^*]+)\*\*: ", b, re.M)
+        if got[:8] != fields:
+            bad.append("%s  facts are %s" % (f, got[:8]))
+        for sec in ("Origins", "Description", "Dogma", "Home Sphere"):
+            if not re.search(r"^\*\*%s\*\*$" % re.escape(sec), b, re.M):
+                bad.append("%s  no %s" % (f, sec))
+        if re.search(r"^#{2,6} ", b, re.M):
+            bad.append("%s  has a sub-heading" % f)
+        if re.search(r"^# \*\*", b, re.M):
+            bad.append("%s  a label inside a heading" % f)
+        if re.search(r"^\*\*(Holy|Unholy) Symbol\*\*", b, re.M):
+            bad.append("%s  a symbol section" % f)
+        for m in re.finditer(r'<div class="wd-cell wd-aside" markdown>(.*?)</div>', b, re.S):
+            if "![](" not in m.group(1):
+                bad.append("%s  a sidebar with no picture" % f)
+    check("every god's page follows Format A", bad)
 
     # --- content -----------------------------------------------------------
     print("\nCONTENT")

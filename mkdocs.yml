@@ -46,6 +46,7 @@ hooks:
   - hooks/homelink.py
   - hooks/archived.py
   - hooks/flags.py
+  - hooks/labels.py
   - hooks/tablenotes.py
   - hooks/cachebust.py
 

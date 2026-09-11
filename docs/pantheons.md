@@ -164,7 +164,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 - [Sol](pantheon/mortal-sol.md), the Eternal Equilibrium
     - Alignment: True Neutral
     - Portfolio: Balance, pacts, cycles, order
-    - Symbol: A roaring celestial dragon and runes forming a perfect circle
+    - Symbol: A set of scales held by a draconic hand
 - [Selene](pantheon/mortal-selene.md), the Nightweaver
     - Alignment: Chaotic Neutral
     - Portfolio: Secrets, shadows, night, illusion
@@ -195,7 +195,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 - [Orion](deity/orion.md), Patron of Smallfolk
     - Alignment: Chaotic Good
     - Portfolio: Smallfolk, artifice, ingenuity, resilience
-    - Symbol: A small hammer striking a star
+    - Symbol: A crystal radiating astral light
 - [Leshrac](deity/leshrac.md), Lord of the Undead
     - Alignment: Lawful Evil
     - Portfolio: Undead, cruelty, control, decay
@@ -203,7 +203,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 - [Ukrol](deity/ukrol.md), Patron of Humans
     - Alignment: Lawful Evil
     - Portfolio: Humans, conquest, dominion, authority
-    - Symbol: A crowned gauntlet gripping a globe
+    - Symbol: A featureless humanoid face with a spiked crown
 - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
     - Alignment: Neutral Evil
     - Portfolio: Scalykind, poison, venom, instinct
@@ -242,7 +242,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
     - Alignment: Chaotic Good
     - Portfolio: Travel, oceans, winds, safe passage
-    - Symbol: A ship beneath a guiding star
+    - Symbol: A compass encircled by symbols of waves and meandering paths
 - [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
     - Alignment: Lawful Evil
     - Portfolio: Tyranny, contracts, domination, devils
@@ -323,6 +323,11 @@ Due to their unique source of divinity, these gods possess no ability to grant d
     - Alignment: Neutral
     - Portfolio: Decay feeding life, fallen forests, rebirth from ruin
     - Symbol: A seed sprouting from ash
+
+- [Cervidûr](deity/cervidur.md), Lord of the Hunt, Master of the Wild Hunt
+    - Alignment: Chaotic Neutral
+    - Portfolio: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
+    - Symbol: A stag's head with wide antlers adorned with runes of fey magic
 
 ## Lesser Gods
 

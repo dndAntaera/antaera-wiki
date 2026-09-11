@@ -105,7 +105,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 - Nessa, Patron of Vermin (Neutral Evil)
 - Homoth, Lord of Beasts (Neutral Good)
 - Fink, Patron of Goblinoids (Chaotic Neutral)
-- Orion, Patron of Smallfolk (Chaotic Neutral)
+- Orion, Patron of Smallfolk (Chaotic Good)
 
 **Intermediate Gods**
 

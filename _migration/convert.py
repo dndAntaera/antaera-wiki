@@ -306,6 +306,24 @@ ARCHIVED_FOLDERS = {"wm"}
 # than built from the slug - see the title block in main().
 DEITY_FOLDERS = {"deity", "pantheon"}
 
+# What a god's page is made of. Every one, whichever template it was written
+# from, opens with a few short facts and then runs through sections of prose;
+# the pages differed only in how they wrote that down. A stat is one of the
+# short facts and goes in the list at the top. A section is prose and gets a
+# heading of its own. "Origins" is both: a line of fact on Enigma's page, a
+# paragraph on the pantheon's, and which it is depends on how it was written.
+DEITY_STATS = {
+    "Name", "Symbol", "Home Plane", "Alignment", "Portfolio", "Worshipers",
+    "Cleric Alignments", "Domain", "Domains", "Favored Weapon", "Origins",
+}
+DEITY_SECTIONS = {
+    "Appearance", "Backstory", "Description", "Origins", "Dogma", "Home Sphere",
+    "Divine Realm", "Infernal Dominion", "Abyssal Dominion",
+    "Holy Symbol", "Unholy Symbol", "Clergy and Temples", "Cult and Temples",
+    "Rivalries", "The Wandering Mystery", "Reverence and Speculation",
+    "Gifts of Enigma",
+}
+
 TODO = []
 
 
@@ -1271,6 +1289,160 @@ def title_card(title, body):
         return body[:len(lead)] + "\n" + card + body[len(lead):].lstrip("\n")
     return card + body
 
+
+def deity_format(body, title):
+    """Give a god's page the layout every god's page shares.
+
+    Fifty-eight pages of gods came from three templates and were written down
+    at least five ways. The pantheon's twenty put their facts in a list and
+    their sections under a bold word and a line break. The rest wrote a bold
+    label with the colon outside it, or inside it, or followed by a line break,
+    or with the prose running on after it on the same line; wrote their tenets
+    as bold paragraphs, or as italic lines, or - once - as a whole italic
+    sentence with the tenet's name folded into it; and put their pictures in a
+    boxed sidebar or an unboxed one depending on nothing more than whether
+    there happened to be one picture or two.
+
+    They now read the same way:
+
+      - the facts first, as one list, each "**Field**: value"
+      - each section of prose under a heading of its own
+      - the tenets as one list, "**Tenet**: what it asks", under "Tenets of"
+        and the god's own name - which on Cervidur's page it was not: that
+        heading said "Tenets of Orion", copied from the page it was made from
+      - pictures in a boxed sidebar
+
+    Nothing is reworded and no section is renamed. The one line removed is
+    Enigma's "Name: Enigma, the Lost God", which is the page's title again.
+    Disambiguation stubs have nothing to lay out and are left as they are.
+    """
+    if "used for disambiguation" in body:
+        return body
+    cell = re.search(r'<div class="wd-cell" markdown>\n(.*?)\n</div>', body, re.S)
+    if not cell:
+        return body
+    head = re.search(r"^(#{1,6})[ \t]+\S", cell.group(1), re.M)
+    if not head:
+        return body
+    sub = "#" * min(6, len(head.group(1)) + 1)
+    short = title.split(",")[0].strip().split()[0]
+
+    label = re.compile(r"^\*\*(?P<name>[^*]+?)(?P<cin>:?)\*\*(?P<cout>:?)"
+                       r"[ \t]*(?P<br><br>)?[ \t]*(?P<rest>.*)$")
+    listed = re.compile(r"^- \*\*(?P<name>[^*]+?):?\*\*:?[ \t]*(?P<rest>.*)$")
+
+    out, pend = [], []
+    state = {"kind": None, "tenets": False}
+
+    def flush():
+        if pend:
+            out.append(("\n" if state["kind"] == "stat" else "\n\n").join(pend))
+            del pend[:]
+
+    def emit(kind, text):
+        if kind != state["kind"]:
+            flush()
+        state["kind"] = kind
+        if kind in ("stat", "tenet"):
+            pend.append(text)
+        else:
+            out.append(text)
+            state["kind"] = None
+
+    def stat(name, value):
+        if name == "Domain" and "," in value:
+            name = "Domains"
+        emit("stat", "- **%s**: %s" % (name, value))
+
+    blocks = []
+    for block in re.split(r"\n[ \t]*\n", cell.group(1).strip("\n")):
+        # A heading with its first line of content straight under it and no
+        # blank line between is two blocks, not one. Vaylen's Overview runs
+        # straight into his Domains, and read as one block the Domains were
+        # carried along with the heading and never became part of the list.
+        top = block.split("\n", 1)
+        if re.match(r"^#{1,6}[ \t]", top[0]) and len(top) > 1:
+            blocks.extend(top)
+        else:
+            blocks.append(block)
+    for block in blocks:
+        lines = block.split("\n")
+        first = lines[0]
+
+        if re.match(r"^#{1,6}[ \t]", first):
+            emit("block", block)
+            continue
+
+        if all(listed.match(l) for l in lines):
+            for l in lines:
+                m = listed.match(l)
+                stat(m.group("name").strip(), m.group("rest").strip())
+            continue
+
+        m = label.match(first)
+        if m and (m.group("cin") or m.group("cout") or m.group("br")
+                  or not m.group("rest").strip()):
+            name = m.group("name").strip()
+            rest = " ".join(x.strip() for x in [m.group("rest")] + lines[1:]
+                            if x.strip())
+            inline = bool(m.group("rest").strip()) and not m.group("br")
+
+            if name.startswith("Tenets"):
+                state["tenets"] = True
+                if not name.lower().endswith(" " + short.lower()):
+                    name = "Tenets of " + short
+                emit("block", sub + " " + name)
+                if rest:
+                    emit("block", rest)
+                continue
+            if inline and name in DEITY_STATS and not state["tenets"]:
+                if name == "Name" and rest.lower() == title.lower():
+                    continue
+                stat(name, rest)
+                continue
+            if inline and state["tenets"] and name not in DEITY_SECTIONS:
+                emit("tenet", "- **%s**: %s" % (name, rest))
+                continue
+            state["tenets"] = False
+            emit("block", sub + " " + name)
+            if rest:
+                emit("block", rest)
+            continue
+
+        if state["tenets"]:
+            # "*Seek knowledge and harmony with the cosmos*<br>" and the tenet
+            # on the next line; or "*Embrace the Night: Selene encourages...*"
+            it = re.match(r"^\*(?P<name>[^*]+?)\*[ \t]*<br>[ \t]*$", first)
+            if it and len(lines) > 1:
+                emit("tenet", "- **%s**: %s" % (
+                    it.group("name").strip(), " ".join(l.strip() for l in lines[1:])))
+                continue
+            it = re.match(r"^\*(?P<name>[^*:]+):[ \t]*(?P<rest>[^*]+)\*$", block)
+            if it:
+                emit("tenet", "- **%s**: %s" % (
+                    it.group("name").strip(), it.group("rest").strip()))
+                continue
+
+        emit("block", block)
+    flush()
+
+    # The blank lines inside the card's opening and closing tags go back where
+    # every other card on the site keeps them.
+    body = (body[:cell.start(1)] + "\n" + "\n\n".join(out) + "\n"
+            + body[cell.end(1):])
+
+    # A sidebar of pictures is boxed, whether it holds one picture or two.
+    body = body.replace('<div class="wd-cell wd-plain" markdown>',
+                        '<div class="wd-cell wd-aside" markdown>')
+    # Its captions name the god the way the page does.
+    body = re.sub(r"^\*([^*\n]+)\*$",
+                  lambda m: ("*%s*" % title) if m.group(1).lower() == title.lower()
+                  else m.group(0), body, flags=re.M)
+    if re.search(r"^#{1,6} Unholy Symbol$", body, re.M):
+        body = body.replace("*Holy Symbol of ", "*Unholy Symbol of ")
+    return body
+
+
 def apply_edits(slug, text):
     """Make the small corrections listed for this page.
 
@@ -1656,7 +1828,8 @@ def main(backup):
             # Two of the gods' pages label the heading "Name:" before giving
             # it, which is the same heading with a word in front of it.
             plain = re.sub(r"^\s*Name\s*:\s*", "", plain, flags=re.I).strip()
-            if plain.lower() in GENERIC_HEADINGS or plain == title:
+            if (plain.lower() in GENERIC_HEADINGS
+                    or plain.lower() == title.lower()):
                 body = body[:m.start()] + m.group(1) + " Overview" + body[m.end():]
 
         # A disambiguation stub gets the link it was missing, put inside its
@@ -1706,6 +1879,8 @@ def main(backup):
         # Last, after the title heading and any injected section: those arrive
         # after the conversion pass and can reopen a gap in the heading levels
         # that pass had just closed.
+        if target_path(slug).split("/")[0] in DEITY_FOLDERS:
+            body = deity_format(body, title)
         body = apply_edits(slug, title_card(title, heading_levels(body)))
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)

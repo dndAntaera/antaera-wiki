@@ -226,6 +226,26 @@ def main():
            for f, t in pages.items()
            for m in re.finditer(r"\d\s*(?:feet|foot|pounds)\b|(?<![A-Za-z])(?:ft|lbs)\.(?!\s+[A-Z])", t)])
 
+    # Every god's page shares one layout: an Overview that opens on a list of
+    # facts, each section under a heading, the tenets as a list, and pictures
+    # in a boxed sidebar. The pages came from three templates written down five
+    # ways, and a bold word standing in for a heading is exactly the kind of
+    # thing that creeps back in when a new god is added by copying an old one.
+    bad = []
+    for f, t in pages.items():
+        if not re.match(r"docs/(deity|pantheon)/", f) or "used for disambiguation" in t:
+            continue
+        b = body_of(t)
+        if not re.search(r"^# Overview[ \t]*\n[ \t]*\n- \*\*", b, re.M):
+            bad.append("%s  Overview does not open on its list of facts" % f)
+        for m in re.finditer(r"^\*\*[^*\n]+?:\*\*"
+                             r"|^\*\*[^*\n]+?\*\*:?[ \t]*(<br>)?[ \t]*$"
+                             r"|^\*[^*\n]+\*[ \t]*<br>", b, re.M):
+            bad.append("%s  %s" % (f, m.group(0)[:40]))
+        if "wd-plain" in b:
+            bad.append("%s  a sidebar without its box" % f)
+    check("every god's page shares one layout", bad)
+
     # --- content -----------------------------------------------------------
     print("\nCONTENT")
 

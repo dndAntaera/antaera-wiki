@@ -20,7 +20,7 @@ wip: true
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# House of Fabrication
+# Overview
 
 The House of Fabrication is the sole government, employer, and landholder of the [Forgehome](../spelljamming/sphere-forgehome.md) sphere. It began as a spacefaring trading caravan and became a corporatocracy: the company runs the government, and there is no distinction between the two. Three castes hold the population. The Mercane govern, own, and price. The artisans build, and are descended from the sphere's native civilization, bought out over generations rather than conquered. The Warforged carry, and hold their position by the settlement that ended the civil war, which freed them from classification as property and set the Life Debt against them in its place.
 

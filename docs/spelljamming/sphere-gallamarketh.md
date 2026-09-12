@@ -99,19 +99,19 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 
 # Recognized Pantheon
 
-**Lesser**
+**Lesser Deities**
 
 - Bravari, The Silent Seal (LG)
 - Cindhaera, The Guildmother's Grace (NG)
 - Varnel, Hand of Inspired Chaos (CG)
 
-**Intermediate**
+**Intermediate Deities**
 
 - Tollenar, Lord of Ledgers (LN)
 - Mirellien, The Masked Artisan (N)
 - Zepharii, Muse of Fleeting Works (CN)
 
-**Greater**
+**Greater Deities**
 
 - Encarthis, The Prime Binder (LN)
 

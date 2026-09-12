@@ -65,7 +65,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 # Recognized Pantheon
 
-**Greater**
+**Greater Deities**
 
 - Helus, God of Death (NE)
 

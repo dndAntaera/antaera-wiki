@@ -551,7 +551,7 @@ DEITY_HOME_SPHERE = {
     "mortal-leonis": "Leonus hails from the Antæra Sphere, having been born in the Greater Ironpine Forest on the prime world of Antæra.",
     "mortal-sol": "Sol is bound to the Gallamarketh Sphere, whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.",
     "orion": "Orion hails from the Antæra Sphere, having formed as a planar crystal in the heart of the prime world of Antæra.",
-    "cervidur": "Cervidûr is native to the Sidhe Sphere, where his Moonlit Glade lies within the Feywild.",
+    "cervidur": "Cervidûr is native to the Sidhe Sphere, though the Moonlit Glade itself lies in the Feywild rather than anywhere within the sphere.",
 }
 
 # Sentences written for a page since the import, added to the end of a section.
@@ -592,11 +592,22 @@ COSMOLOGY_35 = [
 TODO = []
 
 
+# Pages whose address is not the one their slug would give. The fey plane's
+# page is the Feywild, so it is at /plane/feywild/ rather than under the name
+# it was filed under when it was the Plane of Faerie. Every link to it is built
+# from this, so they all follow.
+RENAMED = {
+    "plane-of-faerie": "plane/feywild.md",
+}
+
+
 def target_path(slug):
     """Where a Wikidot slug lands under docs/."""
     if slug == "start":
         return "index.md"
     slug = slug.replace(":", "-")
+    if slug in RENAMED:
+        return RENAMED[slug]
     if slug in MERGE_PARTS:
         return MERGE_PARTS[slug][0] + ".md"
     if slug in APPEND_TO:
@@ -1675,6 +1686,18 @@ def pantheon_index(text):
     return gods
 
 
+def sphere_ranks(text):
+    """Label a sphere's ranks the way every other sphere labels them.
+
+    Four spheres named the ranks by the bare word - "**Greater**" - and one
+    put a colon after each of them. They all read "**Greater Deities**" now,
+    and the demigods below them "**Demigods**".
+    """
+    text = re.sub(r"^\*\*(Lesser|Intermediate|Greater)(?: Deities)?\*\*:?[ \t]*$",
+                  r"**\1 Deities**", text, flags=re.M)
+    return re.sub(r"^\*\*Demigods\*\*:[ \t]*$", "**Demigods**", text, flags=re.M)
+
+
 def favor_pantheon(text, gods):
     """Make a sphere's Recognized Pantheon agree with The Pantheons.
 
@@ -1761,7 +1784,7 @@ def finish_site():
             path = os.path.join(sdir, name)
             with open(path, encoding="utf-8") as fh:
                 text = fh.read()
-            new = favor_pantheon(text, gods)
+            new = favor_pantheon(sphere_ranks(text), gods)
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
                     fh.write(new)

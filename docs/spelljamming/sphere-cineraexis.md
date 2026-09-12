@@ -97,25 +97,25 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
 
 # Recognized Pantheon
 
-**Lesser Deities**:
+**Lesser Deities**
 
 - Vorthis, the Ember Judge (LE)
 - Caelyra of the Hearthsong (NG)
 - Ryzek Flamechild (CN)
 
-**Intermediate Deities**:
+**Intermediate Deities**
 
 - Pyrak-Zhul, Chain of the Inferno (LN)
 - Ithriin the Blooming Pyre (N)
 - Zevakari the Scorch-Sister (CE)
 
-**Greater Deities**:
+**Greater Deities**
 
 - Aurem Sol'Kai, the Dawnfire King (LG)
 - Kharrum the Black Flame (NE)
 - Velashar of the Molten Veil (CG)
 
-**Demigods**:
+**Demigods**
 
 - Scaelix the Spark-Drake (CN)
 - Jhulane of the Candlelight Vigil (LG)

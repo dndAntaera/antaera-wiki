@@ -238,6 +238,12 @@ def main():
             bad.append("%s  %s" % (f, re.sub(r"\s+", " ", b[max(0, m.start() - 34):m.end() + 20])))
     check("the wiki says deities, not gods", bad)
 
+    check("a sphere labels its ranks like every other sphere",
+          ["%s  %s" % (f, m.group(0))
+           for f, t in pages.items() if re.match(r"docs/spelljamming/sphere-", f)
+           for m in re.finditer(r"^\*\*(?:Lesser|Intermediate|Greater)\*\*:?[ \t]*$"
+                                r"|^\*\*[A-Za-z][^*\n]*\*\*:[ \t]*$", body_of(t), re.M)])
+
     check("the fey plane is called the Feywild",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()

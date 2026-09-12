@@ -83,17 +83,17 @@ Primary Body:
 
 # Recognized Pantheon
 
-**Lesser**
+**Lesser Deities**
 
 - Serenai, Spirit of the First Garden (CG)
 - Elior, Monk of the Celestial Tone (LG)
 
-**Intermediate**
+**Intermediate Deities**
 
 - Vaselra, Blooming Silence (CG)
 - Thalanis, Keeper of the Inner Veil (NG)
 
-**Greater**
+**Greater Deities**
 
 - Aureus, Harmonizer Supreme (LG)
 - Ivenari, the Golden Cup (NG)

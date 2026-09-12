@@ -49,7 +49,7 @@ Cervidûr's clergy are often druids, rangers, and shamans who dwell in secluded 
 Cervidûr opposes deities who promote urbanization, industrialization, and the destruction of natural habitats. He stands as a protector of the balance and harmony of the natural world, challenging those who seek to exploit nature for profit or dominance.
 
 **Home Sphere**
-Cervidûr is native to the Sidhe Sphere, where his Moonlit Glade lies within the Feywild.
+Cervidûr is native to the Sidhe Sphere, though the Moonlit Glade itself lies in the Feywild rather than anywhere within the sphere.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

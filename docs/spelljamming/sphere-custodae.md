@@ -79,7 +79,7 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 
 # Recognized Pantheon
 
-**Greater**
+**Greater Deities**
 
 - Aramnesis, Steward of Magic and Knowledge (LN)
 - Caldyra, Steward of Psionics and the Mind (LN)

@@ -123,6 +123,15 @@ EDITS = {
         (None, "a nightmarish realm located in [insert beast plane equivalent] where monstrous creatures are bred",
          "a nightmarish realm occupying its own layer of the Abyss, where monstrous creatures are bred"),
     ],
+    # The first card on the legal page is the disclaimer proper, and says so,
+    # now that two more cards sit under it. And taking part is taking part in a
+    # campaign, not in a title.
+    "disclaimer": [
+        (None, "\n\nWelcome to Legends of Antæra",
+         "\n\n# Disclaimer\n\nWelcome to Legends of Antæra"),
+        (None, "By participating in Legends of Antæra",
+         "By participating in a campaign based in Antæra"),
+    ],
     # Typos.
     "deity-ukrol": [
         (None, "Tyrrany", "Tyranny"),
@@ -300,12 +309,22 @@ END OF LICENSE"""
 # Cards that are quoted, not written: house style does not touch them. It put
 # an en dash in the licence's "2000-2003", and a copyright notice says what it
 # says.
+# Wizards' fan content notice, in the wording their policy sets. It is the
+# same notice the footnote carries on every other page - see hooks/footnote.py.
+FAN_CONTENT = (
+    "Antæra is unofficial Fan Content permitted under the Fan Content Policy. "
+    "Not approved/endorsed by Wizards. Portions of the materials used are "
+    "property of Wizards of the Coast. ©Wizards of the Coast LLC. "
+    "[For more information](https://company.wizards.com/en/legal/fancontentpolicy)"
+)
+
 VERBATIM_CARDS = {"disclaimer"}
 
 NEWCARDS = {
     # The licence the wiki's 3.5e material is used under, at the foot of the
     # page that carries the wiki's other legal notes.
     "disclaimer": [
+        (None, "Fan Content Policy", FAN_CONTENT),
         (None, "Open Game License", OGL_V10A),
     ],
     "anthropology-warforged": [
@@ -643,6 +662,15 @@ ALIGNMENT_AXES = {
 # plane went by. The Plane of Faerie and the Sidhe Wilderness were one place
 # under two names, and that place is the Feywild. The Courts of Faerie keep
 # theirs - that is a pantheon, not a plane.
+# The campaign is The World of Antæra now. On the main page the words are not
+# the name but the sentence's subject - "the Legends of Antæra are not just
+# tales ... they are a saga" - so there they become the ordinary word they are
+# being used as, rather than a name that would leave the verbs stranded.
+PHRASES = [
+    (r"the Legends of Antæra are", "the legends of Antæra are"),
+    (r"Legends of Antæra", "The World of Antæra"),
+]
+
 COSMOLOGY_35 = [
     (r"\bAstral Sea\b", "Astral Plane"),
     (r"\[Plane [Oo]f Faerie\]", "[Feywild]"),
@@ -702,6 +730,10 @@ TITLES = {
     # The fey plane. Every name the wiki had for it - the Plane of Faerie, the
     # Sidhe Wilderness - is the Feywild now, and so is the page.
     "plane-of-faerie": "The Feywild",
+
+    # The page carries the disclaimer, the fan content notice and the Open Game
+    # License. The menu calls it Disclaimer & Legal; the page says so in full.
+    "disclaimer": "Disclaimer & Legal Information",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
@@ -1842,7 +1874,7 @@ def finish_site():
             with open(path, encoding="utf-8") as fh:
                 text = fh.read()
             new = text
-            for pattern, standard in COSMOLOGY_35:
+            for pattern, standard in COSMOLOGY_35 + PHRASES:
                 new = re.sub(pattern, standard, new)
             new = deity_words(abbreviate_alignments(new))
             if new != text:

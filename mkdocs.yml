@@ -47,6 +47,7 @@ hooks:
   - hooks/archived.py
   - hooks/flags.py
   - hooks/labels.py
+  - hooks/footnote.py
   - hooks/tablenotes.py
   - hooks/cachebust.py
 

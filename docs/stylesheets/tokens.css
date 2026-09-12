@@ -46,6 +46,7 @@
   --wd-text-aside: .72rem;          /* sidebar cells */
   --wd-text-aside-spell: .79rem;    /* a spell card inside a sidebar: 1.1x */
   --wd-text-note: .82em;            /* a table's notes */
+  --wd-text-footnote: .68rem;       /* the foot of a page: dates, notices */
   --wd-text-table-sm: .78rem;       /* table text, on a phone */
   --wd-text-tag: .58em;             /* the SPELL / PSIONIC POWER label */
   --wd-text-spell: 1.1em;           /* a spell card, against its surroundings */

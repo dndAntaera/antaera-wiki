@@ -259,6 +259,31 @@ def main():
         bad.append("section 15 does not carry the SRD notice")
     check("the Open Game License is whole", bad)
 
+    # The fan content notice belongs at the foot of every page, and as a card
+    # on the legal page rather than a footnote, where a footnote would be the
+    # same words twice.
+    bad = []
+    for f in sorted(glob.glob(os.path.join(SITE, "**", "index.html"), recursive=True)):
+        h = io.open(f, encoding="utf-8").read()
+        rel = f.replace(chr(92), "/")
+        legal = "/disclaimer-legal/" in rel
+        has_note = 'class="wd-footnote"' in h
+        if legal and has_note:
+            bad.append("%s  has the footnote as well as the card" % rel)
+        elif not legal and not has_note:
+            bad.append("%s  has no footnote" % rel)
+        elif not legal and "Fan Content Policy" not in h:
+            bad.append("%s  footnote does not carry the notice" % rel)
+    lic = body_of(pages.get("docs/disclaimer-legal.md", ""))
+    if "Fan Content Policy" not in lic:
+        bad.append("the legal page has no fan content card")
+    check("the fan content notice is everywhere it should be", bad)
+
+    check("the campaign is not called by its old name",
+          ["%s  %s" % (f, m.group(0))
+           for f, t in pages.items()
+           for m in re.finditer(r".{0,40}Legends of Ant\w+.{0,30}", body_of(t))])
+
     check("the fey plane is called the Feywild",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()

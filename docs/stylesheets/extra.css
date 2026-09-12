@@ -703,12 +703,35 @@ body,
    behind them.
    --------------------------------------------------------------------------- */
 
+.wd-footnote,
 .md-source-file,
 .md-source-file__fact,
 .md-content__inner .md-source-file,
 .md-content__inner .md-source-file__fact {
   color: var(--wd-sky-ink-dim);
   text-shadow: var(--wd-outline-sky);
+}
+
+/* The whole footnote is set the size Material sets the dates at, so the notice
+   under them is the same small print rather than body copy. */
+.wd-footnote {
+  font-size: var(--wd-text-footnote);
+  line-height: var(--wd-leading);
+  margin-top: var(--wd-space-5);
+}
+
+.wd-footnote .md-source-file { margin: 0; }
+
+.wd-footnote__policy {
+  margin: var(--wd-space-2) 0 0;
+  font-size: 1em;
+}
+
+/* A link in the small print still has to look like one, and the sky's link
+   colour is the one that carries against it. */
+.wd-footnote a {
+  color: var(--wd-sky-link);
+  text-decoration: underline;
 }
 
 /* The little clock and pencil are SVG, so they take a drop-shadow rather than

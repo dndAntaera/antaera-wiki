@@ -30,7 +30,7 @@ The air is thick with tales of discovery within the bustling cities, from the no
 
 Antæra is a world teetering on the edge of something vast and unknown. The ruins and manifest zones are more than curiosities; they are doorways to power, knowledge, and destiny. Every kingdom, every adventurer, every scholar senses it: the world is changing, and with it, the future is up for grabs. Heroes will rise, not just because of their strength or cunning, but because they dare to step into the unknown, to forge their path in a world where the past and the future intertwine and where every decision could shape the fate of Antæra for centuries to come.
 
-In the end, the Legends of Antæra are not just tales of lands thawed and kingdoms reborn—they are a saga of people, their dreams, their fears, and their relentless drive to carve out their place in this unfolding epic. This is a world where every path is fraught with danger, every ruin holds a secret, and every manifest zone beckons with the promise of power and the threat of madness. It is a world where the lines between history and myth blur, the echoes of the past shape the future, and every step into the wild is a step into legend.
+In the end, the legends of Antæra are not just tales of lands thawed and kingdoms reborn—they are a saga of people, their dreams, their fears, and their relentless drive to carve out their place in this unfolding epic. This is a world where every path is fraught with danger, every ruin holds a secret, and every manifest zone beckons with the promise of power and the threat of madness. It is a world where the lines between history and myth blur, the echoes of the past shape the future, and every step into the wild is a step into legend.
 
 </div>
 </div>

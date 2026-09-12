@@ -92,19 +92,19 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
 
 # Recognized Pantheon
 
-**Lesser Gods**
+**Lesser Deities**
 
 - Shuiling, Weaver of Tides and Threads (NG)
 - Kōzaru, Lord of the Hungry Deep (CE)
 - Jinhai, Keeper of the Mist-Seal (LN)
 
-**Intermediate Gods**
+**Intermediate Deities**
 
 - Yuurei-no-Kami, Lady of Forgotten Foam (CG)
 - Daisensui, the Stone Anchor (LN)
 - Haijun, the Salt Tyrant (NE)
 
-**Greater Gods**
+**Greater Deities**
 
 - Seikatsu-no-Mikoto, Sovereign of the Living Pearl (N)
 - Namiya, the Spiral Empress (CN)

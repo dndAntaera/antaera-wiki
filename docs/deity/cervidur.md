@@ -14,9 +14,9 @@ title: "Cervidûr, Lord of the Hunt"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: A stag's head with wide antlers adorned with runes of fey magic
-- **Home Plane**: The Moonlit Glade, Sidhe Wilderness
+- **Home Plane**: The Moonlit Glade, the Feywild
 - **Alignment**: CN
 - **Portfolio**: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
 - **Worshipers**: Druids, rangers, shamans, lycanthropes
@@ -40,7 +40,7 @@ Cervidûr appears as a majestic stag of immense size, his form exuding an aura o
 **Celebrate the Moon**: The moon holds special significance in the worship of Cervidûr, symbolizing strength, transformation, and the cyclical nature of life. Followers are encouraged to observe lunar phases and draw inspiration from its celestial influence. It is believed that the moon's phases influence the ebb and flow of energy within the natural world, granting spiritual insight and guiding the timing of rituals and hunts. Celebrating the moon fosters a deeper connection to Cervidûr's divine presence and the mysteries of the night.
 
 **Divine Realm**
-Cervidûr's divine realm, known as the Moonlit Glade, is a vast and ever-changing wilderness where twilight reigns eternal. Ancient forests stretch beneath a perpetually waxing moon, where beasts of legend roam freely. It is a realm of primal beauty and danger, where the spirits of the hunt gather to honor their lord and seek his guidance. It is a mystical glade found on the Sidhe Wilderness.
+Cervidûr's divine realm, known as the Moonlit Glade, is a vast and ever-changing wilderness where twilight reigns eternal. Ancient forests stretch beneath a perpetually waxing moon, where beasts of legend roam freely. It is a realm of primal beauty and danger, where the spirits of the hunt gather to honor their lord and seek his guidance. It is a mystical glade found on the Feywild.
 
 **Clergy and Temples**
 Cervidûr's clergy are often druids, rangers, and shamans who dwell in secluded groves and sacred glades. Temples to Cervidûr are hidden deep within primeval forests, adorned with trophies of the hunt and offerings to appease the spirits of the wild. They serve as sanctuaries where hunters and lycanthropes gather to seek guidance, commune with nature, and honor Cervidûr's teachings.
@@ -49,7 +49,7 @@ Cervidûr's clergy are often druids, rangers, and shamans who dwell in secluded 
 Cervidûr opposes deities who promote urbanization, industrialization, and the destruction of natural habitats. He stands as a protector of the balance and harmony of the natural world, challenging those who seek to exploit nature for profit or dominance.
 
 **Home Sphere**
-Cervidûr is native to the Sidhe Sphere, where his Moonlit Glade lies within the Sidhe Wilderness.
+Cervidûr is native to the Sidhe Sphere, where his Moonlit Glade lies within the Feywild.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

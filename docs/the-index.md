@@ -35,7 +35,7 @@ title: "The Index"
 - When commissioning an item to be crafted, if the materials and EXP are provided, the cost is 25% of the market price.
 - Ghostwall Shellac cannot be used on equipment, and takes 1 minute to mix per 1 gallon of water mixed in
 - Any content that requires a specific deity will instead use this setting's equivalent
-- Any content that forsakes the intervention of something, such as magic in the case of Forsaker or gods in the case of Ur-Priest, can never again gain content that benefits from what they have forsaken
+- Any content that forsakes the intervention of something, such as magic in the case of Forsaker or deities in the case of Ur-Priest, can never again gain content that benefits from what they have forsaken
     - For example, a Forsaker cannot take any feats that grant them spells, spell-like abilities, or supernatural abilities; an Ur-Priest cannot enter a prestige class that requires the worship of a deity
 - If a statblock does not grant the ability to cast/prepare spells or manifest powers (IE, the Spells ability from Arcanaloth), or does not grant class levels in a spellcasting/manifesting class, then any ability that allows you to "cast spells as a xth level [class]" (or any similar ability for psionics) modifies only your caster/manifestor level when casting/manifesting the aforementioned class' spells/powers
     - For example, the Arcane Talent (Ex) ability from Hobgoblin Warcaster & Warsoul does not grant the ability to cast or prepare spells, even though they say they cast spells as a 4th & 9th level wizard (respectively)

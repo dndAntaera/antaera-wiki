@@ -14,7 +14,7 @@ title: "Terrus, God of Chaos"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: Open gauntlet with a star behind it
 - **Home Plane**: All Elemental and Energy Planes
 - **Alignment**: CN
@@ -25,7 +25,7 @@ title: "Terrus, God of Chaos"
 - **Favored Weapon**: Morningstar
 
 **Origins**
-Terrus was not born. It was not made. It came into being as the Known Spheres took shape, a necessary balance to the order imposed by Primus. Where one voice whispered structure and symmetry, Terrus roared with the wild breath of unshaped potential. It is the crack in the stone, the shift in the wind, the flicker before the flame, existing not as a god with form but as a pulse in the foundation of reality.
+Terrus was not born. It was not made. It came into being as the Known Spheres took shape, a necessary balance to the order imposed by Primus. Where one voice whispered structure and symmetry, Terrus roared with the wild breath of unshaped potential. It is the crack in the stone, the shift in the wind, the flicker before the flame, existing not as a deity with form but as a pulse in the foundation of reality.
 
 **Description**
 Terrus cannot be seen—only felt. It does not walk or speak, but it moves in the quake that topples mountains, the wave that devours coasts, the storm that reshapes the sky. Elemental chaos is its body, ever-changing and uncontainable. To witness Terrus is to stand amid lightning and flame and shifting earth and know that none of it answers to will. Those who follow it do not pray for blessings; they seek to become conduits of its ceaseless motion.

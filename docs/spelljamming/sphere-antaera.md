@@ -20,7 +20,7 @@ At its center is Solion, a golden-white star that burns warm and steady. Not too
 
 The planets here follow simple tracks. The inner worlds are harsh but not strange—Vireen, alive with fire and ruled by magma dragons, and Caelion, a sun-blasted desert where giant worms swim through sand. Then there’s the middle belt, where Antæra and Thalmyra sit. Antæra is full of life—forests, oceans, cities, all sorts of people from who-knows-where. No one remembers where they came from, but they’ve made something beautiful. Thalmyra is wetter, wilder, run by elves who shape their cities out of living trees. Past them, things get colder. Norys is a frozen plateau world wrapped in storms, and its moon, Serathos, is worse—a silent glacier hiding something no one’s quite figured out. And out on the edge is Myrelune, a shattered husk of lightning and ash, shaking itself apart one storm at a time.
 
-But it’s what’s buried under Serathos that draws the whispers: the Althuun Prism. Tan starmetal, covered in strange symbols, glowing under the ice. The machines that guard it never speak. They just move, slow and certain, as if they’ve been walking since before the gods had names. No one knows what the Prism is. Some say it holds the sphere together. Others say it’s not holding anything at all—it’s waiting.
+But it’s what’s buried under Serathos that draws the whispers: the Althuun Prism. Tan starmetal, covered in strange symbols, glowing under the ice. The machines that guard it never speak. They just move, slow and certain, as if they’ve been walking since before the deities had names. No one knows what the Prism is. Some say it holds the sphere together. Others say it’s not holding anything at all—it’s waiting.
 
 And then there’s Antæra itself—the planet, not the sphere. There are cities hidden in its mountains, sealed tight and untouched by time. Walls made of smooth metal that doesn’t rust, doors that don’t open, symbols no one can read. The people don’t talk about them much, but they know they’re there. The name “Antæra” is carved into places that no one alive built. It's not just a name—it’s a reminder. That something came before. That someone remembered enough to leave these ruins behind.
 
@@ -99,14 +99,14 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 
 # Recognized Pantheon
 
-**Lesser Gods**
+**Lesser Deities**
 
 - Homoth, Lord of Beasts (NG)
 - Enigma, the Lost God (N)
 - Droma, God of Craftsmen (LN)
 - Rasmin, God of Mischief (CN)
 
-**Intermediate Gods**
+**Intermediate Deities**
 
 - Leshrac, Lord of the Undead (LE)
 - Mil’Anaara, Goddess of Storms (CE)
@@ -115,7 +115,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 - Fink, Patron of Goblinoids (CN)
 - Orion, Patron of Smallfolk (CG)
 
-**Greater Gods**
+**Greater Deities**
 
 - Lux Dawnbringer, the Luminous Sovereign (LG)
 - Thrain Stoneheart, the Tranquil Forgemaster (NG)

@@ -14,7 +14,7 @@ title: "Jinzai, Herald of Steam"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: Coiling plume rising from a calm pool
 - **Home Plane**: Quasi-Elemental Plane of Steam
 - **Alignment**: NG

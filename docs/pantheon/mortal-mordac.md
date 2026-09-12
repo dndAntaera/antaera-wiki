@@ -14,7 +14,7 @@ title: "Mordac, the Arbiter of Tyranny"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A twisted serpent entwined around a scepter
 - **Home Plane**: The Iron Citadel, the Nine Hells
 - **Alignment**: LE

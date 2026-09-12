@@ -98,6 +98,8 @@ EDITS = {
          "Symbol: A featureless humanoid face with a spiked crown"),
         (None, "Symbol: A ship beneath a guiding star",
          "Symbol: A compass encircled by symbols of waves and meandering paths"),
+        # "Depreciated" is a different word.
+        (None, "*[Depreciated](pantheon.md)*", "*[Deprecated](pantheon.md)*"),
     ],
     # Orion is Chaotic Good on his own page.
     "spelljamming-sphere-antaera": [
@@ -115,11 +117,11 @@ EDITS = {
         (None, "is a sprawling, untamed wilderness within the Greater Ironpine Forest.",
          "is a sprawling, untamed wilderness in Ysgard."),
     ],
-    # An author's note to self, left in the published text. It asked for the
-    # beast plane; in the standard 3.5e cosmology that is the Beastlands.
+    # An author's note to self, left in the published text. Her grove is in the
+    # Abyss, where the rest of her page puts her.
     "pantheon-mortal-vortressa": [
         (None, "a nightmarish realm located in [insert beast plane equivalent] where monstrous creatures are bred",
-         "a nightmarish realm located in the Beastlands where monstrous creatures are bred"),
+         "a nightmarish realm occupying its own layer of the Abyss, where monstrous creatures are bred"),
     ],
     # Typos.
     "deity-ukrol": [
@@ -360,6 +362,13 @@ IMAGE_CREDITS = {
 # they cannot be mistaken for current material.
 ARCHIVED_FOLDERS = {"wm"}
 
+# Pages retired on their own, with no folder to put them in. The old Pantheon
+# page is the wiki's first draft of The Pantheons, and The Pantheons links to
+# it as deprecated: it ranks the Living Gods as Intermediate where The
+# Pantheons has them Greater, and files several deities under alignments they
+# no longer hold.
+ARCHIVED_PAGES = {"pantheon"}
+
 # Folders holding a page per god. Their titles are read off the page rather
 # than built from the slug - see the title block in main().
 DEITY_FOLDERS = {"deity", "pantheon"}
@@ -470,9 +479,7 @@ DEITY_STATBLOCK = {
     },
     "mortal-vortressa": {
         "Symbol": "A corrupted Druidic glyph intertwined with monstrous teeth",
-        # Her page asked for "the beast plane equivalent"; in the standard 3.5e
-        # cosmology that is the Beastlands.
-        "Home Plane": "The Abyssal Grove, the Beastlands",
+        "Home Plane": "The Abyssal Grove, a layer of the Abyss",
         "Alignment": "NE",
         "Portfolio": "Monsters, dark desires, mutation, hunger",
         "Worshipers": "Evil druids, warlocks",
@@ -514,7 +521,7 @@ DEITY_STATBLOCK = {
     },
     "cervidur": {
         "Symbol": "A stag's head with wide antlers adorned with runes of fey magic",
-        "Home Plane": "The Moonlit Glade, Sidhe Wilderness",
+        "Home Plane": "The Moonlit Glade, the Feywild",
         "Alignment": "CN",
         "Portfolio": "The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts",
         "Worshipers": "Druids, rangers, shamans, lycanthropes",
@@ -544,7 +551,7 @@ DEITY_HOME_SPHERE = {
     "mortal-leonis": "Leonus hails from the Antæra Sphere, having been born in the Greater Ironpine Forest on the prime world of Antæra.",
     "mortal-sol": "Sol is bound to the Gallamarketh Sphere, whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.",
     "orion": "Orion hails from the Antæra Sphere, having formed as a planar crystal in the heart of the prime world of Antæra.",
-    "cervidur": "Cervidûr is native to the Sidhe Sphere, where his Moonlit Glade lies within the Sidhe Wilderness.",
+    "cervidur": "Cervidûr is native to the Sidhe Sphere, where his Moonlit Glade lies within the Feywild.",
 }
 
 # Sentences written for a page since the import, added to the end of a section.
@@ -568,10 +575,18 @@ ALIGNMENT_AXES = {
     "CG": (2, 0), "CN": (2, 1), "CE": (2, 2),
 }
 
-# Where a page names a plane by a name from outside the standard 3.5e cosmology
-# that has a standard equivalent, it uses the standard name.
+# Where a page names a plane by something other than the name the wiki settles
+# on, it is renamed: the 4e name for the Astral Plane, and every name the fey
+# plane went by. The Plane of Faerie and the Sidhe Wilderness were one place
+# under two names, and that place is the Feywild. The Courts of Faerie keep
+# theirs - that is a pantheon, not a plane.
 COSMOLOGY_35 = [
     (r"\bAstral Sea\b", "Astral Plane"),
+    (r"\[Plane [Oo]f Faerie\]", "[Feywild]"),
+    (r"\bthe Plane [Oo]f Faerie\b", "the Feywild"),
+    (r"\bPlane [Oo]f Faerie\b", "The Feywild"),
+    (r"\bSidhe Wilderness\b", "Feywild"),
+    (r"\bFeywilds\b", "Feywild"),
 ]
 
 TODO = []
@@ -607,6 +622,10 @@ TITLES = {
     "spelljamming-main": "Spelljamming",
     "wm-index": "Stellar Marches (5e: 2014)",
 
+    # The fey plane. Every name the wiki had for it - the Plane of Faerie, the
+    # Sidhe Wilderness - is the Feywild now, and so is the page.
+    "plane-of-faerie": "The Feywild",
+
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
     # Quiver", "Elven Climbers Gloves". These are the names The Index gives
@@ -631,7 +650,10 @@ TITLES = {
 # straight into prose - and had their title inserted as an opening heading. It
 # is gone: every page carries its name on a card of its own now, so there is
 # nothing left for that list to fix.
-TITLE_HEADING = set()
+TITLE_HEADING = {
+    # The fey plane's page is titled the Feywild now; its heading follows.
+    "plane-of-faerie",
+}
 
 
 # Headings too generic to serve as a page title.
@@ -1606,6 +1628,27 @@ def abbreviate_alignments(text):
     return text
 
 
+def deity_words(text):
+    """The wiki calls them deities, not gods.
+
+    Only where it means the category. A name keeps its own words: a deity's own
+    title ("God of Death", "the Lost God", "Patron God of Warforged"), the
+    Living Gods and the Primal Gods as the names of those ranks, and the
+    Graveyard of the Gods. Link targets and HTML are stepped over, so
+    "sphere-graveyard-of-the-gods.md" is not rewritten into a broken link.
+    """
+    parts = re.split(r"(\]\([^)]*\)|<[^>]+>|https?://\S+"
+                     r"|(?:Patron )?God(?:dess)? of [A-Z]\w+"
+                     r"|(?:Living|Primal) Gods"
+                     r"|Graveyard of the Gods|the Lost God)", text)
+    for i in range(0, len(parts), 2):
+        parts[i] = re.sub(r"\bGods\b", "Deities", parts[i])
+        parts[i] = re.sub(r"\bgods\b", "deities", parts[i])
+        parts[i] = re.sub(r"\bGod\b", "Deity", parts[i])
+        parts[i] = re.sub(r"\bgod\b", "deity", parts[i])
+    return "".join(parts)
+
+
 def pantheon_index(text):
     """Every god on The Pantheons, by name: rank, alignment and page."""
     gods, tier, last = {}, None, None
@@ -1702,7 +1745,7 @@ def finish_site():
             new = text
             for pattern, standard in COSMOLOGY_35:
                 new = re.sub(pattern, standard, new)
-            new = abbreviate_alignments(new)
+            new = deity_words(abbreviate_alignments(new))
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
                     fh.write(new)
@@ -1737,7 +1780,7 @@ def finish_site():
             if not god:
                 TODO.append((rel, "god's page is not on The Pantheons, so it has no rank"))
                 continue
-            new = re.sub(r"^- \*\*Rank\*\*: .*$", "- **Rank**: %s God" % god["tier"], text,
+            new = re.sub(r"^- \*\*Rank\*\*: .*$", "- **Rank**: %s Deity" % god["tier"], text,
                          count=1, flags=re.M)
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
@@ -2383,7 +2426,7 @@ def main(backup):
         meta = ['title: "' + title + '"']
         if wip_url and wip_url in raw:
             meta.append("wip: true")
-        if rel.split("/")[0] in ARCHIVED_FOLDERS:
+        if rel.split("/")[0] in ARCHIVED_FOLDERS or slug in ARCHIVED_PAGES:
             meta.append("archived: true")
             # Honoured natively by Material's search plugin.
             meta.append("search:")

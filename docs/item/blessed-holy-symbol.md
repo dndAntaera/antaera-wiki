@@ -19,7 +19,7 @@ title: "Profane/Blessed (Un)Holy Symbol"
 **Activation**: - and Swift (command)<br>
 **Weight**: -
 
-Usually made with the material preferred by the god it is tied to, this relic bestows upon the user the blessings of its deity. If the user meets the prerequisites set forth by the deity who blessed it, they gain the benefits of the Bless spell.
+Usually made with the material preferred by the deity it is tied to, this relic bestows upon the user the blessings of its deity. If the user meets the prerequisites set forth by the deity who blessed it, they gain the benefits of the Bless spell.
 
 **Relic Power**: If you have established the proper divine connection, you may gain the effects of the Prayer spell as if cast only on you once per day by speaking the command word. The command word is usually associated with the faith of the chosen deity.
 

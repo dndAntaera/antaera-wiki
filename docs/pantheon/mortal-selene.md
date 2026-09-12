@@ -14,7 +14,7 @@ title: "Selene, the Nightweaver"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A crescent moon intertwined with intricate elven glyphs
 - **Home Plane**: The Moonshadow Sanctum, between the Ethereal and Material Planes
 - **Alignment**: CN

@@ -1,11 +1,11 @@
 ---
-title: "Plane Of Faerie"
+title: "The Feywild"
 ---
 
 <div class="wd-row" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Plane Of Faerie
+# The Feywild
 
 </div>
 </div>

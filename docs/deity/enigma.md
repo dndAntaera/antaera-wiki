@@ -14,7 +14,7 @@ title: "Enigma, the Lost God"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: A closed eye within a spiraling void
 - **Home Plane**: None; Enigma roams the planes
 - **Alignment**: N
@@ -29,7 +29,7 @@ Shrouded in Mystery (speculations suggest he originated as a Sillit Nerra in the
 
 Enigma, the Lost God, is a figure shrouded in impenetrable mystery. The very origins of his existence remain elusive, veiled in shadows and ambiguity. All that is known is that he was once a member of the Living Gods, divine beings of immense power, who held sway over the balance of the cosmos.
 
-In an act that confounds both mortals and deities alike, Enigma willingly relinquished his divinity to Sol, the current god of balance. The circumstances surrounding this act remain unknown, lost in the annals of time, and even Enigma himself has forgotten his original name and purpose. It is believed that the sacrifice of his divine essence sundered his ego and fractured his mind, leading to the erasure of records about him throughout the planes.
+In an act that confounds both mortals and deities alike, Enigma willingly relinquished his divinity to Sol, the current deity of balance. The circumstances surrounding this act remain unknown, lost in the annals of time, and even Enigma himself has forgotten his original name and purpose. It is believed that the sacrifice of his divine essence sundered his ego and fractured his mind, leading to the erasure of records about him throughout the planes.
 
 **Description**
 Enigma's form is ever-changing, a silvery and mercurial embodiment of enigma itself. He appears as a shape-shifting figure, constantly shifting and flowing like liquid metal. Enigma is often seen in the guise of different races, genders, and creatures, seamlessly adapting to his surroundings and the expectations of those who encounter him. His features remain elusive and impossible to remember once he is out of sight, as if his very existence defies mortal comprehension.

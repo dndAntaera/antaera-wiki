@@ -14,7 +14,7 @@ title: "Helus, God of Death"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: Blindfolded skull
 - **Home Plane**: Ethereal Plane
 - **Alignment**: NE

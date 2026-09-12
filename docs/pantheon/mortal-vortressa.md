@@ -14,9 +14,9 @@ title: "Vortressa, the Mother of Monsters"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A corrupted Druidic glyph intertwined with monstrous teeth
-- **Home Plane**: The Abyssal Grove, the Beastlands
+- **Home Plane**: The Abyssal Grove, a layer of the Abyss
 - **Alignment**: NE
 - **Portfolio**: Monsters, dark desires, mutation, hunger
 - **Worshipers**: Evil druids, warlocks
@@ -38,7 +38,7 @@ Vortressa is an alluring and fearsome Eladrin, her appearance a captivating blen
 **Corruptive Evolution**: Vortressa encourages the corruption and evolution of nature’s creations into monstrous forms. Followers are tasked with manipulating the natural order, fostering the growth of twisted creatures that embody the dual essence of nature and corruption.
 
 **Divine Realm**
-Vortressa presides over a corrupted grove known as the Abyssal Grove, a nightmarish realm located in the Beastlands where monstrous creatures are bred and cultivated. The Abyssal Grove is a place where the boundaries between the natural and unnatural mingle, and the miasma of corruption is a constant presence. It is a haven for those who seek forbidden powers and the creation of monstrous forms.
+Vortressa presides over a corrupted grove known as the Abyssal Grove, a nightmarish realm occupying its own layer of the Abyss, where monstrous creatures are bred and cultivated. The Abyssal Grove is a place where the boundaries between the natural and unnatural mingle, and the miasma of corruption is a constant presence. It is a haven for those who seek forbidden powers and the creation of monstrous forms.
 
 **Clergy and Temples**
 The clergy of Vortressa includes evil druids, warlocks, and those who seek to harness the power of corrupted nature. Temples dedicated to the Mother of Monsters are hidden within corrupted forests and other similar places. They are corrupted groves adorned with symbols that reflect the dual nature of the corrupted sylvan dominion.

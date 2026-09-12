@@ -14,7 +14,7 @@ title: "Lylah, Lady of Water"
 
 # Overview
 
-- **Rank**: Intermediate God
+- **Rank**: Intermediate Deity
 - **Symbol**: A silver wave coiled around a pearl
 - **Home Plane**: Elemental Plane of Water
 - **Alignment**: CN
@@ -34,7 +34,7 @@ Lylah manifests as a luminous Marid robed in veils of shimmering tide and living
 Let the current shape your path, not chains. Change is the ocean’s law, and intuition its compass. Aid the lost, but do not anchor them. Embrace the vastness, for freedom is truth. No shape holds forever. Be like water—ever-moving, ever-becoming.
 
 **Home Sphere**
-Lylah’s divine influence flows through the Inundatio Sphere—a realm of endless oceans, drifting seas, and sacred silence. She is revered most deeply on Cyrintha, where floating isles cradle her faithful above the minds of sleeping god-beasts. Her currents sweep through Deluthar’s dreaming form, spiral through Kuraali’s misted arc, and echo in the whispering seas beneath Voruneth’s ice. In a sphere where land has all but vanished, she is both guide and tide.
+Lylah’s divine influence flows through the Inundatio Sphere—a realm of endless oceans, drifting seas, and sacred silence. She is revered most deeply on Cyrintha, where floating isles cradle her faithful above the minds of sleeping deity-beasts. Her currents sweep through Deluthar’s dreaming form, spiral through Kuraali’s misted arc, and echo in the whispering seas beneath Voruneth’s ice. In a sphere where land has all but vanished, she is both guide and tide.
 
 </div>
 </div>

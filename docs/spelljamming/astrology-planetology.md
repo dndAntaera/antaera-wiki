@@ -111,7 +111,7 @@ Due to the scope of wildspace, it is divided into two sections: an inner track f
 
 The starchart shows all orbits being circular around a primary point. There are elliptical, oblong, and even square orbits in the Spelljammer universe, but a circular representation is the easiest to use. The primary of a system is usually but not always a star or other elemental fire body. In the case of Oerth (the Greyhawk campaign), the planet containing Greyhawk is at the center of the system, and all other bodies (including the sun) revolve around it.
 
-Whether operating under Newtonian physics, riding on the back of giant turtles, or rolling across the velvet of the gods’ pool table, most planets behave in a similar fashion, following the tracks presented in this layout. There are systems where the planets operate in a totally chaotic fashion, as well as those where the planets are truly fixed points in the night sky. There are crystal shells so small that they contain only a single world within their universe. But for most planetary tracking, these charts will suffice.
+Whether operating under Newtonian physics, riding on the back of giant turtles, or rolling across the velvet of the deities’ pool table, most planets behave in a similar fashion, following the tracks presented in this layout. There are systems where the planets operate in a totally chaotic fashion, as well as those where the planets are truly fixed points in the night sky. There are crystal shells so small that they contain only a single world within their universe. But for most planetary tracking, these charts will suffice.
 
 Given the great difference between planetary speeds and spelljammer speeds, planetary motion is not a major factor in determining travel times and positions. For the Solar System (ours), a planet on the outer track moves an average of one space every four years, while those on the inner track move one space every 12 days. Planets can certainly move faster or slower than this (this is fantasy), but unless the DM wishes to deal in more detail with planetary motion, take these figures as standard for the planets.
 
@@ -128,11 +128,11 @@ No one knows; but there are several theories by way of explanation:
 
 The sphere is the most natural shape for such things, much like bubbles in amber or champagne.
 
-The sphere is the easiest shape for the gods (or whomever built these things) to construct.
+The sphere is the easiest shape for the deities (or whomever built these things) to construct.
 
 The sphere is a perfect shape, the shape that shrinks its plane of gravity to a single point at its heart, attaining a perfect balance.
 
-The simple fact is that no one knows save perhaps the gods, and if they know, they aren’t telling. There may be system shells out there that are cubical, or ellipsoidal, or even irregularly or torus-shaped. We just haven’t reached them yet. And when we do, we’ll probably start the sages arguing all over again.
+The simple fact is that no one knows save perhaps the deities, and if they know, they aren’t telling. There may be system shells out there that are cubical, or ellipsoidal, or even irregularly or torus-shaped. We just haven’t reached them yet. And when we do, we’ll probably start the sages arguing all over again.
 
 *— From Elminster’s Musings on Empty Space, a scroll from Elminster of Shadowdale to Lord Khelben of Waterdeep*
 
@@ -179,7 +179,7 @@ A spelljammer is not required to stop if it enters the same space as a planet un
 
 # Encounters and Evasion on the Starchart
 
-As stated too many times already, space is BIG. The chance meeting of two objects—whether they be ships, asteroids, cast-off magical items, or elder gods—in the vastness of wildspace is very slender indeed. Encounters are most likely in areas with large bodies, such as planets and asteroids, and more likely in systems with a high degree of space travel. A ship has a greater chance of encountering other starfaring ships and creatures in the more crowded inner planets than in the void between the outer planets and the crystal shell.
+As stated too many times already, space is BIG. The chance meeting of two objects—whether they be ships, asteroids, cast-off magical items, or elder deities—in the vastness of wildspace is very slender indeed. Encounters are most likely in areas with large bodies, such as planets and asteroids, and more likely in systems with a high degree of space travel. A ship has a greater chance of encountering other starfaring ships and creatures in the more crowded inner planets than in the void between the outer planets and the crystal shell.
 
 The DM may have planned encounters for particular sections of space: a group of pirates lurking among the asteroids, for example, or an elven armada seeking to protect their “no humans allowed” planet. Such encounters are left to the DM and override any random encounters.
 
@@ -193,7 +193,7 @@ The starchart can be used for determining random encounters as well. When using 
 - In a system with extensive space activity: +1
 - In a system with no space activity: -1
 
-The level of spelljamming activity reflects the amount of normal space travel found in the sphere. Extensive spelljamming activity means more than one major spacefaring nation or space-based community. Toril has an extensive spelljamming community, while Oerth is normal (no modifiers), and Krynn, heavily influenced by gods and recovering from catastrophe, has little or no spelljamming activity.
+The level of spelljamming activity reflects the amount of normal space travel found in the sphere. Extensive spelljamming activity means more than one major spacefaring nation or space-based community. Toril has an extensive spelljamming community, while Oerth is normal (no modifiers), and Krynn, heavily influenced by deities and recovering from catastrophe, has little or no spelljamming activity.
 
 If the characters are using a time-based process (from the charts) to determine travel time, use the following procedure:
 
@@ -267,7 +267,7 @@ Roll percentile dice:
 - 91–00: Water body
 - 96–99: No primary; the planets orbit an empty spot at the center
 
-*Note to DMs: If the system has no fire bodies or portals to the Positive Energy Plane, then the sphere is in darkness (except for the stars), and the planets exist in eternal night. Space is colder than normal, but the planets and life on them remain unaffected. In scientific terms, this would be impossible, but in the land of gods, such mysteries can exist.*
+*Note to DMs: If the system has no fire bodies or portals to the Positive Energy Plane, then the sphere is in darkness (except for the stars), and the planets exist in eternal night. Space is colder than normal, but the planets and life on them remain unaffected. In scientific terms, this would be impossible, but in the land of deities, such mysteries can exist.*
 
 ## Part 3: Number of Planets
 

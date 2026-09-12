@@ -14,7 +14,7 @@ title: "Orion, Patron of Smallfolk"
 
 # Overview
 
-- **Rank**: Intermediate God
+- **Rank**: Intermediate Deity
 - **Symbol**: A crystal radiating astral light
 - **Home Plane**: Astral Plane
 - **Alignment**: CG
@@ -46,7 +46,7 @@ Orion's divine realm is a magnificent crystalline sanctuary in the [Astral Plane
 Orion's clergy are often smallfolk themselves, serving as guardians of knowledge and community leaders. His temples are beautifully crafted from crystal and stone, designed to reflect the celestial beauty of the [Astral Plane](../plane/astral-plane.md), and are often found in smallfolk communities.
 
 **Rivalries**
-Orion's primary rivalries are with deities who threaten the well-being and prosperity of the smallfolk. This includes gods of destruction and those who overlook or disdain the smaller races. He stands as a steadfast guardian against any forces that seek to disrupt the harmony and growth of his creations.
+Orion's primary rivalries are with deities who threaten the well-being and prosperity of the smallfolk. This includes deities of destruction and those who overlook or disdain the smaller races. He stands as a steadfast guardian against any forces that seek to disrupt the harmony and growth of his creations.
 
 **Home Sphere**
 Orion hails from the Antæra Sphere, having formed as a planar crystal in the heart of the prime world of Antæra.

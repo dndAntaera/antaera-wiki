@@ -14,7 +14,7 @@ title: "Thrain Stoneheart, the Tranquil Forgemaster"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A stylized anvil with a hammer crossed over it
 - **Home Plane**: The Hearthforge, Elysium
 - **Alignment**: NG

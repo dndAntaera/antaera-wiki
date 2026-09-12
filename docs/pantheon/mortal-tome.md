@@ -14,7 +14,7 @@ title: "Tome, Keeper of the Celestial Library"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: An intricate celestial sigil with cosmic runes swirling around it
 - **Home Plane**: The Astral Archive, Astral Plane
 - **Alignment**: LN

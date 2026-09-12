@@ -21,9 +21,9 @@ title: "Crucible Of Valor"
 <div class="wd-cell" markdown>
 
 # Overview
-In honor of Leonus Ironmane, the god of valor and war, a grand tournament known as the Crucible of Valor has been established. This legendary competition is not confined to a single arena but spans the entire world, challenging warriors from every corner of the realm to prove their mettle.
+In honor of Leonus Ironmane, the deity of valor and war, a grand tournament known as the Crucible of Valor has been established. This legendary competition is not confined to a single arena but spans the entire world, challenging warriors from every corner of the realm to prove their mettle.
 
-The faithful of Leonus Ironmane, driven by their god’s unquenchable thirst for valor and glory, have organized the Crucible of Valor, a gladiatorial contest like no other. This tournament transcends borders, taking place in diverse and treacherous environments, from sun-scorched deserts to frozen wastelands, ancient forests, and towering mountain ranges.
+The faithful of Leonus Ironmane, driven by their deity’s unquenchable thirst for valor and glory, have organized the Crucible of Valor, a gladiatorial contest like no other. This tournament transcends borders, taking place in diverse and treacherous environments, from sun-scorched deserts to frozen wastelands, ancient forests, and towering mountain ranges.
 
 Combatants from all walks of life—knights, barbarians, monks, and mages—are called to participate. Each battle is a testament to the participants’ bravery and skill, as they face not only each other but the harsh elements and unforeseen challenges of the world’s most dangerous locales.
 

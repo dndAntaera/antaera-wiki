@@ -14,7 +14,7 @@ title: "Kharzhalek, Lord of Earth"
 
 # Overview
 
-- **Rank**: Intermediate God
+- **Rank**: Intermediate Deity
 - **Symbol**: A jagged obsidian crown atop a crumbling stone pillar
 - **Home Plane**: Elemental Plane of Earth
 - **Alignment**: NE

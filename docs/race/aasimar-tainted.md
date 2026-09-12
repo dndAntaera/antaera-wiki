@@ -33,7 +33,7 @@ Normally, aasimar are a planetouched race of goodly folk, descended from celesti
 
 **Tainted Aasimar Lands**: Tainted aasimars hail from a place known as the Shining City. This city began as a stronghold in some long-forgotten war that caused the shattering of the sphere now known as the Graveyard of the Gods. The city itself stands as a stark contrast to the rest of the world of Austerion, a bright golden light amongst a sea of darkness and decay. The defenders and rulers of this stronghold-turned-city are ancient celestials that have lived for an untold amount of time, ever vigilant against the force of evil banging on its front doors. The main citizens are various corrupted mortal races that have slowly been tainted by the influence of the planet, but kept sane by the powers who rule the city, which includes the tainted descendants of these celestials: the tainted aasimar.
 
-**Religion**: Tainted aasimars have no chief deity, and typically worship whichever god their ancestral celestial served under. Rare tainted aasimar who succumb to their curse will typically serve evil gods as their heralds or clergy.
+**Religion**: Tainted aasimars have no chief deity, and typically worship whichever deity their ancestral celestial served under. Rare tainted aasimar who succumb to their curse will typically serve evil deities as their heralds or clergy.
 
 **Language**: Tainted aasimars have no cultural language, although those that realize their heritage usually learn Abyssal or Celestial, depending on whether their curse consumes them or not. An aasimar usually learns the language of their parents.
 

@@ -14,7 +14,7 @@ title: "Zarakth, the Abyssal Scourge"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A blood-red vortex swirling around a jagged, shattered blade
 - **Home Plane**: The Shattered Abyss
 - **Alignment**: CE

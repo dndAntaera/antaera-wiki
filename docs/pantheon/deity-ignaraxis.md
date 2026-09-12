@@ -14,7 +14,7 @@ title: "Ignaraxis, Lord of Fire"
 
 # Overview
 
-- **Rank**: Intermediate God
+- **Rank**: Intermediate Deity
 - **Symbol**: A blazing flame consuming a crowned skull
 - **Home Plane**: Elemental Plane of Fire
 - **Alignment**: LE
@@ -25,7 +25,7 @@ title: "Ignaraxis, Lord of Fire"
 - **Favored Weapon**: Scimitar
 
 **Origins**
-Ignaraxis was once the Sultan of Ten-Thousand Flames, an efreeti warlord whose citadel towered above the magma seas of Aevzakar. In his final mortal act, he challenged the reigning Lord of Fire within the heart of the Cinderglass Belt. The two fought for three days atop a floating shard of pure planar crystal, their strikes splitting suns and boiling void. In the end, Ignaraxis shattered his foe’s core with a blade of solid flame, cast the god into the void, and claimed his title and divine essence as the Belt erupted in a blaze seen across the sphere.
+Ignaraxis was once the Sultan of Ten-Thousand Flames, an efreeti warlord whose citadel towered above the magma seas of Aevzakar. In his final mortal act, he challenged the reigning Lord of Fire within the heart of the Cinderglass Belt. The two fought for three days atop a floating shard of pure planar crystal, their strikes splitting suns and boiling void. In the end, Ignaraxis shattered his foe’s core with a blade of solid flame, cast the deity into the void, and claimed his title and divine essence as the Belt erupted in a blaze seen across the sphere.
 
 **Description**
 Ignaraxis appears as a towering figure of blackened brass and searing coals, armored in flame-forged plates and crowned with a plume of ever-burning fire. His voice is a command that brooks no defiance. His followers revere him as the embodiment of fire’s order: a force that destroys not in chaos, but by design. His temples burn day and night with strict rituals, and his edicts are etched into obsidian tablets.

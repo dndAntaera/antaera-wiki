@@ -14,7 +14,7 @@ title: "Aezhera, Lady of Air"
 
 # Overview
 
-- **Rank**: Intermediate God
+- **Rank**: Intermediate Deity
 - **Symbol**: A spiral of clouds coiled around a silver feather
 - **Home Plane**: Elemental Plane of Air
 - **Alignment**: CG
@@ -25,7 +25,7 @@ title: "Aezhera, Lady of Air"
 - **Favored Weapon**: Scimitar
 
 **Origins**
-Aezhera was once a mortal disciple of a forgotten sky god, known for her tireless acts of compassion and daring defiance of tyranny. When she freed an entire city from the grip of a tyrant king by summoning a great storm to shatter his war fleet, her master recognized the purity of her spirit. Rather than reward her with mere power, he relinquished his own divinity, transforming her into a djinni of celestial essence and leaving her in his place as steward of the upper airs.
+Aezhera was once a mortal disciple of a forgotten sky deity, known for her tireless acts of compassion and daring defiance of tyranny. When she freed an entire city from the grip of a tyrant king by summoning a great storm to shatter his war fleet, her master recognized the purity of her spirit. Rather than reward her with mere power, he relinquished his own divinity, transforming her into a djinni of celestial essence and leaving her in his place as steward of the upper airs.
 
 **Description**
 Aezhera appears as a luminous djinni-woman with flowing robes of cloudstuff and windswept hair that glitters like dew in moonlight. Her voice carries like distant thunder or a song on the wind. She seldom manifests physically, but her arrival is marked by sudden breezes, whirling blossoms, and the sound of distant chimes. Her temples are open-air sanctuaries on mountaintops, cliff edges, or among the highest trees, often adorned with banners, feathers, and whispering flutes.

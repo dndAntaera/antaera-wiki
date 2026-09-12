@@ -14,7 +14,7 @@ title: "Vaylen, Patron of Sailors and Travelers"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: A compass encircled by waves and meandering paths
 - **Home Plane**: The Wanderer's Trove, Zephyr Haven
 - **Alignment**: CG

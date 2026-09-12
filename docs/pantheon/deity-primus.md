@@ -14,7 +14,7 @@ title: "Primus, God of Order"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: Closed gauntlet with infinity symbol embedded
 - **Home Plane**: Mechanus
 - **Alignment**: LN

@@ -15,15 +15,15 @@ wip: true
 
 # Overview
 
-The Custode Sphere is a shattered, drifting monument to knowledge lost and guarded. At its center looms the fossilized skull of a dead Ancient Antæran god, vast beyond comprehension and studded with silent starmetal inlays. The rest of the sphere is composed of broken worlds—scattered debris fields filled with the ruins of fallen civilizations and the drifting remains of the god’s own skeleton. Ribcages, vertebrae, and splintered limbs hang in slow, solemn orbit among the wreckage.
+The Custode Sphere is a shattered, drifting monument to knowledge lost and guarded. At its center looms the fossilized skull of a dead Ancient Antæran deity, vast beyond comprehension and studded with silent starmetal inlays. The rest of the sphere is composed of broken worlds—scattered debris fields filled with the ruins of fallen civilizations and the drifting remains of the deity’s own skeleton. Ribcages, vertebrae, and splintered limbs hang in slow, solemn orbit among the wreckage.
 
-Scholars speculate that the god's death was not a consequence of the sphere's collapse, but its cause. Something in its fall—an uncontrolled release of power or a final dying command—may have shattered the planets, unraveling the celestial harmony that once held the system together. No definitive evidence has been found, but the presence of the bones among every orbital track is too consistent to be dismissed.
+Scholars speculate that the deity's death was not a consequence of the sphere's collapse, but its cause. Something in its fall—an uncontrolled release of power or a final dying command—may have shattered the planets, unraveling the celestial harmony that once held the system together. No definitive evidence has been found, but the presence of the bones among every orbital track is too consistent to be dismissed.
 
 The monks of the Custode Order dwell within the Great Archive, carved into the skull itself. They are the last sentinels of this lost sphere: ascetic, tireless, and often no longer flesh. Over time, mortal monks graft construct parts onto themselves until they become living constructs, free of decay or distraction. Warforged refugees, drawn to the Order’s purpose, often join their ranks. The monks maintain peace, regulate access to the ruins, and ensure that no knowledge is taken without cost or understanding.
 
 Yet even they do not patrol the entire sphere. Beyond the Archive’s reach, memory-eating aberrations haunt the ruins, nesting in collapsed sanctuaries and shattered cities. They steal thought before life, mimicking voices, faces, or languages to draw their prey closer. The monks advise caution, but never interfere. The ruins are to be respected—and feared.
 
-Among travelers and archivists, a superstition persists: that the aberrations were never native at all. They are said to be dreams—fragments of fear and thought—birthed from the lingering divine consciousness trapped in the dead god’s bones. Nightmare creatures, conjured unintentionally by what remains of its slumbering mind. Most dismiss this idea as myth, a way to explain the uncanny behavior of the beasts. Still, few speak their names near the skull.
+Among travelers and archivists, a superstition persists: that the aberrations were never native at all. They are said to be dreams—fragments of fear and thought—birthed from the lingering divine consciousness trapped in the dead deity’s bones. Nightmare creatures, conjured unintentionally by what remains of its slumbering mind. Most dismiss this idea as myth, a way to explain the uncanny behavior of the beasts. Still, few speak their names near the skull.
 
 </div>
 </div>

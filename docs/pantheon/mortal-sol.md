@@ -14,7 +14,7 @@ title: "Sol, the Eternal Equilibrium"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A set of scales held by a draconic hand
 - **Home Plane**: Ethereal Plane
 - **Alignment**: N
@@ -48,7 +48,7 @@ Sol resides within the Ethereal Plane, a realm of mists and shifting realities t
 The clergy of Sol includes dragon priests and scholars who study the cosmic forces and work to maintain equilibrium. Temples dedicated to the Progenitor of Dragons are often found in remote and sacred locations, serving as places of meditation and reflection.
 
 **Rivalries**
-Sol maintains a neutral stance, seeking to uphold balance rather than engaging in conflicts. However, entities that disrupt the cosmic harmony or threaten the delicate equilibrium draw the ire of Sol and his followers. The god of balance is particularly watchful of those who would upset the natural order for personal gain.
+Sol maintains a neutral stance, seeking to uphold balance rather than engaging in conflicts. However, entities that disrupt the cosmic harmony or threaten the delicate equilibrium draw the ire of Sol and his followers. The deity of balance is particularly watchful of those who would upset the natural order for personal gain.
 
 **Home Sphere**
 Sol is bound to the Gallamarketh Sphere, whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.

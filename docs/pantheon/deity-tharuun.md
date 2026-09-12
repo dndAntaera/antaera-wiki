@@ -14,7 +14,7 @@ title: "Tharuun, Herald of Gems"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: Pickaxe crossed with a radiant crystal
 - **Home Plane**: Plane of Gems
 - **Alignment**: NG

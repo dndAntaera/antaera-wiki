@@ -92,7 +92,7 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
 
 # Recognized Pantheon
 
-**Lesser Gods**
+**Lesser Deities**
 
 - Mensor, Keeper of the True Measure (LN)
 - Solvara, Who Settles the Ledger (CG)
@@ -100,13 +100,13 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
 - Alpha, Patron God of Warforged (CN)
 - Cinerea, Who Sells the Flawed Casting (NE)
 
-**Intermediate Gods**
+**Intermediate Deities**
 
 - Astrilex, Warden of the Fair Contract (LG)
 - Malleor, the Hammer That Does Not Rest (LE)
 - Ustrina, Who Burns the Rival Yard (CE)
 
-**Greater Gods**
+**Greater Deities**
 
 - Ignatarnus, the Unspent Flame and First Forge (N)
 

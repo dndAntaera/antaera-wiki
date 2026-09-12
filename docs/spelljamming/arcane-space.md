@@ -141,7 +141,7 @@ Weightless conditions apply to both wildspace and the phlogiston with no differe
 
 All wildspace is bounded by crystal shells or crystal spheres. Inside the crystal sphere is the vacuum of wildspace, the planets, and stars. Outside the crystal sphere is the rainbow ocean of phlogiston and more crystal spheres. The size of a crystal sphere is determined by the size of the planetary system inside. Usually, a sphere has a radius at least twice as big as the orbital radius of the outermost celestial body in the system (i.e., the distance from the shell to the outermost body of the system is the same as the distance from that outermost body to the center point of the system).
 
-Because of their great size, the outside of a crystal sphere appears perfectly flat. The curvature is so gradual that it is completely undetectable to anyone who is close enough to see the crystal sphere through the obscuring phlogiston. The spheres consist of an unbreakable, dark, ceramic material of unknown origin. Some legends state (and various theologians agree) that the smooth-surfaced shells were created and positioned by the gods themselves to protect their worlds from the ravages of the phlogiston, which is held to be the prime matter of the universe. Less charitable philosophers maintain that such shells were placed by an even higher authority to keep gods and men in and confine their activities.
+Because of their great size, the outside of a crystal sphere appears perfectly flat. The curvature is so gradual that it is completely undetectable to anyone who is close enough to see the crystal sphere through the obscuring phlogiston. The spheres consist of an unbreakable, dark, ceramic material of unknown origin. Some legends state (and various theologians agree) that the smooth-surfaced shells were created and positioned by the deities themselves to protect their worlds from the ravages of the phlogiston, which is held to be the prime matter of the universe. Less charitable philosophers maintain that such shells were placed by an even higher authority to keep deities and men in and confine their activities.
 
 Whatever their origin, the crystal shells are uniform throughout space. All appear as great, dark, featureless spheres of unidentifiable matter. The crystal spheres are definitely solid. They have no gravity along either their interior or exterior sides (an exception to the rule that all large objects have gravity). No magic has been found that can damage or alter the surface of a shell, except for those spells that cause portals to open. Even this, however, is believed to be nothing more than an artificial triggering of a natural phenomenon since portals also occur naturally and seemingly at random. They are apparently immune to the effects of wishes and even the wills of the outer planar powers (though this does not rule out the possibility that the outer planar powers created them—perhaps they were wise enough to prevent even their own tampering).
 
@@ -155,9 +155,9 @@ The crystal shell is an impassable barrier to space voyagers unless they are pro
 
 Note that portals, as discussed here, are merely simple doors allowing passage from one side of a crystal shell to the other. They are not gates and do not allow transit between dimensions. Magic that relies on other planes or other dimensions is notoriously unreliable when cast in close proximity to a crystal shell.
 
-The crystal sphere itself represents the outer limit of the influence of gods and other-dimensional creatures. Magic that summons or draws power from such beings or creatures does not function outside these bounds.
+The crystal sphere itself represents the outer limit of the influence of deities and other-dimensional creatures. Magic that summons or draws power from such beings or creatures does not function outside these bounds.
 
-Those fantasy systems with stars in the night sky often have these stars mounted along the inside of the crystal sphere. The nature of stars varies from sphere to sphere; within some spheres, the stars are small portholes looking out on the phlogiston, in some they are painted lights along the interior, in some they are great cities inhabited by alien creatures, and in others they are great bowls of fire held aloft by huge statues of forgotten gods.
+Those fantasy systems with stars in the night sky often have these stars mounted along the inside of the crystal sphere. The nature of stars varies from sphere to sphere; within some spheres, the stars are small portholes looking out on the phlogiston, in some they are painted lights along the interior, in some they are great cities inhabited by alien creatures, and in others they are great bowls of fire held aloft by huge statues of forgotten deities.
 
 </div>
 <div class="wd-cell wd-aside" markdown>
@@ -172,11 +172,11 @@ No one knows, but there are several theories by way of explanation:
 
 "The sphere is the most natural shape for such things, much like bubbles in amber or champagne.
 
-The sphere is the easiest shape for the gods (or whomever built these things) to construct.
+The sphere is the easiest shape for the deities (or whomever built these things) to construct.
 
 The sphere is a perfect shape; the shape that shrinks its plane of gravity to a single point at its heart, attaining a perfect balance.
 
-The simple fact is that no one knows, save perhaps the gods, and if they know, they aren’t telling. There may be system shells out there that are cubical, or ellipsoidal, or even irregularly torus-shaped. We just haven’t reached them yet.
+The simple fact is that no one knows, save perhaps the deities, and if they know, they aren’t telling. There may be system shells out there that are cubical, or ellipsoidal, or even irregularly torus-shaped. We just haven’t reached them yet.
 
 And when we do, we’ll probably start the sages arguing all over again."
 

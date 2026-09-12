@@ -14,7 +14,7 @@ title: "Cosmus, God of Magic"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: Star in front of a book
 - **Home Plane**: The Astral Plane
 - **Alignment**: N

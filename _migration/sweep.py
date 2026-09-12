@@ -227,6 +227,22 @@ def main():
            for m in re.finditer(r"\b(?:lawful|chaotic|neutral|true) (?:good|evil|neutral)\b"
                                 r"|\((?:Neutral|TN)\)", body_of(t), re.I)])
 
+    # The wiki says deities, not gods, except where a name says otherwise.
+    keep = re.compile(r"(?:Patron )?God(?:dess)? of [A-Z]\w+"
+                      r"|(?:Living|Primal) Gods"
+                      r"|Graveyard of the Gods|the Lost God")
+    bad = []
+    for f, t in pages.items():
+        b = keep.sub(" ", re.sub(r"\]\([^)]*\)|<[^>]+>|https?://\S+", " ", body_of(t)))
+        for m in re.finditer(r"\b[Gg]ods?\b", b):
+            bad.append("%s  %s" % (f, re.sub(r"\s+", " ", b[max(0, m.start() - 34):m.end() + 20])))
+    check("the wiki says deities, not gods", bad)
+
+    check("the fey plane is called the Feywild",
+          ["%s  %s" % (f, m.group(0))
+           for f, t in pages.items()
+           for m in re.finditer(r"Plane [Oo]f Faerie|Sidhe Wilderness|Feywilds\b", body_of(t))])
+
     check("units are ft and lbs",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()
@@ -272,7 +288,7 @@ def main():
         elif not ca or ca.group(1) != clerics(al.group(1)):
             bad.append("%s  cleric alignments %s, should be %s" % (
                 f, ca.group(1) if ca else None, clerics(al.group(1))))
-        if re.search(r"^- \*\*Rank\*\*: (?!(Greater|Intermediate|Lesser) God$)", b, re.M):
+        if re.search(r"^- \*\*Rank\*\*: (?!(Greater|Intermediate|Lesser) Deity$)", b, re.M):
             bad.append("%s  no rank" % f)
         if "*TBD*" in b:
             bad.append("%s  says TBD where it should be an em dash" % f)

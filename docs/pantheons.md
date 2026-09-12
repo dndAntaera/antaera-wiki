@@ -44,9 +44,9 @@ During the beginning times, the Overdeities of each sphere in the Known Spheres 
 
 The Primal Pantheon is a cross-sphere collection of deities with a presence in all Known Spheres. They represent the primal forces which shape reality: Air, Earth, Fire, Water, and even Magic itself. Most adherents to these faiths are mages, clerics, or druids dedicated to one of its principles. This pantheon was established in the 1st Mortal Era (The Mythical Era) by the collective of Overdeities as a way to manage their reality without needing direct intervention from the Overdeities.
 
-The Primals (Greater Gods) have no recorded origins, nor do they actively collect followers. They represent the primal elemental forces of reality and govern these forces as immutable and emotionless arbiters. They set the laws of reality, and the rest of the world follows. Their worship is done by all through active participation in the world. They have enough ego to maintain reality, but have no plans or machinations outside of maintaining balance.
+The Primals (Greater Deities) have no recorded origins, nor do they actively collect followers. They represent the primal elemental forces of reality and govern these forces as immutable and emotionless arbiters. They set the laws of reality, and the rest of the world follows. Their worship is done by all through active participation in the world. They have enough ego to maintain reality, but have no plans or machinations outside of maintaining balance.
 
-## Greater Gods (The Primals)
+## Greater Deities (The Primals)
 
 - [Mundus](pantheon/deity-mundus.md), Goddess of Life
     - Alignment: NG
@@ -69,7 +69,7 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
     - Portfolio: Knowledge, Magic, Balance
     - Symbol: Star in front of a book
 
-## Intermediate Gods (Elemental Lords & Ladies)
+## Intermediate Deities (Elemental Lords & Ladies)
 
 - [Lylah](pantheon/deity-lylah.md), Lady of Water
     - Alignment: CN
@@ -88,7 +88,7 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
     - Portfolio: Fire, Destruction, Rebirth
     - Symbol: A blazing flame consuming a crowned skull
 
-## Lesser Gods (Elemental Heralds)
+## Lesser Deities (Elemental Heralds)
 
 - [Aravel](pantheon/deity-aravel.md), Herald of Storms
     - Alignment: CG
@@ -143,7 +143,7 @@ The Primals (Greater Gods) have no recorded origins, nor do they actively collec
 # The Mortal Pantheon
 The Mortal Pantheon is made up of the champions, heroes, and patrons of the various mortal races. This pantheon was established second by the Overdeities during the 2nd Mortal Era (The Era of Emergences) because the number of mortals spread across the realms had begun spiking, causing a massive intake of mortal souls. Because of this, the overdeities determined that the mortals must rule themselves, and ascended mortal champions to claim godhood and lead their respective races. Over time, more portfolios began to emerge as various feats of divinity were achieved. The deities in this pantheon are collected from all of the Known Spheres, and are recognized enough throughout them due to the introduction of Spelljamming. The rise and fall of multiple of these deities was also the result of Spelljamming spreading portfolios, as there can only be one deity with any known portfolio.
 
-## Greater Gods (The Living Gods)
+## Greater Deities (The Living Gods)
 
 - [Lux Dawnbringer](pantheon/mortal-lux.md), the Luminous Sovereign
     - Alignment: LG
@@ -182,7 +182,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Portfolio: Destruction, murder, chaos, ruin
     - Symbol: A blood-red vortex swirling around a jagged, shattered blade
 
-## Intermediate Gods (The Paragons)
+## Intermediate Deities (The Paragons)
 
 - [Ornus](deity/ornus.md), Lord of Constructs
     - Alignment: LN
@@ -256,11 +256,11 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 # Courts of Faerie
 The courts of Faerie's origins are mostly unknown to most scholars, though most speculate that they originated on the Feywild and migrated into the Material Plane at some point during the 2nd Mortal Era (The Era of Emergences). From there, they spread their influence across the various Known Spheres until they established their courts in all of them, defeating or absorbing the various existing courts from those spheres. This pantheon is worshipped almost entirely by the Fey, though this pantheon is also shared by elves and other mortal descendants of Fey. Druids have also been known to worship this pantheon, though it is unlikely for this pantheon to be outwardly worshipped in any sphere other than one that has been touched by the Feywild, or on the Feywild of that sphere itself.
 
-The gods of this pantheon gain their divinity in a peculiar way; they do not collect worshippers such as other gods do with their clergy, but rather they act as patrons for warlocks in a similar way that other gods do for clerics. Though they have also been known to draw power from smaller, less permanent deals with mortals. They make deals and bestow gifts at a cost, likely servitude or favors. The Fey do not concern themselves with the matters of souls as they are typically immortal, as far as a living creature could be, and involve themselves in plans that take hundreds to thousands of years to unfold. Scholars speculate that the Fey's oracles are able to see into the future and advise their patrons on which deals to take, allowing them to influence the future to better suit their strange and seemingly whimsical machinations.
+The deities of this pantheon gain their divinity in a peculiar way; they do not collect worshippers such as other deities do with their clergy, but rather they act as patrons for warlocks in a similar way that other deities do for clerics. Though they have also been known to draw power from smaller, less permanent deals with mortals. They make deals and bestow gifts at a cost, likely servitude or favors. The Fey do not concern themselves with the matters of souls as they are typically immortal, as far as a living creature could be, and involve themselves in plans that take hundreds to thousands of years to unfold. Scholars speculate that the Fey's oracles are able to see into the future and advise their patrons on which deals to take, allowing them to influence the future to better suit their strange and seemingly whimsical machinations.
 
-Due to their unique source of divinity, these gods possess no ability to grant domains. Whether this was intentional or not, they have not revealed.
+Due to their unique source of divinity, these deities possess no ability to grant domains. Whether this was intentional or not, they have not revealed.
 
-## Greater Gods
+## Greater Deities
 
 - Aelthirion, the Verdant Crown, Sovereign of the Summer Court
     - Alignment: CG
@@ -287,7 +287,7 @@ Due to their unique source of divinity, these gods possess no ability to grant d
     - Portfolio: Elven souls, ancestral forests, fey bloodlines, birth, song, moonlit groves
     - Symbol: A silver-leafed tree beneath a seven-pointed star
 
-## Intermediate Gods
+## Intermediate Deities
 
 - Vaesryn Manyskins, the Mutable Lord
     - Alignment: CN
@@ -324,7 +324,7 @@ Due to their unique source of divinity, these gods possess no ability to grant d
     - Portfolio: Decay feeding life, fallen forests, rebirth from ruin
     - Symbol: A seed sprouting from ash
 
-## Lesser Gods
+## Lesser Deities
 
 - Faeloria Dewkissed, the Spring Bloom
     - Alignment: NG
@@ -384,17 +384,17 @@ The existence of Dragonborn in Antæra, and thusly other descendants of dragons,
 <div class="wd-cell" markdown>
 
 # The Imperial Pantheon
-During the 3rd Era (The Era of Man), the influence of the [Imperium](nation/new-haven-imperium.md) and Humans throughout the Known Spheres grew exponentially with their rapid population growth. So much so, in fact, that their leaders and folk heroes ascended to divinity through the sheer number of followers and worshippers they have. This is the first known pantheon to have started through multi-sphere worship alone. The divinity bestowed upon these gods was granted by the overdeities of the spheres they were currently inhabiting. Though due to the nature of their worship, they assembled their own pantheon and guide their people through wildspace and the rest of the planes.
+During the 3rd Era (The Era of Man), the influence of the [Imperium](nation/new-haven-imperium.md) and Humans throughout the Known Spheres grew exponentially with their rapid population growth. So much so, in fact, that their leaders and folk heroes ascended to divinity through the sheer number of followers and worshippers they have. This is the first known pantheon to have started through multi-sphere worship alone. The divinity bestowed upon these deities was granted by the overdeities of the spheres they were currently inhabiting. Though due to the nature of their worship, they assembled their own pantheon and guide their people through wildspace and the rest of the planes.
 
 This pantheon is worshipped solely by humans, though they are not picky as to which humans worship them. If any non-humans worship this pantheon, they will not receive any power or benefits as a cleric or other divine character.
 
-## Greater Gods
+## Greater Deities
 
-## Intermediate Gods
+## Intermediate Deities
 
-## Lesser Gods
+## Lesser Deities
 
 </div>
 </div>
 
-*[Depreciated](pantheon.md)*
+*[Deprecated](pantheon.md)*

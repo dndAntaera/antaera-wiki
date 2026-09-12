@@ -77,9 +77,9 @@ The kaba of the herd is assisted by the shalla, or high priest. Each herd, no ma
 
 ## Religion
 
-The dracon faith is pantheistic, worshiping dracon equivalents of human, dwarven, and elven gods. They have gods of war, fertility, storms, and the sea.
+The dracon faith is pantheistic, worshiping dracon equivalents of human, dwarven, and elven deities. They have deities of war, fertility, storms, and the sea.
 
-Unlike most human gods, dracon gods are always pictured together in a massive herd, moving together and led by the Ub-Kalla, or Full Leader. The Ub-Kalla is a god of leadership and wisdom who always knows the correct course of action.
+Unlike most human deities, dracon deities are always pictured together in a massive herd, moving together and led by the Ub-Kalla, or Full Leader. The Ub-Kalla is a deity of leadership and wisdom who always knows the correct course of action.
 
 To be called Ub-Kalla by a dracon is a high honor, meaning that your decision-making is compared favorably with dracon wisdom.
 
@@ -93,7 +93,7 @@ Dracons are very good at sorting their own differences, but they often confuse n
 - Dracons hate the neogi, which puts them in good standing with other races.
 - Dracons consider beholders comical. Beholder jokes make the rounds among dracons, comparing them to large kickballs used in ritual games on their homeworld.
 
-The race of dracons holds dragons in awe. The shalla have declared dragons to be messengers of their gods, and their actions are watched carefully for signs of the gods’ wants or intentions.
+The race of dracons holds dragons in awe. The shalla have declared dragons to be messengers of their deities, and their actions are watched carefully for signs of the deities’ wants or intentions.
 
 ## Dracon Homeworld & Ecology
 
@@ -104,7 +104,7 @@ The familial relationships of dracons suggest that they are all natives of the s
 
 The climate is in continual flux, forcing herds to move and cooperate to survive.
 
-The dracons describe a spiderlike Dark God that lies beneath the sand and captures younglings who stray too far.<br>
+The dracons describe a spiderlike Dark Deity that lies beneath the sand and captures younglings who stray too far.<br>
 This boogeyman may be:
 
 - A real creature
@@ -248,7 +248,7 @@ Several dozen related families form a clan, the basic social unit, and 2d4 clans
 Grommams are omnivorous, eating almost any sort of fruits, vegetables, nuts, roots, and small game animals. They have no trouble eating the food of any human or demihuman race. Grommams have little effect on the affairs of other races.
 
 ## Religion
-Like other races, grommams have gods—but their gods (of demigod level) openly live among them as their rulers and advisors. Most are LG.
+Like other races, grommams have deities—but their deities (of demigod level) openly live among them as their rulers and advisors. Most are LG.
 
 ## Spelljamming and Ship Design
 Grommam spelljammer ships (usually purchased from humans) are altered to appear powerful and dramatic, with bright colors and wild designs, but they function like any other spelljamming ships.
@@ -322,7 +322,7 @@ Hadozee live communally whenever possible, particularly in port cities and space
 If a hadozee arrives at a port with no other hadozee present, they often choose to remain aboard their ship rather than settle in unfamiliar surroundings.
 
 ## Religion
-Hadozee are not particularly religious, though they are respectful of the sea gods and astral deities worshipped by other spacers. A hadozee who encounters a powerful deity may become devoted to that god, but such occurrences are rare.
+Hadozee are not particularly religious, though they are respectful of the sea deities and astral deities worshipped by other spacers. A hadozee who encounters a powerful deity may become devoted to that deity, but such occurrences are rare.
 
 ## Language
 The Hadozee tongue is composed of hoots, barks, and low vocalizations, supplemented by expressive body language. While their speech is simple, hadozee are capable linguists, delighting in learning new languages.
@@ -458,7 +458,7 @@ Lizardfolk dwell primarily in swamps, marshes, jungles, or flooded cave systems.
 Some rare tribes have adapted to spacefaring life through ancient ties with hurwaeti, traveling aboard swamp-grown spelljamming vessels or asteroid-bound jungle settlements. Regardless of location, their settlements are built for defense and survival, not comfort or aesthetics.
 
 ## Religion
-Lizardfolk worship Semuanya, a deity of survival, fertility, and natural endurance. Worship is informal—there are no temples, only the wisdom of shamans and druids who invoke Semuanya’s blessings when needed. The god’s influence is found in every act of preservation, from food gathering to brood rearing.
+Lizardfolk worship Semuanya, a deity of survival, fertility, and natural endurance. Worship is informal—there are no temples, only the wisdom of shamans and druids who invoke Semuanya’s blessings when needed. The deity’s influence is found in every act of preservation, from food gathering to brood rearing.
 
 Semuanya is not seen as a figure of mercy, but as a symbol of continuity. Those who follow him often grow into druids or spiritual leaders, their faith seamlessly blending with reverence for nature itself.
 
@@ -576,7 +576,7 @@ Generations of regimentation have bred chaos out of the Scro. They are nearly al
 The Scro homeworld is unnamed and secret, though it is ruled by the Ultimate High Overlord and organized into 24 tribes, each led by an Almighty Leader. The planet is marked by strong fortresses, efficient shipyards, and a harsh but well-ordered society. Populations range from 10,000 to 100,000 per city. While they do not seek multiversal conquest, they intend to remove all non-Scro from wildspace, reducing them to slaves or exterminating them outright. Outside their homeworld, the Scro establish militarized outposts and warships to enforce their dominance.
 
 ## Religion
-The Scro abandoned the old orc gods after their defeat in the Unhuman War. Their modern belief system venerates Dukgash, who taught them to forsake brutality for martial perfection and cultural discipline. While public religious displays are rare, war-priests perform private rituals centered on self-denial and inner strength. These war-priests are always multiclassed spellcasters, required to balance arcane and divine knowledge. The Scro’s devotion to Dukgash's teachings is absolute—his tomb even orbits their planet, watching over them like a star-bound guardian.
+The Scro abandoned the old orc deities after their defeat in the Unhuman War. Their modern belief system venerates Dukgash, who taught them to forsake brutality for martial perfection and cultural discipline. While public religious displays are rare, war-priests perform private rituals centered on self-denial and inner strength. These war-priests are always multiclassed spellcasters, required to balance arcane and divine knowledge. The Scro’s devotion to Dukgash's teachings is absolute—his tomb even orbits their planet, watching over them like a star-bound guardian.
 
 ## Language
 Scro speak a refined dialect of Orcish, expanded by Dukgash to carry greater nuance and tactical vocabulary. The language is significantly more expressive than traditional Orc, boasting triple the vocabulary. All Scro learn Elvish, and many also speak Common for espionage, diplomacy, or mocking their foes. Scro prefer not to debase their ancestral tongue, but they will learn any language that serves the war effort.
@@ -625,7 +625,7 @@ Most xixchil lean toward N or NE alignments. Their motivations are usually inter
 The xixchil evolved on a dangerous world full of predators, where only the most cunning and adaptable survived. There, they developed advanced biological control, camouflage, and metabolic enhancements, eventually rising to dominance. Modern xixchil are spacefarers, establishing surgical enclaves instead of permanent settlements. These mobile clinics, outfitted with tools and biological workspaces, serve as both homes and laboratories. Their spelljamming ships reflect their unique culture—covered in living plant structures, floral ornamentation, and organically grown components.
 
 ## Religion
-Surgery is considered a spiritual act by most xixchil. They believe that the body is a blank canvas, a shell to be transformed into something beautiful and functional. While they rarely worship gods in the traditional sense, some venerate deities of transformation, artifice, or evolution. Their religious expression, if any, is deeply tied to ritualistic self-enhancement and the philosophy of becoming.
+Surgery is considered a spiritual act by most xixchil. They believe that the body is a blank canvas, a shell to be transformed into something beautiful and functional. While they rarely worship deities in the traditional sense, some venerate deities of transformation, artifice, or evolution. Their religious expression, if any, is deeply tied to ritualistic self-enhancement and the philosophy of becoming.
 
 ## Language
 Xixchil communicate through a blend of spoken words, clicks, and gestures. Their native tongue is related to that of the rastipedes but distinct, incorporating mandible clicks and delicate hand signals. They also learn Common and other humanoid languages to interact with patients and allies.
@@ -691,7 +691,7 @@ Roll | Result
 # Insectare
 
 ## Personality
-Insectare are cold, secretive, and cautious when dealing with outsiders. While they appear emotionless, they are capable of a wide range of feelings, though many of these emotions seem alien to other humanoids. Among their own kind, they communicate empathy directly through their antennae. Each insectare views their race as a unified family, with their god Klikral as its divine head. This deep-seated loyalty fosters an adversarial stance toward all who are not part of their "family." Even those who travel with others maintain emotional distance, hiding their true nature and sometimes eliminating those who discover their identity.
+Insectare are cold, secretive, and cautious when dealing with outsiders. While they appear emotionless, they are capable of a wide range of feelings, though many of these emotions seem alien to other humanoids. Among their own kind, they communicate empathy directly through their antennae. Each insectare views their race as a unified family, with their deity Klikral as its divine head. This deep-seated loyalty fosters an adversarial stance toward all who are not part of their "family." Even those who travel with others maintain emotional distance, hiding their true nature and sometimes eliminating those who discover their identity.
 
 ## Physical Description
 Insectare resemble tall, slim elves with lime-green skin and elongated limbs. Their most distinguishing features are the long antennae that sprout from behind their ears and the chitinous plates that armor parts of their bodies. These plates form a natural exoskeleton, typically hidden beneath robes or armor. Their eyes appear normal from a distance but are actually multifaceted like an insect’s. Insectare priests are an exception, possessing normal humanoid eyes. To blend in, they often use dyes, makeup, and clothing to pass as elves or humans.

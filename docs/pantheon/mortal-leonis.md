@@ -14,7 +14,7 @@ title: "Leonus Ironmane, the Stalwart Guardian"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A roaring lion's head surrounded by justice scales and a crossed sword and shield
 - **Home Plane**: The Verdant Bastion, Ysgard
 - **Alignment**: CG

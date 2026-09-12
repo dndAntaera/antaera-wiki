@@ -14,7 +14,7 @@ title: "Khurash, Herald of Smoke"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: Coiling spiral of ash over smoldering embers
 - **Home Plane**: Great Conflagration
 - **Alignment**: N

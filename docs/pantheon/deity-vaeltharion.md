@@ -14,7 +14,7 @@ title: "Vaeltharion, Herald of Dust"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: A hooded lantern with a dim, ember-like glow
 - **Home Plane**: Quasi-Elemental Plane of Dust
 - **Alignment**: NE

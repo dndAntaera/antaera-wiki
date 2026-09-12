@@ -14,7 +14,7 @@ title: "Ukrol, Patron Deity of Humanity"
 
 # Overview
 
-- **Rank**: Intermediate God
+- **Rank**: Intermediate Deity
 - **Symbol**: A featureless humanoid face with a spiked crown
 - **Home Plane**: The Dominion of Exiles
 - **Alignment**: LE
@@ -25,7 +25,7 @@ title: "Ukrol, Patron Deity of Humanity"
 - **Favored Weapon**: —
 
 **Origins**
-Ukrol's origins are shrouded in mystery, but legends speak of him as the first human, born from the depths of the Abyss itself. It is said that an Abyssal god sought to create the perfect race of mortals, and Ukrol was the culmination of this divine experiment. Endowed with incredible strength, intelligence, and ambition, Ukrol quickly rose to prominence among his kind, leading them with unmatched fervor and determination.
+Ukrol's origins are shrouded in mystery, but legends speak of him as the first human, born from the depths of the Abyss itself. It is said that an Abyssal deity sought to create the perfect race of mortals, and Ukrol was the culmination of this divine experiment. Endowed with incredible strength, intelligence, and ambition, Ukrol quickly rose to prominence among his kind, leading them with unmatched fervor and determination.
 
 Driven by a desire to prove the superiority of his race, Ukrol embarked on a relentless campaign of conquest, seeking to bring all other beings under human dominion. His actions sparked conflict and upheaval across the planes as other races rose up to resist his tyranny. Despite facing countless adversaries, Ukrol's conviction never wavered, and he led his people with unwavering resolve.
 

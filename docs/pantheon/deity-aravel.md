@@ -14,7 +14,7 @@ title: "Aravel, Herald of Storms"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: A jagged bolt cleaving a raincloud
 - **Home Plane**: Quasi-Elemental Plane of Lightning
 - **Alignment**: CG
@@ -25,7 +25,7 @@ title: "Aravel, Herald of Storms"
 - **Favored Weapon**: Cutlass
 
 **Origins**
-Aravel was born among the high elves of the cloud-ringed Skyreach Isles, where her storm magic first took shape. As a young sorcerer, she captained her own spelljammer, riding the phlogiston currents between spheres in search of wonders, storms, and worthy foes. Her daring voyages made her a legend among starfarers, and her command of wind and lightning became unmatched. Her final mortal feat—calming a planar cyclone that threatened to tear apart the Aerivagus Sphere—earned her the awe of the lightning god himself, who gave up his divine spark and joined his essence to hers, crowning her the new Lady of Storms.
+Aravel was born among the high elves of the cloud-ringed Skyreach Isles, where her storm magic first took shape. As a young sorcerer, she captained her own spelljammer, riding the phlogiston currents between spheres in search of wonders, storms, and worthy foes. Her daring voyages made her a legend among starfarers, and her command of wind and lightning became unmatched. Her final mortal feat—calming a planar cyclone that threatened to tear apart the Aerivagus Sphere—earned her the awe of the lightning deity himself, who gave up his divine spark and joined his essence to hers, crowning her the new Lady of Storms.
 
 **Description**
 Aravel manifests as a tall elven woman wreathed in stormlight, her silver hair a tumbling squall and her eyes lit with flickering arcs. Her presence is electric—vital, unpredictable, and brimming with motion. Tempests often herald her attention, and her voice rides the thunder. Her worship is informal and alive: storm-prayers howled into the wind, offerings cast into crashing surf, and tattoos inked in tribute to the sky’s fury.

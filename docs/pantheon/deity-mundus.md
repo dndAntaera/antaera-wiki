@@ -14,7 +14,7 @@ title: "Mundus, Goddess of Life"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: Oak tree
 - **Home Plane**: Elysium
 - **Alignment**: NG

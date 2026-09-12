@@ -14,7 +14,7 @@ title: "Nihil, Herald of Void"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: A black circle surrounded by fading stars
 - **Home Plane**: Quasi-Elemental Plane of Vacuum
 - **Alignment**: N

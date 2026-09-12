@@ -1023,7 +1023,7 @@ The grappling ram incorporates one or more movable arms that attach themselves t
 
 ## Bombards
 
-Also called cannon, these items are very rare in the Known Spheres for a variety of reasons. They tend to be unreliable, both from the standpoint of being physically untrustworthy and, more importantly, because the chemical or magical reactions they depend on sometimes vary from one world to another. Gunpowder may work perfectly inside one shell, only to be inert in another, and is a magical jewelry polish in a third. These differences are often written off as the whims of the gods themselves, to keep mortals in their place, but the result is that bombards are rare.
+Also called cannon, these items are very rare in the Known Spheres for a variety of reasons. They tend to be unreliable, both from the standpoint of being physically untrustworthy and, more importantly, because the chemical or magical reactions they depend on sometimes vary from one world to another. Gunpowder may work perfectly inside one shell, only to be inert in another, and is a magical jewelry polish in a third. These differences are often written off as the whims of the deities themselves, to keep mortals in their place, but the result is that bombards are rare.
 
 The other reason that bombards are rare is that fire travels poorly through the phlogiston, and many a ship has exploded as the result of a poorly protected powder magazine. If the DM chooses to allow bombards and other cannon to operate in a particular sphere, any critical hit has a 10% chance of igniting the powder magazine, inflicting 2d10 x 5 hull points of damage.
 

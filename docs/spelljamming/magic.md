@@ -30,13 +30,13 @@ The effects of certain magical and clerical spells and spell-like abilities are 
 
 # Clerics in Space
 
-Divine magic operates normally within the crystal shell that surrounds a cleric's native world but is severely hampered once that cleric enters the phlogiston. A prepared divine caster receives his spells through the offices of his deity, and his deity's effectiveness ends at the crystal shell. The phlogiston is impenetrable to extra-dimensional magics, and as a result, the "gods" and other powers have no sway there.
+Divine magic operates normally within the crystal shell that surrounds a cleric's native world but is severely hampered once that cleric enters the phlogiston. A prepared divine caster receives his spells through the offices of his deity, and his deity's effectiveness ends at the crystal shell. The phlogiston is impenetrable to extra-dimensional magics, and as a result, the "deities" and other powers have no sway there.
 
 A prepared divine caster entering the Flow may use those spells he brought with him (with normal restrictions for the physical nature of phlogiston). However, he may not regain spells above 2nd level while in the phlogiston. This is because he remains out of direct contact with his deity. Loss of such spell abilities does not affect a prepared divine caster's spelljamming ability.
 
 A prepared divine caster who enters a foreign crystal shell is similarly restricted. The only exceptions occur when his deity (or a similar power) is recognized in the foreign shell, or he casts a successful gate spell, affording his deity access to the foreign shell.
 
-Any god or power is considered "recognized" within a sphere if he has worshipers and/or an organized church anywhere within that system. This does not mean that a PC can move into a shell and automatically establish a base of worship for his god. For a deity to be a recognized power in any shell, he has to have an established group of worshipers somewhere in the system.
+Any deity or power is considered "recognized" within a sphere if he has worshipers and/or an organized church anywhere within that system. This does not mean that a PC can move into a shell and automatically establish a base of worship for his deity. For a deity to be a recognized power in any shell, he has to have an established group of worshipers somewhere in the system.
 
 Characters native to space may worship the deities of the sphere they are in or may follow a number of faiths found in many space civilizations. These faiths include:
 
@@ -54,9 +54,9 @@ Given the effects of clerics having variable abilities from sphere to sphere, or
 <div class="wd-cell" markdown>
 
 # The Polygots
-The Polygots are a pantheistic faith that worships entire organizations of Powers as opposed to a particular Power. A priest of the Greek mythology or the Norse gods would qualify as a Polygot priest. If any members of a particular Polygot priest's pantheon are present in the sphere, then that cleric regains his spells normally. For example, Tyr of Toril is originally a native of the Norse mythos (though Thor, Odin, and Loki have never made beachheads on the planet or attracted a large following). A cleric worshiping the Norse Polygot (all the Norse gods) would regain spells on Toril since Tyr is a native.
+The Polygots are a pantheistic faith that worships entire organizations of Powers as opposed to a particular Power. A priest of the Greek mythology or the Norse deities would qualify as a Polygot priest. If any members of a particular Polygot priest's pantheon are present in the sphere, then that cleric regains his spells normally. For example, Tyr of Toril is originally a native of the Norse mythos (though Thor, Odin, and Loki have never made beachheads on the planet or attracted a large following). A cleric worshiping the Norse Polygot (all the Norse deities) would regain spells on Toril since Tyr is a native.
 
-With the expansion of the Polygots in space civilization, representatives of the various Polygot sects can be found in most organized shells. Polygot priests are not popular on the ground, however, because it is there that the various gods struggle against each other for worshipers. A Polygot priest of the Lendore Isles of Oerth would find himself under increasing pressure from the various faiths of Oerth to "choose sides" if he spent any amount of time in those isles. Most nonhuman (elvish, gnomish, dwarvish, etc.) priests found in space are Polygot clerics of their racial mythologies.
+With the expansion of the Polygots in space civilization, representatives of the various Polygot sects can be found in most organized shells. Polygot priests are not popular on the ground, however, because it is there that the various deities struggle against each other for worshipers. A Polygot priest of the Lendore Isles of Oerth would find himself under increasing pressure from the various faiths of Oerth to "choose sides" if he spent any amount of time in those isles. Most nonhuman (elvish, gnomish, dwarvish, etc.) priests found in space are Polygot clerics of their racial mythologies.
 
 </div>
 </div>
@@ -93,7 +93,7 @@ All "space clerics" have spells as standard clerics—they cannot become special
 
 # Conjuration/Summoning Spells
 
-Spells that call upon beings from the surrounding area will not function if none of those creatures are located within the spell's range. For example, a Summon Nature's Ally spell will not work in wildspace if there are no animals present. Conjuration/summoning spells will not work in the phlogiston if they summon extra-dimensional monsters or powers. No power, god, elemental, or other meta-planar creature can be summoned in the phlogiston, and any spell that attempts to do so will fail.
+Spells that call upon beings from the surrounding area will not function if none of those creatures are located within the spell's range. For example, a Summon Nature's Ally spell will not work in wildspace if there are no animals present. Conjuration/summoning spells will not work in the phlogiston if they summon extra-dimensional monsters or powers. No power, deity, elemental, or other meta-planar creature can be summoned in the phlogiston, and any spell that attempts to do so will fail.
 
 Additionally, any spells that place the caster in contact with an extra-dimensional power fail in the Flow.
 
@@ -155,8 +155,8 @@ In addition to the various magical items that can propel a ship, there are sever
 - **Create Air**: The caster may generate a bubble of fresh, breathable air around a person.
 2nd Level
 
-- **Contact Home Power**: Establishes a tenuous link which permits the caster to regain his spells as if their god is recognized and venerated within the sphere.
-- **Detect Powers**: Allows the caster to determine if there are friendly gods and/or other powers so that he may recharge his higher-level spells.
+- **Contact Home Power**: Establishes a tenuous link which permits the caster to regain his spells as if their deity is recognized and venerated within the sphere.
+- **Detect Powers**: Allows the caster to determine if there are friendly deities and/or other powers so that he may recharge his higher-level spells.
 4th Level
 
 - **Softwood**: The target is placed in suspended animation in a manner similar to that of individuals lost in the Flow.
@@ -239,9 +239,9 @@ The chill fire spell functions only in the phlogiston; casting it in other surro
 **Target**: You<br>
 **Duration**: 1 week
 
-The user of this spell establishes a tenuous link through the Astral Plane between his present location and that of the power he venerates. This link allows the caster to regain his spells as if their god is recognized and venerated within the sphere.
+The user of this spell establishes a tenuous link through the Astral Plane between his present location and that of the power he venerates. This link allows the caster to regain his spells as if their deity is recognized and venerated within the sphere.
 
-Distance does not affect the caster's attempt to contact the home power, but dimensional gates, anti-magical fields, and the effects of dispel magic will prevent the use of the spell. Also, the spell will not function in areas from which the power has been banished explicitly (whether from the death of an avatar, banishment, or some voluntary action of the god). The caster attempting to uplink with his power in such locations will be informed through the spell that such contact with his god is forbidden. However, the caster will not be given the reasons, as gods are notably reticent to explain why they cannot exert their power, preferring to appear all-powerful to their worshipers.
+Distance does not affect the caster's attempt to contact the home power, but dimensional gates, anti-magical fields, and the effects of dispel magic will prevent the use of the spell. Also, the spell will not function in areas from which the power has been banished explicitly (whether from the death of an avatar, banishment, or some voluntary action of the deity). The caster attempting to uplink with his power in such locations will be informed through the spell that such contact with his deity is forbidden. However, the caster will not be given the reasons, as deities are notably reticent to explain why they cannot exert their power, preferring to appear all-powerful to their worshipers.
 
 The spell remains in effect for the entire duration as long as the caster remains in the same crystal sphere he cast the spell. Passage into another plane (even the ethereal) will end the spell, as will a targeted dispel magic. This spell cannot be cast in the phlogiston.
 
@@ -386,7 +386,7 @@ Portals created by this spell are magical and temporary, so they can be dispelle
 **Duration**: Instantaneous<br>
 **Saving Throw**: None
 
-Casting this spell outside a crystal shell allows the caster to determine if there are friendly gods and/or other powers so that he may recharge his higher-level spells within its borders. The detect powers spell will also reveal if the gods revered by the caster are worshipped within that sphere.
+Casting this spell outside a crystal shell allows the caster to determine if there are friendly deities and/or other powers so that he may recharge his higher-level spells within its borders. The detect powers spell will also reveal if the deities revered by the caster are worshipped within that sphere.
 
 If the sphere is one known to the DM (i.e., the characters just discovered it), and he has no clear idea what lies within, then roll on the table below for a possible response to the spell.
 
@@ -397,7 +397,7 @@ If the sphere is one known to the DM (i.e., the characters just discovered it), 
 | 51–90 | Power is unknown in the sphere. The cleric may not regain spells above second level until contact is restored with his original power, or the cleric performs a great task for the new power. |
 | 91–00 | Power is unknown in the sphere. |
 
-While many powers will have similar portfolios and areas of interest (war, healing, agriculture, death, and so on), they are often at varying alignments. In one crystal sphere, a war god might be a positive figure and, therefore, good and lawful. In another world, war might be regarded as a destructive force, and its deity is evil and chaotic.
+While many powers will have similar portfolios and areas of interest (war, healing, agriculture, death, and so on), they are often at varying alignments. In one crystal sphere, a war deity might be a positive figure and, therefore, good and lawful. In another world, war might be regarded as a destructive force, and its deity is evil and chaotic.
 
 The caster will be able to tell the alignment of the power closest to his deity through the detect powers spell. Accepting spells from a power of similar outlook but opposite alignment is dangerous, and any cleric that does so must regain favor with his chief deity (through quest or atonement) before further advancement in his class is possible.
 

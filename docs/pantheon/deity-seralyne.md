@@ -14,7 +14,7 @@ title: "Seralyne, Herald of Radiance"
 
 # Overview
 
-- **Rank**: Lesser God
+- **Rank**: Lesser Deity
 - **Symbol**: Burning sun framed by silver wings
 - **Home Plane**: Radiance
 - **Alignment**: LG

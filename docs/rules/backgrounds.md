@@ -320,9 +320,9 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Benefit**: You gain the Shadow Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at night or in non-magical darkness.
 
 ## Sidhe Native
-*You were born and raised in the Sidhe Wilderness, as such your ancestors are fey or other fey-like creatures.*
+*You were born and raised in the Feywild, as such your ancestors are fey or other fey-like creatures.*
 
-**Prerequisite**: Native to the Sidhe Wilderness<br>
+**Prerequisite**: Native to the Feywild<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Fey Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating forests or other large forested areas.

@@ -14,7 +14,7 @@ title: "Lux Dawnbringer, the Luminous Sovereign"
 
 # Overview
 
-- **Rank**: Greater God
+- **Rank**: Greater Deity
 - **Symbol**: A radiant sun, its rays extending outward in a circular pattern
 - **Home Plane**: Luminara
 - **Alignment**: LG

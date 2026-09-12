@@ -33,7 +33,7 @@ Embark on your adventure with caution and courage, and may the dice be ever in y
 <div class="wd-cell" markdown>
 
 # Fan Content Policy
-Antæra is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. [For more information](https://company.wizards.com/en/legal/fancontentpolicy)
+Antæra is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. For more information on the Fan Content Policy, visit the link [here](https://company.wizards.com/en/legal/fancontentpolicy).
 
 </div>
 </div>

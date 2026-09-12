@@ -132,6 +132,14 @@ EDITS = {
         (None, "By participating in Legends of Antæra",
          "By participating in a campaign based in Antæra"),
     ],
+    # The author's note on the state of the setting moved to the footnote,
+    # where it is on every page instead of one. The sentence before it stays.
+    "start": [
+        (None, "Dungeons & Dragons content. As a note from the author, the setting is "
+               "currently under revision to accommodate the inclusion of the "
+               "Spelljammer setting.*",
+         "Dungeons & Dragons content.*"),
+    ],
     # Typos.
     "deity-ukrol": [
         (None, "Tyrrany", "Tyranny"),
@@ -315,7 +323,8 @@ FAN_CONTENT = (
     "Antæra is unofficial Fan Content permitted under the Fan Content Policy. "
     "Not approved/endorsed by Wizards. Portions of the materials used are "
     "property of Wizards of the Coast. ©Wizards of the Coast LLC. "
-    "[For more information](https://company.wizards.com/en/legal/fancontentpolicy)"
+    "For more information on the Fan Content Policy, visit the link "
+    "[here](https://company.wizards.com/en/legal/fancontentpolicy)."
 )
 
 VERBATIM_CARDS = {"disclaimer"}

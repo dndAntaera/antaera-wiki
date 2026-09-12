@@ -722,6 +722,7 @@ body,
 
 .wd-footnote .md-source-file { margin: 0; }
 
+.wd-footnote__note,
 .wd-footnote__policy {
   margin: var(--wd-space-2) 0 0;
   font-size: 1em;

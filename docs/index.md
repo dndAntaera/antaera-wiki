@@ -12,13 +12,6 @@ title: "Main Page"
 </div>
 </div>
 <div class="wd-row" markdown>
-<div class="wd-cell wd-title" markdown>
-
-# Main Page
-
-</div>
-</div>
-<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # World Overview

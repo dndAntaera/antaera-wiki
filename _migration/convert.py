@@ -250,7 +250,64 @@ They are aware of the curiosity they attract and largely untroubled by it. What 
 # Cards written since the import, listed under the card they follow. A card
 # added here goes in after that one, so the page keeps the order it is meant to
 # read in rather than collecting new material at the foot.
+# The Open Game License, version 1.0a, as the Open Gaming Foundation publishes
+# it, with the System Reference Document notice that a 3.5e work carries in
+# section 15. Reproduced whole and unedited, which is what the licence is for:
+# section 10 requires a copy of it to travel with any Open Game Content, and
+# the licence itself is what grants permission to copy it. Nothing here may be
+# reworded - not a comma - so no pass over the site touches this page's text.
+OGL_V10A = r"""
+OPEN GAME LICENSE Version 1.0a
+
+The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.
+
+1\. Definitions: (a)"Contributors" means the copyright and/or trademark owners who have contributed Open Game Content; (b)"Derivative Material" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) "Distribute" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)"Open Game Content" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) "Product Identity" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) "Trademark" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) "Use", "Used" or "Using" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) "You" or "Your" means the licensee in terms of this agreement.
+
+2\. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.
+
+3\. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+
+4\. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.
+
+5\. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.
+
+6\. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+
+7\. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+
+8\. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+
+9\. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+
+10\. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+
+11\. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+
+12\. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+
+13\. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+
+14\. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+15\. COPYRIGHT NOTICE
+
+Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+
+System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+
+END OF LICENSE"""
+
+# Cards that are quoted, not written: house style does not touch them. It put
+# an en dash in the licence's "2000-2003", and a copyright notice says what it
+# says.
+VERBATIM_CARDS = {"disclaimer"}
+
 NEWCARDS = {
+    # The licence the wiki's 3.5e material is used under, at the foot of the
+    # page that carries the wiki's other legal notes.
+    "disclaimer": [
+        (None, "Open Game License", OGL_V10A),
+    ],
     "anthropology-warforged": [
         ("Origin Story", "The Life Debt", """\
 After the resolution of the [Warforged Civil War](../faction/house-of-fabrication.md#warforged-civil-war), Warforged gained their personhood in the eyes of the House. However, this caused the creation of the Life Debt: the sum total of the materials used in its creation. In practice, it is used as a way for the House to keep the Warforged in their service in exchange for freeing them from slavery. While a Warforged has a Life Debt, they cannot hold any property nor can they refuse an order by the House. Their wages are used to reduce the Debt, yet their repairs are used to increase it, keeping them in a perpetual juggling act for their livelihood.
@@ -368,6 +425,12 @@ ARCHIVED_FOLDERS = {"wm"}
 # Pantheons has them Greater, and files several deities under alignments they
 # no longer hold.
 ARCHIVED_PAGES = {"pantheon"}
+
+# Pages that do not carry their name on a card of their own. The main page is
+# the only one: it opens on the wiki's header picture and the world's overview,
+# and a band reading "Main Page" over them named the nav entry rather than the
+# page.
+NO_TITLE_CARD = {"start"}
 
 # Folders holding a page per god. Their titles are read off the page rather
 # than built from the slug - see the title block in main().
@@ -1525,8 +1588,18 @@ def apply_recards(slug, body):
 
 
 def apply_newcards(slug, body):
-    """Add a card after the one it belongs behind."""
+    """Add a card after the one it belongs behind, or at the foot of the page.
+
+    A card with no card named to follow goes last, which is where a page's
+    legal note belongs.
+    """
     for after, heading, text in NEWCARDS.get(slug, []):
+        if after is None:
+            width = re.search(r"--wd-rw:\s*([^;\"]+)", body)
+            row = ('<div class="wd-row"%s markdown>\n'
+                   % (' style="--wd-rw: %s"' % width.group(1).strip() if width else ""))
+            body = body.rstrip("\n") + "\n" + _card(row, "#", heading, text)
+            continue
         span = _card_span(body, after)
         if span is None:
             TODO.append((slug, "no card found for '%s'" % after))
@@ -2321,8 +2394,11 @@ def main(backup):
         # Rewrites go in before the title and heading passes, so a rewritten
         # section is held to the same house style as the rest of the page.
         if slug in REWRITES or slug in RECARDS or slug in NEWCARDS:
-            body = house_style(
-                apply_newcards(slug, apply_recards(slug, apply_rewrites(slug, body))))
+            body = apply_recards(slug, apply_rewrites(slug, body))
+            if slug in VERBATIM_CARDS:
+                body = apply_newcards(slug, house_style(body))
+            else:
+                body = house_style(apply_newcards(slug, body))
 
         # Half of a merged page: keep the converted body and write nothing.
         # The whole page is assembled once every half has been converted.
@@ -2462,7 +2538,10 @@ def main(backup):
         # that pass had just closed.
         if target_path(slug).split("/")[0] in DEITY_FOLDERS:
             body = deity_format(body, title, slug)
-        body = apply_edits(slug, title_card(title, heading_levels(body)))
+        body = heading_levels(body)
+        if slug not in NO_TITLE_CARD:
+            body = title_card(title, body)
+        body = apply_edits(slug, body)
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
         written += 1

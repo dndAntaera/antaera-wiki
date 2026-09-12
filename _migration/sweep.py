@@ -244,6 +244,21 @@ def main():
            for m in re.finditer(r"^\*\*(?:Lesser|Intermediate|Greater)\*\*:?[ \t]*$"
                                 r"|^\*\*[A-Za-z][^*\n]*\*\*:[ \t]*$", body_of(t), re.M)])
 
+    # The licence has to be whole to be a licence: all fifteen sections, its
+    # own copyright notice, and the line that ends it.
+    lic = body_of(pages.get("docs/disclaimer.md", ""))
+    bad = []
+    nums = re.findall(r"(?m)^(\d{1,2})\\\. ", lic)
+    if nums != [str(i) for i in range(1, 16)]:
+        bad.append("sections present: %s" % nums)
+    if "END OF LICENSE" not in lic:
+        bad.append("no END OF LICENSE")
+    if "Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc." not in lic:
+        bad.append("section 15 does not carry the licence's own notice")
+    if "System Reference Document Copyright 2000-2003" not in lic:
+        bad.append("section 15 does not carry the SRD notice")
+    check("the Open Game License is whole", bad)
+
     check("the fey plane is called the Feywild",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()

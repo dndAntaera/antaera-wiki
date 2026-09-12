@@ -345,7 +345,12 @@
     padding: var(--wd-space-3) var(--wd-space-2);
   }
 
-  .md-sidebar--primary .md-nav__title { padding-top: 0; }
+  /* The panel does not need to be told whose wiki it is. The bar above it
+     already says so, and says it as a link home. On a phone this same element
+     is the drawer's own header - the coloured band with the logo, and the tap
+     that closes the drawer - so it is only taken away here, where it is a
+     spare line above the menu. */
+  .md-sidebar--primary .md-nav__title { display: none; }
 }
 
 /* ---------------------------------------------------------------------------

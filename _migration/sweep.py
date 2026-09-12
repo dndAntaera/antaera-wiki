@@ -246,7 +246,7 @@ def main():
 
     # The licence has to be whole to be a licence: all fifteen sections, its
     # own copyright notice, and the line that ends it.
-    lic = body_of(pages.get("docs/disclaimer.md", ""))
+    lic = body_of(pages.get("docs/disclaimer-legal.md", ""))
     bad = []
     nums = re.findall(r"(?m)^(\d{1,2})\\\. ", lic)
     if nums != [str(i) for i in range(1, 16)]:

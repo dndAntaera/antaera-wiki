@@ -661,6 +661,9 @@ TODO = []
 # from this, so they all follow.
 RENAMED = {
     "plane-of-faerie": "plane/feywild.md",
+    # It carries the wiki's legal notes and the Open Game License now,
+    # and the menu calls it that.
+    "disclaimer": "disclaimer-legal.md",
 }
 
 

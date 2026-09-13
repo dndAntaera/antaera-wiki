@@ -34,7 +34,7 @@ Welcome to Antæra, an immersive Dungeons & Dragons experience. Before embarking
 6. **Player Discretion Advised:**<br>
     The campaign is designed to provide a rich and dynamic storytelling experience. However, it may not be suitable for all audiences. Players are advised to use their discretion and assess their comfort level with the themes presented.
 
-7. **Use of AI-Generated Artwork:**<br>
+7. **Use of AI Tools:**<br>
     Artwork featured on the campaign’s wiki may be created using AI tools, and is used solely for visual representation and thematic support. All narrative content, worldbuilding, and lore are written entirely by the Dungeon Master/Author of the setting (or transcribed from sourcebooks in the case of mechanics). If any participant takes issue with the use of AI-generated art, they are welcome to contact the Dungeon Master directly to arrange and fund commissioned artwork to replace it. Doing so will be rewarded by being placed in a credits page (to be made when this happens) that will accredit the person who funded the commissions as well as the artists who perform the commission.
 
     One exception to this is that all maps are made by the DM by hand using cartography software. Another exception is that some battle maps may have been purchased from outside map-makers.

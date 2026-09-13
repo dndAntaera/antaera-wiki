@@ -77,6 +77,8 @@ Welcome to Antæra, an immersive Dungeons & Dragons experience. Before embarking
 
    One exception to this is that all maps are made by the DM by hand using cartography software. Another exception is that some battle maps may have been purchased from outside map-makers.
 
+   AI tools have also been used to audit and correct the code used in the creation of the wiki itself.
+
 By participating in campaigns taking place in the setting of Antæra, you acknowledge that you have read and understood this disclaimer. If you have any concerns or questions about the content, please feel free to discuss them with the Dungeon Master. Our goal is to create an enjoyable and inclusive experience for all players.
 
 Embark on your adventure with caution and courage, and may the dice be ever in your favor."""

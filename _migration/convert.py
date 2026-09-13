@@ -132,13 +132,15 @@ EDITS = {
         (None, "By participating in Legends of Antæra",
          "By participating in a campaign based in Antæra"),
     ],
-    # The author's note on the state of the setting moved to the footnote,
-    # where it is on every page instead of one. The sentence before it stays.
+    # The main page's closing line is gone. Its author's note is in every
+    # page's footnote now, and the rest of it - that the wiki is homebrew and
+    # not official D&D content - is what the fan content notice under it says.
     "start": [
-        (None, "Dungeons & Dragons content. As a note from the author, the setting is "
-               "currently under revision to accommodate the inclusion of the "
-               "Spelljammer setting.*",
-         "Dungeons & Dragons content.*"),
+        (None, "*This wiki is designed to hold the lore for the homebrew setting of "
+               "Antæra, and is not official Dungeons & Dragons content. As a note from "
+               "the author, the setting is currently under revision to accommodate the "
+               "inclusion of the Spelljammer setting.*",
+         ""),
     ],
     # Typos.
     "deity-ukrol": [

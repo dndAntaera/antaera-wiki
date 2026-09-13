@@ -48,4 +48,4 @@ Preoccupied by their endless politics and bureaucracies, the Gallamarketh govern
 </div>
 </div>
 
-*This wiki is designed to hold the lore for the homebrew setting of Antæra, and is not official Dungeons & Dragons content.*
+

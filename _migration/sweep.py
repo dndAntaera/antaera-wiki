@@ -286,6 +286,14 @@ def main():
             for f, t in pages.items() if "As a note from the author" in body_of(t)]
     check("the footnote carries what it should, everywhere", bad)
 
+    # A paragraph that belongs to a list item has to be indented four spaces.
+    # Indented fewer, Markdown ends the list and prints it as the next
+    # paragraph of the page instead.
+    check("a list item's later paragraphs stay in the item",
+          ["%s  %s" % (f, m.group(1)[:50])
+           for f, t in pages.items()
+           for m in re.finditer(r"\n\n {1,3}([A-Za-z].*)", body_of(t))])
+
     check("the campaign is not called by its old name",
           ["%s  %s" % (f, m.group(0))
            for f, t in pages.items()

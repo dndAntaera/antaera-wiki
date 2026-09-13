@@ -17,29 +17,29 @@ title: "Disclaimer & Legal Information"
 Welcome to Antæra, an immersive Dungeons & Dragons experience. Before embarking on this epic journey, we want to ensure that all players are aware of the themes and content that may arise during the course of the campaign. Please read the following disclaimer carefully:
 
 1. **Death and Dismemberment:**<br>
-   The campaign may include vivid descriptions of battles, injuries, and death. Players should be prepared for intense combat scenarios that may involve the demise of characters and NPCs, as well as descriptions of dismemberment and gore.
+    The campaign may include vivid descriptions of battles, injuries, and death. Players should be prepared for intense combat scenarios that may involve the demise of characters and NPCs, as well as descriptions of dismemberment and gore.
 
 2. **Horror Elements:**<br>
-   Campaigns taking place in the setting of Antæra may explore horror themes, including atmospheric tension, supernatural occurrences, and frightening creatures. Players should be ready for moments that may induce fear or suspense.
+    Campaigns taking place in the setting of Antæra may explore horror themes, including atmospheric tension, supernatural occurrences, and frightening creatures. Players should be ready for moments that may induce fear or suspense.
 
 3. **Strong Language:**<br>
-   The campaign may include the use of strong language, including but not limited to profanity and mature dialogue. Participants should be comfortable with the inclusion of such language in the narrative.
+    The campaign may include the use of strong language, including but not limited to profanity and mature dialogue. Participants should be comfortable with the inclusion of such language in the narrative.
 
 4. **Lightly Suggestive Themes:**<br>
-   Some situations within the campaign may contain lightly suggestive or romantic elements. These moments will be handled with respect and discretion, but players should be aware that such themes may arise.
+    Some situations within the campaign may contain lightly suggestive or romantic elements. These moments will be handled with respect and discretion, but players should be aware that such themes may arise.
 
 5. **Trigger Warning:**<br>
-   Campaigns taking place in the setting of Antæra may touch upon themes that could be triggering to certain individuals. This includes but is not limited to violence, trauma, and sensitive topics. Players are encouraged to communicate with the Dungeon Master if they have specific concerns or boundaries.
+    Campaigns taking place in the setting of Antæra may touch upon themes that could be triggering to certain individuals. This includes but is not limited to violence, trauma, and sensitive topics. Players are encouraged to communicate with the Dungeon Master if they have specific concerns or boundaries.
 
 6. **Player Discretion Advised:**<br>
-   The campaign is designed to provide a rich and dynamic storytelling experience. However, it may not be suitable for all audiences. Players are advised to use their discretion and assess their comfort level with the themes presented.
+    The campaign is designed to provide a rich and dynamic storytelling experience. However, it may not be suitable for all audiences. Players are advised to use their discretion and assess their comfort level with the themes presented.
 
 7. **Use of AI-Generated Artwork:**<br>
-   Artwork featured on the campaign’s wiki may be created using AI tools, and is used solely for visual representation and thematic support. All narrative content, worldbuilding, and lore are written entirely by the Dungeon Master/Author of the setting (or transcribed from sourcebooks in the case of mechanics). If any participant takes issue with the use of AI-generated art, they are welcome to contact the Dungeon Master directly to arrange and fund commissioned artwork to replace it. Doing so will be rewarded by being placed in a credits page (to be made when this happens) that will accredit the person who funded the commissions as well as the artists who perform the commission.
+    Artwork featured on the campaign’s wiki may be created using AI tools, and is used solely for visual representation and thematic support. All narrative content, worldbuilding, and lore are written entirely by the Dungeon Master/Author of the setting (or transcribed from sourcebooks in the case of mechanics). If any participant takes issue with the use of AI-generated art, they are welcome to contact the Dungeon Master directly to arrange and fund commissioned artwork to replace it. Doing so will be rewarded by being placed in a credits page (to be made when this happens) that will accredit the person who funded the commissions as well as the artists who perform the commission.
 
-   One exception to this is that all maps are made by the DM by hand using cartography software. Another exception is that some battle maps may have been purchased from outside map-makers.
+    One exception to this is that all maps are made by the DM by hand using cartography software. Another exception is that some battle maps may have been purchased from outside map-makers.
 
-   AI tools have also been used to audit and correct the code used in the creation of the wiki itself.
+    AI tools have also been used to audit and correct the code used in the creation of the wiki itself.
 
 By participating in campaigns taking place in the setting of Antæra, you acknowledge that you have read and understood this disclaimer. If you have any concerns or questions about the content, please feel free to discuss them with the Dungeon Master. Our goal is to create an enjoyable and inclusive experience for all players.
 

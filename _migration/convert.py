@@ -49,6 +49,38 @@ TEMPLATE_ONLY = {
     "wm-taint-exaltation",
 }
 
+# The disclaimer, as the author last wrote it. Each numbered point is a list
+# item: its name on the first line, what it means under it.
+DISCLAIMER = """\
+Welcome to Antæra, an immersive Dungeons & Dragons experience. Before embarking on this epic journey, we want to ensure that all players are aware of the themes and content that may arise during the course of the campaign. Please read the following disclaimer carefully:
+
+1. **Death and Dismemberment:**<br>
+   The campaign may include vivid descriptions of battles, injuries, and death. Players should be prepared for intense combat scenarios that may involve the demise of characters and NPCs, as well as descriptions of dismemberment and gore.
+
+2. **Horror Elements:**<br>
+   Campaigns taking place in the setting of Antæra may explore horror themes, including atmospheric tension, supernatural occurrences, and frightening creatures. Players should be ready for moments that may induce fear or suspense.
+
+3. **Strong Language:**<br>
+   The campaign may include the use of strong language, including but not limited to profanity and mature dialogue. Participants should be comfortable with the inclusion of such language in the narrative.
+
+4. **Lightly Suggestive Themes:**<br>
+   Some situations within the campaign may contain lightly suggestive or romantic elements. These moments will be handled with respect and discretion, but players should be aware that such themes may arise.
+
+5. **Trigger Warning:**<br>
+   Campaigns taking place in the setting of Antæra may touch upon themes that could be triggering to certain individuals. This includes but is not limited to violence, trauma, and sensitive topics. Players are encouraged to communicate with the Dungeon Master if they have specific concerns or boundaries.
+
+6. **Player Discretion Advised:**<br>
+   The campaign is designed to provide a rich and dynamic storytelling experience. However, it may not be suitable for all audiences. Players are advised to use their discretion and assess their comfort level with the themes presented.
+
+7. **Use of AI-Generated Artwork:**<br>
+   Artwork featured on the campaign’s wiki may be created using AI tools, and is used solely for visual representation and thematic support. All narrative content, worldbuilding, and lore are written entirely by the Dungeon Master/Author of the setting (or transcribed from sourcebooks in the case of mechanics). If any participant takes issue with the use of AI-generated art, they are welcome to contact the Dungeon Master directly to arrange and fund commissioned artwork to replace it. Doing so will be rewarded by being placed in a credits page (to be made when this happens) that will accredit the person who funded the commissions as well as the artists who perform the commission.
+
+   One exception to this is that all maps are made by the DM by hand using cartography software. Another exception is that some battle maps may have been purchased from outside map-makers.
+
+By participating in campaigns taking place in the setting of Antæra, you acknowledge that you have read and understood this disclaimer. If you have any concerns or questions about the content, please feel free to discuss them with the Dungeon Master. Our goal is to create an enjoyable and inclusive experience for all players.
+
+Embark on your adventure with caution and courage, and may the dice be ever in your favor."""
+
 # Corrections to a page made since the import, as exact replacements applied to
 # the finished page. A rewrite replaces a section and a recard rebuilds a card;
 # this is for the smaller thing, a line or a word, where naming the surrounding
@@ -124,13 +156,12 @@ EDITS = {
          "a nightmarish realm occupying its own layer of the Abyss, where monstrous creatures are bred"),
     ],
     # The first card on the legal page is the disclaimer proper, and says so,
-    # now that two more cards sit under it. And taking part is taking part in a
-    # campaign, not in a title.
+    # now that two more cards sit under it. Its wording is the author's current
+    # one, DISCLAIMER, which replaces the imported text from its first word to
+    # its last.
     "disclaimer": [
-        (None, "\n\nWelcome to Legends of Antæra",
-         "\n\n# Disclaimer\n\nWelcome to Legends of Antæra"),
-        (None, "By participating in Legends of Antæra",
-         "By participating in a campaign based in Antæra"),
+        (None, re.compile(r"Welcome to Legends of Antæra.*?may the dice be ever in your favor\.", re.S),
+         "# Disclaimer\n\n" + DISCLAIMER),
     ],
     # The main page's closing line is gone. Its author's note is in every
     # page's footnote now, and the rest of it - that the wiki is homebrew and
@@ -2161,6 +2192,13 @@ def apply_edits(slug, text):
             level = len(after) - len(after.lstrip("#"))
             nxt = re.compile(r"^#{1,%d}[ \t]" % level, re.M).search(text, lo + len(after))
             hi = nxt.start() if nxt else len(text)
+        if hasattr(old, "finditer"):
+            found = list(old.finditer(text, lo, hi))
+            if len(found) != 1:
+                TODO.append((slug, "edit %r matched %d times" % (old.pattern[:30], len(found))))
+                continue
+            text = text[:found[0].start()] + new + text[found[0].end():]
+            continue
         n = text.count(old, lo, hi)
         if n != 1:
             TODO.append((slug, "edit %r matched %d times" % (old[:30], n)))

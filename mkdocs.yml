@@ -5,8 +5,10 @@ site_url: https://dndantaera.github.io/antaera-wiki/
 theme:
   name: material
   language: en
-  icon:
-    logo: material/book-open-page-variant
+  # The logo on its white disc: the header is the same purple as the flames,
+  # and the disc keeps them from disappearing into it.
+  logo: assets/brand/logo.png
+  favicon: assets/brand/favicon.png
   features:
     - navigation.instant
     - navigation.tracking
@@ -50,6 +52,7 @@ hooks:
   - hooks/footnote.py
   - hooks/tablenotes.py
   - hooks/cachebust.py
+  - hooks/icons.py
 
 plugins:
   - search
@@ -98,3 +101,4 @@ nav:
   - Antæran Calendar: calendar.md
   - Spelljamming: spelljamming/main.md
   - "Disclaimer & Legal": disclaimer-legal.md
+  - Sheets Tracker: https://dndantaera.github.io/sheets/

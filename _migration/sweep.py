@@ -473,6 +473,24 @@ def main():
     print("\nBUILD")
     check("the site has been built", []
           if os.path.isdir(SITE) else ["site/ is missing - run mkdocs build"])
+    # The wiki's icons, on every page. The header and the phone menu's title
+    # bar are the same purple as the logo's flames, so the logo there is the
+    # one on its white disc; the transparent one would lose its flames.
+    brand = os.path.join(DOCS, "assets", "brand")
+    bad = ["%s is missing" % n for n in ("logo.png", "favicon.png", "apple-touch-icon.png")
+           if not os.path.isfile(os.path.join(brand, n))]
+    for f in sorted(glob.glob(os.path.join(SITE, "**", "index.html"), recursive=True)):
+        h = io.open(f, encoding="utf-8").read()
+        rel = f.replace(chr(92), "/")
+        if not re.search(r'<link rel="icon" href="[^"]*assets/brand/favicon\.png"', h):
+            bad.append("%s  has no tab icon" % rel)
+        if not re.search(r'<link rel="apple-touch-icon" href="[^"]*assets/brand/apple-touch-icon\.png"', h):
+            bad.append("%s  has no home-screen icon" % rel)
+        logos = re.findall(r'md-logo"[^>]*>\s*<img src="([^"]*)"', h)
+        if not logos or any(not l.endswith("assets/brand/logo.png") for l in logos):
+            bad.append("%s  header logo is not the disc logo: %s" % (rel, logos))
+    check("the wiki's icons and logo are in place", bad)
+
     check("every sidebar entry has a page",
           [m.group(1) for m in re.finditer(r"^\s+- .*: (\S+\.md)\s*$", nav, re.M)
            if not os.path.exists(os.path.join(DOCS, m.group(1)))])

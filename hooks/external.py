@@ -2,7 +2,7 @@
 """Open the sidebar's links to other sites in a new tab.
 
 The sidebar is the wiki's own contents, so a link in it that leaves the wiki -
-the Sheets Tracker - opens beside it rather than in its place, and the page
+the Sheet Tracker 3.5e - opens beside it rather than in its place, and the page
 the reader was on is still there when they come back.
 """
 import re

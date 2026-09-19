@@ -491,6 +491,20 @@ def main():
             bad.append("%s  header logo is not the disc logo: %s" % (rel, logos))
     check("the wiki's icons and logo are in place", bad)
 
+    # A link preview on every page, and the sidebar's links to other sites
+    # opening in a tab of their own.
+    bad = [] if os.path.isfile(os.path.join(brand, "social.png")) else ["social.png is missing"]
+    for f in sorted(glob.glob(os.path.join(SITE, "**", "index.html"), recursive=True)):
+        h = io.open(f, encoding="utf-8").read()
+        rel = f.replace(chr(92), "/")
+        for tag in ("og:title", "og:url", "og:image", "twitter:card"):
+            if h.count('"%s"' % tag) != 1:
+                bad.append("%s  has %d %s tags" % (rel, h.count('"%s"' % tag), tag))
+        for m in re.finditer(r'<a href="https?://[^"]+" class="md-nav__link"[^>]*>', h):
+            if 'target="_blank"' not in m.group(0) or "noopener" not in m.group(0):
+                bad.append("%s  %s opens in the same tab" % (rel, m.group(0)[:60]))
+    check("every page has a link preview; sidebar links out open a new tab", bad)
+
     check("every sidebar entry has a page",
           [m.group(1) for m in re.finditer(r"^\s+- .*: (\S+\.md)\s*$", nav, re.M)
            if not os.path.exists(os.path.join(DOCS, m.group(1)))])

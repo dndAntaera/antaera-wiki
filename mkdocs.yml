@@ -53,6 +53,8 @@ hooks:
   - hooks/tablenotes.py
   - hooks/cachebust.py
   - hooks/icons.py
+  - hooks/social.py
+  - hooks/external.py
 
 plugins:
   - search

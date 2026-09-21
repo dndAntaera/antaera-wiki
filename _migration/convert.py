@@ -347,14 +347,6 @@ Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
 System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
 
-Unearthed Arcana Copyright 2004, Wizards of the Coast, Inc.; Andy Collins, Jesse Decker, David Noonan, Rich Redman.
-
-The Expanded Psionics Handbook Copyright 2004, Wizards of the Coast, Inc.; Author Bruce R. Cordell.
-
-SRD 3.5 XML and MySQL database by Andargor <andargor@yahoo.com> (c) 2004-2005.
-
-SRD 3.5 SQLite conversion by highmage <highmage@digital-arcanist.com>.
-
 END OF LICENSE"""
 
 # Cards that are quoted, not written: house style does not touch them. It put

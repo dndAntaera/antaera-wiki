@@ -167,14 +167,16 @@ Like any storm, the tempest of the Dreamheart has an eye. If there is any mind, 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # Spells in the Dreamscape
 Due to the unpredictable nature of nightmare realms and dreams, any spells or spell-like abilities used therein might not work normally. The more complex the spell, the greater the chance it will go wrong. Each time a character casts a spell, roll 1d20+the spell level. If the result is 21 or over, the spell is twisted by the mutable nature of the nightmare realm. Roll 1d20 again and consult the following table to determine the impact on the spell.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
 
 | d20 | Result |
 |---|---|
@@ -190,7 +192,7 @@ Due to the unpredictable nature of nightmare realms and dreams, any spells or sp
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 935px" markdown>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
 # New Skill: Lucid Dreaming (Wis; Trained Only)
@@ -207,7 +209,9 @@ Use this skill to realize that you are dreaming, consciously direct elements of 
 **Retry**: You can make a Lucid Dreaming check once per round.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
 
 | Task | DC |
 |---|---|

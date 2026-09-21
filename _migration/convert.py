@@ -347,6 +347,14 @@ Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
 System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
 
+Unearthed Arcana Copyright 2004, Wizards of the Coast, Inc.; Andy Collins, Jesse Decker, David Noonan, Rich Redman.
+
+The Expanded Psionics Handbook Copyright 2004, Wizards of the Coast, Inc.; Author Bruce R. Cordell.
+
+SRD 3.5 XML and MySQL database by Andargor <andargor@yahoo.com> (c) 2004-2005.
+
+SRD 3.5 SQLite conversion by highmage <highmage@digital-arcanist.com>.
+
 END OF LICENSE"""
 
 # Cards that are quoted, not written: house style does not touch them. It put
@@ -1327,6 +1335,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = house_style(s)
     s = heading_levels(s)
     s = table_notes(s)
+    s = aside_tables(s)
     # One race, two names. "Mercane" is the name in use - the passage device is
     # "a creation of the Mercane" and the planetary locator comes with "a
     # Mercane hull" - while sixteen other mentions still said "Arcane", one of
@@ -1360,6 +1369,149 @@ def convert(src, slug, img_by_url, tables, linkmap):
 # The stat lines need explicit breaks. Wikidot renders a single newline inside
 # a paragraph as <br> and Markdown does not, so every stat block on the site
 # was running together into one paragraph of prose.
+
+# ---------------------------------------------------------------------------
+# Tables in sidebars
+#
+# A sidebar is a quarter of the row, about 230px once the card's padding is
+# off it. Most tables want more than that: the six that sat in a sidebar
+# wanted between 238 and 594px, so every one of them was either crushed into
+# two words a line or left to scroll sideways inside a column narrower than
+# the table's own first column.
+#
+# A table that does not fit the sidebar is taken out of it and given a card of
+# its own on the next line, at the full width of the row, with the caption and
+# footnotes that belong to it. A table that does fit stays where the author
+# put it.
+# ---------------------------------------------------------------------------
+
+# Measured on the rendered pages: sidebar tables set at 11.5px, where a
+# character averages about 6px, and each cell adds 29px of padding. The card
+# around the sidebar takes 1.1rem of padding off each side, and the gap
+# between cells is 1rem.
+ASIDE_CHAR_PX = 6.0
+ASIDE_CELL_PAD_PX = 29.0
+CARD_PAD_PX = 2 * 1.1 * 16
+ROW_GAP_PX = 16.0
+DEFAULT_ROW_PX = 52 * 16.0
+
+
+def _table_px(block):
+    """Roughly how wide a table wants to be, from the text in its columns."""
+    widest = {}
+    for line in block.split(chr(10)):
+        line = line.strip()
+        if not line.startswith("|") or set(line) <= set("|-: "):
+            continue
+        for i, cell in enumerate(line.strip("|").split("|")):
+            text = re.sub(r"[*`\\]|\[\[|\]\]|\([^)]*\)", "", cell).strip()
+            widest[i] = max(widest.get(i, 0), len(text))
+    if not widest:
+        return 0.0
+    return sum(n * ASIDE_CHAR_PX + ASIDE_CELL_PAD_PX for n in widest.values())
+
+
+def _blocks(text):
+    """A cell's content as blocks, a table carrying its caption and notes."""
+    out = []
+    for para in re.split(r"\n\s*\n", text.strip()):
+        note = para.strip().endswith("{: .wd-table-note }")
+        if out and note and out[-1].lstrip().startswith("|"):
+            out[-1] = out[-1] + "\n\n" + para
+        else:
+            out.append(para)
+    return out
+
+
+def _div_span(text, start):
+    """Where the div opening at `start` ends, divs counted rather than guessed."""
+    depth = 0
+    for m in re.finditer(r"<div\b|</div>", text[start:]):
+        depth += 1 if m.group(0)[1] != "/" else -1
+        if depth == 0:
+            return start + m.end()
+    return len(text)
+
+
+def aside_tables(s):
+    """Move a table out of a sidebar it does not fit, into its own card.
+
+    A spell card is left alone. Its tables are part of the stat block - the
+    duration a lingering aura runs for is one line of Detect Taint - and a
+    stat block with its tables printed somewhere else is no longer a stat
+    block.
+    """
+    edits, at = [], 0
+    for m in re.finditer(r'<div class="wd-row"[^>]*>', s):
+        if m.start() < at:
+            continue
+        end = _div_span(s, m.start())
+        row = s[m.start():end]
+        cols = re.search(r"--wd-cols:\s*([^;\"]+)", row)
+        if not cols:
+            continue
+        rw = re.search(r"--wd-rw:\s*[\d.]+px", row)
+        shares = [float(c.rstrip("fr")) for c in cols.group(1).split()]
+        total = sum(shares) or 1.0
+        width = float(re.search(r"[\d.]+", rw.group(0)).group(0)) if rw else DEFAULT_ROW_PX
+        inner = width - ROW_GAP_PX * (len(shares) - 1)
+
+        cells, i = [], 0
+        while True:
+            c = row.find('<div class="wd-cell', i)
+            if c < 0:
+                break
+            cells.append((c, _div_span(row, c)))
+            i = cells[-1][1]
+        if len(cells) != len(shares):
+            continue
+
+        moved, new_row, dropped = [], row, 0
+        for n, (a, b) in reversed(list(enumerate(cells))):
+            cell = row[a:b]
+            head = cell.split(chr(10), 1)[0]
+            # Every column of a split row is measured, not only the ones
+            # marked as an aside: a cell holding nothing but a table is given
+            # the plain class instead, and the narrow ones are sidebars all
+            # the same. A spell card is the exception, above.
+            if "wd-spell" in head:
+                continue
+            fits = inner * shares[n] / total - CARD_PAD_PX
+            body = cell[len(head) + 1:cell.rindex("</div>")]
+            blocks = _blocks(body)
+            keep = [b_ for b_ in blocks
+                    if not (b_.lstrip().startswith("|") and _table_px(b_) > fits)]
+            if len(keep) == len(blocks):
+                continue
+            moved = [b_ for b_ in blocks if b_ not in keep] + moved
+            if keep:
+                rebuilt = head + "\n\n" + "\n\n".join(keep) + "\n\n</div>\n"
+                new_row = new_row[:a] + rebuilt + new_row[b:]
+            else:
+                # Nothing left beside the table: the sidebar goes with it and
+                # the card it stood next to takes the whole row.
+                new_row = new_row[:a] + new_row[b:]
+                del shares[n]
+                dropped += 1
+        if not moved:
+            continue
+        if dropped:
+            new_row = re.sub(r"\s*--wd-cols:[^;\"]*;?", "", new_row, count=1)
+            new_row = new_row.replace(' style=" ', ' style="').replace(' style=""', "")
+            new_row = re.sub(r"\n{3,}(</div>)", r"\n\n\1", new_row)
+            # The row's closing tag follows the last cell's directly. The
+            # blank line where the removed cell stood is not content.
+            new_row = re.sub(r"</div>\s*</div>\s*$", "</div>\n</div>\n",
+                             new_row.rstrip() + "\n")
+        style = " " + rw.group(0).replace("--wd-rw:", 'style="--wd-rw:') + '"' if rw else ""
+        cards = "".join('<div class="wd-row"%s markdown>\n<div class="wd-cell" markdown>'
+                        "\n\n%s\n\n</div>\n</div>\n" % (style, t.strip()) for t in moved)
+        edits.append((m.start(), end, new_row.rstrip("\n") + "\n" + cards.rstrip("\n")))
+        at = end
+    for a, b, text in reversed(edits):
+        s = s[:a] + text + s[b:]
+    return s
+
 # ---------------------------------------------------------------------------
 
 SPELL_HEAD = re.compile(r"^(?:(#{2,4})\s+(.+)|\*\*([^*]+)\*\*)\s*$")

@@ -127,7 +127,7 @@ Each round, you can turn to detect things in a new area. The spell can penetrate
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Cleansing Taint
@@ -166,7 +166,9 @@ As the crystal absorbs taint, it darkens, becomes brittle, and gradually dissolv
 Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The item the crystal is being put into will determine which craft skill will be used.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 | Items Possessed | Points Absorbed |
 |---|---|
@@ -187,6 +189,11 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 *Multiple Items*
 {: .wd-table-note }
 
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 | Purity | Absorption | Craft DC | Craft Cost | Market Price |
 |---|---|---|---|---|
 | Least | 3 | 20 | 50gp | 150gp |
@@ -198,7 +205,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Effects of Taint
@@ -225,7 +232,9 @@ As terrible as the effects of taint are upon the living, they are even worse upo
 To determine the exact nature of a character's physical or mental taint symptoms, roll 1d10 and look up the result on the accompanying Corruption Effects and Depravity Effects tables. If the character later gains more taint and crosses the threshold into a higher level (mild to moderate or moderate to severe), he gains the next symptom to the right on the table. For example, if Regdar's mild level of corruption is expressed as the mild physical symptom "feet curl," then if their corruption score rises to moderate, he will also manifest the symptom "joint pain."
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 | Con/Wis Score | No Taint | Mild Taint | Moderate Taint | Severe Taint | Dead/Insane |
 |---|---|---|---|---|---|
@@ -241,6 +250,11 @@ To determine the exact nature of a character's physical or mental taint symptoms
 
 *Taint Threshold*
 {: .wd-table-note }
+
+</div>
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 | HD Before Death | Transforms Into |
 |---|---|
@@ -304,6 +318,12 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 *Corruption Effects*
 
+</div>
+
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
+
 | d10 | Mild | Moderate | Severe |
 |---|---|---|---|
 | 1 | Dead eye | Lips shrink | Lich eyes |
@@ -365,6 +385,12 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 <div class="wd-cell wd-plain" markdown>
 
 *Depravity Effects*
+
+</div>
+
+</div>
+<div class="wd-row" markdown>
+<div class="wd-cell" markdown>
 
 | d10 | Mild | Moderate | Severe |
 |---|---|---|---|

@@ -118,7 +118,7 @@ Crystals that are crushed into a fine powder produce an effect that, when used a
 
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr; --wd-rw: 1262px" markdown>
+<div class="wd-row" style="--wd-rw: 1262px" markdown>
 <div class="wd-cell" markdown>
 
 # Using Crystals
@@ -134,7 +134,9 @@ If a Planar Crystal sustains enough damage to destroy it, it destabilizes. When 
 Planar Crystals have a half-life based on their purity, with the least pure crystals having the shortest and greater having the longest. After the half-life expires, the effects of the crystals diminish and no longer affect creatures touching them. However, they must still be stabilized before they can be used for crafting. Half-lives are expressed in days based on the purity of the crystal: least (1d6+1 days), lesser (2d6+2 days), greater (3d6+3 days). Once a crystal's half-life has expired, merchants will be more willing to purchase them, though for a reduced cost (unless a fee is paid to stabilize them). If you correctly identity the size and purity of the crystal, you also determine the half-life of the crystal.
 
 </div>
-<div class="wd-cell wd-aside" markdown>
+</div>
+<div class="wd-row" style="--wd-rw: 1262px" markdown>
+<div class="wd-cell" markdown>
 
 | Related Skill | Task | DC |
 |---|---|---|
@@ -161,6 +163,11 @@ Planar Crystals have a half-life based on their purity, with the least pure crys
 
 *New skill uses*
 {: .wd-table-note }
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 1262px" markdown>
+<div class="wd-cell" markdown>
 
 | 5 or more ranks in… | gives a +2 bonus on… |
 |---|---|

@@ -158,6 +158,41 @@ def main():
                 bad.append("%s -> %s" % (f, m.group(1)))
     check("every image file exists", bad)
 
+    # A table in a narrow column of a split row. The converter moves one that
+    # does not fit into a card of its own on the next line (aside_tables);
+    # this says so if one is left behind. A spell card keeps its tables: they
+    # are lines of the stat block, not a table beside it.
+    sys.path.insert(0, "_migration")
+    import convert
+    bad = []
+    for f, t in pages.items():
+        for rm in re.finditer(r'<div class="wd-row"[^>]*>', t):
+            row = t[rm.start():convert._div_span(t, rm.start())]
+            cols = re.search(r'--wd-cols:\s*([^;"]+)', row)
+            if not cols:
+                continue
+            shares = [float(c.rstrip("fr")) for c in cols.group(1).split()]
+            total = sum(shares) or 1.0
+            rw = re.search(r"--wd-rw:\s*([\d.]+)px", row)
+            width = float(rw.group(1)) if rw else convert.DEFAULT_ROW_PX
+            inner = width - convert.ROW_GAP_PX * (len(shares) - 1)
+            i, n = 0, 0
+            while n < len(shares):
+                c = row.find('<div class="wd-cell', i)
+                if c < 0:
+                    break
+                e = convert._div_span(row, c)
+                cell, i, n = row[c:e], e, n + 1
+                if "wd-spell" in cell.split(chr(10), 1)[0]:
+                    continue
+                fits = inner * shares[n - 1] / total - convert.CARD_PAD_PX
+                for block in convert._blocks(cell):
+                    if block.lstrip().startswith("|") and convert._table_px(block) > fits:
+                        head = block.split(chr(10), 1)[0][:50]
+                        bad.append("%s  %s  wants %dpx in %dpx"
+                                   % (f, head, convert._table_px(block), fits))
+    check("no table is squeezed into a sidebar", bad)
+
     used = {os.path.basename(m.group(1))
             for t in pages.values()
             for m in re.finditer(r"!\[[^\]]*\]\(([^)]+)\)", t)}

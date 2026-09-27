@@ -52,22 +52,27 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: NG
     - Portfolio: Life, Nature, Light
     - Symbol: Oak tree
+    - Favored Weapon: Quarterstaff
 - [Primus](pantheon/deity-primus.md), God of Order
     - Alignment: LN
     - Portfolio: Order, Law, Pacts
     - Symbol: Closed gauntlet with infinity symbol embedded
+    - Favored Weapon: warhammer
 - [Terrus](pantheon/deity-terrus.md), God of Chaos
     - Alignment: CN
     - Portfolio: Chaos, Change, Elementals
     - Symbol: Open gauntlet with a star behind it
+    - Favored Weapon: Morningstar
 - [Helus](pantheon/deity-helus.md), God of Death
     - Alignment: NE
     - Portfolio: Death, Afterlife, Darkness
     - Symbol: Blindfolded skull
+    - Favored Weapon: Scythe
 - [Cosmus](pantheon/deity-cosmus.md), God of Magic
     - Alignment: N
     - Portfolio: Knowledge, Magic, Balance
     - Symbol: Star in front of a book
+    - Favored Weapon: Quarterstaff
 
 ## Intermediate Deities (Elemental Lords & Ladies)
 
@@ -75,18 +80,22 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: CN
     - Portfolio: Water, Freedom, Change, Intuition
     - Symbol: A silver wave coiled around a pearl
+    - Favored Weapon: Trident
 - [Aezhera](pantheon/deity-aezhera.md), Lady of Air
     - Alignment: CG
     - Portfolio: Freedom, Air, Sky, Mercy
     - Symbol: A spiral of clouds coiled around a silver feather
+    - Favored Weapon: Scimitar
 - [Kharzhalek](pantheon/deity-kharzhalek.md), Lord of Earth
     - Alignment: NE
     - Portfolio: Earth, Wealth, Psionics, Tyranny
     - Symbol: A jagged obsidian crown atop a crumbling stone pillar
+    - Favored Weapon: Heavy pick
 - [Ignaraxis](pantheon/deity-ignaraxis.md), Lord of Fire
     - Alignment: LE
     - Portfolio: Fire, Destruction, Rebirth
     - Symbol: A blazing flame consuming a crowned skull
+    - Favored Weapon: Scimitar
 
 ## Lesser Deities (Elemental Heralds)
 
@@ -94,46 +103,57 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: CG
     - Portfolio: Storms, Lightning, Courage, Freedom
     - Symbol: A jagged bolt cleaving a raincloud
+    - Favored Weapon: Cutlass
 - [Jinzai](pantheon/deity-jinzai.md), Herald of Steam
     - Alignment: NG
     - Portfolio: Steam, Endurance, Primates, Renewal, Hospitality
     - Symbol: Coiling plume rising from a calm pool
+    - Favored Weapon: Quarterstaff
 - [Khurash](pantheon/deity-khurash.md), Herald of Smoke
     - Alignment: N
     - Portfolio: Smoke, Breath, Transition, Obscurity
     - Symbol: Coiling spiral of ash over smoldering embers
+    - Favored Weapon: Scimitar
 - [Malzark](pantheon/deity-malzark.md), Herald of Magma
     - Alignment: NE
     - Portfolio: Magma, destruction, subterranean conquest, volcanic wrath
     - Symbol: Black iron gauntlet grasping a molten core
+    - Favored Weapon: Warhammer
 - [Seralyne](pantheon/deity-seralyne.md), Herald of Radiance
     - Alignment: LG
     - Portfolio: Radiance, Zeal, Crusades, Purity, Sunlight
     - Symbol: Burning sun framed by silver wings
+    - Favored Weapon: Scimitar
 - [Tharuun](pantheon/deity-tharuun.md), Herald of Gems
     - Alignment: NG
     - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
     - Symbol: Pickaxe crossed with a radiant crystal
+    - Favored Weapon: Warpick
 - [Vrog'thul](pantheon/deity-vrog-thul.md), Herald of Ooze
     - Alignment: CE
     - Portfolio: Ooze, Corruption, Filth, Hunger
     - Symbol: A dribbling, open eye melting into slime
+    - Favored Weapon: Heavy flail
 - [Tenakhaal](pantheon/deity-tenakhaal.md), Herald of Salt
     - Alignment: NE
     - Portfolio: Salt, hatred, dehydration, vengeance, suffering
     - Symbol: A cracked seashell leaking dry grains
+    - Favored Weapon: Trident
 - [Vaeltharion](pantheon/deity-vaeltharion.md), Herald of Dust
     - Alignment: NE
     - Portfolio: Death, Preservation, Funerary Rites, Hospitality
     - Symbol: A hooded lantern with a dim, ember-like glow
+    - Favored Weapon: Oar-staff
 - [Nihil](pantheon/deity-nihil.md), Herald of Void
     - Alignment: N
     - Portfolio: Emptiness, entropy, silence, cosmic erasure
     - Symbol: A black circle surrounded by fading stars
+    - Favored Weapon: Void-touched scythe
 - [Pyrius](pantheon/deity-pyrius.md)
     - Alignment: CE
     - Portfolio: Entropy, decay, dying worlds, extinction, finality
     - Symbol: A dark spiral ring devouring light at its center
+    - Favored Weapon: Scythe
 
 </div>
 </div>
@@ -149,38 +169,47 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: LG
     - Portfolio: Justice, light, radiance, judgment
     - Symbol: A radiant sun, its rays extending outward in a circular pattern
+    - Favored Weapon: Guisarme
 - [Thrain Stoneheart](pantheon/mortal-thrain.md), the Tranquil Forgemaster
     - Alignment: NG
     - Portfolio: Peace, unity, craft, community
     - Symbol: A stylized anvil with a hammer crossed over it
+    - Favored Weapon: Warhammer
 - [Leonus Ironmane](pantheon/mortal-leonis.md), the Stalwart Guardian
     - Alignment: CG
     - Portfolio: Valor, war, protection, courage
     - Symbol: A roaring lion's head surrounded by justice scales and a crossed sword and shield
+    - Favored Weapon: Heavy Mace
 - [Tome](pantheon/mortal-tome.md), Keeper of the Celestial Library
     - Alignment: LN
     - Portfolio: Knowledge, wisdom, memory, truth
     - Symbol: An intricate celestial sigil with cosmic runes swirling around it
+    - Favored Weapon: Quarterstaff
 - [Sol](pantheon/mortal-sol.md), the Eternal Equilibrium
     - Alignment: N
     - Portfolio: Balance, pacts, cycles, order
     - Symbol: A set of scales held by a draconic hand
+    - Favored Weapon: Claw
 - [Selene](pantheon/mortal-selene.md), the Nightweaver
     - Alignment: CN
     - Portfolio: Secrets, shadows, night, illusion
     - Symbol: A crescent moon intertwined with intricate elven glyphs
+    - Favored Weapon: Sickle
 - [Mordac](pantheon/mortal-mordac.md), the Arbiter of Tyranny
     - Alignment: LE
     - Portfolio: Corruption, death, domination, oppression
     - Symbol: A twisted serpent entwined around a scepter
+    - Favored Weapon: Greathammer
 - [Vortressa](pantheon/mortal-vortressa.md), the Mother of Monsters
     - Alignment: NE
     - Portfolio: Monsters, dark desires, mutation, hunger
     - Symbol: A corrupted Druidic glyph intertwined with monstrous teeth
+    - Favored Weapon: Claw/Bite
 - [Zarakth](pantheon/mortal-zarakth.md), the Abyssal Scourge
     - Alignment: CE
     - Portfolio: Destruction, murder, chaos, ruin
     - Symbol: A blood-red vortex swirling around a jagged, shattered blade
+    - Favored Weapon: Heavy Mace
 
 ## Intermediate Deities (The Paragons)
 
@@ -196,6 +225,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: CG
     - Portfolio: Smallfolk, artifice, ingenuity, resilience
     - Symbol: A crystal radiating astral light
+    - Favored Weapon: Gnome Hooked Hammer
 - [Leshrac](deity/leshrac.md), Lord of the Undead
     - Alignment: LE
     - Portfolio: Undead, cruelty, control, decay
@@ -204,6 +234,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: LE
     - Portfolio: Humans, conquest, dominion, authority
     - Symbol: A featureless humanoid face with a spiked crown
+    - Favored Weapon: Greatsword
 - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
     - Alignment: NE
     - Portfolio: Scalykind, poison, venom, instinct
@@ -227,6 +258,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: N
     - Portfolio: Secrets, forgotten knowledge, paradox, obscurity
     - Symbol: A closed eye within a spiraling void
+    - Favored Weapon: Flail
 - [Droma](deity/droma.md), God of Craftsmen
     - Alignment: LN
     - Portfolio: Craftsmanship, creation, labor, invention
@@ -243,6 +275,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: CG
     - Portfolio: Travel, oceans, winds, safe passage
     - Symbol: A compass encircled by waves and meandering paths
+    - Favored Weapon: Cutlass
 - [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
     - Alignment: LE
     - Portfolio: Tyranny, contracts, domination, devils
@@ -251,6 +284,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: N
     - Portfolio: Warforged, creation, guardianship, memory
     - Symbol: A cog wheel bearing the four elemental symbols at its center
+    - Favored Weapon: Warhammer
 
 </div>
 </div>
@@ -344,6 +378,7 @@ Due to their unique source of divinity, these deities possess no ability to gran
     - Alignment: CN
     - Portfolio: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
     - Symbol: A stag's head with wide antlers adorned with runes of fey magic
+    - Favored Weapon: Longbow
 
 - Calithra Starloom, the Living Tapestry
     - Alignment: NG

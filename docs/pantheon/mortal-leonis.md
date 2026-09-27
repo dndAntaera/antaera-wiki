@@ -22,7 +22,7 @@ title: "Leonus Ironmane, the Stalwart Guardian"
 - **Worshipers**: Warriors, druids
 - **Cleric Alignments**: CG, CN, NG
 - **Domains**: Competition, Courage, Good, Protection
-- **Favored Weapon**: Mace
+- **Favored Weapon**: Heavy Mace
 
 **Origins**
 Leonus Ironmane, born in the heart of the Greater Ironpine Forest, was a guardian of the wild from his earliest days. The Ironpine Forest, known for its mystical and ancient qualities, shaped Leonus into a creature of unparalleled strength and noble character. As he roamed the vast woodlands, he witnessed both the beauty and brutality of the natural world.

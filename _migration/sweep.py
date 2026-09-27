@@ -407,6 +407,28 @@ def main():
                 bad.append("%s  a sidebar with no picture" % f)
     check("every god's page follows Format A", bad)
 
+    # The Pantheons lists the weapon beside the alignment, portfolio and
+    # symbol, and takes it from the god's own page - finish_site() writes it
+    # there. A god listed without one, or with a different one, has drifted.
+    pan = pages.get("docs/pantheons.md", "")
+    bad = []
+    for m in re.finditer(r"^- \[(?P<name>[^\]]+)\]\((?P<href>[^)]+)\)(?P<rest>.*)$",
+                         body_of(pan), re.M):
+        page = pages.get("docs/" + m.group("href").split("#")[0])
+        if page is None:
+            continue
+        w = re.search(r"^- \*\*Favored Weapon\*\*: (.+)$", body_of(page), re.M)
+        if not w or w.group(1) == "\u2014":
+            continue
+        after = body_of(pan)[m.end():].split("\n- ")[0]
+        listed = re.search(r"^\s+- Favored Weapon: (.+)$", after, re.M)
+        if not listed:
+            bad.append("%s  is listed without a weapon" % m.group("name"))
+        elif listed.group(1).strip() != w.group(1).strip():
+            bad.append("%s  listed as %s, his page says %s"
+                       % (m.group("name"), listed.group(1), w.group(1)))
+    check("The Pantheons gives each god the weapon his page does", bad)
+
     # A god on The Pantheons is listed on a sphere under the rank and with the
     # alignment The Pantheons gives. The spheres are copied from it by hand,
     # and drifted: four gods under the wrong rank on Antaera, one under the

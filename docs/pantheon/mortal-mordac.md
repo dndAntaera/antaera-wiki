@@ -22,7 +22,7 @@ title: "Mordac, the Arbiter of Tyranny"
 - **Worshipers**: Manipulators, enforcers, devils
 - **Cleric Alignments**: LE, LN, NE
 - **Domains**: Domination, Evil, Law, Tyranny
-- **Favored Weapon**: Maul
+- **Favored Weapon**: Greathammer
 
 **Origins**
 Mordac ascended to the Pinnacle of the Infernal Hierarchy, born from the treacherous depths of the Hells. His rise to power was swift and calculated, as he outwitted and manipulated other devils to become the undisputed lord of deception and tyranny. Mordac thrives on the subjugation of others and the meticulous orchestration of deceit to secure his dominion.

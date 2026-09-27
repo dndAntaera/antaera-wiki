@@ -609,7 +609,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Valor, war, protection, courage",
         "Worshipers": "Warriors, druids",
         "Domains": "Competition, Courage, Good, Protection",
-        "Favored Weapon": "Mace",
+        "Favored Weapon": "Heavy Mace",
     },
     "mortal-tome": {
         "Symbol": "An intricate celestial sigil with cosmic runes swirling around it",
@@ -645,7 +645,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Corruption, death, domination, oppression",
         "Worshipers": "Manipulators, enforcers, devils",
         "Domains": "Domination, Evil, Law, Tyranny",
-        "Favored Weapon": "Maul",
+        "Favored Weapon": "Greathammer",
     },
     "mortal-vortressa": {
         "Symbol": "A corrupted Druidic glyph intertwined with monstrous teeth",
@@ -663,7 +663,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Destruction, murder, chaos, ruin",
         "Worshipers": "Demons, cultists, nihilistic warlords",
         "Domains": "Destruction, Evil, War, Wrath",
-        "Favored Weapon": "Mace",
+        "Favored Weapon": "Heavy Mace",
     },
     "orion": {
         "Symbol": "A crystal radiating astral light",
@@ -2148,6 +2148,7 @@ def finish_site():
                     fh.write(new)
 
     lines = ptext.split("\n")
+    weapons = []
     by_href = {g["href"]: g for g in gods.values() if g["href"]}
     for folder in ("deity", "pantheon"):
         for name in sorted(os.listdir(os.path.join(DOCS, folder))):
@@ -2174,6 +2175,24 @@ def finish_site():
                     if re.match(r"^\s+- Symbol:", lines[k]):
                         lines[k] = re.sub(r"^(\s+- Symbol:[ \t]*).*$",
                                           lambda m: m.group(1) + sym.group(1), lines[k])
+            weapon = re.search(r"^- \*\*Favored Weapon\*\*: (.+)$", new, re.M)
+            if weapon and weapon.group(1) != DEITY_TBD:
+                weapons.append((god["line"], weapon.group(1)))
+
+    # The weapon is written in last, after every god has been read: inserting
+    # a line as we go would move every entry below it and leave the line
+    # numbers pointing at the wrong gods.
+    for line_no, weapon in sorted(weapons, reverse=True):
+        k = line_no + 1
+        while k < len(lines) and re.match(r"^\s+- ", lines[k]):
+            if re.match(r"^\s+- Favored Weapon:", lines[k]):
+                lines[k] = re.sub(r"^(\s+- Favored Weapon:[ \t]*).*$",
+                                  lambda m: m.group(1) + weapon, lines[k])
+                break
+            k += 1
+        else:
+            lines.insert(k, "    - Favored Weapon: %s" % weapon)
+
     new = "\n".join(lines)
     if new != ptext:
         with open(ppath, "w", encoding="utf-8", newline="\n") as fh:

@@ -57,7 +57,7 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: LN
     - Portfolio: Order, Law, Pacts
     - Symbol: Closed gauntlet with infinity symbol embedded
-    - Favored Weapon: warhammer
+    - Favored Weapon: Warhammer
 - [Terrus](pantheon/deity-terrus.md), God of Chaos
     - Alignment: CN
     - Portfolio: Chaos, Change, Elementals
@@ -90,7 +90,7 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: NE
     - Portfolio: Earth, Wealth, Psionics, Tyranny
     - Symbol: A jagged obsidian crown atop a crumbling stone pillar
-    - Favored Weapon: Heavy pick
+    - Favored Weapon: Heavy Pick
 - [Ignaraxis](pantheon/deity-ignaraxis.md), Lord of Fire
     - Alignment: LE
     - Portfolio: Fire, Destruction, Rebirth
@@ -128,12 +128,12 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: NG
     - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
     - Symbol: Pickaxe crossed with a radiant crystal
-    - Favored Weapon: Warpick
+    - Favored Weapon: Heavy Pick
 - [Vrog'thul](pantheon/deity-vrog-thul.md), Herald of Ooze
     - Alignment: CE
     - Portfolio: Ooze, Corruption, Filth, Hunger
     - Symbol: A dribbling, open eye melting into slime
-    - Favored Weapon: Heavy flail
+    - Favored Weapon: Heavy Flail
 - [Tenakhaal](pantheon/deity-tenakhaal.md), Herald of Salt
     - Alignment: NE
     - Portfolio: Salt, hatred, dehydration, vengeance, suffering

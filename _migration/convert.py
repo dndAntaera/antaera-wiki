@@ -739,6 +739,46 @@ DEITY_HOME_SPHERE = {
     "mortal-zarakth": "Zarakth has no home sphere: he is extraplanar in origin.",
 }
 
+# The weapons as the 3.5 books name them. The pages were written with whatever
+# spelling came to hand - "warhammer", "Heavy pick", "Warpick" - and a weapon
+# should read the same on every page that names one. A weapon that is not in
+# the books, such as Nihil's void-touched scythe, is the setting's own and is
+# left as it was written.
+WEAPON_NAMES = {
+    "warhammer": "Warhammer",
+    "heavy flail": "Heavy Flail",
+    "light flail": "Light Flail",
+    "flail": "Flail",
+    "heavy pick": "Heavy Pick",
+    "light pick": "Light Pick",
+    "warpick": "Heavy Pick",
+    "war pick": "Heavy Pick",
+    "heavy mace": "Heavy Mace",
+    "light mace": "Light Mace",
+    "longbow": "Longbow",
+    "long bow": "Longbow",
+    "shortbow": "Shortbow",
+    "short bow": "Shortbow",
+    "gnome hooked hammer": "Gnome Hooked Hammer",
+    "gnomish hookhammer": "Gnome Hooked Hammer",
+    "quarterstaff": "Quarterstaff",
+    "morningstar": "Morningstar",
+    "greatsword": "Greatsword",
+    "scimitar": "Scimitar",
+    "scythe": "Scythe",
+    "sickle": "Sickle",
+    "trident": "Trident",
+    "guisarme": "Guisarme",
+    "cutlass": "Cutlass",
+    "greathammer": "Greathammer",
+}
+
+
+def weapon_name(text):
+    """A weapon under the name the rules give it, where they give one."""
+    return WEAPON_NAMES.get(text.strip().lower(), text.strip())
+
+
 # Sentences written for a page since the import, added to the end of a section.
 DEITY_APPEND = {
     "cervidur": {
@@ -2350,6 +2390,7 @@ def deity_format(body, title, slug):
     else:
         TODO.append((slug, "god's alignment %r not understood" % values["Alignment"]))
     values["Rank"] = DEITY_TBD
+    values["Favored Weapon"] = weapon_name(values["Favored Weapon"])
     facts = ["- **%s**: %s" % (f, values[f]) for f in DEITY_FIELDS]
 
     extras = [n for n in order if n not in DEITY_ORDER and n != "Home Sphere"]

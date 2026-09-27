@@ -22,7 +22,7 @@ title: "Primus, God of Order"
 - **Worshipers**: clerics, judges, monks, wizards
 - **Cleric Alignments**: LE, LG, LN
 - **Domains**: Law, Pact, Planning, Inquisition
-- **Favored Weapon**: warhammer
+- **Favored Weapon**: Warhammer
 
 **Origins**
 Primus did not emerge from any sphere or divine lineage. It was manifested by the will of reality itself, born of the need for structure and cosmic order in a chaotic multiverse.

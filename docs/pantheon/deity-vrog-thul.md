@@ -22,7 +22,7 @@ title: "Vrog’thul, Herald of Ooze"
 - **Worshipers**: Druids, sorcerers, warlocks, cultists
 - **Cleric Alignments**: CE, CN, NE
 - **Domains**: Chaos, Evil, Ooze, Slime
-- **Favored Weapon**: Heavy flail
+- **Favored Weapon**: Heavy Flail
 
 **Origins**
 Vrog’thul was once a Golothoma demon, a writhing mass spawned in the deepest filth-choked trenches of the Abyss. As its influence seeped through caverns, bogs, and forsaken sewers, mortals drawn to rot and entropy began to revere it. When enough offered prayers in bile and decay, the demon’s form ruptured, and from the mire rose a new deity—one born not from belief, but from infestation.

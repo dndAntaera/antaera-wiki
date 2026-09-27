@@ -22,7 +22,7 @@ title: "Kharzhalek, Lord of Earth"
 - **Worshipers**: Clerics, sorcerers, psions, miners, tyrants
 - **Cleric Alignments**: CE, LE, NE
 - **Domains**: Earth, Evil, Strength, Domination, Mentalism
-- **Favored Weapon**: Heavy pick
+- **Favored Weapon**: Heavy Pick
 
 **Origins**
 Kharzhalek began as a Duergar psion deep within the cavernous underrealms of Radicula, honing his mind amid stone and silence. In time, he rose to challenge the elemental hierarchy, wielding both psychic might and cunning ambition. When a rival deity shattered the former Lord of Earth, Kharzhalek seized the mantle. Cast into the Plane of Earth, he was buried under ages of pressure until he reemerged as something more than mortal—a Dao of unyielding will and mineral flesh.

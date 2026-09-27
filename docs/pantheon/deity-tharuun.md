@@ -22,7 +22,7 @@ title: "Tharuun, Herald of Gems"
 - **Worshipers**: Clerics, miners, dwarves, gemcarvers, gem mages, manifesters
 - **Cleric Alignments**: CG, LG, NG
 - **Domains**: Earth, Good, Protection, Strength
-- **Favored Weapon**: Warpick
+- **Favored Weapon**: Heavy Pick
 
 **Origins**
 From the moment he could walk, Tharuun felt the stones speak to him. Not in words, but in pressure, in pulse, in the shimmer of raw gem veins deep below the crust. Born with psionic gifts and a sense for the hidden treasures of the deep, he became more than a miner—he was a listener to stone, a seeker of the soul within crystal. It was beneath Cineris, in the Lapis Sphere, where he found it: a living lodestone, thrumming with thought. The bond was instant. The transformation, irreversible. As his mind merged with the presence in the stone, his mortal form began to crystallize—bone to gem, flesh to lattice, thought to resonance. He did not die. He became divine.

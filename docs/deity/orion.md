@@ -22,7 +22,7 @@ title: "Orion, Patron of Smallfolk"
 - **Worshipers**: Smallfolk clergy, community leaders, artisans
 - **Cleric Alignments**: CG, CN, NG
 - **Domains**: Gnome, Halfling, Dwarf, Protection
-- **Favored Weapon**: —
+- **Favored Weapon**: Gnomish Hookhammer
 
 **Origins**
 Orion began his existence not as a deity, but as a supermassive [planar crystal](../item/planar-crystal.md) located in the heart of Antæra. This crystal was no ordinary formation; it was deeply attuned to the energies and the very essence of the [Astral Plane](../plane/astral-plane.md). Over millennia, this crystal absorbed the surrounding cosmic forces, which led to a profound transformation. As the crystal absorbed more astral energy, it began to awaken, slowly developing a consciousness. This was a gradual process, where the crystal transitioned from an inanimate object into a sentient being. Its awareness of the cosmos and the planes grew, and with this awareness came an understanding of its place in the universe.
@@ -49,7 +49,7 @@ Orion's clergy are often smallfolk themselves, serving as guardians of knowledge
 Orion's primary rivalries are with deities who threaten the well-being and prosperity of the smallfolk. This includes deities of destruction and those who overlook or disdain the smaller races. He stands as a steadfast guardian against any forces that seek to disrupt the harmony and growth of his creations.
 
 **Home Sphere**
-Orion hails from the Antæra Sphere, having formed as a planar crystal in the heart of the prime world of Antæra.
+Orion hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having formed as a planar crystal in the heart of the prime world of Antæra.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

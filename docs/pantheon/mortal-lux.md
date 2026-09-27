@@ -22,7 +22,7 @@ title: "Lux Dawnbringer, the Luminous Sovereign"
 - **Worshipers**: Priests and priestesses of the light, healers
 - **Cleric Alignments**: LG, LN, NG
 - **Domains**: Glory, Healing, Purification, Sun
-- **Favored Weapon**: —
+- **Favored Weapon**: Guisarme
 
 **Origins**
 Lux Dawnbringer was born in the city of Sewich, a place known for its deep connection to the arcane arts and mystical energies. From a young age, Lux exhibited an innate affinity for light and a natural ability to harness its power. The people of Sewich, recognizing her divine potential, believed her to be a living conduit to the source of all light.
@@ -49,7 +49,7 @@ The clergy of Lux consists of priests and priestesses who serve as guides and gu
 Lux's unwavering commitment to light puts her in direct opposition to deities associated with darkness and malevolence. The goddess actively opposes those who seek to plunge the world into perpetual shadow, making her a natural adversary to dark entities and their followers.
 
 **Home Sphere**
-Lux hails from the Antæra Sphere, having been born in the city of Sewich on the prime world of Antæra.
+Lux hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having been born in the city of Sewich on the prime world of Antæra.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

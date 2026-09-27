@@ -22,7 +22,7 @@ title: "Mordac, the Arbiter of Tyranny"
 - **Worshipers**: Manipulators, enforcers, devils
 - **Cleric Alignments**: LE, LN, NE
 - **Domains**: Domination, Evil, Law, Tyranny
-- **Favored Weapon**: —
+- **Favored Weapon**: Maul
 
 **Origins**
 Mordac ascended to the Pinnacle of the Infernal Hierarchy, born from the treacherous depths of the Hells. His rise to power was swift and calculated, as he outwitted and manipulated other devils to become the undisputed lord of deception and tyranny. Mordac thrives on the subjugation of others and the meticulous orchestration of deceit to secure his dominion.
@@ -47,7 +47,7 @@ The clergy of Mordac includes master manipulators and ruthless enforcers who thr
 Mordac actively seeks to undermine other deities and their domains, particularly those who stand for freedom, justice, and chaos. His influence is felt as a calculating force, aiming to unravel the foundations of opposing belief systems.
 
 **Home Sphere**
-—
+Mordac hails from the [Malifortis Sphere](../spelljamming/sphere-malifortis.md).
 
 </div>
 <div class="wd-cell wd-aside" markdown>

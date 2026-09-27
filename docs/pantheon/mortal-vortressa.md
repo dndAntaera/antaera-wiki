@@ -22,7 +22,7 @@ title: "Vortressa, the Mother of Monsters"
 - **Worshipers**: Evil druids, warlocks
 - **Cleric Alignments**: CE, LE, NE
 - **Domains**: Evil, Hunger, Pestilence, Spider
-- **Favored Weapon**: —
+- **Favored Weapon**: Claw/Teeth
 
 **Origins**
 Vortressa emerged from the depths of the Abyssal Grove, a realm where natural and abyssal forces intertwine. Born as an Eladrin who embraced the powers of the Abyss, she swiftly ascended to become the revered matron of monsters. Vortressa's influence spreads like a shadow, shaping monstrous beings in the image of the twisted yearnings within. Her ascension involved the consumption of monstrous souls and spending centuries among the corruption of the Abyss, until her depravity and domination of monsters earned her the divinity she craved.
@@ -47,7 +47,7 @@ The clergy of Vortressa includes evil druids, warlocks, and those who seek to ha
 Vortressa opposes deities associated with pristine nature, purity, and the untouched Feywild. Her influence seeks to transform and corrupt the natural order, making her a foe to those who stand for the untainted beauty of the world.
 
 **Home Sphere**
-—
+Vortressa hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md).
 
 </div>
 <div class="wd-cell wd-aside" markdown>

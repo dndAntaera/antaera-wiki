@@ -22,7 +22,7 @@ title: "Tome, Keeper of the Celestial Library"
 - **Worshipers**: Scholars, sages, librarians
 - **Cleric Alignments**: LE, LG, LN
 - **Domains**: Knowledge, Magic, Rune, Spell
-- **Favored Weapon**: —
+- **Favored Weapon**: Quarterstaff
 
 **Origins**
 The origins of Tome are shrouded in mystery. Unlike other deities whose tales are woven into the fabric of creation, Tome's existence seems to transcend time and space. The celestial being appeared in the celestial realms without clear origin, sparking intrigue and curiosity among both mortal scholars and divine beings.
@@ -49,7 +49,7 @@ The clergy of Tome consists of scholars, sages, and librarians who dedicate thei
 Tome's mysterious origin has led to speculation and intrigue among other deities. Some view the celestial being suspiciously, wondering if their enigmatic nature hides darker motives. Despite this, Tome remains neutral, offering knowledge to those who seek it without favoritism.
 
 **Home Sphere**
-—
+Tome hails from the [Custodæ Sphere](../spelljamming/sphere-custodae.md).
 
 </div>
 <div class="wd-cell wd-aside" markdown>

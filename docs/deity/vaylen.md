@@ -22,7 +22,7 @@ title: "Vaylen, Patron of Sailors and Travelers"
 - **Worshipers**: Seafarers, explorers, messengers
 - **Cleric Alignments**: CG, CN, NG
 - **Domains**: Celerity, Liberation, Ocean, Travel
-- **Favored Weapon**: —
+- **Favored Weapon**: Cutlass
 
 **Origins**
 From the mysterious depths, Vaylen emerged as an aquatic elf consumed by an insatiable desire to discover what lay beyond the known. Her voyages across the realms, by sea and by land, transcended the tales of ordinary adventurers, elevating her to the status of a deity of guidance and exploration. She became a beacon for those who dared to dream of charting the uncharted, inspiring countless to follow the paths she blazed.
@@ -47,7 +47,7 @@ Vaylen's devout followers, ranging from seafarers and explorers to messengers an
 Vaylen, with her indomitable spirit, opposes forces that seek to curtail the freedoms of exploration and adventure. She stands as a guardian against those who threaten the essence of discovery, protecting the right of all souls to journey freely and fearlessly.
 
 **Home Sphere**
-—
+Vaylen hails from the [Inundatio Sphere](../spelljamming/sphere-inundatio.md).
 
 </div>
 <div class="wd-cell wd-aside" markdown>

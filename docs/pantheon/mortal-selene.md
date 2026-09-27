@@ -22,7 +22,7 @@ title: "Selene, the Nightweaver"
 - **Worshipers**: Moon priests, shadowcasters
 - **Cleric Alignments**: CE, CG, CN
 - **Domains**: Darkness, Moon, Mysticism, Shadow
-- **Favored Weapon**: —
+- **Favored Weapon**: Sickle
 
 **Origins**
 Selene Starwhisper was born in the Ethereal Enclave, a city existing on the Ethereal Plane and is the capital of ghost elven society. As a former priestess of the previous goddess of the night, she was gifted the title and role when the time was right. And she will do so for her favored priestess when it is time.
@@ -49,7 +49,7 @@ The clergy of Selene includes moon priests and shadowcasters who channel the mys
 Selene maintains a neutral stance, as the night itself encompasses both light and shadow. However, she opposes entities that seek to exploit secrets for malicious purposes or disturb the delicate balance between light and darkness.
 
 **Home Sphere**
-—
+Selene hails from the [Umbræ Sphere](../spelljamming/sphere-umbrae.md).
 
 </div>
 <div class="wd-cell wd-aside" markdown>

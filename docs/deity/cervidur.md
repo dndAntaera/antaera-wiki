@@ -22,7 +22,7 @@ title: "Cervidûr, Lord of the Hunt"
 - **Worshipers**: Druids, rangers, shamans, lycanthropes
 - **Cleric Alignments**: CE, CG, CN
 - **Domains**: —
-- **Favored Weapon**: —
+- **Favored Weapon**: Long Bow
 
 **Origins**
 Cervidûr is an ancient fey deity, born from the primal essence of the wilderness itself. As the Lord of the Hunt, he embodies the untamed spirit of the wild and the relentless pursuit of prey under the moonlit sky. Legends tell of how Cervidûr roams the forests and plains, leading the Wild Hunt—a spectral procession of fey hunters and beasts that chase across the night sky.
@@ -49,7 +49,7 @@ Cervidûr's clergy are often druids, rangers, and shamans who dwell in secluded 
 Cervidûr opposes deities who promote urbanization, industrialization, and the destruction of natural habitats. He stands as a protector of the balance and harmony of the natural world, challenging those who seek to exploit nature for profit or dominance.
 
 **Home Sphere**
-Cervidûr is native to the Sidhe Sphere, though the Moonlit Glade itself lies in the Feywild rather than anywhere within the sphere.
+Cervidûr is native to the [Sidhe Sphere](../spelljamming/sphere-sidhe.md), though the Moonlit Glade itself lies in the Feywild rather than anywhere within the sphere.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

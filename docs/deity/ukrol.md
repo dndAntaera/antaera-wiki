@@ -22,7 +22,7 @@ title: "Ukrol, Patron Deity of Humanity"
 - **Worshipers**: Charismatic leaders, conquerors, Imperial clergy
 - **Cleric Alignments**: LE, LN, NE
 - **Domains**: Domination, Hatred, Law, Tyranny
-- **Favored Weapon**: —
+- **Favored Weapon**: Greatsword
 
 **Origins**
 Ukrol's origins are shrouded in mystery, but legends speak of him as the first human, born from the depths of the Abyss itself. It is said that an Abyssal deity sought to create the perfect race of mortals, and Ukrol was the culmination of this divine experiment. Endowed with incredible strength, intelligence, and ambition, Ukrol quickly rose to prominence among his kind, leading them with unmatched fervor and determination.
@@ -51,7 +51,7 @@ Temples dedicated to Ukrol can be found in human settlements across Antæra, ser
 Ukrol's teachings and ambitions put him at odds with deities who champion the cause of equality and oppose human dominance. He views these deities as threats to his divine mandate and seeks to undermine their influence at every turn.
 
 **Home Sphere**
-—
+Ukrol hails from Realmspace, a sphere beyond the Known Spheres.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

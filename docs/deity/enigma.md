@@ -22,7 +22,7 @@ title: "Enigma, the Lost God"
 - **Worshipers**: Scholars, theologians, opportunists
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Luck
-- **Favored Weapon**: —
+- **Favored Weapon**: Flail
 
 **Origins**
 Shrouded in Mystery (speculations suggest he originated as a Sillit Nerra in the [Plane of Mirrors](../plane/plane-of-mirrors.md) due to his appearance)
@@ -40,7 +40,7 @@ Enigma wears a cloak woven from the essence of the cosmos, a shimmering garment 
 —
 
 **Home Sphere**
-—
+Enigma's home sphere is unknown, as is everything else about where he began.
 
 </div>
 </div>

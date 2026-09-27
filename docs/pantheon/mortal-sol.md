@@ -22,7 +22,7 @@ title: "Sol, the Eternal Equilibrium"
 - **Worshipers**: Dragon priests, scholars
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Balance, Dragon, Fate, Pact
-- **Favored Weapon**: —
+- **Favored Weapon**: Claw
 
 **Origins**
 Sol, the Eternal Equilibrium, emerged from the celestial realms beyond the stars at the dawn of creation. Unlike other dragons, Sol was not born of the physical world but was woven from the very fabric of cosmic energies. As the first of his kind, Sol's existence is intertwined with the fundamental forces that govern the multiverse.
@@ -51,7 +51,7 @@ The clergy of Sol includes dragon priests and scholars who study the cosmic forc
 Sol maintains a neutral stance, seeking to uphold balance rather than engaging in conflicts. However, entities that disrupt the cosmic harmony or threaten the delicate equilibrium draw the ire of Sol and his followers. The deity of balance is particularly watchful of those who would upset the natural order for personal gain.
 
 **Home Sphere**
-Sol is bound to the Gallamarketh Sphere, whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.
+Sol is bound to the [Gallamarketh Sphere](../spelljamming/sphere-gallamarketh.md), whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

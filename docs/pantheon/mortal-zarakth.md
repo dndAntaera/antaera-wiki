@@ -22,7 +22,7 @@ title: "Zarakth, the Abyssal Scourge"
 - **Worshipers**: Demons, cultists, nihilistic warlords
 - **Cleric Alignments**: CE, CN, NE
 - **Domains**: Destruction, Evil, War, Wrath
-- **Favored Weapon**: —
+- **Favored Weapon**: Mace
 
 **Origins**
 Zarakth emerged from the depths of the Abyss, a realm saturated with pure chaos and malice. Born from the malevolent energies that thrive in the heart of the Abyss, he swiftly ascended to become the feared lord of destruction and murder. Zarakth's influence spreads like a plague, fanning the flames of chaos and sowing the seeds of annihilation across the multiverse.
@@ -47,7 +47,7 @@ The cult of Zarakth consists of bloodthirsty demons, deranged cultists, and nihi
 Zarakth opposes deities and entities associated with order, creation, and the preservation of life. His influence seeks to tear down the fabric of existence, making him a sworn enemy to those who stand for stability, creation, and the balance of the cosmos.
 
 **Home Sphere**
-—
+Zarakth has no home sphere: he is extraplanar in origin.
 
 </div>
 </div>

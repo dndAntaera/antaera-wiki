@@ -591,6 +591,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Justice, light, radiance, judgment",
         "Worshipers": "Priests and priestesses of the light, healers",
         "Domains": "Glory, Healing, Purification, Sun",
+        "Favored Weapon": "Guisarme",
     },
     "mortal-thrain": {
         "Symbol": "A stylized anvil with a hammer crossed over it",
@@ -608,6 +609,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Valor, war, protection, courage",
         "Worshipers": "Warriors, druids",
         "Domains": "Competition, Courage, Good, Protection",
+        "Favored Weapon": "Mace",
     },
     "mortal-tome": {
         "Symbol": "An intricate celestial sigil with cosmic runes swirling around it",
@@ -616,6 +618,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Knowledge, wisdom, memory, truth",
         "Worshipers": "Scholars, sages, librarians",
         "Domains": "Knowledge, Magic, Rune, Spell",
+        "Favored Weapon": "Quarterstaff",
     },
     "mortal-sol": {
         "Symbol": "A set of scales held by a draconic hand",
@@ -624,6 +627,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Balance, pacts, cycles, order",
         "Worshipers": "Dragon priests, scholars",
         "Domains": "Balance, Dragon, Fate, Pact",
+        "Favored Weapon": "Claw",
     },
     "mortal-selene": {
         "Symbol": "A crescent moon intertwined with intricate elven glyphs",
@@ -632,6 +636,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Secrets, shadows, night, illusion",
         "Worshipers": "Moon priests, shadowcasters",
         "Domains": "Darkness, Moon, Mysticism, Shadow",
+        "Favored Weapon": "Sickle",
     },
     "mortal-mordac": {
         "Symbol": "A twisted serpent entwined around a scepter",
@@ -640,6 +645,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Corruption, death, domination, oppression",
         "Worshipers": "Manipulators, enforcers, devils",
         "Domains": "Domination, Evil, Law, Tyranny",
+        "Favored Weapon": "Maul",
     },
     "mortal-vortressa": {
         "Symbol": "A corrupted Druidic glyph intertwined with monstrous teeth",
@@ -648,6 +654,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Monsters, dark desires, mutation, hunger",
         "Worshipers": "Evil druids, warlocks",
         "Domains": "Evil, Hunger, Pestilence, Spider",
+        "Favored Weapon": "Claw/Teeth",
     },
     "mortal-zarakth": {
         "Symbol": "A blood-red vortex swirling around a jagged, shattered blade",
@@ -656,6 +663,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Destruction, murder, chaos, ruin",
         "Worshipers": "Demons, cultists, nihilistic warlords",
         "Domains": "Destruction, Evil, War, Wrath",
+        "Favored Weapon": "Mace",
     },
     "orion": {
         "Symbol": "A crystal radiating astral light",
@@ -664,6 +672,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Smallfolk, artifice, ingenuity, resilience",
         "Worshipers": "Smallfolk clergy, community leaders, artisans",
         "Domains": "Gnome, Halfling, Dwarf, Protection",
+        "Favored Weapon": "Gnomish Hookhammer",
     },
     "ukrol": {
         "Symbol": "A featureless humanoid face with a spiked crown",
@@ -672,6 +681,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Humans, conquest, dominion, authority",
         "Worshipers": "Charismatic leaders, conquerors, Imperial clergy",
         "Domains": "Domination, Hatred, Law, Tyranny",
+        "Favored Weapon": "Greatsword",
     },
     "vaylen": {
         # Clipped: it was "encircled by symbols of waves", a symbol describing
@@ -682,6 +692,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Travel, oceans, winds, safe passage",
         "Worshipers": "Seafarers, explorers, messengers",
         "Domains": "Celerity, Liberation, Ocean, Travel",
+        "Favored Weapon": "Cutlass",
     },
     "cervidur": {
         "Symbol": "A stag's head with wide antlers adorned with runes of fey magic",
@@ -689,6 +700,7 @@ DEITY_STATBLOCK = {
         "Alignment": "CN",
         "Portfolio": "The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts",
         "Worshipers": "Druids, rangers, shamans, lycanthropes",
+        "Favored Weapon": "Long Bow",
     },
     "enigma": {
         "Symbol": "A closed eye within a spiraling void",
@@ -697,6 +709,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Secrets, forgotten knowledge, paradox, obscurity",
         "Worshipers": "Scholars, theologians, opportunists",
         "Domains": "Luck",
+        "Favored Weapon": "Flail",
     },
 }
 
@@ -710,12 +723,20 @@ DEITY_OVERRIDE = {
 # Home Sphere for the detailed pages that have a source for it. The rest are an
 # em dash.
 DEITY_HOME_SPHERE = {
-    "mortal-lux": "Lux hails from the Antæra Sphere, having been born in the city of Sewich on the prime world of Antæra.",
-    "mortal-thrain": "Thrain hails from the Antæra Sphere, having emerged from the Old Spine Mountains on the prime world of Antæra.",
-    "mortal-leonis": "Leonus hails from the Antæra Sphere, having been born in the Greater Ironpine Forest on the prime world of Antæra.",
-    "mortal-sol": "Sol is bound to the Gallamarketh Sphere, whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.",
-    "orion": "Orion hails from the Antæra Sphere, having formed as a planar crystal in the heart of the prime world of Antæra.",
-    "cervidur": "Cervidûr is native to the Sidhe Sphere, though the Moonlit Glade itself lies in the Feywild rather than anywhere within the sphere.",
+    "mortal-lux": "Lux hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having been born in the city of Sewich on the prime world of Antæra.",
+    "mortal-thrain": "Thrain hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having emerged from the Old Spine Mountains on the prime world of Antæra.",
+    "mortal-leonis": "Leonus hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having been born in the Greater Ironpine Forest on the prime world of Antæra.",
+    "mortal-sol": "Sol is bound to the [Gallamarketh Sphere](../spelljamming/sphere-gallamarketh.md), whose neutrality he exists to preserve, and watches over it from his sanctum on the Ethereal Plane.",
+    "orion": "Orion hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having formed as a planar crystal in the heart of the prime world of Antæra.",
+    "cervidur": "Cervidûr is native to the [Sidhe Sphere](../spelljamming/sphere-sidhe.md), though the Moonlit Glade itself lies in the Feywild rather than anywhere within the sphere.",
+    "enigma": "Enigma's home sphere is unknown, as is everything else about where he began.",
+    "ukrol": "Ukrol hails from Realmspace, a sphere beyond the Known Spheres.",
+    "vaylen": "Vaylen hails from the [Inundatio Sphere](../spelljamming/sphere-inundatio.md).",
+    "mortal-mordac": "Mordac hails from the [Malifortis Sphere](../spelljamming/sphere-malifortis.md).",
+    "mortal-selene": "Selene hails from the [Umbræ Sphere](../spelljamming/sphere-umbrae.md).",
+    "mortal-tome": "Tome hails from the [Custodæ Sphere](../spelljamming/sphere-custodae.md).",
+    "mortal-vortressa": "Vortressa hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md).",
+    "mortal-zarakth": "Zarakth has no home sphere: he is extraplanar in origin.",
 }
 
 # Sentences written for a page since the import, added to the end of a section.

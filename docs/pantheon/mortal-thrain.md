@@ -49,7 +49,7 @@ The clergy of Thrain consists of both skilled artisans and wise diplomats. Templ
 While Thrain seeks peaceful resolution, he holds an enduring disdain for deities who thrive on chaos and discord. His teachings position him in opposition to those who revel in war for its own sake, and he actively opposes those who seek to disrupt the delicate balance of peace.
 
 **Home Sphere**
-Thrain hails from the Antæra Sphere, having emerged from the Old Spine Mountains on the prime world of Antæra.
+Thrain hails from the [Antæra Sphere](../spelljamming/sphere-antaera.md), having emerged from the Old Spine Mountains on the prime world of Antæra.
 
 </div>
 <div class="wd-cell wd-aside" markdown>

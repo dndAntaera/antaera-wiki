@@ -43,6 +43,7 @@
   /* Relative to body copy, so they hold together if the root ever moves. */
   --wd-text-page-title: 1.75rem;    /* the page's name, on its own card */
   --wd-text-panel-title: 1.15rem;   /* a card's own heading */
+  --wd-text-label: 1.2em;           /* a section label: **Origins** */
   --wd-text-aside: .72rem;          /* sidebar cells */
   --wd-text-aside-spell: .79rem;    /* a spell card inside a sidebar: 1.1x */
   --wd-text-note: .82em;            /* a table's notes */

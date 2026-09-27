@@ -776,3 +776,24 @@ body,
     animation: wd-highlight 1ms linear var(--wd-highlight-hold) forwards;
   }
 }
+
+
+/* ---------------------------------------------------------------------------
+   Section labels
+
+   A god's page is written as a bold label on its own line with its prose
+   under it - Origins, Description, Dogma. Set at body size they were the same
+   as the bold that appears inside a sentence, and a page of them read as one
+   undifferentiated block. They are a notch larger, which puts them between
+   body copy and a sub-heading: still a label rather than a heading, but
+   visibly the start of a section.
+
+   hooks/labels.py wraps each one in the span.
+   --------------------------------------------------------------------------- */
+
+.wd-label {
+  display: inline-block;
+  font-size: var(--wd-text-label);
+  line-height: 1.35;
+  margin-bottom: var(--wd-space-1);
+}

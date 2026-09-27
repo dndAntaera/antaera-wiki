@@ -13,6 +13,10 @@ together, "Origins Aezhera was once...". The break is added here, at build
 time, so the page source keeps exactly the shape the schema gives it and the
 page still reads the way it is meant to.
 
+The label is wrapped in a span of its own so the stylesheet can set it a
+notch above body text: bold body copy and a section label were the same size,
+and a page of them read as one undifferentiated block.
+
 Only a bold label alone on its line is touched, and only when prose follows
 directly. A label followed by a list, a table, a heading, markup or a blank
 line is left as it is.
@@ -27,5 +31,6 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     lines = markdown.split("\n")
     for i in range(len(lines) - 1):
         if LABEL.match(lines[i]) and not NOT_PROSE.match(lines[i + 1]):
-            lines[i] = lines[i].rstrip() + "<br>"
+            lines[i] = ('<span class="wd-label">' + lines[i].rstrip()
+                        + "</span><br>")
     return "\n".join(lines)

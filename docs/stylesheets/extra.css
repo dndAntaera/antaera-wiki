@@ -50,12 +50,18 @@
 .wd-cell > :first-child { margin-top: 0; }
 .wd-cell > :last-child { margin-bottom: 0; }
 
-/* Headings inside a card are panel titles, not page sections. */
+/* Headings inside a card are panel titles, not page sections.
+
+   The top margin is the air above a new section. It was zero, from when a
+   card opened with its heading and nothing else; where a heading follows a
+   paragraph - 400 of them do - that left the same gap above it as between
+   two paragraphs, and the section break did not read as one. A card that
+   opens with its heading still has no gap: see the first-child rule above. */
 .wd-cell h1,
 .wd-cell h2 {
   font-size: 1.05rem;
   font-weight: 700;
-  margin: 0 0 .6rem;
+  margin: var(--wd-space-5) 0 .6rem;
   padding: 0;
   border: none;
 }
@@ -796,4 +802,11 @@ body,
   font-size: var(--wd-text-label);
   line-height: 1.35;
   margin-bottom: var(--wd-space-1);
+}
+
+/* The label and its prose are one paragraph, so the air above a section is
+   set on the paragraph rather than on the label inside it. The same gap a
+   heading inside a card gets, for the same reason. */
+.wd-cell p:has(> .wd-label:first-child) {
+  margin-top: var(--wd-space-5);
 }

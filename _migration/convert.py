@@ -654,7 +654,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Monsters, dark desires, mutation, hunger",
         "Worshipers": "Evil druids, warlocks",
         "Domains": "Evil, Hunger, Pestilence, Spider",
-        "Favored Weapon": "Claw/Teeth",
+        "Favored Weapon": "Claw/Bite",
     },
     "mortal-zarakth": {
         "Symbol": "A blood-red vortex swirling around a jagged, shattered blade",
@@ -672,7 +672,7 @@ DEITY_STATBLOCK = {
         "Portfolio": "Smallfolk, artifice, ingenuity, resilience",
         "Worshipers": "Smallfolk clergy, community leaders, artisans",
         "Domains": "Gnome, Halfling, Dwarf, Protection",
-        "Favored Weapon": "Gnomish Hookhammer",
+        "Favored Weapon": "Gnome Hooked Hammer",
     },
     "ukrol": {
         "Symbol": "A featureless humanoid face with a spiked crown",
@@ -700,7 +700,7 @@ DEITY_STATBLOCK = {
         "Alignment": "CN",
         "Portfolio": "The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts",
         "Worshipers": "Druids, rangers, shamans, lycanthropes",
-        "Favored Weapon": "Long Bow",
+        "Favored Weapon": "Longbow",
     },
     "enigma": {
         "Symbol": "A closed eye within a spiraling void",

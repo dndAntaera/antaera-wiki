@@ -22,7 +22,7 @@ title: "Cervidûr, Lord of the Hunt"
 - **Worshipers**: Druids, rangers, shamans, lycanthropes
 - **Cleric Alignments**: CE, CG, CN
 - **Domains**: —
-- **Favored Weapon**: Long Bow
+- **Favored Weapon**: Longbow
 
 **Origins**
 Cervidûr is an ancient fey deity, born from the primal essence of the wilderness itself. As the Lord of the Hunt, he embodies the untamed spirit of the wild and the relentless pursuit of prey under the moonlit sky. Legends tell of how Cervidûr roams the forests and plains, leading the Wild Hunt—a spectral procession of fey hunters and beasts that chase across the night sky.

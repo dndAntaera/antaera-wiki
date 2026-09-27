@@ -22,7 +22,7 @@ title: "Vaeltharion, Herald of Dust"
 - **Worshipers**: Death clerics, meldshapers
 - **Cleric Alignments**: CE, LE, NE
 - **Domains**: Death, Protection, Repose, Earth
-- **Favored Weapon**: Oar-staff
+- **Favored Weapon**: Trident
 
 **Origins**
 Long before his ascension, Vaeltharion was a Drow who served as the mortal avatar of the previous Herald of Dust. For centuries, he carried out his master’s will—presiding over the dead, safeguarding their remains, and ensuring they were laid to rest according to sacred custom. When his predecessor was finally claimed by the still winds of the Quasi-Elemental Plane of Dust, the mantle passed to him. In that moment, the wastes where the Negative Energy Plane meets the Elemental Plane of Earth reshaped him into more than mortal, binding him eternally to his charge. Though the Plane of Dust is his domain, Vaeltharion dwells upon the Ethereal Plane to walk the veil between worlds, guiding his clergy in the proper rites of burial, preservation, and reverence.

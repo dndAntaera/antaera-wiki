@@ -771,6 +771,8 @@ WEAPON_NAMES = {
     "guisarme": "Guisarme",
     "cutlass": "Cutlass",
     "greathammer": "Greathammer",
+    "void-touched scythe": "Scythe",
+    "oar-staff": "Trident",
 }
 
 

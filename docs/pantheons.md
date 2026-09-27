@@ -143,12 +143,12 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Alignment: NE
     - Portfolio: Death, Preservation, Funerary Rites, Hospitality
     - Symbol: A hooded lantern with a dim, ember-like glow
-    - Favored Weapon: Oar-staff
+    - Favored Weapon: Trident
 - [Nihil](pantheon/deity-nihil.md), Herald of Void
     - Alignment: N
     - Portfolio: Emptiness, entropy, silence, cosmic erasure
     - Symbol: A black circle surrounded by fading stars
-    - Favored Weapon: Void-touched scythe
+    - Favored Weapon: Scythe
 - [Pyrius](pantheon/deity-pyrius.md)
     - Alignment: CE
     - Portfolio: Entropy, decay, dying worlds, extinction, finality

@@ -22,7 +22,7 @@ title: "Nihil, Herald of Void"
 - **Worshipers**: Spelljammers, wanderers, exiles, assassins, philosophers of nothingness
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Darkness, Death, Destruction, Decay, Madness
-- **Favored Weapon**: Void-touched scythe
+- **Favored Weapon**: Scythe
 
 **Origins**
 No single tale agrees on the truth of Nihil’s beginnings. Sailors whisper that they were once a spelljamming wanderer lost in wildspace, so long adrift that their spirit slipped free of its flesh and roamed as an astral shadow. Some say this phantom self stumbled into a manifest zone that opened into the Quasi-Elemental Plane of Vacuum, where it lingered until the silence itself consumed and remade it. Others insist that Nihil was never mortal at all, but the Void’s first thought given form. None can prove which story holds truth, for Nihil does not answer questions—only waits.

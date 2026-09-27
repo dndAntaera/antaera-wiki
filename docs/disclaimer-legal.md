@@ -58,6 +58,14 @@ Antæra is unofficial Fan Content permitted under the Fan Content Policy. Not ap
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
+# Open Game Content
+The contents of this wiki are Open Game Content as defined in the Open Game License version 1.0a, Section 1(d), with two exceptions: the homebrew of the setting itself, and the character creation rules used at this table. Those are Product Identity and are not Open Game Content.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
 # Open Game License
 OPEN GAME LICENSE Version 1.0a
 

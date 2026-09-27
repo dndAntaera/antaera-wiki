@@ -97,7 +97,7 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
 - Mensor, Keeper of the True Measure (LN)
 - Solvara, Who Settles the Ledger (CG)
 - Fabrica, Mother of Honest Work (NG)
-- Alpha, Patron God of Warforged (CN)
+- Alpha, the First Warforged (N)
 - Cinerea, Who Sells the Flawed Casting (NE)
 
 **Intermediate Deities**

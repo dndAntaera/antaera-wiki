@@ -7,6 +7,7 @@ Run from the repository root:
 Rerunnable: it rewrites docs/ from the backup each time, so fixing a rule here
 and re-running is the way to iterate rather than hand-editing the output.
 """
+import glob
 import json
 import os
 import re
@@ -16,6 +17,13 @@ from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
+
+# Pages written for the wiki rather than imported from Wikidot. Each file
+# in here is one page, named by the slug it is written to and holding the
+# site's own Markdown: the same cards the converter builds, so the same
+# passes can be run over it. Alpha was written after the backup was taken
+# and has no source in it.
+PAGES = os.path.join("_migration", "pages")
 TABLES = os.path.join(ROOT, "_migration", "tables")
 BASE = "/antaera-wiki"
 
@@ -134,6 +142,16 @@ EDITS = {
          "Symbol: A compass encircled by symbols of waves and meandering paths"),
         # "Depreciated" is a different word.
         (None, "*[Depreciated](pantheon.md)*", "*[Deprecated](pantheon.md)*"),
+        # Alpha, written for the wiki after the backup was taken, takes his
+        # place among the Patrons. The spheres read their entries off this
+        # page, so Forgehome's listing of him follows - see favor_pantheon().
+        ("## Lesser Deities (The Patrons)",
+         "    - Symbol: A ruby-tipped scepter or inverted pentagram",
+         "    - Symbol: A ruby-tipped scepter or inverted pentagram\n"
+         "- [Alpha](deity/alpha.md), the First Warforged\n"
+         "    - Alignment: N\n"
+         "    - Portfolio: Warforged, creation, guardianship, memory\n"
+         "    - Symbol: A cog wheel bearing the four elemental symbols at its center"),
     ],
     # Orion is Chaotic Good on his own page.
     "spelljamming-sphere-antaera": [
@@ -174,6 +192,15 @@ EDITS = {
                "the author, the setting is currently under revision to accommodate the "
                "inclusion of the Spelljammer setting.*",
          ""),
+    ],
+    # Alpha, written after the backup was taken, takes his place among the
+    # Patrons. The spheres read their entries off this page, so Forgehome's
+    # own listing follows from it - see favor_pantheon().
+    # Alpha has a page of his own now. The first time a card names him, the
+    # name is a link to it.
+    "anthropology-warforged": [
+        (None, "Warforged faith centers on Alpha, the guardian",
+         "Warforged faith centers on [Alpha](../deity/alpha.md), the guardian"),
     ],
     # Typos.
     "deity-ukrol": [
@@ -255,7 +282,7 @@ When the [House of Fabrication](../faction/house-of-fabrication.md) first began 
 
 Out of necessity, the House redoubled their efforts into discovering the purpose behind this strange artifact. After several years of dedicated research and experimentation, it was discovered that it was in fact a Forge of War, a thing of legend that no mortal has been able to find previously. They discovered the means to begin its operation: by binding elemental spirits to frames of metal and wood, they brought forth the living constructs known as Warforged.
 
-They did not discover this alone, however. There was a guardian of the forge that guided their hand as they woke the forge again after an untold amount of time. Why it helped them, no one knows, however they named this creature Alpha and designed the future models of Warforged after it. It stayed and guided the newly created Warforged and eventually gained both their admiration and worship. The strength of the Warforged souls, however, was not anticipated by the house and Alpha ascended to divinity. It is said that the creation of Warforged is still guided by their hand to this day.
+They did not discover this alone, however. There was a guardian of the forge that guided their hand as they woke the forge again after an untold amount of time. Why it helped them, no one knows, however they named this creature [Alpha](../deity/alpha.md) and designed the future models of Warforged after it. It stayed and guided the newly created Warforged and eventually gained both their admiration and worship. The strength of the Warforged souls, however, was not anticipated by the house and Alpha ascended to divinity. It is said that the creation of Warforged is still guided by their hand to this day.
 
 These new souls proved themselves to be useful on the new world of Crucibulum, though this newfound sentient would prove to be a thorn in the House's side. This eventually created a deep philosophical debate between the House and the rest of the [Known Spheres](../spelljamming/known-spheres.md): the House believed Warforged to be mindless automatons that simply had the capability of understanding and performing complex tasks, while the rest of the Known Spheres believed the Warforged to exhibit signs of sentience. This debate would eventually lead to the event known as the [Warforged Civil War](../faction/house-of-fabrication.md#warforged-civil-war).""",
     },
@@ -362,6 +389,16 @@ FAN_CONTENT = (
     "[here](https://company.wizards.com/en/legal/fancontentpolicy)."
 )
 
+# Section 1(d) of the licence asks a publisher to say which of its material is
+# Open Game Content. The wiki's answer, in the author's words: all of it, bar
+# the setting's own invention and the rules for making a character.
+OPEN_GAME_CONTENT = (
+    "The contents of this wiki are Open Game Content as defined in the Open "
+    "Game License version 1.0a, Section 1(d), with two exceptions: the "
+    "homebrew of the setting itself, and the character creation rules used at "
+    "this table. Those are Product Identity and are not Open Game Content."
+)
+
 VERBATIM_CARDS = {"disclaimer"}
 
 NEWCARDS = {
@@ -369,6 +406,7 @@ NEWCARDS = {
     # page that carries the wiki's other legal notes.
     "disclaimer": [
         (None, "Fan Content Policy", FAN_CONTENT),
+        (None, "Open Game Content", OPEN_GAME_CONTENT),
         (None, "Open Game License", OGL_V10A),
     ],
     "anthropology-warforged": [
@@ -778,6 +816,9 @@ TITLES = {
     # The page carries the disclaimer, the fan content notice and the Open Game
     # License. The menu calls it Disclaimer & Legal; the page says so in full.
     "disclaimer": "Disclaimer & Legal Information",
+
+    # Written for the wiki rather than imported - see PAGES.
+    "deity-alpha": "Alpha, the First Warforged",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
@@ -2546,6 +2587,14 @@ def main(backup):
     for s in keep:
         for key in slug_keys(s):
             linkmap.setdefault(key, target_path(s))
+    for path in sorted(glob.glob(os.path.join(PAGES, "*.md"))):
+        written_here = os.path.splitext(os.path.basename(path))[0]
+        for key in slug_keys(written_here):
+            linkmap.setdefault(key, target_path(written_here))
+        name = TITLES.get(written_here)
+        if name:
+            linkmap.setdefault(norm_slug(name.split(",")[0]), target_path(written_here))
+
     # A link to half of a merged page goes to that half's section, not to the
     # top of the page, so "the psionic power" still means the psionic power.
     for part, (merged, anchor) in MERGE_PARTS.items():
@@ -2774,6 +2823,27 @@ def main(backup):
         body = apply_edits(slug, body)
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write("---\n" + "\n".join(meta) + "\n---\n\n" + body)
+        written += 1
+
+    # Pages written for the wiki rather than imported. They are already in the
+    # site's own Markdown, so the conversion pass has nothing to do; the passes
+    # that shape a finished page - the god's format, the heading levels, the
+    # name card - are the same ones the imported pages get.
+    for path in sorted(glob.glob(os.path.join(PAGES, "*.md"))):
+        slug = os.path.splitext(os.path.basename(path))[0]
+        with open(path, encoding="utf-8") as fh:
+            body = fh.read().strip() + chr(10)
+        title = TITLES.get(slug) or title_from(slug)
+        rel = target_path(slug)
+        if rel.split("/")[0] in DEITY_FOLDERS:
+            body = deity_format(body, title, slug)
+        body = heading_levels(body)
+        body = title_card(title, body)
+        body = apply_edits(slug, body)
+        out_abs = os.path.join(DOCS, rel)
+        os.makedirs(os.path.dirname(out_abs), exist_ok=True)
+        with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write('---\ntitle: "' + title + '"\n---\n\n' + body)
         written += 1
 
     # Content moved onto the end of another page, added once that page exists.

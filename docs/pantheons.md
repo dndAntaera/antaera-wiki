@@ -247,6 +247,10 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: LE
     - Portfolio: Tyranny, contracts, domination, devils
     - Symbol: A ruby-tipped scepter or inverted pentagram
+- [Alpha](deity/alpha.md), the First Warforged
+    - Alignment: N
+    - Portfolio: Warforged, creation, guardianship, memory
+    - Symbol: A cog wheel bearing the four elemental symbols at its center
 
 </div>
 </div>

@@ -217,6 +217,7 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: LN
     - Portfolio: Constructs, order, artifice, creation
     - Symbol: A gear set within a perfect square
+    - Favored Weapon: Light Hammer
 - [Fink](deity/fink.md), Patron of Goblinoids
     - Alignment: CN
     - Portfolio: Goblinoids, greed, cunning, survival

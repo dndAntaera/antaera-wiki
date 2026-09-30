@@ -771,6 +771,7 @@ WEAPON_NAMES = {
     "guisarme": "Guisarme",
     "cutlass": "Cutlass",
     "greathammer": "Greathammer",
+    "light hammer": "Light Hammer",
     "void-touched scythe": "Scythe",
     "oar-staff": "Trident",
 }
@@ -882,6 +883,7 @@ TITLES = {
 
     # Written for the wiki rather than imported - see PAGES.
     "deity-alpha": "Alpha, the First Warforged",
+    "ornus": "Ornus, Lord of Constructs",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
@@ -2912,6 +2914,10 @@ def main(backup):
     # site's own Markdown, so the conversion pass has nothing to do; the passes
     # that shape a finished page - the god's format, the heading levels, the
     # name card - are the same ones the imported pages get.
+    #
+    # A file named for a page that IS in the backup replaces it: Ornus was a
+    # disambiguation stub there and is a written page here. This runs after
+    # the import, so the written page is the one that survives.
     for path in sorted(glob.glob(os.path.join(PAGES, "*.md"))):
         slug = os.path.splitext(os.path.basename(path))[0]
         with open(path, encoding="utf-8") as fh:

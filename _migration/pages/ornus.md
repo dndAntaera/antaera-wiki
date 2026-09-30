@@ -1,14 +1,3 @@
----
-title: "Ornus, Lord of Constructs"
----
-
-<div class="wd-row" style="--wd-rw: 935px" markdown>
-<div class="wd-cell wd-title" markdown>
-
-# Ornus, Lord of Constructs
-
-</div>
-</div>
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
@@ -32,6 +21,10 @@ Upon ascension, Ornus took on the form of a plain humanoid devoid of features. H
 
 **Dogma**
 **Intention Behind Construction**: Constructs should be orderly and built with intention in each function. To add the erroneous or redundant is heresy.
+
+**To Make Is To Owe Maintenance**: A creator who does not maintain or take care of his creations is a blasphemer, and a heretic to the Law of creation. He who abandons his projects should be abandoned himself.
+
+**Metal Is Eternal**: Faithful who are of flesh should strive to join with the perfection of metal and machinery, for time continues not for those who follow clockwork. Metal endures while the flesh is weak and rots.
 
 **Divine Realm**
 Ornus created a new realm for himself within the heart of Mechanus itself, choosing to be one with Law and Order rather than to expose himself to Chaos and Discord. The scarce times he chooses to leave his realm are when he must deliver mandates to his Primus or observe the Modron March, which presses on consistently.

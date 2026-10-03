@@ -56,7 +56,8 @@ title: "The Index"
 
 # Variant Rules In Effect
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 
@@ -73,6 +74,9 @@ title: "The Index"
 ## H
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -85,6 +89,9 @@ title: "The Index"
 ## Q
 ## R
 
+</div>
+<div markdown>
+
 ## S
 ## T
 
@@ -96,6 +103,7 @@ title: "The Index"
 ## Y
 ## Z
 
+</div>
 </div>
 
 </div>
@@ -300,7 +308,8 @@ White Raven Tactics: Cannot affect the user
 
 # Homebrew: Items
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 ## B
@@ -322,6 +331,9 @@ White Raven Tactics: Cannot affect the user
 - [Profane/Blessed (Un)Holy Symbol](item/blessed-holy-symbol.md)
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -335,6 +347,9 @@ White Raven Tactics: Cannot affect the user
 ## Q
 ## R
 
+</div>
+<div markdown>
+
 ## S
 ## T
 ## U
@@ -345,6 +360,7 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+</div>
 
 </div>
 </div>
@@ -353,7 +369,8 @@ White Raven Tactics: Cannot affect the user
 
 # Homebrew: Spells/Powers
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 ## B
@@ -365,6 +382,9 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -374,6 +394,9 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+<div markdown>
 
 ## S
 
@@ -388,6 +411,7 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+</div>
 
 </div>
 </div>
@@ -396,7 +420,8 @@ White Raven Tactics: Cannot affect the user
 
 # Homebrew: Skills
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 ## B
@@ -408,6 +433,9 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -417,6 +445,9 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+<div markdown>
 
 ## S
 ## T
@@ -428,6 +459,7 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+</div>
 
 </div>
 </div>
@@ -436,7 +468,8 @@ White Raven Tactics: Cannot affect the user
 
 # Homebrew: Bestiary
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 
@@ -452,6 +485,9 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -461,6 +497,9 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+<div markdown>
 
 ## S
 ## T
@@ -472,6 +511,7 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+</div>
 
 </div>
 </div>
@@ -480,7 +520,8 @@ White Raven Tactics: Cannot affect the user
 
 # Homebrew: Miscellaneous
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 ## B
@@ -496,6 +537,9 @@ White Raven Tactics: Cannot affect the user
 ## H
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -505,6 +549,9 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+<div markdown>
 
 ## S
 ## T
@@ -516,6 +563,7 @@ White Raven Tactics: Cannot affect the user
 ## Z
 
 </div>
+</div>
 
 </div>
 </div>
@@ -524,7 +572,8 @@ White Raven Tactics: Cannot affect the user
 
 # Factions
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 ## B
@@ -543,6 +592,9 @@ White Raven Tactics: Cannot affect the user
 
 - [Imperial Mercenary Corp](faction/imperial-mercenary.md)
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -552,6 +604,9 @@ White Raven Tactics: Cannot affect the user
 ## P
 ## Q
 ## R
+
+</div>
+<div markdown>
 
 ## S
 ## T
@@ -566,6 +621,7 @@ White Raven Tactics: Cannot affect the user
 ## Y
 ## Z
 
+</div>
 </div>
 
 </div>

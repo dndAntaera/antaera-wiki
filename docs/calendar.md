@@ -147,7 +147,8 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 
 # Holidays & Events
 
-<div class="wd-cols" style="--wd-n: 3" markdown>
+<div class="wd-index" markdown>
+<div markdown>
 
 ## A
 ## B
@@ -161,6 +162,9 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 ## H
 ## I
 
+</div>
+<div markdown>
+
 ## J
 ## K
 ## L
@@ -171,6 +175,9 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 ## Q
 ## R
 
+</div>
+<div markdown>
+
 ## S
 ## T
 ## U
@@ -180,6 +187,7 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 ## Y
 ## Z
 
+</div>
 </div>
 
 </div>

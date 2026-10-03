@@ -1434,6 +1434,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = heading_levels(s)
     s = table_notes(s)
     s = aside_tables(s)
+    s = alpha_columns(s)
     # One race, two names. "Mercane" is the name in use - the passage device is
     # "a creation of the Mercane" and the planetary locator comes with "a
     # Mercane hull" - while sixteen other mentions still said "Arcane", one of
@@ -1481,6 +1482,43 @@ def convert(src, slug, img_by_url, tables, linkmap):
 # its own on the next line, at the full width of the row, with the caption and
 # footnotes that belong to it. A table that does fit stays where the author
 # put it.
+
+# ---------------------------------------------------------------------------
+# Alphabetical indexes
+#
+# An A to Z index was laid out with CSS columns, which balance by height: the
+# browser fills until the column is as tall as its share of the content, so a
+# letter with four entries under it pushes everything after it into the next
+# column. On The Index that put A to G in the first column, H to R in the
+# second and S to Z in the third, and the split moved every time an entry was
+# added.
+#
+# The letters are divided three ways instead, nine, nine and eight, so the
+# columns read A-I, J-R, S-Z however many entries each letter holds.
+# ---------------------------------------------------------------------------
+
+ALPHA_COLS = 3
+
+
+def alpha_columns(s):
+    """Split an A-Z index into columns of equal letters rather than height."""
+
+    def repl(m):
+        body = m.group(1).strip(chr(10))
+        parts = re.split(r"(?m)^(?=#{1,6}[ \t]+[A-Za-z][ \t]*$)", body)
+        parts = [p for p in parts if p.strip()]
+        letters = [p for p in parts
+                   if re.match(r"^#{1,6}[ \t]+[A-Za-z][ \t]*$", p.split(chr(10))[0])]
+        if len(letters) != len(parts) or len(parts) < ALPHA_COLS * 2:
+            return m.group(0)
+        per = -(-len(parts) // ALPHA_COLS)          # nine, nine, eight
+        cols = [parts[i:i + per] for i in range(0, len(parts), per)]
+        inner = "".join('<div markdown>\n\n%s\n\n</div>\n'
+                        % "".join(c).strip(chr(10)) for c in cols)
+        return '<div class="wd-index" markdown>\n%s</div>\n' % inner
+
+    return re.sub(r'<div class="wd-cols"[^>]*>(.*?)\n</div>\n', repl, s, flags=re.S)
+
 # ---------------------------------------------------------------------------
 
 # Measured on the rendered pages: sidebar tables set at 11.5px, where a

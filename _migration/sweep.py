@@ -23,6 +23,11 @@ import os
 import re
 import sys
 
+# The converter's own helpers, so a check measures a page exactly the way the
+# converter built it rather than with a second, slightly different, copy.
+sys.path.insert(0, "_migration")
+import convert
+
 DOCS = "docs"
 SITE = "site"
 
@@ -158,12 +163,34 @@ def main():
                 bad.append("%s -> %s" % (f, m.group(1)))
     check("every image file exists", bad)
 
+    # An A-Z index is three columns of letters, nine, nine and eight, split by
+    # the converter rather than by the browser balancing column heights.
+    bad = []
+    for f, t in pages.items():
+        if re.search(r'<div class="wd-cols"[^>]*>(?:(?!</div>).)*?^#{1,6} [A-Za-z]$',
+                     t, re.S | re.M):
+            bad.append("%s  an alphabet left to CSS columns" % f)
+        for m in re.finditer(r'<div class="wd-index" markdown>', t):
+            # Divs counted rather than guessed at: the columns are divs inside
+            # a div, and a pattern that stops at the first close stops a
+            # column early.
+            block = t[m.start():convert._div_span(t, m.start())]
+            counts, i = [], len("<div class=\"wd-index\" markdown>")
+            while True:
+                c = block.find("<div markdown>", i)
+                if c < 0:
+                    break
+                e = convert._div_span(block, c)
+                counts.append(len(re.findall(r"^#{1,6} [A-Za-z]$", block[c:e], re.M)))
+                i = e
+            if len(counts) != 3 or max(counts) - min(counts) > 1:
+                bad.append("%s  columns hold %s letters" % (f, counts))
+    check("an A-Z index splits evenly into three columns", bad)
+
     # A table in a narrow column of a split row. The converter moves one that
     # does not fit into a card of its own on the next line (aside_tables);
     # this says so if one is left behind. A spell card keeps its tables: they
     # are lines of the stat block, not a table beside it.
-    sys.path.insert(0, "_migration")
-    import convert
     bad = []
     for f, t in pages.items():
         for rm in re.finditer(r'<div class="wd-row"[^>]*>', t):

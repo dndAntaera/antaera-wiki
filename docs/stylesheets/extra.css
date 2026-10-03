@@ -810,3 +810,27 @@ body,
 .wd-cell p:has(> .wd-label:first-child) {
   margin-top: var(--wd-space-5);
 }
+
+
+/* ---------------------------------------------------------------------------
+   Alphabetical indexes
+
+   Three columns of letters, not three columns of equal height. CSS columns
+   balance by content, so a letter carrying four entries pushed the rest of
+   the alphabet into the next column and the break moved whenever an entry
+   was added. A grid of three, with the letters divided evenly between them
+   by the converter, reads A-I, J-R, S-Z and stays that way.
+   --------------------------------------------------------------------------- */
+
+.wd-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 1.8rem;
+  margin: var(--wd-space-2) 0 var(--wd-space-4);
+}
+
+.wd-index > div > :first-child { margin-top: 0; }
+
+@media screen and (max-width: 60em) {
+  .wd-index { grid-template-columns: 1fr; }
+}

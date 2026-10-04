@@ -150,42 +150,42 @@ The Era of Discovery thus represents a period of great potential mixed with comp
 <div class="wd-index" markdown>
 <div markdown>
 
-## A
-## B
+## A {: .wd-empty }
+## B {: .wd-empty }
 ## C
 
 - [Crucible of Valor, the](events-crucible-of-valor.md)
-## D
-## E
-## F
-## G
-## H
-## I
+## D {: .wd-empty }
+## E {: .wd-empty }
+## F {: .wd-empty }
+## G {: .wd-empty }
+## H {: .wd-empty }
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
-## P
-## Q
-## R
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
-## T
-## U
-## V
-## W
-## X
-## Y
-## Z
+## S {: .wd-empty }
+## T {: .wd-empty }
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>

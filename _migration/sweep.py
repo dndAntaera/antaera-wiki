@@ -167,7 +167,7 @@ def main():
     # the converter rather than by the browser balancing column heights.
     bad = []
     for f, t in pages.items():
-        if re.search(r'<div class="wd-cols"[^>]*>(?:(?!</div>).)*?^#{1,6} [A-Za-z]$',
+        if re.search(r'<div class="wd-cols"[^>]*>(?:(?!</div>).)*?^#{1,6} [A-Za-z](?: \{: \.wd-empty \})?$',
                      t, re.S | re.M):
             bad.append("%s  an alphabet left to CSS columns" % f)
         for m in re.finditer(r'<div class="wd-index" markdown>', t):
@@ -181,7 +181,7 @@ def main():
                 if c < 0:
                     break
                 e = convert._div_span(block, c)
-                counts.append(len(re.findall(r"^#{1,6} [A-Za-z]$", block[c:e], re.M)))
+                counts.append(len(re.findall(r"^#{1,6} [A-Za-z](?: \{: \.wd-empty \})?$", block[c:e], re.M)))
                 i = e
             if len(counts) != 3 or max(counts) - min(counts) > 1:
                 bad.append("%s  columns hold %s letters" % (f, counts))

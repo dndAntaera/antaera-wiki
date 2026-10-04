@@ -106,7 +106,11 @@ EDITS = {
         # section has to be named: The Index runs the alphabet four times over,
         # once for the rules and again for the homebrew items, feats and
         # spells, so "## G" on its own names four places on the page.
-        ("# Variant Rules In Effect", "## G\n## H",
+        #
+        # The letter is marked empty by alpha_columns, which runs before this:
+        # the mark goes with the heading, and an entry under it means it is
+        # not empty after all.
+        ("# Variant Rules In Effect", "## G {: .wd-empty }\n## H",
          "## G\n\n- [Gestalt](rules/gestalt.md)\n\n## H"),
         # And the houserule that leans on it now points at it.
         (None, "- Gestalt Only",
@@ -1511,6 +1515,13 @@ def alpha_columns(s):
                    if re.match(r"^#{1,6}[ \t]+[A-Za-z][ \t]*$", p.split(chr(10))[0])]
         if len(letters) != len(parts) or len(parts) < ALPHA_COLS * 2:
             return m.group(0)
+        # A letter with nothing under it is still part of the alphabet and
+        # stays, so the three columns always read A-I, J-R, S-Z. It is marked
+        # here and dimmed by the stylesheet: on most of these indexes the
+        # empty letters outnumber the full ones, and set at the same weight
+        # they hid the handful of entries among them.
+        parts = [p if p.strip().count(chr(10)) else
+                 p.rstrip() + " {: .wd-empty }" + chr(10) for p in parts]
         per = -(-len(parts) // ALPHA_COLS)          # nine, nine, eight
         cols = [parts[i:i + per] for i in range(0, len(parts), per)]
         inner = "".join('<div markdown>\n\n%s\n\n</div>\n'

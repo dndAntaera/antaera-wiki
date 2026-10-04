@@ -62,46 +62,46 @@ title: "The Index"
 ## A
 
 - [Action Points](rules/action-points.md) *Edited*
-## B
-## C
-## D
-## E
-## F
+## B {: .wd-empty }
+## C {: .wd-empty }
+## D {: .wd-empty }
+## E {: .wd-empty }
+## F {: .wd-empty }
 ## G
 
 - [Gestalt](rules/gestalt.md)
 
-## H
-## I
+## H {: .wd-empty }
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
 ## M
 
 - [Commanders, Morale, and Rallying](rules/commander-morale-rally.md)
-## N
-## O
-## P
-## Q
-## R
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
+## S {: .wd-empty }
 ## T
 
 - [Taint](rules/taint.md)
-## U
-## V
-## W
-## X
-## Y
-## Z
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>
@@ -311,53 +311,53 @@ White Raven Tactics: Cannot affect the user
 <div class="wd-index" markdown>
 <div markdown>
 
-## A
+## A {: .wd-empty }
 ## B
 
 - book, [The Dreaming & Waking](item/dreaming-waking.md)
 ## C
 
 - [Crystal Stabilization Fluid](item/crystal-stabilization-fluid.md)
-## D
+## D {: .wd-empty }
 ## E
 
 - [Elven Climber's Gloves](item/elven-climbers-gloves.md)
 ## F
 
 - [Firearms](item/firearms.md)
-## G
+## G {: .wd-empty }
 ## H
 
 - [Profane/Blessed (Un)Holy Symbol](item/blessed-holy-symbol.md)
-## I
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
 ## P
 
 - [Planar Crystal](item/planar-crystal.md)
 - [Poisoner's Quiver](item/poisoners-quiver.md)
-## Q
-## R
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
-## T
-## U
-## V
-## W
-## X
-## Y
-## Z
+## S {: .wd-empty }
+## T {: .wd-empty }
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>
@@ -372,28 +372,28 @@ White Raven Tactics: Cannot affect the user
 <div class="wd-index" markdown>
 <div markdown>
 
-## A
-## B
-## C
-## D
-## E
-## F
-## G
-## H
-## I
+## A {: .wd-empty }
+## B {: .wd-empty }
+## C {: .wd-empty }
+## D {: .wd-empty }
+## E {: .wd-empty }
+## F {: .wd-empty }
+## G {: .wd-empty }
+## H {: .wd-empty }
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
-## P
-## Q
-## R
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
@@ -402,13 +402,13 @@ White Raven Tactics: Cannot affect the user
 
 - [Stabilize Crystal](stabilize-crystal.md#spell)
 - [Stabilize Crystal (psionic)](stabilize-crystal.md#psionic-power)
-## T
-## U
-## V
-## W
-## X
-## Y
-## Z
+## T {: .wd-empty }
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>
@@ -423,40 +423,40 @@ White Raven Tactics: Cannot affect the user
 <div class="wd-index" markdown>
 <div markdown>
 
-## A
-## B
-## C
-## D
-## E
-## F
-## G
-## H
-## I
+## A {: .wd-empty }
+## B {: .wd-empty }
+## C {: .wd-empty }
+## D {: .wd-empty }
+## E {: .wd-empty }
+## F {: .wd-empty }
+## G {: .wd-empty }
+## H {: .wd-empty }
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
-## P
-## Q
-## R
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
-## T
-## U
-## V
-## W
-## X
-## Y
-## Z
+## S {: .wd-empty }
+## T {: .wd-empty }
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>
@@ -474,41 +474,41 @@ White Raven Tactics: Cannot affect the user
 ## A
 
 - [Aasimar, Tainted](race/aasimar-tainted.md)
-## B
-## C
+## B {: .wd-empty }
+## C {: .wd-empty }
 ## D
 
 - [Deepfolk](race/deepfolk.md)
-## E
-## F
-## G
-## H
-## I
+## E {: .wd-empty }
+## F {: .wd-empty }
+## G {: .wd-empty }
+## H {: .wd-empty }
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
-## P
-## Q
-## R
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
-## T
-## U
-## V
-## W
-## X
-## Y
-## Z
+## S {: .wd-empty }
+## T {: .wd-empty }
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>
@@ -523,44 +523,44 @@ White Raven Tactics: Cannot affect the user
 <div class="wd-index" markdown>
 <div markdown>
 
-## A
+## A {: .wd-empty }
 ## B
 
 - [Backgrounds](rules/backgrounds.md)
 ## C
 
 - [Commisioning Items](rules/commissions.md)
-## D
-## E
-## F
-## G
-## H
-## I
+## D {: .wd-empty }
+## E {: .wd-empty }
+## F {: .wd-empty }
+## G {: .wd-empty }
+## H {: .wd-empty }
+## I {: .wd-empty }
 
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
-## P
-## Q
-## R
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
-## T
-## U
-## V
-## W
-## X
-## Y
-## Z
+## S {: .wd-empty }
+## T {: .wd-empty }
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>
@@ -575,15 +575,15 @@ White Raven Tactics: Cannot affect the user
 <div class="wd-index" markdown>
 <div markdown>
 
-## A
-## B
+## A {: .wd-empty }
+## B {: .wd-empty }
 ## C
 
 - [Collegiate Oculatus](faction/collegiate-oculatus.md)
-## D
-## E
-## F
-## G
+## D {: .wd-empty }
+## E {: .wd-empty }
+## F {: .wd-empty }
+## G {: .wd-empty }
 ## H
 
 - [Haven Commerce Co.](faction/haven-commerce.md)
@@ -595,31 +595,31 @@ White Raven Tactics: Cannot affect the user
 </div>
 <div markdown>
 
-## J
-## K
-## L
-## M
-## N
-## O
-## P
-## Q
-## R
+## J {: .wd-empty }
+## K {: .wd-empty }
+## L {: .wd-empty }
+## M {: .wd-empty }
+## N {: .wd-empty }
+## O {: .wd-empty }
+## P {: .wd-empty }
+## Q {: .wd-empty }
+## R {: .wd-empty }
 
 </div>
 <div markdown>
 
-## S
+## S {: .wd-empty }
 ## T
 
 - [Tæl’Mythaal Archivists](faction/taelmythaal-archivists.md)
 - [Tamaas Trading Co.](faction/tamaas-trading.md)
 - [Titan’s Fall PMC](faction/titan-fall-pmc.md)
-## U
-## V
-## W
-## X
-## Y
-## Z
+## U {: .wd-empty }
+## V {: .wd-empty }
+## W {: .wd-empty }
+## X {: .wd-empty }
+## Y {: .wd-empty }
+## Z {: .wd-empty }
 
 </div>
 </div>

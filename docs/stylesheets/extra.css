@@ -834,3 +834,11 @@ body,
 @media screen and (max-width: 60em) {
   .wd-index { grid-template-columns: 1fr; }
 }
+
+/* A letter with no entries under it. It stays, so the columns always read
+   A-I, J-R, S-Z, but it steps back: on most of these indexes the empty
+   letters outnumber the full ones and at full strength they hid them. */
+.wd-index .wd-empty {
+  opacity: .4;
+  font-weight: 400;
+}

@@ -206,6 +206,12 @@ EDITS = {
         (None, "Warforged faith centers on Alpha, the guardian",
          "Warforged faith centers on [Alpha](../deity/alpha.md), the guardian"),
     ],
+    # The ruling that the "Plane of Shadow" is to be read as the Shadowlands,
+    # dropped at the author's request. What the Shadowlands is stays; the
+    # instruction to substitute it everywhere does not.
+    "cosmology": [
+        (None, ' Anything that references the "Plane of Shadow" should instead reference the Shadowlands. For example, any spell that uses the "Plane of Shadow" to travel, instead uses the Shadowlands, and spells such as Shadow Conjuration, or the mysteries used by a Shadowcaster, draw upon the energies of the Shadowlands.', ""),
+    ],
     # Typos.
     "deity-ukrol": [
         (None, "Tyrrany", "Tyranny"),

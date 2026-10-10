@@ -298,6 +298,27 @@ These new souls proved themselves to be useful on the new world of Crucibulum, t
 # be done by swapping the text under a heading. The card is matched whole and
 # rebuilt as the sections listed here, one card each.
 RECARDS = {
+    # The page opened on a continent thawing out of an ice age, with manifest
+    # zones as the mystery at the heart of it - the setting before
+    # Spelljammer. The overview is the cluster now, and the manifest zones are
+    # what the expansion into it cost. Spheres, planes and the forerunners are
+    # linked where they are named.
+    "start": {
+        "World Overview": [
+            ("The Setting At Large", """\
+The Antæran cluster is a lively one, full of trade, war, and opportunity. Its most notable feature is the close relation its spheres hold to the Inner and Outer Planes of the Great Wheel cosmology, which is what the constellations take their names from. The Inner Constellation holds the spheres tied to the Inner Planes: [Inundatio](spelljamming/sphere-inundatio.md), [Lapis](spelljamming/sphere-lapis.md), [Cineræxis](spelljamming/sphere-cineraexis.md), and [Aerivagus](spelljamming/sphere-aerivagus.md). The Outer Constellation holds the spheres tied to the Outer Planes: [Sanctum Æternum](spelljamming/sphere-sanctum-aeternum.md), [Paxæterna](spelljamming/sphere-paxaeterna.md), [Bellatoris](spelljamming/sphere-bellatoris.md), [Custodæ](spelljamming/sphere-custodae.md), [Gallamarketh](spelljamming/sphere-gallamarketh.md), and [Malifortis](spelljamming/sphere-malifortis.md). Two derelict spheres are known but are not recognized as part of the [Known Spheres](spelljamming/known-spheres.md): the [Graveyard of the Gods](spelljamming/sphere-graveyard-of-the-gods.md) and [Forgehome](spelljamming/sphere-forgehome.md). The Known Spheres together form a multi-sphere government that monitors and safeguards the peace among them, established when the first of them acquired spelljamming capability on Gallamarketh.
+
+The Antæran Constellation, however, is a relatively newer discovery to the Known Spheres. The core of the cluster held a secret: the titular constellation of Antæra. Inside were found the [Antæra](spelljamming/sphere-antaera.md), [Umbræ](spelljamming/sphere-umbrae.md), and [Sidhe](spelljamming/sphere-sidhe.md) spheres. These spheres were novel to the Known Spheres, as they are most related to non-influenced space. This shook the foundation of their understanding of the multiverse and its relation to the Material Plane. The Antæra sphere is wholly without influence, while the Umbræ sphere is influenced by the Plane of Shadow and the Sidhe sphere is influenced by the [Feywild](plane/feywild.md).
+
+The scholars in Gallamarketh designated this newfound constellation to be under a protective status in order to monitor the natural growth of a sphere from groundling to spacefaring, along with how interplanar influences would affect this process. Spelljamming to and from this constellation was therefore banned wholesale, with only certain organizations being granted passes to enter under strict conditions.
+
+This discovery caused academia in the Known Spheres to go abuzz with new theories of the [cosmology](cosmology.md), and stirred an entirely new age of expansion into the multiverse itself. However, this greedy expansion into the multiverse came at a cost. Interplanar tears in the world began to form as spelljammers tore between the threads of reality in larger numbers than anticipated. These holes began to expand, causing rips in reality that would later be known as Manifest Zones. Some are only a few feet across, while others grew to consume entire stars. These Manifest Zones act as natural gateways between the planes where the fabric of reality has become threadbare. While some are able to be closed, others have caused irreparable damage and have become permanent, like those which became primary bodies in crystal spheres.
+
+The discovery of the Antæran Constellation and the expansion into the multiverse revealed more about the history of the cluster than was expected. It shed light on the [Ancient Antærans](calendar.md), a forerunner civilization that preceded all recorded histories in the Known Spheres. Previously thought to be unrelated bygone ruins among the spheres, the most intact of the ruins appeared on the sphere of Antæra and revealed it to be their prime world and the center of their missing civilization. This shed light on the ancient dormant megastructures found in every sphere, though their purposes were not revealed, only their origins.
+
+The current age is that of expansion and discovery: learning more about within, while discovering what lies out in the unexplored reaches of space. The Known Spheres are in a state of peace and prosperity, with war being at the fringes of anyone's mind. The only real conflicts are those with pirates and other sorts of adventure. For those living in the Known Spheres, life is full of surprises and teeming with the spice that makes life interesting. Will you discover a new species? Or will you discover an entirely new crystal sphere and call it your own?"""),
+        ],
+    },
     "anthropology-warforged": {
         "General Culture": [
             ("General Culture", """\

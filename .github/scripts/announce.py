@@ -11,6 +11,7 @@ since it went up. After that, the next change starts a new message.
 
     python .github/scripts/announce.py --last <sha> [--head <sha>]
                                        [--state <file>] [--dry-run]
+    python .github/scripts/announce.py --test [--dry-run]
 
 What counts as a change is what a reader would see. Changes to the coding of
 the wiki stay quiet:
@@ -403,6 +404,52 @@ def save_state(path, state):
         json.dump(state, fh)
 
 
+def webhook_url(dry_run):
+    """The webhook to post to, or None when the message is only printed."""
+    if dry_run:
+        return None
+    webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    if not webhook:
+        print("\n::notice::DISCORD_WEBHOOK_URL is not set, so nothing was posted.")
+    return webhook or None
+
+
+def latest_change(head):
+    """The newest commit up to head that changed a page's words."""
+    for commit in git("rev-list", "--no-merges", "--max-count=200", head,
+                      "--", PAGES).split():
+        if content_changes(commit + "^", commit):
+            return commit
+    return None
+
+
+def test(head, dry_run):
+    """Post the newest page change again, marked as a test.
+
+    It goes up as a message of its own and is not remembered, so the next
+    real change starts or edits a real message, never this one.
+    """
+    commit = latest_change(head)
+    if commit is None:
+        sys.exit("No page change to show.")
+    payload = build_message(commit + "^", commit)
+    embed = payload["embeds"][0]
+    embed["title"] += " (test)"
+    embed["footer"] = {"text": "A test of the wiki's announcements: "
+                               "real ones look like this."}
+    print("Test message, showing %s.\n" % commit[:7])
+    show(payload)
+
+    webhook = webhook_url(dry_run)
+    if not webhook:
+        return
+    try:
+        send("POST", endpoint(webhook, wait="true"), payload)
+    except DiscordError as e:
+        sys.exit("Discord refused the message: %s" % e)
+    print("\nPosted to Discord.")
+
+
 def main():
     for stream in (sys.stdout, sys.stderr):
         stream.reconfigure(encoding="utf-8")
@@ -412,11 +459,17 @@ def main():
                     help="the last commit already announced (default: the parent of --head)")
     ap.add_argument("--head", default="HEAD", help="the commit just published")
     ap.add_argument("--state", help="the file that remembers the message open for edits")
+    ap.add_argument("--test", action="store_true",
+                    help="post the newest page change again, marked as a test")
     ap.add_argument("--dry-run", action="store_true",
                     help="print the message instead of posting it")
     args = ap.parse_args()
 
     head = git("rev-parse", "--verify", args.head + "^{commit}").strip()
+    if args.test:
+        test(head, args.dry_run)
+        return
+
     last = args.last
 
     if last and is_ancestor(head, last):
@@ -444,11 +497,8 @@ def main():
         print("Posting a new message.\n")
     show(payload)
 
-    webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
-    if args.dry_run:
-        return
+    webhook = webhook_url(args.dry_run)
     if not webhook:
-        print("\n::notice::DISCORD_WEBHOOK_URL is not set, so nothing was posted.")
         return
 
     try:

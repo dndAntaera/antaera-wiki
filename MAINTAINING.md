@@ -164,6 +164,11 @@ Actions). Anyone holding the URL can post to the channel, so keep it out of
 the repository. Without the secret, the job prints the message to the run log
 and posts nothing.
 
+**Test the webhook** from the Actions tab: *Test the Discord announcement* →
+*Run workflow*. It posts the newest page change again, titled "(test)", as a
+message of its own. Nothing is deployed, and later announcements never edit
+it.
+
 **Preview a message** without posting it, for any range of commits:
 
 ```bash

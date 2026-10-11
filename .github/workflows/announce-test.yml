@@ -1,0 +1,22 @@
+name: Test the Discord announcement
+
+# Run by hand from the Actions tab. Posts the newest page change again,
+# marked as a test, to check that the webhook works. Nothing is deployed, and
+# the next real announcement never edits the test message.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # to find the newest page change
+
+      - env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python3 .github/scripts/announce.py --test

@@ -5,6 +5,11 @@ name: Test the Discord announcement
 # the next real announcement never edits the test message.
 on:
   workflow_dispatch:
+    inputs:
+      ping:
+        description: Ping @everyone, as a real announcement does
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -19,4 +24,4 @@ jobs:
 
       - env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python3 .github/scripts/announce.py --test
+        run: python3 .github/scripts/announce.py --test ${{ inputs.ping && '--ping' || '' }}

@@ -130,6 +130,14 @@ went up. After 24 hours it is left alone, and the next change starts a new
 message. If the open message has been deleted from the channel, the next
 change also starts a new one. The window is `EDIT_WINDOW` in the script.
 
+**Each new message pings @everyone.** Edits do not ping again, because Discord
+only notifies when a message is posted. So the first change of the day pings,
+and the rest are folded into the same message silently. To ping a role instead
+(e.g. `<@&role-id>`), change `PING` in the script and add the role to
+`allowed_mentions`. If the ping shows as plain text and notifies no one, give
+the webhook *Mention @everyone, @here, and All Roles* in the channel's
+permissions.
+
 The message being edited is remembered between runs in the Actions cache
 (`announce-state-*`). If that cache is ever cleared, the next change simply
 starts a new message.
@@ -167,7 +175,7 @@ and posts nothing.
 **Test the webhook** from the Actions tab: *Test the Discord announcement* →
 *Run workflow*. It posts the newest page change again, titled "(test)", as a
 message of its own. Nothing is deployed, and later announcements never edit
-it.
+it. It does not ping unless you tick *Ping @everyone* before running it.
 
 **Preview a message** without posting it, for any range of commits:
 

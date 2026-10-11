@@ -11,7 +11,10 @@ since it went up. After that, the next change starts a new message.
 
     python .github/scripts/announce.py --last <sha> [--head <sha>]
                                        [--state <file>] [--dry-run]
-    python .github/scripts/announce.py --test [--dry-run]
+    python .github/scripts/announce.py --test [--ping] [--dry-run]
+
+Each new message pings @everyone. Edits do not ping again: Discord only
+notifies when a message is posted.
 
 What counts as a change is what a reader would see. Changes to the coding of
 the wiki stay quiet:
@@ -52,6 +55,9 @@ CMS_MESSAGE = re.compile(r"\(via Pages CMS\)\s*$")
 
 # How long a message keeps taking edits before the next change gets a new one.
 EDIT_WINDOW = 24 * 60 * 60
+
+# Who a new post notifies.
+PING = "@everyone"
 
 COLOUR = 0xBF00FF            # --wd-accent in docs/stylesheets/tokens.css
 
@@ -337,13 +343,20 @@ def _embed(site_name, site_url, head, description):
 
 
 def _payload(embed):
-    # Nothing in a page title or a commit message should be able to ping
-    # anyone, @everyone included.
-    return {"embeds": [embed], "allowed_mentions": {"parse": []}}
+    # The ping is the message's only text: page titles and commit messages sit
+    # in the embed, where a mention never pings, and allowed_mentions lets
+    # @everyone through but no user or role.
+    #
+    # Discord pings when a message is posted, never when it is edited, so a
+    # post pings once and the changes folded into it later arrive quietly.
+    return {"content": PING, "embeds": [embed],
+            "allowed_mentions": {"parse": ["everyone"]}}
 
 
 def show(payload):
     embed = payload["embeds"][0]
+    if payload.get("content"):
+        print(payload["content"])
     print(embed["title"])
     print(embed["description"])
     for field in embed.get("fields", []):
@@ -423,16 +436,20 @@ def latest_change(head):
     return None
 
 
-def test(head, dry_run):
+def test(head, dry_run, ping):
     """Post the newest page change again, marked as a test.
 
     It goes up as a message of its own and is not remembered, so the next
-    real change starts or edits a real message, never this one.
+    real change starts or edits a real message, never this one. It pings only
+    when asked to, so checking the webhook does not wake the whole server.
     """
     commit = latest_change(head)
     if commit is None:
         sys.exit("No page change to show.")
     payload = build_message(commit + "^", commit)
+    if not ping:
+        del payload["content"]
+        payload["allowed_mentions"] = {"parse": []}
     embed = payload["embeds"][0]
     embed["title"] += " (test)"
     embed["footer"] = {"text": "A test of the wiki's announcements: "
@@ -461,13 +478,15 @@ def main():
     ap.add_argument("--state", help="the file that remembers the message open for edits")
     ap.add_argument("--test", action="store_true",
                     help="post the newest page change again, marked as a test")
+    ap.add_argument("--ping", action="store_true",
+                    help="with --test: ping %s, as a real announcement does" % PING)
     ap.add_argument("--dry-run", action="store_true",
                     help="print the message instead of posting it")
     args = ap.parse_args()
 
     head = git("rev-parse", "--verify", args.head + "^{commit}").strip()
     if args.test:
-        test(head, args.dry_run)
+        test(head, args.dry_run, args.ping)
         return
 
     last = args.last

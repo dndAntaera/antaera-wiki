@@ -46,3 +46,48 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Tell the Discord channel which pages changed. See MAINTAINING.md.
+  announce:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read      # to find the last run that finished
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Which Discord message is still taking edits, carried from run to run.
+      # Every run saves under a key of its own; the prefix finds the newest.
+      - uses: actions/cache/restore@v4
+        with:
+          path: .announce-state.json
+          key: announce-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: announce-state-
+
+      # The last successful run is the last commit announced. Comparing with
+      # it rather than with this push's parent keeps a cancelled run's changes
+      # in the next message instead of losing them.
+      - id: last
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          sha=$(gh run list --workflow deploy.yml --branch main --status success \
+                  --limit 1 --json headSha --jq '.[0].headSha // ""')
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+      - env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: >
+          python3 .github/scripts/announce.py
+          --last "${{ steps.last.outputs.sha }}" --head "$GITHUB_SHA"
+          --state .announce-state.json
+
+      - if: hashFiles('.announce-state.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .announce-state.json
+          key: announce-state-${{ github.run_id }}-${{ github.run_attempt }}

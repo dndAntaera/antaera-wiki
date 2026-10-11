@@ -117,6 +117,66 @@ they are absolute.
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site
 and publishes it to GitHub Pages.
 
+### Announcements on Discord
+
+As soon as the site is live, the workflow's last job posts the pages that
+changed to a Discord channel: new, edited, moved and removed, each linked to
+its live page, with the commit messages underneath.
+`.github/scripts/announce.py` writes the message.
+
+**One message a day.** For 24 hours after a message is posted, later changes
+are added to it by editing it, so it always lists everything changed since it
+went up. After 24 hours it is left alone, and the next change starts a new
+message. If the open message has been deleted from the channel, the next
+change also starts a new one. The window is `EDIT_WINDOW` in the script.
+
+The message being edited is remembered between runs in the Actions cache
+(`announce-state-*`). If that cache is ever cleared, the next change simply
+starts a new message.
+
+**What counts as a change** is anything a reader would see. Changes to the
+coding of the wiki stay quiet:
+
+- Only Markdown pages under `docs/`. Styles, hooks, images and config are
+  never announced.
+- A page whose words are the same before and after is left out, so changing
+  its layout markup, classes, heading levels, bold or italics, or line breaks
+  does not count. Titles are words, so renaming a card's heading ("Overview")
+  is announced. So is a change to the label printed on a card (`data-wd-kind`),
+  a picture, a link, or alt text.
+- A commit with `[quiet]` anywhere in its message is left out. This is for
+  coding changes that also touch a page's words, and for anything the owner
+  asks to keep quiet. Typo fixes and other content edits are announced. A page
+  a `[quiet]` commit touched is still announced if another commit changed its
+  words.
+- Pages CMS's own commit messages ("Update docs/... (via Pages CMS)") are left
+  out of the commit messages, since they only repeat a file name. The page
+  they saved is still listed.
+
+Each run covers everything since the last run that finished, so a build that
+failed or was cancelled loses nothing. Its changes go out with the next
+successful one.
+
+**Setup.** In Discord, open the channel's settings, then Integrations →
+Webhooks → New Webhook, and copy its URL. In GitHub, save it as an Actions
+secret named `DISCORD_WEBHOOK_URL` (Settings → Secrets and variables →
+Actions). Anyone holding the URL can post to the channel, so keep it out of
+the repository. Without the secret, the job prints the message to the run log
+and posts nothing.
+
+**Preview a message** without posting it, for any range of commits:
+
+```bash
+python .github/scripts/announce.py --last <older-sha> --head <newer-sha> --dry-run
+```
+
+Drop `--dry-run` and set `DISCORD_WEBHOOK_URL` in the environment to post it
+for real, e.g. to test a new webhook. Without `--state` it always posts a new
+message rather than editing one.
+
+If Discord rejects the message, the job fails and the run shows red, though
+the site itself deployed. The next successful run retries the same changes.
+
 ## Hosting architecture
 
 GitHub Pages is the live site. This machine is the disaster-recovery copy.

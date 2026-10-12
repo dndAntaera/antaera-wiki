@@ -212,6 +212,21 @@ EDITS = {
     "cosmology": [
         (None, ' Anything that references the "Plane of Shadow" should instead reference the Shadowlands. For example, any spell that uses the "Plane of Shadow" to travel, instead uses the Shadowlands, and spells such as Shadow Conjuration, or the mysteries used by a Shadowcaster, draw upon the energies of the Shadowlands.', ""),
     ],
+    # Every other sphere gives its facts as a list. Paxaeterna wrote the
+    # first two as plain lines and indented the primary body's own facts
+    # under them, which Markdown reads as a code block.
+    "spelljamming-sphere-paxaeterna": [
+        (None,
+         "Type of Sphere: Standard<br>\nPrimary Body:\n\n"
+         "    - Name: Serenitas\n"
+         "    - Type: Manifest Zone (Positive Energy Plane)\n"
+         "    - Spelljamming Aware: Yes",
+         "\n- Type of Sphere: Standard\n"
+         "- Primary Body:\n"
+         "    - Name: Serenitas\n"
+         "    - Type: Manifest Zone (Positive Energy Plane)\n"
+         "- Spelljamming Aware: Yes"),
+    ],
     # Typos.
     "deity-ukrol": [
         (None, "Tyrrany", "Tyranny"),
@@ -1573,6 +1588,7 @@ def convert(src, slug, img_by_url, tables, linkmap):
     s = table_notes(s)
     s = aside_tables(s)
     s = alpha_columns(s)
+    s = label_after_list(s)
     # One race, two names. "Mercane" is the name in use - the passage device is
     # "a creation of the Mercane" and the planetary locator comes with "a
     # Mercane hull" - while sixteen other mentions still said "Arcane", one of
@@ -1658,6 +1674,24 @@ def relink(text, src, dst):
         return "](%s%s)" % (moved, "#" + anchor if anchor else "")
 
     return re.sub(r"\]\(([^)]+)\)", one, text)
+
+
+def label_after_list(s):
+    """Separate a bold label from the list above it.
+
+    Markdown reads "**Summer**" on the line after a list item as one more
+    line of that item, so the label printed as the tail of the last bullet.
+    A blank line between the two makes it the heading of what follows, which
+    is what it is: on the calendar, Summer, Autumn and Winter each open a
+    group of moons the way Spring does.
+    """
+    out = []
+    for line in s.split(chr(10)):
+        if (re.match(r"^\*\*[^*]+\*\*:?$", line.strip())
+                and out and re.match(r"^\s*[-*+] ", out[-1])):
+            out.append("")
+        out.append(line)
+    return chr(10).join(out)
 
 
 def alpha_columns(s):

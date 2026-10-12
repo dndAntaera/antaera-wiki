@@ -135,6 +135,12 @@ message. It has two parts:
 - **A summary**: the commit messages behind those pages, minus Pages CMS's
   automatic ones.
 
+Everything is listed in full. Only a message that would run past Discord's
+limits (4096 characters for the list, 1024 for the summary) is shortened, and
+only as far as it has to be: the longest lists of changes are cut first, a
+line at a time and counted ("…and 2 more"), then the descriptions, then pages
+from the end. The summary drops its oldest lines first.
+
 **One message a day.** For 24 hours after a message is posted, later changes
 are added to it by editing it, so it always lists everything changed since it
 went up. After 24 hours it is left alone, and the next change starts a new

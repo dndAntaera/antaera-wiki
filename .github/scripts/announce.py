@@ -67,9 +67,10 @@ PING = "Ping: || <@&%s> ||" % SCARS_ROLE_ID
 COLOUR = 0xBF00FF            # --wd-accent in docs/stylesheets/tokens.css
 
 # Discord caps an embed's description at 4096 characters and a field at 1024.
-# The page list stops short of the cap and says how many it left out.
-DESCRIPTION_BUDGET = 3800
-NOTES_MAX = 10
+# Everything is listed in full. Only a message that would run past a cap is
+# shortened, and only as far as it takes to fit.
+DESCRIPTION_CAP = 4096
+FIELD_CAP = 1024
 
 USER_AGENT = "antaera-wiki-announcer (https://github.com/dndAntaera/antaera-wiki, 1.0)"
 
@@ -300,7 +301,6 @@ def escape(text):
 CLIP = 90       # characters a description may run to
 SMALL = 6       # words either side of a swap that still reads as one
 GAP = 3         # unchanged words that can sit inside one rewritten passage
-MAX_ITEMS = 4   # changes listed under one page before the rest are counted
 
 # A page with one change has it on the page's own line. A page with several
 # lists them under it, one to a line, each marked with this.
@@ -493,32 +493,13 @@ def build_message(base, head):
             line += " *(archived)*"
         elif info["wip"]:
             line += " *(work in progress)*"
-        line += _description(kind, old, new, base, head)
-        groups[kind].append((info["title"].lower(), line))
+        groups[kind].append((info["title"].lower(), line,
+                             _changes(kind, old, new, base, head)))
 
     if not any(groups.values()):
         return None
 
-    headings = {"added": "New", "edited": "Edited", "moved": "Moved",
-                "removed": "Removed"}
-    total = sum(len(v) for v in groups.values())
-    parts, used, shown = [], 0, 0
-    for kind, entries in groups.items():
-        if not entries or used >= DESCRIPTION_BUDGET:
-            continue
-        block = ["**%s**" % headings[kind]]
-        for _, line in sorted(entries):
-            if used + len(line) + 1 > DESCRIPTION_BUDGET:
-                break
-            block.append(line)
-            used += len(line) + 1
-            shown += 1
-        if len(block) > 1:
-            parts.append("\n".join(block))
-    if shown < total:
-        parts.append("*…and %d more*" % (total - shown))
-
-    embed = _embed(site_name, site_url, head, "\n\n".join(parts))
+    embed = _embed(site_name, site_url, head, _page_list(groups))
 
     # The commits behind the pages listed. One whose every change was later
     # undone has nothing left to explain.
@@ -528,19 +509,24 @@ def build_message(base, head):
                 and subject not in subjects):
             subjects.append(subject)
     if subjects:
-        # Newest last, and the newest kept when there are too many: a message
-        # that grows through the day should show what just happened.
-        lines = ["• " + escape(s) for s in subjects[-NOTES_MAX:]]
-        if len(subjects) > NOTES_MAX:
-            lines.insert(0, "*…and %d earlier*" % (len(subjects) - NOTES_MAX))
-        embed["fields"] = [{"name": "Summary",
-                            "value": "\n".join(lines)[:1024]}]
+        # Newest last. Only past the cap are the oldest counted instead of
+        # listed, so a message that grows through the day still shows what
+        # just happened.
+        lines = ["• " + escape(s) for s in subjects]
+        value, dropped = "\n".join(lines), 0
+        while len(value) > FIELD_CAP and dropped < len(lines) - 1:
+            dropped += 1
+            value = "\n".join(["*…and %d earlier*" % dropped] + lines[dropped:])
+        embed["fields"] = [{"name": "Summary", "value": value[:FIELD_CAP]}]
 
     return _payload(embed)
 
 
-def _description(kind, old, new, base, head):
-    """What happened to a page, to follow its line in the list."""
+HEADINGS = {"added": "New", "edited": "Edited", "moved": "Moved", "removed": "Removed"}
+
+
+def _changes(kind, old, new, base, head):
+    """What happened to a page, one item to a change."""
     before, after = blobs.get(base, old), blobs.get(head, new)
     if kind == "added":
         items = [describe_new(after)]
@@ -551,14 +537,59 @@ def _description(kind, old, new, base, head):
         if readable(before) != readable(after):
             items += describe_edit(before, after)
     else:
-        return ""
-    items = [_item(i) for i in items]
+        items = []
+    return [_item(i) for i in items]
+
+
+def _entry(line, items, cap):
+    """A page's line and its changes: one on the same line, several under it.
+
+    cap None lists every change. Otherwise a page with more than cap has the
+    rest counted instead, and cap 0 leaves the page's line alone.
+    """
+    if not items or cap == 0:
+        return line
     if len(items) == 1:
-        return " — " + items[0]
-    if len(items) > MAX_ITEMS:
-        rest = len(items) - (MAX_ITEMS - 1)
-        items = items[:MAX_ITEMS - 1] + ["*…and %d more*" % rest]
-    return "".join("\n" + SUB + i for i in items)
+        return line + " — " + items[0]
+    if cap is not None and len(items) > cap:
+        items = items[:cap] + ["*…and %d more*" % (len(items) - cap)]
+    return line + "".join("\n" + SUB + i for i in items)
+
+
+def _page_list(groups):
+    """The description: every page and every change, in full if it fits.
+
+    Past Discord's cap it is shortened only as far as it has to be: the
+    longest lists of changes are cut first, a line at a time; then the
+    changes go altogether; then, last, pages from the end.
+    """
+    total = sum(len(entries) for entries in groups.values())
+
+    def render(cap, keep=total):
+        parts, shown = [], 0
+        for kind, entries in groups.items():
+            lines = []
+            for _, line, items in sorted(entries):
+                if shown == keep:
+                    break
+                lines.append(_entry(line, items, cap))
+                shown += 1
+            if lines:
+                parts.append("**%s**\n%s" % (HEADINGS[kind], "\n".join(lines)))
+        if shown < total:
+            parts.append("*…and %d more pages*" % (total - shown))
+        return "\n\n".join(parts)
+
+    most = max(len(items) for entries in groups.values() for _, _, items in entries)
+    for cap in [None] + list(range(most - 1, -1, -1)):
+        text = render(cap)
+        if len(text) <= DESCRIPTION_CAP:
+            return text
+    for keep in range(total - 1, 0, -1):
+        text = render(0, keep)
+        if len(text) <= DESCRIPTION_CAP:
+            return text
+    return render(0, 1)[:DESCRIPTION_CAP]
 
 
 def undone_message(head):

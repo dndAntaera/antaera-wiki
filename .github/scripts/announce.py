@@ -300,6 +300,11 @@ def escape(text):
 CLIP = 90       # characters a description may run to
 SMALL = 6       # words either side of a swap that still reads as one
 GAP = 3         # unchanged words that can sit inside one rewritten passage
+MAX_ITEMS = 4   # changes listed under one page before the rest are counted
+
+# A page with one change has it on the page's own line. A page with several
+# lists them under it, one to a line, each marked with this.
+SUB = " ◦ "
 
 
 def clip(text, limit=CLIP):
@@ -424,13 +429,12 @@ def describe_edit(before, after):
                 verbs.pop() if len(verbs) == 1 else "rewrote")
         by_verb.setdefault(verb, []).append(where)
     for verb in ("added", "rewrote", "expanded", "cut from"):
-        if verb in by_verb:
-            items.append("%s %s" % (verb, ", ".join(by_verb[verb])))
+        items += ["%s %s" % (verb, where) for where in by_verb.get(verb, [])]
     items += ["added “%s”" % s for s in dict.fromkeys(adds)]
     items += ["cut “%s”" % s for s in dict.fromkeys(cuts)]
     if relinked and not items:
         items.append("links updated")
-    return _sentence(items) or "small edits"
+    return items or ["small edits"]
 
 
 def describe_new(text):
@@ -460,9 +464,8 @@ def describe_move(old_path):
     return "moved from %s" % old_path[len("docs/"):-len(".md")]
 
 
-def _sentence(items):
-    text = "; ".join(items)
-    return clip(text[:1].upper() + text[1:]) if text else ""
+def _item(text):
+    return escape(clip(text[:1].upper() + text[1:]))
 
 
 def build_message(base, head):
@@ -537,19 +540,25 @@ def build_message(base, head):
 
 
 def _description(kind, old, new, base, head):
-    """' — what happened', for the end of a page's line in the list."""
+    """What happened to a page, to follow its line in the list."""
     before, after = blobs.get(base, old), blobs.get(head, new)
     if kind == "added":
-        text = describe_new(after)
+        items = [describe_new(after)]
     elif kind == "edited":
-        text = describe_edit(before, after)
+        items = describe_edit(before, after)
     elif kind == "moved":
-        text = describe_move(old)
+        items = [describe_move(old)]
         if readable(before) != readable(after):
-            text = _sentence([text, describe_edit(before, after)])
+            items += describe_edit(before, after)
     else:
         return ""
-    return " — " + escape(text)
+    items = [_item(i) for i in items]
+    if len(items) == 1:
+        return " — " + items[0]
+    if len(items) > MAX_ITEMS:
+        rest = len(items) - (MAX_ITEMS - 1)
+        items = items[:MAX_ITEMS - 1] + ["*…and %d more*" % rest]
+    return "".join("\n" + SUB + i for i in items)
 
 
 def undone_message(head):

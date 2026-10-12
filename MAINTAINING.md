@@ -129,6 +129,13 @@ message. It has two parts:
   - a few words swapped read as `Shadowlands → Plane of Shadow`;
   - a bigger change names its section: `expanded Overview`,
     `rewrote History`, `added Dogma`;
+  - sections added or removed together are one change, named by the first
+    of them, not a line for every heading inside;
+  - a passage cut from one place and added in another is described as the
+    move, on both pages: `The Antæran Calendar moved to The Antæra Sphere`
+    and `… moved here from Setting Timeline`; a section split into a page of
+    its own, a page folded into another, and sections reordered on a page
+    read the same way;
   - known changes are spelled out: `retitled from …`, `finished` (no longer
     a work in progress);
   - a new page shows its opening line.

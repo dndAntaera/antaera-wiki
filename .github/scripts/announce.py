@@ -42,6 +42,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -358,35 +359,142 @@ def _section(name, title):
     return "the opening" if not name or name == title else name
 
 
-def describe_edit(before, after):
-    old_meta, old_body = split_page(before)
-    new_meta, new_body = split_page(after)
-    title = new_meta.get("title")
+class Change:
+    """One page's change, read closely enough to describe."""
+
+    def __init__(self, kind, old, new, base, head, title):
+        self.kind, self.old, self.new, self.title = kind, old, new, title
+        self.before = None if kind == "added" else blobs.get(base, old)
+        self.after = None if kind == "removed" else blobs.get(head, new)
+        self.old_meta, old_body = split_page(self.before)
+        self.new_meta, new_body = split_page(self.after)
+        self.a, self.a_sec, self.a_starts = tokens(old_body)
+        self.b, self.b_sec, self.b_starts = tokens(new_body)
+        self.passages = _passages(self.a, self.b)
+        # Passages that are part of a move, by index: the line that says so,
+        # or None where the other end of the move says it.
+        self.moves = {}
+
+
+# A passage this long that leaves one place and turns up in another, near
+# enough word for word, was moved; it is described as the move, not as a
+# section cut here and every heading in it added there.
+MOVE_MIN = 40       # words
+MOVE_MATCH = 0.6    # share of words in common
+
+
+def _bag(words):
+    return Counter(w.lower() for w in words)
+
+
+def _shared(x, y):
+    return sum((x & y).values())
+
+
+def _block_name(words_sec, starts, lo, hi):
+    """The first heading that begins inside a passage, if one does."""
+    return next((words_sec[k] for k in range(lo, hi) if k in starts), None)
+
+
+def _movable(lo, hi, starts):
+    # Long enough to be sure of, or a whole section however short: a passage
+    # that carries its own heading is unlikely to match another by chance.
+    return hi - lo >= MOVE_MIN or (hi - lo > SMALL and any(k in starts for k in range(lo, hi)))
+
+
+def find_moves(changes):
+    cuts = [(c, n) for c in changes for n, (i1, i2, _, _) in enumerate(c.passages)
+            if _movable(i1, i2, c.a_starts)]
+    adds = [(c, n) for c in changes for n, (_, _, j1, j2) in enumerate(c.passages)
+            if _movable(j1, j2, c.b_starts)]
+    adds.sort(key=lambda cn: cn[0].passages[cn[1]][2] - cn[0].passages[cn[1]][3])
+    for dest, dn in adds:
+        _, _, j1, j2 = dest.passages[dn]
+        added = _bag(dest.b[j1:j2])
+        best, score = None, MOVE_MATCH
+        for src, sn in cuts:
+            if (src, sn) == (dest, dn) or sn in src.moves:
+                continue
+            i1, i2, _, _ = src.passages[sn]
+            s = _shared(added, _bag(src.a[i1:i2])) / max(j2 - j1, i2 - i1)
+            if s >= score:
+                best, score = (src, sn), s
+        if best is None:
+            continue
+        src, sn = best
+        i1, i2, _, _ = src.passages[sn]
+        name = (_block_name(dest.b_sec, dest.b_starts, j1, j2)
+                or _block_name(src.a_sec, src.a_starts, i1, i2))
+        _describe_move(src, sn, dest, dn, name)
+        # Smaller pieces of the same move, split off where a few words on
+        # either side happened to match, go with it.
+        left = added - _bag(src.a[i1:i2])
+        for n, (k1, k2, _, _) in enumerate(src.passages):
+            piece = _bag(src.a[k1:k2])
+            if n not in src.moves and k2 > k1 and _shared(left, piece) >= 0.8 * (k2 - k1):
+                src.moves[n] = None
+                left -= piece
+
+
+def _describe_move(src, sn, dest, dn, name):
+    if src is dest:
+        dest.moves[dn] = "moved %s" % (name or "a passage")
+        src.moves[sn] = None
+        return
+    dest.moves[dn] = "moved here from %s" % src.title
+    if dest.kind == "added" and name == dest.title:
+        src.moves[sn] = "%s moved to a page of its own" % name
+    else:
+        src.moves[sn] = "moved to %s" % dest.title
+    # Named on both sides, unless the name is one of the pages': a whole
+    # page folded into another needs no name beyond its own.
+    if name and name not in (src.title, dest.title):
+        dest.moves[dn] = "%s %s" % (name, dest.moves[dn])
+        src.moves[sn] = "%s %s" % (name, src.moves[sn])
+
+
+def _sections_named(names):
+    """A run of sections added or taken away together, named as one."""
+    names = list(dict.fromkeys(names))
+    return " and ".join(names) if len(names) <= 2 else names[0]
+
+
+def describe_edit(change):
+    c = change
+    title = c.new_meta.get("title")
     items = []
 
-    if old_meta.get("title") and old_meta.get("title") != title:
-        items.append("retitled from %s" % old_meta["title"])
+    if c.old_meta.get("title") and c.old_meta.get("title") != title:
+        items.append("retitled from %s" % c.old_meta["title"])
     for flag, set_, cleared in (("wip", "marked a work in progress", "finished"),
                                 ("archived", "archived", "back from the archive")):
-        was, now = old_meta.get(flag) == "true", new_meta.get(flag) == "true"
+        was, now = c.old_meta.get(flag) == "true", c.new_meta.get(flag) == "true"
         if was != now:
             items.append(set_ if now else cleared)
 
-    a, a_sec, a_starts = tokens(old_body)
-    b, b_sec, b_starts = tokens(new_body)
+    a, a_sec, a_starts = c.a, c.a_sec, c.a_starts
+    b, b_sec, b_starts = c.b, c.b_sec, c.b_starts
     old_heads, new_heads = set(a_sec), set(b_sec)
-    swaps, sections, adds, cuts, relinked = {}, {}, [], [], False
-    for i1, i2, j1, j2 in _passages(a, b):
-        # A heading that begins in this passage and is new to the page is a
-        # section added, unless one went at the same time: that is a rename,
-        # and reads as a swap like any other.
+    swaps, sections, blocks, adds, cuts, relinked = {}, {}, [], [], [], False
+    for n, (i1, i2, j1, j2) in enumerate(c.passages):
+        if n in c.moves:
+            if c.moves[n]:
+                blocks.append(c.moves[n])
+            continue
+        # Headings that begin in this passage and are new to the page are
+        # sections added, as one change however many there are; headings
+        # that went are sections removed. Both at once is a rename, and reads
+        # as a swap like any other.
         fresh = [b_sec[k] for k in range(j1, j2) if k in b_starts and b_sec[k] not in old_heads]
         gone = [a_sec[k] for k in range(i1, i2) if k in a_starts and a_sec[k] not in new_heads]
         if fresh and not gone:
-            for h in fresh:
-                sections.setdefault("a title card" if h == title else h, set()).add("added")
+            blocks.append("added " + _sections_named(
+                "a title card" if h == title else h for h in fresh))
             if i2 - i1 > SMALL:
                 sections.setdefault(_section(a_sec[i1], title), set()).add("rewrote")
+            continue
+        if gone and not fresh and j2 - j1 <= SMALL:
+            blocks.append("removed " + _sections_named(gone))
             continue
         # A word or two slipped in or out of a name reads better as the
         # name changing: "Radiance → Quasi-Elemental Plane of Radiance".
@@ -422,13 +530,13 @@ def describe_edit(before, after):
             continue
         kept.append(core)
         items.append("%s → %s" % (old, new))
+    items += list(dict.fromkeys(blocks))
     # One verb to a section: grown in one place and cut in another is rewritten.
     by_verb = {}
     for where, verbs in sections.items():
-        verb = ("added" if "added" in verbs else
-                verbs.pop() if len(verbs) == 1 else "rewrote")
+        verb = verbs.pop() if len(verbs) == 1 else "rewrote"
         by_verb.setdefault(verb, []).append(where)
-    for verb in ("added", "rewrote", "expanded", "cut from"):
+    for verb in ("rewrote", "expanded", "cut from"):
         items += ["%s %s" % (verb, where) for where in by_verb.get(verb, [])]
     items += ["added “%s”" % s for s in dict.fromkeys(adds)]
     items += ["cut “%s”" % s for s in dict.fromkeys(cuts)]
@@ -476,6 +584,7 @@ def build_message(base, head):
     groups = {"added": [], "edited": [], "moved": [], "removed": []}
     listed = set()
 
+    pages = []
     for kind, old, new in changed_pages(base, head):
         if old not in paths and new not in paths:
             continue
@@ -484,20 +593,22 @@ def build_message(base, head):
             continue
         listed.update((old, new))
         info = page_info(base if kind == "removed" else head, new)
+        pages.append((info, Change(kind, old, new, base, head, info["title"])))
+    if not pages:
+        return None
+
+    find_moves([change for _, change in pages])
+    for info, change in pages:
         title = escape(info["title"])
-        if kind == "removed":
+        if change.kind == "removed":
             line = "• ~~%s~~" % title
         else:
-            line = "• [%s](%s)" % (title, page_url(site_url, new))
+            line = "• [%s](%s)" % (title, page_url(site_url, change.new))
         if info["archived"]:
             line += " *(archived)*"
         elif info["wip"]:
             line += " *(work in progress)*"
-        groups[kind].append((info["title"].lower(), line,
-                             _changes(kind, old, new, base, head)))
-
-    if not any(groups.values()):
-        return None
+        groups[change.kind].append((info["title"].lower(), line, _changes(change)))
 
     embed = _embed(site_name, site_url, head, _page_list(groups))
 
@@ -525,19 +636,22 @@ def build_message(base, head):
 HEADINGS = {"added": "New", "edited": "Edited", "moved": "Moved", "removed": "Removed"}
 
 
-def _changes(kind, old, new, base, head):
+def _changes(change):
     """What happened to a page, one item to a change."""
-    before, after = blobs.get(base, old), blobs.get(head, new)
-    if kind == "added":
-        items = [describe_new(after)]
-    elif kind == "edited":
-        items = describe_edit(before, after)
-    elif kind == "moved":
-        items = [describe_move(old)]
-        if readable(before) != readable(after):
-            items += describe_edit(before, after)
+    c = change
+    moved = [m for m in c.moves.values() if m]
+    if c.kind == "added":
+        # A page made from a passage moved out of another says so; any
+        # other new page shows its opening line.
+        items = moved or [describe_new(c.after)]
+    elif c.kind == "removed":
+        items = moved
+    elif c.kind == "edited":
+        items = describe_edit(c)
     else:
-        items = []
+        items = [describe_move(c.old)]
+        if readable(c.before) != readable(c.after):
+            items += describe_edit(c)
     return [_item(i) for i in items]
 
 

@@ -26,11 +26,11 @@ wip: true
 
 **Transitive Planes** are planes of existence that connect other planes together or could be used as a means of travel between points on a single plane. These are planes that are used to access two different points in space, whether the start and end points are on the same plane or not.
 
-**Parallel Material Planes** are alternate versions of the Prime Material Plane that Antæra is located on. Each one is a mirror of the prime that is inherently influenced by the Inner Plane that it is most reminiscent of. For example, the Shadowlands is a version of the Prime that has been influenced by the Negative Energy Plane, while the Earthspire Expanse is a version of the Prime that has been influenced by the Elemental Plane of Earth.
+**Parallel Material Planes** are alternate versions of the Prime Material Plane that Antæra is located on. Each one is a mirror of the prime that is inherently influenced by the Inner Plane that it is most reminiscent of. For example, the Plane of Shadow is a version of the Prime that has been influenced by the Negative Energy Plane, while the Elemental Plane of Earth is a version of the Prime that has been influenced by the Elemental Plane of Earth.
 
 **Inner Planes** are distinct, isolated realms which exist outside of our immediate reality. Accessible through gates, spells, and magic portals, these planes are not directly connected to each other, maintaining their purity with only occasional overlaps of different elemental realms. The Ethereal Plane serves as the gateway to the Inner Planes, with spells tapping into the Ethereal Plane facilitating travel to these realms. Established portals often link to inhabited regions within the Inner Planes, where visitors from other realms are somewhat tolerated.
 
-Additionally, natural manifest zones form between similar locations across different planes, creating passages that allow effortless travel. For instance, the heart of a volcano on the Inferno Sands might house a manifest zone to the Elemental Plane of Fire. At the same time, a well of corruption within the Shadowlands may connect to a [Tainted](rules/taint.md) forest on the Prime. These manifest zones represent weak spots in reality, bridging the Inner Planes with the Material Plane.
+Additionally, natural manifest zones form between similar locations across different planes, creating passages that allow effortless travel. For instance, the heart of a volcano might house a manifest zone to the Elemental Plane of Fire. At the same time, a well of corruption within the Plane of Shadow may connect to a [Tainted](rules/taint.md) forest on the Prime. These manifest zones represent weak spots in reality, bridging the Inner Planes with the Material Plane.
 
 **Outer Planes** embody the multiverse’s direction, intention, and thought. Often referred to as divine, spiritual, or godly planes by many sages, the Outer Planes are predominantly recognized as the homes of the deities. While deities may reside in various locations, they find their truest expression and power within the Outer Planes.
 
@@ -50,7 +50,7 @@ However, this perception is misleading. The landscapes of the Outer Planes, whil
 - [True Afterlife](plane/true-afterlife.md)
 - Far Realms
 - [The Region of Dreams](plane/region-of-dreams.md)
-- [The Void](plane/void.md)
+- Quasi-Elemental Plane of Vacuum
 
 </div>
 </div>

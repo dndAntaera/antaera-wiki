@@ -226,6 +226,9 @@ EDITS = {
 # the whole Wikidot backup mentions it outside that stub.
 REMOVED = {
     "frymrit",
+    # A disambiguation stub for a plane the setting no longer has: the Void is
+    # the Quasi-Elemental Plane of Vacuum now - see PLANES.
+    "void",
 }
 
 # Slug prefixes with enough pages to be worth a folder.
@@ -846,6 +849,66 @@ ALIGNMENT_AXES = {
 PHRASES = [
     (r"the Legends of Antæra are", "the legends of Antæra are"),
     (r"Legends of Antæra", "The World of Antæra"),
+]
+
+# The setting's own planes, mapped onto the Great Wheel. Each of these was a
+# homebrew plane standing where a standard one does the same job, and the
+# setting reads as 3.5e's cosmology now. Longer phrases come first: a sentence
+# that names the old plane twice - a volcano on the Inferno Sands with a
+# manifest zone to the Elemental Plane of Fire - says the same thing twice
+# once both halves are renamed, so it is rewritten whole.
+#
+# Three names are left alone: Nihil is still the Herald of Void and Seralyne
+# the Herald of Radiance, which are their titles rather than places, and the
+# Great Conflagration and the Swamp of Oblivion stay as they are.
+PLANES = [
+    # Sentences that would otherwise say the same plane twice.
+    (r"the heart of a volcano on the Inferno Sands might house",
+     "the heart of a volcano might house"),
+    (r"You were born and raised in the Earthspire Expanse, as such your "
+     r"ancestors hailed from the Elemental Plane of Earth\.",
+     "You were born and raised on the Elemental Plane of Earth."),
+    (r"You were born and raised in the Zephyr Haven, as such your ancestors "
+     r"hailed from the Elemental Plane of Air\.",
+     "You were born and raised on the Elemental Plane of Air."),
+    # Realms that named no plane, and the sentences that placed them.
+    (r"is a citadel suspended between the Ethereal and Material planes",
+     "is a citadel on the Plane of Shadow"),
+    (r"The Moonshadow Sanctum, between the Ethereal and Material Planes",
+     "Plane of Shadow"),
+    (r"Ukrol's divine realm, known as the Dominion of Exiles,",
+     "Ukrol's divine realm, in Gehenna,"),
+    (r"The Dominion of Exiles", "Gehenna"),
+    (r"abyssal dominion known as the Shattered Abyss",
+     "abyssal dominion within the Abyss"),
+    (r"The Shattered Abyss", "The Abyss"),
+    (r"The Wanderer's Trove, Zephyr Haven", "Elemental Plane of Air"),
+    (r"within Zephyr Haven", "within the Elemental Plane of Air"),
+    (r"the Zephyr Haven", "the Elemental Plane of Air"),
+    (r"Zephyr Haven", "the Elemental Plane of Air"),
+    (r"known as the Luminara", "known as Mount Celestia"),
+    (r"\bLuminara\b", "Mount Celestia"),
+    # Parallel Material Planes that were versions of the planes they mirrored.
+    (r"the Earthspire Expanse", "the Elemental Plane of Earth"),
+    (r"\bEarthspire Expanse\b", "Elemental Plane of Earth"),
+    (r"the Inferno Sands", "the Elemental Plane of Fire"),
+    (r"\bInferno Sands\b", "Elemental Plane of Fire"),
+    (r"the Shadowlands", "the Plane of Shadow"),
+    (r"\bShadowlands\b", "Plane of Shadow"),
+    # Quasi-elemental planes under other names.
+    (r"- \*\*Home Plane\*\*: Plane of Gems",
+     "- **Home Plane**: Quasi-Elemental Plane of Minerals"),
+    (r"- \*\*Home Plane\*\*: Radiance",
+     "- **Home Plane**: Quasi-Elemental Plane of Radiance"),
+    (r"- \[The Void\]\(plane/void\.md\)", "- Quasi-Elemental Plane of Vacuum"),
+    (r"\[The Void\]\([^)]*\)", "the Quasi-Elemental Plane of Vacuum"),
+    (r"\n- The Void\n", "\n- Quasi-Elemental Plane of Vacuum\n"),
+    # The three planar backgrounds are named for the plane a character comes
+    # from, and two of them were named for planes the setting no longer has.
+    # Each takes the name its heritage feat uses: Earth, Shadow, Air.
+    (r"## Earthspire Native", "## Earth Native"),
+    (r"## Plane of Shadow Native", "## Shadow Native"),
+    (r"## Zephyr Native", "## Air Native"),
 ]
 
 COSMOLOGY_35 = [
@@ -2244,7 +2307,7 @@ def finish_site():
             with open(path, encoding="utf-8") as fh:
                 text = fh.read()
             new = text
-            for pattern, standard in COSMOLOGY_35 + PHRASES:
+            for pattern, standard in COSMOLOGY_35 + PHRASES + PLANES:
                 new = re.sub(pattern, standard, new)
             new = deity_words(abbreviate_alignments(new))
             if new != text:

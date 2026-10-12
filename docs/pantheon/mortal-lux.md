@@ -16,7 +16,7 @@ title: "Lux Dawnbringer, the Luminous Sovereign"
 
 - **Rank**: Greater Deity
 - **Symbol**: A radiant sun, its rays extending outward in a circular pattern
-- **Home Plane**: Luminara
+- **Home Plane**: Mount Celestia
 - **Alignment**: LG
 - **Portfolio**: Justice, light, radiance, judgment
 - **Worshipers**: Priests and priestesses of the light, healers
@@ -40,7 +40,7 @@ Lux is a radiant figure, with golden hair that seems to emit a soft glow. Her ey
 **Guiding Hope**: Lux's worshipers are expected to be beacons of hope in their communities. They are encouraged to inspire and uplift others through their actions and words.
 
 **Divine Realm**
-Lux's divine realm, known as the Luminara, is a celestial plane bathed in eternal daylight. Glittering crystal spires rise from the radiant ground, and the air is filled with the harmonious hum of celestial hymns. It is a place where the faithful believe they will find solace and everlasting peace in the embrace of Lux's benevolent light.
+Lux's divine realm, known as Mount Celestia, is a celestial plane bathed in eternal daylight. Glittering crystal spires rise from the radiant ground, and the air is filled with the harmonious hum of celestial hymns. It is a place where the faithful believe they will find solace and everlasting peace in the embrace of Lux's benevolent light.
 
 **Clergy and Temples**
 The clergy of Lux consists of priests and priestesses who serve as guides and guardians of the light. Temples dedicated to the Luminous Sovereign are structures of breathtaking beauty, designed to capture and amplify natural light. They serve as places of worship, healing, and refuge for those in need.

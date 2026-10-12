@@ -16,7 +16,7 @@ title: "Selene, the Nightweaver"
 
 - **Rank**: Greater Deity
 - **Symbol**: A crescent moon intertwined with intricate elven glyphs
-- **Home Plane**: The Moonshadow Sanctum, between the Ethereal and Material Planes
+- **Home Plane**: Plane of Shadow
 - **Alignment**: CN
 - **Portfolio**: Secrets, shadows, night, illusion
 - **Worshipers**: Moon priests, shadowcasters
@@ -40,7 +40,7 @@ Selene is an ethereal elf of timeless beauty, her skin radiating a soft, silvery
 **Keepers of Secrets**: Selene's worshipers are tasked with guarding secrets, not as a means of deception but as a source of power and understanding. They are entrusted with the responsibility of using hidden knowledge for the greater good.
 
 **Divine Realm**
-Selene's divine realm, known as the Moonshadow Sanctum, is a citadel suspended between the Ethereal and Material planes and as such is a place where all creatures exist on both the Ethereal and Material planes. It is a place of perpetual night, illuminated by the soft glow of the moon. The sanctum holds hidden passages leading to all places in the multiverse where shadows exist.
+Selene's divine realm, known as the Moonshadow Sanctum, is a citadel on the Plane of Shadow and as such is a place where all creatures exist on both the Ethereal and Material planes. It is a place of perpetual night, illuminated by the soft glow of the moon. The sanctum holds hidden passages leading to all places in the multiverse where shadows exist.
 
 **Clergy and Temples**
 The clergy of Selene includes moon priests and shadowcasters who channel the mysteries of the night. Temples dedicated to the Nightweaver are often built in secluded and moonlit locations, adorned with silver and obsidian motifs. Their inner sanctums are said to be manifest zones of the Ethereal Plane.

@@ -16,7 +16,7 @@ title: "Vaylen, Patron of Sailors and Travelers"
 
 - **Rank**: Lesser Deity
 - **Symbol**: A compass encircled by waves and meandering paths
-- **Home Plane**: The Wanderer's Trove, Zephyr Haven
+- **Home Plane**: Elemental Plane of Air
 - **Alignment**: CG
 - **Portfolio**: Travel, oceans, winds, safe passage
 - **Worshipers**: Seafarers, explorers, messengers
@@ -38,7 +38,7 @@ Vaylen presents herself as an aquatic elf adventurer, her skin shimmering with t
 **Deliver Hope**: Followers are called to be beacons of hope, offering support and positivity to those facing challenges. This tenet is about showing compassion, providing encouragement, and helping light the way for others during difficult times. It emphasizes the impact of kindness and the strength found in collective optimism, ensuring that no one feels alone in their journey.
 
 **Divine Realm**
-The Wanderer's Trove, located within Zephyr Haven, serves as Vaylen’s divine abode—a cottage that chronicles the myriad expeditions and discoveries of her followers. This mystical dwelling, set in the ethereal beauty of Zephyr Haven, is a living museum of exploration. Every artifact, map, and relic within its walls weaves a tale of adventure, echoing Vaylen’s own life as a tireless explorer. It stands as a testament to the thrill of discovery, inspiring all who value the journey as much as the destination.
+The Wanderer's Trove, located within the Elemental Plane of Air, serves as Vaylen’s divine abode—a cottage that chronicles the myriad expeditions and discoveries of her followers. This mystical dwelling, set in the ethereal beauty of the Elemental Plane of Air, is a living museum of exploration. Every artifact, map, and relic within its walls weaves a tale of adventure, echoing Vaylen’s own life as a tireless explorer. It stands as a testament to the thrill of discovery, inspiring all who value the journey as much as the destination.
 
 **Clergy and Temples**
 Vaylen's devout followers, ranging from seafarers and explorers to messengers and common folk drawn to the allure of the unknown, gather at shrines situated at significant crossroads and harbors. These hallowed places, open to the sky and sea, are not merely sites of worship but also sanctuaries for those seeking Vaylen's blessings on their voyages. In recognizing the innate drive for exploration, even deities not aligned with lawful tenets respect the homage paid to Vaylen.

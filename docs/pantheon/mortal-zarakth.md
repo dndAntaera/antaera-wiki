@@ -16,7 +16,7 @@ title: "Zarakth, the Abyssal Scourge"
 
 - **Rank**: Greater Deity
 - **Symbol**: A blood-red vortex swirling around a jagged, shattered blade
-- **Home Plane**: The Shattered Abyss
+- **Home Plane**: The Abyss
 - **Alignment**: CE
 - **Portfolio**: Destruction, murder, chaos, ruin
 - **Worshipers**: Demons, cultists, nihilistic warlords
@@ -38,7 +38,7 @@ Zarakth is a monstrous and imposing demon lord, towering over lesser denizens of
 **Chaos Unleashed**: Zarakth values uncontrolled chaos and the unraveling of order. His followers are urged to incite chaos wherever they go, dismantling structures of authority and plunging the world into the anarchic embrace of destruction.
 
 **Divine Realm**
-Zarakth rules over an abyssal dominion known as the Shattered Abyss, a nightmarish expanse where the screams of the damned and the echoes of destruction reverberate endlessly. The Shattered Abyss is a realm where chaos reigns supreme, and Zarakth's demonic legions carry out his insatiable desire for annihilation.
+Zarakth rules over an abyssal dominion within the Abyss, a nightmarish expanse where the screams of the damned and the echoes of destruction reverberate endlessly. The Abyss is a realm where chaos reigns supreme, and Zarakth's demonic legions carry out his insatiable desire for annihilation.
 
 **Clergy and Temples**
 The cult of Zarakth consists of bloodthirsty demons, deranged cultists, and nihilistic warlords. Temples dedicated to the Abyssal Scourge are dark, foreboding structures adorned with the remains of sacrificed victims, where the air is heavy with the scent of death.

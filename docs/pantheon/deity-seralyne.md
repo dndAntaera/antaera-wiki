@@ -16,7 +16,7 @@ title: "Seralyne, Herald of Radiance"
 
 - **Rank**: Lesser Deity
 - **Symbol**: Burning sun framed by silver wings
-- **Home Plane**: Radiance
+- **Home Plane**: Quasi-Elemental Plane of Radiance
 - **Alignment**: LG
 - **Portfolio**: Radiance, Zeal, Crusades, Purity, Sunlight
 - **Worshipers**: Paladins, clerics, rangers, inquisitors

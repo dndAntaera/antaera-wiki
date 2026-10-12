@@ -16,7 +16,7 @@ title: "Ukrol, Patron Deity of Humanity"
 
 - **Rank**: Intermediate Deity
 - **Symbol**: A featureless humanoid face with a spiked crown
-- **Home Plane**: The Dominion of Exiles
+- **Home Plane**: Gehenna
 - **Alignment**: LE
 - **Portfolio**: Humans, conquest, dominion, authority
 - **Worshipers**: Charismatic leaders, conquerors, Imperial clergy
@@ -42,7 +42,7 @@ Ukrol is depicted as a figure of imposing stature, with features reminiscent of 
 **Unity**: Unite the human race under a common banner and stand strong against those who oppose human dominance. This tenet emphasizes the importance of solidarity among humans, encouraging cooperation and collaboration in the pursuit of shared goals and aspirations.
 
 **Divine Realm**
-Ukrol's divine realm, known as the Dominion of Exiles, is a realm shrouded in shadows and echoes of past glory. Crumbling citadels and ruined monuments serve as reminders of Ukrol's former reign, now lost to the ravages of time and exile. It is a place of bitter nostalgia and unfulfilled ambition, where the echoes of Ukrol's past conquests linger like ghosts.
+Ukrol's divine realm, in Gehenna, is a realm shrouded in shadows and echoes of past glory. Crumbling citadels and ruined monuments serve as reminders of Ukrol's former reign, now lost to the ravages of time and exile. It is a place of bitter nostalgia and unfulfilled ambition, where the echoes of Ukrol's past conquests linger like ghosts.
 
 **Clergy and Temples**
 Temples dedicated to Ukrol can be found in human settlements across Antæra, serving as centers of worship and indoctrination for his followers. His clergy are often charismatic leaders who preach the gospel of human dominance and seek to unite their followers under Ukrol's banner.

@@ -58,25 +58,25 @@ Elven culture in Antæra revolves around the principles of interplanar harmony a
 
 # Subculture: The Drow
 
-In the depths of the Earthspire Expanse, a subculture of elves known as the Drow has thrived in obscurity and secrecy. These enigmatic beings have carved out a shadowy existence, marked by their unique physical attributes and a culture steeped in darkness and mystery.
+In the depths of the Elemental Plane of Earth, a subculture of elves known as the Drow has thrived in obscurity and secrecy. These enigmatic beings have carved out a shadowy existence, marked by their unique physical attributes and a culture steeped in darkness and mystery.
 
-The Drow, with their otherworldly beauty and insidious practices, remain a complex and multifaceted subculture within the vast tapestry of Antæra. Their subterranean existence, radical ideologies, and relentless pursuit of dominance have left an indelible mark on the world, casting them as both enigmatic enchanters and ruthless oppressors in the eyes of those who dare to venture into the depths of the Earthspire Expanse.
+The Drow, with their otherworldly beauty and insidious practices, remain a complex and multifaceted subculture within the vast tapestry of Antæra. Their subterranean existence, radical ideologies, and relentless pursuit of dominance have left an indelible mark on the world, casting them as both enigmatic enchanters and ruthless oppressors in the eyes of those who dare to venture into the depths of the Elemental Plane of Earth.
 
 **Appearance**:<br>
 The Drow exhibit a strikingly distinct appearance compared to their surface-dwelling kin. Their skin, a testament to their subterranean existence, ranges from deep, velvety blues to rich, regal purples. This unusual pigmentation is a direct consequence of the ever-present miasma that permeates their underground domain, lending an ethereal and otherworldly quality to their complexion.
 
 Perhaps the most captivating aspect of the Drow's appearance is their eyes, which shimmer with varying hues of mesmerizing crimson. These eyes possess an iridescent quality, appearing as though they hold secrets untold. The radiance of their gaze seems to dance like flickering flames in the darkness of their underground realm, a reflection of the fiery passions and ambitions that fuel their hearts.
 
-Completing their striking visage is their hair, which ranges from pure, moonlit white to shimmering silver. This silvery crown, cascading like ethereal waterfalls, stands in stark contrast to their dark and subterranean surroundings. It serves as a silent testament to their enigmatic origins and the influence of the Earthspire Expanse's miasma on their physical form.
+Completing their striking visage is their hair, which ranges from pure, moonlit white to shimmering silver. This silvery crown, cascading like ethereal waterfalls, stands in stark contrast to their dark and subterranean surroundings. It serves as a silent testament to their enigmatic origins and the influence of the Elemental Plane of Earth's miasma on their physical form.
 
 **Cruel Dominion**:<br>
-The Drow are infamous for their oppressive dominion over the various races inhabiting the Earthspire Expanse. Their society is marked by a hierarchical structure, with the Drow at the apex, wielding power and control over those beneath them. Enslavement is a common practice among the Drow, and they view subjugation as a means to assert their dominance and secure their place in the depths.
+The Drow are infamous for their oppressive dominion over the various races inhabiting the Elemental Plane of Earth. Their society is marked by a hierarchical structure, with the Drow at the apex, wielding power and control over those beneath them. Enslavement is a common practice among the Drow, and they view subjugation as a means to assert their dominance and secure their place in the depths.
 
 **Ancient Enmity**:<br>
-The Drow's antagonistic relationship with the Deepfolk, another subculture of humans dwelling in the Earthspire Expanse, is a long-standing feud that has persisted through generations. Warfare, subterfuge, and ceaseless conflict define their interactions, as both races vie for control of the subterranean realm they call home.
+The Drow's antagonistic relationship with the Deepfolk, another subculture of humans dwelling in the Elemental Plane of Earth, is a long-standing feud that has persisted through generations. Warfare, subterfuge, and ceaseless conflict define their interactions, as both races vie for control of the subterranean realm they call home.
 
 **Radical Isolationists**:<br>
-Originally, the Drow were high elves who departed from the main elven civilization due to irreconcilable political differences. Over time, their isolation in the Earthspire Expanse nurtured their radical beliefs, intensifying their desires for power and dominance. Their once-moderate ideology grew increasingly extreme, eventually culminating in their transformation into one of the most feared and reviled mortal races in the known world.
+Originally, the Drow were high elves who departed from the main elven civilization due to irreconcilable political differences. Over time, their isolation in the Elemental Plane of Earth nurtured their radical beliefs, intensifying their desires for power and dominance. Their once-moderate ideology grew increasingly extreme, eventually culminating in their transformation into one of the most feared and reviled mortal races in the known world.
 
 </div>
 </div>

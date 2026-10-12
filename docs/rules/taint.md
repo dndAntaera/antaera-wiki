@@ -6,7 +6,7 @@ title: "Taint"
 <div class="wd-cell wd-plain" markdown>
 
 ![](/antaera-wiki/img/rules_taint_header.png)
-*A tainted forest located within a manifest zone connecting the Shadowlands to the Negative Energy Plane.*
+*A tainted forest located within a manifest zone connecting the Plane of Shadow to the Negative Energy Plane.*
 
 </div>
 </div>

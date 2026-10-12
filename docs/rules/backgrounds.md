@@ -279,10 +279,10 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Anarchic Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus on saving throws made to resist the Chaotic planar effects of planes.
 
-## Earthspire Native
-*You were born and raised in the Earthspire Expanse, as such your ancestors hailed from the Elemental Plane of Earth.*
+## Earth Native
+*You were born and raised on the Elemental Plane of Earth.*
 
-**Prerequisite**: Native to the Earthspire Expanse<br>
+**Prerequisite**: Native to the Elemental Plane of Earth<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Earth Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating underground.
@@ -311,10 +311,10 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Axiomatic Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus on saving throws made to resist the Lawful planar effects of planes.
 
-## Shadowlands Native
-*You were born and raised in the Shadowlands, as such your ancestors were undead or other shadowy creatures.*
+## Shadow Native
+*You were born and raised in the Plane of Shadow, as such your ancestors were undead or other shadowy creatures.*
 
-**Prerequisite**: Native to the Shadowlands<br>
+**Prerequisite**: Native to the Plane of Shadow<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Shadow Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at night or in non-magical darkness.
@@ -335,10 +335,10 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Type**: Extraplanar<br>
 **Benefit**: You gain the [Pure Soul](../the-index.md) feat for free at 1st level without needing to meet the prerequisites, nor do you lose the feat for changing alignment as per normal with Exalted feats. This feat cannot be retrained. If you would gain this feat from another source, you instead gain a +1 bonus to Depravity and Corruption checks as if you had an additional Exalted feat. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. For example, a character that is LN has an LE Aura.
 
-## Zephyr Native
-*You were born and raised in the Zephyr Haven, as such your ancestors hailed from the Elemental Plane of Air.*
+## Air Native
+*You were born and raised on the Elemental Plane of Air.*
 
-**Prerequisite**: Native to the Zephyr Haven<br>
+**Prerequisite**: Native to the Elemental Plane of Air<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Air Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at high altitudes, such as when flying or on an airship.

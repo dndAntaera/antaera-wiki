@@ -42,7 +42,7 @@ The mirrors in a constellation have something in common with one another. They m
 
 Mirrors used for mirrorwalking between planes do not gain any special abilities and may be broken as any other mirror. The sound of breaking glass resounds through the entire Plane of Mirrors, warning travelers that at least one of the portals has been sealed. Smashing all the portals of a particular constellation of mirrors will trap anyone still on the Plane of Mirrors indefinitely.
 
-The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, or the Shadowlands. Spells that rely on these planes do not function on the Plane of Mirrors.
+The Plane of Mirrors does not connect to the Ethereal Plane, the Astral Plane, or the Plane of Shadow. Spells that rely on these planes do not function on the Plane of Mirrors.
 
 </div>
 </div>

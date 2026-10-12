@@ -16,7 +16,7 @@ title: "Tharuun, Herald of Gems"
 
 - **Rank**: Lesser Deity
 - **Symbol**: Pickaxe crossed with a radiant crystal
-- **Home Plane**: Plane of Gems
+- **Home Plane**: Quasi-Elemental Plane of Minerals
 - **Alignment**: NG
 - **Portfolio**: Gems, Minerals, Buried Riches, Subterranean Life
 - **Worshipers**: Clerics, miners, dwarves, gemcarvers, gem mages, manifesters

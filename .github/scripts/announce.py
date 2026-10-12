@@ -13,7 +13,7 @@ since it went up. After that, the next change starts a new message.
                                        [--state <file>] [--dry-run]
     python .github/scripts/announce.py --test [--ping] [--dry-run]
 
-Each new message pings @everyone. Edits do not ping again: Discord only
+Each new message pings the Scars role. Edits do not ping again: Discord only
 notifies when a message is posted.
 
 What counts as a change is what a reader would see. Changes to the coding of
@@ -56,8 +56,10 @@ CMS_MESSAGE = re.compile(r"\(via Pages CMS\)\s*$")
 # How long a message keeps taking edits before the next change gets a new one.
 EDIT_WINDOW = 24 * 60 * 60
 
-# Who a new post notifies.
-PING = "@everyone"
+# Who a new post notifies: the Scars role, behind a spoiler. A webhook can
+# only ping a role by its ID; "@Scars" written out would stay plain text.
+SCARS_ROLE_ID = "1336400088997564678"
+PING = "Ping: || <@&%s> ||" % SCARS_ROLE_ID
 
 COLOUR = 0xBF00FF            # --wd-accent in docs/stylesheets/tokens.css
 
@@ -344,13 +346,13 @@ def _embed(site_name, site_url, head, description):
 
 def _payload(embed):
     # The ping is the message's only text: page titles and commit messages sit
-    # in the embed, where a mention never pings, and allowed_mentions lets
-    # @everyone through but no user or role.
+    # in the embed, where a mention never pings, and allowed_mentions lets the
+    # Scars role through but no one else, @everyone included.
     #
     # Discord pings when a message is posted, never when it is edited, so a
     # post pings once and the changes folded into it later arrive quietly.
     return {"content": PING, "embeds": [embed],
-            "allowed_mentions": {"parse": ["everyone"]}}
+            "allowed_mentions": {"parse": [], "roles": [SCARS_ROLE_ID]}}
 
 
 def show(payload):
@@ -479,7 +481,7 @@ def main():
     ap.add_argument("--test", action="store_true",
                     help="post the newest page change again, marked as a test")
     ap.add_argument("--ping", action="store_true",
-                    help="with --test: ping %s, as a real announcement does" % PING)
+                    help="with --test: ping Scars, as a real announcement does")
     ap.add_argument("--dry-run", action="store_true",
                     help="print the message instead of posting it")
     args = ap.parse_args()

@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       ping:
-        description: Ping @everyone, as a real announcement does
+        description: Ping @Scars, as a real announcement does
         type: boolean
         default: false
 

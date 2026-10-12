@@ -222,6 +222,52 @@ message rather than editing one.
 If Discord rejects the message, the job fails and the run shows red, though
 the site itself deployed. The next successful run retries the same changes.
 
+### DM's Notes and the Discord bot
+
+`/dmnotes` in Discord opens a form for the DM's own thoughts on the latest
+announcement. Saving it puts a **DM's Notes** section at the very top of that
+message, above the ping. Running it again shows the notes so far to edit;
+saving it empty takes them off. Only the server's admins can run it: Discord
+hides the command from everyone else, and the bot checks again itself.
+
+The notes live in the announcement's text. The deploy workflow only ever edits
+the announcement's embed, so its later edits through the day leave them where
+they are. A new day's announcement starts without notes.
+
+**How it runs.** A slash command needs something online to answer it within
+three seconds, which neither GitHub nor this PC can do. The bot is a
+Cloudflare Worker (`discord-bot/worker.js`): Cloudflare runs it on demand,
+free, with no server to keep up. `.github/workflows/discord-bot.yml` deploys
+it whenever `discord-bot/` changes, then `discord-bot/setup.py` tells Discord
+where it is and registers `/dmnotes`. Run that workflow by hand after changing
+any of its secrets.
+
+**Setup, once:**
+
+1. **Discord.** At <https://discord.com/developers/applications>, create an
+   application (e.g. *Antæra Wiki*).
+   - *General Information*: copy the **Public Key**.
+   - *Bot*: **Reset Token** and copy it. Turn **Public Bot** off, so no one
+     else can add it to their server.
+2. **Cloudflare.** Make a free account at <https://dash.cloudflare.com>.
+   - Open *Workers & Pages* once, so the account gets a `workers.dev`
+     address.
+   - Copy the **Account ID** (on the account's home page, or *Workers &
+     Pages*).
+   - *My Profile → API Tokens → Create Token*, template **Edit Cloudflare
+     Workers**, and copy the token.
+3. **GitHub.** Save four repository secrets alongside `DISCORD_WEBHOOK_URL`:
+   `DISCORD_PUBLIC_KEY`, `DISCORD_BOT_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`,
+   `CLOUDFLARE_API_TOKEN`.
+4. Run **Deploy the Discord bot** from the Actions tab. The first run stops
+   with a link that adds the bot to the server; open it, add the bot, and run
+   the workflow again. The bot only asks to view channels and read message
+   history, to find the latest announcement.
+
+Until the secrets are set, the workflow skips the deploy and says which are
+missing. The bot token and webhook URL are passwords in all but name: if one
+leaks, reset it in Discord, save the new one, and run the workflow again.
+
 ## Hosting architecture
 
 GitHub Pages is the live site. This machine is the disaster-recovery copy.

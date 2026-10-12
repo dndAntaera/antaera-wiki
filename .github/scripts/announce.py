@@ -919,7 +919,11 @@ def main():
     try:
         if state:
             try:
-                send("PATCH", endpoint(webhook, "/messages/" + state["message_id"]), payload)
+                # The embed only. The message's text holds the ping and any
+                # DM's Notes written with /dmnotes (discord-bot/worker.js),
+                # and an edit that sent it would wipe the notes.
+                send("PATCH", endpoint(webhook, "/messages/" + state["message_id"]),
+                     {"embeds": payload["embeds"]})
                 print("\nEdited the message on Discord.")
                 return
             except DiscordError as e:

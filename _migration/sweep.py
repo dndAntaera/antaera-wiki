@@ -121,6 +121,15 @@ def main():
             bad.append("%s  %r" % (f.replace("\\", "/"), txt[:48]))
     check("no body text off a card", bad)
 
+    # The wiki has no code. A line indented four spaces after a blank line is
+    # a code block to Markdown, so a list written that way prints as grey
+    # monospace with a copy button. Paxaeterna's primary body did exactly that.
+    check("no page prints a code block",
+          [f.replace("\\", "/")
+           for f in sorted(glob.glob(os.path.join(SITE, "**", "index.html"), recursive=True))
+           if "<pre" in io.open(f, encoding="utf-8").read()],
+          "an indented line after a blank line is read as code")
+
     # --- links and images --------------------------------------------------
     print("\nLINKS AND IMAGES")
 
@@ -351,6 +360,15 @@ def main():
     # A paragraph that belongs to a list item has to be indented four spaces.
     # Indented fewer, Markdown ends the list and prints it as the next
     # paragraph of the page instead.
+    # A bold label on the line straight after a list item is read as more of
+    # that item, so it ends the item's sentence instead of heading the next
+    # group: the Calendar's Summer, Autumn and Winter all did.
+    check("a label after a list starts a line of its own",
+          ["%s  %s" % (f, m.group(1))
+           for f, t in pages.items()
+           for m in re.finditer(r"^[ \t]*(?:[-*+]|\d+\.) .*\n(\*\*[^*\n]+\*\*:?)[ \t]*$",
+                                body_of(t), re.M)])
+
     check("a list item's later paragraphs stay in the item",
           ["%s  %s" % (f, m.group(1)[:50])
            for f, t in pages.items()

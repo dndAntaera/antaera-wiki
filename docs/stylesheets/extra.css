@@ -315,10 +315,16 @@
    to the left.
    --------------------------------------------------------------------------- */
 
+/* A column flow is a box of its own, and a box of its own will not overlap a
+   float: after a floated column it was squeezed into whatever width the float
+   left beside it. After one at 100% that is none, and the stat blocks on
+   Helms & Hulls ran down the card's edge a letter at a time. It starts below
+   the float instead. */
 .wd-cols {
   columns: var(--wd-n, 2);
   column-gap: 1.8rem;
   margin: .4rem 0 1rem;
+  clear: both;
 }
 
 .wd-cols > :first-child { margin-top: 0; }

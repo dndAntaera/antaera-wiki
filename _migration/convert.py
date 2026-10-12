@@ -280,6 +280,46 @@ MERGES = {
 
 # Pages whose content belongs at the foot of another page rather than on one
 # of its own. The source page is not written; links to it follow the content.
+# Cards that have moved to another page since the import. The Antæran
+# calendar - its months, days, seasons and holidays - is one sphere's way of
+# keeping time rather than the setting's, so it sits on that sphere's page;
+# what stays behind is the run of eras, which is the setting's timeline.
+#
+# The card that opens the calendar is called "Overview" because it was the
+# first card of its own page. On the sphere's page it has to say what it is
+# the overview of.
+MOVED_CARDS = {
+    "calendar": {
+        "target": "spelljamming-sphere-antaera",
+        "cards": ["Overview", "The Seasons", "Months", "Days", "Holidays & Events"],
+        "rename": {"Overview": "The Antæran Calendar"},
+    },
+}
+
+# Corrections to a page made after another page's content has been appended
+# to it. apply_edits runs while a page is written, which is before the append,
+# so an edit to appended content has to wait until both halves are in place.
+AFTER_EDITS = {
+    "spelljamming-sphere-antaera": [
+        # The world map sat in the quarter-width cell with its legend taking
+        # the other three quarters, so the map - the thing the card is for -
+        # was the smaller half of it. The map takes the row and the legend
+        # hangs off its right as the sidebar it reads as.
+        ('<div class="wd-row" style="--wd-cols: 25fr 75fr" markdown>\n'
+         '<div class="wd-cell wd-plain" markdown>\n\n'
+         "![](" + "/antaera-wiki/img/map_antaera_header.jpg)\n\n"
+         "</div>\n"
+         '<div class="wd-cell" markdown>\n\n'
+         "# **Legend**",
+         '<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>\n'
+         '<div class="wd-cell wd-plain" markdown>\n\n'
+         "![](" + "/antaera-wiki/img/map_antaera_header.jpg)\n\n"
+         "</div>\n"
+         '<div class="wd-cell wd-aside" markdown>\n\n'
+         "# **Legend**"),
+    ],
+}
+
 APPEND_TO = {
     "map-antaera": "spelljamming-sphere-antaera",
 }
@@ -975,6 +1015,10 @@ TITLES = {
     # License. The menu calls it Disclaimer & Legal; the page says so in full.
     "disclaimer": "Disclaimer & Legal Information",
 
+    # What is left of the calendar page once the calendar itself is on the
+    # sphere that keeps it: the eras, which are the setting's timeline.
+    "calendar": "Setting Timeline",
+
     # Written for the wiki rather than imported - see PAGES.
     "deity-alpha": "Alpha, the First Warforged",
     "ornus": "Ornus, Lord of Constructs",
@@ -1592,6 +1636,28 @@ def convert(src, slug, img_by_url, tables, linkmap):
 # ---------------------------------------------------------------------------
 
 ALPHA_COLS = 3
+
+
+def relink(text, src, dst):
+    """Re-point a moved card's links at the folder it has moved into.
+
+    A link on a page is relative to that page. Carrying a card from the top of
+    docs/ into docs/spelljamming/ leaves every link in it pointing one folder
+    too shallow, which a build catches and a reader would not.
+    """
+    here, there = os.path.dirname(src), os.path.dirname(dst)
+    if here == there:
+        return text
+
+    def one(m):
+        target = m.group(1)
+        if target.startswith(("http://", "https://", "/", "#")):
+            return m.group(0)
+        path, _, anchor = target.partition("#")
+        moved = os.path.relpath(os.path.join(here, path), there).replace(chr(92), "/")
+        return "](%s%s)" % (moved, "#" + anchor if anchor else "")
+
+    return re.sub(r"\]\(([^)]+)\)", one, text)
 
 
 def alpha_columns(s):
@@ -3074,6 +3140,44 @@ def main(backup):
             fh.write('---\ntitle: "' + title + '"\n---\n\n' + body)
         written += 1
 
+    # Cards that belong on another page, moved once both pages exist.
+    for slug, spec in MOVED_CARDS.items():
+        src = os.path.join(DOCS, target_path(slug))
+        dst = os.path.join(DOCS, target_path(spec["target"]))
+        with open(src, encoding="utf-8") as fh:
+            body = fh.read()
+        with open(dst, encoding="utf-8") as fh:
+            into = fh.read()
+        width = re.search(r"--wd-rw:\s*([^;\"]+)", into)
+        row = ('<div class="wd-row"%s markdown>\n'
+               % (' style="--wd-rw: %s"' % width.group(1).strip() if width else ""))
+        taken = []
+        for heading in spec["cards"]:
+            span = _card_span(body, heading)
+            if span is None:
+                TODO.append((slug, "no card to move for '%s'" % heading))
+                continue
+            start, end, level, _ = span
+            card = body[start:end]
+            body = body[:start] + body[end:]
+            # Greedy, and anchored at the end of the card: a card holding its
+            # own divs - the alphabet of holidays is three columns inside one -
+            # closes more than once, and stopping at the first close would
+            # take half the card and leave the rest behind.
+            inner = re.search(r'<div class="wd-cell[^"]*" markdown>\n\n'
+                              r'#{1,6}[ \t]+' + re.escape(heading) + r"[ \t]*\n"
+                              r"(.*)\n+</div>\s*</div>\s*$", card, re.S)
+            if inner is None:
+                TODO.append((slug, "card '%s' is not shaped as expected" % heading))
+                continue
+            name = spec.get("rename", {}).get(heading, heading)
+            taken.append(_card(row, level, name, relink(inner.group(1), src, dst)))
+        body = re.sub(r"\n{3,}", "\n\n", body)
+        with open(src, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(body)
+        with open(dst, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(into.rstrip("\n") + "\n" + "".join(taken))
+
     # Content moved onto the end of another page, added once that page exists.
     for target, bodies in appended.items():
         p = os.path.join(DOCS, target_path(target))
@@ -3081,6 +3185,19 @@ def main(backup):
             text = fh.read()
         with open(p, "w", encoding="utf-8", newline="\n") as fh:
             fh.write(text.rstrip() + "\n\n" + "\n".join(b.strip() for b in bodies) + "\n")
+
+    # Edits that had to wait for the appended content - see AFTER_EDITS.
+    for slug, edits in AFTER_EDITS.items():
+        path = os.path.join(DOCS, target_path(slug))
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        for before, after in edits:
+            if text.count(before) != 1:
+                TODO.append((slug, "after-edit matched %d times" % text.count(before)))
+                continue
+            text = text.replace(before, after, 1)
+        with open(path, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(text)
 
     # Merged pages, assembled from the halves collected above.
     for merged, spec in MERGES.items():

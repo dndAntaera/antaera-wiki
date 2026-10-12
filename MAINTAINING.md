@@ -120,15 +120,30 @@ and publishes it to GitHub Pages.
 ### Announcements on Discord
 
 As soon as the site is live, the workflow's last job posts the pages that
-changed to a Discord channel: new, edited, moved and removed, each linked to
-its live page, with the commit messages underneath.
-`.github/scripts/announce.py` writes the message.
+changed to a Discord channel. `.github/scripts/announce.py` writes the
+message. It has two parts:
+
+- **A list of the pages**, grouped as new, edited, moved and removed. Each is
+  linked to its live page and followed by a clipped description of what
+  changed on it, worked out by comparing its words before and after:
+  - a few words swapped read as `Shadowlands → Plane of Shadow`;
+  - a bigger change names its section: `expanded Overview`,
+    `rewrote History`, `added Dogma`;
+  - known changes are spelled out: `retitled from …`, `finished` (no longer
+    a work in progress);
+  - a new page shows its opening line.
+- **A summary**: the commit messages behind those pages, minus Pages CMS's
+  automatic ones.
 
 **One message a day.** For 24 hours after a message is posted, later changes
 are added to it by editing it, so it always lists everything changed since it
 went up. After 24 hours it is left alone, and the next change starts a new
 message. If the open message has been deleted from the channel, the next
 change also starts a new one. The window is `EDIT_WINDOW` in the script.
+
+When the script itself changes, the next run redraws the open message in the
+new format, even if no page changed. Redrawing is an edit, so it does not
+ping.
 
 **Each new message pings the Scars role**, as `Ping: || @Scars ||` (the
 mention behind a spoiler). Edits do not ping again, because Discord only

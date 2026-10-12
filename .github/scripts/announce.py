@@ -2,12 +2,14 @@
 """Announce wiki changes on Discord.
 
 The deploy workflow runs this as soon as the site is live. It lists the pages
-that were added, edited, moved or removed, each linked to its live page, and
-posts them to a Discord webhook.
+that were added, edited, moved or removed, each linked to its live page with
+a clipped account of what changed on it ("Shadowlands → Plane of Shadow",
+"expanded Overview"), and posts the list to a Discord webhook.
 
 One message covers a day. For 24 hours after it is posted, later changes are
 folded into it by editing it, so it always shows everything that has changed
-since it went up. After that, the next change starts a new message.
+since it went up. After that, the next change starts a new message. When this
+script itself changes, the open message is redrawn in its new form.
 
     python .github/scripts/announce.py --last <sha> [--head <sha>]
                                        [--state <file>] [--dry-run]
@@ -40,6 +42,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -153,6 +156,35 @@ def _tag(match):
     return " %s " % " ".join(SHOWN_ATTRS.findall(match.group(0)))
 
 
+HEADING = re.compile(r"^\s{0,3}#+\s*(.*?)\s*#*\s*$")
+
+
+def _strip_markup(text):
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
+    text = re.sub(r"<[^>]+>", _tag, text)
+    return re.sub(r"\{:[^}]*\}|\{\s*[.#][^}]*\}", " ", text)     # { .class }
+
+
+def _words(line):
+    return re.sub(r"[*_]+", "", line).split()                     # bold, italic
+
+
+def tokens(text):
+    """A page's words in order, the heading each one sits under, and where
+    each heading's own words begin."""
+    words, sections, starts, current = [], [], set(), None
+    for line in _strip_markup(text).splitlines():
+        m = HEADING.match(line)
+        if m:
+            line = m.group(1)
+            current = " ".join(_words(line)) or current
+            starts.add(len(words))
+        for word in _words(line):
+            words.append(word)
+            sections.append(current)
+    return words, sections, starts
+
+
 def readable(text):
     """A page's words, without the markup that only decides how they look.
 
@@ -161,12 +193,7 @@ def readable(text):
     """
     if text is None:
         return None
-    text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
-    text = re.sub(r"<[^>]+>", _tag, text)
-    text = re.sub(r"\{:[^}]*\}|\{\s*[.#][^}]*\}", " ", text)    # { .class }
-    text = re.sub(r"(?m)^\s{0,3}#+", " ", text)                   # heading level
-    text = re.sub(r"[*_]+", "", text)                             # bold, italic
-    return " ".join(text.split())
+    return " ".join(tokens(text)[0])
 
 
 def is_content(kind, old, new, old_rev, new_rev):
@@ -218,18 +245,24 @@ def page_url(site_url, path):
     return site_url + urllib.parse.quote(rel)
 
 
-def front_matter(text):
-    if not text or not text.startswith("---"):
-        return {}
+def split_page(text):
+    """(front matter as a dict, the body that follows it)."""
+    text = text or ""
+    if not text.startswith("---"):
+        return {}, text
     end = text.find("\n---", 3)
     if end == -1:
-        return {}
+        return {}, text
     meta = {}
     for line in text[3:end].splitlines():
         m = re.match(r"^([A-Za-z_][\w-]*):\s*(.*)$", line)
         if m:
             meta[m.group(1)] = m.group(2).strip().strip("\"'")
-    return meta
+    return meta, text[end + 4:]
+
+
+def front_matter(text):
+    return split_page(text)[0]
 
 
 def page_info(rev, path):
@@ -257,6 +290,181 @@ def escape(text):
     return re.sub(r"([\\*_~`|\[\]<>#])", r"\\\1", text)
 
 
+# --- Describing a change ---------------------------------------------------
+#
+# Each page in the list gets a clipped account of what happened to it, worked
+# out by comparing its words before and after. A few words swapped for a few
+# others reads as "old → new"; anything bigger is named by the section it
+# landed in ("expanded Overview", "added Dogma").
+
+CLIP = 90       # characters a description may run to
+SMALL = 6       # words either side of a swap that still reads as one
+GAP = 3         # unchanged words that can sit inside one rewritten passage
+
+
+def clip(text, limit=CLIP):
+    if len(text) <= limit:
+        return text
+    cut = text[:limit - 1]
+    # End on a whole item where one ends late enough, else on a whole word.
+    item = cut.rfind("; ")
+    if item > limit // 2:
+        return cut[:item] + "; …"
+    return cut.rsplit(" ", 1)[0].rstrip(" ;,→—") + "…"
+
+
+def _phrase(words):
+    """Words lifted from a page, read back as plain text."""
+    text = " ".join(words)
+    text = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", text)      # links, pictures
+    text = re.sub(r"\]\([^)]*\)|[\[\]|]", " ", text)             # half a link, table bars
+    text = " ".join(text.split()).strip(" -–—.,;:!?\"'“”‘’")
+    if text.count("(") != text.count(")"):                        # half a bracket
+        text = " ".join(re.sub(r"[()]", " ", text).split())
+    return text.strip(" -–—.,;:!?\"'“”‘’")
+
+
+def _passages(a, b):
+    """The stretches that differ, as (i1, i2, j1, j2).
+
+    Changes only a few unchanged words apart are one passage: a sentence
+    rewritten is not a dozen separate swaps of the words in it.
+    """
+    passages = []
+    for op, i1, i2, j1, j2 in SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op == "equal":
+            continue
+        if passages and i1 - passages[-1][1] <= GAP and j1 - passages[-1][3] <= GAP:
+            passages[-1][1], passages[-1][3] = i2, j2
+        else:
+            passages.append([i1, i2, j1, j2])
+    return passages
+
+
+def _core(phrase):
+    """A phrase without the article or possessive that varies around a name."""
+    phrase = re.sub(r"^(the|a|an)\s+", "", phrase.lower())
+    return re.sub(r"['’]s$", "", phrase)
+
+
+def _section(name, title):
+    # Before the first heading, or under the page's own title card, a change
+    # is in the page's opening rather than in a section of it.
+    return "the opening" if not name or name == title else name
+
+
+def describe_edit(before, after):
+    old_meta, old_body = split_page(before)
+    new_meta, new_body = split_page(after)
+    title = new_meta.get("title")
+    items = []
+
+    if old_meta.get("title") and old_meta.get("title") != title:
+        items.append("retitled from %s" % old_meta["title"])
+    for flag, set_, cleared in (("wip", "marked a work in progress", "finished"),
+                                ("archived", "archived", "back from the archive")):
+        was, now = old_meta.get(flag) == "true", new_meta.get(flag) == "true"
+        if was != now:
+            items.append(set_ if now else cleared)
+
+    a, a_sec, a_starts = tokens(old_body)
+    b, b_sec, b_starts = tokens(new_body)
+    old_heads, new_heads = set(a_sec), set(b_sec)
+    swaps, sections, adds, cuts, relinked = {}, {}, [], [], False
+    for i1, i2, j1, j2 in _passages(a, b):
+        # A heading that begins in this passage and is new to the page is a
+        # section added, unless one went at the same time: that is a rename,
+        # and reads as a swap like any other.
+        fresh = [b_sec[k] for k in range(j1, j2) if k in b_starts and b_sec[k] not in old_heads]
+        gone = [a_sec[k] for k in range(i1, i2) if k in a_starts and a_sec[k] not in new_heads]
+        if fresh and not gone:
+            for h in fresh:
+                sections.setdefault("a title card" if h == title else h, set()).add("added")
+            if i2 - i1 > SMALL:
+                sections.setdefault(_section(a_sec[i1], title), set()).add("rewrote")
+            continue
+        # A word or two slipped in or out of a name reads better as the
+        # name changing: "Radiance → Quasi-Elemental Plane of Radiance".
+        if (i1 == i2 or j1 == j2) and max(i2 - i1, j2 - j1) <= SMALL \
+                and i2 < len(a) and a[i2][:1].isupper():
+            i2, j2 = i2 + 1, j2 + 1
+        old, new = _phrase(a[i1:i2]), _phrase(b[j1:j2])
+        if old == new:
+            relinked = relinked or bool(old)   # only a link's target moved
+            continue
+        if old and new and i2 - i1 <= SMALL and j2 - j1 <= SMALL:
+            swaps[(old, new)] = swaps.get((old, new), 0) + 1
+        elif new and not old and j2 - j1 <= SMALL:
+            adds.append(new)
+        elif old and not new and i2 - i1 <= SMALL:
+            cuts.append(old)
+        else:
+            if j1 == j2:
+                where = a_sec[i1]
+            else:
+                where = b_sec[j1] if j1 < len(b_sec) else (b_sec[-1] if b_sec else None)
+            grown, shrunk = j2 - j1 > 2 * (i2 - i1), i2 - i1 > 2 * (j2 - j1)
+            verb = "expanded" if grown else "cut from" if shrunk else "rewrote"
+            sections.setdefault(_section(where, title), set()).add(verb)
+
+    # The most repeated swap first: a renamed term reads before a stray fix.
+    # One that only restates another ("the Luminara" for "Luminara") is left
+    # out.
+    kept = []
+    for (old, new), _ in sorted(swaps.items(), key=lambda kv: (-kv[1], len(kv[0][0]))):
+        core = (_core(old), _core(new))
+        if any(o in core[0] and n in core[1] for o, n in kept):
+            continue
+        kept.append(core)
+        items.append("%s → %s" % (old, new))
+    # One verb to a section: grown in one place and cut in another is rewritten.
+    by_verb = {}
+    for where, verbs in sections.items():
+        verb = ("added" if "added" in verbs else
+                verbs.pop() if len(verbs) == 1 else "rewrote")
+        by_verb.setdefault(verb, []).append(where)
+    for verb in ("added", "rewrote", "expanded", "cut from"):
+        if verb in by_verb:
+            items.append("%s %s" % (verb, ", ".join(by_verb[verb])))
+    items += ["added “%s”" % s for s in dict.fromkeys(adds)]
+    items += ["cut “%s”" % s for s in dict.fromkeys(cuts)]
+    if relinked and not items:
+        items.append("links updated")
+    return _sentence(items) or "small edits"
+
+
+def describe_new(text):
+    """A new page's opening line: its first prose, or failing that its first list."""
+    _, body = split_page(text)
+    body = "\n".join(l for l in _strip_markup(body).splitlines() if not HEADING.match(l))
+    prose, lists = [], []
+    for block in re.split(r"\n\s*\n", body):
+        lines = [l.strip() for l in block.strip().splitlines() if l.strip()]
+        if not lines or lines[0].startswith(("|", "```", ">", "---", "!!!", "???")):
+            continue
+        # A bold label on a line of its own ("**Origins**") is a heading in all
+        # but name, not the first words of the paragraph under it.
+        if len(lines) > 1 and len(lines[0].split()) <= 3 and lines[0][-1:] not in ".:;,":
+            lines = lines[1:]
+        if all(l.startswith(("- ", "* ")) for l in lines):
+            lists.append("; ".join(_phrase(_words(l[2:])) for l in lines))
+        else:
+            prose.append(_phrase(_words(" ".join(lines))))
+    for text in prose + lists:
+        if len(text) >= 25:
+            return clip(text)
+    return "a new page"
+
+
+def describe_move(old_path):
+    return "moved from %s" % old_path[len("docs/"):-len(".md")]
+
+
+def _sentence(items):
+    text = "; ".join(items)
+    return clip(text[:1].upper() + text[1:]) if text else ""
+
+
 def build_message(base, head):
     """The embed for everything readers would notice between the two, or None."""
     site_name, site_url = site_config()
@@ -275,13 +483,14 @@ def build_message(base, head):
         info = page_info(base if kind == "removed" else head, new)
         title = escape(info["title"])
         if kind == "removed":
-            line = "~~%s~~" % title
+            line = "• ~~%s~~" % title
         else:
-            line = "[%s](%s)" % (title, page_url(site_url, new))
+            line = "• [%s](%s)" % (title, page_url(site_url, new))
         if info["archived"]:
             line += " *(archived)*"
         elif info["wip"]:
             line += " *(work in progress)*"
+        line += _description(kind, old, new, base, head)
         groups[kind].append((info["title"].lower(), line))
 
     if not any(groups.values()):
@@ -321,10 +530,26 @@ def build_message(base, head):
         lines = ["• " + escape(s) for s in subjects[-NOTES_MAX:]]
         if len(subjects) > NOTES_MAX:
             lines.insert(0, "*…and %d earlier*" % (len(subjects) - NOTES_MAX))
-        embed["fields"] = [{"name": "What changed",
+        embed["fields"] = [{"name": "Summary",
                             "value": "\n".join(lines)[:1024]}]
 
     return _payload(embed)
+
+
+def _description(kind, old, new, base, head):
+    """' — what happened', for the end of a page's line in the list."""
+    before, after = blobs.get(base, old), blobs.get(head, new)
+    if kind == "added":
+        text = describe_new(after)
+    elif kind == "edited":
+        text = describe_edit(before, after)
+    elif kind == "moved":
+        text = describe_move(old)
+        if readable(before) != readable(after):
+            text = _sentence([text, describe_edit(before, after)])
+    else:
+        return ""
+    return " — " + escape(text)
 
 
 def undone_message(head):
@@ -419,6 +644,13 @@ def save_state(path, state):
         json.dump(state, fh)
 
 
+def announcer_changed(last, head):
+    """True if this script is different in head from how it was at last."""
+    me = Path(__file__).resolve().relative_to(ROOT).as_posix()
+    return subprocess.run(["git", "diff", "--quiet", last, head, "--", me],
+                          cwd=ROOT, capture_output=True).returncode == 1
+
+
 def webhook_url(dry_run):
     """The webhook to post to, or None when the message is only printed."""
     if dry_run:
@@ -503,18 +735,26 @@ def main():
         last = git("rev-parse", head + "^").strip()
 
     fresh = build_message(last, head)
-    if fresh is None:
-        print("Nothing for readers between %s and %s." % (last[:7], head[:7]))
-        return
-
     state = load_state(args.state) if args.state else None
     now = time.time()
-    if state and now - state["posted_at"] < EDIT_WINDOW and is_ancestor(state["base"], head):
+    if not (state and now - state["posted_at"] < EDIT_WINDOW
+            and is_ancestor(state["base"], head)):
+        state = None
+
+    if fresh is None:
+        # Nothing new for readers. But if this script changed, the open
+        # message is redrawn so it reads the way the next one will.
+        if not (state and announcer_changed(last, head)):
+            print("Nothing for readers between %s and %s." % (last[:7], head[:7]))
+            return
+        print("The announcer changed; redrawing the open message.")
+
+    if state:
         payload = build_message(state["base"], head) or undone_message(head)
         print("Editing the message posted %.1f hours ago.\n"
               % ((now - state["posted_at"]) / 3600))
     else:
-        state, payload = None, fresh
+        payload = fresh
         print("Posting a new message.\n")
     show(payload)
 
@@ -532,6 +772,10 @@ def main():
                 if e.code not in (403, 404):
                     raise
                 # Deleted from the channel, or posted by an old webhook.
+                if fresh is None:
+                    print("\nThe open message is gone (HTTP %d), and there is "
+                          "nothing new to post." % e.code)
+                    return
                 print("\nThe open message is gone (HTTP %d); posting a new one." % e.code)
                 payload = fresh
         message = send("POST", endpoint(webhook, wait="true"), payload)

@@ -28,12 +28,12 @@ Astrologers and planetologists who have studied the sphere agree that life on it
 <div class="wd-cell" markdown>
 
 # Planetology & Astrology
-Type of Sphere: Standard<br>
-Primary Body:
 
+- Type of Sphere: Standard
+- Primary Body:
     - Name: Serenitas
     - Type: Manifest Zone (Positive Energy Plane)
-    - Spelljamming Aware: Yes
+- Spelljamming Aware: Yes
 
 ## Inner Track
 

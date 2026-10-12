@@ -35,15 +35,18 @@ The influence of the lunar calendar is also evident in the daily rhythms of Ant�
 - Yestë Nulorë (New Moon): Introduces spring with new beginnings and an increase in benevolent fey activity, aiding the natural reawakening.
 - Silloros (Waxing Crescent): Supports visible growth and rejuvenation, enhanced by the nurturing magic of the fey.
 - Erandur (First Quarter Moon): Balances growth with practical action, utilizing the fey's presence to ensure ecological stability.
+
 **Summer**
 
 - Aurindil (Waxing Gibbous): Brings a period of vigorous growth and high activity, with extended daylight allowing communities to thrive.
 - Pelnorë (Full Moon): Celebrates the peak of summer with widespread festivals under the full moon, emphasizing joy and communal unity.
 - Calindil (Waning Gibbous): Focuses on harvesting and sharing the season's bounty, preparing for the less bountiful months ahead.
+
 **Autumn**
 
 - Telcandur (Last Quarter Moon): Introduces autumn with a deeper presence of unseelie fey, adding unpredictability to the natural decline.
 - Loroscal (Waning Crescent): Prepares for winter's return with increased caution due to the heightened activity of unseelie fey, focusing on conservation and introspection.
+
 **Winter**
 
 - Loroscal Súrë (Waning Crescent Blood Moon): Marks the onset of winter with intense darkness and heightened danger as the blood moon intensifies nocturnal threats.

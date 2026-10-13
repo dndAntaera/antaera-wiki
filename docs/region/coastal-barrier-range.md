@@ -39,7 +39,7 @@ title: "Coastal Barrier Range"
     - Port City of Tammas
     - Shipton
 - Points of Interest
-    - [Darkastle](../poi-darkastle.md)
+    - [Darkastle](../settlement/darkastle.md)
     - Temple to Trelanni
     - To'Caal
     - To'Ilaan

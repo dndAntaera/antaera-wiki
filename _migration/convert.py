@@ -241,6 +241,8 @@ EDITS = {
 # the whole Wikidot backup mentions it outside that stub.
 REMOVED = {
     "frymrit",
+    # A disambiguation stub for a page that needs none - see ALIASES.
+    "poi-darkastle",
     # A disambiguation stub for a plane the setting no longer has: the Void is
     # the Quasi-Elemental Plane of Vacuum now - see PLANES.
     "void",
@@ -463,11 +465,77 @@ Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
 System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
 
+Spelljammer: Concordance of Arcane Space, ©1989 Wizards of the Coast, Inc.
+
+Spelljammer: Monstrous Compendium Appendix 1, ©1990 Wizards of the Coast, Inc.
+
+Spelljammer: Monstrous Compendium Appendix 2, ©1991 Wizards of the Coast, Inc.
+
+Spelljammer: The Spacefarer’s Handbook, ©1992 Wizards of the Coast, Inc.
+
 END OF LICENSE"""
 
 # Cards that are quoted, not written: house style does not touch them. It put
 # an en dash in the licence's "2000-2003", and a copyright notice says what it
 # says.
+# Wizards' agreement covering the conversion of 1st and 2nd edition material
+# to 3rd edition, under which this setting's Spelljammer material was
+# converted. Quoted whole, from the copy the author holds - "ESD policy Pams
+# 03012002 revisions.doc", Wizards of the Coast, 2002 - like the licence it
+# sits beside. The books it was used for are named in Section 15 of the Open
+# Game License, in the format the agreement sets out.
+ESD_CONVERSION = r"""Wizards of the Coast, Inc. ESD Conversion Agreement v1.0.
+
+IMPORTANT – READ THIS AGREEMENT CAREFULLY BEFORE CONVERTING ANY 1ST AND 2ND **D&D**®/**AD&D**® EDITION MATERIALS INTO 3RD EDITION MATERIALS. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT CONVERT THE PRODUCT. YOU AGREE THAT BY CONVERTING THE PRODUCT YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+The Open Gaming movement continues to extend itself into new venues all the time, requiring updates and explanations of policies on a regular basis. Recently, people have requested permission to convert 1st- and 2nd-edition **D&D**®/**AD&D**® materials, primarily made available through the *Electronic SKU Download* (ESD) project, into 3rd-edition **D&D** (3E) materials and to make them available on personal Web sites. This is permissible under the rules of the *Open Gaming License* (OGL) and the **d20**™ System Trademark License, and this document addresses Wizards of the Coast's ("Wizards") policies with regard to that activity.
+
+However, performing the conversion according to OGL standards is not sufficient in itself to post the materials without committing copyright and/or trademark infringement. It is critical to understand all brands, logos, and proper names within those materials are, and remain, the property of Wizards. Furthermore, it is necessary to prominently acknowledge ownership within the converted materials. Don't be fooled by unauthorized conversions you may find all over the Internet: People who upload those materials are, knowingly or unknowingly, committing acts of copyright infringement and are vulnerable to litigation. Furthermore, they are damaging Wizards' ability to protect its own intellectual property, and contributing to factors that could ultimately result in the withdrawal of any and all permissions to conduct this activity. Wizards' participation in the Open Gaming movement is quite unconventional, if not radical, in the business world—please respect the company's willingness to risk its Intellectual Properties by protecting them!
+
+Wizards shall be the sole source of the original materials, whether they have been obtained as ESDs, scanned, or otherwise procured. All you are authorized to convert to 3E are the mechanics, themselves. For example, if an **AD&D** encounter describes a scene wherein the adventurers are traveling down a road when they are accosted by a group of orcs, who demand their money or their lives, followed by a stat block that details the orc party, all you are authorized to convert is the stat block. You may add any additional mechanical information necessary to run the encounter in a 3E game, aside from the stat block, but you may not include the encounter itself, or the entire adventure in which it takes place.
+
+You must clearly identify the ESD that has been converted, and it is customary to provide a link to the Wizards Web page where the ESD may be downloaded.
+
+Conversions must be performed using the System Reference Document (SRD), created for OGL users, for purposes of establishing 3E mechanics in the respective materials. You are only granted permission to convert the ESD; you may not perform a re-design based upon personal standards and opinions. (Note the OGL must be included in the download such that it will print along with the materials—see the rules for publishing OGL products at www.wizards.com/d20 for complete information.) By doing so, it is legal to host the conversion on a personal Web site without obtaining formal permissions from Wizards.
+
+**Product Labeling**:
+
+Permission is granted to use the full and complete title of any ESD obtained legally from Wizards for a conversion. You may only use that title in the following format:
+
+**d20**™ System Conversion of: " [insert full title of product here]
+
+**Legal Text**:
+
+You must affix the following notice to the document containing any trademark or element of Product Identity used per this Agreement:
+
+"[Insert product title here], **DUNGEONS & DRAGONS**, **D&D**, **ADVANCED DUNGEONS & DRAGONS**, **AD&D**, the D&D logo, the AD&D logo, the d20 System logo and **d20** are trademarks owned by Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used with permission. All titles, and all proper nouns, including character names, locations, and named items are considered Product Identity per Section 1 of the Open Game License v1.0a and are exclusively owned by Wizards of the Coast, Inc.
+©2002 Wizards of the Coast, Inc.
+
+**Compliance of Conversion Policy, Open Game License and the d20 System Trademark License**:
+
+Use of WIZARDS OF THE COAST® Product Identity including proper names and product titles is hereby permitted exclusively via this ESD Conversion Agreement. A current version of this policy can be obtained at: (http://www.wizards.com/d20/conversionpolicy.asp).
+
+The distributor of this document accepts full responsibility for ensuring the materials contained within comply with the most recently published version of that policy, and with the Open Game License, and with the **d20** System Trademark License. If you wish to redistribute any portion of this document containing Wizards Product Identity, you must also agree to the terms of the current ESD Conversion Agreement.
+
+To obtain a digital copy of the original source material this conversion is derived from, please link to: http://www.wizards.com/*whatevertherightlinkshouldbe*.asp."
+
+In addition, you must update Section 15 of the text of the Open Game License you include with your work to include a copyright notice in the following format:
+
+"[insert title here], © [ insert copyright date from the product you are converting ] Wizards of the Coast, Inc."
+
+and
+
+"**d20**™ System Conversion of [ insert product title here ], ©2002 [insert your name or company name here ]."
+
+**Restrictions**:
+
+Furthermore, you may not charge a fee for the distribution of any document licensed using this agreement. You may not impose any additional restrictions on the redistribution of this document. The Open Game Content in the conversion is, of course, not affected by these restrictions, but any portion of the work containing Wizards Product Identity is so restricted.
+
+**Termination**:
+
+Wizards or its designated agents may terminate this agreement at any time by notice to you via email or surface mail. If this agreement is terminated, you agree to remove any electronic versions of this conversion under your control from distribution, and to destroy any printed versions of this conversion in your possession immediately. Once terminated, your right to continue to use the trademarks and Product Identity outlined in this Agreement terminate as well."""
+
+
 # Wizards' fan content notice, in the wording their policy sets. It is the
 # same notice the footnote carries on every other page - see hooks/footnote.py.
 FAN_CONTENT = (
@@ -497,6 +565,7 @@ NEWCARDS = {
         (None, "Fan Content Policy", FAN_CONTENT),
         (None, "Open Game Content", OPEN_GAME_CONTENT),
         (None, "Open Game License", OGL_V10A),
+        (None, "ESD Conversion Agreement", ESD_CONVERSION),
     ],
     "anthropology-warforged": [
         ("Origin Story", "The Life Debt", """\
@@ -513,7 +582,13 @@ Those who are able to pay off their Life Debt are given a ceremony where they ar
 # only "This page is currently used for disambiguation" and gave the reader no
 # way to reach the article it was pointing at - a dead end where a signpost was
 # meant to be.
-DISAMBIGUATION = {
+DISAMBIGUATION = {}
+
+# A slug with no page of its own, whose links go to the page that has the
+# content. Darkastle was listed twice on the Coastal Barrier Range - once as a
+# settlement and once as a point of interest - and the second listing led to a
+# stub saying only "see Darkastle". Both lead to Darkastle now.
+ALIASES = {
     "poi-darkastle": "settlement-darkastle",
 }
 
@@ -2918,6 +2993,11 @@ def main(backup):
         name = TITLES.get(written_here)
         if name:
             linkmap.setdefault(norm_slug(name.split(",")[0]), target_path(written_here))
+
+    # A slug that is only a name for another page - see ALIASES.
+    for alias, real in ALIASES.items():
+        for key in slug_keys(alias):
+            linkmap.setdefault(key, target_path(real))
 
     # A link to half of a merged page goes to that half's section, not to the
     # top of the page, so "the psionic power" still means the psionic power.

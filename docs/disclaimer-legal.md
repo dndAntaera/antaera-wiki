@@ -113,6 +113,14 @@ Spelljammer: Monstrous Compendium Appendix 2, ©1991 Wizards of the Coast, Inc.
 
 Spelljammer: The Spacefarer’s Handbook, ©1992 Wizards of the Coast, Inc.
 
+d20™ System Conversion of Spelljammer: Concordance of Arcane Space, ©2002 Antæra.
+
+d20™ System Conversion of Spelljammer: Monstrous Compendium Appendix 1, ©2002 Antæra.
+
+d20™ System Conversion of Spelljammer: Monstrous Compendium Appendix 2, ©2002 Antæra.
+
+d20™ System Conversion of Spelljammer: The Spacefarer’s Handbook, ©2002 Antæra.
+
 END OF LICENSE
 
 </div>

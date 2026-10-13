@@ -1,6 +1,0 @@
-# The Discord bot's Cloudflare Worker. Deployed by
-# .github/workflows/discord-bot.yml; see MAINTAINING.md.
-name = "antaera-wiki-bot"
-main = "worker.js"
-compatibility_date = "2025-06-01"
-workers_dev = true

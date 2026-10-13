@@ -7,4 +7,3 @@ __pycache__/
 Thumbs.db
 .cache/
 .claude/
-.wrangler/

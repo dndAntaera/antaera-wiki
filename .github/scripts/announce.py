@@ -746,6 +746,14 @@ def show(payload):
 
 
 # --- Discord ---------------------------------------------------------------
+#
+# Announcements go up as the Discord bot (the one antaera-bot's Worker runs,
+# whose /dmnotes writes the DM's Notes on them) when DISCORD_BOT_TOKEN is set,
+# and through the webhook when it is not. The webhook is how the channel is
+# found either way, and how posts it made earlier are edited or taken down.
+
+API = os.environ.get("DISCORD_API", "https://discord.com/api/v10")    # elsewhere only in tests
+
 
 class DiscordError(Exception):
     def __init__(self, code, body):
@@ -760,12 +768,16 @@ def endpoint(webhook, suffix="", **query):
         path=parts.path.rstrip("/") + suffix, query=urllib.parse.urlencode(params)))
 
 
-def send(method, url, payload):
-    data = json.dumps(payload).encode("utf-8")
+def send(method, url, payload=None, token=None):
+    data = json.dumps(payload).encode("utf-8") if payload is not None else None
+    # Discord turns away the default Python-urllib user agent.
+    headers = {"User-Agent": USER_AGENT}
+    if data is not None:
+        headers["Content-Type"] = "application/json"
+    if token:
+        headers["Authorization"] = "Bot " + token
     for attempt in range(3):
-        # Discord turns away the default Python-urllib user agent.
-        request = urllib.request.Request(url, data=data, method=method, headers={
-            "Content-Type": "application/json", "User-Agent": USER_AGENT})
+        request = urllib.request.Request(url, data=data, method=method, headers=headers)
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 body = response.read()
@@ -779,16 +791,63 @@ def send(method, url, payload):
             raise DiscordError(e.code, body)
 
 
+class Channel:
+    """The announcement channel, and the two ways of posting to it."""
+
+    def __init__(self, webhook, token):
+        self.webhook, self.token, self._id = webhook, token, None
+
+    @property
+    def poster(self):
+        return "bot" if self.token else "webhook"
+
+    def _channel(self):
+        if self._id is None:
+            self._id = send("GET", self.webhook)["channel_id"]
+        return self._id
+
+    def _url(self, by, message_id=""):
+        if by == "bot":
+            return "%s/channels/%s/messages%s" % (
+                API, self._channel(), "/" + message_id if message_id else "")
+        if message_id:
+            return endpoint(self.webhook, "/messages/" + message_id)
+        return endpoint(self.webhook, wait="true")
+
+    def post(self, payload):
+        token = self.token if self.poster == "bot" else None
+        return send("POST", self._url(self.poster), payload, token)["id"]
+
+    def _call(self, method, message_id, by, payload=None):
+        if by == "bot" and not self.token:
+            raise DiscordError(403, b"the bot posted it, and DISCORD_BOT_TOKEN is not set")
+        token = self.token if by == "bot" else None
+        return send(method, self._url(by, message_id), payload, token)
+
+    def get(self, message_id, by):
+        return self._call("GET", message_id, by)
+
+    def edit(self, message_id, by, payload):
+        return self._call("PATCH", message_id, by, payload)
+
+    def delete(self, message_id, by):
+        return self._call("DELETE", message_id, by)
+
+
 # --- State -----------------------------------------------------------------
 #
 # The workflow carries one small file from run to run: which message is open
-# for edits, when it went up, and the commit its list counts from.
+# for edits, who posted it, when it went up, and the commit its list counts
+# from.
 
 def load_state(path):
     try:
         with open(path, encoding="utf-8") as fh:
             state = json.load(fh)
-        return state if {"message_id", "posted_at", "base"} <= state.keys() else None
+        if not {"message_id", "posted_at", "base"} <= state.keys():
+            return None
+        state.setdefault("by", "webhook")   # from before the bot posted them
+        return state
     except (OSError, ValueError, TypeError, AttributeError):
         return None
 
@@ -805,14 +864,15 @@ def announcer_changed(last, head):
                           cwd=ROOT, capture_output=True).returncode == 1
 
 
-def webhook_url(dry_run):
-    """The webhook to post to, or None when the message is only printed."""
+def channel_for(dry_run):
+    """The announcement channel, or None when the message is only printed."""
     if dry_run:
         return None
     webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
     if not webhook:
         print("\n::notice::DISCORD_WEBHOOK_URL is not set, so nothing was posted.")
-    return webhook or None
+        return None
+    return Channel(webhook, os.environ.get("DISCORD_BOT_TOKEN", "").strip())
 
 
 def latest_change(head):
@@ -845,14 +905,42 @@ def test(head, dry_run, ping):
     print("Test message, showing %s.\n" % commit[:7])
     show(payload)
 
-    webhook = webhook_url(dry_run)
-    if not webhook:
+    channel = channel_for(dry_run)
+    if not channel:
         return
     try:
-        send("POST", endpoint(webhook, wait="true"), payload)
+        channel.post(payload)
     except DiscordError as e:
         sys.exit("Discord refused the message: %s" % e)
-    print("\nPosted to Discord.")
+    print("\nPosted to Discord as the %s." % channel.poster)
+
+
+def repost(state, head, channel, state_path):
+    """Take the open message down and put it up again, from whoever posts now.
+
+    The list is the same, counted from the same commit; DM's Notes on the old
+    message go across with it. It is a new message, so it pings, and its day
+    of edits starts again.
+    """
+    payload = build_message(state["base"], head) or undone_message(head)
+    try:
+        old = channel.get(state["message_id"], state["by"])
+    except DiscordError as e:
+        if e.code not in (403, 404):
+            raise
+        old = None
+    # Whatever is in the old text besides the ping is the DM's Notes.
+    notes = (old or {}).get("content", "").replace(PING, "").strip()
+    if notes:
+        payload["content"] = notes + "\n\n" + PING
+    show(payload)
+    message_id = channel.post(payload)
+    print("\nPosted again as the %s." % channel.poster)
+    if old:
+        channel.delete(state["message_id"], state["by"])
+        print("Took down the old one, which the %s had posted." % state["by"])
+    save_state(state_path, {"message_id": message_id, "posted_at": time.time(),
+                            "base": state["base"], "by": channel.poster})
 
 
 def main():
@@ -868,6 +956,8 @@ def main():
                     help="post the newest page change again, marked as a test")
     ap.add_argument("--ping", action="store_true",
                     help="with --test: ping Scars, as a real announcement does")
+    ap.add_argument("--repost", action="store_true",
+                    help="take the open message down and post it again")
     ap.add_argument("--dry-run", action="store_true",
                     help="print the message instead of posting it")
     args = ap.parse_args()
@@ -875,6 +965,19 @@ def main():
     head = git("rev-parse", "--verify", args.head + "^{commit}").strip()
     if args.test:
         test(head, args.dry_run, args.ping)
+        return
+
+    if args.repost:
+        state = load_state(args.state) if args.state else None
+        if not state:
+            sys.exit("There is no open message to post again.")
+        channel = channel_for(args.dry_run)
+        if not channel:
+            return
+        try:
+            repost(state, head, channel, args.state)
+        except DiscordError as e:
+            sys.exit("Discord refused: %s" % e)
         return
 
     last = args.last
@@ -912,18 +1015,18 @@ def main():
         print("Posting a new message.\n")
     show(payload)
 
-    webhook = webhook_url(args.dry_run)
-    if not webhook:
+    channel = channel_for(args.dry_run)
+    if not channel:
         return
 
     try:
         if state:
             try:
                 # The embed only. The message's text holds the ping and any
-                # DM's Notes written with /dmnotes (discord-bot/worker.js),
-                # and an edit that sent it would wipe the notes.
-                send("PATCH", endpoint(webhook, "/messages/" + state["message_id"]),
-                     {"embeds": payload["embeds"]})
+                # DM's Notes written with /dmnotes (antaera-bot's
+                # worker/src/features/dmnotes.js), and an edit that sent it
+                # would wipe the notes.
+                channel.edit(state["message_id"], state["by"], {"embeds": payload["embeds"]})
                 print("\nEdited the message on Discord.")
                 return
             except DiscordError as e:
@@ -936,13 +1039,14 @@ def main():
                     return
                 print("\nThe open message is gone (HTTP %d); posting a new one." % e.code)
                 payload = fresh
-        message = send("POST", endpoint(webhook, wait="true"), payload)
+        message_id = channel.post(payload)
     except DiscordError as e:
         sys.exit("Discord refused the message: %s" % e)
 
-    print("\nPosted to Discord.")
+    print("\nPosted to Discord as the %s." % channel.poster)
     if args.state:
-        save_state(args.state, {"message_id": message["id"], "posted_at": now, "base": last})
+        save_state(args.state, {"message_id": message_id, "posted_at": now,
+                                "base": last, "by": channel.poster})
 
 
 if __name__ == "__main__":

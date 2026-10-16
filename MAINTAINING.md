@@ -237,6 +237,18 @@ that project's MAINTAINING.md.
 The notes live in the announcement's text. The announcer here only ever edits
 the announcement's embed, so its later edits leave them where they are.
 
+**Who posts.** With a `DISCORD_BOT_TOKEN` repository secret (the same bot
+token as in antaera-bot), announcements go up as that bot, under its name and
+picture. Without it they go through the webhook as before. The webhook is
+still needed either way: it names the channel, and it is the only one that can
+edit or take down the posts it made earlier. The bot needs **Send Messages**
+and **Embed Links** in that channel.
+
+To take the open announcement down and put it up again (for instance after
+switching to the bot), run *Deploy wiki to GitHub Pages* from the Actions tab
+with **repost** ticked. The new post keeps the same list and any DM's Notes,
+pings again, and starts its day of edits afresh.
+
 ## Hosting architecture
 
 GitHub Pages is the live site. This machine is the disaster-recovery copy.

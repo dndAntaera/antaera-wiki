@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      repost:
+        description: Take the open announcement down and post it again (as the bot, if it is set up)
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -81,10 +86,11 @@ jobs:
 
       - env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
         run: >
           python3 .github/scripts/announce.py
           --last "${{ steps.last.outputs.sha }}" --head "$GITHUB_SHA"
-          --state .announce-state.json
+          --state .announce-state.json ${{ inputs.repost && '--repost' || '' }}
 
       - if: hashFiles('.announce-state.json') != ''
         uses: actions/cache/save@v4

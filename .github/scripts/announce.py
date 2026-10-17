@@ -712,8 +712,8 @@ def _page_list(groups, room=DESCRIPTION_CAP):
 # thoughts at the top of an announcement's embed:
 #
 #   **DM's Notes**
-#   > first line
-#
+#   The calendar has a home now.
+#   (an invisible line: NOTES_END)
 #   **Edited**
 #   ...
 #
@@ -724,6 +724,7 @@ def _page_list(groups, room=DESCRIPTION_CAP):
 
 NOTES_HEADER = "**DM's Notes**"
 OLD_NOTES_HEADER = "### DM's Notes"
+NOTES_END = "​"     # as antaera-bot's dmnotes.js writes it (END there)
 
 
 def _quoted(text, header):
@@ -739,25 +740,37 @@ def _quoted(text, header):
 
 
 def notes_block(message):
-    """The DM's Notes on a posted message, ready to go back at the top of its embed."""
+    """The DM's Notes on a posted message, ready to go back at the top of its embed.
+
+    They are plain prose under their heading, closed by a line holding only
+    NOTES_END, an invisible zero-width space that shows as a blank line and
+    lets the notes have blank lines of their own. Notes quoted line by line,
+    the way they were first written, are turned into that.
+    """
     if not message:
         return ""
     embeds = message.get("embeds") or [{}]
+    lines = (embeds[0].get("description") or "").split("\n")
+    if lines[0] == NOTES_HEADER and NOTES_END in lines[1:]:
+        return "\n".join(lines[:lines.index(NOTES_END, 1) + 1])
     quoted = (_quoted(embeds[0].get("description"), NOTES_HEADER)
               or _quoted(message.get("content"), OLD_NOTES_HEADER))
-    return "\n".join([NOTES_HEADER] + quoted) if quoted else ""
+    if not quoted:
+        return ""
+    prose = [re.sub(r"^> ?", "", line) for line in quoted]
+    return "\n".join([NOTES_HEADER] + prose + [NOTES_END])
 
 
 def with_notes(payload, block):
     if block:
         embed = payload["embeds"][0]
-        embed["description"] = block + "\n\n" + embed["description"]
+        embed["description"] = block + "\n" + embed["description"]
     return payload
 
 
 def fitted(base, head, block):
     """The message for base..head, with room left at the top for the DM's Notes."""
-    reserve = len(block) + 2 if block else 0
+    reserve = len(block) + 1 if block else 0
     payload = build_message(base, head, reserve) or undone_message(head)
     return with_notes(payload, block)
 

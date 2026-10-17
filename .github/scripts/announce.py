@@ -567,7 +567,12 @@ def describe_move(old_path):
 
 
 def _item(text):
-    return escape(text[:1].upper() + text[1:])
+    # A line opens with a capital, except a before-and-after swap: those are
+    # the page's own words, and capitalising them could hide the change itself
+    # ("flail → Flail" read as "Flail → Flail").
+    if " → " not in text:
+        text = text[:1].upper() + text[1:]
+    return escape(text)
 
 
 def build_messages(base, head, notes=""):

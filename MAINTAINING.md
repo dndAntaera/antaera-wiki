@@ -324,12 +324,42 @@ live site within about a minute. Three things stand in the way.
 ### 1. Pre-push guard
 
 `.githooks/pre-push` runs before anything leaves this machine and refuses the
-push if either check fails:
+push if any check fails:
 
 - the number of files under `docs/` would drop below 70% of what is currently
   published (catches an accidental mass delete)
 - `mkdocs build --strict` does not succeed (catches broken links and bad config
   before they deploy, not after)
+- the housekeeping sweep finds a problem (below)
+
+### The housekeeping sweep
+
+`scripts/sweep.py` looks at what the wiki actually says and how it fits
+together, which a clean build does not prove. Run it after a build:
+
+```bash
+.venv/Scripts/python.exe -m mkdocs build --strict
+.venv/Scripts/python.exe scripts/sweep.py
+```
+
+Every check prints OK or lists what is wrong, in three parts:
+
+- **The pages**: cards and rows closed, links and anchors that resolve,
+  images that exist, the house style (Antæra's ligature, deities not gods,
+  ft and lbs, bold labels, Format A for the gods, the pantheons agreeing with
+  each other), no orphaned or near-empty pages, and the built site's icons
+  and link previews. These are the checks in `_migration/sweep.py`.
+- **The code**: every Python file compiles, the workflows and `.pages.yml`
+  parse, the hooks `mkdocs.yml` names exist (and none sits unused), and the
+  Discord announcer can build a message.
+- **Safety**: no Discord webhook URL or bot token, and no personal email
+  address, is committed; the workflows take their secrets from GitHub.
+
+The pre-push hook runs it on the site it has just built, and blocks the push
+if anything fails. CI runs it again before publishing, but only reports: an
+edit made in Pages CMS goes through CI too, and a house-style slip should
+not keep it off the site. Look for a failed *Housekeeping sweep* step on the
+deploy run.
 
 Deliberate large changes get through with an explicit override:
 

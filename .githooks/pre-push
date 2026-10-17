@@ -68,6 +68,21 @@ while read -r _local_ref local_sha remote_ref remote_sha; do
             exit 1
         fi
         echo "pre-push: build OK."
+
+        # A build that passes can still ship a broken page, a committed secret
+        # or an announcer that will fail after the deploy.
+        echo "pre-push: running the housekeeping sweep..."
+        if ! "$PY" "$REPO_ROOT/scripts/sweep.py" "$REPO_ROOT/.cache/prepush-site" >"$REPO_ROOT/.git/sweep.log" 2>&1; then
+            echo ""
+            echo "  PUSH BLOCKED: the housekeeping sweep found problems."
+            grep "FAIL" -A 4 "$REPO_ROOT/.git/sweep.log"
+            echo ""
+            echo "  Run it yourself to see everything:"
+            echo "      .venv/Scripts/python.exe scripts/sweep.py"
+            echo ""
+            exit 1
+        fi
+        echo "pre-push: sweep OK."
     fi
 done
 

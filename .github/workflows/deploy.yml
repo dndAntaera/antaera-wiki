@@ -36,6 +36,14 @@ jobs:
 
       - run: mkdocs build --strict
 
+      # The pages, the code and the secrets, before anything is published. It
+      # reports and does not stop the deploy: edits made in Pages CMS come
+      # through here too, and a house-style slip should not keep one off the
+      # site. The pre-push hook is where it blocks.
+      - name: Housekeeping sweep
+        continue-on-error: true
+        run: python scripts/sweep.py site
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

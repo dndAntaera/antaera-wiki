@@ -576,7 +576,7 @@ def _item(text):
     return escape(clip(text[:1].upper() + text[1:]))
 
 
-def build_message(base, head):
+def build_message(base, head, reserve=0):
     """The embed for everything readers would notice between the two, or None."""
     site_name, site_url = site_config()
     commits = content_changes(base, head)
@@ -610,7 +610,7 @@ def build_message(base, head):
             line += " *(work in progress)*"
         groups[change.kind].append((info["title"].lower(), line, _changes(change)))
 
-    embed = _embed(site_name, site_url, head, _page_list(groups))
+    embed = _embed(site_name, site_url, head, _page_list(groups, DESCRIPTION_CAP - reserve))
 
     # The commits behind the pages listed. One whose every change was later
     # undone has nothing left to explain.
@@ -670,7 +670,7 @@ def _entry(line, items, cap):
     return line + "".join("\n" + SUB + i for i in items)
 
 
-def _page_list(groups):
+def _page_list(groups, room=DESCRIPTION_CAP):
     """The description: every page and every change, in full if it fits.
 
     Past Discord's cap it is shortened only as far as it has to be: the
@@ -697,13 +697,69 @@ def _page_list(groups):
     most = max(len(items) for entries in groups.values() for _, _, items in entries)
     for cap in [None] + list(range(most - 1, -1, -1)):
         text = render(cap)
-        if len(text) <= DESCRIPTION_CAP:
+        if len(text) <= room:
             return text
     for keep in range(total - 1, 0, -1):
         text = render(0, keep)
-        if len(text) <= DESCRIPTION_CAP:
+        if len(text) <= room:
             return text
-    return render(0, 1)[:DESCRIPTION_CAP]
+    return render(0, 1)[:room]
+
+
+# --- DM's Notes --------------------------------------------------------------
+#
+# /dmnotes (antaera-bot's worker/src/features/dmnotes.js) writes the DM's own
+# thoughts at the top of an announcement's embed:
+#
+#   **DM's Notes**
+#   > first line
+#
+#   **Edited**
+#   ...
+#
+# Redrawing the list must not lose them, so every edit reads the post first
+# and carries them over, leaving the list that much less room. Before they
+# lived in the embed they sat in the message's text, under "### DM's Notes";
+# a post that still has them there has them moved into the embed.
+
+NOTES_HEADER = "**DM's Notes**"
+OLD_NOTES_HEADER = "### DM's Notes"
+
+
+def _quoted(text, header):
+    lines = (text or "").split("\n")
+    if lines[0] != header:
+        return []
+    quoted = []
+    for line in lines[1:]:
+        if not line.startswith(">"):
+            break
+        quoted.append(line)
+    return quoted
+
+
+def notes_block(message):
+    """The DM's Notes on a posted message, ready to go back at the top of its embed."""
+    if not message:
+        return ""
+    embeds = message.get("embeds") or [{}]
+    quoted = (_quoted(embeds[0].get("description"), NOTES_HEADER)
+              or _quoted(message.get("content"), OLD_NOTES_HEADER))
+    return "\n".join([NOTES_HEADER] + quoted) if quoted else ""
+
+
+def with_notes(payload, block):
+    if block:
+        embed = payload["embeds"][0]
+        embed["description"] = block + "\n\n" + embed["description"]
+    return payload
+
+
+def fitted(base, head, block):
+    """The message for base..head, with room left at the top for the DM's Notes."""
+    reserve = len(block) + 2 if block else 0
+    payload = build_message(base, head, reserve) or undone_message(head)
+    return with_notes(payload, block)
 
 
 def undone_message(head):
@@ -922,17 +978,13 @@ def repost(state, head, channel, state_path):
     message go across with it. It is a new message, so it pings, and its day
     of edits starts again.
     """
-    payload = build_message(state["base"], head) or undone_message(head)
     try:
         old = channel.get(state["message_id"], state["by"])
     except DiscordError as e:
         if e.code not in (403, 404):
             raise
         old = None
-    # Whatever is in the old text besides the ping is the DM's Notes.
-    notes = (old or {}).get("content", "").replace(PING, "").strip()
-    if notes:
-        payload["content"] = notes + "\n\n" + PING
+    payload = fitted(state["base"], head, notes_block(old))
     show(payload)
     message_id = channel.post(payload)
     print("\nPosted again as the %s." % channel.poster)
@@ -1022,11 +1074,21 @@ def main():
     try:
         if state:
             try:
-                # The embed only. The message's text holds the ping and any
-                # DM's Notes written with /dmnotes (antaera-bot's
-                # worker/src/features/dmnotes.js), and an edit that sent it
-                # would wipe the notes.
-                channel.edit(state["message_id"], state["by"], {"embeds": payload["embeds"]})
+                # The embed only, so the ping in the text is left alone; and
+                # the DM's Notes at the top of the embed carried over.
+                current = channel.get(state["message_id"], state["by"])
+                block = notes_block(current)
+                if block:
+                    payload = fitted(state["base"], head, block)
+                body = {"embeds": payload["embeds"]}
+                # Notes still in their old place, the text, have just gone
+                # into the embed; the text keeps only what follows them.
+                text = current.get("content") or ""
+                if _quoted(text, OLD_NOTES_HEADER):
+                    rest = text.split("\n")[1 + len(_quoted(text, OLD_NOTES_HEADER)):]
+                    body["content"] = "\n".join(rest).strip()
+                    body["allowed_mentions"] = {"parse": [], "roles": [SCARS_ROLE_ID]}
+                channel.edit(state["message_id"], state["by"], body)
                 print("\nEdited the message on Discord.")
                 return
             except DiscordError as e:

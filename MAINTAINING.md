@@ -348,7 +348,7 @@ Every check prints OK or lists what is wrong, in three parts:
   images that exist, the house style (Antæra's ligature, deities not gods,
   ft and lbs, bold labels, Format A for the gods, the pantheons agreeing with
   each other), no orphaned or near-empty pages, and the built site's icons
-  and link previews. These are the checks in `_migration/sweep.py`.
+  and link previews, all read from `docs/` and the built site.
 - **The code**: every Python file compiles, the workflows and `.pages.yml`
   parse, the hooks `mkdocs.yml` names exist (and none sits unused), and the
   Discord announcer can build a message.

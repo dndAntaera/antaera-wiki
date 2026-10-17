@@ -231,7 +231,7 @@ them off. Only the server's admins can run it.
 
 It is one more command on the Sheets project's Discord bot, beside `/roll`,
 `/sheet` and `/character`, answered by the Sheets Worker
-(`antaera_Sheets/worker/src/features/dmnotes.js`). Its setup lives there, in
+(`worker/src/features/dmnotes.js` in the antaera-bot repository). Its setup lives there, in
 that project's MAINTAINING.md.
 
 The notes live in the announcement's text. The announcer here only ever edits

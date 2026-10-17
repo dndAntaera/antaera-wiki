@@ -124,7 +124,7 @@ changed to a Discord channel. `.github/scripts/announce.py` writes the
 message. It has two parts:
 
 - **A list of the pages**, grouped as new, edited, moved and removed. Each is
-  linked to its live page and followed by a clipped description of what
+  linked to its live page and followed by a short description of what
   changed on it, worked out by comparing its words before and after:
   - a few words swapped read as `Shadowlands → Plane of Shadow`;
   - a bigger change names its section: `expanded Overview`,
@@ -138,15 +138,18 @@ message. It has two parts:
     read the same way;
   - known changes are spelled out: `retitled from …`, `finished` (no longer
     a work in progress);
-  - a new page shows its opening line.
+  - a new page shows its first sentence.
 - **A summary**: the commit messages behind those pages, minus Pages CMS's
   automatic ones.
 
-Everything is listed in full. Only a message that would run past Discord's
-limits (4096 characters for the list, 1024 for the summary) is shortened, and
-only as far as it has to be: the longest lists of changes are cut first, a
-line at a time and counted ("…and 2 more"), then the descriptions, then pages
-from the end. The summary drops its oldest lines first.
+**Nothing is cut short.** An announcement too long for one message (Discord
+allows 4096 characters for an embed's text, 1024 for each field and 6000 in
+all) goes on in as many messages as it takes, titled `(1/3)`, `(2/3)` and so
+on. It breaks between pages, and a group carried over says *(continued)*
+under its heading. Only the first message pings, and carries the DM's Notes;
+the summary comes at the end. Edits through the day update every part, post
+more parts after them if the list grows, and take down the extras if it
+shrinks.
 
 **One message a day.** For 24 hours after a message is posted, later changes
 are added to it by editing it, so it always lists everything changed since it

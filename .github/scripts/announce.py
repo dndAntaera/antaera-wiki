@@ -294,29 +294,17 @@ def escape(text):
 
 # --- Describing a change ---------------------------------------------------
 #
-# Each page in the list gets a clipped account of what happened to it, worked
-# out by comparing its words before and after. A few words swapped for a few
+# Each page in the list gets a short account of what happened to it, worked
+# out by comparing its words before and after. Nothing in it is cut short. A few words swapped for a few
 # others reads as "old → new"; anything bigger is named by the section it
 # landed in ("expanded Overview", "added Dogma").
 
-CLIP = 90       # characters a description may run to
 SMALL = 6       # words either side of a swap that still reads as one
 GAP = 3         # unchanged words that can sit inside one rewritten passage
 
 # A page with one change has it on the page's own line. A page with several
 # lists them under it, one to a line, each marked with this.
 SUB = " ◦ "
-
-
-def clip(text, limit=CLIP):
-    if len(text) <= limit:
-        return text
-    cut = text[:limit - 1]
-    # End on a whole item where one ends late enough, else on a whole word.
-    item = cut.rfind("; ")
-    if item > limit // 2:
-        return cut[:item] + "; …"
-    return cut.rsplit(" ", 1)[0].rstrip(" ;,→—") + "…"
 
 
 def _phrase(words):
@@ -564,8 +552,14 @@ def describe_new(text):
             prose.append(_phrase(_words(" ".join(lines))))
     for text in prose + lists:
         if len(text) >= 25:
-            return clip(text)
+            return first_sentence(text)
     return "a new page"
+
+
+def first_sentence(text):
+    """A paragraph's first sentence, whole: short, and not cut off mid-thought."""
+    m = re.match(r"(.+?[.!?])(?:\s|$)", text)
+    return m.group(1) if m and len(m.group(1)) >= 25 else text
 
 
 def describe_move(old_path):
@@ -573,11 +567,15 @@ def describe_move(old_path):
 
 
 def _item(text):
-    return escape(clip(text[:1].upper() + text[1:]))
+    return escape(text[:1].upper() + text[1:])
 
 
-def build_message(base, head, reserve=0):
-    """The embed for everything readers would notice between the two, or None."""
+def build_messages(base, head, notes=""):
+    """The messages for everything readers would notice between the two, or None.
+
+    One message when it fits, and as many as it takes when it does not:
+    nothing is cut. The DM's Notes, if any, go at the top of the first.
+    """
     site_name, site_url = site_config()
     commits = content_changes(base, head)
     paths = set().union(*(p for _, p in commits))
@@ -610,8 +608,6 @@ def build_message(base, head, reserve=0):
             line += " *(work in progress)*"
         groups[change.kind].append((info["title"].lower(), line, _changes(change)))
 
-    embed = _embed(site_name, site_url, head, _page_list(groups, DESCRIPTION_CAP - reserve))
-
     # The commits behind the pages listed. One whose every change was later
     # undone has nothing left to explain.
     subjects = []
@@ -619,18 +615,9 @@ def build_message(base, head, reserve=0):
         if (changed & listed and subject and not CMS_MESSAGE.search(subject)
                 and subject not in subjects):
             subjects.append(subject)
-    if subjects:
-        # Newest last. Only past the cap are the oldest counted instead of
-        # listed, so a message that grows through the day still shows what
-        # just happened.
-        lines = ["• " + escape(s) for s in subjects]
-        value, dropped = "\n".join(lines), 0
-        while len(value) > FIELD_CAP and dropped < len(lines) - 1:
-            dropped += 1
-            value = "\n".join(["*…and %d earlier*" % dropped] + lines[dropped:])
-        embed["fields"] = [{"name": "Summary", "value": value[:FIELD_CAP]}]
 
-    return _payload(embed)
+    return _messages(site_name, site_url, head, _page_chunks(groups, notes),
+                     ["• " + escape(s) for s in subjects])
 
 
 HEADINGS = {"added": "New", "edited": "Edited", "moved": "Moved", "removed": "Removed"}
@@ -655,55 +642,113 @@ def _changes(change):
     return [_item(i) for i in items]
 
 
-def _entry(line, items, cap):
-    """A page's line and its changes: one on the same line, several under it.
-
-    cap None lists every change. Otherwise a page with more than cap has the
-    rest counted instead, and cap 0 leaves the page's line alone.
-    """
-    if not items or cap == 0:
+def _entry(line, items):
+    """A page's line and its changes: one on the same line, several under it."""
+    if not items:
         return line
     if len(items) == 1:
         return line + " — " + items[0]
-    if cap is not None and len(items) > cap:
-        items = items[:cap] + ["*…and %d more*" % (len(items) - cap)]
     return line + "".join("\n" + SUB + i for i in items)
 
 
-def _page_list(groups, room=DESCRIPTION_CAP):
-    """The description: every page and every change, in full if it fits.
+# Discord caps a message's embeds at 6000 characters between them, besides each
+# description's 4096 and each field's 1024; a little is kept back for the title
+# and footer.
+EMBED_CAP = 6000 - 200
 
-    Past Discord's cap it is shortened only as far as it has to be: the
-    longest lists of changes are cut first, a line at a time; then the
-    changes go altogether; then, last, pages from the end.
+
+def _split_line(line, room):
+    """A line longer than a whole description, in pieces that each fit."""
+    return [line[i:i + room] for i in range(0, len(line), room)] or [""]
+
+
+def _page_chunks(groups, notes=""):
+    """The list of pages, in descriptions that each fit in one embed.
+
+    It breaks between pages, never inside one unless a single page will not
+    fit an embed on its own; a group carried into the next embed says so
+    under its heading. The DM's Notes open the first.
     """
-    total = sum(len(entries) for entries in groups.values())
+    chunks, lines, kind_here, started = [], [], None, set()
+    room = DESCRIPTION_CAP
 
-    def render(cap, keep=total):
-        parts, shown = [], 0
-        for kind, entries in groups.items():
-            lines = []
-            for _, line, items in sorted(entries):
-                if shown == keep:
-                    break
-                lines.append(_entry(line, items, cap))
-                shown += 1
-            if lines:
-                parts.append("**%s**\n%s" % (HEADINGS[kind], "\n".join(lines)))
-        if shown < total:
-            parts.append("*…and %d more pages*" % (total - shown))
-        return "\n\n".join(parts)
+    def flush():
+        nonlocal lines, kind_here
+        if lines:
+            chunks.append("\n".join(lines))
+        lines, kind_here = [], None
 
-    most = max(len(items) for entries in groups.values() for _, _, items in entries)
-    for cap in [None] + list(range(most - 1, -1, -1)):
-        text = render(cap)
-        if len(text) <= room:
-            return text
-    for keep in range(total - 1, 0, -1):
-        text = render(0, keep)
-        if len(text) <= room:
-            return text
-    return render(0, 1)[:room]
+    def text(extra):
+        return "\n".join(lines + extra)
+
+    if notes:
+        lines = notes.split("\n")
+    for kind, entries in groups.items():
+        for _, line, items in sorted(entries):
+            entry = _entry(line, items).split("\n")
+            heading = []
+            if kind_here != kind:
+                label = "**%s**" % HEADINGS[kind]
+                if kind in started:
+                    label += " *(continued)*"
+                heading = ([""] if lines and lines[-1] != NOTES_END else []) + [label]
+            if lines and len(text(heading + entry)) > room:
+                flush()
+                heading = ["**%s**%s" % (HEADINGS[kind], " *(continued)*" if kind in started else "")]
+            if not lines and len(text(heading + entry)) > room:
+                # One page too long for an embed of its own: line by line.
+                for piece in heading + [p for l in entry for p in _split_line(l, room)]:
+                    if lines and len(text([piece])) > room:
+                        flush()
+                        lines = ["**%s** *(continued)*" % HEADINGS[kind]]
+                    lines.append(piece)
+            else:
+                lines += heading + entry
+            kind_here = kind
+            started.add(kind)
+    flush()
+    return chunks or [""]
+
+
+def _summary_fields(summary):
+    """The summary in fields of at most FIELD_CAP characters, every line kept."""
+    fields, value = [], []
+    for line in summary:
+        for piece in _split_line(line, FIELD_CAP):
+            if value and len("\n".join(value + [piece])) > FIELD_CAP:
+                fields.append(value)
+                value = []
+            value.append(piece)
+    if value:
+        fields.append(value)
+    return [{"name": "Summary" if i == 0 else "Summary (continued)", "value": "\n".join(v)}
+            for i, v in enumerate(fields)]
+
+
+def _size(embed):
+    return (len(embed.get("title", "")) + len(embed.get("description", ""))
+            + sum(len(f["name"]) + len(f["value"]) for f in embed.get("fields", [])))
+
+
+def _messages(site_name, site_url, head, chunks, summary):
+    """One message per chunk of the list, the summary after them, the ping on the first."""
+    embeds = [_embed(site_name, site_url, head, chunk) for chunk in chunks]
+    for field in _summary_fields(summary):
+        last = embeds[-1]
+        if len(last.get("fields", [])) < 25 and _size(last) + len(field["name"]) + len(field["value"]) <= EMBED_CAP:
+            last.setdefault("fields", []).append(field)
+        else:
+            embeds.append(dict(_embed(site_name, site_url, head, ""), fields=[field]))
+    if len(embeds) > 1:
+        for i, embed in enumerate(embeds, 1):
+            embed["title"] += " (%d/%d)" % (i, len(embeds))
+    for embed in embeds:
+        if not embed["description"]:
+            del embed["description"]
+    messages = [_payload(embeds[0])]
+    # Only the first pings: the rest follow it, and say nothing in their text.
+    messages += [{"embeds": [embed], "allowed_mentions": {"parse": []}} for embed in embeds[1:]]
+    return messages
 
 
 # --- DM's Notes --------------------------------------------------------------
@@ -761,25 +806,16 @@ def notes_block(message):
     return "\n".join([NOTES_HEADER] + prose + [NOTES_END])
 
 
-def with_notes(payload, block):
-    if block:
-        embed = payload["embeds"][0]
-        embed["description"] = block + "\n" + embed["description"]
-    return payload
-
-
 def fitted(base, head, block):
-    """The message for base..head, with room left at the top for the DM's Notes."""
-    reserve = len(block) + 1 if block else 0
-    payload = build_message(base, head, reserve) or undone_message(head)
-    return with_notes(payload, block)
+    """The messages for base..head, the DM's Notes at the top of the first."""
+    return build_messages(base, head, block) or undone_messages(head, block)
 
 
-def undone_message(head):
-    """For a message whose changes have all been reverted since it went up."""
+def undone_messages(head, notes=""):
+    """For an announcement whose changes have all been reverted since it went up."""
     site_name, site_url = site_config()
-    return _payload(_embed(site_name, site_url, head,
-                           "*The changes listed here have since been undone.*"))
+    undone = "*The changes listed here have since been undone.*"
+    return _messages(site_name, site_url, head, [notes + "\n" + undone if notes else undone], [])
 
 
 def _embed(site_name, site_url, head, description):
@@ -803,15 +839,19 @@ def _payload(embed):
             "allowed_mentions": {"parse": [], "roles": [SCARS_ROLE_ID]}}
 
 
-def show(payload):
-    embed = payload["embeds"][0]
-    if payload.get("content"):
-        print(payload["content"])
-    print(embed["title"])
-    print(embed["description"])
-    for field in embed.get("fields", []):
-        print("\n" + field["name"])
-        print(field["value"])
+def show(messages):
+    for n, payload in enumerate(messages):
+        if n:
+            print("\n--- next message ---")
+        if payload.get("content"):
+            print(payload["content"])
+        for embed in payload["embeds"]:
+            print(embed["title"])
+            if embed.get("description"):
+                print(embed["description"])
+            for field in embed.get("fields", []):
+                print("\n" + field["name"])
+                print(field["value"])
 
 
 # --- Discord ---------------------------------------------------------------
@@ -905,25 +945,31 @@ class Channel:
 
 # --- State -----------------------------------------------------------------
 #
-# The workflow carries one small file from run to run: which message is open
-# for edits, who posted it, when it went up, and the commit its list counts
-# from.
+# The workflow carries one small file from run to run: the messages that make
+# up the announcement open for edits, and who posted each; when it went up;
+# and the commit its list counts from.
 
 def load_state(path):
     try:
         with open(path, encoding="utf-8") as fh:
             state = json.load(fh)
-        if not {"message_id", "posted_at", "base"} <= state.keys():
+        if not {"posted_at", "base"} <= state.keys():
             return None
-        state.setdefault("by", "webhook")   # from before the bot posted them
+        if "messages" not in state:
+            # From when an announcement was one message, and before the bot
+            # posted them, the webhook.
+            if "message_id" not in state:
+                return None
+            state["messages"] = [{"id": state["message_id"], "by": state.get("by", "webhook")}]
         return state
     except (OSError, ValueError, TypeError, AttributeError):
         return None
 
 
-def save_state(path, state):
-    with open(path, "w", encoding="utf-8") as fh:
-        json.dump(state, fh)
+def save_state(path, messages, posted_at, base):
+    if path:
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump({"messages": messages, "posted_at": posted_at, "base": base}, fh)
 
 
 def announcer_changed(last, head):
@@ -953,59 +999,105 @@ def latest_change(head):
     return None
 
 
+def post_all(channel, messages):
+    """Post the messages in order; what was posted, as the state keeps it."""
+    return [{"id": channel.post(m), "by": channel.poster} for m in messages]
+
+
+def take_down(channel, parts):
+    for part in parts:
+        try:
+            channel.delete(part["id"], part["by"])
+        except DiscordError as e:
+            if e.code not in (403, 404):
+                raise
+
+
 def test(head, dry_run, ping):
     """Post the newest page change again, marked as a test.
 
-    It goes up as a message of its own and is not remembered, so the next
-    real change starts or edits a real message, never this one. It pings only
-    when asked to, so checking the webhook does not wake the whole server.
+    It goes up as messages of its own and is not remembered, so the next real
+    change starts or edits a real announcement, never this one. It pings only
+    when asked to, so checking the bot does not wake the whole server.
     """
     commit = latest_change(head)
     if commit is None:
         sys.exit("No page change to show.")
-    payload = build_message(commit + "^", commit)
+    messages = build_messages(commit + "^", commit)
     if not ping:
-        del payload["content"]
-        payload["allowed_mentions"] = {"parse": []}
-    embed = payload["embeds"][0]
-    embed["title"] += " (test)"
-    embed["footer"] = {"text": "A test of the wiki's announcements: "
-                               "real ones look like this."}
+        messages[0].pop("content", None)
+        messages[0]["allowed_mentions"] = {"parse": []}
+    for m in messages:
+        m["embeds"][0]["title"] += " (test)"
+    messages[-1]["embeds"][0]["footer"] = {"text": "A test of the wiki's announcements: "
+                                                   "real ones look like this."}
     print("Test message, showing %s.\n" % commit[:7])
-    show(payload)
+    show(messages)
 
     channel = channel_for(dry_run)
     if not channel:
         return
     try:
-        channel.post(payload)
+        post_all(channel, messages)
     except DiscordError as e:
         sys.exit("Discord refused the message: %s" % e)
     print("\nPosted to Discord as the %s." % channel.poster)
 
 
-def repost(state, head, channel, state_path):
-    """Take the open message down and put it up again, from whoever posts now.
-
-    The list is the same, counted from the same commit; DM's Notes on the old
-    message go across with it. It is a new message, so it pings, and its day
-    of edits starts again.
-    """
+def first_message(channel, state):
+    """The open announcement's first message, or None if it has gone."""
+    part = state["messages"][0]
     try:
-        old = channel.get(state["message_id"], state["by"])
+        return channel.get(part["id"], part["by"])
     except DiscordError as e:
         if e.code not in (403, 404):
             raise
-        old = None
-    payload = fitted(state["base"], head, notes_block(old))
-    show(payload)
-    message_id = channel.post(payload)
-    print("\nPosted again as the %s." % channel.poster)
-    if old:
-        channel.delete(state["message_id"], state["by"])
-        print("Took down the old one, which the %s had posted." % state["by"])
-    save_state(state_path, {"message_id": message_id, "posted_at": time.time(),
-                            "base": state["base"], "by": channel.poster})
+        return None
+
+
+def repost(state, head, channel, state_path):
+    """Take the open announcement down and put it up again, from whoever posts now.
+
+    The list is the same, counted from the same commit; DM's Notes on the old
+    one go across with it. It is new, so it pings, and its day of edits starts
+    again.
+    """
+    messages = fitted(state["base"], head, notes_block(first_message(channel, state)))
+    show(messages)
+    posted = post_all(channel, messages)
+    print("\nPosted again as the %s, in %d message%s." % (
+        channel.poster, len(posted), "" if len(posted) == 1 else "s"))
+    take_down(channel, state["messages"])
+    print("Took down the old one.")
+    save_state(state_path, posted, time.time(), state["base"])
+
+
+def update(channel, state, messages, current):
+    """Edit the open announcement into these messages.
+
+    Each part that is there already is edited, in its embed only, so the ping
+    in the first one's text is left alone; parts it now needs are posted after
+    them, and parts it no longer needs are taken down.
+    """
+    parts = state["messages"]
+    kept = []
+    for n, message in enumerate(messages):
+        if n < len(parts):
+            body = {"embeds": message["embeds"]}
+            if n == 0:
+                # Notes still in their old place, the text, have gone into the
+                # embed; the text keeps only what followed them.
+                text = (current or {}).get("content") or ""
+                if _quoted(text, OLD_NOTES_HEADER):
+                    rest = text.split("\n")[1 + len(_quoted(text, OLD_NOTES_HEADER)):]
+                    body["content"] = "\n".join(rest).strip()
+                    body["allowed_mentions"] = {"parse": [], "roles": [SCARS_ROLE_ID]}
+            channel.edit(parts[n]["id"], parts[n]["by"], body)
+            kept.append(parts[n])
+        else:
+            kept += post_all(channel, [message])
+    take_down(channel, parts[len(messages):])
+    return kept
 
 
 def main():
@@ -1056,7 +1148,7 @@ def main():
                   % (last[:7], head[:7], head[:7]))
         last = git("rev-parse", head + "^").strip()
 
-    fresh = build_message(last, head)
+    fresh = build_messages(last, head)
     state = load_state(args.state) if args.state else None
     now = time.time()
     if not (state and now - state["posted_at"] < EDIT_WINDOW
@@ -1065,63 +1157,55 @@ def main():
 
     if fresh is None:
         # Nothing new for readers. But if this script changed, the open
-        # message is redrawn so it reads the way the next one will.
+        # announcement is redrawn so it reads the way the next one will.
         if not (state and announcer_changed(last, head)):
             print("Nothing for readers between %s and %s." % (last[:7], head[:7]))
             return
-        print("The announcer changed; redrawing the open message.")
-
-    if state:
-        payload = build_message(state["base"], head) or undone_message(head)
-        print("Editing the message posted %.1f hours ago.\n"
-              % ((now - state["posted_at"]) / 3600))
-    else:
-        payload = fresh
-        print("Posting a new message.\n")
-    show(payload)
+        print("The announcer changed; redrawing the open announcement.")
 
     channel = channel_for(args.dry_run)
-    if not channel:
-        return
+    if state:
+        print("Editing the announcement posted %.1f hours ago.\n"
+              % ((now - state["posted_at"]) / 3600))
+        if not channel:
+            show(fitted(state["base"], head, ""))
+            return
+    else:
+        print("Posting a new announcement.\n")
+        show(fresh)
+        if not channel:
+            return
 
     try:
         if state:
-            try:
-                # The embed only, so the ping in the text is left alone; and
-                # the DM's Notes at the top of the embed carried over.
-                current = channel.get(state["message_id"], state["by"])
-                block = notes_block(current)
-                if block:
-                    payload = fitted(state["base"], head, block)
-                body = {"embeds": payload["embeds"]}
-                # Notes still in their old place, the text, have just gone
-                # into the embed; the text keeps only what follows them.
-                text = current.get("content") or ""
-                if _quoted(text, OLD_NOTES_HEADER):
-                    rest = text.split("\n")[1 + len(_quoted(text, OLD_NOTES_HEADER)):]
-                    body["content"] = "\n".join(rest).strip()
-                    body["allowed_mentions"] = {"parse": [], "roles": [SCARS_ROLE_ID]}
-                channel.edit(state["message_id"], state["by"], body)
-                print("\nEdited the message on Discord.")
-                return
-            except DiscordError as e:
-                if e.code not in (403, 404):
-                    raise
-                # Deleted from the channel, or posted by an old webhook.
-                if fresh is None:
-                    print("\nThe open message is gone (HTTP %d), and there is "
-                          "nothing new to post." % e.code)
+            current = first_message(channel, state)
+            if current is not None:
+                # The DM's Notes at the top of the first message carried over.
+                messages = fitted(state["base"], head, notes_block(current))
+                show(messages)
+                try:
+                    parts = update(channel, state, messages, current)
+                    save_state(args.state, parts, state["posted_at"], state["base"])
+                    print("\nEdited the announcement on Discord (%d message%s)."
+                          % (len(parts), "" if len(parts) == 1 else "s"))
                     return
-                print("\nThe open message is gone (HTTP %d); posting a new one." % e.code)
-                payload = fresh
-        message_id = channel.post(payload)
+                except DiscordError as e:
+                    if e.code not in (403, 404):
+                        raise
+            # Deleted from the channel, or posted by an old webhook.
+            take_down(channel, state["messages"])
+            if fresh is None:
+                print("\nThe open announcement is gone, and there is nothing new to post.")
+                return
+            print("\nThe open announcement is gone; posting a new one.")
+            show(fresh)
+        posted = post_all(channel, fresh)
     except DiscordError as e:
         sys.exit("Discord refused the message: %s" % e)
 
-    print("\nPosted to Discord as the %s." % channel.poster)
-    if args.state:
-        save_state(args.state, {"message_id": message_id, "posted_at": now,
-                                "base": last, "by": channel.poster})
+    print("\nPosted to Discord as the %s, in %d message%s." % (
+        channel.poster, len(posted), "" if len(posted) == 1 else "s"))
+    save_state(args.state, posted, now, last)
 
 
 if __name__ == "__main__":

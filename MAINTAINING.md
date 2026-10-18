@@ -146,8 +146,8 @@ message. It has two parts:
 allows 4096 characters for an embed's text, 1024 for each field and 6000 in
 all) goes on in as many messages as it takes, titled `(1/3)`, `(2/3)` and so
 on. It breaks between pages, and a group carried over says *(continued)*
-under its heading. The first carries the DM's Notes, and the summary comes at
-the end. Edits through the day update every part, post more parts if the
+under its heading. Only the first pings, and carries the DM's Notes; the
+summary comes at the end. Edits through the day update every part, post more parts if the
 list grows, and take down the extras if it shrinks.
 
 **One message a day.** For 24 hours after a message is posted, later changes
@@ -161,13 +161,10 @@ new format, even if no page changed. Redrawing is an edit, so it does not
 ping.
 
 **Each new announcement pings the Scars role**, as `Ping: || @Scars ||` (the
-mention behind a spoiler), in a message of its own straight after the
-announcement: Discord shows a message's text above its embed, so in the same
-message the ping could only come first. Edits do not ping again, because
-Discord only notifies when a message is posted. So the first change of the
-day pings, and the rest are folded in silently. When an announcement grows a
-part, its ping is posted again after it, without notifying anyone, so it
-stays last.
+mention behind a spoiler) in the text of its first message, above the embed.
+Edits do not ping again, because Discord only notifies when a message is
+posted. So the first change of the day pings, and the rest are folded in
+silently.
 
 A webhook can only ping a role by its ID, which is `SCARS_ROLE_ID` in the
 script. To find a role's ID, send `\@RoleName` in any channel: Discord shows

@@ -750,27 +750,22 @@ def _messages(site_name, site_url, head, chunks, summary):
     for embed in embeds:
         if not embed["description"]:
             del embed["description"]
-    # The ping comes after the announcement, as a message of its own: Discord
-    # shows a message's text above its embed, so in the same message it could
-    # only come first. The announcement's own messages say nothing in their
-    # text, and ping no one.
-    messages = [{"embeds": [embed], "allowed_mentions": {"parse": []}} for embed in embeds]
-    return messages + [ping_message()]
+    # The ping is the first message's only text, above its embed: page titles
+    # and commit messages sit in the embeds, where a mention never pings, and
+    # allowed_mentions lets the Scars role through but no one else, @everyone
+    # included. The messages after it say nothing in their text, and ping no
+    # one.
+    #
+    # Discord pings when a message is posted, never when it is edited, so an
+    # announcement pings once and the changes folded into it later arrive
+    # quietly.
+    return [first_message_body(embeds[0])] + [
+        {"content": "", "embeds": [embed], "allowed_mentions": {"parse": []}} for embed in embeds[1:]]
 
 
-def ping_message(notify=True):
-    """The ping that follows an announcement.
-
-    Only the role is let through, so nothing else in it could ever ping. A ping
-    posted again later, when an announcement grows and its ping has to move to
-    the end, lets nothing through: everyone was notified the first time.
-    """
-    return {"content": PING,
-            "allowed_mentions": {"parse": [], "roles": [SCARS_ROLE_ID] if notify else []}}
-
-
-def is_ping(message):
-    return not message.get("embeds")
+def first_message_body(embed):
+    return {"content": PING, "embeds": [embed],
+            "allowed_mentions": {"parse": [], "roles": [SCARS_ROLE_ID]}}
 
 
 # --- DM's Notes --------------------------------------------------------------
@@ -1034,11 +1029,13 @@ def test(head, dry_run, ping):
     commit = latest_change(head)
     if commit is None:
         sys.exit("No page change to show.")
-    messages = [m for m in build_messages(commit + "^", commit) if ping or not is_ping(m)]
+    messages = build_messages(commit + "^", commit)
+    if not ping:
+        messages[0]["content"] = ""
+        messages[0]["allowed_mentions"] = {"parse": []}
     for m in messages:
-        if not is_ping(m):
-            m["embeds"][0]["title"] += " (test)"
-    [m for m in messages if not is_ping(m)][-1]["embeds"][0]["footer"] = {
+        m["embeds"][0]["title"] += " (test)"
+    messages[-1]["embeds"][0]["footer"] = {
         "text": "A test of the wiki's announcements: real ones look like this."}
     print("Test message, showing %s.\n" % commit[:7])
     show(messages)
@@ -1082,27 +1079,22 @@ def repost(state, head, channel, state_path):
 
 
 def update(channel, state, messages, current):
-    """Edit the open announcement into these messages, the ping last.
+    """Edit the open announcement into these messages.
 
     The messages already up are reused in order, each edited into what its
-    place now needs: an embed with nothing in its text, or the ping. Edits
-    never notify anyone, so the ping moving down a place does not ping again.
-    Messages it now needs are posted after them, and ones it no longer needs
-    are taken down.
+    place now needs: the first with the ping in its text, the rest with
+    nothing. Edits never notify anyone, so a ping written back into a message
+    does not ping again. Messages it now needs are posted after them, and ones
+    it no longer needs are taken down - among them a ping that was once a
+    message of its own.
     """
     parts = state["messages"]
     kept = []
     for n, message in enumerate(messages):
         if n < len(parts):
-            if is_ping(message):
-                body = dict(message, embeds=[])
-            else:
-                body = {"content": "", "embeds": message["embeds"], "allowed_mentions": {"parse": []}}
-            channel.edit(parts[n]["id"], parts[n]["by"], body)
+            channel.edit(parts[n]["id"], parts[n]["by"], message)
             kept.append(parts[n])
         else:
-            if is_ping(message):
-                message = ping_message(notify=False)
             kept += post_all(channel, [message])
     take_down(channel, parts[len(messages):])
     return kept

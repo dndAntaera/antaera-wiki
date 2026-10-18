@@ -9,6 +9,10 @@ on:
         description: Take the open announcement down and post it again (as the bot, if it is set up)
         type: boolean
         default: false
+      redraw:
+        description: Edit the latest announcement into its current form, however old, without pinging
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -98,7 +102,7 @@ jobs:
         run: >
           python3 .github/scripts/announce.py
           --last "${{ steps.last.outputs.sha }}" --head "$GITHUB_SHA"
-          --state .announce-state.json ${{ inputs.repost && '--repost' || '' }}
+          --state .announce-state.json ${{ inputs.repost && '--repost' || '' }} ${{ inputs.redraw && '--redraw' || '' }}
 
       - if: hashFiles('.announce-state.json') != ''
         uses: actions/cache/save@v4

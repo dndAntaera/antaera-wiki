@@ -1115,6 +1115,8 @@ def main():
                     help="with --test: ping Scars, as a real announcement does")
     ap.add_argument("--repost", action="store_true",
                     help="take the open message down and post it again")
+    ap.add_argument("--redraw", action="store_true",
+                    help="edit the latest announcement into its current form, however old, without pinging")
     ap.add_argument("--dry-run", action="store_true",
                     help="print the message instead of posting it")
     args = ap.parse_args()
@@ -1124,15 +1126,25 @@ def main():
         test(head, args.dry_run, args.ping)
         return
 
-    if args.repost:
+    if args.repost or args.redraw:
         state = load_state(args.state) if args.state else None
         if not state:
-            sys.exit("There is no open message to post again.")
+            sys.exit("There is no announcement to %s." % ("post again" if args.repost else "redraw"))
         channel = channel_for(args.dry_run)
         if not channel:
             return
         try:
-            repost(state, head, channel, args.state)
+            if args.repost:
+                repost(state, head, channel, args.state)
+            else:
+                # An edit, past its day of edits too: the list it had, laid
+                # out as announcements are now. Edits never ping.
+                messages = fitted(state["base"], head, notes_block(first_message(channel, state)))
+                show(messages)
+                parts = update(channel, state, messages, None)
+                save_state(args.state, parts, state["posted_at"], state["base"])
+                print("\nRedrew the announcement (%d message%s)."
+                      % (len(parts), "" if len(parts) == 1 else "s"))
         except DiscordError as e:
             sys.exit("Discord refused: %s" % e)
         return

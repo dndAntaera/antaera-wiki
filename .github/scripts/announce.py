@@ -57,6 +57,10 @@ QUIET = "[quiet]"
 # already says better. Its default templates all end the same way.
 CMS_MESSAGE = re.compile(r"\(via Pages CMS\)\s*$")
 
+# A page that only says where to read instead. Losing the work-in-progress
+# sign means it has become a signpost, not that it has been written.
+SIGNPOST = re.compile(r"used for disambiguation", re.I)
+
 # How long a message keeps taking edits before the next change gets a new one.
 EDIT_WINDOW = 24 * 60 * 60
 
@@ -458,7 +462,13 @@ def describe_edit(change):
                                 ("archived", "archived", "back from the archive")):
         was, now = c.old_meta.get(flag) == "true", c.new_meta.get(flag) == "true"
         if was != now:
-            items.append(set_ if now else cleared)
+            word = set_ if now else cleared
+            # A signpost that loses the sign is not a page that got finished.
+            # It points at where to read instead while whatever it names waits
+            # its turn, and saying "finished" claimed the opposite.
+            if flag == "wip" and not now and SIGNPOST.search(c.after or ""):
+                word = "shelved for now"
+            items.append(word)
 
     a, a_sec, a_starts = c.a, c.a_sec, c.a_starts
     b, b_sec, b_starts = c.b, c.b_sec, c.b_starts

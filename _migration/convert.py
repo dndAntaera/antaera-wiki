@@ -101,6 +101,10 @@ Embark on your adventure with caution and courage, and may the dice be ever in y
 # quietly doing nothing.
 EDITS = {
     "the-index": [
+        # The factions the index lists did not include the New Haven Imperium,
+        # which has a page of its own and is named across the wiki.
+        ("# Factions", "## N {: .wd-empty }\n## O {: .wd-empty }",
+         "## N\n\n- [New Haven Imperium](nation/new-haven-imperium.md)\n## O {: .wd-empty }"),
         # The index lists the variant rules in effect from A to Z, and Gestalt,
         # which the houserules above it lean on twice, was not among them. The
         # section has to be named: The Index runs the alphabet four times over,

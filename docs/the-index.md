@@ -599,7 +599,9 @@ White Raven Tactics: Cannot affect the user
 ## K {: .wd-empty }
 ## L {: .wd-empty }
 ## M {: .wd-empty }
-## N {: .wd-empty }
+## N
+
+- [New Haven Imperium](nation/new-haven-imperium.md)
 ## O {: .wd-empty }
 ## P {: .wd-empty }
 ## Q {: .wd-empty }

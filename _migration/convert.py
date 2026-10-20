@@ -3173,7 +3173,10 @@ def main(backup):
         # work in progress if it carried the under-construction sign, and
         # archived if it sits in a retired section.
         meta = ['title: "' + title + '"']
-        if wip_url and wip_url in raw:
+        # A signpost is not an unfinished page. Two disambiguation pages kept
+        # the under-construction sign from whatever they used to be, which
+        # said a page pointing elsewhere was still being written.
+        if wip_url and wip_url in raw and "disambiguation" not in body:
             meta.append("wip: true")
         if rel.split("/")[0] in ARCHIVED_FOLDERS or slug in ARCHIVED_PAGES:
             meta.append("archived: true")

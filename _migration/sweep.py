@@ -540,6 +540,12 @@ def main():
                 dupes.append("%s  %s" % (name, ", ".join(live)))
     check("no two live pages share a title", dupes)
 
+    # A signpost is not an unfinished page. Two of them carried the
+    # under-construction sign from whatever they used to be.
+    check("no disambiguation page is marked work in progress",
+          [f for f, t in pages.items()
+           if "used for disambiguation" in t and "\nwip: true" in t[:400]])
+
     check("no page is nearly empty",
           ["%s  %d words" % (f, len(body_of(t).split()))
            for f, t in pages.items()

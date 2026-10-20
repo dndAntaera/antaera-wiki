@@ -1,6 +1,5 @@
 ---
 title: "Shegrove"
-wip: true
 ---
 
 <div class="wd-row" markdown>

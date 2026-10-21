@@ -260,10 +260,6 @@ EDITS = {
          "Ukrol, known as the Patron of Humanity"),
     ],
     # Typos.
-    "deity-ukrol": [
-        (None, "*Ukrol, Patron Deity of Humanity*", "*Ukrol, Patron of Humanity*"),
-        (None, "Tyrrany", "Tyranny"),
-    ],
     "firearms": [
         (None, "consists of of scrap metal", "consists of scrap metal"),
     ],
@@ -1144,9 +1140,6 @@ TITLES = {
 TITLE_HEADING = {
     # The fey plane's page is titled the Feywild now; its heading follows.
     "plane-of-faerie",
-    # So is Ukrol's, under his one title: the heading that repeats the name
-    # becomes the page's overview, as it does on every other god's page.
-    "deity-ukrol",
 }
 
 
@@ -2653,9 +2646,14 @@ def deity_format(body, title, slug):
             if inline and name not in DEITY_KNOWN_SECTIONS:
                 stats[name] = inline
                 continue
-            tenets = False
             current = [DEITY_RENAME.get(name, name), []]
             sections.append(current)
+            # A page written in Format A to begin with labels its tenets
+            # Dogma, not Tenets, and writes each one as a bold name and its
+            # text - which, outside the tenets, is how a stat line looks. Read
+            # as stats, every tenet after the first was discarded: Alpha,
+            # Ornus and Ukrol each kept one of theirs.
+            tenets = current[0] == "Dogma"
             text = "\n".join(x for x in (inline, more) if x)
             if text:
                 current[1].append(text)

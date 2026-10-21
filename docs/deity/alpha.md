@@ -41,6 +41,12 @@ Alpha stands taller than any Warforged made since, his body built to a specifica
 **Dogma**
 **Your Kin are Your Blood**: Every Warforged came off the same line and owes the same care to every other. A body left to fail is a family member left to die, and no follower passes one without offering repair.
 
+**Attend the Newly Woken**: Alpha was present at the first waking and has been present at every waking since. His followers stand in his place for those who come after them, teaching what they know without payment and without condition, as a parent does.
+
+**Guard What Cannot Guard Itself**: A Warforged still bound by its [Life Debt](../anthropology/warforged.md#the-life-debt) owns nothing and can refuse nothing. The faithful are charged with standing between such a one and any harm the House or the [Known Spheres](../spelljamming/known-spheres.md) would do it.
+
+**Remember for the Family**: Memory is the only thing that cannot be replaced once lost. Followers record what they witness and correct the record when it is wrong, so that no Warforged is forgotten and no wrong done to one goes unwritten.
+
 **Divine Realm**
 Alpha ascended, and by the terms of the [Divine Mandate](../pantheons.md#the-divine-mandate) he can no longer set foot on the Material Plane. His realm is in Nirvana, though he is rarely described as being there. He acts instead through an avatar that remains at the Forge of War on [Probatio](../spelljamming/sphere-forgehome.md), never leaving the compound, and it is through this avatar that he attends each waking and speaks to his children. The avatar is customarily inhabited by the head of his priesthood, who is not regarded as possessed so much as lent out, and who resumes their own affairs when Alpha has finished.
 

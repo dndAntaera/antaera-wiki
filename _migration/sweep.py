@@ -540,6 +540,20 @@ def main():
                 dupes.append("%s  %s" % (name, ", ".join(live)))
     check("no two live pages share a title", dupes)
 
+    # A page written for the wiki keeps everything it was written with. The
+    # formatter reads a god's page into sections and writes it back out, and a
+    # paragraph it misreads is dropped rather than kept: Alpha and Ornus lost
+    # all but one of their tenets that way. Every bold-named paragraph in the
+    # written source has to be on the built page.
+    bad = []
+    for src in sorted(glob.glob(os.path.join("_migration", "pages", "*.md"))):
+        slug = os.path.splitext(os.path.basename(src))[0]
+        built = pages.get("docs/" + convert.target_path(slug), "")
+        for m in re.finditer(r"^\*\*([^*\n]+)\*\*:", io.open(src, encoding="utf-8").read(), re.M):
+            if "**%s**" % m.group(1) not in built:
+                bad.append("%s  lost '%s'" % (slug, m.group(1)))
+    check("a written page keeps every paragraph it was written with", bad)
+
     # A sign on a card marks the part of a finished page still being written,
     # so that page shows no sign of its own. Read off the built pages, where
     # the flags hook has already drawn whichever signs there are.

@@ -495,9 +495,12 @@ def describe_edit(change):
             blocks.append("removed " + _sections_named(gone))
             continue
         # A word or two slipped in or out of a name reads better as the
-        # name changing: "Radiance → Quasi-Elemental Plane of Radiance".
+        # name changing: "Radiance → Quasi-Elemental Plane of Radiance". Not
+        # when the capital after it opens a heading: that is the next
+        # section, not the rest of a name ("O → New Haven Imperium O", for an
+        # entry added at the end of an index's N).
         if (i1 == i2 or j1 == j2) and max(i2 - i1, j2 - j1) <= SMALL \
-                and i2 < len(a) and a[i2][:1].isupper():
+                and i2 < len(a) and a[i2][:1].isupper() and i2 not in a_starts:
             i2, j2 = i2 + 1, j2 + 1
         old, new = _phrase(a[i1:i2]), _phrase(b[j1:j2])
         if old == new:

@@ -150,11 +150,13 @@ under its heading. Only the first pings, and carries the DM's Notes; the
 summary comes at the end. Edits through the day update every part, post more parts if the
 list grows, and take down the extras if it shrinks.
 
-**One message a day.** For 24 hours after a message is posted, later changes
-are added to it by editing it, so it always lists everything changed since it
-went up. After 24 hours it is left alone, and the next change starts a new
-message. If the open message has been deleted from the channel, the next
-change also starts a new one. The window is `EDIT_WINDOW` in the script.
+**One announcement a day, Eastern time.** For the rest of the day an
+announcement goes up, by the clock in the eastern United States (EST, or EDT
+in summer), later changes are added to it by editing it, so it always lists
+everything changed since it went up. At midnight Eastern it is left alone,
+and the next change starts a new one. If the open announcement has been
+deleted from the channel, the next change also starts a new one. The time
+zone is `EASTERN` in the script.
 
 When the script itself changes, the next run redraws the open message in the
 new format, even if no page changed. Redrawing is an edit, so it does not

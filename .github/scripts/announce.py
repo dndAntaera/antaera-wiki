@@ -6,9 +6,10 @@ that were added, edited, moved or removed, each linked to its live page with
 a clipped account of what changed on it ("Shadowlands → Plane of Shadow",
 "expanded Overview"), and posts the list to a Discord webhook.
 
-One message covers a day. For 24 hours after it is posted, later changes are
-folded into it by editing it, so it always shows everything that has changed
-since it went up. After that, the next change starts a new message. When this
+One announcement covers a day, Eastern time. For the rest of the day it goes
+up, later changes are folded into it by editing it, so it always shows
+everything that has changed since it went up. The first change after
+midnight Eastern starts a new one. When this
 script itself changes, the open message is redrawn in its new form.
 
     python .github/scripts/announce.py --last <sha> [--head <sha>]
@@ -70,8 +71,36 @@ REWORDED = {
     "59e1938": "Ukrol's page rewritten, and Alpha's and Ornus's Dogma restored",
 }
 
-# How long a message keeps taking edits before the next change gets a new one.
-EDIT_WINDOW = 24 * 60 * 60
+# An announcement takes edits for the rest of the day it went up, by the clock
+# in the eastern United States (EST, or EDT in summer). The first change after
+# midnight there starts a new one.
+EASTERN = "America/New_York"
+
+
+def eastern_day(timestamp):
+    """The date in the eastern United States at a Unix time."""
+    from datetime import datetime, timedelta, timezone
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.fromtimestamp(timestamp, ZoneInfo(EASTERN)).date()
+    except Exception:
+        # No time zone database (Windows without tzdata): the US rule, daylight
+        # time from 2am on the second Sunday in March to 2am on the first
+        # Sunday in November.
+        utc = datetime.fromtimestamp(timestamp, timezone.utc)
+
+        def sunday(month, nth):
+            first = datetime(utc.year, month, 1, tzinfo=timezone.utc)
+            return first + timedelta(days=(6 - first.weekday()) % 7 + 7 * (nth - 1))
+
+        starts = sunday(3, 2) + timedelta(hours=2 + 5)    # 2am EST, in UTC
+        ends = sunday(11, 1) + timedelta(hours=2 + 4)     # 2am EDT, in UTC
+        offset = -4 if starts <= utc < ends else -5
+        return (utc + timedelta(hours=offset)).date()
+
+
+def same_day(posted_at, now):
+    return eastern_day(posted_at) == eastern_day(now)
 
 # Who a new post notifies: the Scars role, behind a spoiler. A webhook can
 # only ping a role by its ID; "@Scars" written out would stay plain text.
@@ -1339,7 +1368,7 @@ def main():
     fresh = build_messages(last, head)
     state = load_state(args.state) if args.state else None
     now = time.time()
-    if not (state and now - state["posted_at"] < EDIT_WINDOW
+    if not (state and same_day(state["posted_at"], now)
             and is_ancestor(state["base"], head)):
         state = None
 

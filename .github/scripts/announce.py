@@ -217,8 +217,10 @@ def tokens(text):
     """A page's words in order; the heading each one sits under; where each
     heading's own words begin, and where each line's do; and the place each
     word is in, which is the bold label it follows ("**Greater Deities**",
-    a list's name) where there is one, and otherwise its heading."""
-    words, sections, starts, lines, places = [], [], set(), set(), []
+    a list's name) where there is one, and otherwise its heading; and the
+    entries named in bold at the start of their line ("**Attend the Newly
+    Woken**: ..."), by where that line begins."""
+    words, sections, starts, lines, places, names = [], [], set(), set(), [], {}
     current = label = None
     for line in _strip_markup(text).splitlines():
         m = HEADING.match(line)
@@ -231,16 +233,28 @@ def tokens(text):
             named = LABEL.match(line)
             if named:
                 label = " ".join(_words(named.group(1)))
+            else:
+                entry = ENTRY.match(line)
+                if entry:
+                    names[len(words)] = " ".join(_words(entry.group(1)))
+                else:
+                    item = TOP_ITEM.match(line)
+                    if item:
+                        names[len(words)] = _phrase(_words(item.group(1)))
         lines.add(len(words))
         for word in _words(line):
             words.append(word)
             sections.append(current)
             places.append(label or current)
-    return words, sections, starts, lines, places
+    return words, sections, starts, lines, places, names
 
 
 # A line that is only a bold label, a list's or a passage's name.
 LABEL = re.compile(r"^\s*\*\*([^*]+?):?\*\*:?\s*$")
+# A line that opens with a name in bold and goes on: an entry, a tenet, a rule.
+ENTRY = re.compile(r"^\s*(?:[-*]\s+)?\*\*([^*]+?):?\*\*:?\s+\S")
+# An entry in a list, not indented under another: "- Alpha, the First Warforged".
+TOP_ITEM = re.compile(r"^[-*]\s+(\S.*)$")
 
 
 # Quotes and dashes in their typeset forms read the same to anyone: a straight
@@ -468,11 +482,20 @@ def _changed(old, new, where=None):
     When both sides start with the same label ("Favored Weapon: ..."), the
     label names what changed and the quotes hold only what follows it.
     """
+    if not old or not new:
+        said = "added “%s”" % new if new else "removed “%s”" % old
+        return said + (" %s %s" % ("to" if new else "from", where) if where else "")
     head = old.split(": ", 1)[0]
     if ": " in old and new.startswith(head + ": ") and len(head.split()) <= 5:
         return "%s changed from “%s” to “%s”" % (head, old[len(head) + 2:], new[len(head) + 2:])
     said = "changed “%s” to “%s”" % (old, new)
     return said + (" in %s" % where if where else "")
+
+
+def _listed(names):
+    """“A”, “B” and “C”."""
+    quoted = ["“%s”" % n for n in dict.fromkeys(names)]
+    return quoted[0] if len(quoted) == 1 else ", ".join(quoted[:-1]) + " and " + quoted[-1]
 
 
 def _label_at(words, lines, i):
@@ -485,7 +508,9 @@ def _label_at(words, lines, i):
 
 def _the(where):
     """A place in a sentence: "the opening", or "the Overview section"."""
-    return where if where == "the opening" else "the %s section" % where
+    if where == "the opening":
+        return where
+    return ("%s section" if where.lower().startswith("the ") else "the %s section") % where
 
 
 def _section(name, title):
@@ -503,8 +528,8 @@ class Change:
         self.after = None if kind == "removed" else blobs.get(head, new)
         self.old_meta, old_body = split_page(self.before)
         self.new_meta, new_body = split_page(self.after)
-        self.a, self.a_sec, self.a_starts, self.a_lines, self.a_place = tokens(old_body)
-        self.b, self.b_sec, self.b_starts, self.b_lines, self.b_place = tokens(new_body)
+        self.a, self.a_sec, self.a_starts, self.a_lines, self.a_place, self.a_names = tokens(old_body)
+        self.b, self.b_sec, self.b_starts, self.b_lines, self.b_place, self.b_names = tokens(new_body)
         self.passages = _passages(self.a, self.b)
         # Passages that are part of a move, by index: the line that says so,
         # or None where the other end of the move says it.
@@ -735,8 +760,10 @@ def describe_edit(change):
             # A phrase reworded, too long to read as a swap of a word or two
             # but short enough to quote: both, and where.
             label = _label_at(a, c.a_lines, i1)
-            if label:
+            if label and _phrase(a[i1:i2]) and _phrase(b[j1:j2]):
                 blocks.append("%s changed from “%s” to “%s”" % (label, _phrase(a[i1:i2]), _phrase(b[j1:j2])))
+            elif label:
+                blocks.append(_changed(_phrase(a[i1:i2]), _phrase(b[j1:j2]), label))
             else:
                 blocks.append(_changed(_phrase(a[i1:i2]), _phrase(b[j1:j2]), _section(c.b_place[j1], title)))
         else:
@@ -744,6 +771,17 @@ def describe_edit(change):
                 where = a_sec[i1]
             else:
                 where = b_sec[j1] if j1 < len(b_sec) else (b_sec[-1] if b_sec else None)
+            # Named entries added or taken away say which, and where.
+            old_names = set(c.a_names.values())
+            new_names = set(c.b_names.values())
+            came = [n for k, n in sorted(c.b_names.items()) if j1 <= k < j2 and n not in old_names]
+            went = [n for k, n in sorted(c.a_names.items()) if i1 <= k < i2 and n not in new_names]
+            if came or went:
+                if came:
+                    blocks.append("added %s to %s" % (_listed(came), _section(c.b_place[j1], title)))
+                if went:
+                    blocks.append("removed %s from %s" % (_listed(went), _section(c.a_place[i1], title)))
+                continue
             grown, shrunk = j2 - j1 > 2 * (i2 - i1), i2 - i1 > 2 * (j2 - j1)
             verb = "expanded" if grown else "cut from" if shrunk else "rewrote"
             sections.setdefault(_section(where, title), set()).add(verb)

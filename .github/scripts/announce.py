@@ -176,19 +176,20 @@ def _words(line):
 
 
 def tokens(text):
-    """A page's words in order, the heading each one sits under, and where
-    each heading's own words begin."""
-    words, sections, starts, current = [], [], set(), None
+    """A page's words in order, the heading each one sits under, where each
+    heading's own words begin, and where each line's do."""
+    words, sections, starts, lines, current = [], [], set(), set(), None
     for line in _strip_markup(text).splitlines():
         m = HEADING.match(line)
         if m:
             line = m.group(1)
             current = " ".join(_words(line)) or current
             starts.add(len(words))
+        lines.add(len(words))
         for word in _words(line):
             words.append(word)
             sections.append(current)
-    return words, sections, starts
+    return words, sections, starts, lines
 
 
 def readable(text):
@@ -339,6 +340,61 @@ def _passages(a, b):
     return passages
 
 
+# A change of a word or two says little on its own ("Humans → Humanity"), so
+# it is shown in the phrase it sits in, with up to CONTEXT unchanged words
+# either side ("Patron of Humans → Patron of Humanity"). The context stops at
+# the end of its line, at a table's or a list's separators and at the end of
+# a sentence, so it never reaches into the next one.
+CONTEXT = 2
+SHORT = 2
+
+
+def _ends_sentence(word):
+    return word.rstrip("*_)\"'”’")[-1:] in (".", "!", "?", ":", ";")
+
+
+# Words that only separate: table bars, a dash between two things.
+SEPARATORS = {"|", "-", "–", "—", "•", "/"}
+
+
+def _in_context(a, breaks, i1, i2, new_words):
+    """(old, new) as shown: a short change with the words around it.
+
+    `a` is the page before, i1:i2 the words that changed in it, and
+    new_words what took their place; `breaks` are where a heading or a line
+    begins. The words either side are unchanged, so they read the same
+    before and after.
+    """
+    if max(i2 - i1, len(new_words)) > SHORT:
+        return _phrase(a[i1:i2]), _phrase(new_words)
+    before = []
+    k = i1 - 1
+    while k >= 0 and len(before) < CONTEXT and (k + 1) not in breaks and a[k] not in SEPARATORS:
+        if a[k].endswith(":"):
+            # A label ("Favored Weapon:") says what the words after it are:
+            # it goes in, and nothing before it.
+            label = [a[k]]
+            while k - 1 >= 0 and k not in breaks and len(label) < 4 and a[k - 1] not in SEPARATORS \
+                    and not _ends_sentence(a[k - 1]):
+                k -= 1
+                label.insert(0, a[k])
+            before = label + before
+            break
+        if _ends_sentence(a[k]):
+            break
+        before.insert(0, a[k])
+        k -= 1
+    after = []
+    m = i2
+    ended = i2 > i1 and _ends_sentence(a[i2 - 1])
+    while not ended and m < len(a) and len(after) < CONTEXT and m not in breaks \
+            and a[m] not in SEPARATORS:
+        after.append(a[m])
+        ended = _ends_sentence(a[m])
+        m += 1
+    return _phrase(before + a[i1:i2] + after), _phrase(before + new_words + after)
+
+
 def _core(phrase):
     """A phrase without the article or possessive that varies around a name."""
     phrase = re.sub(r"^(the|a|an)\s+", "", phrase.lower())
@@ -360,8 +416,8 @@ class Change:
         self.after = None if kind == "removed" else blobs.get(head, new)
         self.old_meta, old_body = split_page(self.before)
         self.new_meta, new_body = split_page(self.after)
-        self.a, self.a_sec, self.a_starts = tokens(old_body)
-        self.b, self.b_sec, self.b_starts = tokens(new_body)
+        self.a, self.a_sec, self.a_starts, self.a_lines = tokens(old_body)
+        self.b, self.b_sec, self.b_starts, _ = tokens(new_body)
         self.passages = _passages(self.a, self.b)
         # Passages that are part of a move, by index: the line that says so,
         # or None where the other end of the move says it.
@@ -507,11 +563,18 @@ def describe_edit(change):
             relinked = relinked or bool(old)   # only a link's target moved
             continue
         if old and new and i2 - i1 <= SMALL and j2 - j1 <= SMALL:
-            swaps[(old, new)] = swaps.get((old, new), 0) + 1
+            swap = swaps.setdefault((old, new), {"count": 0, "shown": _in_context(a, c.a_lines | a_starts, i1, i2, b[j1:j2])})
+            swap["count"] += 1
         elif new and not old and j2 - j1 <= SMALL:
             adds.append(new)
         elif old and not new and i2 - i1 <= SMALL:
-            cuts.append(old)
+            shown = _in_context(a, c.a_lines | a_starts, i1, i2, [])
+            if shown[1]:
+                # Shown as the phrase it was cut from, before and after.
+                swap = swaps.setdefault((old, ""), {"count": 0, "shown": shown})
+                swap["count"] += 1
+            else:
+                cuts.append(old)
         else:
             if j1 == j2:
                 where = a_sec[i1]
@@ -524,13 +587,20 @@ def describe_edit(change):
     # The most repeated swap first: a renamed term reads before a stray fix.
     # One that only restates another ("the Luminara" for "Luminara") is left
     # out.
+    # One the page's new title already says ("Retitled from ...") is left out
+    # too.
+    old_title, new_title = (c.old_meta.get("title") or ""), (title or "")
+    retitled = old_title and old_title != new_title
     kept = []
-    for (old, new), _ in sorted(swaps.items(), key=lambda kv: (-kv[1], len(kv[0][0]))):
+    for (old, new), swap in sorted(swaps.items(), key=lambda kv: (-kv[1]["count"], len(kv[0][0]))):
         core = (_core(old), _core(new))
         if any(o in core[0] and n in core[1] for o, n in kept):
             continue
+        shown_old, shown_new = swap["shown"]
+        if retitled and shown_old in old_title and shown_new in new_title:
+            continue
         kept.append(core)
-        items.append("%s → %s" % (old, new))
+        items.append("%s → %s" % (shown_old, shown_new))
     items += list(dict.fromkeys(blocks))
     # One verb to a section: grown in one place and cut in another is rewritten.
     by_verb = {}

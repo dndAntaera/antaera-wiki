@@ -11,6 +11,11 @@ its own and with no card around it. It is a toggle rather than an image pasted
 into the body, so finishing a page means deleting one line of front matter, and
 the sign can never be left behind on a page that is done.
 
+A single card can carry the sign too, where one section of an otherwise
+usable page is still being written. The importer leaves the marker
+`<!-- wip -->` inside that card and the sign is drawn there instead, so the
+card's state is still a toggle and never an image in the text.
+
 `archived` shows a banner saying so, and takes precedence over `wip`: a retired
 page is not also under construction, and hanging the sign on one said that
 nobody had finished it rather than that it had been set aside. Archived pages
@@ -40,8 +45,14 @@ index rather than from the menu.
 """
 
 
+# Where a card, rather than the page, is still being written.
+CARD_MARKER = "<!-- wip -->"
+
+
 def on_page_markdown(markdown, page, config, files, **kwargs):
     meta = page.meta or {}
+    if CARD_MARKER in markdown and not meta.get("archived"):
+        markdown = markdown.replace(CARD_MARKER, WIP_SIGN.strip())
     if meta.get("archived"):
         markdown = ARCHIVED_BANNER + markdown
     # The sign goes at the foot of the page, on its own, with no card around

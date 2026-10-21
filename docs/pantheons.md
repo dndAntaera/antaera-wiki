@@ -435,6 +435,8 @@ This pantheon is worshipped solely by humans, though they are not picky as to wh
 
 ## Lesser Deities
 
+<!-- wip -->
+
 </div>
 </div>
 

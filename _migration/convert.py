@@ -179,6 +179,10 @@ EDITS = {
          "    - Portfolio: Humans, conquest, dominion, authority\n"
          "    - Symbol: A featureless humanoid face with a spiked crown\n\n"
          "## Intermediate Gods"),
+        # The Imperial Pantheon is still being written - one god and two
+        # empty ranks - so its card carries the sign. hooks/flags.py draws it.
+        ("# The Imperial Pantheon", "## Lesser Gods\n",
+         "## Lesser Gods\n\n<!-- wip -->\n"),
     ],
     # Orion is Chaotic Good on his own page.
     "spelljamming-sphere-antaera": [

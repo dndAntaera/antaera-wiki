@@ -176,20 +176,33 @@ def _words(line):
 
 
 def tokens(text):
-    """A page's words in order, the heading each one sits under, where each
-    heading's own words begin, and where each line's do."""
-    words, sections, starts, lines, current = [], [], set(), set(), None
+    """A page's words in order; the heading each one sits under; where each
+    heading's own words begin, and where each line's do; and the place each
+    word is in, which is the bold label it follows ("**Greater Deities**",
+    a list's name) where there is one, and otherwise its heading."""
+    words, sections, starts, lines, places = [], [], set(), set(), []
+    current = label = None
     for line in _strip_markup(text).splitlines():
         m = HEADING.match(line)
         if m:
             line = m.group(1)
             current = " ".join(_words(line)) or current
+            label = None
             starts.add(len(words))
+        else:
+            named = LABEL.match(line)
+            if named:
+                label = " ".join(_words(named.group(1)))
         lines.add(len(words))
         for word in _words(line):
             words.append(word)
             sections.append(current)
-    return words, sections, starts, lines
+            places.append(label or current)
+    return words, sections, starts, lines, places
+
+
+# A line that is only a bold label, a list's or a passage's name.
+LABEL = re.compile(r"^\s*\*\*([^*]+?):?\*\*:?\s*$")
 
 
 def readable(text):
@@ -416,8 +429,8 @@ class Change:
         self.after = None if kind == "removed" else blobs.get(head, new)
         self.old_meta, old_body = split_page(self.before)
         self.new_meta, new_body = split_page(self.after)
-        self.a, self.a_sec, self.a_starts, self.a_lines = tokens(old_body)
-        self.b, self.b_sec, self.b_starts, _ = tokens(new_body)
+        self.a, self.a_sec, self.a_starts, self.a_lines, self.a_place = tokens(old_body)
+        self.b, self.b_sec, self.b_starts, self.b_lines, self.b_place = tokens(new_body)
         self.passages = _passages(self.a, self.b)
         # Passages that are part of a move, by index: the line that says so,
         # or None where the other end of the move says it.
@@ -501,6 +514,59 @@ def _describe_move(src, sn, dest, dn, name):
         src.moves[sn] = "%s %s" % (name, src.moves[sn])
 
 
+# A cut or an addition of up to this many words is quoted whole, with the
+# list or section it was in; past it, it is counted.
+QUOTE = 25
+# A line taken out in one place and put in another, near enough word for word,
+# was moved: a list entry from one list to the next, say.
+LINE_MOVE_MIN = 3        # words
+LINE_MOVE_MATCH = 0.6    # share of words in common
+
+
+def _line_end(lines, start, end):
+    """Where the first line of the words start:end stops."""
+    return min([k for k in lines if start < k < end] + [end])
+
+
+def _line_moves(change, title):
+    """Short passages moved within the page: {passage: what to say, or None}.
+
+    A cut of a line or so and an addition elsewhere on the page that share
+    most of their words are one move. It is said once, on the addition:
+    "Ukrol, Patron of Humans (LE) → Ukrol, Patron of Humanity (LE), moved
+    from Intermediate Deities to Greater Deities".
+    """
+    c = change
+    cuts = [n for n, (i1, i2, j1, j2) in enumerate(c.passages)
+            if n not in c.moves and j1 == j2 and LINE_MOVE_MIN <= i2 - i1 < MOVE_MIN]
+    adds = [n for n, (i1, i2, j1, j2) in enumerate(c.passages)
+            if n not in c.moves and i1 == i2 and LINE_MOVE_MIN <= j2 - j1 < MOVE_MIN]
+    found = {}
+    for an in adds:
+        _, _, j1, j2 = c.passages[an]
+        added = _bag(c.b[j1:j2])
+        best, score = None, LINE_MOVE_MATCH
+        for cn in cuts:
+            if cn in found:
+                continue
+            i1, i2, _, _ = c.passages[cn]
+            s = _shared(added, _bag(c.a[i1:i2])) / max(j2 - j1, i2 - i1)
+            if s >= score:
+                best, score = cn, s
+        if best is None:
+            continue
+        i1, i2, _, _ = c.passages[best]
+        # An entry is named by its first line; the lines under it went along.
+        old = _phrase(c.a[i1:_line_end(c.a_lines, i1, i2)])
+        new = _phrase(c.b[j1:_line_end(c.b_lines, j1, j2)])
+        was, now = _section(c.a_place[i1], title), _section(c.b_place[j1], title)
+        what = new if old == new else "%s → %s" % (old, new)
+        found[best] = None
+        found[an] = ("%s, moved within %s" % (what, now) if was == now
+                     else "%s, moved from %s to %s" % (what, was, now))
+    return found
+
+
 def _sections_named(names):
     """A run of sections added or taken away together, named as one."""
     names = list(dict.fromkeys(names))
@@ -530,10 +596,15 @@ def describe_edit(change):
     b, b_sec, b_starts = c.b, c.b_sec, c.b_starts
     old_heads, new_heads = set(a_sec), set(b_sec)
     swaps, sections, blocks, adds, cuts, relinked = {}, {}, [], [], [], False
+    line_moves = _line_moves(c, title)
     for n, (i1, i2, j1, j2) in enumerate(c.passages):
         if n in c.moves:
             if c.moves[n]:
                 blocks.append(c.moves[n])
+            continue
+        if n in line_moves:
+            if line_moves[n]:
+                blocks.append(line_moves[n])
             continue
         # Headings that begin in this passage and are new to the page are
         # sections added, as one change however many there are; headings
@@ -575,6 +646,18 @@ def describe_edit(change):
                 swap["count"] += 1
             else:
                 cuts.append(old)
+        elif j1 == j2 and i2 - i1 <= QUOTE:
+            # A line or two taken out says which, and from where.
+            blocks.append("cut “%s” from %s" % (_phrase(a[i1:i2]), _section(c.a_place[i1], title)))
+        elif i1 == i2 and j2 - j1 <= QUOTE:
+            blocks.append("added “%s” to %s" % (_phrase(b[j1:j2]), _section(c.b_place[j1], title)))
+        elif j1 == j2:
+            blocks.append("cut %d words from %s" % (i2 - i1, _section(c.a_place[i1], title)))
+        elif i2 - i1 <= QUOTE and j2 - j1 <= QUOTE:
+            # A phrase reworded, too long to read as a swap of a word or two
+            # but short enough to quote: both, and where.
+            blocks.append("“%s” → “%s” in %s" % (_phrase(a[i1:i2]), _phrase(b[j1:j2]),
+                                                _section(c.b_place[j1], title)))
         else:
             if j1 == j2:
                 where = a_sec[i1]

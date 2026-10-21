@@ -1322,6 +1322,8 @@ def main():
                     help="take the open message down and post it again")
     ap.add_argument("--redraw", action="store_true",
                     help="edit the latest announcement into its current form, however old, without pinging")
+    ap.add_argument("--split-at", metavar="COMMIT", default="",
+                    help="end the latest announcement at COMMIT, and post what came after as a new one")
     ap.add_argument("--dry-run", action="store_true",
                     help="print the message instead of posting it")
     args = ap.parse_args()
@@ -1329,6 +1331,38 @@ def main():
     head = git("rev-parse", "--verify", args.head + "^{commit}").strip()
     if args.test:
         test(head, args.dry_run, args.ping)
+        return
+
+    if args.split_at:
+        # For changes folded into an announcement that belong to a later day:
+        # the announcement is edited back to end at the commit given, without
+        # pinging, and what came after goes up as a new announcement, which
+        # pings as a new one does.
+        state = load_state(args.state) if args.state else None
+        if not state:
+            sys.exit("There is no announcement to split.")
+        cut = git("rev-parse", "--verify", args.split_at.strip() + "^{commit}").strip()
+        if not (is_ancestor(state["base"], cut) and is_ancestor(cut, head)) or cut == state["base"]:
+            sys.exit("%s is not between the announcement's start and %s." % (cut[:7], head[:7]))
+        later = build_messages(cut, head)
+        if later is None:
+            sys.exit("Nothing for readers after %s, so there is nothing to split off." % cut[:7])
+        channel = channel_for(args.dry_run)
+        earlier = fitted(state["base"], cut, notes_block(first_message(channel, state)) if channel else "")
+        print("The announcement, ending at %s:\n" % cut[:7])
+        show(earlier)
+        print("\nA new announcement, from %s:\n" % cut[:7])
+        show(later)
+        if not channel:
+            return
+        try:
+            update(channel, state, earlier, None)
+            posted = post_all(channel, later)
+        except DiscordError as e:
+            sys.exit("Discord refused: %s" % e)
+        save_state(args.state, posted, time.time(), cut)
+        print("\nSplit: the announcement ends at %s, and a new one went up with what came after."
+              % cut[:7])
         return
 
     if args.repost or args.redraw:

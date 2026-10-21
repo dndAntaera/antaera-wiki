@@ -13,6 +13,10 @@ on:
         description: Edit the latest announcement into its current form, however old, without pinging
         type: boolean
         default: false
+      split_at:
+        description: End the latest announcement at this commit, and post what came after as a new one
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -99,10 +103,13 @@ jobs:
       - env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          # Free text from the Run workflow form: passed as a variable, never
+          # written into the command.
+          SPLIT_AT: ${{ inputs.split_at }}
         run: >
           python3 .github/scripts/announce.py
           --last "${{ steps.last.outputs.sha }}" --head "$GITHUB_SHA"
-          --state .announce-state.json ${{ inputs.repost && '--repost' || '' }} ${{ inputs.redraw && '--redraw' || '' }}
+          --state .announce-state.json ${{ inputs.repost && '--repost' || '' }} ${{ inputs.redraw && '--redraw' || '' }} ${SPLIT_AT:+--split-at "$SPLIT_AT"}
 
       - if: hashFiles('.announce-state.json') != ''
         uses: actions/cache/save@v4

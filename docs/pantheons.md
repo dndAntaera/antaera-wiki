@@ -425,7 +425,7 @@ This pantheon is worshipped solely by humans, though they are not picky as to wh
 
 ## Greater Deities
 
-- [Ukrol](deity/ukrol.md), Patron of Humans
+- [Ukrol](deity/ukrol.md), Patron of Humanity
     - Alignment: LE
     - Portfolio: Humans, conquest, dominion, authority
     - Symbol: A featureless humanoid face with a spiked crown

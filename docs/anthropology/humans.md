@@ -31,7 +31,7 @@ Thus, the humans of Antæra, the children of Ukrol, continued to carve their des
 <div class="wd-cell" markdown>
 
 # General Culture
-In the diverse and sprawling continent of Antæra, the human culture is deeply rooted in a complex and enigmatic past. These humans, originally hailing from another reality, were brought to Antæra by the enigmatic and evil deity Ukrol, known as the Patron of Humans. The impact of this otherworldly origin and the influence of Ukrol have significantly shaped the human societies and their worldviews.
+In the diverse and sprawling continent of Antæra, the human culture is deeply rooted in a complex and enigmatic past. These humans, originally hailing from another reality, were brought to Antæra by the enigmatic and evil deity Ukrol, known as the Patron of Humanity. The impact of this otherworldly origin and the influence of Ukrol have significantly shaped the human societies and their worldviews.
 
 **Ukrol's Influence and Human Supremacy**:<br>
 Ukrol instilled in his followers a doctrine of human superiority, fostering a belief that humans are destined to rule over other races, either through eradication or domination. This belief system, deeply ingrained in the oldest human bloodlines, has led to an imperialistic nature within human societies. The legacy of Ukrol manifests in the way these humans approach other cultures and races, often with a sense of inherent supremacy and a mission to expand their influence.

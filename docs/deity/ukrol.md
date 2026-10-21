@@ -1,11 +1,11 @@
 ---
-title: "Ukrol, Patron Deity of Humanity"
+title: "Ukrol, Patron of Humanity"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Ukrol, Patron Deity of Humanity
+# Ukrol, Patron of Humanity
 
 </div>
 </div>
@@ -57,7 +57,7 @@ Ukrol hails from Realmspace, a sphere beyond the Known Spheres.
 <div class="wd-cell wd-aside" markdown>
 
 ![](/antaera-wiki/img/deity_ukrol_header.png)
-*Ukrol, Patron Deity of Humanity*
+*Ukrol, Patron of Humanity*
 
 ![](/antaera-wiki/img/deity_ukrol_heraldry.jpg)
 *Holy Symbol of Ukrol*

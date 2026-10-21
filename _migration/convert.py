@@ -174,7 +174,7 @@ EDITS = {
         ("# The Imperial Pantheon",
          "## Greater Gods\n\n## Intermediate Gods",
          "## Greater Gods\n\n"
-         "- [Ukrol](deity/ukrol.md), Patron of Humans\n"
+         "- [Ukrol](deity/ukrol.md), Patron of Humanity\n"
          "    - Alignment: Lawful Evil\n"
          "    - Portfolio: Humans, conquest, dominion, authority\n"
          "    - Symbol: A featureless humanoid face with a spiked crown\n\n"
@@ -250,8 +250,14 @@ EDITS = {
          "    - Type: Manifest Zone (Positive Energy Plane)\n"
          "- Spelljamming Aware: Yes"),
     ],
+    # Ukrol has one title now - see TITLES.
+    "anthropology-humans": [
+        (None, "Ukrol, known as the Patron of Humans",
+         "Ukrol, known as the Patron of Humanity"),
+    ],
     # Typos.
     "deity-ukrol": [
+        (None, "*Ukrol, Patron Deity of Humanity*", "*Ukrol, Patron of Humanity*"),
         (None, "Tyrrany", "Tyranny"),
     ],
     "firearms": [
@@ -1099,6 +1105,10 @@ TITLES = {
     # sphere that keeps it: the eras, which are the setting's timeline.
     "calendar": "Setting Timeline",
 
+    # One name for him everywhere: his page called him the Patron Deity of
+    # Humanity, The Pantheons and the spheres the Patron of Humans.
+    "deity-ukrol": "Ukrol, Patron of Humanity",
+
     # Written for the wiki rather than imported - see PAGES.
     "deity-alpha": "Alpha, the First Warforged",
     "ornus": "Ornus, Lord of Constructs",
@@ -1130,6 +1140,9 @@ TITLES = {
 TITLE_HEADING = {
     # The fey plane's page is titled the Feywild now; its heading follows.
     "plane-of-faerie",
+    # So is Ukrol's, under his one title: the heading that repeats the name
+    # becomes the page's overview, as it does on every other god's page.
+    "deity-ukrol",
 }
 
 
@@ -3114,7 +3127,7 @@ def main(backup):
         title = re.sub(r"\bAntaera(n?)\b", r"Antæra\1", title)
 
         # A god's page is named for the god, and this wiki writes that name in
-        # full: "Ukrol, Patron Deity of Humanity". The slug carries only the
+        # full: "Vaylen, Patron of Sailors and Travelers". The slug carries only the
         # short form of it, and under the pantheon it carried the shelf the
         # page sits on as well - "pantheon-deity-aezhera", "pantheon-mortal-
         # leonis" - which came out as the titles "Deity Aezhera" and "Mortal

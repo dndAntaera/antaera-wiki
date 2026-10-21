@@ -14,7 +14,8 @@ the sign can never be left behind on a page that is done.
 A single card can carry the sign too, where one section of an otherwise
 usable page is still being written. The importer leaves the marker
 `<!-- wip -->` inside that card and the sign is drawn there instead, so the
-card's state is still a toggle and never an image in the text.
+card's state is still a toggle and never an image in the text. A page with a
+card that carries the sign does not carry one of its own.
 
 `archived` shows a banner saying so, and takes precedence over `wip`: a retired
 page is not also under construction, and hanging the sign on one said that
@@ -51,7 +52,12 @@ CARD_MARKER = "<!-- wip -->"
 
 def on_page_markdown(markdown, page, config, files, **kwargs):
     meta = page.meta or {}
-    if CARD_MARKER in markdown and not meta.get("archived"):
+    # A sign on a card says which part of an otherwise finished page is still
+    # being written. The page then has no sign of its own: one at the foot as
+    # well would say the whole page is unfinished, which is what the card's
+    # sign is there to say it is not.
+    on_a_card = CARD_MARKER in markdown
+    if on_a_card and not meta.get("archived"):
         markdown = markdown.replace(CARD_MARKER, WIP_SIGN.strip())
     if meta.get("archived"):
         markdown = ARCHIVED_BANNER + markdown
@@ -62,6 +68,6 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     # Not on an archived page. All three West Marches pages carry both flags,
     # and the sign there claimed the page was still being worked on when the
     # banner above it had just said the section was retired.
-    if meta.get("wip") and not meta.get("archived"):
+    if meta.get("wip") and not meta.get("archived") and not on_a_card:
         markdown = markdown + WIP_SIGN
     return markdown

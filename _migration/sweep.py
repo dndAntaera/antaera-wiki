@@ -540,6 +540,19 @@ def main():
                 dupes.append("%s  %s" % (name, ", ".join(live)))
     check("no two live pages share a title", dupes)
 
+    # A sign on a card marks the part of a finished page still being written,
+    # so that page shows no sign of its own. Read off the built pages, where
+    # the flags hook has already drawn whichever signs there are.
+    bad = []
+    for f in sorted(glob.glob(os.path.join(SITE, "**", "index.html"), recursive=True)):
+        h = io.open(f, encoding="utf-8").read()
+        signs = re.findall(r'<div class="wd-wip"', h)
+        in_cards = len(re.findall(r'<div class="wd-cell[^"]*"[^>]*>(?:(?!<div class="wd-row).)*?'
+                                  r'<div class="wd-wip"', h, re.S))
+        if in_cards and len(signs) > in_cards:
+            bad.append("%s  has a card's sign and the page's" % f.replace(chr(92), "/"))
+    check("a page whose card carries the sign carries none of its own", bad)
+
     # A signpost is not an unfinished page. Two of them carried the
     # under-construction sign from whatever they used to be.
     check("no disambiguation page is marked work in progress",

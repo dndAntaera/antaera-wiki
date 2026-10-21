@@ -61,6 +61,15 @@ CMS_MESSAGE = re.compile(r"\(via Pages CMS\)\s*$")
 # sign means it has become a signpost, not that it has been written.
 SIGNPOST = re.compile(r"used for disambiguation", re.I)
 
+# A commit's subject as the summary should give it, where the subject itself
+# said it wrongly. A pushed commit cannot be renamed, and the summary lists
+# subjects as written, so a correction lives here, keyed by the commit's short
+# hash. Changing this file redraws the open announcement in the new words.
+REWORDED = {
+    # The wiki calls a god's precepts their Dogma, not their tenets.
+    "59e1938": "Ukrol's page rewritten, and Alpha's and Ornus's Dogma restored",
+}
+
 # How long a message keeps taking edits before the next change gets a new one.
 EDIT_WINDOW = 24 * 60 * 60
 
@@ -239,7 +248,8 @@ def content_changes(base, head):
             if is_content(kind, old, new, parent, commit):
                 paths.update((old, new))
         if paths:
-            found.append((message.strip().split("\n", 1)[0].strip(), paths))
+            subject = message.strip().split("\n", 1)[0].strip()
+            found.append((REWORDED.get(commit[:7], subject), paths))
     return found
 
 

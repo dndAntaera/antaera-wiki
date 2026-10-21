@@ -14,7 +14,7 @@ title: "Ukrol, Patron Deity of Humanity"
 
 # Overview
 
-- **Rank**: Intermediate Deity
+- **Rank**: Greater Deity
 - **Symbol**: A featureless humanoid face with a spiked crown
 - **Home Plane**: Gehenna
 - **Alignment**: LE

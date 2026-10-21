@@ -160,6 +160,25 @@ EDITS = {
          "    - Alignment: N\n"
          "    - Portfolio: Warforged, creation, guardianship, memory\n"
          "    - Symbol: A cog wheel bearing the four elemental symbols at its center"),
+        # Ukrol leads the Imperial Pantheon as its Greater Deity rather than
+        # standing among the Mortal Pantheon's Paragons. His rank on his own
+        # page and his place on the spheres follow from where he is listed
+        # here - see finish_site() and favor_pantheon(). These run after the
+        # symbol fix above, so they match the symbol as it now reads.
+        ("## Intermediate Gods (The Paragons)",
+         "- [Ukrol](deity/ukrol.md), Patron of Humans\n"
+         "    - Alignment: Lawful Evil\n"
+         "    - Portfolio: Humans, conquest, dominion, authority\n"
+         "    - Symbol: A featureless humanoid face with a spiked crown\n",
+         ""),
+        ("# The Imperial Pantheon",
+         "## Greater Gods\n\n## Intermediate Gods",
+         "## Greater Gods\n\n"
+         "- [Ukrol](deity/ukrol.md), Patron of Humans\n"
+         "    - Alignment: Lawful Evil\n"
+         "    - Portfolio: Humans, conquest, dominion, authority\n"
+         "    - Symbol: A featureless humanoid face with a spiked crown\n\n"
+         "## Intermediate Gods"),
     ],
     # Orion is Chaotic Good on his own page.
     "spelljamming-sphere-antaera": [

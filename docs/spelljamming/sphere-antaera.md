@@ -110,7 +110,6 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 
 - Leshrac, Lord of the Undead (LE)
 - Mil’Anaara, Goddess of Storms (CE)
-- Ukrol, Patron of Humans (LE)
 - Nessa, Patron of Vermin (NE)
 - Fink, Patron of Goblinoids (CN)
 - Orion, Patron of Smallfolk (CG)
@@ -126,6 +125,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 - Mordac, the Arbiter of Tyranny (LE)
 - Vortressa, the Mother of Monsters (NE)
 - Zarakth, the Abyssal Scourge (CE)
+- Ukrol, Patron of Humans (LE)
 
 </div>
 </div>

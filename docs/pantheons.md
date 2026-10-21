@@ -231,11 +231,6 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
     - Alignment: LE
     - Portfolio: Undead, cruelty, control, decay
     - Symbol: A skull bound in iron bands
-- [Ukrol](deity/ukrol.md), Patron of Humans
-    - Alignment: LE
-    - Portfolio: Humans, conquest, dominion, authority
-    - Symbol: A featureless humanoid face with a spiked crown
-    - Favored Weapon: Greatsword
 - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
     - Alignment: NE
     - Portfolio: Scalykind, poison, venom, instinct
@@ -429,6 +424,12 @@ During the 3rd Era (The Era of Man), the influence of the [Imperium](nation/new-
 This pantheon is worshipped solely by humans, though they are not picky as to which humans worship them. If any non-humans worship this pantheon, they will not receive any power or benefits as a cleric or other divine character.
 
 ## Greater Deities
+
+- [Ukrol](deity/ukrol.md), Patron of Humans
+    - Alignment: LE
+    - Portfolio: Humans, conquest, dominion, authority
+    - Symbol: A featureless humanoid face with a spiked crown
+    - Favored Weapon: Greatsword
 
 ## Intermediate Deities
 

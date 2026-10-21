@@ -243,6 +243,15 @@ def tokens(text):
 LABEL = re.compile(r"^\s*\*\*([^*]+?):?\*\*:?\s*$")
 
 
+# Quotes and dashes in their typeset forms read the same to anyone: a straight
+# apostrophe made curly is not a change to announce. Capitals are a change.
+TYPESET = str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"', "–": "-", "—": "-", "…": "..."})
+
+
+def _plain(text):
+    return (text or "").translate(TYPESET)
+
+
 def readable(text):
     """A page's words, without the markup that only decides how they look.
 
@@ -251,7 +260,7 @@ def readable(text):
     """
     if text is None:
         return None
-    return " ".join(tokens(text)[0])
+    return _plain(" ".join(tokens(text)[0]))
 
 
 def is_content(kind, old, new, old_rev, new_rev):
@@ -453,6 +462,32 @@ def _core(phrase):
     return re.sub(r"['’]s$", "", phrase)
 
 
+def _changed(old, new, where=None):
+    """A change put in words: 'Worshipers changed from "..." to "..."'.
+
+    When both sides start with the same label ("Favored Weapon: ..."), the
+    label names what changed and the quotes hold only what follows it.
+    """
+    head = old.split(": ", 1)[0]
+    if ": " in old and new.startswith(head + ": ") and len(head.split()) <= 5:
+        return "%s changed from “%s” to “%s”" % (head, old[len(head) + 2:], new[len(head) + 2:])
+    said = "changed “%s” to “%s”" % (old, new)
+    return said + (" in %s" % where if where else "")
+
+
+def _label_at(words, lines, i):
+    """The label ("Worshipers:") a change at word i follows on its line, if any."""
+    if i == 0 or not words[i - 1].endswith(":"):
+        return None
+    start = max([k for k in lines if k <= i - 1] + [0])
+    return _phrase(words[start:i]).rstrip(":") if i - start <= 5 else None
+
+
+def _the(where):
+    """A place in a sentence: "the opening", or "the Overview section"."""
+    return where if where == "the opening" else "the %s section" % where
+
+
 def _section(name, title):
     # Before the first heading, or under the page's own title card, a change
     # is in the page's opening rather than in a section of it.
@@ -538,7 +573,7 @@ def find_moves(changes):
 
 def _describe_move(src, sn, dest, dn, name):
     if src is dest:
-        dest.moves[dn] = "moved %s" % (name or "a passage")
+        dest.moves[dn] = "moved %s" % (_the(name) if name else "a passage")
         src.moves[sn] = None
         return
     dest.moves[dn] = "moved here from %s" % src.title
@@ -599,10 +634,10 @@ def _line_moves(change, title):
         old = _phrase(c.a[i1:_line_end(c.a_lines, i1, i2)])
         new = _phrase(c.b[j1:_line_end(c.b_lines, j1, j2)])
         was, now = _section(c.a_place[i1], title), _section(c.b_place[j1], title)
-        what = new if old == new else "%s → %s" % (old, new)
+        renamed = "" if _plain(old) == _plain(new) else ", renamed from “%s”" % old
         found[best] = None
-        found[an] = ("%s, moved within %s" % (what, now) if was == now
-                     else "%s, moved from %s to %s" % (what, was, now))
+        found[an] = ("moved “%s” within %s%s" % (new, now, renamed) if was == now
+                     else "moved “%s” from %s to %s%s" % (new, was, now, renamed))
     return found
 
 
@@ -618,9 +653,9 @@ def describe_edit(change):
     items = []
 
     if c.old_meta.get("title") and c.old_meta.get("title") != title:
-        items.append("retitled from %s" % c.old_meta["title"])
-    for flag, set_, cleared in (("wip", "marked a work in progress", "finished"),
-                                ("archived", "archived", "back from the archive")):
+        items.append("renamed from “%s”" % c.old_meta["title"])
+    for flag, set_, cleared in (("wip", "marked a work in progress", "no longer a work in progress"),
+                                ("archived", "moved to the archive", "brought back from the archive")):
         was, now = c.old_meta.get(flag) == "true", c.new_meta.get(flag) == "true"
         if was != now:
             word = set_ if now else cleared
@@ -652,13 +687,16 @@ def describe_edit(change):
         fresh = [b_sec[k] for k in range(j1, j2) if k in b_starts and b_sec[k] not in old_heads]
         gone = [a_sec[k] for k in range(i1, i2) if k in a_starts and a_sec[k] not in new_heads]
         if fresh and not gone:
-            blocks.append("added " + _sections_named(
-                "a title card" if h == title else h for h in fresh))
+            named = [("a title card" if h == title else h) for h in fresh]
+            blocks.append("added a title card" if named == ["a title card"]
+                          else "added the %s %s" % (_sections_named(named),
+                                                    "sections" if " and " in _sections_named(named) else "section"))
             if i2 - i1 > SMALL:
                 sections.setdefault(_section(a_sec[i1], title), set()).add("rewrote")
             continue
         if gone and not fresh and j2 - j1 <= SMALL:
-            blocks.append("removed " + _sections_named(gone))
+            blocks.append("removed the %s %s" % (_sections_named(gone),
+                                                 "sections" if " and " in _sections_named(gone) else "section"))
             continue
         # A word or two slipped in or out of a name reads better as the
         # name changing: "Radiance → Quasi-Elemental Plane of Radiance". Not
@@ -669,8 +707,9 @@ def describe_edit(change):
                 and i2 < len(a) and a[i2][:1].isupper() and i2 not in a_starts:
             i2, j2 = i2 + 1, j2 + 1
         old, new = _phrase(a[i1:i2]), _phrase(b[j1:j2])
-        if old == new:
-            relinked = relinked or bool(old)   # only a link's target moved
+        if _plain(old) == _plain(new):
+            # Only a link's target, or a quote's or a dash's typeset form.
+            relinked = relinked or (old == new and bool(old))
             continue
         if old and new and i2 - i1 <= SMALL and j2 - j1 <= SMALL:
             swap = swaps.setdefault((old, new), {"count": 0, "shown": _in_context(a, c.a_lines | a_starts, i1, i2, b[j1:j2])})
@@ -687,16 +726,19 @@ def describe_edit(change):
                 cuts.append(old)
         elif j1 == j2 and i2 - i1 <= QUOTE:
             # A line or two taken out says which, and from where.
-            blocks.append("cut “%s” from %s" % (_phrase(a[i1:i2]), _section(c.a_place[i1], title)))
+            blocks.append("removed “%s” from %s" % (_phrase(a[i1:i2]), _section(c.a_place[i1], title)))
         elif i1 == i2 and j2 - j1 <= QUOTE:
             blocks.append("added “%s” to %s" % (_phrase(b[j1:j2]), _section(c.b_place[j1], title)))
         elif j1 == j2:
-            blocks.append("cut %d words from %s" % (i2 - i1, _section(c.a_place[i1], title)))
+            blocks.append("removed a passage of %d words from %s" % (i2 - i1, _section(c.a_place[i1], title)))
         elif i2 - i1 <= QUOTE and j2 - j1 <= QUOTE:
             # A phrase reworded, too long to read as a swap of a word or two
             # but short enough to quote: both, and where.
-            blocks.append("“%s” → “%s” in %s" % (_phrase(a[i1:i2]), _phrase(b[j1:j2]),
-                                                _section(c.b_place[j1], title)))
+            label = _label_at(a, c.a_lines, i1)
+            if label:
+                blocks.append("%s changed from “%s” to “%s”" % (label, _phrase(a[i1:i2]), _phrase(b[j1:j2])))
+            else:
+                blocks.append(_changed(_phrase(a[i1:i2]), _phrase(b[j1:j2]), _section(c.b_place[j1], title)))
         else:
             if j1 == j2:
                 where = a_sec[i1]
@@ -722,19 +764,21 @@ def describe_edit(change):
         if retitled and shown_old in old_title and shown_new in new_title:
             continue
         kept.append(core)
-        items.append("%s → %s" % (shown_old, shown_new))
+        if _plain(shown_old) == _plain(shown_new):
+            continue
+        items.append(_changed(shown_old, shown_new))
     items += list(dict.fromkeys(blocks))
     # One verb to a section: grown in one place and cut in another is rewritten.
     by_verb = {}
     for where, verbs in sections.items():
         verb = verbs.pop() if len(verbs) == 1 else "rewrote"
         by_verb.setdefault(verb, []).append(where)
-    for verb in ("rewrote", "expanded", "cut from"):
-        items += ["%s %s" % (verb, where) for where in by_verb.get(verb, [])]
+    for verb, said in (("rewrote", "rewrote %s"), ("expanded", "added to %s"), ("cut from", "trimmed %s")):
+        items += [said % _the(where) for where in by_verb.get(verb, [])]
     items += ["added “%s”" % s for s in dict.fromkeys(adds)]
-    items += ["cut “%s”" % s for s in dict.fromkeys(cuts)]
+    items += ["removed “%s”" % s for s in dict.fromkeys(cuts)]
     if relinked and not items:
-        items.append("links updated")
+        items.append("updated links")
     return items or ["small edits"]
 
 
@@ -768,15 +812,14 @@ def first_sentence(text):
 
 
 def describe_move(old_path):
-    return "moved from %s" % old_path[len("docs/"):-len(".md")]
+    return "moved to a new address, from %s" % old_path[len("docs/"):-len(".md")]
 
 
 def _item(text):
-    # A line opens with a capital, except a before-and-after swap: those are
-    # the page's own words, and capitalising them could hide the change itself
-    # ("flail → Flail" read as "Flail → Flail").
-    if " → " not in text:
-        text = text[:1].upper() + text[1:]
+    # A line opens with a capital. The page's own words sit in quotes after
+    # a word of the line's own ("Changed", "Moved") or after a label from the
+    # page, so capitalising the first letter never alters them.
+    text = text[:1].upper() + text[1:]
     return escape(text)
 
 

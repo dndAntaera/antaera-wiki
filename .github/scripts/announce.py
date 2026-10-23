@@ -476,6 +476,51 @@ def _core(phrase):
     return re.sub(r"['’]s$", "", phrase)
 
 
+# A change quoted both ways, as _changed and the label branch write it.
+QUOTED_CHANGE = re.compile(r"(?:changed|.+ changed from) “(?P<old>.+)” to “(?P<new>.+)”(?: in .+)?$")
+
+# Field labels whose lines a capitalization pass can touch, as the reader
+# knows them: on a god's page and in a pantheon's list alike.
+CASED_FIELDS = (("Portfolio", "Portfolios"), ("Domains", "Domains"))
+
+
+def _recapitalized(items, change):
+    """Changes that only put words into capitals, said once and in general.
+
+    Setting portfolios and domains in title case touched a line on every
+    god's page and dozens on The Pantheons, and each was announced as its
+    own quotation: "Changed 'war, protection, courage' to 'War, Protection,
+    Courage'". What happened is one thing, so it is said as one thing: which
+    fields were capitalized. A change that is more than its capitals is kept.
+    """
+    kept, cased = [], False
+    for item in items:
+        m = QUOTED_CHANGE.match(item)
+        if m and m.group("old") != m.group("new") and m.group("old").lower() == m.group("new").lower():
+            cased = True
+            continue
+        kept.append(item)
+    if not cased:
+        return items
+
+    before = (change.before or "").split("\n")
+    after = (change.after or "").split("\n")
+    fields = []
+    for label, plural in CASED_FIELDS:
+        pattern = re.compile(r"^\s*-\s*(?:\*\*)?%s(?:\*\*)?:" % label)
+        old = [l for l in before if pattern.match(l)]
+        new = [l for l in after if pattern.match(l)]
+        changed = sum(1 for o, n in zip(old, new) if o != n and o.lower() == n.lower())
+        if changed:
+            # One god's page has one Portfolio; a pantheon's list has many.
+            fields.append(plural if changed > 1 else label)
+    if fields:
+        kept.append("%s now capitalized properly" % " and ".join(fields))
+    else:
+        kept.append("capitalization corrected")
+    return kept
+
+
 def _changed(old, new, where=None):
     """A change put in words: 'Worshipers changed from "..." to "..."'.
 
@@ -490,6 +535,27 @@ def _changed(old, new, where=None):
         return "%s changed from “%s” to “%s”" % (head, old[len(head) + 2:], new[len(head) + 2:])
     said = "changed “%s” to “%s”" % (old, new)
     return said + (" in %s" % where if where else "")
+
+
+def _by_section(pairs, place, title):
+    """(word index, name) pairs grouped by the section each sits in, in order."""
+    groups = {}
+    for k, name in pairs:
+        groups.setdefault(_section(place[k], title), []).append(name)
+    return list(groups.items())
+
+
+def _names(names):
+    """Names for a line of the announcement.
+
+    One is quoted whole. Several are given by name alone - "Superbia" rather
+    than "Superbia, the Imperial Face" - so a list of them reads as a list
+    rather than a paragraph of titles.
+    """
+    if len(names) == 1:
+        return "“%s”" % names[0]
+    short = [n.split(", ", 1)[0] for n in dict.fromkeys(names)]
+    return ", ".join(short[:-1]) + " and " + short[-1]
 
 
 def _listed(names):
@@ -774,13 +840,17 @@ def describe_edit(change):
             # Named entries added or taken away say which, and where.
             old_names = set(c.a_names.values())
             new_names = set(c.b_names.values())
-            came = [n for k, n in sorted(c.b_names.items()) if j1 <= k < j2 and n not in old_names]
-            went = [n for k, n in sorted(c.a_names.items()) if i1 <= k < i2 and n not in new_names]
+            came = [(k, n) for k, n in sorted(c.b_names.items()) if j1 <= k < j2 and n not in old_names]
+            went = [(k, n) for k, n in sorted(c.a_names.items()) if i1 <= k < i2 and n not in new_names]
             if came or went:
-                if came:
-                    blocks.append("added %s to %s" % (_listed(came), _section(c.b_place[j1], title)))
-                if went:
-                    blocks.append("removed %s from %s" % (_listed(went), _section(c.a_place[i1], title)))
+                # Each name under the section it actually landed in. A run of
+                # additions can cross headings - seventeen gods across three
+                # ranks - and naming the first section for all of them said
+                # every one went there.
+                for where, names in _by_section(came, c.b_place, title):
+                    blocks.append("added %s to %s" % (_names(names), where))
+                for where, names in _by_section(went, c.a_place, title):
+                    blocks.append("removed %s from %s" % (_names(names), where))
                 continue
             grown, shrunk = j2 - j1 > 2 * (i2 - i1), i2 - i1 > 2 * (j2 - j1)
             verb = "expanded" if grown else "cut from" if shrunk else "rewrote"
@@ -817,7 +887,7 @@ def describe_edit(change):
     items += ["removed “%s”" % s for s in dict.fromkeys(cuts)]
     if relinked and not items:
         items.append("updated links")
-    return items or ["small edits"]
+    return _recapitalized(items, c) or ["small edits"]
 
 
 def describe_new(text):

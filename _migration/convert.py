@@ -91,6 +91,114 @@ By participating in campaigns taking place in the setting of Antæra, you acknow
 
 Embark on your adventure with caution and courage, and may the dice be ever in your favor."""
 
+# The Imperial Pantheon, as the author wrote it: Ukrol and the gods who
+# ascended from the Imperium's own leaders and folk heroes. Ukrol has a page,
+# so his favored weapon comes from it like every other god's; the rest have
+# none yet, and theirs are written here. Weapons are named as the rules name
+# them. The card still carries the under-construction sign - hooks/flags.py
+# draws it where the marker is.
+IMPERIAL_PANTHEON = """\
+## Greater Gods
+
+- [Ukrol](deity/ukrol.md), Patron of Humanity
+    - Alignment: LE
+    - Portfolio: Humans, conquest, dominion, authority
+    - Symbol: A featureless humanoid face with a spiked crown
+- Superbia, the Imperial Face
+    - Alignment: N
+    - Portfolio: Just Rule, Imperialism, Human Supremacy
+    - Symbol: A laurel crown set over a human face in profile
+    - Favored Weapon: Longsword
+- Libertas, the Broken Collar
+    - Alignment: CG
+    - Portfolio: Rebellion, Freedom, Emancipation, Defiance
+    - Symbol: A snapped iron collar
+    - Favored Weapon: Sickle
+
+## Intermediate Gods
+
+- Vinculum, the Sealed Hand
+    - Alignment: N
+    - Portfolio: Pacts, Oaths, Bindings, Debt
+    - Symbol: A wax seal pressed over a length of chain
+    - Favored Weapon: Spiked Chain
+- Virtus, the First Spear
+    - Alignment: LN
+    - Portfolio: War, Strength, Discipline, Victory
+    - Symbol: A spear driven through a shield
+    - Favored Weapon: Longspear
+- Cupido, the Red Veil
+    - Alignment: CN
+    - Portfolio: Passion, Love, Desire, Fertility
+    - Symbol: Two hands clasped over a knife
+    - Favored Weapon: Dagger
+- Ira, the Butcher’s Hymn
+    - Alignment: CE
+    - Portfolio: Rage, Bloodshed, Slaughter, Berserkers
+    - Symbol: A cleaver struck against a drumhead
+    - Favored Weapon: Greataxe
+- Tutela, the Sheltering Wall
+    - Alignment: LG
+    - Portfolio: Protection, Hearth, Family, Endurance
+    - Symbol: A tower shield planted upright in soil
+    - Favored Weapon: Heavy Shield
+- Insidia, the Whispering Court
+    - Alignment: NE
+    - Portfolio: Intrigue, Secrets, Assassination, Ambition
+    - Symbol: A mask with a sealed mouth
+    - Favored Weapon: Rapier
+
+## Lesser Gods
+
+- Lex, the Quill and Lash
+    - Alignment: LE
+    - Portfolio: Law, Decree, Punishment, Bondage
+    - Symbol: A quill crossed with a whip
+    - Favored Weapon: Whip
+- Labor, the Patient Hammer
+    - Alignment: LN
+    - Portfolio: Craft, Smithing, Engines of War, Siegeworks
+    - Symbol: An anvil struck by a mailed fist
+    - Favored Weapon: Warhammer
+- Fides, the Burning Word
+    - Alignment: LE
+    - Portfolio: Zeal, Faith, Martyrdom, Inquisition
+    - Symbol: A tongue of flame resting on an open palm
+    - Favored Weapon: Morningstar
+- Mors, Keeper of the Pyre
+    - Alignment: N
+    - Portfolio: Death, Funerary Rites, Ancestors, Remembrance
+    - Symbol: An urn bound in iron bands
+    - Favored Weapon: Scythe
+- Via, the Long Road
+    - Alignment: N
+    - Portfolio: Travel, Frontier, Scouts, Horses
+    - Symbol: A horseshoe set over a milestone
+    - Favored Weapon: Lance
+- Salus, the Steady Hand
+    - Alignment: NG
+    - Portfolio: Healing, Medicine, Field Surgeons, Mercy
+    - Symbol: A needle drawing thread across a splint
+    - Favored Weapon: Quarterstaff
+- Messis, the Threshing Field
+    - Alignment: NG
+    - Portfolio: Harvest, Grain, Livestock, Plenty
+    - Symbol: A sheaf bound with a leather strap
+    - Favored Weapon: Heavy Flail
+- Vinum, the Wine-Dark Oath
+    - Alignment: CN
+    - Portfolio: Revelry, Feasts, Drink, Brotherhood in Arms
+    - Symbol: An overturned cup spilling red
+    - Favored Weapon: Greatclub
+- Astrum, the Sailor’s Star
+    - Alignment: CN
+    - Portfolio: Sailors, Spelljammers, Navigation, Fair Winds
+    - Symbol: A ship’s wheel with a star at its hub, set over crossed anchor and helm
+    - Favored Weapon: Cutlass
+
+<!-- wip -->
+"""
+
 # Corrections to a page made since the import, as exact replacements applied to
 # the finished page. A rewrite replaces a section and a recard rebuilds a card;
 # this is for the smaller thing, a line or a word, where naming the surrounding
@@ -171,18 +279,10 @@ EDITS = {
          "    - Portfolio: Humans, conquest, dominion, authority\n"
          "    - Symbol: A featureless humanoid face with a spiked crown\n",
          ""),
+        # The Imperial Pantheon's three ranks, filled - see IMPERIAL_PANTHEON.
         ("# The Imperial Pantheon",
-         "## Greater Gods\n\n## Intermediate Gods",
-         "## Greater Gods\n\n"
-         "- [Ukrol](deity/ukrol.md), Patron of Humanity\n"
-         "    - Alignment: Lawful Evil\n"
-         "    - Portfolio: Humans, conquest, dominion, authority\n"
-         "    - Symbol: A featureless humanoid face with a spiked crown\n\n"
-         "## Intermediate Gods"),
-        # The Imperial Pantheon is still being written - one god and two
-        # empty ranks - so its card carries the sign. hooks/flags.py draws it.
-        ("# The Imperial Pantheon", "## Lesser Gods\n",
-         "## Lesser Gods\n\n<!-- wip -->\n"),
+         "## Greater Gods\n\n## Intermediate Gods\n\n## Lesser Gods\n",
+         IMPERIAL_PANTHEON),
     ],
     # Orion is Chaotic Good on his own page.
     "spelljamming-sphere-antaera": [

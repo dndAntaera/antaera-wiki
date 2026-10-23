@@ -18,7 +18,7 @@ title: "Ornus, Lord of Constructs"
 - **Symbol**: A gear set within a perfect square
 - **Home Plane**: Mechanus
 - **Alignment**: LN
-- **Portfolio**: Constructs, order, artifice, creation
+- **Portfolio**: Constructs, Order, Artifice, Creation
 - **Worshipers**: Artificers, golemwrights, smiths, engineers, constructs
 - **Cleric Alignments**: LE, LG, LN
 - **Domains**: Artifice, Construct, Law, Inevitable

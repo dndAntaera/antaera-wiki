@@ -18,7 +18,7 @@ title: "Alpha, the First Warforged"
 - **Symbol**: A cog wheel bearing the four elemental symbols at its center
 - **Home Plane**: Nirvana
 - **Alignment**: N
-- **Portfolio**: Warforged, creation, guardianship, memory
+- **Portfolio**: Warforged, Creation, Guardianship, Memory
 - **Worshipers**: Warforged
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Artifice, Warforged, Protection, Knowledge

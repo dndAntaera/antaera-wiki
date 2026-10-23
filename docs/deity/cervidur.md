@@ -18,7 +18,7 @@ title: "Cervidûr, Lord of the Hunt"
 - **Symbol**: A stag's head with wide antlers adorned with runes of fey magic
 - **Home Plane**: The Moonlit Glade, the Feywild
 - **Alignment**: CN
-- **Portfolio**: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
+- **Portfolio**: The Wild Hunt, Hunters, Lycanthropes, Moonlit Predation, Beasts
 - **Worshipers**: Druids, rangers, shamans, lycanthropes
 - **Cleric Alignments**: CE, CG, CN
 - **Domains**: —

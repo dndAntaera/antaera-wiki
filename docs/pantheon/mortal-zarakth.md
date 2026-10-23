@@ -18,7 +18,7 @@ title: "Zarakth, the Abyssal Scourge"
 - **Symbol**: A blood-red vortex swirling around a jagged, shattered blade
 - **Home Plane**: The Abyss
 - **Alignment**: CE
-- **Portfolio**: Destruction, murder, chaos, ruin
+- **Portfolio**: Destruction, Murder, Chaos, Ruin
 - **Worshipers**: Demons, cultists, nihilistic warlords
 - **Cleric Alignments**: CE, CN, NE
 - **Domains**: Destruction, Evil, War, Wrath

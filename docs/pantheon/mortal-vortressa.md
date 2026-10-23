@@ -18,7 +18,7 @@ title: "Vortressa, the Mother of Monsters"
 - **Symbol**: A corrupted Druidic glyph intertwined with monstrous teeth
 - **Home Plane**: The Abyssal Grove, a layer of the Abyss
 - **Alignment**: NE
-- **Portfolio**: Monsters, dark desires, mutation, hunger
+- **Portfolio**: Monsters, Dark Desires, Mutation, Hunger
 - **Worshipers**: Evil druids, warlocks
 - **Cleric Alignments**: CE, LE, NE
 - **Domains**: Evil, Hunger, Pestilence, Spider

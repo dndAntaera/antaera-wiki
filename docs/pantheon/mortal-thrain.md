@@ -18,7 +18,7 @@ title: "Thrain Stoneheart, the Tranquil Forgemaster"
 - **Symbol**: A stylized anvil with a hammer crossed over it
 - **Home Plane**: The Hearthforge, Elysium
 - **Alignment**: NG
-- **Portfolio**: Peace, unity, craft, community
+- **Portfolio**: Peace, Unity, Craft, Community
 - **Worshipers**: Artisans, diplomats, dwarves
 - **Cleric Alignments**: CG, LG, NG
 - **Domains**: Community, Craft, Dwarf, Family

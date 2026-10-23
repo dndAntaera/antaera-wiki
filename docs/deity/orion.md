@@ -18,7 +18,7 @@ title: "Orion, Patron of Smallfolk"
 - **Symbol**: A crystal radiating astral light
 - **Home Plane**: Astral Plane
 - **Alignment**: CG
-- **Portfolio**: Smallfolk, artifice, ingenuity, resilience
+- **Portfolio**: Smallfolk, Artifice, Ingenuity, Resilience
 - **Worshipers**: Smallfolk clergy, community leaders, artisans
 - **Cleric Alignments**: CG, CN, NG
 - **Domains**: Gnome, Halfling, Dwarf, Protection

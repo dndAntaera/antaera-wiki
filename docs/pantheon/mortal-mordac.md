@@ -18,7 +18,7 @@ title: "Mordac, the Arbiter of Tyranny"
 - **Symbol**: A twisted serpent entwined around a scepter
 - **Home Plane**: The Iron Citadel, the Nine Hells
 - **Alignment**: LE
-- **Portfolio**: Corruption, death, domination, oppression
+- **Portfolio**: Corruption, Death, Domination, Oppression
 - **Worshipers**: Manipulators, enforcers, devils
 - **Cleric Alignments**: LE, LN, NE
 - **Domains**: Domination, Evil, Law, Tyranny

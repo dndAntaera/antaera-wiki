@@ -2420,6 +2420,47 @@ def cleric_alignments(code):
     return ", ".join(sorted(names[x] for x in near))
 
 
+# Words a title leaves in lower case unless they open it: "Engines of War",
+# "Brotherhood in Arms", "The Thrill of the Kill".
+TITLE_SMALL = {"a", "an", "and", "as", "at", "but", "by", "for", "from", "in",
+               "into", "nor", "of", "on", "or", "over", "the", "to", "upon",
+               "with"}
+
+
+def title_case(item):
+    """One portfolio or domain, capitalized the way a title is."""
+    words = item.split(" ")
+    out = []
+    for i, word in enumerate(words):
+        parts = []
+        for part in word.split("-"):
+            low = part.lower()
+            if i and low in TITLE_SMALL and len(words) > 1:
+                parts.append(low)
+            elif part[:1].islower():
+                parts.append(part[:1].upper() + part[1:])
+            else:
+                parts.append(part)
+        out.append("-".join(parts))
+    return " ".join(out)
+
+
+def title_case_lists(text):
+    """Portfolios and domains are names of things, so they read as names.
+
+    A god's portfolio was written however the page's author happened to write
+    it - "Travel, oceans, winds, safe passage" beside "Life, Nature, Light" -
+    on the gods' own pages and on The Pantheons alike. Each entry is set in
+    title case wherever a Portfolio or Domains line appears.
+    """
+    def line(m):
+        items = [title_case(x.strip()) for x in m.group(2).split(",")]
+        return m.group(1) + ", ".join(items)
+
+    return re.sub(r"^((?:- \*\*(?:Portfolio|Domains)\*\*|[ \t]+- (?:Portfolio|Domains)):[ \t]*)"
+                  r"(\S.*?)[ \t]*$", line, text, flags=re.M)
+
+
 def abbreviate_alignments(text):
     """Write every alignment on a page as its abbreviation.
 
@@ -2584,7 +2625,7 @@ def finish_site():
             new = text
             for pattern, standard in COSMOLOGY_35 + PHRASES + PLANES:
                 new = re.sub(pattern, standard, new)
-            new = deity_words(abbreviate_alignments(new))
+            new = title_case_lists(deity_words(abbreviate_alignments(new)))
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
                     fh.write(new)

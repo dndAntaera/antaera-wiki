@@ -18,7 +18,7 @@ title: "Enigma, the Lost God"
 - **Symbol**: A closed eye within a spiraling void
 - **Home Plane**: None; Enigma roams the planes
 - **Alignment**: N
-- **Portfolio**: Secrets, forgotten knowledge, paradox, obscurity
+- **Portfolio**: Secrets, Forgotten Knowledge, Paradox, Obscurity
 - **Worshipers**: Scholars, theologians, opportunists
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Luck

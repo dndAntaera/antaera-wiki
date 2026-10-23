@@ -18,7 +18,7 @@ title: "Malzark, Herald of Magma"
 - **Symbol**: Black iron gauntlet grasping a molten core
 - **Home Plane**: Para-Elemental Plane of Magma
 - **Alignment**: NE
-- **Portfolio**: Magma, destruction, subterranean conquest, volcanic wrath
+- **Portfolio**: Magma, Destruction, Subterranean Conquest, Volcanic Wrath
 - **Worshipers**: clerics, blacksmiths, sorcerers, warlocks, fire dwarves
 - **Cleric Alignments**: CE, LE, NE
 - **Domains**: Destruction, Earth, Evil, Fire, Strength

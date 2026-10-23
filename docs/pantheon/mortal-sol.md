@@ -18,7 +18,7 @@ title: "Sol, the Eternal Equilibrium"
 - **Symbol**: A set of scales held by a draconic hand
 - **Home Plane**: Ethereal Plane
 - **Alignment**: N
-- **Portfolio**: Balance, pacts, cycles, order
+- **Portfolio**: Balance, Pacts, Cycles, Order
 - **Worshipers**: Dragon priests, scholars
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Balance, Dragon, Fate, Pact

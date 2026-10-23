@@ -18,7 +18,7 @@ title: "Vaylen, Patron of Sailors and Travelers"
 - **Symbol**: A compass encircled by waves and meandering paths
 - **Home Plane**: Elemental Plane of Air
 - **Alignment**: CG
-- **Portfolio**: Travel, oceans, winds, safe passage
+- **Portfolio**: Travel, Oceans, Winds, Safe Passage
 - **Worshipers**: Seafarers, explorers, messengers
 - **Cleric Alignments**: CG, CN, NG
 - **Domains**: Celerity, Liberation, Ocean, Travel

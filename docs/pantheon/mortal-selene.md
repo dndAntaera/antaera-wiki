@@ -18,7 +18,7 @@ title: "Selene, the Nightweaver"
 - **Symbol**: A crescent moon intertwined with intricate elven glyphs
 - **Home Plane**: Plane of Shadow
 - **Alignment**: CN
-- **Portfolio**: Secrets, shadows, night, illusion
+- **Portfolio**: Secrets, Shadows, Night, Illusion
 - **Worshipers**: Moon priests, shadowcasters
 - **Cleric Alignments**: CE, CG, CN
 - **Domains**: Darkness, Moon, Mysticism, Shadow

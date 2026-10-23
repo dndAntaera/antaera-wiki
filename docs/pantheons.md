@@ -116,7 +116,7 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Favored Weapon: Scimitar
 - [Malzark](pantheon/deity-malzark.md), Herald of Magma
     - Alignment: NE
-    - Portfolio: Magma, destruction, subterranean conquest, volcanic wrath
+    - Portfolio: Magma, Destruction, Subterranean Conquest, Volcanic Wrath
     - Symbol: Black iron gauntlet grasping a molten core
     - Favored Weapon: Warhammer
 - [Seralyne](pantheon/deity-seralyne.md), Herald of Radiance
@@ -136,7 +136,7 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Favored Weapon: Heavy Flail
 - [Tenakhaal](pantheon/deity-tenakhaal.md), Herald of Salt
     - Alignment: NE
-    - Portfolio: Salt, hatred, dehydration, vengeance, suffering
+    - Portfolio: Salt, Hatred, Dehydration, Vengeance, Suffering
     - Symbol: A cracked seashell leaking dry grains
     - Favored Weapon: Trident
 - [Vaeltharion](pantheon/deity-vaeltharion.md), Herald of Dust
@@ -146,12 +146,12 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
     - Favored Weapon: Trident
 - [Nihil](pantheon/deity-nihil.md), Herald of Void
     - Alignment: N
-    - Portfolio: Emptiness, entropy, silence, cosmic erasure
+    - Portfolio: Emptiness, Entropy, Silence, Cosmic Erasure
     - Symbol: A black circle surrounded by fading stars
     - Favored Weapon: Scythe
 - [Pyrius](pantheon/deity-pyrius.md)
     - Alignment: CE
-    - Portfolio: Entropy, decay, dying worlds, extinction, finality
+    - Portfolio: Entropy, Decay, Dying Worlds, Extinction, Finality
     - Symbol: A dark spiral ring devouring light at its center
     - Favored Weapon: Scythe
 
@@ -167,47 +167,47 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 
 - [Lux Dawnbringer](pantheon/mortal-lux.md), the Luminous Sovereign
     - Alignment: LG
-    - Portfolio: Justice, light, radiance, judgment
+    - Portfolio: Justice, Light, Radiance, Judgment
     - Symbol: A radiant sun, its rays extending outward in a circular pattern
     - Favored Weapon: Guisarme
 - [Thrain Stoneheart](pantheon/mortal-thrain.md), the Tranquil Forgemaster
     - Alignment: NG
-    - Portfolio: Peace, unity, craft, community
+    - Portfolio: Peace, Unity, Craft, Community
     - Symbol: A stylized anvil with a hammer crossed over it
     - Favored Weapon: Warhammer
 - [Leonus Ironmane](pantheon/mortal-leonis.md), the Stalwart Guardian
     - Alignment: CG
-    - Portfolio: Valor, war, protection, courage
+    - Portfolio: Valor, War, Protection, Courage
     - Symbol: A roaring lion's head surrounded by justice scales and a crossed sword and shield
     - Favored Weapon: Heavy Mace
 - [Tome](pantheon/mortal-tome.md), Keeper of the Celestial Library
     - Alignment: LN
-    - Portfolio: Knowledge, wisdom, memory, truth
+    - Portfolio: Knowledge, Wisdom, Memory, Truth
     - Symbol: An intricate celestial sigil with cosmic runes swirling around it
     - Favored Weapon: Quarterstaff
 - [Sol](pantheon/mortal-sol.md), the Eternal Equilibrium
     - Alignment: N
-    - Portfolio: Balance, pacts, cycles, order
+    - Portfolio: Balance, Pacts, Cycles, Order
     - Symbol: A set of scales held by a draconic hand
     - Favored Weapon: Claw
 - [Selene](pantheon/mortal-selene.md), the Nightweaver
     - Alignment: CN
-    - Portfolio: Secrets, shadows, night, illusion
+    - Portfolio: Secrets, Shadows, Night, Illusion
     - Symbol: A crescent moon intertwined with intricate elven glyphs
     - Favored Weapon: Sickle
 - [Mordac](pantheon/mortal-mordac.md), the Arbiter of Tyranny
     - Alignment: LE
-    - Portfolio: Corruption, death, domination, oppression
+    - Portfolio: Corruption, Death, Domination, Oppression
     - Symbol: A twisted serpent entwined around a scepter
     - Favored Weapon: Greathammer
 - [Vortressa](pantheon/mortal-vortressa.md), the Mother of Monsters
     - Alignment: NE
-    - Portfolio: Monsters, dark desires, mutation, hunger
+    - Portfolio: Monsters, Dark Desires, Mutation, Hunger
     - Symbol: A corrupted Druidic glyph intertwined with monstrous teeth
     - Favored Weapon: Claw/Bite
 - [Zarakth](pantheon/mortal-zarakth.md), the Abyssal Scourge
     - Alignment: CE
-    - Portfolio: Destruction, murder, chaos, ruin
+    - Portfolio: Destruction, Murder, Chaos, Ruin
     - Symbol: A blood-red vortex swirling around a jagged, shattered blade
     - Favored Weapon: Heavy Mace
 
@@ -215,70 +215,70 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 
 - [Ornus](deity/ornus.md), Lord of Constructs
     - Alignment: LN
-    - Portfolio: Constructs, order, artifice, creation
+    - Portfolio: Constructs, Order, Artifice, Creation
     - Symbol: A gear set within a perfect square
     - Favored Weapon: Light Hammer
 - [Fink](deity/fink.md), Patron of Goblinoids
     - Alignment: CN
-    - Portfolio: Goblinoids, greed, cunning, survival
+    - Portfolio: Goblinoids, Greed, Cunning, Survival
     - Symbol: A grinning goblin face biting a coin
 - [Orion](deity/orion.md), Patron of Smallfolk
     - Alignment: CG
-    - Portfolio: Smallfolk, artifice, ingenuity, resilience
+    - Portfolio: Smallfolk, Artifice, Ingenuity, Resilience
     - Symbol: A crystal radiating astral light
     - Favored Weapon: Gnome Hooked Hammer
 - [Leshrac](deity/leshrac.md), Lord of the Undead
     - Alignment: LE
-    - Portfolio: Undead, cruelty, control, decay
+    - Portfolio: Undead, Cruelty, Control, Decay
     - Symbol: A skull bound in iron bands
 - [Sezzek](deity/sezzek.md), Patron of Scaly Ones
     - Alignment: NE
-    - Portfolio: Scalykind, poison, venom, instinct
+    - Portfolio: Scalykind, Poison, Venom, Instinct
     - Symbol: A fanged serpent coiled around a droplet
 - [Fronir](deity/fronir.md), Patron of Giants
     - Alignment: N
-    - Portfolio: Giants, creation, strength, stone
+    - Portfolio: Giants, Creation, Strength, Stone
     - Symbol: A towering rune-carved pillar
 - [Nessa](deity/nessa.md), Patron of Vermin
     - Alignment: NE
-    - Portfolio: Pestilence, plagues, decay, infestation
+    - Portfolio: Pestilence, Plagues, Decay, Infestation
     - Symbol: A swarm forming a hollow circle
 
 ## Lesser Deities (The Patrons)
 
 - [Sil’Faraan](deity/silfaraan.md), Lord of the Wastes
     - Alignment: NE
-    - Portfolio: Deserts, drought, decay, endurance
+    - Portfolio: Deserts, Drought, Decay, Endurance
     - Symbol: A cracked sun over a barren dune
 - [Enigma](deity/enigma.md), the Lost God
     - Alignment: N
-    - Portfolio: Secrets, forgotten knowledge, paradox, obscurity
+    - Portfolio: Secrets, Forgotten Knowledge, Paradox, Obscurity
     - Symbol: A closed eye within a spiraling void
     - Favored Weapon: Flail
 - [Droma](deity/droma.md), God of Craftsmen
     - Alignment: LN
-    - Portfolio: Craftsmanship, creation, labor, invention
+    - Portfolio: Craftsmanship, Creation, Labor, Invention
     - Symbol: A hammer crossed with a chisel
 - [Ithlwick](deity/ithlwick.md), God of Prosperity
     - Alignment: NG
-    - Portfolio: Wealth, trade, fortune, success
+    - Portfolio: Wealth, Trade, Fortune, Success
     - Symbol: A golden coin stamped with a rising sun
 - [Rasmin](deity/rasmin.md), God of Mischief
     - Alignment: CN
-    - Portfolio: Trickery, pranks, deception, chance
+    - Portfolio: Trickery, Pranks, Deception, Chance
     - Symbol: A laughing mask split down the middle
 - [Vaylen](deity/vaylen.md), Patron of Sailors and Travelers
     - Alignment: CG
-    - Portfolio: Travel, oceans, winds, safe passage
+    - Portfolio: Travel, Oceans, Winds, Safe Passage
     - Symbol: A compass encircled by waves and meandering paths
     - Favored Weapon: Cutlass
 - [Asmodeus](deity/asmodeus.md), Supreme Master of the Nine Hells
     - Alignment: LE
-    - Portfolio: Tyranny, contracts, domination, devils
+    - Portfolio: Tyranny, Contracts, Domination, Devils
     - Symbol: A ruby-tipped scepter or inverted pentagram
 - [Alpha](deity/alpha.md), the First Warforged
     - Alignment: N
-    - Portfolio: Warforged, creation, guardianship, memory
+    - Portfolio: Warforged, Creation, Guardianship, Memory
     - Symbol: A cog wheel bearing the four elemental symbols at its center
     - Favored Weapon: Warhammer
 
@@ -298,107 +298,107 @@ Due to their unique source of divinity, these deities possess no ability to gran
 
 - Aelthirion, the Verdant Crown, Sovereign of the Summer Court
     - Alignment: CG
-    - Portfolio: Summer wilds, rampant growth, blazing life, fey beasts, verdant dominance
+    - Portfolio: Summer Wilds, Rampant Growth, Blazing Life, Fey Beasts, Verdant Dominance
     - Symbol: A crown of oak and ivy wreathed in golden sunlight
 
 - Thiralyth Bloomveil, the First Dawn, Queen of the Spring Court
     - Alignment: NG
-    - Portfolio: Spring awakening, birth of beasts, blossoms, rain-soaked soil, new fey life
+    - Portfolio: Spring Awakening, Birth of Beasts, Blossoms, Rain-Soaked Soil, New Fey Life
     - Symbol: A budding branch crowned with morning dew
 
 - Caerthos Emberfall, the Withered King, Lord of the Autumn Court
     - Alignment: NE
-    - Portfolio: Autumn decline, harvest cruelty, falling leaves, the taking season, beautiful decay
+    - Portfolio: Autumn Decline, Harvest Cruelty, Falling Leaves, The Taking Season, Beautiful Decay
     - Symbol: A falling leaf burning at the edges
 
 - Nyssara Vael, the Gloam Empress, Matron of the Winter Court
     - Alignment: CE
-    - Portfolio: Winter death, frozen stillness, starvation, merciless predation, dark survival
+    - Portfolio: Winter Death, Frozen Stillness, Starvation, Merciless Predation, Dark Survival
     - Symbol: A black rose encased in jagged ice
 
 - Lirael Starbough, Mother of Elvenkind
     - Alignment: CN
-    - Portfolio: Elven souls, ancestral forests, fey bloodlines, birth, song, moonlit groves
+    - Portfolio: Elven Souls, Ancestral Forests, Fey Bloodlines, Birth, Song, Moonlit Groves
     - Symbol: A silver-leafed tree beneath a seven-pointed star
 
 ## Intermediate Deities
 
 - Vaesryn Manyskins, the Mutable Lord
     - Alignment: CN
-    - Portfolio: Shapechanging, fluid identity, moonbound forms, fey-blooded transformations
+    - Portfolio: Shapechanging, Fluid Identity, Moonbound Forms, Fey-Blooded Transformations
     - Symbol: A mask melting into antlers, claws, and leaves
 
 - Sylraeth Moonwhisper, the Dreaming Canopy
     - Alignment: NG
-    - Portfolio: Fey dreams, moonlit magic, prophetic visions, sleeping forests
+    - Portfolio: Fey Dreams, Moonlit Magic, Prophetic Visions, Sleeping Forests
     - Symbol: A moon caught in tangled branches
 
 - Letharis Gleamstep, the Dancing Blade
     - Alignment: CG
-    - Portfolio: Elven battle-dance, martial art, ritual movement, graceful violence
+    - Portfolio: Elven Battle-Dance, Martial Art, Ritual Movement, Graceful Violence
     - Symbol: A curved blade traced with flowing ribbons
 
 - Elarion Silversong, the First Chord
     - Alignment: CG
-    - Portfolio: Elven music, song-magic, harmony, emotional resonance
+    - Portfolio: Elven Music, Song-Magic, Harmony, Emotional Resonance
     - Symbol: A harp strung with moonlight
 
 - Myravel Heartfire, the Unbound Muse
     - Alignment: CN
-    - Portfolio: Passion, love, obsession, creative frenzy, artistic inspiration
+    - Portfolio: Passion, Love, Obsession, Creative Frenzy, Artistic Inspiration
     - Symbol: A burning heart wrapped in vines
 
 - Thalos Briarwind, the Stormhart
     - Alignment: N
-    - Portfolio: Fey storms, violent seasons, winds, stampeding beasts
+    - Portfolio: Fey Storms, Violent Seasons, Winds, Stampeding Beasts
     - Symbol: Antlers split by lightning
 
 - Eirwyn Ashroot, the Buried Seed
     - Alignment: N
-    - Portfolio: Decay feeding life, fallen forests, rebirth from ruin
+    - Portfolio: Decay Feeding Life, Fallen Forests, Rebirth from Ruin
     - Symbol: A seed sprouting from ash
 
 ## Lesser Deities
 
 - Faeloria Dewkissed, the Spring Bloom
     - Alignment: NG
-    - Portfolio: Healing plants, fresh water, blossoms, gentle beasts
+    - Portfolio: Healing Plants, Fresh Water, Blossoms, Gentle Beasts
     - Symbol: A flower cupping a drop of dew
 
 - Puckren Quickshade, the Laughing Thorn
     - Alignment: CN
-    - Portfolio: Mischievous spirits, trick paths, warped luck, wild magic surges
+    - Portfolio: Mischievous Spirits, Trick Paths, Warped Luck, Wild Magic Surges
     - Symbol: A thorn bent into a grin
 
 - [Cervidûr](deity/cervidur.md), Lord of the Hunt, Master of the Wild Hunt
     - Alignment: CN
-    - Portfolio: The Wild Hunt, hunters, lycanthropes, moonlit predation, beasts
+    - Portfolio: The Wild Hunt, Hunters, Lycanthropes, Moonlit Predation, Beasts
     - Symbol: A stag's head with wide antlers adorned with runes of fey magic
     - Favored Weapon: Longbow
 
 - Calithra Starloom, the Living Tapestry
     - Alignment: NG
-    - Portfolio: Elven art, weaving, painting, visual storytelling, memory made manifest
+    - Portfolio: Elven Art, Weaving, Painting, Visual Storytelling, Memory Made Manifest
     - Symbol: A loom threaded with stars
 
 - Thandoril Brightforge, the Graceful Hand
     - Alignment: N
-    - Portfolio: Elven craft, smithing, woodwork, perfection of form, patient creation
+    - Portfolio: Elven Craft, Smithing, Woodwork, Perfection of Form, Patient Creation
     - Symbol: A hammer striking a leaf-shaped anvil
 
 - Aerethil Leafborn, the First Sapling
     - Alignment: NG
-    - Portfolio: Young elves, first awakenings, coming of age, inherited talent
+    - Portfolio: Young Elves, First Awakenings, Coming of Age, Inherited Talent
     - Symbol: A small leaf unfurling from a glowing bud
 
 - Silphae Gossamerwing, the Many-Blooded
     - Alignment: CN
-    - Portfolio: Fey-touched lineages, elves of mixed descent, mutation, adaptation
+    - Portfolio: Fey-Touched Lineages, Elves of Mixed Descent, Mutation, Adaptation
     - Symbol: Overlapping wings of leaf, silk, and shadow
 
 - Oruvain Barkvein, the Rooted Elder
     - Alignment: N
-    - Portfolio: Long-lived elves, tradition, slow mastery, endurance of craft and song
+    - Portfolio: Long-Lived Elves, Tradition, Slow Mastery, Endurance of Craft and Song
     - Symbol: A gnarled root wrapped around a star-shaped leaf
 
 </div>
@@ -427,7 +427,7 @@ This pantheon is worshipped solely by humans, though they are not picky as to wh
 
 - [Ukrol](deity/ukrol.md), Patron of Humanity
     - Alignment: LE
-    - Portfolio: Humans, conquest, dominion, authority
+    - Portfolio: Humans, Conquest, Dominion, Authority
     - Symbol: A featureless humanoid face with a spiked crown
     - Favored Weapon: Greatsword
 - Superbia, the Imperial Face

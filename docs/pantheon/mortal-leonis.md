@@ -18,7 +18,7 @@ title: "Leonus Ironmane, the Stalwart Guardian"
 - **Symbol**: A roaring lion's head surrounded by justice scales and a crossed sword and shield
 - **Home Plane**: The Verdant Bastion, Ysgard
 - **Alignment**: CG
-- **Portfolio**: Valor, war, protection, courage
+- **Portfolio**: Valor, War, Protection, Courage
 - **Worshipers**: Warriors, druids
 - **Cleric Alignments**: CG, CN, NG
 - **Domains**: Competition, Courage, Good, Protection

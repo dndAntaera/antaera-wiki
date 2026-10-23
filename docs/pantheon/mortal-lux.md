@@ -18,7 +18,7 @@ title: "Lux Dawnbringer, the Luminous Sovereign"
 - **Symbol**: A radiant sun, its rays extending outward in a circular pattern
 - **Home Plane**: Mount Celestia
 - **Alignment**: LG
-- **Portfolio**: Justice, light, radiance, judgment
+- **Portfolio**: Justice, Light, Radiance, Judgment
 - **Worshipers**: Priests and priestesses of the light, healers
 - **Cleric Alignments**: LG, LN, NG
 - **Domains**: Glory, Healing, Purification, Sun

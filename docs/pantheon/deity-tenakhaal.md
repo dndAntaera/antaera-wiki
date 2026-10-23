@@ -18,7 +18,7 @@ title: "Tenakhaal, Herald of Salt"
 - **Symbol**: A cracked seashell leaking dry grains
 - **Home Plane**: Quasi-Elemental Plane of Salt
 - **Alignment**: NE
-- **Portfolio**: Salt, hatred, dehydration, vengeance, suffering
+- **Portfolio**: Salt, Hatred, Dehydration, Vengeance, Suffering
 - **Worshipers**: Clerics, sorcerers, pirates, cultists, necromancers
 - **Cleric Alignments**: CE, LE, NE
 - **Domains**: Destruction, Evil, Water, Wrath

@@ -18,7 +18,7 @@ title: "Ukrol, Patron of Humanity"
 - **Symbol**: A featureless humanoid face with a spiked crown
 - **Home Plane**: Gehenna
 - **Alignment**: LE
-- **Portfolio**: Humans, conquest, dominion, authority
+- **Portfolio**: Humans, Conquest, Dominion, Authority
 - **Worshipers**: The Imperial Clergy, the Imperial Legion, Imperial citizens, humans, the Cult of Ukrol
 - **Cleric Alignments**: LE, LN, NE
 - **Domains**: Domination, Hatred, Law, Tyranny

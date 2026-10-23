@@ -18,7 +18,7 @@ title: "Nihil, Herald of Void"
 - **Symbol**: A black circle surrounded by fading stars
 - **Home Plane**: Quasi-Elemental Plane of Vacuum
 - **Alignment**: N
-- **Portfolio**: Emptiness, entropy, silence, cosmic erasure
+- **Portfolio**: Emptiness, Entropy, Silence, Cosmic Erasure
 - **Worshipers**: Spelljammers, wanderers, exiles, assassins, philosophers of nothingness
 - **Cleric Alignments**: CN, LN, N, NE, NG
 - **Domains**: Darkness, Death, Destruction, Decay, Madness

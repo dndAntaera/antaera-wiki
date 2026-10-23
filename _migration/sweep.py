@@ -540,6 +540,17 @@ def main():
                 dupes.append("%s  %s" % (name, ", ".join(live)))
     check("no two live pages share a title", dupes)
 
+    # Portfolios and domains are names of things, and are set as titles
+    # everywhere they appear: "Safe Passage", "Engines of War".
+    bad = []
+    for f, t in pages.items():
+        for m in re.finditer(r"^(?:- \*\*(?:Portfolio|Domains)\*\*|[ \t]+- (?:Portfolio|Domains)):"
+                             r"[ \t]*(\S.*?)[ \t]*$", t, re.M):
+            for item in (x.strip() for x in m.group(1).split(",")):
+                if item and item != convert.title_case(item):
+                    bad.append("%s  %s" % (f, item))
+    check("portfolios and domains are in title case", bad)
+
     # A page written for the wiki keeps everything it was written with. The
     # formatter reads a god's page into sections and writes it back out, and a
     # paragraph it misreads is dropped rather than kept: Alpha and Ornus lost

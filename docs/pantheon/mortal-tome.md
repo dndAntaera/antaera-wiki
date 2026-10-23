@@ -18,7 +18,7 @@ title: "Tome, Keeper of the Celestial Library"
 - **Symbol**: An intricate celestial sigil with cosmic runes swirling around it
 - **Home Plane**: The Astral Archive, Astral Plane
 - **Alignment**: LN
-- **Portfolio**: Knowledge, wisdom, memory, truth
+- **Portfolio**: Knowledge, Wisdom, Memory, Truth
 - **Worshipers**: Scholars, sages, librarians
 - **Cleric Alignments**: LE, LG, LN
 - **Domains**: Knowledge, Magic, Rune, Spell

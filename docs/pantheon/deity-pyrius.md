@@ -18,7 +18,7 @@ title: "Pyrius, Herald of Ash"
 - **Symbol**: A dark spiral ring devouring light at its center
 - **Home Plane**: Quasi-Elemental Plane of Ash
 - **Alignment**: CE
-- **Portfolio**: Entropy, decay, dying worlds, extinction, finality
+- **Portfolio**: Entropy, Decay, Dying Worlds, Extinction, Finality
 - **Worshipers**: Sorcerers, warlocks, necromancers, druids, doomsayers
 - **Cleric Alignments**: CE, CN, NE
 - **Domains**: Death, Destruction, Fire, Evil, Entropy

@@ -968,6 +968,7 @@ def build_messages(base, head, notes=""):
         elif info["wip"]:
             line += " *(work in progress)*"
         groups[change.kind].append((info["title"].lower(), line, _changes(change)))
+    groups = _swept(groups)
 
     # The commits behind the pages listed. One whose every change was later
     # undone has nothing left to explain.
@@ -981,7 +982,48 @@ def build_messages(base, head, notes=""):
                      ["• " + escape(s) for s in subjects])
 
 
-HEADINGS = {"added": "New", "edited": "Edited", "moved": "Moved", "removed": "Removed"}
+HEADINGS = {"wide": "Across the wiki", "added": "New", "edited": "Edited", "moved": "Moved",
+            "removed": "Removed"}
+
+# A change made the same way on this many pages is a sweep: said once, as a
+# whole, rather than page by page.
+SWEEP = 8
+# Where on a page a change sat, which a sweep's one line leaves out.
+_WHERE = re.compile(r" (?:in|from|to) (?:the opening|the .+? sections?)$")
+
+
+def _sweep_key(item):
+    # "Portfolio" on one page and "Portfolios" on another are the same change.
+    return re.sub(r"s\b", "", _WHERE.sub("", item).lower())
+
+
+def _swept(groups):
+    """The groups, with any change shared by SWEEP pages or more said once."""
+    count, wording = {}, {}
+    for entries in groups.values():
+        for _, _, items in entries:
+            for key in {_sweep_key(i): i for i in items}:
+                count[key] = count.get(key, 0) + 1
+    for entries in groups.values():
+        for _, _, items in entries:
+            for i in items:
+                key = _sweep_key(i)
+                if count[key] >= SWEEP:
+                    # The plural reads best for many pages.
+                    shown = _WHERE.sub("", i)
+                    wording[key] = max(wording.get(key, ""), shown, key=len)
+    if not wording:
+        return groups
+
+    out = {"wide": [(k, "• %s, on %d pages" % (w, count[k]), []) for k, w in wording.items()]}
+    for kind, entries in groups.items():
+        out[kind] = []
+        for sort, line, items in entries:
+            kept = [i for i in items if _sweep_key(i) not in wording]
+            # A page whose only change was the sweep needs no line of its own.
+            if kept or not items:
+                out[kind].append((sort, line, kept))
+    return out
 
 
 def _changes(change):

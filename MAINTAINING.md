@@ -138,7 +138,10 @@ message. It has two parts:
     read the same way;
   - known changes are spelled out: `retitled from …`, `finished` (no longer
     a work in progress);
-  - a new page shows its first sentence.
+  - a new page shows its first sentence;
+  - a change made the same way on 8 pages or more (`SWEEP`) is a sweep,
+    said once under **Across the wiki**: `Portfolios now capitalized
+    properly, on 21 pages`. Pages with nothing else changed are left out.
 - **A summary**: the commit messages behind those pages, minus Pages CMS's
   automatic ones.
 

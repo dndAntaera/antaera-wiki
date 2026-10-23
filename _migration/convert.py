@@ -288,6 +288,11 @@ EDITS = {
     "spelljamming-sphere-antaera": [
         (None, "- Orion, Patron of Smallfolk (Chaotic Neutral)",
          "- Orion, Patron of Smallfolk (Chaotic Good)"),
+        # The kingdom on Antæra worships Superbia openly; Ukrol is worshipped
+        # in secret there, and openly only across the stars. The entry takes
+        # its title, rank and alignment from The Pantheons - see
+        # favor_pantheon().
+        (None, "- Ukrol, Patron of Humans (Lawful Evil)", "- Superbia (N)"),
     ],
     # The Divine Mandate keeps a Greater God's realm off the Material Plane, and
     # these two kept theirs on Antæra. Their mortal birthplaces stay where they

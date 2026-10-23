@@ -125,7 +125,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 - Mordac, the Arbiter of Tyranny (LE)
 - Vortressa, the Mother of Monsters (NE)
 - Zarakth, the Abyssal Scourge (CE)
-- Ukrol, Patron of Humanity (LE)
+- Superbia, the Imperial Face (N)
 
 </div>
 </div>

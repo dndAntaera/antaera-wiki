@@ -29,7 +29,7 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Astrology & Planetology
+# Planetology & Astrology
 
 - Type of Sphere: Chaotic
 - Primary Body:
@@ -43,14 +43,14 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
     - **Distance**: 78 million miles
     - **Size Category**: C
     - **Planet Type**: Shattered Terrestrial Debris Field
-    - **Shape**: Fragmented
+    - **Planet Shape**: Fragmented
     - **Other Notes**: Nebulon’s ruins drift in a tangled cloud of broken cliffs and splintered mesas, pulled loosely by magnetic fields around a shattered core. The Sphere's violent winds batter the fragments constantly, causing pieces to shift and collide. Wildspace sprawls openly across the sky, punctuated only by drifting vapor trails and the Wispchildren moons. Navigation is treacherous, requiring careful tracking of both stellar patterns and fragment drift.
 
 - **Planet Name**: Velis
     - **Distance**: 123 million miles
     - **Size Category**: D
     - **Planet Type**: Shattered Terrestrial Debris Field
-    - **Shape**: Fragmented
+    - **Planet Shape**: Fragmented
     - **Other Notes**: Velis is a whirling mass of broken surface plates and rocky wreckage, held tenuously by magnetic forces. Powerful gusts from the Cyclone Gate have torn away much of its finer debris, leaving jagged remnants. Stars blaze visibly through the open spaces, and the moon Spiralis coils above in a dizzying spiral, pulled by erratic currents. Occasionally, large fragments crash together, releasing bursts of dust and shattered stone into the void.
 
 ## Goldilocks Zone (200–300 million miles)
@@ -59,7 +59,7 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
     - **Distance**: 231 million miles
     - **Size Category**: D
     - **Planet Type**: Debris Field
-    - **Shape**: Fragmented
+    - **Planet Shape**: Fragmented
     - **Other Notes**: Serith Ventus once housed oceans and green lands, but now its remnants drift like skeletal plates across the heavens. Magnetic fields hold the drifting landmasses together in fragile patterns, but fierce storms often tear them apart anew. Starlight paints the broken surfaces in stark contrast against the endless night. Driftborn moons move sluggishly among the ruins, their orbits similarly battered and unpredictable. Ancient riverbeds now hang suspended in empty blackness.
 
 ## Outer Track (>300 million miles)
@@ -68,14 +68,14 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
     - **Distance**: 341 million miles
     - **Size Category**: C
     - **Planet Type**: Debris Field
-    - **Shape**: Fragmented
+    - **Planet Shape**: Fragmented
     - **Other Notes**: Auralis’s glacial fields now exist as shattered bergs and jagged, frozen islands adrift in wildspace. Cracks glow faintly under the light of distant stars, and magnetic eddies create eerie bridges of static between the fragments. The twin moons Hymir and Veylos move in looping, unpredictable arcs, dragging clouds of frozen dust in their wakes. Sudden collisions often create dazzling, brief auroral displays across the broken fields.
 
 - **Planet Name**: Crythone
     - **Distance**: 419 million miles
     - **Size Category**: D
     - **Planet Type**: Debris Field
-    - **Shape**: Fragmented
+    - **Planet Shape**: Fragmented
     - **Other Notes**: Crythone is a labyrinth of broken peaks, dust storms, and twisting chasms, shaped by ancient violence and ongoing winds. Dust and rocky debris form loose clouds between larger masses, giving the entire debris field a faint, drifting haze. Navigation is perilous, as fragments can suddenly shift when buffeted by the wildspace storms. Ruined towers and crumbled citadels still cling to some larger fragments, relics of a lost civilization drowned in chaos.
 
 </div>

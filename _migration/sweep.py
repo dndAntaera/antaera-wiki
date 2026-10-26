@@ -551,6 +551,31 @@ def main():
                     bad.append("%s  %s" % (f, item))
     check("portfolios and domains are in title case", bad)
 
+    # Every sphere is laid out as _migration/templates/sphere.md has it: its
+    # cards in order, the tracks with their distances, each body's fields
+    # under the template's labels.
+    bad = []
+    cards = ["Overview", "Planetology & Astrology", "Recognized Pantheon"]
+    fields = set(convert.BODY_FIELDS.values())
+    for f, t in pages.items():
+        if not re.match(r"spelljamming/sphere-", f):
+            continue
+        heads = re.findall(r"^# (.+)$", t, re.M)
+        if [h for h in heads if h in cards] != cards:
+            bad.append("%s  cards out of order" % f)
+        card = re.search(r"^# Planetology & Astrology\n(.*?)^</div>", t, re.M | re.S)
+        for line in (card.group(1) if card else "").split("\n"):
+            m = re.match(r"^## (.+)$", line)
+            if m and m.group(1) not in convert.TRACKS.values():
+                bad.append("%s  track %s" % (f, m.group(1)))
+            m = re.match(r"^    - \*\*(.+?)\*\*:", line)
+            if m and m.group(1) not in fields:
+                bad.append("%s  field %s" % (f, m.group(1)))
+            if re.match(r"^- (?!\*\*Planet Name\*\*:|Type of Sphere:|Primary Body:"
+                        r"|Spelljamming Aware:|None$)", line):
+                bad.append("%s  %s" % (f, line[:40]))
+    check("every sphere follows the sphere template", bad)
+
     # A page written for the wiki keeps everything it was written with. The
     # formatter reads a god's page into sections and writes it back out, and a
     # paragraph it misreads is dropped rather than kept: Alpha and Ornus lost

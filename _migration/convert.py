@@ -2554,6 +2554,72 @@ def pantheon_index(text):
     return gods
 
 
+# The labels of a body in a sphere's tracks, as the template gives them - see
+# _migration/templates/sphere.md. The spheres were written over years and
+# label the same field three ways: "Size", "Size Category"; "Type", "Planet
+# Type"; "Shape", "Planet Shape".
+BODY_FIELDS = {"distance": "Distance", "size": "Size Category",
+               "size category": "Size Category", "type": "Planet Type",
+               "planet type": "Planet Type", "composition": "Planet Type",
+               "shape": "Planet Shape", "planet shape": "Planet Shape",
+               "other notes": "Other Notes"}
+TRACKS = {"Inner Track": "Inner Track (<200 million miles)",
+          "Goldilocks Zone": "Goldilocks Zone (200–300 million miles)",
+          "Outer Track": "Outer Track (>300 million miles)"}
+
+
+def sphere_layout(text):
+    """A sphere's Planetology & Astrology card, laid out as the template has it.
+
+    Only the layout changes, never what a field says: the card takes its one
+    heading, the tracks their distances, each body a bold "Planet Name" (some
+    were a bare name, one an "Asteroid Field") and the template's labels for
+    its fields, and Spelljamming Aware moves out from under the primary, where
+    three spheres had nested it.
+    """
+    text = text.replace("# Astrology & Planetology", "# Planetology & Astrology")
+    m = re.search(r"^# Planetology & Astrology\n.*?(?=^</div>)", text, re.M | re.S)
+    if not m:
+        return text
+    out, aware, in_track = [], None, False
+    for line in m.group(0).split("\n"):
+        head = re.match(r"^## (Inner Track|Goldilocks Zone|Outer Track)\b.*$", line)
+        top = re.match(r"^- (?:\*\*)?([^*:]+?)(?:\*\*)?:\s*(.*)$", line)
+        sub = re.match(r"^    - (?:\*\*)?([^*:]+?)(?:\*\*)?:\s*(.*)$", line)
+        if head:
+            in_track = True
+            line = "## " + TRACKS[head.group(1)]
+        elif not in_track:
+            if top and top.group(1) == "Sphere Type":
+                line = "- Type of Sphere: " + top.group(2)
+            elif top and top.group(1) == "Primary Body" and top.group(2):
+                # "Primary Body: Solarianus (Positive Energy Manifest Zone)"
+                body = re.match(r"(.+?)\s*\((.+)\)$", top.group(2))
+                name, kind = body.groups() if body else (top.group(2), "")
+                line = "- Primary Body:\n    - Name: " + name
+                if kind:
+                    line += "\n    - Type: " + kind
+            elif sub and sub.group(1) == "Spelljamming Aware":
+                aware = "- Spelljamming Aware: " + sub.group(2)
+                continue
+            elif aware and not line.startswith("    "):
+                out.append(aware)
+                aware = None
+        elif line == "- (Empty)":
+            line = "- None"
+        elif line.startswith("- ") and line != "- None":
+            name = top.group(2) if top else line[2:].strip()
+            line = "- **Planet Name**: " + name
+        elif sub and sub.group(1).lower() in BODY_FIELDS:
+            line = "    - **%s**: %s" % (BODY_FIELDS[sub.group(1).lower()], sub.group(2))
+            # Lapis's "Asteroid Field" named its shape in its label; a belt
+            # is what the other spheres call one.
+            if sub.group(1) == "Composition":
+                line += "\n    - **Planet Shape**: Belt"
+        out.append(line)
+    return text[:m.start()] + "\n".join(out) + text[m.end():]
+
+
 def sphere_ranks(text):
     """Label a sphere's ranks the way every other sphere labels them.
 
@@ -2652,7 +2718,7 @@ def finish_site():
             path = os.path.join(sdir, name)
             with open(path, encoding="utf-8") as fh:
                 text = fh.read()
-            new = favor_pantheon(sphere_ranks(text), gods)
+            new = favor_pantheon(sphere_ranks(sphere_layout(text)), gods)
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
                     fh.write(new)

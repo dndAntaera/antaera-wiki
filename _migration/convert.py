@@ -284,6 +284,11 @@ EDITS = {
          "## Greater Gods\n\n## Intermediate Gods\n\n## Lesser Gods\n",
          IMPERIAL_PANTHEON),
     ],
+    # Concordia is written for the wiki - see PAGES.
+    "spelljamming-known-spheres": [
+        ("# Derelict Spheres", "- [Forgehome](sphere-forgehome.md)\n",
+         "- [Forgehome](sphere-forgehome.md)\n- [Concordia](sphere-concordia.md)\n"),
+    ],
     # Orion is Chaotic Good on his own page.
     "spelljamming-sphere-antaera": [
         (None, "- Orion, Patron of Smallfolk (Chaotic Neutral)",
@@ -1217,6 +1222,7 @@ TITLES = {
     # Written for the wiki rather than imported - see PAGES.
     "deity-alpha": "Alpha, the First Warforged",
     "ornus": "Ornus, Lord of Constructs",
+    "spelljamming-sphere-concordia": "The Concordia Sphere",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners

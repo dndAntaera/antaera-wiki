@@ -1304,6 +1304,11 @@ def slug_keys(target):
     return keys
 
 
+# Written pages still being worked on. An imported page is marked by the
+# sign on its Wikidot source; a written page has no source, so it is named here.
+WIP_WRITTEN = {"spelljamming-sphere-concordia"}
+
+
 def title_from(slug):
     """Human title from a slug, minus any prefix that only classifies it."""
     m = re.match(r"^([a-z]+)-(.+)$", slug)
@@ -3619,7 +3624,9 @@ def main(backup):
         out_abs = os.path.join(DOCS, rel)
         os.makedirs(os.path.dirname(out_abs), exist_ok=True)
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
-            fh.write('---\ntitle: "' + title + '"\n---\n\n' + body)
+            fh.write('---\ntitle: "' + title + '"\n'
+                     + ("wip: true\n" if slug in WIP_WRITTEN else "")
+                     + '---\n\n' + body)
         written += 1
 
     # Cards that belong on another page, moved once both pages exist.

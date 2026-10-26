@@ -9,6 +9,18 @@ its constellation or under Derelict Spheres.
 - The three tracks are always given, in order. A track with no bodies says
   "- None".
 - Each body gives the same six fields, in this order, with the labels bold.
+- Terms are the ones Astrology & Planetology uses; anything more specific
+  goes in brackets after the term, as "Earth type (Tomb World)".
+    - Type of Sphere: Standard, Fixed, Random Movement, Semi-Random,
+      Single Planet, Void, Nested Spheres, Stationary, Chaotic,
+      Debris Fields or Opposing Revolutions.
+    - Primary type: Fire Body, Earth Body, Air Body, Water Body or No Primary.
+    - Size Category: a single letter, A to J. A belt is Size A.
+    - Planet Type: Earth type, Fire type, Air type, Water type or Liveworld.
+    - Planet Shape: Amorphous, Belt, Cluster, Spherical, Cubic, Flatworld,
+      Elliptical, Regular or Irregular.
+- A body's distance falls inside its track. If a body belongs in a track its
+  distance doesn't fit, revise the distance; don't move the body.
 - Recognized Pantheon lists each rank lowest first, one god per line, as
   "Name, Title (Alignment)" - the name and title as The Pantheons gives them.
   A rank with no gods is left out.

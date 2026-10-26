@@ -50,7 +50,7 @@ The [Imperial Pantheon](../pantheons.md#the-imperial-pantheon) has its seat in t
     - **Distance**: 131 million miles
     - **Size Category**: D
     - **Planet Type**: Earth type
-    - **Planet Shape**: Ring
+    - **Planet Shape**: Regular (Ring)
     - **Other Notes**: The second body in the celestial track is Castra. A world dedicated to the legions. The body is a ring, and gravity on it is strange and relative: the inside face of the ring is the ground, and anything standing on it is held there with the sky at the ring's center. At that center sits a stronghold, held aloft by the gravitational pull of the ring around it, which garrisons the magical department of the Legion. The outer crust of the ring, the uninhabited outer shell, is covered in naturally occurring basalt flats that absorb the heat of the primary and distribute it through the body of the ring, which keeps the inner face warm through the night. The divisions of the Legion's troops are garrisoned along the inner face in large cities made up of government-funded housing and facilities, with parade grounds, drill fields, and ranges laid between them and the senior campus of the College of War among them. Every citizen of Concordia is sent here at the age of majority to serve their term. No one lives on Castra who is not in training, instructing, or garrisoning it.
 
 ## Goldilocks Zone (200–300 million miles)

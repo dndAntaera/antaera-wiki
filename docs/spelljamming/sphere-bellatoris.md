@@ -31,31 +31,31 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 
 # Planetology & Astrology
 
-- Type of Sphere: Star-Based
+- Type of Sphere: Standard
 - Primary Body:
     - Name: Solarianus
-    - Type: Positive Energy Manifest Zone
+    - Type: Fire Body (Manifest zone to the Positive Energy Plane)
 
 ## Inner Track (<200 million miles)
 
 - **Planet Name**: Ferrus
     - **Distance**: 51 million miles
     - **Size Category**: C
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Closest to Solarianus, Ferrus is a world overflowing with wild and unchecked growth. Towering trees with radiant leaves blot out the sky, their roots burrowing through layers of red-black stone. The ground itself pulses faintly with lifelight, and it is said that no ruin remains uncovered for long. Vines and moss smother the land in vibrant layers, and the beasts of Ferrus are massive, territorial, and instinctually aggressive. Life here is relentless—flourishing to the point of overwhelming anything that cannot match its pace.
 
 - **Planet Name**: Varkhaal
     - **Distance**: 93 million miles
     - **Size Category**: D
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Varkhaal teems with forested canyons, living stone cliffs, and densely wooded lowlands. Trees spiral into the sky, forming natural towers where skybeasts perch and launch into wildspace. Dense undergrowth tangles around ancient paths, and deep glades echo with the songs of beasts and spirits. The clans here dwell in living fortresses shaped from root and bark, and their druids are revered as war-sages who speak the will of the forest.
 
 - **Planet Name**: Thassari
     - **Distance**: 146 million miles
     - **Size Category**: D
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Thassari is a world of vertical verdancy—great stone pillars covered in blooming terraces, cliffside forests, and high-altitude wetlands that shimmer with bioluminescent flora. Life grows wherever it can cling. Gliders, winged beasts, and climbing predators dominate the skies between plateaus. Waterfalls pour from root-choked heights, and rare plants used in vision-quests grow only on sun-drenched ledges. The tribes here are reclusive, graceful, and fiercely territorial.
 
@@ -64,21 +64,21 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 - **Planet Name**: Bellatoris Prime
     - **Distance**: 210 million miles
     - **Size Category**: I
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Bellatoris Prime is a vast metropolis-world, layered in stone and living architecture, where colossal cities rise from the bones of old forests and thundering arenas crown every major district. From horizon to horizon, the land is alive with color and motion—towering temples of war, coliseums that seat tens of thousands, training grounds carved into cliff-faces, and bustling markets overflowing with masterwork arms, ceremonial armor, and exotic beast-mounts. Each city-state is ruled by a dominant clan, its strength proven in ritual combat, and its prestige measured by the champions it produces. Verdant groves and sacred parks are cultivated within the cities, not as wilderness, but as places of trial and spiritual reckoning. The planet’s four moons—Goruun, Velsha, Tarn, and Mykael—govern the arena calendar and are watched closely for signs of fortune, challenge, or impending war. It is here that the greatest warriors of the sphere gather, where blood is spilled not in hate, but in glory.
 
 - **Planet Name**: Lupinal
     - **Distance**: 247 million miles
     - **Size Category**: G
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Lupinal is a temperate realm of evergreen forests, wind-carved hills, and twilight meadows. Verdancy is resilient here—concentrated in the deep woods and valley hollows where the light of Solarianus lingers longest. The wolf-tribes wander vast territories, guided by old trails and sacred clearings where spirit-beasts are said to appear beneath certain moons. Its flora is slow-growing, but deeply rooted, and the land favors endurance over speed.
 
 - **Planet Name**: Caerakos
     - **Distance**: 289 million miles
     - **Size Category**: F
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Caerakos is a high plain world of sparse grasslands, scattered thorn-forests, and flower-specked riverbeds. Verdant only during certain celestial alignments, it blooms violently after storms, then dries into sweeping ranges of brittle foliage and hardy brush. Clans here ride in great herds, following the lifebloom migrations. Trees are few, but every one is named and protected. Storms are considered divine heralds, and lightning scars are read like scripture.
 
@@ -87,21 +87,21 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 - **Planet Name**: Dravannar
     - **Distance**: 312 million miles
     - **Size Category**: F
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: A cold and cragged world, Dravannar is crowned with snow-dusted peaks and wide valleys of thin pine. Verdancy clings to the land in narrow bands: along hot springs, deep rifts, and geothermal fissures. The flora is dark and slow-growing, and the fauna heavy-coated and reclusive. The tribes here live by long memory and deep roots, carving their stories into stone and bark alike. Life is harder here—but those who endure it are forged in quiet strength.
 
 - **Planet Name**: Varunel
     - **Distance**: 355 million miles
     - **Size Category**: E
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: Verdancy in Varunel is twisted and thick, but sparse in coverage. Gnarled roots and darkleaf groves cluster in mist-choked basins and the ruins of fallen ziggurats. Swamps flicker with strange light, and the positive energy of Solarianus reaches here only in fragments. Life is still potent—but secretive, cautious, and shaped by shadow. The scaled tribes speak in riddles, and the beasts are ambush predators born from still water and deeper silence.
 
 - **Planet Name**: Urothis
     - **Distance**: 397 million miles
     - **Size Category**: F
-    - **Planet Type**: Terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: On Urothis, verdancy is a whisper—present in patches of tundra moss, ice-cracked trees, and strange subterranean fungi. The land sleeps more than it wakes. Groves grow in geothermal vaults, where ancient caretakers tend them with reverence. Most of the planet is barren or buried in snow, but its living spaces are sacred and fiercely protected. Prophets come here not for what grows, but for what lingers—echoes of life, visions born of silence, and truths older than any war.
 

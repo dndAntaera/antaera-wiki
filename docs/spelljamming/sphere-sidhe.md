@@ -56,7 +56,7 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tanâ€
 ## Goldilocks Zone (200â€“300 million miles)
 
 - **Planet Name**: Silvaevera
-    - **Distance**: 176 million miles
+    - **Distance**: 227 million miles
     - **Size Category**: D
     - **Planet Type**: Earth type
     - **Planet Shape**: Spherical

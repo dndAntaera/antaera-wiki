@@ -32,7 +32,7 @@ Astrologers and planetologists who have studied the sphere agree that life on it
 - Type of Sphere: Standard
 - Primary Body:
     - Name: Serenitas
-    - Type: Manifest Zone (Positive Energy Plane)
+    - Type: Fire Body (Manifest zone to the Positive Energy Plane)
 - Spelljamming Aware: Yes
 
 ## Inner Track (<200 million miles)
@@ -40,7 +40,7 @@ Astrologers and planetologists who have studied the sphere agree that life on it
 - **Planet Name**: Auræra
     - **Distance**: 134 million miles
     - **Size Category**: D
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: This planet is a golden-hued highland world of canyons, steppe plateaus, and violet-blooming wilds. Crystalline rivers cut through deep, echoing valleys where soft winds carry voices for miles. Temples are carved into cliff faces and oriented toward the star Serenitas, catching the auroral haze in their sanctums. Its single moon, Votari, is tidally locked and inscribed with massive spiral grooves—likely natural, though some believe them to be ancient planetary sigils.
 
@@ -49,14 +49,14 @@ Astrologers and planetologists who have studied the sphere agree that life on it
 - **Planet Name**: Pacemundi
     - **Distance**: 205 million miles
     - **Size Category**: F
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: The spiritual heart of the sphere, Pacemundi is a temperate and fertile world of forests, glades, and flowering plains. Pilgrims arrive here by spelljammer to walk the meditative spiral paths or to study in the mirrored halls of the Great Cloister. Two moons, Seren and Nivo, orbit in perfect resonance, creating subtle tides of ambient magic that ebb across the land at dawn and dusk, believed to help regulate emotion and memory.
 
 - **Planet Name**: Floravere
     - **Distance**: 233 million miles
     - **Size Category**: E
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: Floravere is a mist-shrouded planet of layered ridges and deep sink-vales. Massive canopies of softwood and iridescent flowering trees stretch unbroken across continents, broken only by shimmering quartz outcroppings and sunken grotto-pools. The Monastery of the Fifth Breath floats aloft within an atmospheric cradle above one such plateau, maintained by unseen gravitational harmonies. Local biota are unusually docile and cooperative with native settlements.
 
@@ -65,14 +65,14 @@ Astrologers and planetologists who have studied the sphere agree that life on it
 - **Planet Name**: Tessalis
     - **Distance**: 318 million miles
     - **Size Category**: E
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: Covered in pale-blue tundras and windless basins of frost-silt, Tessalis is the coldest of the five worlds. Despite this, certain lowland regions bloom in short, serene growing seasons. Stone-bloom groves form vast patterned rings across its plains, thought to reflect the shifting auroras overhead. There are no moons, but the planet’s atmosphere refracts Serenitas’s light in brilliant halo patterns during its long twilight hours.
 
 - **Planet Name**: Verdelux
     - **Distance**: 349 million miles
     - **Size Category**: E
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: Verdelux is a world of immense silence and softly rolling uplands, where forests of slow-growing silverbark trees rise from loam rich with bioluminescent mycelium. Towers of earth and overgrown stone mark the locations of abandoned monastic settlements, long since relocated nearer to the tranquil auroras in orbit. Suspended above the planet in a calm, gliding ring is the Forma Externum, the ancient Antæran star station and political seat of Paxæterna.
 

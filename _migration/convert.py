@@ -2617,7 +2617,149 @@ def sphere_layout(text):
             if sub.group(1) == "Composition":
                 line += "\n    - **Planet Shape**: Belt"
         out.append(line)
-    return text[:m.start()] + "\n".join(out) + text[m.end():]
+    card = sphere_distances(sphere_terms("\n".join(out)))
+    return text[:m.start()] + card + text[m.end():]
+
+
+# The names Astrology & Planetology gives a sphere's system, its primary, and
+# a body's type and shape. The spheres are held to that page's nomenclature;
+# what a sphere said beyond it is kept in brackets after the standard term,
+# "Earth type (Volcanic-Fungal)", the way the primaries already read
+# "Fire Body (Golden-white star)".
+SYSTEM_TYPES = ["Standard", "Fixed", "Random Movement", "Semi-Random",
+                "Single Planet", "Void", "Nested Spheres", "Stationary",
+                "Chaotic", "Debris Fields", "Opposing Revolutions"]
+SYSTEM_TERMS = {"standard system": "Standard", "star-based": "Standard",
+                "shattered": "Standard"}
+PRIMARY_TERMS = {
+    "Fire": "Fire Body",
+    "Sun (fire body)": "Fire Body",
+    "Gravity Well": "Air Body (Gravity Well)",
+    "Gravity Core": "Earth Body (Gravity Core)",
+    "Fossilized Skull": "Earth Body (Fossilized Skull)",
+    "Positive Energy Manifest Zone": "Fire Body (Manifest zone to the Positive Energy Plane)",
+    "Manifest Zone (Positive Energy Plane)": "Fire Body (Manifest zone to the Positive Energy Plane)",
+    "Positive Manifest (Manifest Zone to the Positive Energy Plane)":
+        "Fire Body (Manifest zone to the Positive Energy Plane)",
+}
+PRIMARY_TYPES = ("Fire Body", "Earth Body", "Air Body", "Water Body", "No Primary")
+PLANET_TYPES = ("Earth type", "Fire type", "Air type", "Water type", "Liveworld")
+PLANET_SHAPES = ("Amorphous", "Belt", "Cluster", "Spherical", "Cubic",
+                 "Flatworld", "Elliptical", "Regular", "Irregular")
+# A body's own word for its type that is only the element, said another way.
+TYPE_WORDS = {"earth": "Earth type", "terrestrial": "Earth type",
+              "fire": "Fire type", "water": "Water type", "air": "Air type",
+              "liveworld": "Liveworld"}
+# Inundatio's "Belt" is a belt of ice spilled from the Plane of Water.
+TYPE_TERMS = {"Thaloruun’s Spill": "Water type"}
+SHAPE_TERMS = {"fragmented": "Cluster", "shattered planetary debris": "Cluster",
+               "fragmented belt": "Belt", "oblate spheroid": "Elliptical",
+               "ellipsoid": "Elliptical", "hollow": "Spherical (Hollow)",
+               "hollow-core": "Spherical (Hollow)", "hollow-shell": "Spherical (Hollow)",
+               "ringed": "Spherical (Ringed)", "cracked spheroid": "Spherical (Cracked)",
+               "shardlike": "Irregular", "toroidal": "Regular (Toroidal)",
+               "ring": "Regular (Ring)"}
+
+
+def standard_term(value, terms):
+    """The standard term a value already is, or None."""
+    for term in terms:
+        if value == term or value.startswith(term + " ("):
+            return value
+        if value.lower() == term.lower():
+            return term
+    return None
+
+
+def sphere_terms(card):
+    """A Planetology & Astrology card in Astrology & Planetology's terms."""
+    def system(m):
+        v = m.group(2)
+        return m.group(1) + (standard_term(v, SYSTEM_TYPES) or SYSTEM_TERMS.get(v.lower(), v))
+
+    def primary(m):
+        v = PRIMARY_TERMS.get(m.group(2), m.group(2))
+        v = re.sub(r"^(\w+) body\b", lambda b: b.group(1).title() + " Body", v)
+        v = re.sub(r"\(manifest zone", "(Manifest zone", v)
+        return m.group(1) + v
+
+    card = re.sub(r"^(- Type of Sphere: )(.+)$", system, card, flags=re.M)
+    card = re.sub(r"^(    - Type: )(.+)$", primary, card, flags=re.M)
+
+    out = []
+    for body in re.split(r"(?=^- \*\*Planet Name\*\*:)", card, flags=re.M):
+        name = re.match(r"- \*\*Planet Name\*\*: (.+)", body)
+        if not name:
+            out.append(body)
+            continue
+        fields = dict(re.findall(r"^    - \*\*(.+?)\*\*: (.*)$", body, re.M))
+        kind = fields.get("Planet Type", "")
+        if not standard_term(kind, PLANET_TYPES):
+            kind = (TYPE_TERMS.get(name.group(1))
+                    or TYPE_WORDS.get(kind.lower())
+                    or "Earth type (%s)" % title_case(kind))
+        shape = fields.get("Planet Shape", "")
+        if not standard_term(shape, PLANET_SHAPES):
+            low = shape.lower()
+            if low == "fragmented" and "belt" in kind.lower():
+                low = "fragmented belt"
+            shape = SHAPE_TERMS.get(low, shape)
+        # A belt is sized as one, by its parts: the page's own Sol system
+        # gives the Asteroid Belt as Size A.
+        size = fields.get("Size Category", "")
+        if not re.fullmatch(r"[A-J]", size) and shape.startswith("Belt"):
+            size = "A"
+        distance = re.sub(r"(?i)million miles", "million miles", fields.get("Distance", ""))
+        new = {"Distance": distance, "Size Category": size,
+               "Planet Type": kind, "Planet Shape": shape}
+        lines = ["- **Planet Name**: " + name.group(1)]
+        for label in ("Distance", "Size Category", "Planet Type", "Planet Shape", "Other Notes"):
+            value = new.get(label, fields.get(label))
+            if value:
+                lines.append("    - **%s**: %s" % (label, value))
+        # What follows the body's own lines - a blank line, the next track's
+        # heading - is kept as it was.
+        own = re.match(r"- \*\*Planet Name\*\*:.*(?:\n    - .*)*", body).group(0)
+        out.append("\n".join(lines) + body[len(own):])
+    return "".join(out)
+
+
+def sphere_distances(card):
+    """Every body's distance inside the track it is listed in.
+
+    A body is placed in its track by what the sphere says of it, and its
+    distance follows: Malifortis listed Dis, Minauros and Phlegethos in its
+    Goldilocks Zone at 122 to 193 million miles. A distance outside its
+    track is spread evenly between its neighbours that are inside it, so the
+    bodies keep their order.
+    """
+    bounds = {"Inner": (0, 200), "Goldilocks": (200, 300), "Outer": (300, None)}
+    parts = re.split(r"(^## .*$)", card, flags=re.M)
+    for i in range(1, len(parts), 2):
+        lo, hi = bounds[parts[i].split()[1]]
+        found = list(re.finditer(r"^(    - \*\*Distance\*\*: )([\d,]+)( million miles)$",
+                                 parts[i + 1], re.M))
+        miles = [int(d.group(2).replace(",", "")) for d in found]
+        inside = [lo < x and (hi is None or x < hi) for x in miles]
+        new = list(miles)
+        j = 0
+        while j < len(miles):
+            if inside[j]:
+                j += 1
+                continue
+            k = j
+            while k < len(miles) and not inside[k]:
+                k += 1
+            start = miles[j - 1] if j else lo
+            end = miles[k] if k < len(miles) else (hi if hi else start + 100 * (k - j + 1))
+            for n in range(j, k):
+                new[n] = round(start + (end - start) * (n - j + 1) / (k - j + 1))
+            j = k
+        body = parts[i + 1]
+        for d, x in reversed(list(zip(found, new))):
+            body = body[:d.start(2)] + str(x) + body[d.end(2):]
+        parts[i + 1] = body
+    return "".join(parts)
 
 
 def sphere_ranks(text):

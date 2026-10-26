@@ -35,41 +35,41 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 - Type of Sphere: Debris Fields
 - Primary Body:
     - Name: Mnemonic
-    - Type: Fossilized Skull
+    - Type: Earth Body (Fossilized Skull)
 - Spelljamming Aware: Yes
 
 ## Inner Track (<200 million miles)
 
 - **Planet Name**: Mnemograv
-    - **Distance**: 40 Million Miles
+    - **Distance**: 40 million miles
     - **Size Category**: D
-    - **Planet Type**: Debris Field
-    - **Planet Shape**: Shattered Planetary Debris
+    - **Planet Type**: Earth type (Debris Field)
+    - **Planet Shape**: Cluster
     - **Other Notes**: Dense bands of splintered matter containing the ruins of meditative strongholds and psionic shrines. Among them drift aberrant predators that consume memory and identity. Echoes of thought still linger, causing hallucinations in unshielded minds.
 
 - **Planet Name**: Scriptura
-    - **Distance**: 110 Million Miles
+    - **Distance**: 110 million miles
     - **Size Category**: C
-    - **Planet Type**: Debris Field
-    - **Planet Shape**: Shattered Planetary Debris
+    - **Planet Type**: Earth type (Debris Field)
+    - **Planet Shape**: Cluster
     - **Other Notes**: A thick scattering of fractured platforms, monument stones, and skeletal towers. The remnants of a lost culture cling to the bones of their home. Aberrations nest deep within vault-cracks and hollows, preying on anything that approaches.
 
 ## Goldilocks Zone (200–300 million miles)
 
 - **Planet Name**: Voxpelagos
-    - **Distance**: 230 Million Miles
+    - **Distance**: 230 million miles
     - **Size Category**: E
-    - **Planet Type**: Debris Field
-    - **Planet Shape**: Shattered Planetary Debris
+    - **Planet Type**: Earth type (Debris Field)
+    - **Planet Shape**: Cluster
     - **Other Notes**: Wreckage of orbital cities and collapsed surface colonies suspended in a tangled grave of alloyed hulls and bone. The debris is riddled with dormant constructs and monstrous impostors that mimic old signals and cries for help.
 
 ## Outer Track (>300 million miles)
 
 - **Planet Name**: Ossilentia
-    - **Distance**: 460 Million Miles
+    - **Distance**: 460 million miles
     - **Size Category**: H
-    - **Planet Type**: Debris Field
-    - **Planet Shape**: Shattered Planetary Debris
+    - **Planet Type**: Earth type (Debris Field)
+    - **Planet Shape**: Cluster
     - **Other Notes**: Monumental bones drift through the remains of empire-scale ruins—collapsed palaces, crumbled idols, and fractured colonnades. Aberrations of enormous scale move silently between the wrecks, dwelling in ancient sites the monks no longer claim.
 
 </div>

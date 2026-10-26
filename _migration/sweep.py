@@ -576,6 +576,38 @@ def main():
                 bad.append("%s  %s" % (f, line[:40]))
     check("every sphere follows the sphere template", bad)
 
+    # A sphere is described in Astrology & Planetology's terms, and each body
+    # sits inside the track it is listed in.
+    bad = []
+    bounds = {"Inner": (0, 200), "Goldilocks": (200, 300), "Outer": (300, 10 ** 6)}
+    terms = [(r"^- Type of Sphere: (.+)$", convert.SYSTEM_TYPES),
+             (r"^    - Type: (.+)$", convert.PRIMARY_TYPES),
+             (r"^    - \*\*Planet Type\*\*: (.+)$", convert.PLANET_TYPES),
+             (r"^    - \*\*Planet Shape\*\*: (.+)$", convert.PLANET_SHAPES)]
+    for f, t in pages.items():
+        if "spelljamming/sphere-" not in f:
+            continue
+        card = re.search(r"^# Planetology & Astrology\n(.*?)^</div>", t, re.M | re.S)
+        card = card.group(1) if card else ""
+        for pattern, allowed in terms:
+            for v in re.findall(pattern, card, re.M):
+                if not convert.standard_term(v, allowed):
+                    bad.append("%s  %s" % (f, v[:50]))
+        for v in re.findall(r"^    - \*\*Size Category\*\*: (.+)$", card, re.M):
+            if not re.fullmatch(r"[A-J]", v):
+                bad.append("%s  size %s" % (f, v))
+        track = None
+        for line in card.split("\n"):
+            m = re.match(r"^## (\w+)", line)
+            if m:
+                track = bounds.get(m.group(1))
+            m = re.match(r"^    - \*\*Distance\*\*: ([\d,]+) million miles$", line)
+            if m and track:
+                x = int(m.group(1).replace(",", ""))
+                if not track[0] < x < track[1]:
+                    bad.append("%s  %s million miles is outside its track" % (f, x))
+    check("spheres use Astrology & Planetology's terms, bodies sit in their tracks", bad)
+
     # A page written for the wiki keeps everything it was written with. The
     # formatter reads a god's page into sections and writes it back out, and a
     # paragraph it misreads is dropped rather than kept: Alpha and Ornus lost

@@ -31,7 +31,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 # Planetology & Astrology
 
-- Type of Sphere: Shattered
+- Type of Sphere: Standard
 - Primary Body:
     - Name: Emberheart
     - Type: Fire Body (Collapsed Star Remnant)
@@ -41,7 +41,7 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 - **Planet Name**: Austerion
     - **Distance**: 94 million miles
     - **Size Category**: F
-    - **Planet Type**: Tomb World
+    - **Planet Type**: Earth type (Tomb World)
     - **Planet Shape**: Spherical
     - **Other Notes**: Austerion is a scorched, gray-brown world pocked with vast, sunken necropolises and deep impact craters. Once a holy planet, its surface is now covered in cracked statues, shattered temples, and sunbaked bones. The surface is populated entirely by undead citizens, remnants of its ancient civilization, animated and ruled by a cabal of necromancers. These deathlords worship Helus, the God of Death, and draw divine magic from him despite his silence. They serve as neutral arbiters and powerbrokers, hosting black markets and mediating pirate disputes in exchange for offerings and tribute. Austerion has one small moon, Cinderfell, a jagged red-gray sphere used as a weapons depot and vault complex, riddled with hangars and excavation pits.
 
@@ -50,8 +50,8 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 - **Planet Name**: Collar of Helus
     - **Distance**: 211 million miles
     - **Size Category**: H
-    - **Planet Type**: Asteroid Belt
-    - **Planet Shape**: Fragmented
+    - **Planet Type**: Earth type (Asteroid Belt)
+    - **Planet Shape**: Belt
     - **Other Notes**: The Collar of Helus is a vast, drifting field of shattered divine debris and planetary ruin. It contains the broken bones of ancient deities, crystalline sarcophagi, severed wings, and fossilized remnants of astral titans. Interspersed among these ruins are pirate fortresses and mercenary dens—constructed from wreckage or carved directly into godbone. The Githyanki are the dominant force here, using the belt as a hidden base for their raids across other spheres. Their strongholds are mobile or shrouded, and most are surrounded by captured ships and salvaged spelljammers. Life here is dangerous but profitable, and all know to honor the truce enforced by Austerion's necromancers.
 
 ## Outer Track (>300 million miles)

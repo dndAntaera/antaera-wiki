@@ -32,7 +32,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 - Type of Sphere: Standard
 - Primary Body:
     - Name: Veritas Dei
-    - Type: Positive Manifest (Manifest Zone to the Positive Energy Plane)
+    - Type: Fire Body (Manifest zone to the Positive Energy Plane)
 - Spelljamming Aware: Yes
 
 ## Inner Track (<200 million miles)
@@ -40,7 +40,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 - **Planet Name**: Purgantis
     - **Distance**: 47 million miles
     - **Size Category**: D
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: Purgantis is the most fertile world in the sphere, its landscapes overtaken by living sanctuaries of holy overgrowth. Towering trees bloom with petals that shimmer faintly in the dark, and vines coil around the remnants of temples half-swallowed by nature. Angelic stewards walk the wilds barefoot, reciting prayers to maintain harmony between the sacred wild and the soul. Spelljammers are guided only along preordained ley corridors. The moon, Fidelis, serves as a contemplative retreat where silence is enforced by divine writ, and even thoughts seem to echo too loudly.
 
@@ -49,15 +49,15 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 - **Planet Name**: Iusticar
     - **Distance**: 262 million miles
     - **Size Category**: G
-    - **Planet Type**: terrestrial
+    - **Planet Type**: Earth type
     - **Planet Shape**: spherical
     - **Other Notes**: Iusticar is a planet of order manifest, a world where nature is permitted only in cultivated forms—fruiting trees aligned by liturgical geometry, rivers that curve by chartered design, and winds that change direction according to holy calendar. Cities of glass and alabaster rise in layers from continent-wide boulevards, and every citizen lives beneath the unblinking gaze of the Seraphim Tribunal. Visiting ships are docked at skyward sanctums where every piece of cargo is blessed, cataloged, and sanctified. The moon, Legatus, is seen only during periods of high justice and is said to carry the weight of judgment in its shadow.
 
 - **Planet Name**: Caelatium
     - **Distance**: 293 million miles
     - **Size Category**: F
-    - **Planet Type**: terrestrial
-    - **Planet Shape**: toroidal
+    - **Planet Type**: Earth type
+    - **Planet Shape**: Regular (Toroidal)
     - **Other Notes**: Caelatium forms a luminous ring-world of cool meadows, misted forests, and quiet sanctuaries sculpted into the cliffs. Now nourished by the outer flow of Veritas Dei’s radiance, its groves bloom with pale blossoms and silver moss. Pilgrims ascend through silence rather than sermon, seeking stillness of spirit amid the breath of wind and leaf. The twin moons, Alpha and Omega, appear in perfect alternation, marking rites of beginning and end across every breath of worship.
 
 </div>

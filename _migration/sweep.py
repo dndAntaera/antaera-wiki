@@ -558,7 +558,7 @@ def main():
     cards = ["Overview", "Planetology & Astrology", "Recognized Pantheon"]
     fields = set(convert.BODY_FIELDS.values())
     for f, t in pages.items():
-        if not re.match(r"spelljamming/sphere-", f):
+        if "spelljamming/sphere-" not in f:
             continue
         heads = re.findall(r"^# (.+)$", t, re.M)
         if [h for h in heads if h in cards] != cards:

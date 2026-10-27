@@ -71,6 +71,16 @@ REWORDED = {
     "59e1938": "Ukrol's page rewritten, and Alpha's and Ornus's Dogma restored",
 }
 
+# A page's change as the announcement should give it, where the words read
+# from the diff said it badly. Keyed by the change as it was read, so a
+# correction holds in whichever announcement the change lands in.
+REDESCRIBED = {
+    # The line itself said too much; that it went is enough.
+    "removed “Two derelict spheres are known but are not recognized as part of the Known Spheres: "
+    "the Graveyard of the Gods and Forgehome” from The Setting At Large":
+        "removed a line from the main page",
+}
+
 # An announcement takes edits for the rest of the day it went up, by the clock
 # in the eastern United States (EST, or EDT in summer). The first change after
 # midnight there starts a new one.
@@ -1042,7 +1052,7 @@ def _changes(change):
         items = [describe_move(c.old)]
         if readable(c.before) != readable(c.after):
             items += describe_edit(c)
-    return [_item(i) for i in items]
+    return [_item(REDESCRIBED.get(i, i)) for i in items]
 
 
 def _entry(line, items):

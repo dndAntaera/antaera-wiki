@@ -30,10 +30,12 @@ Drifting past the Belt, tangled in the orbit of a shattered moon, lies the Red V
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Sahr’kanaar
     - Type: Fire Body
 - Spelljamming Aware: Yes
+- Crystal Shell: 1,180 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

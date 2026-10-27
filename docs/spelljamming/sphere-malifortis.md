@@ -32,10 +32,12 @@ For centuries, Malifortis has endured a relentless holy war declared by crusader
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Vultazarr
     - Type: Fire Body (Manifest zone to the Elemental Plane of Fire)
 - Spelljamming Aware: Yes
+- Crystal Shell: 996 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

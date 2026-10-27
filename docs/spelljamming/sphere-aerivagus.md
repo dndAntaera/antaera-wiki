@@ -32,10 +32,12 @@ Long ago, before the winds screamed, the Antærans seeded the sphere with a reli
 # Planetology & Astrology
 
 - Type of Sphere: Chaotic
+- Planetary Motion: Random movement within the sphere
 - Primary Body:
     - Name: Cyclone Gate
     - Type: Air Body (Gravity Well)
 - Spelljamming Aware: Yes
+- Crystal Shell: 838 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

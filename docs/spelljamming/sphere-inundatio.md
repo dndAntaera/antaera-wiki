@@ -32,10 +32,12 @@ Far beyond the ecliptic drifts the Cloister of Silent Echoes, a ruined monastery
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Nai’trael
     - Type: Fire Body (Pale, Luminous Star)
 - Spelljamming Aware: Yes
+- Crystal Shell: 840 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

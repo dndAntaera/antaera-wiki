@@ -6,8 +6,8 @@ its constellation or under Derelict Spheres.
 
 - Cards, in order: Overview, Planetology & Astrology, Recognized Pantheon.
   A sphere may carry more cards after these (a map, a calendar).
-- The three tracks are always given, in order. A track with no bodies says
-  "- None".
+- The tracks are given in order. A track with no bodies is left with no
+  entries under it.
 - Each body gives the same six fields, in this order, with the labels bold.
 - Terms are the ones Astrology & Planetology uses; anything more specific
   goes in brackets after the term, as "Earth type (Tomb World)".
@@ -19,8 +19,10 @@ its constellation or under Derelict Spheres.
     - Planet Type: Earth type, Fire type, Air type, Water type or Liveworld.
     - Planet Shape: Amorphous, Belt, Cluster, Spherical, Cubic, Flatworld,
       Elliptical, Regular or Irregular.
-- Planetary Motion and Crystal Shell are given when they are known. The
-  shell lies twice as far from the primary as the outermost body.
+- The summary gives Type of Sphere, Planetary Motion, Primary Body (Name
+  and Type), Spelljamming Aware and Crystal Shell, in that order. Planets
+  move clockwise unless the sphere says otherwise. The shell lies twice as
+  far from the primary as the outermost body.
 - A body's distance may carry a note in brackets after it, as
   "40 million miles (ring 2)".
 - A body's distance falls inside its track. If a body belongs in a track its

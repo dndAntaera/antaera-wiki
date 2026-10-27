@@ -32,10 +32,12 @@ And drifting beyond it all, wrapped in silence too deep for breath, is the Tanâ€
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Solaniel
     - Type: Fire Body
 - Spelljamming Aware: No
+- Crystal Shell: 960 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

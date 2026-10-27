@@ -32,10 +32,12 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Solion
     - Type: Fire Body (Golden-white star)
 - Spelljamming Aware: Yes
+- Crystal Shell: 880 million miles from the primary
 
 ## Inner Track (<200 million miles)
 
@@ -43,7 +45,7 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
     - **Distance**: 94 million miles
     - **Size Category**: C
     - **Planet Type**: Earth type (Scorched)
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Praesium is a blinding world of radiant stone and heat-shattered terrain. Its surface is constantly reshaped by solar flares and intense winds that scour the land to bare obsidian. The Vitara Consortium operates sunmetal crucibles and lens-towers across the surface, extracting volatile minerals only accessible under extreme heat. There are no natural cities—only guild-built bunkers sunken deep beneath the crust, where crews rotate in and out through shielded teleport anchors. Entry is tightly controlled, with unauthorized spelljammers repelled by automated flare-lances positioned in high orbit. One moon, Khastrin, serves as the Consortium’s primary legal and administrative headquarters. Its barren surface hides a sprawling network of underground offices, conference vaults, archive catacombs, and corporate suites. Most business on Praesium is decided on Khastrin, where contracts are sealed far from the noise and glare of the surface.
 
 - **Planet Name**: Ferrux
@@ -59,7 +61,7 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
     - **Distance**: 210 million miles
     - **Size Category**: I
     - **Planet Type**: Earth type (Temperate)
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Virellia is a colossal, culture-rich world and the crown jewel of Gallamarketh. Vast metropoles sprawl across its surface, punctuated by floating arcades, crystalline towers, and impossibly vast markets where every known currency holds sway. The divine edict woven into its foundation prevents all acts of violence, making it the most secure commercial hub among the Known Spheres. Representatives from every plane and sphere do business here under the sacred neutrality of the Accord of Solion. Celestials, fiends, genies, mortals, and stranger beings trade under the same sun, watched by silent judicial constructs. Virellia has three moons: Saphae, Demeran, and Hollis, each hosting consulates, auction houses, and overflow trading grounds.
 
 - **Planet Name**: The Collar
@@ -75,7 +77,7 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
     - **Distance**: 340 million miles
     - **Size Category**: D
     - **Planet Type**: Earth type (Cold Steppe)
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Kalandrix is a frigid, windswept planet of silver plains and frozen cliffs. Its terrain consists of long stretches of frost-coated grasslands broken by icy mesas and snow-filled crevasses. The surface is sparsely inhabited, except for isolated research facilities and knowledge archives maintained by the Ledger Triune. These institutes are shielded by enchantments and heated by planar vents. Kalandrix is known for being a planet of secrecy and record, where paper holds more value than gold. One artificial moon, Tallyn, orbits in a slow circuit, acting as an intake and filtration hub for visitors and classified freight.
 
 - **Planet Name**: Molgurra
@@ -89,7 +91,7 @@ At the heart of the sphere, the prime planet is held beneath a sacred pact, a di
     - **Distance**: 440 million miles
     - **Size Category**: F
     - **Planet Type**: Earth type (Glacial)
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Nexura is a world locked in unyielding frost. Its surface is covered by an endless shell of ice, beneath which lie cryptic vaults, sealed tunnels, and secrets deemed too dangerous for public knowledge. Run by the Spiral Vault, the planet remains veiled in illusion and guarded by constructs that patrol tirelessly through the snow. Nothing leaves Nexura without clearance from the Vault, and most that enter are never seen again. Surveillance is constant, and rumor speaks of entire memories wiped from those who breach containment. Two frozen moons, Frostel and Greyne, drift in its shadow, bearing no visible life or structure.
 
 </div>

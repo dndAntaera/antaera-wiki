@@ -16,7 +16,7 @@ title: "New Haven Imperium"
 
 The New Haven Imperium, known colloquially as the Imperium, is a human empire that rules the greater part of the eastern continent of Antæra from its capital at [New Haven](../settlement/imperial-capital-of-new-haven.md) on the [Antæran Plains](../region/antaeran-plains.md). It is governed by the Imperial family under the emperor Nicolaus Poplicola IX and holds that humanity is the apex of the mortal races, a doctrine it carries into every land it takes. The Imperium is militaristic, slaveholding, and xenophobic, and the humans of the [Known Spheres](../spelljamming/known-spheres.md) who live outside its borders regard it as the chapter of their history they would rather be rid of. [Imperial](../languages.md#imperial) is its language, and the inhabitants of every territory it conquers are made to learn it.
 
-The Imperium is no longer confined to one world. The colony fleet [Ukrol](../deity/ukrol.md) took into wildspace conquered a crystal sphere outside the Known Spheres, which the Imperium now claims as its capital, and reports from turncoats and captured soldiers describe the same tyranny and slavery on those worlds as on the Plains. Its deity Ukrol has issued a divine mandate for conquest, and the Imperium's attack on a [Gallamarketh](../spelljamming/sphere-gallamarketh.md) colony ship opened a holy war between it and the Known Spheres at large. Among the charges laid against it, the Imperium has broken the prohibition on gunpowder [firearms](../item/firearms.md) and is actively developing them.
+The Imperium is no longer confined to one world. The colony fleet [Ukrol](../deity/ukrol.md) took into wildspace conquered a crystal sphere outside the Known Spheres, [Concordia](../spelljamming/sphere-concordia.md), which the Imperium now claims as its capital, and reports from turncoats and captured soldiers describe the same tyranny and slavery on those worlds as on the Plains. Its deity Ukrol has issued a divine mandate for conquest, and the Imperium's attack on a [Gallamarketh](../spelljamming/sphere-gallamarketh.md) colony ship opened a holy war between it and the Known Spheres at large. Among the charges laid against it, the Imperium has broken the prohibition on gunpowder [firearms](../item/firearms.md) and is actively developing them.
 
 </div>
 </div>
@@ -58,6 +58,15 @@ A slave in the Imperium is freed only when their owner dies with no next of kin.
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
+# Life in Concordia
+
+The Imperium presents Concordia, its capital sphere, as the proof of its doctrine. Every citizen is housed, fed, schooled, and employed. None of the citizenry is poor, because the idle are conscripted, and criminality is almost nonexistent, because the convicted are enslaved and cease to be citizens. The cities are laid out in a grid design to instill an orderly and disciplined mindset in their citizens. Their walls and homes were built by the very slaves whose homes were demolished to build them. The Imperium holds that Concordia is what every sphere would be under competent rule, and it says so to every envoy it receives.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
 # The Imperial Legion
 
 The Imperium's military is considered one of the most skilled and brutal on the continent. The Imperatoria Militaris is officered by graduates of the New Haven College of War, the most prestigious military academy in the land, which draws students from across Antæra. Humans are nearly always admitted; anyone else requires a referral. A student on a military scholarship owes the Imperium four years of service on graduation, and most who graduate either take a commission or leave to become adventurers.
@@ -69,11 +78,29 @@ Outside the capital, the Imperium has replaced most of the militaries of its con
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
+# Firearms
+
+The Imperium manufactures gunpowder firearms in open defiance of the prohibition observed across the Known Spheres. The powder works are kept on Officina, the manufacturing world of Concordia, far enough from the capital that an accident there reaches nothing the Imperium values. The Imperium considers the prohibition a weakness of the spheres that keep it, and the firearms it fields are among the charges the Known Spheres lay against it.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
 # Faith
 
 In the kingdom on Antæra, state worship is mandated to Superbia, who holds the civic calendar and the rites every citizen attends. The religious center of the kingdom is within the Citadel at New Haven, and it is believed to be dedicated to Superbia as well, though it is rumored to belong to Ukrol. The barrier around the Citadel that repels non-humans is held by scholars outside the Imperium to be a misuse of a Mythal, and the question is a standing subject of international dispute. Those who accuse the Imperium of it openly tend to die of natural causes within a few weeks.
 
 Across the stars, the Imperium worships Ukrol openly. The Imperium holds that Ukrol guides it in its conquests. He does not guide every conquest, but he blesses those that are carried out in his name, and a campaign that is begun with his rites is held to carry his favor. The Imperium's deities together form the [Imperial Pantheon](../pantheons.md#the-imperial-pantheon), whose members ascended from the Imperium's own leaders and folk heroes through the weight of human worship. The pantheon is worshipped solely by humans, and a non-human who takes up its worship receives nothing from it. It is commonly held across the continent that the Imperium is the remnant of the Cult of Ukrol.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Diplomacy
+
+The Imperium regards the Known Spheres' refusal to recognize Concordia as an insult and intends to correct it. It does not permit outsiders to settle in the sphere. Those admitted on diplomatic passage are escorted from the shell to the capital and back along a single approved course, and are shown a scripted facade designed to present the sphere as a peaceful and prosperous place, and not the imperial dictatorship that it is.
 
 </div>
 </div>

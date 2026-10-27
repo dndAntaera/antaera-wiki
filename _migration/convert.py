@@ -213,6 +213,9 @@ EDITS = {
         # which has a page of its own and is named across the wiki.
         ("# Factions", "## N {: .wd-empty }\n## O {: .wd-empty }",
          "## N\n\n- [New Haven Imperium](nation/new-haven-imperium.md)\n## O {: .wd-empty }"),
+        # Concordia, the Imperium's capital sphere, beside the factions.
+        ("# Factions", "- [Collegiate Oculatus](faction/collegiate-oculatus.md)\n",
+         "- [Collegiate Oculatus](faction/collegiate-oculatus.md)\n- [Concordia](spelljamming/sphere-concordia.md)\n"),
         # The index lists the variant rules in effect from A to Z, and Gestalt,
         # which the houserules above it lean on twice, was not among them. The
         # section has to be named: The Index runs the alphabet four times over,
@@ -2573,7 +2576,7 @@ TRACKS = {"Inner Track": "Inner Track (<200 million miles)",
           "Outer Track": "Outer Track (>300 million miles)"}
 
 
-def sphere_layout(text):
+def sphere_layout(text, slug=""):
     """A sphere's Planetology & Astrology card, laid out as the template has it.
 
     Only the layout changes, never what a field says: the card takes its one
@@ -2622,7 +2625,7 @@ def sphere_layout(text):
             if sub.group(1) == "Composition":
                 line += "\n    - **Planet Shape**: Belt"
         out.append(line)
-    card = sphere_distances(sphere_terms("\n".join(out)))
+    card = sphere_summary(sphere_distances(sphere_terms("\n".join(out))), slug)
     return text[:m.start()] + card + text[m.end():]
 
 
@@ -2704,7 +2707,9 @@ def sphere_terms(card):
                     or TYPE_WORDS.get(kind.lower())
                     or "Earth type (%s)" % title_case(kind))
         shape = fields.get("Planet Shape", "")
-        if not standard_term(shape, PLANET_SHAPES):
+        if standard_term(shape, PLANET_SHAPES):
+            shape = standard_term(shape, PLANET_SHAPES)
+        else:
             low = shape.lower()
             if low == "fragmented" and "belt" in kind.lower():
                 low = "fragmented belt"
@@ -2712,7 +2717,7 @@ def sphere_terms(card):
         # A belt is sized as one, by its parts: the page's own Sol system
         # gives the Asteroid Belt as Size A.
         size = fields.get("Size Category", "")
-        if not re.fullmatch(r"[A-J]", size) and shape.startswith("Belt"):
+        if shape.startswith("Belt"):
             size = "A"
         distance = re.sub(r"(?i)million miles", "million miles", fields.get("Distance", ""))
         new = {"Distance": distance, "Size Category": size,
@@ -2765,6 +2770,47 @@ def sphere_distances(card):
             body = body[:d.start(2)] + str(x) + body[d.end(2):]
         parts[i + 1] = body
     return "".join(parts)
+
+
+# What a sphere's summary gives beyond its system, primary and awareness: how
+# its planets move, and where its crystal shell lies. Planets move clockwise
+# unless the sphere says otherwise.
+SPHERE_MOTION = {"sphere-aerivagus": "Random movement within the sphere"}
+# Spheres that didn't say whether they know of spelljamming.
+SPHERE_AWARE = {"sphere-bellatoris": "Yes", "sphere-graveyard-of-the-gods": "Yes"}
+# Distances set by hand. Antæra put Norys and Serathos in the same orbit.
+SPHERE_DISTANCES = {("sphere-antaera", "Serathos"): 332}
+
+
+def sphere_summary(card, slug):
+    """The card's summary lines complete, in the template's order.
+
+    Planetary Motion follows Type of Sphere, and Crystal Shell follows
+    Spelljamming Aware. The shell lies twice as far out as the outermost
+    body, as Astrology & Planetology has it. A track with no bodies is left
+    empty rather than saying "None".
+    """
+    for (page, name), miles in SPHERE_DISTANCES.items():
+        if page == slug:
+            card = re.sub(r"(^- \*\*Planet Name\*\*: %s\n    - \*\*Distance\*\*: )[\d,]+" % re.escape(name),
+                          lambda d: d.group(1) + "{:,}".format(miles), card, flags=re.M)
+    card = re.sub(r"^- None\n\n?", "", card, flags=re.M)
+    if "\n- Planetary Motion:" not in card:
+        card = re.sub(r"^(- Type of Sphere: .*)$",
+                      lambda t: t.group(1) + "\n- Planetary Motion: "
+                      + SPHERE_MOTION.get(slug, "All planets move clockwise in orbit"),
+                      card, count=1, flags=re.M)
+    if "\n- Spelljamming Aware:" not in card and slug in SPHERE_AWARE:
+        card = re.sub(r"^(- Primary Body:.*(?:\n    - .*)*)",
+                      lambda b: b.group(1) + "\n- Spelljamming Aware: " + SPHERE_AWARE[slug],
+                      card, count=1, flags=re.M)
+    miles = [int(d.replace(",", "")) for d in
+             re.findall(r"^    - \*\*Distance\*\*: ([\d,]+) million miles", card, re.M)]
+    if "\n- Crystal Shell:" not in card and miles:
+        card = re.sub(r"^(- Spelljamming Aware: .*)$",
+                      lambda a: a.group(1) + "\n- Crystal Shell: {:,} million miles from the primary".format(2 * max(miles)),
+                      card, count=1, flags=re.M)
+    return card
 
 
 def sphere_ranks(text):
@@ -2865,7 +2911,7 @@ def finish_site():
             path = os.path.join(sdir, name)
             with open(path, encoding="utf-8") as fh:
                 text = fh.read()
-            new = favor_pantheon(sphere_ranks(sphere_layout(text)), gods)
+            new = favor_pantheon(sphere_ranks(sphere_layout(text, name[:-3])), gods)
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
                     fh.write(new)

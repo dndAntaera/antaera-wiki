@@ -32,9 +32,12 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Emberheart
     - Type: Fire Body (Collapsed Star Remnant)
+- Spelljamming Aware: Yes
+- Crystal Shell: 422 million miles from the primary
 
 ## Inner Track (<200 million miles)
 
@@ -49,14 +52,12 @@ The shell of the crystal sphere has been shattered wide open, and phlogiston has
 
 - **Planet Name**: Collar of Helus
     - **Distance**: 211 million miles
-    - **Size Category**: H
+    - **Size Category**: A
     - **Planet Type**: Earth type (Asteroid Belt)
     - **Planet Shape**: Belt
     - **Other Notes**: The Collar of Helus is a vast, drifting field of shattered divine debris and planetary ruin. It contains the broken bones of ancient deities, crystalline sarcophagi, severed wings, and fossilized remnants of astral titans. Interspersed among these ruins are pirate fortresses and mercenary dens—constructed from wreckage or carved directly into godbone. The Githyanki are the dominant force here, using the belt as a hidden base for their raids across other spheres. Their strongholds are mobile or shrouded, and most are surrounded by captured ships and salvaged spelljammers. Life here is dangerous but profitable, and all know to honor the truce enforced by Austerion's necromancers.
 
 ## Outer Track (>300 million miles)
-
-- None
 
 </div>
 </div>

@@ -32,10 +32,12 @@ The outermost planetoid is actually an Ancient Antæran Forge of War. Probatio i
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Follis
     - Type: Fire Body (Manifest zone to the Elemental Plane of Fire)
 - Spelljamming Aware: Yes
+- Crystal Shell: 940 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

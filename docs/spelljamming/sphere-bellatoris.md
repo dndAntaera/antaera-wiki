@@ -32,9 +32,12 @@ One of the most feared and fabled places in the sphere is the battlefield-ring k
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Solarianus
     - Type: Fire Body (Manifest zone to the Positive Energy Plane)
+- Spelljamming Aware: Yes
+- Crystal Shell: 794 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

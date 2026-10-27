@@ -574,6 +574,17 @@ def main():
             if re.match(r"^- (?!\*\*Planet Name\*\*:|Type of Sphere:|Primary Body:"
                         r"|Planetary Motion:|Spelljamming Aware:|Crystal Shell:|None$)", line):
                 bad.append("%s  %s" % (f, line[:40]))
+        summary = re.findall(r"^- (Type of Sphere|Planetary Motion|Primary Body|Spelljamming Aware"
+                             r"|Crystal Shell):", card.group(1) if card else "", re.M)
+        if summary != ["Type of Sphere", "Planetary Motion", "Primary Body",
+                       "Spelljamming Aware", "Crystal Shell"]:
+            bad.append("%s  summary lines: %s" % (f, ", ".join(summary)))
+        # The shell lies twice as far out as the outermost body.
+        shell = re.search(r"^- Crystal Shell: ([\d,]+) million miles", t, re.M)
+        miles = [int(x.replace(",", "")) for x in
+                 re.findall(r"^    - \*\*Distance\*\*: ([\d,]+) million miles", t, re.M)]
+        if shell and miles and int(shell.group(1).replace(",", "")) != 2 * max(miles):
+            bad.append("%s  crystal shell is not twice %s million miles" % (f, max(miles)))
     check("every sphere follows the sphere template", bad)
 
     # A sphere is described in Astrology & Planetology's terms, and each body

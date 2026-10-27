@@ -32,10 +32,12 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Solion
     - Type: Fire Body (Golden-white star)
 - Spelljamming Aware: No
+- Crystal Shell: 778 million miles from the primary
 
 ## Inner Track (<200 million miles)
 
@@ -79,7 +81,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
     - **Other Notes**: Norys is a harsh, wind-scoured tundra world cloaked in snow and mist. Its landscape is dominated by towering plateaus—some miles wide—that rise like titanic steps through the clouds. The surface is locked in a permanent winter, with biting winds and near-constant snowfall. On the worst days, razor-sharp freezing rain scours the land, slicing through hide, cloth, and steel alike, and layering the terrain in brittle ice. Travel between regions is treacherous, as sudden blizzards and icefalls can bury landmarks within minutes. The silence between storms is absolute, broken only by the distant crack of ice or the howl of something moving where nothing should be.
 
 - **Planet Name**: Serathos
-    - **Distance**: 312 million miles
+    - **Distance**: 332 million miles
     - **Size Category**: D
     - **Planet Type**: Water type
     - **Planet Shape**: Spherical

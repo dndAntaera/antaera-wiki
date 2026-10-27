@@ -33,10 +33,12 @@ Among travelers and archivists, a superstition persists: that the aberrations we
 # Planetology & Astrology
 
 - Type of Sphere: Debris Fields
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Mnemonic
     - Type: Earth Body (Fossilized Skull)
 - Spelljamming Aware: Yes
+- Crystal Shell: 920 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

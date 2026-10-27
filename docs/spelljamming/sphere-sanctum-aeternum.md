@@ -30,10 +30,12 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Veritas Dei
     - Type: Fire Body (Manifest zone to the Positive Energy Plane)
 - Spelljamming Aware: Yes
+- Crystal Shell: 586 million miles from the primary
 
 ## Inner Track (<200 million miles)
 
@@ -41,7 +43,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
     - **Distance**: 47 million miles
     - **Size Category**: D
     - **Planet Type**: Earth type
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Purgantis is the most fertile world in the sphere, its landscapes overtaken by living sanctuaries of holy overgrowth. Towering trees bloom with petals that shimmer faintly in the dark, and vines coil around the remnants of temples half-swallowed by nature. Angelic stewards walk the wilds barefoot, reciting prayers to maintain harmony between the sacred wild and the soul. Spelljammers are guided only along preordained ley corridors. The moon, Fidelis, serves as a contemplative retreat where silence is enforced by divine writ, and even thoughts seem to echo too loudly.
 
 ## Goldilocks Zone (200–300 million miles)
@@ -50,7 +52,7 @@ Far below Iusticar, beyond its law-choked sky, lies a forgotten reliquary—its 
     - **Distance**: 262 million miles
     - **Size Category**: G
     - **Planet Type**: Earth type
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Iusticar is a planet of order manifest, a world where nature is permitted only in cultivated forms—fruiting trees aligned by liturgical geometry, rivers that curve by chartered design, and winds that change direction according to holy calendar. Cities of glass and alabaster rise in layers from continent-wide boulevards, and every citizen lives beneath the unblinking gaze of the Seraphim Tribunal. Visiting ships are docked at skyward sanctums where every piece of cargo is blessed, cataloged, and sanctified. The moon, Legatus, is seen only during periods of high justice and is said to carry the weight of judgment in its shadow.
 
 - **Planet Name**: Caelatium

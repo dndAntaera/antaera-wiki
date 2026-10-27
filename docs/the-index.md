@@ -580,6 +580,7 @@ White Raven Tactics: Cannot affect the user
 ## C
 
 - [Collegiate Oculatus](faction/collegiate-oculatus.md)
+- [Concordia](spelljamming/sphere-concordia.md)
 ## D {: .wd-empty }
 ## E {: .wd-empty }
 ## F {: .wd-empty }

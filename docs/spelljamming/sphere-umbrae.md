@@ -30,10 +30,12 @@ Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Umbra’thuun
     - Type: Fire Body
 - Spelljamming Aware: No
+- Crystal Shell: 820 million miles from the primary
 
 ## Inner Track (<200 million miles)
 
@@ -85,7 +87,7 @@ Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy
 
 - **Planet Name**: Umbryceon
     - **Distance**: 410 million miles
-    - **Size Category**: B
+    - **Size Category**: A
     - **Planet Type**: Earth type
     - **Planet Shape**: Belt
     - **Other Notes**: A scattered field of floating crystals, Umbryceon is composed entirely of Negative Energy Crystals suspended near the edge of the planetary track like a fractured celestial boundary. These jagged, black-violet shards are believed to be the solidified remnants of latent negative energy that saturates the sphere. Scholars theorize that their formation results from the vast number of manifest zones leading to the Negative Energy Plane throughout Umbrae. Ships that pass too close have reported soul-sapping cold and flickering shadows moving independently of any source.

@@ -28,10 +28,12 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Umbravore
     - Type: Earth Body (Gravity Core)
 - Spelljamming Aware: No
+- Crystal Shell: 950 million miles from the primary
 
 ## Inner Track (<200 million miles)
 
@@ -71,7 +73,7 @@ At the outermost edge of wildspace, fixed in perfect stillness against the void,
     - **Distance**: 351 million miles
     - **Size Category**: H
     - **Planet Type**: Earth type (Frozen Cavernous)
-    - **Planet Shape**: spherical
+    - **Planet Shape**: Spherical
     - **Other Notes**: Tellurex appears lifeless at first glance, with a surface entombed in frost and silence. But buried deep within is a vast hollow core where glittering crystal formations act as natural psionic relays. Suspended in this inner void is the city of Iximane, a ghostly ruin held aloft by unknown forces, where every surface reflects glimpses of possible futures. Those who enter Iximane often return changed, haunted by visions of paths untaken. The planet’s silence is total, broken only by thought.
 
 - **Planet Name**: Fractus

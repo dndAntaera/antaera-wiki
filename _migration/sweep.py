@@ -572,7 +572,7 @@ def main():
             if m and m.group(1) not in fields:
                 bad.append("%s  field %s" % (f, m.group(1)))
             if re.match(r"^- (?!\*\*Planet Name\*\*:|Type of Sphere:|Primary Body:"
-                        r"|Spelljamming Aware:|None$)", line):
+                        r"|Planetary Motion:|Spelljamming Aware:|Crystal Shell:|None$)", line):
                 bad.append("%s  %s" % (f, line[:40]))
     check("every sphere follows the sphere template", bad)
 
@@ -601,7 +601,7 @@ def main():
             m = re.match(r"^## (\w+)", line)
             if m:
                 track = bounds.get(m.group(1))
-            m = re.match(r"^    - \*\*Distance\*\*: ([\d,]+) million miles$", line)
+            m = re.match(r"^    - \*\*Distance\*\*: ([\d,]+) million miles(?: \(.+\))?$", line)
             if m and track:
                 x = int(m.group(1).replace(",", ""))
                 if not track[0] < x < track[1]:

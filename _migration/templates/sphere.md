@@ -19,6 +19,10 @@ its constellation or under Derelict Spheres.
     - Planet Type: Earth type, Fire type, Air type, Water type or Liveworld.
     - Planet Shape: Amorphous, Belt, Cluster, Spherical, Cubic, Flatworld,
       Elliptical, Regular or Irregular.
+- Planetary Motion and Crystal Shell are given when they are known. The
+  shell lies twice as far from the primary as the outermost body.
+- A body's distance may carry a note in brackets after it, as
+  "40 million miles (ring 2)".
 - A body's distance falls inside its track. If a body belongs in a track its
   distance doesn't fit, revise the distance; don't move the body.
 - Recognized Pantheon lists each rank lowest first, one god per line, as
@@ -49,10 +53,12 @@ Its peoples, powers and faiths, and how outsiders are received.
 # Planetology & Astrology
 
 - Type of Sphere: Standard
+- Planetary Motion: All planets move clockwise in orbit
 - Primary Body:
     - Name: Name
     - Type: Fire Body (Manifest zone to the Plane)
 - Spelljamming Aware: Yes
+- Crystal Shell: 0 million miles from the primary
 
 ## Inner Track (<200 million miles)
 

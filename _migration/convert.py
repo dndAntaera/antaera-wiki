@@ -2742,7 +2742,7 @@ def sphere_distances(card):
     parts = re.split(r"(^## .*$)", card, flags=re.M)
     for i in range(1, len(parts), 2):
         lo, hi = bounds[parts[i].split()[1]]
-        found = list(re.finditer(r"^(    - \*\*Distance\*\*: )([\d,]+)( million miles)$",
+        found = list(re.finditer(r"^(    - \*\*Distance\*\*: )([\d,]+)( million miles(?: \(.+\))?)$",
                                  parts[i + 1], re.M))
         miles = [int(d.group(2).replace(",", "")) for d in found]
         inside = [lo < x and (hi is None or x < hi) for x in miles]

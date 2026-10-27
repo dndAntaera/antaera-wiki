@@ -215,7 +215,10 @@ HEADING = re.compile(r"^\s{0,3}#+\s*(.*?)\s*#*\s*$")
 
 def _strip_markup(text):
     text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
-    text = re.sub(r"<[^>]+>", _tag, text)
+    # A tag opens with a name, a slash or a "!": the "<" in a sphere's
+    # "Inner Track (<200 million miles)" is a word, and read as a tag it hid
+    # everything up to the ">" of "(>300 million miles)".
+    text = re.sub(r"</?[A-Za-z!][^>]*>", _tag, text)
     return re.sub(r"\{:[^}]*\}|\{\s*[.#][^}]*\}", " ", text)     # { .class }
 
 
@@ -1002,9 +1005,21 @@ SWEEP = 8
 _WHERE = re.compile(r" (?:in|from|to) (?:the opening|the .+? sections?)$")
 
 
+# A field added on many pages, each with its own value, is one change: the
+# Crystal Shell, at each sphere's own distance.
+_FIELD_ITEM = re.compile(r"^(Added|Removed) “([A-Z][\w ]*): [^”]*”(.*)$")
+
+
+def _sweep_shown(item):
+    """An item as a sweep's line says it: a field by its name alone."""
+    item = _WHERE.sub("", item)
+    m = _FIELD_ITEM.match(item)
+    return "%s %s%s" % (m.group(1), m.group(2), m.group(3)) if m else item
+
+
 def _sweep_key(item):
     # "Portfolio" on one page and "Portfolios" on another are the same change.
-    return re.sub(r"s\b", "", _WHERE.sub("", item).lower())
+    return re.sub(r"s\b", "", _sweep_shown(item).lower())
 
 
 def _swept(groups):
@@ -1020,7 +1035,7 @@ def _swept(groups):
                 key = _sweep_key(i)
                 if count[key] >= SWEEP:
                     # The plural reads best for many pages.
-                    shown = _WHERE.sub("", i)
+                    shown = _sweep_shown(i)
                     wording[key] = max(wording.get(key, ""), shown, key=len)
     if not wording:
         return groups
@@ -1052,7 +1067,21 @@ def _changes(change):
         items = [describe_move(c.old)]
         if readable(c.before) != readable(c.after):
             items += describe_edit(c)
-    return [_item(REDESCRIBED.get(i, i)) for i in items]
+    return [_item(REDESCRIBED.get(i, i)) for i in items for i in _fields_apart(i)]
+
+
+# Two summary lines added together read as one quote: "Spelljamming Aware:
+# Yes - Crystal Shell: 794 million miles". Each is its own change.
+FIELDS_ADDED = re.compile(r"^(added|removed) “(.+)”( (?:to|from) .+)?$")
+FIELD = re.compile(r"^[A-Z][\w ]*: \S")
+
+
+def _fields_apart(item):
+    m = FIELDS_ADDED.match(item)
+    parts = m.group(2).split(" - ") if m else []
+    if len(parts) < 2 or not all(FIELD.match(p) for p in parts):
+        return [item]
+    return ["%s “%s”%s" % (m.group(1), p, m.group(3) or "") for p in parts]
 
 
 def _entry(line, items):

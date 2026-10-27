@@ -661,6 +661,20 @@ def sweep_pages():
             bad.append("%s  header logo is not the disc logo: %s" % (rel, logos))
     check("the wiki's icons and logo are in place", bad)
 
+    # The logo, the link preview and the work-in-progress sign are made from
+    # the shared images folder the Antæra projects all use. Checked only where
+    # the folder is, so on this machine and not on GitHub's.
+    shared = os.path.join(os.path.dirname(ROOT), "antaera_Shared_Images")
+    bad = []
+    if os.path.isdir(shared):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "sync_brand", os.path.join(ROOT, "scripts", "sync-brand.py"))
+        sync = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(sync)
+        bad = ["%s  run scripts/sync-brand.py" % f for f in sync.stale()]
+    check("the brand images match the shared images folder", bad)
+
     # A link preview on every page, and the sidebar's links to other sites
     # opening in a tab of their own.
     bad = [] if os.path.isfile(os.path.join(brand, "social.png")) else ["social.png is missing"]

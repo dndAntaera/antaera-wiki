@@ -23,7 +23,7 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT.parent / "antaera_Shared_Images"
+SOURCE = ROOT.parent / "antaera_Shared_Images"
 BRAND = ROOT / "docs" / "assets" / "brand"
 IMG = ROOT / "docs" / "img"
 
@@ -72,6 +72,11 @@ def stale():
 
 
 def main():
+    # Read here, not at the top: the sweep loads this file with its own
+    # arguments.
+    global SOURCE
+    if len(sys.argv) > 1:
+        SOURCE = Path(sys.argv[1])
     if not SOURCE.is_dir():
         sys.exit("No shared images folder at %s" % SOURCE)
     for dest, name in COPIED.items():

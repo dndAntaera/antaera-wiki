@@ -768,7 +768,7 @@ PAGE_FOLDER = {s: f for f, slugs in LOOSE_PAGES.items() for s in slugs}
 # knowing: shared images take the name of whichever page referenced them first,
 # and that name is misleading everywhere else.
 DROP_IMAGES = {
-    "shared_under_construction.png",
+    "sign_WIP.png",
 }
 
 # Images swapped for a different file. The original stays in docs/img rather
@@ -3418,7 +3418,7 @@ def main(backup):
 
     # Resolved once so the wip flag can be derived from the page source.
     wip_url = next((e["url"] for e in imgs
-                    if e["final"] == "shared_under_construction.png"), None)
+                    if e["final"] == "sign_WIP.png"), None)
 
     tables = {}
     for f in os.listdir(TABLES):

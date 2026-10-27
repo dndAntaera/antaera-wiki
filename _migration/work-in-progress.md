@@ -1,6 +1,6 @@
 # Pages marked as work in progress
 
-`docs/img/shared_under_construction.png` is the "UNDER CONSTRUCTION" sign from
+`docs/img/sign_WIP.png` is the "UNDER CONSTRUCTION" sign from
 the Wikidot wiki. It was never decoration: it marked pages that were still
 being written, and it appeared on 24 of them.
 
@@ -9,7 +9,7 @@ The sign is **not placed on any page** — it is listed in `DROP_IMAGES` in
 matter of referencing it again:
 
 ```markdown
-![](/antaera-wiki/img/shared_under_construction.png)
+![](/antaera-wiki/img/sign_WIP.png)
 ```
 
 This file records which pages carried it, because that information lives

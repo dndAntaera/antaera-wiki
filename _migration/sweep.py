@@ -237,7 +237,7 @@ def main():
     # it can be put back; and the 37 screenshots of tables, which were
     # transcribed into real Markdown tables and are kept as the source those
     # were read from.
-    keep = {"shared_under_construction.png", "start_header.png"}
+    keep = {"sign_WIP.png", "start_header.png"}
     stray = sorted(n for n in (have - used - keep) if "_table" not in n)
     check("no image is unaccounted for", stray,
           "kept in docs/img but on no page and not a transcribed table")

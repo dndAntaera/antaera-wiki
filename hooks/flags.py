@@ -29,7 +29,7 @@ WIP_SIGN = """
 
 <div class="wd-wip" markdown>
 
-![Under construction](/antaera-wiki/img/shared_under_construction.png)
+![Under construction](/antaera-wiki/img/sign_WIP.png)
 
 </div>
 """

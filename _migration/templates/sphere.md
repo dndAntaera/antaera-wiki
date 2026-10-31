@@ -16,15 +16,16 @@ its constellation or under Derelict Spheres.
       Debris Fields or Opposing Revolutions.
     - Primary type: Fire Body, Earth Body, Air Body, Water Body or No Primary.
     - Size Category: a single letter, A to J. A belt is Size A.
-    - Planet Type: Earth type, Fire type, Air type, Water type or Liveworld.
+    - Planet Type: Earth type, Fire type, Air type, Water type or Liveworld type.
     - Planet Shape: Amorphous, Belt, Cluster, Spherical, Cubic, Flatworld,
       Elliptical, Regular or Irregular.
 - The summary gives Type of Sphere, Planetary Motion, Primary Body (Name
   and Type), Spelljamming Aware and Crystal Shell, in that order. Planets
   move clockwise unless the sphere says otherwise. The shell lies twice as
   far from the primary as the outermost body.
-- A body's distance may carry a note in brackets after it, as
-  "40 million miles (ring 2)".
+- A distance is the figure alone, with a comma from 1,000 up, and no note of
+  how it was reached. Bodies are listed in ascending distance, and no two on
+  a page share one.
 - A body's distance falls inside its track. If a body belongs in a track its
   distance doesn't fit, revise the distance; don't move the body.
 - Recognized Pantheon lists each rank lowest first, one god per line, as

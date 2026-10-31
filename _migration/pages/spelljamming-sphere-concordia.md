@@ -63,21 +63,21 @@ The [Imperial Pantheon](../pantheons.md#the-imperial-pantheon) has its seat in t
 ## Outer Track (>300 million miles)
 
 - **Planet Name**: Officina
-    - **Distance**: 400 million miles (outer space 1)
+    - **Distance**: 400 million miles
     - **Size Category**: D
     - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
     - **Other Notes**: The fifth body in the celestial track is Officina. A world dedicated to manufacture. It holds the fleet yards of the Imperium, the foundries that arm them, and the powder works where firearms are made. It was placed this far from Palatinus so that an accident in the powder works reaches nothing the Imperium values. Its atmosphere is thin and cold and its cities are enclosed. Officina's workforce is mixed: artisan citizens hold the yards and the gun shops, slaves hold the mines and the mills, and the two do not share a quarter.
 
 - **Planet Name**: Limes
-    - **Distance**: 800 million miles (outer space 2)
+    - **Distance**: 800 million miles
     - **Size Category**: A
     - **Planet Type**: Earth type
     - **Planet Shape**: Belt
     - **Other Notes**: The sixth body in the celestial track is Limes. A belt of airless asteroids fortified across its full circumference, which the Imperium holds to be the border of its territory within the sphere. Every rock of size carries a battery or a watch station, and the fleet patrols the gaps. Mining is carried out in the belt by slave crews under garrison. It was within the approach to Limes that the [Gallamarketh](sphere-gallamarketh.md) colony ship was hailed, failed to answer, and was destroyed.
 
 - **Planet Name**: Silentium
-    - **Distance**: 1,200 million miles (outer space 3)
+    - **Distance**: 1,200 million miles
     - **Size Category**: C
     - **Planet Type**: Earth type
     - **Planet Shape**: Spherical

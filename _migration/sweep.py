@@ -590,7 +590,7 @@ def main():
     # A sphere is described in Astrology & Planetology's terms, and each body
     # sits inside the track it is listed in.
     bad = []
-    bounds = {"Inner": (0, 200), "Goldilocks": (200, 300), "Outer": (300, 10 ** 6)}
+    bounds = {"Inner": (0, 199), "Goldilocks": (200, 300), "Outer": (301, 10 ** 6)}
     terms = [(r"^- Type of Sphere: (.+)$", convert.SYSTEM_TYPES),
              (r"^    - Type: (.+)$", convert.PRIMARY_TYPES),
              (r"^    - \*\*Planet Type\*\*: (.+)$", convert.PLANET_TYPES),
@@ -607,16 +607,27 @@ def main():
         for v in re.findall(r"^    - \*\*Size Category\*\*: (.+)$", card, re.M):
             if not re.fullmatch(r"[A-J]", v):
                 bad.append("%s  size %s" % (f, v))
-        track = None
+        for v in re.findall(r"^    - \*\*Distance\*\*: (.+)$", card, re.M):
+            if not re.fullmatch(r"\d{1,3}(?:,\d{3})* million miles", v):
+                bad.append("%s  distance %s" % (f, v))
+        for name, size in re.findall(r"^- \*\*Planet Name\*\*: (.+)\n(?:    - .*\n)*?"
+                                     r"    - \*\*Size Category\*\*: (.+)\n(?:    - .*\n)*?"
+                                     r"    - \*\*Planet Shape\*\*: Belt\b", card, re.M):
+            if size != "A":
+                bad.append("%s  %s is a belt of size %s" % (f, name, size))
+        track, miles = None, []
         for line in card.split("\n"):
             m = re.match(r"^## (\w+)", line)
             if m:
                 track = bounds.get(m.group(1))
-            m = re.match(r"^    - \*\*Distance\*\*: ([\d,]+) million miles(?: \(.+\))?$", line)
+            m = re.match(r"^    - \*\*Distance\*\*: ([\d,]+) million miles$", line)
             if m and track:
                 x = int(m.group(1).replace(",", ""))
-                if not track[0] < x < track[1]:
+                miles.append(x)
+                if not track[0] <= x <= track[1]:
                     bad.append("%s  %s million miles is outside its track" % (f, x))
+        if miles != sorted(set(miles)):
+            bad.append("%s  bodies out of order or sharing a distance: %s" % (f, miles))
     check("spheres use Astrology & Planetology's terms, bodies sit in their tracks", bad)
 
     # A page written for the wiki keeps everything it was written with. The

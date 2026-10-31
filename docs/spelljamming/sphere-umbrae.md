@@ -49,7 +49,7 @@ Throughout the wildspace of Umbræ, random manifest zones to the Negative Energy
 - **Planet Name**: Mycendrum
     - **Distance**: 92 million miles
     - **Size Category**: E
-    - **Planet Type**: Liveworld
+    - **Planet Type**: Liveworld type
     - **Planet Shape**: Spherical (Hollow)
     - **Other Notes**: The interior of this living planet is a vast fungal labyrinth, governed by a sentient hive mind at its core that communicates telepathically with the scattered myconid colonies. The myconids revere this intelligence as a divine entity, organizing their societies around its silent will. The crust is the hardened cap of the world-spanning fungus, deceptively solid and riddled with tunnels inhabited by burrowing vermin and aberrations. The surface supports a unique ecosystem of plant-based creatures and wandering undead that scour the land for sustenance. Thick spore clouds drift across the landscape, inducing hallucinations that range from minor disorientation to coma-inducing fugues. Scholars strongly advise against visiting the planet, warning that its spores can take root on other worlds and extend Mycendrum's influence far beyond its own surface.
 

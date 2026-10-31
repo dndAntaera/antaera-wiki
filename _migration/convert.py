@@ -2706,13 +2706,13 @@ PRIMARY_TERMS = {
         "Fire Body (Manifest zone to the Positive Energy Plane)",
 }
 PRIMARY_TYPES = ("Fire Body", "Earth Body", "Air Body", "Water Body", "No Primary")
-PLANET_TYPES = ("Earth type", "Fire type", "Air type", "Water type", "Liveworld")
+PLANET_TYPES = ("Earth type", "Fire type", "Air type", "Water type", "Liveworld type")
 PLANET_SHAPES = ("Amorphous", "Belt", "Cluster", "Spherical", "Cubic",
                  "Flatworld", "Elliptical", "Regular", "Irregular")
 # A body's own word for its type that is only the element, said another way.
 TYPE_WORDS = {"earth": "Earth type", "terrestrial": "Earth type",
               "fire": "Fire type", "water": "Water type", "air": "Air type",
-              "liveworld": "Liveworld"}
+              "liveworld": "Liveworld type"}
 # Inundatio's "Belt" is a belt of ice spilled from the Plane of Water.
 TYPE_TERMS = {"Thaloruun’s Spill": "Water type"}
 SHAPE_TERMS = {"fragmented": "Cluster", "shattered planetary debris": "Cluster",
@@ -2798,14 +2798,14 @@ def sphere_distances(card):
     track is spread evenly between its neighbours that are inside it, so the
     bodies keep their order.
     """
-    bounds = {"Inner": (0, 200), "Goldilocks": (200, 300), "Outer": (300, None)}
+    bounds = {"Inner": (0, 199), "Goldilocks": (200, 300), "Outer": (301, None)}
     parts = re.split(r"(^## .*$)", card, flags=re.M)
     for i in range(1, len(parts), 2):
         lo, hi = bounds[parts[i].split()[1]]
-        found = list(re.finditer(r"^(    - \*\*Distance\*\*: )([\d,]+)( million miles(?: \(.+\))?)$",
+        found = list(re.finditer(r"^(    - \*\*Distance\*\*: )([\d,]+)( million miles)$",
                                  parts[i + 1], re.M))
         miles = [int(d.group(2).replace(",", "")) for d in found]
-        inside = [lo < x and (hi is None or x < hi) for x in miles]
+        inside = [lo <= x and (hi is None or x <= hi) for x in miles]
         new = list(miles)
         j = 0
         while j < len(miles):
@@ -2822,7 +2822,7 @@ def sphere_distances(card):
             j = k
         body = parts[i + 1]
         for d, x in reversed(list(zip(found, new))):
-            body = body[:d.start(2)] + str(x) + body[d.end(2):]
+            body = body[:d.start(2)] + "{:,}".format(x) + body[d.end(2):]
         parts[i + 1] = body
     return "".join(parts)
 

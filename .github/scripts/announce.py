@@ -69,6 +69,9 @@ SIGNPOST = re.compile(r"used for disambiguation", re.I)
 REWORDED = {
     # The wiki calls a god's precepts their Dogma, not their tenets.
     "59e1938": "Ukrol's page rewritten, and Alpha's and Ornus's Dogma restored",
+    # Water Plane Native became Water Native the same day.
+    "c4187d8": "Aqualorn Native is now Water Native, and Fire Native is a new Extraplanar background",
+    "31b4470": "The backgrounds are in alphabetical order in each card",
 }
 
 # A page's change as the announcement should give it, where the words read
@@ -598,6 +601,47 @@ def _section(name, title):
     return "the opening" if not name or name == title else name
 
 
+def _entry_name(entry):
+    return entry.split("\n", 1)[0].lstrip("# ").strip()
+
+
+def _in_new_order(old, new):
+    """The old body with each card's entries in the order the new body has them,
+    and the cards whose entries changed order.
+
+    Entries put in a new order are one change, and compared in their old order
+    they read as every neighbour's words swapped for the next one's. An entry
+    only the old side names, renamed perhaps, takes the place of the new-side
+    entry most like it.
+    """
+    new_cards = {_entry_name(c): c for c in re.split(r"(?=^# )", new, flags=re.M)}
+    out, moved = [], []
+    for card in re.split(r"(?=^# )", old, flags=re.M):
+        name = _entry_name(card)
+        parts = re.split(r"(?=^#{2,3} )", card, flags=re.M)
+        theirs = re.split(r"(?=^#{2,3} )", new_cards.get(name, ""), flags=re.M)[1:]
+        if len(parts) < 3 or not theirs:
+            out.append(card)
+            continue
+        place = {_entry_name(e): i for i, e in enumerate(theirs)}
+        free = [i for i, e in enumerate(theirs)
+                if _entry_name(e) not in {_entry_name(p) for p in parts[1:]}]
+        where = {}
+        for k, entry in enumerate(parts[1:]):
+            at = place.get(_entry_name(entry))
+            if at is None and free:
+                at = max(free, key=lambda i: SequenceMatcher(
+                    None, entry.split(), theirs[i].split(), autojunk=False).ratio())
+                free.remove(at)
+            where[k] = len(theirs) + k if at is None else at
+        order = sorted(where, key=where.get)
+        if order != sorted(order):
+            moved.append(name)
+        out.append(parts[0] + "".join(
+            parts[1 + k].rstrip("\n") + "\n\n" for k in order))
+    return "".join(out), moved
+
+
 class Change:
     """One page's change, read closely enough to describe."""
 
@@ -607,6 +651,7 @@ class Change:
         self.after = None if kind == "removed" else blobs.get(head, new)
         self.old_meta, old_body = split_page(self.before)
         self.new_meta, new_body = split_page(self.after)
+        old_body, self.reordered = _in_new_order(old_body, new_body)
         self.a, self.a_sec, self.a_starts, self.a_lines, self.a_place, self.a_names = tokens(old_body)
         self.b, self.b_sec, self.b_starts, self.b_lines, self.b_place, self.b_names = tokens(new_body)
         self.passages = _passages(self.a, self.b)
@@ -769,6 +814,9 @@ def describe_edit(change):
             if flag == "wip" and not now and SIGNPOST.search(c.after or ""):
                 word = "shelved for now"
             items.append(word)
+
+    if c.reordered:
+        items.append("put the entries of %s in a new order" % _names(c.reordered))
 
     a, a_sec, a_starts = c.a, c.a_sec, c.a_starts
     b, b_sec, b_starts = c.b, c.b_sec, c.b_starts

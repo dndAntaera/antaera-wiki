@@ -263,10 +263,10 @@ You must work with the DM to pick a guild to which you belong.
 Extraplanar backgrounds have prerequisites, and may only be taken if your character is from that plane.
 
 A character with an Extraplanar background gains the Extraplanar subtype when not on their native plane, if they didn’t already. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
-## Aqualorn Native
-*You were born and raised in the Aqualorn Expanse, as such your ancestors hailed from the Elemental Plane of Water.*
+## Water Plane Native
+*You were born and raised on the Elemental Plane of Water.*
 
-**Prerequisite**: Native to the Aqualorn Expanse<br>
+**Prerequisite**: Native to the Elemental Plane of Water<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Water Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating large bodies of water.
@@ -342,6 +342,14 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Air Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at high altitudes, such as when flying or on an airship.
+
+## Fire Native
+*You were born and raised on the Elemental Plane of Fire.*
+
+**Prerequisite**: Native to the Elemental Plane of Fire<br>
+**Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
+**Type**: Extraplanar<br>
+**Benefit**: You gain the Fire Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating through deserts.
 
 </div>
 </div>

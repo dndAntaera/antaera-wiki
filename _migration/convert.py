@@ -306,6 +306,25 @@ EDITS = {
          "**Prerequisite**: From the Antæran Sphere, native to a mountain"),
         ("# Regional Backgrounds", "**Prerequisite**: Native to the Sea of Innas",
          "**Prerequisite**: From the Antæran Sphere, native to the Sea of Innas"),
+        # The Aqualorn Expanse is nowhere else in the setting; the background
+        # is the Elemental Plane of Water's, as Earth and Air are theirs.
+        ("# Extraplanar Backgrounds", "## Aqualorn Native", "## Water Plane Native"),
+        ("# Extraplanar Backgrounds",
+         "You were born and raised in the Aqualorn Expanse, as such your ancestors hailed from the Elemental Plane of Water.",
+         "You were born and raised on the Elemental Plane of Water."),
+        ("# Extraplanar Backgrounds", "**Prerequisite**: Native to the Aqualorn Expanse",
+         "**Prerequisite**: Native to the Elemental Plane of Water"),
+        # Fire completes the four elements, after Air.
+        ("# Extraplanar Backgrounds", "such as when flying or on an airship.\n",
+         "such as when flying or on an airship.\n\n"
+         "## Fire Native\n"
+         "*You were born and raised on the Elemental Plane of Fire.*\n\n"
+         "**Prerequisite**: Native to the Elemental Plane of Fire<br>\n"
+         "**Associated Skills**: Profession (choose one), plus any one of the following: "
+         "Knowledge (the planes), Knowledge (local), Survival<br>\n"
+         "**Type**: Extraplanar<br>\n"
+         "**Benefit**: You gain the Fire Heritage feat for free at 1st level. This feat cannot be "
+         "retrained. You gain a +2 insight bonus to Survival checks when navigating through deserts.\n"),
     ],
     # Concordia is written for the wiki - see PAGES.
     "spelljamming-known-spheres": [

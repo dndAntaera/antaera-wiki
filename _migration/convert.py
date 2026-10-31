@@ -314,6 +314,14 @@ EDITS = {
          "You were born and raised on the Elemental Plane of Water."),
         ("# Extraplanar Backgrounds", "**Prerequisite**: Native to the Aqualorn Expanse",
          "**Prerequisite**: Native to the Elemental Plane of Water"),
+        # The feats the spelljamming backgrounds give, where Spelljamming's
+        # Skills & Feats sets them out.
+        ("# Spelljamming Backgrounds", "you gain the Spacefarer feat",
+         "you gain the [Spacefarer](../spelljamming/skills-feats.md#spacefarer-general) feat"),
+        ("# Spelljamming Backgrounds", "You gain the Apprentice Helmsman feat",
+         "You gain the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat"),
+        ("# Spelljamming Backgrounds", "does not possess the Apprentice Helmsman feat",
+         "does not possess the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat"),
         # Fire completes the four elements.
         ("# Extraplanar Backgrounds", "such as when flying or on an airship.\n",
          "such as when flying or on an airship.\n\n"

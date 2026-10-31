@@ -357,7 +357,7 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 <div class="wd-cell" markdown>
 
 # Spelljamming Backgrounds
-You are native to a spelljamming-aware society. As such, you gain the Spacefarer feat at 1st level. This feat cannot be retrained.
+You are native to a spelljamming-aware society. As such, you gain the [Spacefarer](../spelljamming/skills-feats.md#spacefarer-general) feat at 1st level. This feat cannot be retrained.
 
 ## Astral Diplomat
 *You have been trained in the ways of the word. Your skills with politics and diplomacy serve you well.*
@@ -456,14 +456,14 @@ You are native to a spelljamming-aware society. As such, you gain the Spacefarer
 **Associated Skills**: Profession (wildspace navigator), plus any one of the following: Helm Pilot, Knowledge (wildspace), Wildspace Survival<br>
 **Type**: Spelljamming<br>
 **Prerequisite**: No caster or manifester level<br>
-**Benefit**: You gain the Apprentice Helmsman feat as a bonus feat at 1st level. This feat cannot be retrained.
+**Benefit**: You gain the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat as a bonus feat at 1st level. This feat cannot be retrained.
 
 ## Wildspace Navigator, Talented
 *You enrolled in one of the renowned spelljamming academies, where your natural talent for piloting quickly set you apart from your peers. With an instinctive connection to the helm and the stars themselves, your abilities have effortlessly guided you toward the vast reaches of the cosmos.*
 
 **Associated Skills**: Profession (wildspace navigator), plus any one of the following: Helm Pilot, Knowledge (wildspace), Wildspace Survival<br>
 **Type**: Spelljamming<br>
-**Prerequisite**: Caster level 1st or Manifester level 1st, does not possess the Apprentice Helmsman feat<br>
+**Prerequisite**: Caster level 1st or Manifester level 1st, does not possess the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat<br>
 **Benefit**: Once per week, as an immediate action, you may take 10 on your next skill check with the associated skill you chose, even when distractions normally would not allow it.
 
 </div>

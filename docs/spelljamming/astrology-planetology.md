@@ -1,5 +1,5 @@
 ---
-title: "Astrology Planetology"
+title: "Astrology & Planetology"
 ---
 
 <div class="wd-row" markdown>
@@ -13,7 +13,7 @@ title: "Astrology Planetology"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Astrology Planetology
+# Astrology & Planetology
 
 </div>
 </div>

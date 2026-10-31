@@ -1,5 +1,5 @@
 ---
-title: "Helms Hulls"
+title: "Helms & Hulls"
 ---
 
 <div class="wd-row" markdown>
@@ -13,7 +13,7 @@ title: "Helms Hulls"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Helms Hulls
+# Helms & Hulls
 
 </div>
 </div>

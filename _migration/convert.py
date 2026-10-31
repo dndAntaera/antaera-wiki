@@ -1280,6 +1280,10 @@ TITLES = {
     "spelljamming-sphere-concordia": "The Concordia Sphere",
     "spelljamming-helmsman-feats": "Helmsman Feats",
     "spelljamming-skills-feats": "Skills & Feats",
+    "spelljamming-helms-hulls": "Helms & Hulls",
+    "spelljamming-combat-movement": "Combat & Movement",
+    "spelljamming-astrology-planetology": "Astrology & Planetology",
+    "kingdoms-empires": "Kingdoms & Empires",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners

@@ -1,12 +1,12 @@
 ---
-title: "Combat Movement"
+title: "Combat & Movement"
 wip: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Combat Movement
+# Combat & Movement
 
 </div>
 </div>

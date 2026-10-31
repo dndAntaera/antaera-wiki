@@ -450,21 +450,5 @@ You are native to a spelljamming-aware society. As such, you gain the [Spacefare
 **Type**: Spelljamming<br>
 **Benefit**: Once per day, as a swift action, you may take 10 on your next skill check with the associated skill you chose, even when distractions normally would not allow it.
 
-## Wildspace Navigator
-*You’ve enrolled in one of the many spelljamming academies, immersing yourself in the demanding study of piloting a spelljammer. Though natural talent may not have come easily, your relentless dedication and hard work have pushed you to excel, proving that determination can bridge the gap where raw ability falters.*
-
-**Associated Skills**: Profession (wildspace navigator), plus any one of the following: Helm Pilot, Knowledge (wildspace), Wildspace Survival<br>
-**Type**: Spelljamming<br>
-**Prerequisite**: No caster or manifester level<br>
-**Benefit**: You gain the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat as a bonus feat at 1st level. This feat cannot be retrained.
-
-## Wildspace Navigator, Talented
-*You enrolled in one of the renowned spelljamming academies, where your natural talent for piloting quickly set you apart from your peers. With an instinctive connection to the helm and the stars themselves, your abilities have effortlessly guided you toward the vast reaches of the cosmos.*
-
-**Associated Skills**: Profession (wildspace navigator), plus any one of the following: Helm Pilot, Knowledge (wildspace), Wildspace Survival<br>
-**Type**: Spelljamming<br>
-**Prerequisite**: Caster level 1st or Manifester level 1st, does not possess the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat<br>
-**Benefit**: Once per week, as an immediate action, you may take 10 on your next skill check with the associated skill you chose, even when distractions normally would not allow it.
-
 </div>
 </div>

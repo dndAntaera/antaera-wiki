@@ -111,34 +111,11 @@ A Wildspace Survival check applies for the full day. Checks made to identify haz
 
 # New Feats
 
-## Apprentice Helmsman [General]
-*You can operate a spelljamming Helm.*
-
-**Prerequisites**: Int 10+.<br>
-**Benefit**: You operate a Helm as an arcane spellcaster of half your highest class level (round down, minimum 1st). For example, a 3rd level Fighter with this feat would operate a Helm as effectively as a 1st level Wizard. Helm Pilot skill is now considered a class skill and can be used untrained.
-
-This feat allows a non-spellcaster to tap into their latent magical talent for the purpose of operating a spelljamming helm. If something prevents their access to this talent, then just as a Wizard who was cut off from their magical power by some means, they cannot operate a Helm.<br>
-**Normal**: Without this feat, a character who is not a spellcaster cannot operate a standard Spelljamming Helm.
-
 ## Freefall [General]
 *You have adjusted to maneuvering in an environment with low or no gravity.*
 
 **Prerequisites**: Dex 10+, Int 10+, Spacefarer feat.<br>
 **Benefit**: No penalty to actions in low/zero gravity. Grants a +4 bonus to balance when gravity shifts. The character will not provoke attacks of opportunity for most actions in these environments.
-
-## Journeyman Helmsman [General]
-*You can operate a Spelljamming Helm more efficiently.*
-
-**Prerequisites**: Int 10+, Apprentice Helmsman.<br>
-**Benefit**: You operate a Helm as an arcane spellcaster of two-thirds your highest class level (rounded down, minimum 1st). For example, a 3rd-level Fighter with this feat would operate a Helm as effectively as a 2nd-level Wizard.<br>
-**Normal**: Without a Helmsman feat, a character who is not a spellcaster cannot operate a standard Spelljamming Helm.
-
-## Master Helmsman [General]
-*You can expertly operate a Spelljamming Helm.*
-
-**Prerequisites**: Int 10+, Apprentice Helmsman, Journeyman Helmsman.<br>
-**Benefit**: You operate a Helm as an arcane spellcaster of equal to your highest class level. For example, a 3rd level Fighter with this feat would operate a Helm as effectively as a 3rd level Wizard.<br>
-**Normal**: Without a Helmsman feat, a character who is not a spellcaster cannot operate a standard Spelljamming Helm.
 
 ## Phlogiston Sense [General]
 *You intuitively understand the movement of Phlogiston and can navigate through it more effectively.*

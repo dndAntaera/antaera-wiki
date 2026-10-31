@@ -314,14 +314,14 @@ EDITS = {
          "You were born and raised on the Elemental Plane of Water."),
         ("# Extraplanar Backgrounds", "**Prerequisite**: Native to the Aqualorn Expanse",
          "**Prerequisite**: Native to the Elemental Plane of Water"),
-        # The feats the spelljamming backgrounds give, where Spelljamming's
-        # Skills & Feats sets them out.
+        # The feat the spelljamming backgrounds give, where Spelljamming's
+        # Skills & Feats sets it out.
         ("# Spelljamming Backgrounds", "you gain the Spacefarer feat",
          "you gain the [Spacefarer](../spelljamming/skills-feats.md#spacefarer-general) feat"),
-        ("# Spelljamming Backgrounds", "You gain the Apprentice Helmsman feat",
-         "You gain the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat"),
-        ("# Spelljamming Backgrounds", "does not possess the Apprentice Helmsman feat",
-         "does not possess the [Apprentice Helmsman](../spelljamming/skills-feats.md#apprentice-helmsman-general) feat"),
+        # Archived with the Helmsman feats they refer to - see
+        # spelljamming-helmsman-feats in PAGES.
+        ("# Spelljamming Backgrounds",
+         re.compile(r"^## Wildspace Navigator\n.*?(?=^</div>)", re.M | re.S), ""),
         # Fire completes the four elements.
         ("# Extraplanar Backgrounds", "such as when flying or on an airship.\n",
          "such as when flying or on an airship.\n\n"
@@ -333,6 +333,11 @@ EDITS = {
          "**Type**: Extraplanar<br>\n"
          "**Benefit**: You gain the Fire Heritage feat for free at 1st level. This feat cannot be "
          "retrained. You gain a +2 insight bonus to Survival checks when navigating through deserts.\n"),
+    ],
+    # The Helmsman feats are archived - see spelljamming-helmsman-feats in PAGES.
+    "spelljamming-skills-feats": [
+        ("# New Feats", re.compile(r"^## %s Helmsman.*?(?=^## )" % rank, re.M | re.S), "")
+        for rank in ("Apprentice", "Journeyman", "Master")
     ],
     # Concordia is written for the wiki - see PAGES.
     "spelljamming-known-spheres": [
@@ -1273,6 +1278,7 @@ TITLES = {
     "deity-alpha": "Alpha, the First Warforged",
     "ornus": "Ornus, Lord of Constructs",
     "spelljamming-sphere-concordia": "The Concordia Sphere",
+    "spelljamming-helmsman-feats": "Helmsman Feats",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners
@@ -1357,6 +1363,8 @@ def slug_keys(target):
 # Written pages still being worked on. An imported page is marked by the
 # sign on its Wikidot source; a written page has no source, so it is named here.
 WIP_WRITTEN = {"spelljamming-sphere-concordia"}
+# Written pages holding what was retired from the live ones.
+ARCHIVED_WRITTEN = {"spelljamming-helmsman-feats"}
 
 
 def title_from(slug):
@@ -3742,6 +3750,7 @@ def main(backup):
         with open(out_abs, "w", encoding="utf-8", newline="\n") as fh:
             fh.write('---\ntitle: "' + title + '"\n'
                      + ("wip: true\n" if slug in WIP_WRITTEN else "")
+                     + ("archived: true\nsearch:\n  exclude: true\n" if slug in ARCHIVED_WRITTEN else "")
                      + '---\n\n' + body)
         written += 1
 

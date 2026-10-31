@@ -1279,6 +1279,7 @@ TITLES = {
     "ornus": "Ornus, Lord of Constructs",
     "spelljamming-sphere-concordia": "The Concordia Sphere",
     "spelljamming-helmsman-feats": "Helmsman Feats",
+    "spelljamming-skills-feats": "Skills & Feats",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners

@@ -1,5 +1,5 @@
 ---
-title: "Skills Feats"
+title: "Skills & Feats"
 ---
 
 <div class="wd-row" markdown>
@@ -13,7 +13,7 @@ title: "Skills Feats"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Skills Feats
+# Skills & Feats
 
 </div>
 </div>

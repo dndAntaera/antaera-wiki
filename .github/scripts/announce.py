@@ -82,6 +82,12 @@ REDESCRIBED = {
     "removed “Two derelict spheres are known but are not recognized as part of the Known Spheres: "
     "the Graveyard of the Gods and Forgehome” from The Setting At Large":
         "removed a line from the main page",
+    # Moved to the archive, as one change; None drops a line the one before says.
+    "removed the Wildspace Navigator and Wildspace Navigator, Talented sections":
+        "moved the Wildspace Navigator backgrounds to the archived Helmsman Feats page",
+    "removed the Apprentice Helmsman [General] section":
+        "moved the Helmsman feats to the archived Helmsman Feats page",
+    "removed the Journeyman Helmsman [General] and Master Helmsman [General] sections": None,
 }
 
 # An announcement takes edits for the rest of the day it went up, by the clock
@@ -634,9 +640,13 @@ def _in_new_order(old, new):
                     None, entry.split(), theirs[i].split(), autojunk=False).ratio())
                 free.remove(at)
             where[k] = len(theirs) + k if at is None else at
+        # An entry the new side has lost is no sign of a new order.
+        kept = [at for at in where.values() if at < len(theirs)]
+        if kept == sorted(kept):
+            out.append(card)
+            continue
+        moved.append(name)
         order = sorted(where, key=where.get)
-        if order != sorted(order):
-            moved.append(name)
         out.append(parts[0] + "".join(
             parts[1 + k].rstrip("\n") + "\n\n" for k in order))
     return "".join(out), moved
@@ -1115,7 +1125,8 @@ def _changes(change):
         items = [describe_move(c.old)]
         if readable(c.before) != readable(c.after):
             items += describe_edit(c)
-    return [_item(REDESCRIBED.get(i, i)) for i in items for i in _fields_apart(i)]
+    return [_item(REDESCRIBED.get(i, i)) for i in items for i in _fields_apart(i)
+            if REDESCRIBED.get(i, i)]
 
 
 # Two summary lines added together read as one quote: "Spelljamming Aware:

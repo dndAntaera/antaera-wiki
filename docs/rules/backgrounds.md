@@ -117,14 +117,6 @@ If a character has 5 ranks in the associated profession skill, they gain a +2 in
 
 # Regional Backgrounds
 The regions of these backgrounds are on the [Antæran Sphere](../spelljamming/sphere-antaera.md). A character with a regional background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is also a native of the appropriate region. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
-## Ironpine Native
-*You grew up in either the Greater or Lesser Ironpine Forest. As such, you have adapted to living in an unforgiving forested area.*
-
-**Prerequisite**: From the Antæran Sphere, native to either the Greater or Lesser Ironpine Forest<br>
-**Associated Skills**: Profession (choose one), plus any one of the following: Climb, Handle Animal, Survival<br>
-**Type**: Regional<br>
-**Benefit**: Once per day, you may gain a +2 insight bonus on the associated skill you selected. Additionally, you gain Sylvan as an automatic language.
-
 ## Antæran Plains Native
 *As a citizen of the New Haven Imperium, you grew up in a culture that is heavily militaristic and xenophobic.*
 
@@ -148,6 +140,14 @@ The regions of these backgrounds are on the [Antæran Sphere](../spelljamming/sp
 **Associated Skills**: Profession (choose one), plus any one of the following: Search, Spot, Listen<br>
 **Type**: Regional<br>
 **Benefit**: Your racial bonus on Search, Spot, and Listen is increased to +4.
+
+## Ironpine Native
+*You grew up in either the Greater or Lesser Ironpine Forest. As such, you have adapted to living in an unforgiving forested area.*
+
+**Prerequisite**: From the Antæran Sphere, native to either the Greater or Lesser Ironpine Forest<br>
+**Associated Skills**: Profession (choose one), plus any one of the following: Climb, Handle Animal, Survival<br>
+**Type**: Regional<br>
+**Benefit**: Once per day, you may gain a +2 insight bonus on the associated skill you selected. Additionally, you gain Sylvan as an automatic language.
 
 ## Islander
 *Your people are the natives of the Broken Spire Isles. They are legendary sailors and at home on the sea as they are on the land.*
@@ -263,13 +263,13 @@ You must work with the DM to pick a guild to which you belong.
 Extraplanar backgrounds have prerequisites, and may only be taken if your character is from that plane.
 
 A character with an Extraplanar background gains the Extraplanar subtype when not on their native plane, if they didn’t already. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
-## Water Plane Native
-*You were born and raised on the Elemental Plane of Water.*
+## Air Native
+*You were born and raised on the Elemental Plane of Air.*
 
-**Prerequisite**: Native to the Elemental Plane of Water<br>
+**Prerequisite**: Native to the Elemental Plane of Air<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
-**Benefit**: You gain the Water Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating large bodies of water.
+**Benefit**: You gain the Air Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at high altitudes, such as when flying or on an airship.
 
 ## Chaotic Planar Native
 *You were born and raised on a chaoticly aligned plane, as such your ancestors were likely either outsiders from such planes or had lived on the plane for an extended period of time.*
@@ -294,6 +294,14 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
 **Benefit**: You gain the Fiendish Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus on saving throws made to resist the Evil planar effects of planes.
+
+## Fire Native
+*You were born and raised on the Elemental Plane of Fire.*
+
+**Prerequisite**: Native to the Elemental Plane of Fire<br>
+**Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
+**Type**: Extraplanar<br>
+**Benefit**: You gain the Fire Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating through deserts.
 
 ## Good Planar Native
 *You were born and raised on a good aligned plane, as such your ancestors were likely either outsiders from such planes or had lived on the plane for an extended period of time.*
@@ -335,21 +343,13 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 **Type**: Extraplanar<br>
 **Benefit**: You gain the [Pure Soul](../the-index.md) feat for free at 1st level without needing to meet the prerequisites, nor do you lose the feat for changing alignment as per normal with Exalted feats. This feat cannot be retrained. If you would gain this feat from another source, you instead gain a +1 bonus to Depravity and Corruption checks as if you had an additional Exalted feat. You gain a +2 insight bonus to Intimidate checks. Additionally, you gain an Aura as a Cleric. The aura registers with the Law/Order axis of your alignment and as Evil. For example, a character that is LN has an LE Aura.
 
-## Air Native
-*You were born and raised on the Elemental Plane of Air.*
+## Water Native
+*You were born and raised on the Elemental Plane of Water.*
 
-**Prerequisite**: Native to the Elemental Plane of Air<br>
+**Prerequisite**: Native to the Elemental Plane of Water<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
 **Type**: Extraplanar<br>
-**Benefit**: You gain the Air Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating at high altitudes, such as when flying or on an airship.
-
-## Fire Native
-*You were born and raised on the Elemental Plane of Fire.*
-
-**Prerequisite**: Native to the Elemental Plane of Fire<br>
-**Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (the planes), Knowledge (local), Survival<br>
-**Type**: Extraplanar<br>
-**Benefit**: You gain the Fire Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating through deserts.
+**Benefit**: You gain the Water Heritage feat for free at 1st level. This feat cannot be retrained. You gain a +2 insight bonus to Survival checks when navigating large bodies of water.
 
 </div>
 </div>
@@ -408,19 +408,19 @@ You are native to a spelljamming-aware society. As such, you gain the Spacefarer
 **Type**: Spelljamming<br>
 **Benefit**: You begin the game with an extra 300 gp worth of equipment. This is not actual gold, but rather an allowance from which you can purchase additional items when making your character. Any gold leftover from this allowance after finishing your character is simply lost.
 
-## Siege Gunner
-*You’ve mastered the art of shipbound combat, honing your skills with the powerful weapons of spelljammers, capable of delivering devastating blows in the heat of battle.*
-
-**Associated Skills**: Profession (siege engineer), plus any one of the following: Craft (ship<br>
-**Type**: Spelljamming<br>
-**Benefit**: You gain a +2 insight bonus to attack rolls made with shipbound siege weapons. This bonus increases by 1 for every 5 ranks in your associated profession skill.
-
 ## Shipboard Chaplain
 *Chosen by your faith, you have taken up the sacred mission to carry its teachings to the farthest reaches of wildspace, spreading your beliefs to distant worlds and guiding lost souls.*
 
 **Associated Skills**: Profession (disciple), plus any one of the following: Knowledge (religion), Knowledge (the planes), Knowledge (wildspace)<br>
 **Type**: Spelljamming<br>
 **Benefit**: Once per day, while preparing your divine spells for the day, you may attempt a Knowledge (religion) check (DC 25 - your divine caster level) to attempt to make contact with your deity and prepare your spells for the day. You may only use this ability when your connection to your deity is cut off as a result of being in a crystal sphere where they are not worshiped.
+
+## Siege Gunner
+*You’ve mastered the art of shipbound combat, honing your skills with the powerful weapons of spelljammers, capable of delivering devastating blows in the heat of battle.*
+
+**Associated Skills**: Profession (siege engineer), plus any one of the following: Craft (ship<br>
+**Type**: Spelljamming<br>
+**Benefit**: You gain a +2 insight bonus to attack rolls made with shipbound siege weapons. This bonus increases by 1 for every 5 ranks in your associated profession skill.
 
 ## Spellsailor
 *After years of rigorous training at a renowned spelljamming academy, you’ve mastered the arcane art of manning spelljammers, allowing you to navigate the vast, uncharted reaches of the cosmos.*

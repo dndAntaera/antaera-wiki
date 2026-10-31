@@ -308,13 +308,13 @@ EDITS = {
          "**Prerequisite**: From the Antæran Sphere, native to the Sea of Innas"),
         # The Aqualorn Expanse is nowhere else in the setting; the background
         # is the Elemental Plane of Water's, as Earth and Air are theirs.
-        ("# Extraplanar Backgrounds", "## Aqualorn Native", "## Water Plane Native"),
+        ("# Extraplanar Backgrounds", "## Aqualorn Native", "## Water Native"),
         ("# Extraplanar Backgrounds",
          "You were born and raised in the Aqualorn Expanse, as such your ancestors hailed from the Elemental Plane of Water.",
          "You were born and raised on the Elemental Plane of Water."),
         ("# Extraplanar Backgrounds", "**Prerequisite**: Native to the Aqualorn Expanse",
          "**Prerequisite**: Native to the Elemental Plane of Water"),
-        # Fire completes the four elements, after Air.
+        # Fire completes the four elements.
         ("# Extraplanar Backgrounds", "such as when flying or on an airship.\n",
          "such as when flying or on an airship.\n\n"
          "## Fire Native\n"
@@ -2915,6 +2915,23 @@ def favor_pantheon(text, gods):
     return text[:sec.start(1)] + rebuilt + text[sec.end(1):]
 
 
+def alphabetical_entries(text):
+    """Each card's entries in alphabetical order, its opening text kept first.
+
+    Run once the names are final: the planes' renames change where a
+    background falls.
+    """
+    def card(m):
+        parts = re.split(r"(?=^#{2,3} )", m.group(2), flags=re.M)
+        if len(parts) < 2:
+            return m.group(0)
+        entries = sorted((p.strip("\n") for p in parts[1:]),
+                         key=lambda e: e.split("\n", 1)[0].lstrip("# ").replace("æ", "ae").lower())
+        return m.group(1) + parts[0] + "\n\n".join(entries) + "\n\n"
+
+    return re.sub(r"(^# [^\n]+\n)(.*?)(?=^</div>)", card, text, flags=re.M | re.S)
+
+
 def finish_site():
     """The passes that need every page written first.
 
@@ -2954,6 +2971,12 @@ def finish_site():
             if new != text:
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
                     fh.write(new)
+
+    bpath = os.path.join(DOCS, "rules", "backgrounds.md")
+    with open(bpath, encoding="utf-8") as fh:
+        text = fh.read()
+    with open(bpath, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(alphabetical_entries(text))
 
     lines = ptext.split("\n")
     weapons = []

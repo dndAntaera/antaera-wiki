@@ -116,11 +116,11 @@ If a character has 5 ranks in the associated profession skill, they gain a +2 in
 <div class="wd-cell" markdown>
 
 # Regional Backgrounds
-A character with a regional background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is also a native of the appropriate region. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
+The regions of these backgrounds are on the [Antæran Sphere](../spelljamming/sphere-antaera.md). A character with a regional background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is also a native of the appropriate region. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
 ## Ironpine Native
 *You grew up in either the Greater or Lesser Ironpine Forest. As such, you have adapted to living in an unforgiving forested area.*
 
-**Prerequisite**: Native to either the Greater or Lesser Ironpine Forest<br>
+**Prerequisite**: From the Antæran Sphere, native to either the Greater or Lesser Ironpine Forest<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Climb, Handle Animal, Survival<br>
 **Type**: Regional<br>
 **Benefit**: Once per day, you may gain a +2 insight bonus on the associated skill you selected. Additionally, you gain Sylvan as an automatic language.
@@ -128,7 +128,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 ## Antæran Plains Native
 *As a citizen of the New Haven Imperium, you grew up in a culture that is heavily militaristic and xenophobic.*
 
-**Prerequisite**: Native to the Antæran Plains, Human<br>
+**Prerequisite**: From the Antæran Sphere, native to the Antæran Plains, Human<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (nobility & royalty), Martial Lore, Tumble<br>
 **Type**: Regional<br>
 **Benefit**: You gain the Martial Weapon Proficiency feat for any one martial weapon you choose as a bonus feat. This feat cannot be retrained.
@@ -136,7 +136,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 ## Desert Dweller
 *You were raised on the sand and under the sun, your body has adapted to surviving the harshness of the desert.*
 
-**Prerequisite**: Native to either the Kir’Raask Desert or the Angheh Wastes<br>
+**Prerequisite**: From the Antæran Sphere, native to either the Kir’Raask Desert or the Angheh Wastes<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (geography), Survive, Tumble<br>
 **Type**: Regional<br>
 **Benefit**: You gain the Heat Endurance feat as a bonus feat. This feat cannot be retrained. You gain Ignan as an automatic language.
@@ -144,7 +144,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 ## Gulf Native
 *You were raised in the heartland of the elves. As such, your elven heritage is more refined.*
 
-**Prerequisite**: Native to the Mir’Raask Gulf, Elf<br>
+**Prerequisite**: From the Antæran Sphere, native to the Mir’Raask Gulf, Elf<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Search, Spot, Listen<br>
 **Type**: Regional<br>
 **Benefit**: Your racial bonus on Search, Spot, and Listen is increased to +4.
@@ -152,7 +152,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 ## Islander
 *Your people are the natives of the Broken Spire Isles. They are legendary sailors and at home on the sea as they are on the land.*
 
-**Prerequisite**: Native of the Broken Spire Isles<br>
+**Prerequisite**: From the Antæran Sphere, native of the Broken Spire Isles<br>
 **Associated Skills**: Profession (choose one), plus any one of the following: Knowledge (geography), Knowledge (nature), Use Rope<br>
 **Type**: Regional<br>
 **Benefit**: You gain the Sea Legs feat as a bonus feat. This feat cannot be retrained. You gain a +2 insight bonus to Knowledge (nature) checks related to aquatic creatures or other maritime subjects.
@@ -160,7 +160,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 ## Mountain Dweller
 *You grew up on the mountain top, surrounded by snow and at a higher elevation. You have adapted to this climate.*
 
-**Prerequisite**: Native to a mountain range<br>
+**Prerequisite**: From the Antæran Sphere, native to a mountain range<br>
 **Associated Skills**: Profession (choose one), choose any one of the following: Climb, Knowledge (geography), Survival<br>
 **Type**: Regional<br>
 **Benefit**: You gain Altitude Adaptation as a bonus feat. This feat cannot be retrained. You gain a +2 insight bonus on Survival checks made to navigate mountain ranges.
@@ -168,7 +168,7 @@ A character with a regional background gains a +2 insight bonus on Diplomacy che
 ## Sewich Adventurer
 *You were, or your ancestor was, one of the original members of the Sewich Union, having hailed from an entirely different reality altogether. You and your people are of a unique culture of your own, and as such are highly adaptable.*
 
-**Prerequisite**: Native to the Sea of Innas<br>
+**Prerequisite**: From the Antæran Sphere, native to the Sea of Innas<br>
 **Associated Skills**: Profession (choose one), choose any one of the following: Knowledge (local), Search, Survival<br>
 **Type**: Regional<br>
 **Benefit**: You gain +1 skill point at 1st level, and 1 additional skill point every level after.

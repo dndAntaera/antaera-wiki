@@ -287,6 +287,26 @@ EDITS = {
          "## Greater Gods\n\n## Intermediate Gods\n\n## Lesser Gods\n",
          IMPERIAL_PANTHEON),
     ],
+    # The regional backgrounds name regions of the Antæran Sphere, which the
+    # page never said, and a character from another sphere can't take them.
+    "backgrounds": [
+        ("# Regional Backgrounds", "A character with a regional background gains",
+         "The regions of these backgrounds are on the [Antæran Sphere](../spelljamming/sphere-antaera.md). A character with a regional background gains"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native to either the Greater",
+         "**Prerequisite**: From the Antæran Sphere, native to either the Greater"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native to the Antæran Plains",
+         "**Prerequisite**: From the Antæran Sphere, native to the Antæran Plains"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native to either the Kir",
+         "**Prerequisite**: From the Antæran Sphere, native to either the Kir"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native to the Mir",
+         "**Prerequisite**: From the Antæran Sphere, native to the Mir"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native of the Broken",
+         "**Prerequisite**: From the Antæran Sphere, native of the Broken"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native to a mountain",
+         "**Prerequisite**: From the Antæran Sphere, native to a mountain"),
+        ("# Regional Backgrounds", "**Prerequisite**: Native to the Sea of Innas",
+         "**Prerequisite**: From the Antæran Sphere, native to the Sea of Innas"),
+    ],
     # Concordia is written for the wiki - see PAGES.
     "spelljamming-known-spheres": [
         ("# Derelict Spheres", "- [Forgehome](sphere-forgehome.md)\n",

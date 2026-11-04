@@ -2953,6 +2953,26 @@ def alphabetical_entries(text):
     return re.sub(r"(^# [^\n]+\n)(.*?)(?=^</div>)", card, text, flags=re.M | re.S)
 
 
+def spell_own_card(text, spell):
+    """A spell set beside a card as its sidebar, given a card of its own below it.
+
+    The card it sat beside takes the row's full width, and the spell's own
+    heading becomes the card's.
+    """
+    m = re.search(r'<div class="wd-row" style="--wd-cols: [^"]*" markdown>\n'
+                  r'(<div class="wd-cell" markdown>\n.*?\n</div>\n)'
+                  r'<div class="wd-cell wd-spell wd-aside"( data-wd-kind="[^"]*" markdown>\n\n)'
+                  r'## ' + re.escape(spell) + r'\n(.*?\n)</div>\n</div>\n', text, re.S)
+    if not m:
+        TODO.append(("spell card", "no sidebar for %s" % spell))
+        return text
+    rows = ('<div class="wd-row" markdown>\n' + m.group(1) + "</div>\n"
+            '<div class="wd-row" markdown>\n'
+            '<div class="wd-cell wd-spell"' + m.group(2) + "# " + spell + "\n"
+            + m.group(3) + "</div>\n</div>\n")
+    return text[:m.start()] + rows + text[m.end():]
+
+
 def finish_site():
     """The passes that need every page written first.
 
@@ -2998,6 +3018,14 @@ def finish_site():
         text = fh.read()
     with open(bpath, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(alphabetical_entries(text))
+
+    # Detect Taint is a card of its own, under Becoming Tainted.
+    tpath = os.path.join(DOCS, "rules", "taint.md")
+    with open(tpath, encoding="utf-8") as fh:
+        text = fh.read()
+    with open(tpath, "w", encoding="utf-8", newline="\n") as fh:
+        # Its heading was the page's only level two; the levels close up after.
+        fh.write(heading_levels(spell_own_card(text, "Detect Taint")))
 
     lines = ptext.split("\n")
     weapons = []

@@ -10,6 +10,7 @@ and re-running is the way to iterate rather than hand-editing the output.
 import glob
 import json
 import os
+import posixpath
 import re
 import sys
 import unicodedata
@@ -218,6 +219,17 @@ EDITS = {
          "- [Collegiate Oculatus](faction/collegiate-oculatus.md)\n- [Concordia](spelljamming/sphere-concordia.md)\n"),
         # Gestalt is archived, and its training times with it - see "gestalt".
         (None, re.compile(r"^    - Gestalt Only\n(?:        - .*\n)+", re.M), ""),
+    ],
+    # The timeline is the chronology's opening page; the calendar and the
+    # events are its two branches.
+    "calendar": [
+        (None, re.compile(r"\Z"),
+         '<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
+         '<div class="wd-cell" markdown>\n\n'
+         "# Calendar & Events\n\n"
+         "- [Antæran Calendar](chronology/calendar.md)\n"
+         "- [Events](chronology/events/index.md)\n\n"
+         "</div>\n</div>\n"),
     ],
     # Gestalt is no longer in play. Its page is archived, and the training
     # times the houserules gave a gestalt character go with it.
@@ -492,18 +504,13 @@ MERGES = {
 # Pages whose content belongs at the foot of another page rather than on one
 # of its own. The source page is not written; links to it follow the content.
 # Cards that have moved to another page since the import. The Antæran
-# calendar - its months, days, seasons and holidays - is one sphere's way of
-# keeping time rather than the setting's, so it sits on that sphere's page;
-# what stays behind is the run of eras, which is the setting's timeline.
-#
-# The card that opens the calendar is called "Overview" because it was the
-# first card of its own page. On the sphere's page it has to say what it is
-# the overview of.
+# calendar - its months, days, seasons and holidays - has a page of its own
+# under the chronology; what stays behind is the run of eras, which is the
+# setting's timeline.
 MOVED_CARDS = {
     "calendar": {
-        "target": "spelljamming-sphere-antaera",
+        "target": "chronology-calendar",
         "cards": ["Overview", "The Seasons", "Months", "Days", "Holidays & Events"],
-        "rename": {"Overview": "The Antæran Calendar"},
     },
 }
 
@@ -850,7 +857,9 @@ ARCHIVED_FOLDERS = {"wm"}
 # it as deprecated: it ranks the Living Gods as Intermediate where The
 # Pantheons has them Greater, and files several deities under alignments they
 # no longer hold.
-ARCHIVED_PAGES = {"pantheon", "gestalt"}
+ARCHIVED_PAGES = {"pantheon", "gestalt",
+                  # Gods of the old pantheon the current one has no place for.
+                  "deity-trelanni", "deity-cavri", "deity-tari", "deity-ythedie"}
 
 # Pages that do not carry their name on a card of their own. The main page is
 # the only one: it opens on the wiki's header picture and the world's overview,
@@ -1223,10 +1232,119 @@ RENAMED = {
     # It carries the wiki's legal notes and the Open Game License now,
     # and the menu calls it that.
     "disclaimer": "disclaimer-legal.md",
+    # The calendar and the events have pages of their own under the
+    # chronology - see relocated().
+    "chronology-calendar": "chronology/calendar.md",
+    "chronology-events": "chronology/events/index.md",
     # Taint's two companions sit under it, named for their titles.
     "rules-taint-dread-effects": "rules/taint/dread-effects.md",
     "rules-taint-haunting-presences": "rules/taint/haunting-presences.md",
 }
+
+
+# The wiki's addresses follow its structure, set out in relocated(): a hub's
+# pages under the hub, by branch (spelljammer/spheres/<sphere>), each god
+# under their pantheon (pantheons/<pantheon>/<god>), and the calendar and the
+# events under the chronology. Pages are written where the import puts them
+# and moved last, by relocate_site(), which carries every link with them.
+PANTHEON_OF = {
+    "mortal-pantheon": {"ornus", "fink", "orion", "leshrac", "sezzek", "fronir", "nessa",
+                        "silfaraan", "enigma", "droma", "ithlwick", "rasmin", "vaylen",
+                        "asmodeus", "alpha"},
+    "courts-of-faerie": {"cervidur"},
+    "imperial-pantheon": {"ukrol"},
+    # Gods of the old pantheon who have died, kept as the references the
+    # others' histories lean on.
+    "dead-deities": {"amaris", "thalrend", "eldron", "virelia", "seraphis",
+                     "malcator", "draxus", "nyxara", "gorthak"},
+    # Gods of the old pantheon the current one has no place for.
+    "archived": {"trelanni", "cavri", "tari", "ythedie"},
+}
+# A god's address is their name, in full where they have two.
+GOD_NAMES = {"vrog-thul": "vrogthul", "leonis": "leonus-ironmane",
+             "lux": "lux-dawnbringer", "thrain": "thrain-stoneheart"}
+
+
+def relocated(path):
+    """Where a page written at path (under docs/) is served from."""
+    folder, _, name = path.rpartition("/")
+    base = name[:-3]
+    if path == "pantheons.md":
+        return "pantheons/index.md"
+    if folder == "pantheon":
+        rank, _, god = base.partition("-")
+        pantheon = {"deity": "primal-pantheon", "mortal": "mortal-pantheon"}[rank]
+        return "pantheons/%s/%s.md" % (pantheon, GOD_NAMES.get(god, god))
+    if folder == "deity":
+        pantheon = next(p for p, gods in PANTHEON_OF.items() if base in gods)
+        return "pantheons/%s/%s.md" % (pantheon, GOD_NAMES.get(base, base))
+    if folder == "spelljamming":
+        if base == "main":
+            return "spelljammer/index.md"
+        if base == "known-spheres":
+            return "spelljammer/spheres/index.md"
+        if base.startswith("sphere-"):
+            return "spelljammer/spheres/%s.md" % base[len("sphere-"):]
+        return "spelljammer/" + name
+    if path == "taxonomy-main.md":
+        return "taxonomies/index.md"
+    if folder == "anthropology":
+        return "taxonomies/" + name
+    if path == "calendar.md":
+        return "chronology/index.md"
+    if path.startswith("events-"):
+        return "chronology/events/" + name[len("events-"):]
+    return path
+
+
+def final_path(slug):
+    """Where a slug's page is served from, once relocated."""
+    return relocated(target_path(slug))
+
+
+def relocate_site():
+    """Move every page to its address, and every link to follow it.
+
+    A link is read against the page it sits on as it was written, and
+    rewritten against where both pages are now.
+    """
+    files = []
+    for root, _, names in os.walk(DOCS):
+        for n in names:
+            if n.endswith(".md"):
+                files.append(os.path.relpath(os.path.join(root, n), DOCS).replace("\\", "/"))
+    moves = {f: relocated(f) for f in files}
+    known = set(files)
+
+    def relink(src):
+        here, there = posixpath.dirname(src), posixpath.dirname(moves[src])
+
+        def one(m):
+            target, anchor = m.group(2), m.group(3) or ""
+            old = posixpath.normpath(posixpath.join(here, target))
+            if old not in known:
+                return m.group(0)
+            new = posixpath.relpath(moves[old], there or ".")
+            return m.group(1) + new + anchor + ")"
+        return one
+
+    texts = {}
+    for f in files:
+        with open(os.path.join(DOCS, f), encoding="utf-8") as fh:
+            text = fh.read()
+        texts[f] = re.sub(r"(\]\()(?!https?:|/|#|mailto:)([^)\s#]+\.md)(#[^)\s]*)?\)",
+                          relink(f), text)
+    for f in files:
+        if moves[f] != f:
+            os.remove(os.path.join(DOCS, f))
+    for f in files:
+        out = os.path.join(DOCS, moves[f])
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        with open(out, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(texts[f])
+    for root, dirs, names in os.walk(DOCS, topdown=False):
+        if not dirs and not names:
+            os.rmdir(root)
 
 
 def target_path(slug):
@@ -1282,6 +1400,8 @@ TITLES = {
     "ornus": "Ornus, Lord of Constructs",
     "spelljamming-sphere-concordia": "The Concordia Sphere",
     "spelljamming-helmsman-feats": "Helmsman Feats",
+    "chronology-calendar": "Antæran Calendar",
+    "chronology-events": "Events",
     "spelljamming-skills-feats": "Skills & Feats",
     "spelljamming-helms-hulls": "Helms & Hulls",
     "spelljamming-combat-movement": "Combat & Movement",
@@ -4029,6 +4149,7 @@ def main(backup):
     written += 1
 
     finish_site()
+    relocate_site()
 
     print("pages written : %d  (skipped %d system pages)" % (written, len(slugs) - len(keep)))
     print("TODO markers  : %d" % len(TODO))

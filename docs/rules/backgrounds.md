@@ -116,7 +116,7 @@ If a character has 5 ranks in the associated profession skill, they gain a +2 in
 <div class="wd-cell" markdown>
 
 # Regional Backgrounds
-The regions of these backgrounds are on the [Antæran Sphere](../spelljamming/sphere-antaera.md). A character with a regional background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is also a native of the appropriate region. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
+The regions of these backgrounds are on the [Antæran Sphere](../spelljammer/spheres/antaera.md). A character with a regional background gains a +2 insight bonus on Diplomacy checks to adjust the attitude of an NPC that is also a native of the appropriate region. If a character has 5 ranks in the associated profession skill, they gain a +2 synergy bonus on the chosen associated skill that is not the associated profession.
 ## Antæran Plains Native
 *As a citizen of the New Haven Imperium, you grew up in a culture that is heavily militaristic and xenophobic.*
 
@@ -357,7 +357,7 @@ A character with an Extraplanar background gains the Extraplanar subtype when no
 <div class="wd-cell" markdown>
 
 # Spelljamming Backgrounds
-You are native to a spelljamming-aware society. As such, you gain the [Spacefarer](../spelljamming/skills-feats.md#spacefarer-general) feat at 1st level. This feat cannot be retrained.
+You are native to a spelljamming-aware society. As such, you gain the [Spacefarer](../spelljammer/skills-feats.md#spacefarer-general) feat at 1st level. This feat cannot be retrained.
 
 ## Astral Diplomat
 *You have been trained in the ways of the word. Your skills with politics and diplomacy serve you well.*

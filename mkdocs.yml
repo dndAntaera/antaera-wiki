@@ -96,11 +96,11 @@ nav:
   - Main Page: index.md
   - Character Creation: character-creation.md
   - The Index: the-index.md
-  - The Pantheons: pantheons.md
+  - The Pantheons: pantheons/index.md
   - The Cosmology: cosmology.md
-  - The Known Spheres: spelljamming/known-spheres.md
-  - Taxonomies: taxonomy-main.md
-  - Setting Timeline: calendar.md
-  - Spelljamming: spelljamming/main.md
+  - The Known Spheres: spelljammer/spheres/index.md
+  - Taxonomies: taxonomies/index.md
+  - Setting Timeline: chronology/index.md
+  - Spelljamming: spelljammer/index.md
   - "Disclaimer & Legal": disclaimer-legal.md
   - Sheet Tracker 3.5e: https://dndantaera.github.io/antaera-sheets/

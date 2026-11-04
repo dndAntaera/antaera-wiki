@@ -29,7 +29,7 @@ If there is nothing positive to say of the [Imperium](../nation/new-haven-imperi
 
 The nobility of the [Imperium](../nation/new-haven-imperium.md) consists mostly of the royal family, officers of the military, and wealthy imperial merchants. While most of the nobility have been so for generations, it is possible for citizens to become nobility through merit.
 
-It is commonly believed in other parts of the continent that the [Imperium](../nation/new-haven-imperium.md) are the remnants of an ancient Cult of [Ukrol](../deity/ukrol.md), given that most citizens in the [Imperium](../nation/new-haven-imperium.md) still revere the Patron of Humanity. While there is no hard evidence to suggest this, it is rumored that the cult was resurrected with the rise of the [Imperium](../nation/new-haven-imperium.md) at the start of the 5th Era. It was around this time that the [Imperium](../nation/new-haven-imperium.md) adopted its imperial methods and started its expansion into other parts of the world.
+It is commonly believed in other parts of the continent that the [Imperium](../nation/new-haven-imperium.md) are the remnants of an ancient Cult of [Ukrol](../pantheons/imperial-pantheon/ukrol.md), given that most citizens in the [Imperium](../nation/new-haven-imperium.md) still revere the Patron of Humanity. While there is no hard evidence to suggest this, it is rumored that the cult was resurrected with the rise of the [Imperium](../nation/new-haven-imperium.md) at the start of the 5th Era. It was around this time that the [Imperium](../nation/new-haven-imperium.md) adopted its imperial methods and started its expansion into other parts of the world.
 
 </div>
 </div>
@@ -131,7 +131,7 @@ This quarter of the city is where the nobility resides, whether they are powerfu
     - Guildhall District, former
 
 ## The Citadel
-The seat of power in the entire [Imperium](../nation/new-haven-imperium.md), and the home of the Imperial family. It is also home to the religious center of the [Imperium](../nation/new-haven-imperium.md), which is believed to be dedicated to Superbia, though it is rumored to actually be dedicated to [Ukrol](../deity/ukrol.md). The only race allowed in are humans, as there is a powerful barrier erected around it that repels non-humans. Scholars believe that it is a powerful misuse of a Mythal, and is usually one of the subjects of many international disputes and disagreements. Though there is no substantial proof of this, anyone who accuses them of this is usually found to have suspiciously died of natural causes a few weeks later.
+The seat of power in the entire [Imperium](../nation/new-haven-imperium.md), and the home of the Imperial family. It is also home to the religious center of the [Imperium](../nation/new-haven-imperium.md), which is believed to be dedicated to Superbia, though it is rumored to actually be dedicated to [Ukrol](../pantheons/imperial-pantheon/ukrol.md). The only race allowed in are humans, as there is a powerful barrier erected around it that repels non-humans. Scholars believe that it is a powerful misuse of a Mythal, and is usually one of the subjects of many international disputes and disagreements. Though there is no substantial proof of this, anyone who accuses them of this is usually found to have suspiciously died of natural causes a few weeks later.
 
 - Social Class: Upper
 - Population

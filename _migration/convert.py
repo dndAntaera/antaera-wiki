@@ -859,7 +859,7 @@ ARCHIVED_FOLDERS = {"wm"}
 # no longer hold.
 ARCHIVED_PAGES = {"pantheon", "gestalt",
                   # Gods of the old pantheon the current one has no place for.
-                  "deity-trelanni", "deity-cavri", "deity-tari", "deity-ythedie"}
+                  "trelanni", "cavri", "tari", "ythedie"}
 
 # Pages that do not carry their name on a card of their own. The main page is
 # the only one: it opens on the wiki's header picture and the world's overview,

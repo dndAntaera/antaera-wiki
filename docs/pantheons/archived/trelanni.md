@@ -1,5 +1,8 @@
 ---
 title: "Trelanni, Patron of the Elves"
+archived: true
+search:
+  exclude: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

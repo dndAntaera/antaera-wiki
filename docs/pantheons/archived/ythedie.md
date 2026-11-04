@@ -1,5 +1,8 @@
 ---
 title: "Ythedie, Mother of Chromatic Dragons"
+archived: true
+search:
+  exclude: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

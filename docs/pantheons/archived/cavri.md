@@ -1,5 +1,8 @@
 ---
 title: "Cavri, Queen of the Seelie Court"
+archived: true
+search:
+  exclude: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

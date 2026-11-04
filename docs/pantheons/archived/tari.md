@@ -1,5 +1,8 @@
 ---
 title: "Tari, Queen of the Unseelie Court"
+archived: true
+search:
+  exclude: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>

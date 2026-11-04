@@ -2975,6 +2975,75 @@ def spell_own_card(text, spell):
     return text[:m.start()] + rows + text[m.end():]
 
 
+# Small corrections on Taint, made once its cards are in place.
+TAINT_FIXES = [
+    ("﻿", ""),
+    ("**2nd Round**:Number", "**2nd Round**: Number"),
+    ("*Miracle* or *Wish*:", "**Miracle** or **Wish**:"),
+    ("tainted minion-a hideous", "tainted minion—a hideous"),
+    ("**Components**: V, S,<br>", "**Components**: V, S<br>"),
+]
+
+# A table its card doesn't name, and the paragraph it follows.
+TABLE_AFTER = {"Tainted Reanimation": "As terrible as the effects of taint"}
+
+
+def _row_spans(text):
+    """Each card row on a page: (start, end)."""
+    spans, at = [], 0
+    for m in re.finditer(r'<div class="wd-row"[^>]*>', text):
+        if m.start() >= at:
+            at = _div_span(text, m.start())
+            spans.append((m.start(), at))
+    return spans
+
+
+def tables_into_cards(text):
+    """Tables standing in cards of their own, put into the card before them.
+
+    A table goes after the paragraph that names it ("the Taint Threshold
+    table"), or the one TABLE_AFTER gives. A caption floating beside the card
+    in a sidebar of its own goes under the table, and the table between the
+    card's opening and its first subheading. Any other goes at the card's end.
+    """
+    while True:
+        rows = _row_spans(text)
+        for k in range(1, len(rows)):
+            start, end = rows[k]
+            m = re.match(r'<div class="wd-row" markdown>\n<div class="wd-cell" markdown>\n\n'
+                         r'(\|.*?)\n+</div>\n</div>\n?$', text[start:end], re.S)
+            if m:
+                break
+        else:
+            return text
+        table = m.group(1).rstrip("\n")
+        hstart, hend = rows[k - 1]
+        host = text[hstart:hend]
+        side = re.search(r'</div>\n<div class="wd-cell wd-plain" markdown>\n\n(\*[^*\n]+\*)\n\n</div>\n',
+                         host)
+        if side:
+            table += "\n\n" + side.group(1) + "\n{: .wd-table-note }"
+            host = host[:side.start()] + "</div>\n" + host[side.end():]
+            host = re.sub(r'^<div class="wd-row" style="--wd-cols: [^"]*" markdown>',
+                          '<div class="wd-row" markdown>', host)
+            host = re.sub(r"\n</div>\n\n</div>", "\n</div>\n</div>", host)
+        name = re.search(r"^\*([^*\n]+)\*\n\{: \.wd-table-note \}$", table, re.M)
+        name = name.group(1) if name else ""
+        para = (re.escape(TABLE_AFTER[name]) if name in TABLE_AFTER
+                else r"[^\n]*\b" + re.escape(name) + r" table\b")
+        # A paragraph, not a table's own note that names another table.
+        named = name and re.search(r"^(?![|\\{*])" + para + r"[^\n]*\n", host, re.M)
+        sub = re.search(r"^## ", host, re.M)
+        if named:
+            at = named.end()
+        elif side and sub:
+            at = sub.start()
+        else:
+            at = host.rindex("\n</div>\n</div>") + 1
+        host = host[:at].rstrip("\n") + "\n\n" + table + "\n\n" + host[at:].lstrip("\n")
+        text = text[:hstart] + host + text[end:]
+
+
 def finish_site():
     """The passes that need every page written first.
 
@@ -3027,7 +3096,13 @@ def finish_site():
         text = fh.read()
     with open(tpath, "w", encoding="utf-8", newline="\n") as fh:
         # Its heading was the page's only level two; the levels close up after.
-        fh.write(heading_levels(spell_own_card(text, "Detect Taint")))
+        # The tables go into their cards, and the page's small faults are put right.
+        text = tables_into_cards(heading_levels(spell_own_card(text, "Detect Taint")))
+        for old, new in TAINT_FIXES:
+            if old not in text:
+                TODO.append(("rules-taint", "fix %r not found" % old))
+            text = text.replace(old, new)
+        fh.write(text)
 
     lines = ptext.split("\n")
     weapons = []

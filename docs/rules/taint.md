@@ -38,11 +38,11 @@ A creature's effective level of Taint is the combined total of their Corruption 
 # Taint and Alignment
 While characters with a minor amount of taint aren’t necessarily evil, they probably are. The more taint they acquire, the more evil they become. However, all evil characters accrue some form of Taint in one way or another. Characters with the Evil subtype at creation have a Corruption score equal to ½ their Constitution mod and a Depravity score equal to ½ their Wisdom mod. Evil non-humanoids always have a Corruption score equal to ½ their Constitution mod and a Depravity score equal to ½ their Wisdom mod.
 
-﻿A character's alignment can be affected by acquired taint. As characters acquire more corruption, particularly as they acquire more and more depravity, they are increasingly inclined toward evil acts. The stench of evil clings to a character with at least moderate taint, causing them to register as evil to a *detect evil* spell. Any actual alignment change is up to the DM's discretion, but as a rule of thumb, characters with moderate taint are neutral at best, while characters with severe taint are usually evil.
+A character's alignment can be affected by acquired taint. As characters acquire more corruption, particularly as they acquire more and more depravity, they are increasingly inclined toward evil acts. The stench of evil clings to a character with at least moderate taint, causing them to register as evil to a *detect evil* spell. Any actual alignment change is up to the DM's discretion, but as a rule of thumb, characters with moderate taint are neutral at best, while characters with severe taint are usually evil.
 
 The Paladin's Detect Evil ability also detects Taint.
 
-## ﻿Deities and Codes of Conduct
+## Deities and Codes of Conduct
 Clerics of good deities risk divine displeasure if they acquire too much taint. Divine warnings might begin when a cleric acquires moderate levels of corruption or depravity, or perhaps even sooner. If a cleric of a good deity acquires severe levels of taint, they are considered to have grossly violated the deity's code of conduct and loses all spells and class features until they atone and reduce their taint to at most moderate levels.
 
 A paladin who acquires moderate levels of taint loses all paladin spells and abilities and cannot advance further as a paladin until they atone and reduce their taint to at most mild levels.
@@ -75,7 +75,7 @@ Tainted locales have additional effects beyond increasing the taint of character
 
 Some locations are so suffused with evil that simply entering them exposes a character to corruption or depravity, and lingering there deals increasing taint. For example, an evil temple that has hosted hundreds of human sacrifices, a portal to an evil plane, the crypt-home of a powerful lich, or the site of a mass murder might all harbor some degree of taint. Entire planes of existence might also be suffused with taint.
 
-Depending on the nature of the site, a tainted location can bestow either corruption or depravity upon characters who enter it. Sites strongly associated with the undead and with death often bestow corruption, while sites linked to ﻿evil outsiders and human evil more often bestow depravity. In general, initial exposure to such a tainted place increases a character's taint score (either corruption or depravity) by 1 point. If the evil of the place is very great, it could increase the character's taint score by 1d3 or even 1d4 points. Characters can attempt a saving throw (Fortitude to resist corruption, Will to resist depravity) to avoid this taint or reduce the size of the increase to their taint scores. The DC ranges from 20 for a typical site up to 25 or 30 for extremely malevolent locales.
+Depending on the nature of the site, a tainted location can bestow either corruption or depravity upon characters who enter it. Sites strongly associated with the undead and with death often bestow corruption, while sites linked to evil outsiders and human evil more often bestow depravity. In general, initial exposure to such a tainted place increases a character's taint score (either corruption or depravity) by 1 point. If the evil of the place is very great, it could increase the character's taint score by 1d3 or even 1d4 points. Characters can attempt a saving throw (Fortitude to resist corruption, Will to resist depravity) to avoid this taint or reduce the size of the increase to their taint scores. The DC ranges from 20 for a typical site up to 25 or 30 for extremely malevolent locales.
 
 Other environments, such as [Dread Effects](taint-dread-effects.md) and [Haunting Presences](taint-haunting-presences.md), may affect the amount of Taint in an area.
 
@@ -88,7 +88,7 @@ Other environments, such as [Dread Effects](taint-dread-effects.md) and [Hauntin
 *Divination*
 
 **Level**: Cleric 1<br>
-**Components**: V, S,<br>
+**Components**: V, S<br>
 **Casting Time**: 1 standard action<br>
 **Range**: 60 ft<br>
 **Area**: Cone-shaped emanation<br>
@@ -99,7 +99,7 @@ Other environments, such as [Dread Effects](taint-dread-effects.md) and [Hauntin
 You can sense the presence of taint in nearby objects and creatures. The amount of information revealed depends on how long you study a particular area or subject:
 
 **1st Round**: Presence or absence of taint within the area.<br>
-**2nd Round**:Number of tainted creatures in the area and the strength of the strongest tainted aura present. If you are free of taint, if the strongest tainted aura is overwhelming (see below), and if the strength of the tainted aura is at least twice your character level, you are nauseated for 1 round and the spell ends.<br>
+**2nd Round**: Number of tainted creatures in the area and the strength of the strongest tainted aura present. If you are free of taint, if the strongest tainted aura is overwhelming (see below), and if the strength of the tainted aura is at least twice your character level, you are nauseated for 1 round and the spell ends.<br>
 **3rd Round**: The strength and location of each tainted aura. If a tainted aura is outside your line of sight, you discern its direction but not its exact location.
 
 **Aura Strength**: The strength of a tainted aura depends on the corruption or depravity score (whichever is higher) of the creature you are detecting, or the amount of taint bestowed by an object, location, or creature without a taint score. If an aura falls into more than one strength category, you learn about the stronger of the two.
@@ -142,11 +142,11 @@ The following spells can reduce taint scores when cast outside tainted areas. No
 
 **Atonement**: This spell can remove taint, but with limits. First, it always requires a quest. Second, the caster chooses a number up to their caster level when he casts the atonement, and the spell reduces the target's corruption and depravity scores by that amount. This use of atonement, which costs the caster 500 XP, can reduce taint to a lower taint level.<br>
 **Heal**: This spell reduces a character's corruption and depravity scores by 1 point per three caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild or moderate taint, heal can reduce taint below that threshold.<br>
-*Miracle* or *Wish*: These spells remove sufficient taint to place the target at the highest threshold of the next lower taint level, regardless of how much time has passed.<br>
+**Miracle** or **Wish**: These spells remove sufficient taint to place the target at the highest threshold of the next lower taint level, regardless of how much time has passed.<br>
 **Remove Curse**: This spell reduces the character's depravity score by 1.<br>
 **Remove Disease**: This spell reduces the character's corruption score by 1.<br>
 **Restoration**: This spell reduces the character's corruption and depravity scores by 1 point per four caster levels. If used within 24 hours of the target's acquiring enough taint to qualify as mild taint, it can reduce taint below that threshold.<br>
-**Greater Restoration**: This spell reduces the character's corruption and depravity scores by a number of points equal to the caster level of the cleric casting greater restoration. If ﻿used within 24 hours of a taint threshold being crossed, it can reduce taint to below that threshold.
+**Greater Restoration**: This spell reduces the character's corruption and depravity scores by a number of points equal to the caster level of the cleric casting greater restoration. If used within 24 hours of a taint threshold being crossed, it can reduce taint to below that threshold.
 
 ## Good Deeds
 Simple good deeds are not enough to remove taint. A character wishing to reduce their depravity score through good deeds must undertake a specific ritual under the guidance of one of their deity's clerics. The ritual prepares the character to undertake the deed.
@@ -161,16 +161,9 @@ Alternatively, good deeds might be quests undertaken on behalf of the deity. Aft
 Springs sacred to a particular deity or cause are located in remote regions and can be reached only by long and dangerous travel. For each day a character spends resting and cleansing himself at a sacred spring, their corruption score is reduced by 1 point. A character using this method to reduce their corruption score can undertake no activities other than resting, eating, sleeping, meditation, and normal conversation.
 
 ## Resisting Taint
-﻿﻿There are natural substances that absorb taint and thus protect those who carry them. Some examples include a locket containing holy scriptures, a book containing holy and pure imagery, an intricately crafted silver ring, or a silk sash. Regardless of the shape or substance of the item, taint-absorbing items must contain a stabilized Positive Planar Crystal. The amount of taint an object absorbs is determined by the purity of the Planar Crystal that it features.
+There are natural substances that absorb taint and thus protect those who carry them. Some examples include a locket containing holy scriptures, a book containing holy and pure imagery, an intricately crafted silver ring, or a silk sash. Regardless of the shape or substance of the item, taint-absorbing items must contain a stabilized Positive Planar Crystal. The amount of taint an object absorbs is determined by the purity of the Planar Crystal that it features.
 
 As the crystal absorbs taint, it darkens, becomes brittle, and gradually dissolves into nothing. During this time, it absorbs all taint to which the carrier is exposed up to a number of points determined by its purity. Multiple items protect a character from more taint, but only to a point, as described in the Multiple Items table. If a character carries multiple taint-absorbing items, they all decompose gradually at the same time, distributing the absorbed taint among every item carried. The presence of multiple items seems to amplify the taint even as the items absorb it, causing them to decompose more rapidly.
-
-Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The item the crystal is being put into will determine which craft skill will be used.
-
-</div>
-</div>
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
 
 | Items Possessed | Points Absorbed |
 |---|---|
@@ -191,10 +184,7 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 *Multiple Items*
 {: .wd-table-note }
 
-</div>
-</div>
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The item the crystal is being put into will determine which craft skill will be used.
 
 | Purity | Absorption | Craft DC | Craft Cost | Market Price |
 |---|---|---|---|---|
@@ -211,32 +201,9 @@ Taint-Absorbing items may be crafted using the Taint-Absorbing Items table. The 
 <div class="wd-cell" markdown>
 
 # Effects of Taint
-﻿Both corruption and depravity manifest in mild, moderate, and severe symptoms. The relationship between a character's taint scores and their Constitution and Wisdom scores determines the severity of the physical and mental manifestations of their taint. A character with a high Constitution can acquire more corruption before displaying physical symptoms, while a character with a low Wisdom quickly manifests mental symptoms of their depravity.
+Both corruption and depravity manifest in mild, moderate, and severe symptoms. The relationship between a character's taint scores and their Constitution and Wisdom scores determines the severity of the physical and mental manifestations of their taint. A character with a high Constitution can acquire more corruption before displaying physical symptoms, while a character with a low Wisdom quickly manifests mental symptoms of their depravity.
 
 To determine the severity of a character's taint symptoms, first find their Constitution score in the leftmost column of the Taint Threshold table and read across until you find the column to the right that includes their current physical corruption score. The top of that column indicates the severity of their physical taint symptoms. Then repeat the process with their Wisdom score and their depravity score to determine the severity of their mental taint symptoms.
-
-**No Taint**: A character with no taint manifests no symptoms.
-
-**Mild Taint**: A character who gains their first point of taint crosses the threshold into mild taint and must receive a *restoration*, *heal*, or *greater restoration* spell and have their taint reduced to 0 within 24 hours or be permanently afflicted with mild taint. If a character retains mild taint after 24 hours, they manifest one minor physical or mental symptom from the descriptions below. A character with mild depravity and mild corruption manifests one physical symptom and one mental symptom. Once a character manifests a minor symptom, only a *miracle* or *wish* spell can remove the symptom and return the character's taint to 0.
-
-**Moderate Taint**: A character who gains enough taint to cross the threshold into moderate taint must receive a *heal* or *greater restoration* spell and have their taint reduced to mild taint level within 24 hours or be permanently afflicted with moderate taint. If a character retains moderate taint after 24 hours, he manifests one moderate physical or mental symptom from the descriptions below. A character with moderate depravity and moderate corruption manifests one physical symptom and one mental symptom. Once a character manifests a moderate symptom, only a *miracle* or *wish* spell can remove the symptom and return the character's taint to mild. A character with moderate taint keeps the symptoms he gained from mild taint in addition to the new ones gained from moderate taint.
-
-**Severe Taint**: A character who gains enough taint to cross the threshold into severe taint must receive a *greater restoration* spell and have their taint reduced to moderate taint level within 24 hours or be permanently afflicted with severe taint. If a character retains severe taint after 24 hours, they manifest ﻿one severe physical or mental symptom from the descriptions below. A character with severe depravity and severe corruption manifests one physical symptom and one mental symptom. Once a character manifests a severe symptom, only a *miracle* or *wish* spell can remove the symptom and return the character's taint to moderate.
-
-For example, Regdar has a Constitution of 14 and a Wisdom of 8. If he acquires 4 points of corruption and 4 points of depravity, he displays only mild physical symptoms (one mild physical symptom), but moderate mental symptoms (one mild mental symptom and one moderate mental symptom). When their corruption and depravity scores each reach 12, he has moderate corruption (and manifests a moderate physical symptom) and severe depravity (and manifests a severe mental symptom).
-
-If a character's corruption score ever exceeds the severe taint threshold, she dies, and 1d6 hours later, they rise as a tainted minion-a hideous, evil creature under the control of the DM.
-
-If a character's depravity score exceeds the severe taint threshold, they go irretrievably mad. He gains the tainted raver template and (if a player character) falls under the control of the DM.
-
-As terrible as the effects of taint are upon the living, they are even worse upon the dead. Any creature that dies while exposed to taint animates in 1d4 hours later as a hideous, evil creature under the control of the GM. What creature it becomes depends on the amount of HD it had before dying. Burning a corpse protects it from this effect. The type of creature is found on the Tainted Reanimation table.
-
-To determine the exact nature of a character's physical or mental taint symptoms, roll 1d10 and look up the result on the accompanying Corruption Effects and Depravity Effects tables. If the character later gains more taint and crosses the threshold into a higher level (mild to moderate or moderate to severe), he gains the next symptom to the right on the table. For example, if Regdar's mild level of corruption is expressed as the mild physical symptom "feet curl," then if their corruption score rises to moderate, he will also manifest the symptom "joint pain."
-
-</div>
-</div>
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
 
 | Con/Wis Score | No Taint | Mild Taint | Moderate Taint | Severe Taint | Dead/Insane |
 |---|---|---|---|---|---|
@@ -253,10 +220,21 @@ To determine the exact nature of a character's physical or mental taint symptoms
 *Taint Threshold*
 {: .wd-table-note }
 
-</div>
-</div>
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
+**No Taint**: A character with no taint manifests no symptoms.
+
+**Mild Taint**: A character who gains their first point of taint crosses the threshold into mild taint and must receive a *restoration*, *heal*, or *greater restoration* spell and have their taint reduced to 0 within 24 hours or be permanently afflicted with mild taint. If a character retains mild taint after 24 hours, they manifest one minor physical or mental symptom from the descriptions below. A character with mild depravity and mild corruption manifests one physical symptom and one mental symptom. Once a character manifests a minor symptom, only a *miracle* or *wish* spell can remove the symptom and return the character's taint to 0.
+
+**Moderate Taint**: A character who gains enough taint to cross the threshold into moderate taint must receive a *heal* or *greater restoration* spell and have their taint reduced to mild taint level within 24 hours or be permanently afflicted with moderate taint. If a character retains moderate taint after 24 hours, he manifests one moderate physical or mental symptom from the descriptions below. A character with moderate depravity and moderate corruption manifests one physical symptom and one mental symptom. Once a character manifests a moderate symptom, only a *miracle* or *wish* spell can remove the symptom and return the character's taint to mild. A character with moderate taint keeps the symptoms he gained from mild taint in addition to the new ones gained from moderate taint.
+
+**Severe Taint**: A character who gains enough taint to cross the threshold into severe taint must receive a *greater restoration* spell and have their taint reduced to moderate taint level within 24 hours or be permanently afflicted with severe taint. If a character retains severe taint after 24 hours, they manifest one severe physical or mental symptom from the descriptions below. A character with severe depravity and severe corruption manifests one physical symptom and one mental symptom. Once a character manifests a severe symptom, only a *miracle* or *wish* spell can remove the symptom and return the character's taint to moderate.
+
+For example, Regdar has a Constitution of 14 and a Wisdom of 8. If he acquires 4 points of corruption and 4 points of depravity, he displays only mild physical symptoms (one mild physical symptom), but moderate mental symptoms (one mild mental symptom and one moderate mental symptom). When their corruption and depravity scores each reach 12, he has moderate corruption (and manifests a moderate physical symptom) and severe depravity (and manifests a severe mental symptom).
+
+If a character's corruption score ever exceeds the severe taint threshold, she dies, and 1d6 hours later, they rise as a tainted minion—a hideous, evil creature under the control of the DM.
+
+If a character's depravity score exceeds the severe taint threshold, they go irretrievably mad. He gains the tainted raver template and (if a player character) falls under the control of the DM.
+
+As terrible as the effects of taint are upon the living, they are even worse upon the dead. Any creature that dies while exposed to taint animates in 1d4 hours later as a hideous, evil creature under the control of the GM. What creature it becomes depends on the amount of HD it had before dying. Burning a corpse protects it from this effect. The type of creature is found on the Tainted Reanimation table.
 
 | HD Before Death | Transforms Into |
 |---|---|
@@ -268,13 +246,31 @@ To determine the exact nature of a character's physical or mental taint symptoms
 *Tainted Reanimation*
 {: .wd-table-note }
 
+To determine the exact nature of a character's physical or mental taint symptoms, roll 1d10 and look up the result on the accompanying Corruption Effects and Depravity Effects tables. If the character later gains more taint and crosses the threshold into a higher level (mild to moderate or moderate to severe), he gains the next symptom to the right on the table. For example, if Regdar's mild level of corruption is expressed as the mild physical symptom "feet curl," then if their corruption score rises to moderate, he will also manifest the symptom "joint pain."
+
 </div>
 </div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
+<div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
 # Physical Symptoms
 Corruption manifests as physical symptoms: muscular degeneration, illness, frailty, and the like.
+
+| d10 | Mild | Moderate | Severe |
+|---|---|---|---|
+| 1 | Dead eye | Lips shrink | Lich eyes |
+| 2 | Ear scabs | Fingers and toes fuse | Shriveled flesh |
+| 3 | Gums swell | Bones thicken | Great swollen growths |
+| 4 | Feet curl | Joint pain | Spine twists |
+| 5 | Lumps | Eruption of sores | Wrigglers |
+| 6 | Odor of decay | Paralyzed face | Nose rots |
+| 7 | Palsy | Uncontrollable seizures | Skull deformed |
+| 8 | Skin seeps | Blood eruption | Internal corruption |
+| 9 | Skin sloughs | Skin thickens | Skin lichen |
+| 10 | Winded | Chronic illness | Lungs eaten away |
+
+*Corruption Effects*
+{: .wd-table-note }
 
 ## Mild Corruption Effects
 **Dead Eye**: Your eyes begin to cloud over, obscuring your vision. In combat, every time you attack an opponent that has concealment, roll your miss chance twice. If either or both results indicate that you miss, your attack fails.<br>
@@ -291,7 +287,7 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 ## Moderate Corruption Effects
 **Blood Eruption**: In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 1d4 rounds.<br>
 **Bones Thicken**: Your skeleton warps and thickens. Raise your Strength score by 2, and reduce your Dexterity score by 4.<br>
-**Chronic Illness**: You are plagued with a phlegm-laden, wracking cough. You also suffer occasional bouts of vomiting, ﻿often at specific times of day. You take a -2 penalty on Fortitude saves.<br>
+**Chronic Illness**: You are plagued with a phlegm-laden, wracking cough. You also suffer occasional bouts of vomiting, often at specific times of day. You take a -2 penalty on Fortitude saves.<br>
 **Eruption of Sores**: Open, painful sores, some leaking blood or pus, erupt on your body. You take a -1 penalty on Strength and Charisma-based ability checks and skill checks.<br>
 **Fingers and Toes Fuse**: Your fingers and toes web and fuse. You take a -2 penalty on your attack rolls. Whenever you cast a spell with a somatic component, you must succeed on a DC 15 + Spell Level caster level check or the spell fails to activate.<br>
 **Joint Pain**: Your joints, particularly your knees and elbows, sometimes flare up in sharp pain. You take a -2 penalty on Reflex saves.<br>
@@ -302,7 +298,7 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 
 ## Severe Corruption Effects
 **Great Swollen Growths**: Great swollen growths appear on your body. You take a -2 penalty to your Armor Class.<br>
-**Internal Corruption**: Though your corruption is not visible to others, the inside of your body is a festering cesspool of corruption. Bloody pus pools in your body cavities, strange ﻿growths develop on your organs, or tiny limbs or heads bud beneath your skin. Reduce your Constitution score by 2.
+**Internal Corruption**: Though your corruption is not visible to others, the inside of your body is a festering cesspool of corruption. Bloody pus pools in your body cavities, strange growths develop on your organs, or tiny limbs or heads bud beneath your skin. Reduce your Constitution score by 2.
 
 Some prestige classes allow a character to take this symptom in place of any other one. This symptom allows you to hide your corruption because it is all internal. This symptom can even be taken to replace a mild or moderate symptom if desired. No extra bonus feat is granted if this symptom is taken to replace a mild symptom.
 
@@ -316,36 +312,28 @@ Some prestige classes allow a character to take this symptom in place of any oth
 **Wrigglers**: Parasitic worms protrude from your sores, sapping your strength. Reduce your Strength score by 2. You gain a +2 bonus to Intimidate checks and take a -4 penalty on other Charisma-based checks.
 
 </div>
-<div class="wd-cell wd-plain" markdown>
-
-*Corruption Effects*
-
-</div>
-
 </div>
 <div class="wd-row" markdown>
 <div class="wd-cell" markdown>
 
-| d10 | Mild | Moderate | Severe |
-|---|---|---|---|
-| 1 | Dead eye | Lips shrink | Lich eyes |
-| 2 | Ear scabs | Fingers and toes fuse | Shriveled flesh |
-| 3 | Gums swell | Bones thicken | Great swollen growths |
-| 4 | Feet curl | Joint pain | Spine twists |
-| 5 | Lumps | Eruption of sores | Wrigglers |
-| 6 | Odor of decay | Paralyzed face | Nose rots |
-| 7 | Palsy | Uncontrollable seizures | Skull deformed |
-| 8 | Skin seeps | Blood eruption | Internal corruption |
-| 9 | Skin sloughs | Skin thickens | Skin lichen |
-| 10 | Winded | Chronic illness | Lungs eaten away |
-
-</div>
-</div>
-<div class="wd-row" style="--wd-cols: 75fr 25fr" markdown>
-<div class="wd-cell" markdown>
-
 # Mental Symptoms
 Depravity manifests as mental symptoms: growing paranoia, visual and auditory hallucinations, and other problems that could be described as madness. It is important to note that madness in fantastic horror is not an illness that afflicts good and evil alike: It is an expression or a result of evil gnawing away at the mind and soul.
+
+| d10 | Mild | Moderate | Severe |
+|---|---|---|---|
+| 1 | Aggressive | Treacherous | Murderous |
+| 2 | Bestial | Deranged | Unbalanced |
+| 3 | Compulsive | Hysterical | Unresponsive |
+| 4 | Crazed | Jittery | Craven |
+| 5 | Disoriented | Hallucinating | Paranoid |
+| 6 | Mildly phobic | Moderately phobic | Severely phobic |
+| 7 | Neglectful | Distracted | Enthralled |
+| 8 | Opinionated | Solipsistic | Hubristic |
+| 9 | Prophetic | Delusional | Apathetic |
+| 10 | Sycophantic | Weak-Willed | Fatalistic |
+
+*Depravity Effects*
+{: .wd-table-note }
 
 ## Mild Depravity Effects
 **Aggressive**: You are easily angered and cannot hide your feelings. In combat, you try so hard to hurt your enemies that you neglect your own defense. You gain a +2 bonus to initiative and you take a -1 penalty to Armor Class.<br>
@@ -364,7 +352,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Deranged**: Your grasp upon reality becomes tenuous. You take a -2 penalty on Intelligence-based ability checks and skill checks.<br>
 **Distracted**: You pay more attention to the whispers in your mind than to your surroundings. You take a -2 penalty on skill checks.<br>
 **Hallucinating**: You see things that aren't there, and often have trouble sorting reality from your imagination. You take a -6 penalty on initiative checks.<br>
-**Hysterical**: Everything you meet is hilarious. It takes a short time to perceive the humor; then a laughing jag ﻿overwhelms you. During the second round of a combat encounter, you can take only a single move action or standard action.<br>
+**Hysterical**: Everything you meet is hilarious. It takes a short time to perceive the humor; then a laughing jag overwhelms you. During the second round of a combat encounter, you can take only a single move action or standard action.<br>
 **Jittery**: You are easily startled and spooked. If you are hit while flat-footed, you become panicked.<br>
 **Moderately Phobic**: You gain a moderate phobia, which requires you to succeed on a Will save (DC 14 + the CR of the challenge) or become frightened whenever you encounter the object of your phobia. This symptom replaces your previous symptom of mild phobia.<br>
 **Solipsistic**: You believe that you are the only thing that matters in the universe. As a result, whenever you are struck in combat, you have to make a DC 20 Will save. If you fail the save, you take an additional 1 point of damage per die of damage received.<br>
@@ -374,7 +362,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 ## Severe Depravity Effects
 **Apathetic**: You withdraw into yourself, losing contact with the world. Reduce both your Charisma and Wisdom scores by 2.<br>
 **Craven**: You become a lily-livered coward. When casting, you must always cast defensively. When attacking, you must always fight defensively.<br>
-**Enthralled**: You are drawn to and fascinated by evil. You no longer have the will to strike it down. Whenever you fight ﻿an evil opponent, you always attack at -4 and any damage you do counts only as nonlethal damage.<br>
+**Enthralled**: You are drawn to and fascinated by evil. You no longer have the will to strike it down. Whenever you fight an evil opponent, you always attack at -4 and any damage you do counts only as nonlethal damage.<br>
 **Fatalistic**: You become oppressed by negative, defeatist thinking and are convinced there's little you can do to save yourself from a horrible fate. Take a -3 penalty on your saving throws.<br>
 **Hubristic**: You regard yourself as superior to all things, even the deities. Divine healing has no effect on you.<br>
 **Murderous**: You experience irresistible murderous urges. If an opportunity to deliver a coup de grace is available, whether against an opponent or an ally, make a DC 20 Will save. If you fail the save, you must make the coup de grace.<br>
@@ -382,30 +370,6 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Severely Phobic**: You gain a severe phobia, which requires you to succeed on a Will save (DC 16 + the CR of the challenge) or become panicked whenever you encounter the object of your phobia. This symptom replaces your previous symptom of moderate phobia.<br>
 **Unbalanced**: Your unstable mind makes you unpredictable, particularly in combat. You are automatically confused on your first turn in any combat and every other turn thereafter.<br>
 **Unresponsive**: Your senses are dulled and you lose the ability to discern the truth of the world around you. Reduce your Wisdom score by 2.
-
-</div>
-<div class="wd-cell wd-plain" markdown>
-
-*Depravity Effects*
-
-</div>
-
-</div>
-<div class="wd-row" markdown>
-<div class="wd-cell" markdown>
-
-| d10 | Mild | Moderate | Severe |
-|---|---|---|---|
-| 1 | Aggressive | Treacherous | Murderous |
-| 2 | Bestial | Deranged | Unbalanced |
-| 3 | Compulsive | Hysterical | Unresponsive |
-| 4 | Crazed | Jittery | Craven |
-| 5 | Disoriented | Hallucinating | Paranoid |
-| 6 | Mildly phobic | Moderately phobic | Severely phobic |
-| 7 | Neglectful | Distracted | Enthralled |
-| 8 | Opinionated | Solipsistic | Hubristic |
-| 9 | Prophetic | Delusional | Apathetic |
-| 10 | Sycophantic | Weak-Willed | Fatalistic |
 
 </div>
 </div>

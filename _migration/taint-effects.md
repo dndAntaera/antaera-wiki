@@ -77,7 +77,7 @@
 
 **Internal Corruption:** Though your corruption is not visible to others, the inside of your body is a festering cesspool of corruption. Bloody pus pools in your body cavities, strange growths develop on your organs, or tiny limbs or heads bud beneath your skin. Reduce your Constitution score by 2.
 
-Some prestige classes allow a character to take this symptom in place of any other one. This symptom allows you to hide your corruption because it is all internal. This symptom can even be taken to replace a mild or moderate symptom if desired. No extra bonus feat is granted if this symptom is taken to replace a mild symptom (see page 67).
+Some prestige classes allow a character to take this symptom in place of any other one. This symptom allows you to hide your corruption because it is all internal. This symptom can even be taken to replace a mild or moderate symptom if desired. No extra bonus feat is granted if this symptom is taken to replace a mild symptom.
 
 **Lich Eyes:** Your eyes rot away, leaving eerie green flames in their empty sockets. You gain darkvision out to 60 feet, or add 30 feet to the range of your existing darkvision. You also gain light blindness: Abrupt exposure to bright light (such as sunlight or a *daylight* spell) blinds you for 1 round. On subsequent rounds, you are dazzled as long as you remain in the affected area.
 
@@ -122,13 +122,13 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 **Disoriented:** You lose track of events. If you are surprised at the outset of an encounter, you are dazed for 1 round.
 
-**Mildly Phobic:** You gain a mild phobia, which requires you to succeed on a Will save or become shaken whenever you encounter the object of your phobia. The DC of the save equals 12 + the CR of the challenge that is the object of the phobia. (Treat CRs of less than 1 as 0.) See page 61 for more about phobias.
+**Mildly Phobic:** You gain a mild phobia, which requires you to succeed on a Will save or become shaken whenever you encounter the object of your phobia. The DC of the save equals 12 + the CR of the challenge that is the object of the phobia. (Treat CRs of less than 1 as 0.)
 
 **Neglectful:** You disregard hygiene and cultural mores. You take a –2 penalty on Charisma-based ability checks and skill checks.
 
 **Opinionated:** You are so wrapped up in commenting on everything you hear that you are often caught off-guard. You are always flat-footed in the first round of combat.
 
-**Prophetic:** Your dark dreams torment you with strange visions of things that might occur in the future. You zealously proclaim a different prophecy each week, making sure everyone you meet knows what is about to transpire. Your DM determines what prophetic insight you envision each week (10% are actually accurate!). In addition, you take all the usual ill effects of continual nightmares (see Dreams and Nightmares, page 52).
+**Prophetic:** Your dark dreams torment you with strange visions of things that might occur in the future. You zealously proclaim a different prophecy each week, making sure everyone you meet knows what is about to transpire. Your DM determines what prophetic insight you envision each week (10% are actually accurate!). In addition, you take all the usual ill effects of continual nightmares.
 
 **Sycophantic:** You fill the air with a torrent of unctuous flattery of your companions, opponents, or imaginary friends. You take a –2 penalty on Listen checks and Spot checks. Enemies gain a +2 bonus on Listen checks to hear you.
 
@@ -146,7 +146,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 **Jittery:** You are easily startled and spooked. If you are hit while flat-footed, you become panicked.
 
-**Moderately Phobic:** You gain a moderate phobia, which requires you to succeed on a Will save (DC 14 + the CR of the challenge) or become frightened whenever you encounter the object of your phobia. This symptom replaces your previous symptom of mild phobia. See page 61 for more about phobias.
+**Moderately Phobic:** You gain a moderate phobia, which requires you to succeed on a Will save (DC 14 + the CR of the challenge) or become frightened whenever you encounter the object of your phobia. This symptom replaces your previous symptom of mild phobia.
 
 **Solipsistic:** You believe that you are the only thing that matters in the universe. As a result, whenever you are struck in combat, you have to make a DC 20 Will save. If you fail the save, you take an additional 1 point of damage per die of damage received.
 
@@ -170,7 +170,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 **Paranoid:** You grow overly suspicious, even of your closest companions. In combat, you cannot avoid watching for signs of treachery. Whenever one of your allies engaged in combat makes an attack and fails to hit, you become suspicious that the ally is secretly a traitor to your party. You take a –1 penalty to any rolls you make during that turn, since some of your attention is focused on monitoring the suspected traitor's activities. If more than one ally fails to hit, the penalty is cumulative.
 
-**Severely Phobic:** You gain a severe phobia, which requires you to succeed on a Will save (DC 16 + the CR of the challenge) or become panicked whenever you encounter the object of your phobia. This symptom replaces your previous symptom of moderate phobia. See page 61 for more about phobias.
+**Severely Phobic:** You gain a severe phobia, which requires you to succeed on a Will save (DC 16 + the CR of the challenge) or become panicked whenever you encounter the object of your phobia. This symptom replaces your previous symptom of moderate phobia.
 
 **Unbalanced:** Your unstable mind makes you unpredictable, particularly in combat. You are automatically *confused* on your first turn in any combat and every other turn thereafter.
 

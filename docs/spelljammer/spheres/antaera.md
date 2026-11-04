@@ -159,7 +159,7 @@ And then there’s Antæra itself—the planet, not the sphere. There are cities
 
 # **Index**
 
-- [Kingdoms & Empires](../../kingdoms-empires.md)
+- [Kingdoms & Empires](../../kingdoms-empires/index.md)
 - [Languages](../../languages.md)
 
 </div>

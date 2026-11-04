@@ -49,6 +49,12 @@ SKIP = re.compile(
 # as links, so the outline of what the campaign meant to cover survives.
 #
 # Take a line out of here to publish one the moment it has something in it.
+# Gods of the old pantheon who have died. Each is a stub and nothing more, so
+# none is published; the old pantheon names them as plain text, and
+# pantheons/dead-deities/<name> waits for the page each will have.
+DEAD_DEITIES = {"deity-" + g for g in ("amaris", "thalrend", "eldron", "virelia", "seraphis",
+                                       "malcator", "draxus", "nyxara", "gorthak")}
+
 TEMPLATE_ONLY = {
     "wm-items",
     "wm-lore-main",
@@ -1248,21 +1254,16 @@ RENAMED = {
 # events under the chronology. Pages are written where the import puts them
 # and moved last, by relocate_site(), which carries every link with them.
 PANTHEON_OF = {
-    "mortal-pantheon": {"ornus", "fink", "orion", "leshrac", "sezzek", "fronir", "nessa",
+    "mortal": {"ornus", "fink", "orion", "leshrac", "sezzek", "fronir", "nessa",
                         "silfaraan", "enigma", "droma", "ithlwick", "rasmin", "vaylen",
                         "asmodeus", "alpha"},
-    "courts-of-faerie": {"cervidur"},
-    "imperial-pantheon": {"ukrol"},
-    # Gods of the old pantheon who have died, kept as the references the
-    # others' histories lean on.
-    "dead-deities": {"amaris", "thalrend", "eldron", "virelia", "seraphis",
-                     "malcator", "draxus", "nyxara", "gorthak"},
+    "faerie": {"cervidur"},
+    "imperial": {"ukrol"},
     # Gods of the old pantheon the current one has no place for.
     "archived": {"trelanni", "cavri", "tari", "ythedie"},
 }
-# A god's address is their name, in full where they have two.
-GOD_NAMES = {"vrog-thul": "vrogthul", "leonis": "leonus-ironmane",
-             "lux": "lux-dawnbringer", "thrain": "thrain-stoneheart"}
+# A god's address is their first name.
+GOD_NAMES = {"vrog-thul": "vrogthul", "leonis": "leonus"}
 
 
 def relocated(path):
@@ -1273,7 +1274,7 @@ def relocated(path):
         return "pantheons/index.md"
     if folder == "pantheon":
         rank, _, god = base.partition("-")
-        pantheon = {"deity": "primal-pantheon", "mortal": "mortal-pantheon"}[rank]
+        pantheon = {"deity": "primal", "mortal": "mortal"}[rank]
         return "pantheons/%s/%s.md" % (pantheon, GOD_NAMES.get(god, god))
     if folder == "deity":
         pantheon = next(p for p, gods in PANTHEON_OF.items() if base in gods)
@@ -1292,6 +1293,17 @@ def relocated(path):
         return "taxonomies/" + name
     if path == "calendar.md":
         return "chronology/index.md"
+    for hub in ("kingdoms-empires", "cosmology", "the-index"):
+        if path == hub + ".md":
+            return hub + "/index.md"
+    branch = {"nation": "kingdoms-empires", "plane": "cosmology",
+              "rules": "the-index/rules", "item": "the-index/items",
+              "faction": "the-index/factions", "race": "the-index/races"}
+    top = path.split("/")[0]
+    if top in branch:
+        return branch[top] + path[len(top):]
+    if path == "stabilize-crystal.md":
+        return "the-index/spells/" + path
     if path.startswith("events-"):
         return "chronology/events/" + name[len("events-"):]
     return path
@@ -1300,6 +1312,46 @@ def relocated(path):
 def final_path(slug):
     """Where a slug's page is served from, once relocated."""
     return relocated(target_path(slug))
+
+
+# Each pantheon on The Pantheons, and its branch under pantheons/.
+PANTHEON_HUBS = {"The Primal Pantheon": "primal", "The Mortal Pantheon": "mortal",
+                 "Courts of Faerie": "faerie", "The Imperial Pantheon": "imperial"}
+
+
+def pantheon_hubs():
+    """A page for each pantheon, listing its gods rank by rank, from The Pantheons."""
+    with open(os.path.join(DOCS, "pantheons", "index.md"), encoding="utf-8") as fh:
+        text = fh.read()
+    for name, branch in PANTHEON_HUBS.items():
+        m = re.search(r"^# %s\n(.*?)(?=^</div>)" % re.escape(name), text, re.M | re.S)
+        if not m:
+            TODO.append(("pantheons", "no %s section for its hub" % name))
+            continue
+        ranks = []
+        for rank, body in re.findall(r"^## ([^\n]+)\n(.*?)(?=^## |\Z)", m.group(1), re.M | re.S):
+            gods = [l for l in body.split("\n") if l.startswith("- ")]
+            gods = [re.sub(r"\]\(([^)#]+\.md)", lambda l: "](" + posixpath.relpath(
+                        posixpath.join("pantheons", l.group(1)), "pantheons/" + branch), g)
+                    for g in gods]
+            if gods:
+                ranks.append("## %s\n\n%s" % (rank, "\n".join(gods)))
+        anchor = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        body = ('<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
+                '<div class="wd-cell" markdown>\n\n'
+                "# Deities\n\n"
+                "The deities of %s, as [The Pantheons](../index.md#%s) sets them out.\n\n"
+                % (name if not name.startswith("The ") else "the " + name[4:], anchor)
+                + "\n\n".join(ranks) + "\n\n</div>\n</div>\n")
+        out = os.path.join(DOCS, "pantheons", branch, "index.md")
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        with open(out, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write('---\ntitle: "%s"\n---\n\n' % name + title_card(name, "") + body)
+        # The Pantheons points each pantheon at its page.
+        text = text.replace(m.group(0), m.group(0).replace(
+            "# %s\n" % name, "# %s\n[%s's page](%s/index.md)\n\n" % (name, name, branch), 1), 1)
+    with open(os.path.join(DOCS, "pantheons", "index.md"), "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(text)
 
 
 def relocate_site():
@@ -1389,7 +1441,7 @@ TITLES = {
 
     # What is left of the calendar page once the calendar itself is on the
     # sphere that keeps it: the eras, which are the setting's timeline.
-    "calendar": "Setting Timeline",
+    "calendar": "Chronology",
 
     # One name for him everywhere: his page called him the Patron Deity of
     # Humanity, The Pantheons and the spheres the Patron of Humans.
@@ -3759,7 +3811,7 @@ def main(backup):
     slugs = [f[:-4] for f in sorted(os.listdir(src_dir))]
     keep = [s for s in slugs
             if not SKIP.match(s)
-            and s not in TEMPLATE_ONLY and s not in REMOVED]
+            and s not in TEMPLATE_ONLY and s not in REMOVED and s not in DEAD_DEITIES]
     # Link targets are matched by several names, most specific first, because
     # Wikidot links reference pages by slug and by title interchangeably and
     # often omit the category prefix a slug carries ("House of Fabrication"
@@ -4150,6 +4202,7 @@ def main(backup):
 
     finish_site()
     relocate_site()
+    pantheon_hubs()
 
     print("pages written : %d  (skipped %d system pages)" % (written, len(slugs) - len(keep)))
     print("TODO markers  : %d" % len(TODO))

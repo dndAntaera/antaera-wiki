@@ -17,23 +17,23 @@ search:
 
 # The Primal Gods (Greater Deities)
 
-- [Mundus](pantheons/primal-pantheon/mundus.md), Goddess of Life
+- [Mundus](pantheons/primal/mundus.md), Goddess of Life
     - Alignment: NG
     - Portfolio: Life, Nature, Light
     - Symbol: Oak tree
-- [Primus](pantheons/primal-pantheon/primus.md), God of Order
+- [Primus](pantheons/primal/primus.md), God of Order
     - Alignment: LN
     - Portfolio: Order, Law, Pacts
     - Symbol: Closed gauntlet with infinity symbol embedded
-- [Terrus](pantheons/primal-pantheon/terrus.md), God of Chaos
+- [Terrus](pantheons/primal/terrus.md), God of Chaos
     - Alignment: CN
     - Portfolio: Chaos, Change, Elementals
     - Symbol: Open gauntlet with a star behind it
-- [Helus](pantheons/primal-pantheon/helus.md), God of Death
+- [Helus](pantheons/primal/helus.md), God of Death
     - Alignment: NE
     - Portfolio: Death, Afterlife, Darkness
     - Symbol: Blindfolded skull
-- [Cosmus](pantheons/primal-pantheon/cosmus.md), God of Magic
+- [Cosmus](pantheons/primal/cosmus.md), God of Magic
     - Alignment: N
     - Portfolio: Knowledge, Magic, Balance
     - Symbol: Star in front of a book
@@ -127,33 +127,33 @@ All deities have access to the domains associated with their alignment, even if 
 - NG
     - Homoth, Lord of Beasts
     - [Trelanni](pantheons/archived/trelanni.md), Patron of Elves
-    - [Cervidûr](pantheons/courts-of-faerie/cervidur.md), Lord of the Hunt
+    - [Cervidûr](pantheons/faerie/cervidur.md), Lord of the Hunt
 - CG
     - Typhus, Prince of Water
     - [Cavri](pantheons/archived/cavri.md), Queen of the Seelie Court
 - LN
-    - [Ornus](pantheons/mortal-pantheon/ornus.md), Lord of Constructs
-    - [Sil’Faraan](pantheons/mortal-pantheon/silfaraan.md), Lord of the Wastes
+    - [Ornus](pantheons/mortal/ornus.md), Lord of Constructs
+    - [Sil’Faraan](pantheons/mortal/silfaraan.md), Lord of the Wastes
 - N
-    - [Enigma](pantheons/mortal-pantheon/enigma.md), the Lost God
+    - [Enigma](pantheons/mortal/enigma.md), the Lost God
 - CN
     - Helius, Prince of Air
     - Gollus, Prince of Earth
-    - [Droma](pantheons/mortal-pantheon/droma.md), God of Craftsmen
-    - [Ithlwick](pantheons/mortal-pantheon/ithlwick.md), God of Prosperity
-    - [Rasmin](pantheons/mortal-pantheon/rasmin.md), God of Mischief
-    - [Fink](pantheons/mortal-pantheon/fink.md), Patron of Goblinoids
-    - [Orion](pantheons/mortal-pantheon/orion.md), Patron of Smallfolk
-    - [Vaylen](pantheons/mortal-pantheon/vaylen.md), Patron of Sailors and Travelers
+    - [Droma](pantheons/mortal/droma.md), God of Craftsmen
+    - [Ithlwick](pantheons/mortal/ithlwick.md), God of Prosperity
+    - [Rasmin](pantheons/mortal/rasmin.md), God of Mischief
+    - [Fink](pantheons/mortal/fink.md), Patron of Goblinoids
+    - [Orion](pantheons/mortal/orion.md), Patron of Smallfolk
+    - [Vaylen](pantheons/mortal/vaylen.md), Patron of Sailors and Travelers
 - LE
     - [Ythedie](pantheons/archived/ythedie.md), Mother of Chromatic Dragons
-    - [Leshrac](pantheons/mortal-pantheon/leshrac.md), Lord of the Undead
-    - [Ukrol](pantheons/imperial-pantheon/ukrol.md), Patron of Humans
-    - [Asmodeus](pantheons/mortal-pantheon/asmodeus.md), Supreme Master of the Nine Hells
-    - [Sezzek](pantheons/mortal-pantheon/sezzek.md), Patron of Scaly Ones
+    - [Leshrac](pantheons/mortal/leshrac.md), Lord of the Undead
+    - [Ukrol](pantheons/imperial/ukrol.md), Patron of Humans
+    - [Asmodeus](pantheons/mortal/asmodeus.md), Supreme Master of the Nine Hells
+    - [Sezzek](pantheons/mortal/sezzek.md), Patron of Scaly Ones
 - NE
-    - [Fronir](pantheons/mortal-pantheon/fronir.md), Patron of Giants
-    - [Nessa](pantheons/mortal-pantheon/nessa.md), Patron of Vermin
+    - [Fronir](pantheons/mortal/fronir.md), Patron of Giants
+    - [Nessa](pantheons/mortal/nessa.md), Patron of Vermin
 - CE
     - [Tari](pantheons/archived/tari.md), Queen of the Unseelie Court
     - Infernus, Prince of Fire
@@ -167,23 +167,23 @@ All deities have access to the domains associated with their alignment, even if 
 # Dead Deities (Known)
 
 - LG
-    - [Amaris](pantheons/dead-deities/amaris.md), the Beacon of Law
+    - Amaris, the Beacon of Law
 - NG
-    - [Thalrend](pantheons/dead-deities/thalrend.md), the Just Arbiter
+    - Thalrend, the Just Arbiter
 - CG
-    - [Eldron](pantheons/dead-deities/eldron.md), the Freeheart
+    - Eldron, the Freeheart
 - LN
-    - [Virelia](pantheons/dead-deities/virelia.md), the Order’s Hand
+    - Virelia, the Order’s Hand
 - N
-    - [Seraphis](pantheons/dead-deities/seraphis.md), the Eternal Equinox
+    - Seraphis, the Eternal Equinox
 - CN
-    - [Malcator](pantheons/dead-deities/malcator.md), the Unbound
+    - Malcator, the Unbound
 - LE
-    - [Draxus](pantheons/dead-deities/draxus.md), the Iron Tyrant
+    - Draxus, the Iron Tyrant
 - NE
-    - [Nyxara](pantheons/dead-deities/nyxara.md), the Shadow Queen
+    - Nyxara, the Shadow Queen
 - CE
-    - [Gorthak](pantheons/dead-deities/gorthak.md), the Herald of Chaos
+    - Gorthak, the Herald of Chaos
 
 </div>
 </div>

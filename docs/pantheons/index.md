@@ -41,6 +41,8 @@ During the beginning times, the Overdeities of each sphere in the Known Spheres 
 <div class="wd-cell" markdown>
 
 # The Primal Pantheon
+[The Primal Pantheon's page](primal/index.md)
+
 
 The Primal Pantheon is a cross-sphere collection of deities with a presence in all Known Spheres. They represent the primal forces which shape reality: Air, Earth, Fire, Water, and even Magic itself. Most adherents to these faiths are mages, clerics, or druids dedicated to one of its principles. This pantheon was established in the 1st Mortal Era (The Mythical Era) by the collective of Overdeities as a way to manage their reality without needing direct intervention from the Overdeities.
 
@@ -48,27 +50,27 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
 
 ## Greater Deities (The Primals)
 
-- [Mundus](primal-pantheon/mundus.md), Goddess of Life
+- [Mundus](primal/mundus.md), Goddess of Life
     - Alignment: NG
     - Portfolio: Life, Nature, Light
     - Symbol: Oak tree
     - Favored Weapon: Quarterstaff
-- [Primus](primal-pantheon/primus.md), God of Order
+- [Primus](primal/primus.md), God of Order
     - Alignment: LN
     - Portfolio: Order, Law, Pacts
     - Symbol: Closed gauntlet with infinity symbol embedded
     - Favored Weapon: Warhammer
-- [Terrus](primal-pantheon/terrus.md), God of Chaos
+- [Terrus](primal/terrus.md), God of Chaos
     - Alignment: CN
     - Portfolio: Chaos, Change, Elementals
     - Symbol: Open gauntlet with a star behind it
     - Favored Weapon: Morningstar
-- [Helus](primal-pantheon/helus.md), God of Death
+- [Helus](primal/helus.md), God of Death
     - Alignment: NE
     - Portfolio: Death, Afterlife, Darkness
     - Symbol: Blindfolded skull
     - Favored Weapon: Scythe
-- [Cosmus](primal-pantheon/cosmus.md), God of Magic
+- [Cosmus](primal/cosmus.md), God of Magic
     - Alignment: N
     - Portfolio: Knowledge, Magic, Balance
     - Symbol: Star in front of a book
@@ -76,22 +78,22 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
 
 ## Intermediate Deities (Elemental Lords & Ladies)
 
-- [Lylah](primal-pantheon/lylah.md), Lady of Water
+- [Lylah](primal/lylah.md), Lady of Water
     - Alignment: CN
     - Portfolio: Water, Freedom, Change, Intuition
     - Symbol: A silver wave coiled around a pearl
     - Favored Weapon: Trident
-- [Aezhera](primal-pantheon/aezhera.md), Lady of Air
+- [Aezhera](primal/aezhera.md), Lady of Air
     - Alignment: CG
     - Portfolio: Freedom, Air, Sky, Mercy
     - Symbol: A spiral of clouds coiled around a silver feather
     - Favored Weapon: Scimitar
-- [Kharzhalek](primal-pantheon/kharzhalek.md), Lord of Earth
+- [Kharzhalek](primal/kharzhalek.md), Lord of Earth
     - Alignment: NE
     - Portfolio: Earth, Wealth, Psionics, Tyranny
     - Symbol: A jagged obsidian crown atop a crumbling stone pillar
     - Favored Weapon: Heavy Pick
-- [Ignaraxis](primal-pantheon/ignaraxis.md), Lord of Fire
+- [Ignaraxis](primal/ignaraxis.md), Lord of Fire
     - Alignment: LE
     - Portfolio: Fire, Destruction, Rebirth
     - Symbol: A blazing flame consuming a crowned skull
@@ -99,57 +101,57 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
 
 ## Lesser Deities (Elemental Heralds)
 
-- [Aravel](primal-pantheon/aravel.md), Herald of Storms
+- [Aravel](primal/aravel.md), Herald of Storms
     - Alignment: CG
     - Portfolio: Storms, Lightning, Courage, Freedom
     - Symbol: A jagged bolt cleaving a raincloud
     - Favored Weapon: Cutlass
-- [Jinzai](primal-pantheon/jinzai.md), Herald of Steam
+- [Jinzai](primal/jinzai.md), Herald of Steam
     - Alignment: NG
     - Portfolio: Steam, Endurance, Primates, Renewal, Hospitality
     - Symbol: Coiling plume rising from a calm pool
     - Favored Weapon: Quarterstaff
-- [Khurash](primal-pantheon/khurash.md), Herald of Smoke
+- [Khurash](primal/khurash.md), Herald of Smoke
     - Alignment: N
     - Portfolio: Smoke, Breath, Transition, Obscurity
     - Symbol: Coiling spiral of ash over smoldering embers
     - Favored Weapon: Scimitar
-- [Malzark](primal-pantheon/malzark.md), Herald of Magma
+- [Malzark](primal/malzark.md), Herald of Magma
     - Alignment: NE
     - Portfolio: Magma, Destruction, Subterranean Conquest, Volcanic Wrath
     - Symbol: Black iron gauntlet grasping a molten core
     - Favored Weapon: Warhammer
-- [Seralyne](primal-pantheon/seralyne.md), Herald of Radiance
+- [Seralyne](primal/seralyne.md), Herald of Radiance
     - Alignment: LG
     - Portfolio: Radiance, Zeal, Crusades, Purity, Sunlight
     - Symbol: Burning sun framed by silver wings
     - Favored Weapon: Scimitar
-- [Tharuun](primal-pantheon/tharuun.md), Herald of Gems
+- [Tharuun](primal/tharuun.md), Herald of Gems
     - Alignment: NG
     - Portfolio: Gems, Minerals, Buried Riches, Subterranean Life
     - Symbol: Pickaxe crossed with a radiant crystal
     - Favored Weapon: Heavy Pick
-- [Vrog'thul](primal-pantheon/vrogthul.md), Herald of Ooze
+- [Vrog'thul](primal/vrogthul.md), Herald of Ooze
     - Alignment: CE
     - Portfolio: Ooze, Corruption, Filth, Hunger
     - Symbol: A dribbling, open eye melting into slime
     - Favored Weapon: Heavy Flail
-- [Tenakhaal](primal-pantheon/tenakhaal.md), Herald of Salt
+- [Tenakhaal](primal/tenakhaal.md), Herald of Salt
     - Alignment: NE
     - Portfolio: Salt, Hatred, Dehydration, Vengeance, Suffering
     - Symbol: A cracked seashell leaking dry grains
     - Favored Weapon: Trident
-- [Vaeltharion](primal-pantheon/vaeltharion.md), Herald of Dust
+- [Vaeltharion](primal/vaeltharion.md), Herald of Dust
     - Alignment: NE
     - Portfolio: Death, Preservation, Funerary Rites, Hospitality
     - Symbol: A hooded lantern with a dim, ember-like glow
     - Favored Weapon: Trident
-- [Nihil](primal-pantheon/nihil.md), Herald of Void
+- [Nihil](primal/nihil.md), Herald of Void
     - Alignment: N
     - Portfolio: Emptiness, Entropy, Silence, Cosmic Erasure
     - Symbol: A black circle surrounded by fading stars
     - Favored Weapon: Scythe
-- [Pyrius](primal-pantheon/pyrius.md)
+- [Pyrius](primal/pyrius.md)
     - Alignment: CE
     - Portfolio: Entropy, Decay, Dying Worlds, Extinction, Finality
     - Symbol: A dark spiral ring devouring light at its center
@@ -161,51 +163,53 @@ The Primals (Greater Deities) have no recorded origins, nor do they actively col
 <div class="wd-cell" markdown>
 
 # The Mortal Pantheon
+[The Mortal Pantheon's page](mortal/index.md)
+
 The Mortal Pantheon is made up of the champions, heroes, and patrons of the various mortal races. This pantheon was established second by the Overdeities during the 2nd Mortal Era (The Era of Emergences) because the number of mortals spread across the realms had begun spiking, causing a massive intake of mortal souls. Because of this, the overdeities determined that the mortals must rule themselves, and ascended mortal champions to claim godhood and lead their respective races. Over time, more portfolios began to emerge as various feats of divinity were achieved. The deities in this pantheon are collected from all of the Known Spheres, and are recognized enough throughout them due to the introduction of Spelljamming. The rise and fall of multiple of these deities was also the result of Spelljamming spreading portfolios, as there can only be one deity with any known portfolio.
 
 ## Greater Deities (The Living Gods)
 
-- [Lux Dawnbringer](mortal-pantheon/lux-dawnbringer.md), the Luminous Sovereign
+- [Lux Dawnbringer](mortal/lux.md), the Luminous Sovereign
     - Alignment: LG
     - Portfolio: Justice, Light, Radiance, Judgment
     - Symbol: A radiant sun, its rays extending outward in a circular pattern
     - Favored Weapon: Guisarme
-- [Thrain Stoneheart](mortal-pantheon/thrain-stoneheart.md), the Tranquil Forgemaster
+- [Thrain Stoneheart](mortal/thrain.md), the Tranquil Forgemaster
     - Alignment: NG
     - Portfolio: Peace, Unity, Craft, Community
     - Symbol: A stylized anvil with a hammer crossed over it
     - Favored Weapon: Warhammer
-- [Leonus Ironmane](mortal-pantheon/leonus-ironmane.md), the Stalwart Guardian
+- [Leonus Ironmane](mortal/leonus.md), the Stalwart Guardian
     - Alignment: CG
     - Portfolio: Valor, War, Protection, Courage
     - Symbol: A roaring lion's head surrounded by justice scales and a crossed sword and shield
     - Favored Weapon: Heavy Mace
-- [Tome](mortal-pantheon/tome.md), Keeper of the Celestial Library
+- [Tome](mortal/tome.md), Keeper of the Celestial Library
     - Alignment: LN
     - Portfolio: Knowledge, Wisdom, Memory, Truth
     - Symbol: An intricate celestial sigil with cosmic runes swirling around it
     - Favored Weapon: Quarterstaff
-- [Sol](mortal-pantheon/sol.md), the Eternal Equilibrium
+- [Sol](mortal/sol.md), the Eternal Equilibrium
     - Alignment: N
     - Portfolio: Balance, Pacts, Cycles, Order
     - Symbol: A set of scales held by a draconic hand
     - Favored Weapon: Claw
-- [Selene](mortal-pantheon/selene.md), the Nightweaver
+- [Selene](mortal/selene.md), the Nightweaver
     - Alignment: CN
     - Portfolio: Secrets, Shadows, Night, Illusion
     - Symbol: A crescent moon intertwined with intricate elven glyphs
     - Favored Weapon: Sickle
-- [Mordac](mortal-pantheon/mordac.md), the Arbiter of Tyranny
+- [Mordac](mortal/mordac.md), the Arbiter of Tyranny
     - Alignment: LE
     - Portfolio: Corruption, Death, Domination, Oppression
     - Symbol: A twisted serpent entwined around a scepter
     - Favored Weapon: Greathammer
-- [Vortressa](mortal-pantheon/vortressa.md), the Mother of Monsters
+- [Vortressa](mortal/vortressa.md), the Mother of Monsters
     - Alignment: NE
     - Portfolio: Monsters, Dark Desires, Mutation, Hunger
     - Symbol: A corrupted Druidic glyph intertwined with monstrous teeth
     - Favored Weapon: Claw/Bite
-- [Zarakth](mortal-pantheon/zarakth.md), the Abyssal Scourge
+- [Zarakth](mortal/zarakth.md), the Abyssal Scourge
     - Alignment: CE
     - Portfolio: Destruction, Murder, Chaos, Ruin
     - Symbol: A blood-red vortex swirling around a jagged, shattered blade
@@ -213,70 +217,70 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 
 ## Intermediate Deities (The Paragons)
 
-- [Ornus](mortal-pantheon/ornus.md), Lord of Constructs
+- [Ornus](mortal/ornus.md), Lord of Constructs
     - Alignment: LN
     - Portfolio: Constructs, Order, Artifice, Creation
     - Symbol: A gear set within a perfect square
     - Favored Weapon: Light Hammer
-- [Fink](mortal-pantheon/fink.md), Patron of Goblinoids
+- [Fink](mortal/fink.md), Patron of Goblinoids
     - Alignment: CN
     - Portfolio: Goblinoids, Greed, Cunning, Survival
     - Symbol: A grinning goblin face biting a coin
-- [Orion](mortal-pantheon/orion.md), Patron of Smallfolk
+- [Orion](mortal/orion.md), Patron of Smallfolk
     - Alignment: CG
     - Portfolio: Smallfolk, Artifice, Ingenuity, Resilience
     - Symbol: A crystal radiating astral light
     - Favored Weapon: Gnome Hooked Hammer
-- [Leshrac](mortal-pantheon/leshrac.md), Lord of the Undead
+- [Leshrac](mortal/leshrac.md), Lord of the Undead
     - Alignment: LE
     - Portfolio: Undead, Cruelty, Control, Decay
     - Symbol: A skull bound in iron bands
-- [Sezzek](mortal-pantheon/sezzek.md), Patron of Scaly Ones
+- [Sezzek](mortal/sezzek.md), Patron of Scaly Ones
     - Alignment: NE
     - Portfolio: Scalykind, Poison, Venom, Instinct
     - Symbol: A fanged serpent coiled around a droplet
-- [Fronir](mortal-pantheon/fronir.md), Patron of Giants
+- [Fronir](mortal/fronir.md), Patron of Giants
     - Alignment: N
     - Portfolio: Giants, Creation, Strength, Stone
     - Symbol: A towering rune-carved pillar
-- [Nessa](mortal-pantheon/nessa.md), Patron of Vermin
+- [Nessa](mortal/nessa.md), Patron of Vermin
     - Alignment: NE
     - Portfolio: Pestilence, Plagues, Decay, Infestation
     - Symbol: A swarm forming a hollow circle
 
 ## Lesser Deities (The Patrons)
 
-- [Sil’Faraan](mortal-pantheon/silfaraan.md), Lord of the Wastes
+- [Sil’Faraan](mortal/silfaraan.md), Lord of the Wastes
     - Alignment: NE
     - Portfolio: Deserts, Drought, Decay, Endurance
     - Symbol: A cracked sun over a barren dune
-- [Enigma](mortal-pantheon/enigma.md), the Lost God
+- [Enigma](mortal/enigma.md), the Lost God
     - Alignment: N
     - Portfolio: Secrets, Forgotten Knowledge, Paradox, Obscurity
     - Symbol: A closed eye within a spiraling void
     - Favored Weapon: Flail
-- [Droma](mortal-pantheon/droma.md), God of Craftsmen
+- [Droma](mortal/droma.md), God of Craftsmen
     - Alignment: LN
     - Portfolio: Craftsmanship, Creation, Labor, Invention
     - Symbol: A hammer crossed with a chisel
-- [Ithlwick](mortal-pantheon/ithlwick.md), God of Prosperity
+- [Ithlwick](mortal/ithlwick.md), God of Prosperity
     - Alignment: NG
     - Portfolio: Wealth, Trade, Fortune, Success
     - Symbol: A golden coin stamped with a rising sun
-- [Rasmin](mortal-pantheon/rasmin.md), God of Mischief
+- [Rasmin](mortal/rasmin.md), God of Mischief
     - Alignment: CN
     - Portfolio: Trickery, Pranks, Deception, Chance
     - Symbol: A laughing mask split down the middle
-- [Vaylen](mortal-pantheon/vaylen.md), Patron of Sailors and Travelers
+- [Vaylen](mortal/vaylen.md), Patron of Sailors and Travelers
     - Alignment: CG
     - Portfolio: Travel, Oceans, Winds, Safe Passage
     - Symbol: A compass encircled by waves and meandering paths
     - Favored Weapon: Cutlass
-- [Asmodeus](mortal-pantheon/asmodeus.md), Supreme Master of the Nine Hells
+- [Asmodeus](mortal/asmodeus.md), Supreme Master of the Nine Hells
     - Alignment: LE
     - Portfolio: Tyranny, Contracts, Domination, Devils
     - Symbol: A ruby-tipped scepter or inverted pentagram
-- [Alpha](mortal-pantheon/alpha.md), the First Warforged
+- [Alpha](mortal/alpha.md), the First Warforged
     - Alignment: N
     - Portfolio: Warforged, Creation, Guardianship, Memory
     - Symbol: A cog wheel bearing the four elemental symbols at its center
@@ -288,6 +292,8 @@ The Mortal Pantheon is made up of the champions, heroes, and patrons of the vari
 <div class="wd-cell" markdown>
 
 # Courts of Faerie
+[Courts of Faerie's page](faerie/index.md)
+
 The courts of Faerie's origins are mostly unknown to most scholars, though most speculate that they originated on the Feywild and migrated into the Material Plane at some point during the 2nd Mortal Era (The Era of Emergences). From there, they spread their influence across the various Known Spheres until they established their courts in all of them, defeating or absorbing the various existing courts from those spheres. This pantheon is worshipped almost entirely by the Fey, though this pantheon is also shared by elves and other mortal descendants of Fey. Druids have also been known to worship this pantheon, though it is unlikely for this pantheon to be outwardly worshipped in any sphere other than one that has been touched by the Feywild, or on the Feywild of that sphere itself.
 
 The deities of this pantheon gain their divinity in a peculiar way; they do not collect worshippers such as other deities do with their clergy, but rather they act as patrons for warlocks in a similar way that other deities do for clerics. Though they have also been known to draw power from smaller, less permanent deals with mortals. They make deals and bestow gifts at a cost, likely servitude or favors. The Fey do not concern themselves with the matters of souls as they are typically immortal, as far as a living creature could be, and involve themselves in plans that take hundreds to thousands of years to unfold. Scholars speculate that the Fey's oracles are able to see into the future and advise their patrons on which deals to take, allowing them to influence the future to better suit their strange and seemingly whimsical machinations.
@@ -370,7 +376,7 @@ Due to their unique source of divinity, these deities possess no ability to gran
     - Portfolio: Mischievous Spirits, Trick Paths, Warped Luck, Wild Magic Surges
     - Symbol: A thorn bent into a grin
 
-- [Cervidûr](courts-of-faerie/cervidur.md), Lord of the Hunt, Master of the Wild Hunt
+- [Cervidûr](faerie/cervidur.md), Lord of the Hunt, Master of the Wild Hunt
     - Alignment: CN
     - Portfolio: The Wild Hunt, Hunters, Lycanthropes, Moonlit Predation, Beasts
     - Symbol: A stag's head with wide antlers adorned with runes of fey magic
@@ -419,13 +425,15 @@ The existence of Dragonborn in Antæra, and thusly other descendants of dragons,
 <div class="wd-cell" markdown>
 
 # The Imperial Pantheon
-During the 3rd Era (The Era of Man), the influence of the [Imperium](../nation/new-haven-imperium.md) and Humans throughout the Known Spheres grew exponentially with their rapid population growth. So much so, in fact, that their leaders and folk heroes ascended to divinity through the sheer number of followers and worshippers they have. This is the first known pantheon to have started through multi-sphere worship alone. The divinity bestowed upon these deities was granted by the overdeities of the spheres they were currently inhabiting. Though due to the nature of their worship, they assembled their own pantheon and guide their people through wildspace and the rest of the planes.
+[The Imperial Pantheon's page](imperial/index.md)
+
+During the 3rd Era (The Era of Man), the influence of the [Imperium](../kingdoms-empires/new-haven-imperium.md) and Humans throughout the Known Spheres grew exponentially with their rapid population growth. So much so, in fact, that their leaders and folk heroes ascended to divinity through the sheer number of followers and worshippers they have. This is the first known pantheon to have started through multi-sphere worship alone. The divinity bestowed upon these deities was granted by the overdeities of the spheres they were currently inhabiting. Though due to the nature of their worship, they assembled their own pantheon and guide their people through wildspace and the rest of the planes.
 
 This pantheon is worshipped solely by humans, though they are not picky as to which humans worship them. If any non-humans worship this pantheon, they will not receive any power or benefits as a cleric or other divine character.
 
 ## Greater Deities
 
-- [Ukrol](imperial-pantheon/ukrol.md), Patron of Humanity
+- [Ukrol](imperial/ukrol.md), Patron of Humanity
     - Alignment: LE
     - Portfolio: Humans, Conquest, Dominion, Authority
     - Symbol: A featureless humanoid face with a spiked crown

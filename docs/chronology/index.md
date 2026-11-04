@@ -1,11 +1,11 @@
 ---
-title: "Setting Timeline"
+title: "Chronology"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Setting Timeline
+# Chronology
 
 </div>
 </div>

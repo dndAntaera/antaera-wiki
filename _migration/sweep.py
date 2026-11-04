@@ -410,7 +410,7 @@ def main():
         return ", ".join(sorted(c for c, a in axes.items() if a in near))
     bad = []
     for f, t in pages.items():
-        if not re.match(r"docs/pantheons/[^/]+/", f):
+        if not re.match(r"docs/pantheons/[^/]+/(?!index\.md)", f):
             continue
         b = body_of(t)
         if "used for disambiguation" in t:

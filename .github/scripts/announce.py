@@ -216,7 +216,31 @@ def changed_pages(old_rev, new_rev):
             i += 2
         if status in kinds:
             pages.append((kinds[status], old, new))
-    return pages
+    return _paired_by_title(pages, old_rev, new_rev)
+
+
+def _paired_by_title(pages, old_rev, new_rev):
+    """Moves matched up by the page's title where git matched them by words.
+
+    A page that moved and lost a large part of itself - the Antæra Sphere,
+    whose calendar went to a page of its own - reads to git as one page gone
+    and another new, or as a move to the page its words went to. A page gone
+    from one address and a page of the same title new at another is the move.
+    """
+    title = lambda rev, path: front_matter(blobs.get(rev, path) or "").get("title")
+    added = {title(new_rev, n): n for k, o, n in pages if k == "added"}
+    out, used = [], set()
+    for kind, old, new in pages:
+        was = title(old_rev, old) if kind in ("moved", "removed") else None
+        same = added.get(was) if was else None
+        if same and same not in used and (kind == "removed" or title(new_rev, new) != was):
+            out.append(("moved", old, same))
+            used.add(same)
+            if kind == "moved":
+                out.append(("added", new, new))
+        else:
+            out.append((kind, old, new))
+    return [p for p in out if not (p[0] == "added" and p[2] in used)]
 
 
 # --- What a reader sees ----------------------------------------------------
@@ -1133,6 +1157,8 @@ _FIELD_ITEM = re.compile(r"^(Added|Removed) “([A-Z][\w ]*): [^”]*”(.*)$")
 def _sweep_shown(item):
     """An item as a sweep's line says it: a field by its name alone."""
     item = _WHERE.sub("", item)
+    # A move is a move, wherever from.
+    item = re.sub(r"^(Moved to a new address), from \S+$", r"\1", item)
     m = _FIELD_ITEM.match(item)
     return "%s %s%s" % (m.group(1), m.group(2), m.group(3)) if m else item
 
@@ -1185,7 +1211,9 @@ def _changes(change):
         items = describe_edit(c)
     else:
         items = [describe_move(c.old)]
-        if readable(c.before) != readable(c.after):
+        # A page archived or retitled as it moves says so, words changed or not.
+        if readable(c.before) != readable(c.after) or any(
+                c.old_meta.get(f) != c.new_meta.get(f) for f in ("title", "wip", "archived")):
             items += describe_edit(c)
     return [_item(_redescribed(c.title, i)) for i in items for i in _fields_apart(i)
             if _redescribed(c.title, i)]

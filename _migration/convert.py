@@ -3044,6 +3044,60 @@ def tables_into_cards(text):
         text = text[:hstart] + host + text[end:]
 
 
+def _plain_table(lines):
+    """A Markdown table with its cells trimmed and no column alignment."""
+    rows = [[c.strip() for c in l.strip().strip("|").split("|")] for l in lines]
+    rows[1] = ["---"] * len(rows[0])
+    return "\n".join("| " + " | ".join(r) + " |" if i != 1 else "|" + "|".join(r) + "|"
+                     for i, r in enumerate(rows))
+
+
+def taint_effects(text):
+    """Taint's thresholds and its corruption and depravity effects, as
+    _migration/taint-effects.md gives them, laid out as the page has them.
+
+    The thresholds take the place of the table in Effects of Taint. Each
+    symptoms card keeps its heading and opening line, then its table, then
+    each rank's effects one to a line.
+    """
+    src = open(os.path.join(ROOT, "_migration", "taint-effects.md"), encoding="utf-8").read()
+    parts = dict(re.findall(r"^### ([^\n]+)\n\n(.*?)(?=^### |\Z)", src, re.M | re.S))
+
+    def table(key):
+        return _plain_table([l for l in parts.pop(key).split("\n") if l.startswith("|")])
+
+    def effects(rank):
+        blocks = [b.strip() for b in parts.pop(rank).split("\n\n") if b.strip()]
+        out = []
+        for b in blocks:
+            b = re.sub(r"^\*\*([^*]+):\*\*", r"**\1**:", b)
+            if out and b.startswith("**") and out[-1].startswith("**"):
+                out[-1] += "<br>\n" + b
+            else:
+                out.append(b)
+        return "## %s\n%s" % (rank, "\n\n".join(out))
+
+    m = re.search(r"^\| Con/Wis Score .*?(?=\n\n)", text, re.M | re.S)
+    if m:
+        text = text[:m.start()] + table("Table 4–1: Taint Thresholds") + text[m.end():]
+    else:
+        TODO.append(("rules-taint", "no threshold table to replace"))
+    for card, kind in (("Physical Symptoms", "Corruption"), ("Mental Symptoms", "Depravity")):
+        m = re.search(r"^# %s\n[^\n]*\n\n(.*?)\n+</div>" % card, text, re.M | re.S)
+        if not m:
+            TODO.append(("rules-taint", "no %s card" % card))
+            continue
+        body = (table("Table 4–%d: %s Effects" % (2 if kind == "Corruption" else 3, kind))
+                + "\n\n*%s Effects*\n{: .wd-table-note }\n\n" % kind
+                + "\n\n".join(effects("%s %s Effects" % (rank, kind))
+                              for rank in ("Mild", "Moderate", "Severe")))
+        # Written after the site-wide passes, so put into the house style here.
+        text = text[:m.start(1)] + house_style(deity_words(body)) + text[m.end(1):]
+    if parts:
+        TODO.append(("rules-taint", "taint-effects.md sections unused: %s" % ", ".join(parts)))
+    return text
+
+
 def finish_site():
     """The passes that need every page written first.
 
@@ -3098,6 +3152,7 @@ def finish_site():
         # Its heading was the page's only level two; the levels close up after.
         # The tables go into their cards, and the page's small faults are put right.
         text = tables_into_cards(heading_levels(spell_own_card(text, "Detect Taint")))
+        text = taint_effects(text)
         for old, new in TAINT_FIXES:
             if old not in text:
                 TODO.append(("rules-taint", "fix %r not found" % old))

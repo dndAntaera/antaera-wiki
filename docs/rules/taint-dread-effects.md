@@ -1,11 +1,11 @@
 ---
-title: "Taint Dread Effects"
+title: "Dread Effects"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Taint Dread Effects
+# Dread Effects
 
 </div>
 </div>

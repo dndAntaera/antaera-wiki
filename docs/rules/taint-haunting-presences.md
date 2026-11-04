@@ -1,11 +1,11 @@
 ---
-title: "Taint Haunting Presences"
+title: "Haunting Presences"
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell wd-title" markdown>
 
-# Taint Haunting Presences
+# Haunting Presences
 
 </div>
 </div>

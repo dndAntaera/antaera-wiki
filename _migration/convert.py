@@ -1284,6 +1284,8 @@ TITLES = {
     "spelljamming-combat-movement": "Combat & Movement",
     "spelljamming-astrology-planetology": "Astrology & Planetology",
     "kingdoms-empires": "Kingdoms & Empires",
+    "rules-taint-dread-effects": "Dread Effects",
+    "rules-taint-haunting-presences": "Haunting Presences",
 
     # The items. None of these pages carried a name of its own, so the titles
     # were built from their slugs and lost the punctuation - "Poisoners

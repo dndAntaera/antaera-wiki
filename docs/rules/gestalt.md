@@ -1,5 +1,8 @@
 ---
 title: "Gestalt"
+archived: true
+search:
+  exclude: true
 ---
 
 <div class="wd-row" style="--wd-rw: 935px" markdown>
@@ -116,6 +119,16 @@ The high-powered nature of the gestalt character variant gives you more room to 
 
 **Campaign Pacing**<br>
 Once it is adjusted as outlined above, a campaign that employs gestalt characters isn’t that different from a standard campaign. Gestalt characters don’t gain access to key campaign-changing abilities faster than their standard counterparts. No gestalt character can use teleport or raise the dead under her own power before 9th level, and no nonmonk gestalt character gets a second melee attack in a round before 6th level. Gestalt characters get to tackle monsters a level or two ahead of time, but they’re still fighting gnolls at low levels, rakshasas at middle levels, and balors at high levels. Perhaps the only noticeable difference in terms of campaign pacing is that gestalt PCs are “something special” from the beginning. They are far more powerful than typical 1st-level commoners even at the beginning of the campaign. Again, this difference only matters for a level or two, because standard 3rd level characters are also far more powerful than 1st-level commoners.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Training Time
+
+- Training times overlap their durations for each side. IE: a Fighter 3 // Rogue 2/ Sorcerer 1 taking its second level in rogue would require 1 day and 3 days of training instead of 3 days
+- If one of the classes in the gestalt is more than 2x the levels in the other class, it only counts as 3/4 of its actual level when calculating training time. IE: Fighter 6 // Rogue 4/ Sorcerer 2 would take 2 days and 1 day to train.
 
 </div>
 </div>

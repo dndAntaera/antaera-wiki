@@ -216,23 +216,23 @@ EDITS = {
         # Concordia, the Imperium's capital sphere, beside the factions.
         ("# Factions", "- [Collegiate Oculatus](faction/collegiate-oculatus.md)\n",
          "- [Collegiate Oculatus](faction/collegiate-oculatus.md)\n- [Concordia](spelljamming/sphere-concordia.md)\n"),
-        # The index lists the variant rules in effect from A to Z, and Gestalt,
-        # which the houserules above it lean on twice, was not among them. The
-        # section has to be named: The Index runs the alphabet four times over,
-        # once for the rules and again for the homebrew items, feats and
-        # spells, so "## G" on its own names four places on the page.
-        #
-        # The letter is marked empty by alpha_columns, which runs before this:
-        # the mark goes with the heading, and an entry under it means it is
-        # not empty after all.
-        ("# Variant Rules In Effect", "## G {: .wd-empty }\n## H",
-         "## G\n\n- [Gestalt](rules/gestalt.md)\n\n## H"),
-        # And the houserule that leans on it now points at it.
-        (None, "- Gestalt Only",
-         "- [Gestalt Only](rules/gestalt.md)"),
-        # A typo: the example two lines up reads "1 day and 3 days".
-        (None, "would take 2 days 1 day to train",
-         "would take 2 days and 1 day to train"),
+        # Gestalt is archived, and its training times with it - see "gestalt".
+        (None, re.compile(r"^    - Gestalt Only\n(?:        - .*\n)+", re.M), ""),
+    ],
+    # Gestalt is no longer in play. Its page is archived, and the training
+    # times the houserules gave a gestalt character go with it.
+    "gestalt": [
+        (None, re.compile(r"\Z"),
+         '<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
+         '<div class="wd-cell" markdown>\n\n'
+         "# Training Time\n\n"
+         "- Training times overlap their durations for each side. IE: a Fighter 3 // Rogue 2/ "
+         "Sorcerer 1 taking its second level in rogue would require 1 day and 3 days of training "
+         "instead of 3 days\n"
+         "- If one of the classes in the gestalt is more than 2x the levels in the other class, it "
+         "only counts as 3/4 of its actual level when calculating training time. IE: Fighter 6 // "
+         "Rogue 4/ Sorcerer 2 would take 2 days and 1 day to train.\n\n"
+         "</div>\n</div>\n"),
     ],
 
     # Cervidûr takes the place of Rhazek Glimmerclaw, the Blood Moon Hunter,
@@ -806,7 +806,7 @@ LOOSE_PAGES = {
         "planar-crystal", "poisoners-quiver",
     },
     # Action Points is under Variant Rules In Effect and Backgrounds under
-    # Homebrew: Miscellaneous; Gestalt is a variant rule nothing links to.
+    # Homebrew: Miscellaneous; Gestalt is archived.
     "rules": {"action-points", "backgrounds", "gestalt"},
 }
 
@@ -850,7 +850,7 @@ ARCHIVED_FOLDERS = {"wm"}
 # it as deprecated: it ranks the Living Gods as Intermediate where The
 # Pantheons has them Greater, and files several deities under alignments they
 # no longer hold.
-ARCHIVED_PAGES = {"pantheon"}
+ARCHIVED_PAGES = {"pantheon", "gestalt"}
 
 # Pages that do not carry their name on a card of their own. The main page is
 # the only one: it opens on the wiki's header picture and the world's overview,

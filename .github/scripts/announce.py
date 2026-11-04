@@ -97,6 +97,12 @@ REDESCRIBED = {
         "moved the tables standing in cards of their own into the cards they belong to",
     ("Taint", "moved a passage"): None,
     ("Taint", "added to the Effects of Taint section"): None,
+    # Each pantheon's section gained a link to its own page.
+    ("The Pantheons", "changed “The” to “The Primal Pantheon's page The”"):
+        "linked each pantheon to its own page",
+    ("The Pantheons", "changed “The” to “The Mortal Pantheon's page The”"): None,
+    ("The Pantheons", "changed “The” to “Courts of Faerie's page The”"): None,
+    ("The Pantheons", "changed “During” to “The Imperial Pantheon's page During”"): None,
 }
 
 

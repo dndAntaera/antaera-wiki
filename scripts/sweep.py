@@ -379,7 +379,7 @@ def sweep_pages():
 
     check("a sphere labels its ranks like every other sphere",
           ["%s  %s" % (f, m.group(0))
-           for f, t in pages.items() if re.match(r"docs/spelljamming/sphere-", f)
+           for f, t in pages.items() if re.match(r"docs/spelljammer/spheres/(?!index\.md)", f)
            for m in re.finditer(r"^\*\*(?:Lesser|Intermediate|Greater)\*\*:?[ \t]*$"
                                 r"|^\*\*[A-Za-z][^*\n]*\*\*:[ \t]*$", body_of(t), re.M)])
 
@@ -478,7 +478,7 @@ def sweep_pages():
         return ", ".join(sorted(c for c, a in axes.items() if a in near))
     bad = []
     for f, t in pages.items():
-        if not re.match(r"docs/(deity|pantheon)/", f):
+        if not re.match(r"docs/pantheons/[^/]+/", f):
             continue
         b = body_of(t)
         if "used for disambiguation" in t:
@@ -523,11 +523,11 @@ def sweep_pages():
     # The Pantheons lists the weapon beside the alignment, portfolio and
     # symbol, and takes it from the god's own page - finish_site() writes it
     # there. A god listed without one, or with a different one, has drifted.
-    pan = pages.get("docs/pantheons.md", "")
+    pan = pages.get("docs/pantheons/index.md", "")
     bad = []
     for m in re.finditer(r"^- \[(?P<name>[^\]]+)\]\((?P<href>[^)]+)\)(?P<rest>.*)$",
                          body_of(pan), re.M):
-        page = pages.get("docs/" + m.group("href").split("#")[0])
+        page = pages.get("docs/pantheons/" + m.group("href").split("#")[0])
         if page is None:
             continue
         w = re.search(r"^- \*\*Favored Weapon\*\*: (.+)$", body_of(page), re.M)
@@ -547,7 +547,7 @@ def sweep_pages():
     # and drifted: four gods under the wrong rank on Antaera, one under the
     # wrong alignment.
     gods, tier, last = {}, None, None
-    for line in pages.get("docs/pantheons.md", "").split("\n"):
+    for line in pages.get("docs/pantheons/index.md", "").split("\n"):
         m = re.match(r"^##[ \t]+(\w+)", line)
         if m:
             tier = m.group(1) if m.group(1) in ("Greater", "Intermediate", "Lesser") else None
@@ -566,7 +566,7 @@ def sweep_pages():
             gods[last][1] = a.group(1)
     bad = []
     for f, t in pages.items():
-        if not re.match(r"docs/spelljamming/sphere-", f):
+        if not re.match(r"docs/spelljammer/spheres/(?!index\.md)", f):
             continue
         sec = re.search(r"^# Recognized Pantheon[ \t]*\n(.*?)(?=\n</div>|\n# |\Z)", t, re.M | re.S)
         if not sec:

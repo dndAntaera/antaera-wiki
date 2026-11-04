@@ -1223,6 +1223,9 @@ RENAMED = {
     # It carries the wiki's legal notes and the Open Game License now,
     # and the menu calls it that.
     "disclaimer": "disclaimer-legal.md",
+    # Taint's two companions sit under it, named for their titles.
+    "rules-taint-dread-effects": "rules/taint/dread-effects.md",
+    "rules-taint-haunting-presences": "rules/taint/haunting-presences.md",
 }
 
 

@@ -77,7 +77,7 @@ Some locations are so suffused with evil that simply entering them exposes a cha
 
 Depending on the nature of the site, a tainted location can bestow either corruption or depravity upon characters who enter it. Sites strongly associated with the undead and with death often bestow corruption, while sites linked to evil outsiders and human evil more often bestow depravity. In general, initial exposure to such a tainted place increases a character's taint score (either corruption or depravity) by 1 point. If the evil of the place is very great, it could increase the character's taint score by 1d3 or even 1d4 points. Characters can attempt a saving throw (Fortitude to resist corruption, Will to resist depravity) to avoid this taint or reduce the size of the increase to their taint scores. The DC ranges from 20 for a typical site up to 25 or 30 for extremely malevolent locales.
 
-Other environments, such as [Dread Effects](taint-dread-effects.md) and [Haunting Presences](taint-haunting-presences.md), may affect the amount of Taint in an area.
+Other environments, such as [Dread Effects](taint/dread-effects.md) and [Haunting Presences](taint/haunting-presences.md), may affect the amount of Taint in an area.
 
 </div>
 </div>

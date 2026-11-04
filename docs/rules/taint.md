@@ -276,7 +276,7 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 **Dead Eye**: Your eyes begin to cloud over, obscuring your vision. In combat, every time you attack an opponent that has concealment, roll your miss chance twice. If either or both results indicate that you miss, your attack fails.<br>
 **Ear Scabs**: Your ears fill up with a crusty, scabrous substance. You take a –2 penalty on Listen checks.<br>
 **Feet Curl**: Your feet warp and curl inward. Your speed is reduced by 10 ft<br>
-**Gums Swell**: Your gums swell, bleed, and rot. You have difficulty pronouncing words clearly. Whenever you cast a spell with a verbal component, you must succeed on a DC 20 caster level check or the spell fails to activate.<br>
+**Gums Swell**: Your gums swell, bleed, and rot. You have difficulty pronouncing words clearly. Whenever you cast a spell with a verbal component, you must succeed on a DC 15 + Spell Level caster level check or the spell fails to activate.<br>
 **Lumps**: Burning hot lumps rise up all over your body. You have a constant fever. Every time you try to run or charge you must make a DC 20 Fortitude save or become fatigued.<br>
 **Odor of Decay**: You give off an unhealthy odor of decay. Animals find your smell repellent. You take a –2 penalty on Handle Animal, Ride, and wild empathy checks.<br>
 **Palsy**: Your muscles are prone to tics and quivering shakes. You take a –2 penalty on ranged attack rolls.<br>
@@ -285,11 +285,11 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 **Winded**: You are constantly short of breath and feel like you can't get enough air. You are staggered during the third round and any subsequent rounds of any combat.
 
 ## Moderate Corruption Effects
-**Blood Eruption**: In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 4 rounds.<br>
+**Blood Eruption**: In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 1d4 rounds.<br>
 **Bones Thicken**: Your skeleton warps and thickens. Raise your Strength score by 2, and reduce your Dexterity score by 4.<br>
 **Chronic Illness**: You are plagued with a phlegm-laden, wracking cough. You also suffer occasional bouts of vomiting, often at specific times of day. You take a –3 penalty on Fortitude saves.<br>
 **Eruption of Sores**: Open, painful sores, some leaking blood or pus, erupt on your body. You take a –1 penalty on Strength- and Charisma-based ability checks and skill checks.<br>
-**Fingers and Toes Fuse**: Your fingers and toes web and fuse. You take a –2 penalty on your attack rolls. Whenever you cast a spell with a somatic component, you must succeed on a DC 20 caster level check or the spell fails to activate.<br>
+**Fingers and Toes Fuse**: Your fingers and toes web and fuse. You take a –2 penalty on your attack rolls. Whenever you cast a spell with a somatic component, you must succeed on a DC 15 + Spell Level caster level check or the spell fails to activate.<br>
 **Joint Pain**: Your joints, particularly your knees and elbows, sometimes flare up in sharp pain. You take a –3 penalty on Reflex saves.<br>
 **Lips Shrink**: Your lips pull back into a frozen rictus, exposing your teeth and gums at all times. You take a –2 penalty on Charisma-based ability checks and skill checks.<br>
 **Paralyzed Face**: Your facial muscles grow so feeble that you can no longer smile, frown, or show any emotion. Food dribbles from the corners of your mouth when you eat. Gain a +1 bonus on Bluff checks and take a –1 penalty on other Charisma-based ability checks or skill checks.<br>
@@ -306,7 +306,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 **Lungs Eaten Away**: Your lungs are eaten away from the inside, resulting in wet, labored, painful breathing. Your physical ability scores (Strength, Dexterity, and Constitution) are each reduced by 1.<br>
 **Nose Rots**: The flesh of your nose rots away, leaving skull-like openings. Reduce your Charisma score by 2.<br>
 **Shriveled Flesh**: Your flesh shrivels and clings to your bones, making you unnaturally gaunt. When you manifest this symptom, subtract your Hit Dice from your hit point total. Thereafter, subtract 1 from the number of hit points you gain at each level. This effect can reduce the number of hit points you gain to 0 (but not below).<br>
-**Skin Lichen**: A black, lichenous growth spreads across your skin, causing a constant itching that interferes with any physical activity. You take a –2 penalty on Strength-, Dexterity-, and Constitution-based ability checks and skill checks.<br>
+**Skin Lichen**: A black, lichenous growth spreads across your skin, causing a constant itching that interferes with any physical activity. You take a –2 penalty on Strength, Dexterity & Constitution-based ability checks and skill checks.<br>
 **Skull Deformed**: Your skull becomes enlarged, distorted, and deformed. Reduce both your Intelligence and Wisdom scores by 2. You also take a –3 penalty on Will saves.<br>
 **Spine Twists**: Your spine twists and your back hunches. Reduce your Dexterity score by 2.<br>
 **Wrigglers**: Parasitic worms protrude from your sores, sapping your strength. Reduce your Strength score by 2. You gain a +2 bonus to Intimidate checks and take a –4 penalty on other Charisma-based checks.
@@ -339,7 +339,7 @@ Depravity manifests as mental symptoms: growing paranoia, visual and auditory ha
 **Aggressive**: You are easily angered and cannot hide your feelings. In combat, you try so hard to hurt your enemies that you neglect your own defense, and you take a –1 penalty to Armor Class.<br>
 **Bestial**: You take on a ferocious, wild demeanor. You gain a +2 circumstance bonus on Handle Animal, Ride, and wild empathy checks. You take a –1 penalty on other Charisma-based ability checks and skill checks.<br>
 **Compulsive**: Pick a compulsive ritual to adopt. For example, you and your equipment are never clean enough. You can only break out of the compulsive pattern by eating bugs, which sometimes disagree with you. Once each day, make a DC 10 Fortitude save; if you fail, take 1d4 points of nonlethal damage.<br>
-**Crazed**: You can no longer easily cope with sudden changes in circumstance. If you are surprised at the outset of an encounter, for your first action you have an equal chance of charging the foe or running away.<br>
+**Crazed**: You can no longer easily cope with sudden changes in circumstance. If you are surprised at the outset of an encounter, you have a 50% chance of doing nothing other than cowering and babbling incoherently on your turn.<br>
 **Disoriented**: You lose track of events. If you are surprised at the outset of an encounter, you are dazed for 1 round.<br>
 **Mildly Phobic**: You gain a mild phobia, which requires you to succeed on a Will save or become shaken whenever you encounter the object of your phobia. The DC of the save equals 12 + the CR of the challenge that is the object of the phobia. (Treat CRs of less than 1 as 0.)<br>
 **Neglectful**: You disregard hygiene and cultural mores. You take a –2 penalty on Charisma-based ability checks and skill checks.<br>

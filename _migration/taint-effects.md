@@ -35,7 +35,7 @@
 
 **Feet Curl:** Your feet warp and curl inward. Your speed is reduced by 10 feet.
 
-**Gums Swell:** Your gums swell, bleed, and rot. You have difficulty pronouncing words clearly. Whenever you cast a spell with a verbal component, you must succeed on a DC 20 caster level check or the spell fails to activate.
+**Gums Swell:** Your gums swell, bleed, and rot. You have difficulty pronouncing words clearly. Whenever you cast a spell with a verbal component, you must succeed on a DC 15 + Spell Level caster level check or the spell fails to activate.
 
 **Lumps:** Burning hot lumps rise up all over your body. You have a constant fever. Every time you try to run or charge you must make a DC 20 Fortitude save or become fatigued.
 
@@ -51,7 +51,7 @@
 
 ### Moderate Corruption Effects
 
-**Blood Eruption:** In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 4 rounds.
+**Blood Eruption:** In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 1d4 rounds.
 
 **Bones Thicken:** Your skeleton warps and thickens. Raise your Strength score by 2, and reduce your Dexterity score by 4.
 
@@ -59,7 +59,7 @@
 
 **Eruption of Sores:** Open, painful sores, some leaking blood or pus, erupt on your body. You take a –1 penalty on Strength- and Charisma-based ability checks and skill checks.
 
-**Fingers and Toes Fuse:** Your fingers and toes web and fuse. You take a –2 penalty on your attack rolls. Whenever you cast a spell with a somatic component, you must succeed on a DC 20 caster level check or the spell fails to activate.
+**Fingers and Toes Fuse:** Your fingers and toes web and fuse. You take a –2 penalty on your attack rolls. Whenever you cast a spell with a somatic component, you must succeed on a DC 15 + Spell Level caster level check or the spell fails to activate.
 
 **Joint Pain:** Your joints, particularly your knees and elbows, sometimes flare up in sharp pain. You take a –3 penalty on Reflex saves.
 
@@ -87,7 +87,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 **Shriveled Flesh:** Your flesh shrivels and clings to your bones, making you unnaturally gaunt. When you manifest this symptom, subtract your Hit Dice from your hit point total. Thereafter, subtract 1 from the number of hit points you gain at each level. This effect can reduce the number of hit points you gain to 0 (but not below).
 
-**Skin Lichen:** A black, lichenous growth spreads across your skin, causing a constant itching that interferes with any physical activity. You take a –2 penalty on Strength-, Dexterity-, and Constitution-based ability checks and skill checks.
+**Skin Lichen:** A black, lichenous growth spreads across your skin, causing a constant itching that interferes with any physical activity. You take a –2 penalty on Strength, Dexterity & Constitution-based ability checks and skill checks.
 
 **Skull Deformed:** Your skull becomes enlarged, distorted, and deformed. Reduce both your Intelligence and Wisdom scores by 2. You also take a –3 penalty on Will saves.
 
@@ -118,7 +118,7 @@ Some prestige classes allow a character to take this symptom in place of any oth
 
 **Compulsive:** Pick a compulsive ritual to adopt. For example, you and your equipment are never clean enough. You can only break out of the compulsive pattern by eating bugs, which sometimes disagree with you. Once each day, make a DC 10 Fortitude save; if you fail, take 1d4 points of nonlethal damage.
 
-**Crazed:** You can no longer easily cope with sudden changes in circumstance. If you are surprised at the outset of an encounter, for your first action you have an equal chance of charging the foe or running away.
+**Crazed:** You can no longer easily cope with sudden changes in circumstance. If you are surprised at the outset of an encounter, you have a 50% chance of doing nothing other than cowering and babbling incoherently on your turn.
 
 **Disoriented:** You lose track of events. If you are surprised at the outset of an encounter, you are dazed for 1 round.
 

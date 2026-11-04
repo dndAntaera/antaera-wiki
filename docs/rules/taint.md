@@ -282,7 +282,7 @@ Corruption manifests as physical symptoms: muscular degeneration, illness, frail
 **Palsy**: Your muscles are prone to tics and quivering shakes. You take a –2 penalty on ranged attack rolls.<br>
 **Skin Seeps**: Your skin seeps greasy, yellow ichor. You add a +2 circumstance bonus on Escape Artist checks and on grapple checks made to resist or escape a grapple or to escape a pin. You take –2 on your Climb and Sleight of Hand checks. Opponents add +2 to their attack roll when attempting to disarm you.<br>
 **Skin Sloughs**: The skin on your face peels off in long, papery strips, leaving unsightly red patches. You take a –2 penalty on Diplomacy, Gather Information, and Perform checks.<br>
-**Winded**: You are constantly short of breath and feel like you can't get enough air. You are staggered during the third round and any subsequent rounds of any combat.
+**Winded**: You are constantly short of breath and feel like you can't get enough air. Starting on the third round of combat, you must make a DC 15 Fort save or be fatigued for that round. The DC increases by 1 for each subsequent round of combat.
 
 ## Moderate Corruption Effects
 **Blood Eruption**: In moments of intense activity, blood gushes from your nostrils and ears. At the beginning of any combat encounter, you must make a DC 15 Fortitude save or be sickened for 1d4 rounds.<br>

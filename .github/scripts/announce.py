@@ -97,12 +97,6 @@ REDESCRIBED = {
         "moved the tables standing in cards of their own into the cards they belong to",
     ("Taint", "moved a passage"): None,
     ("Taint", "added to the Effects of Taint section"): None,
-    # The old threshold table, replaced and its neighbour moved, read as words
-    # cut; Winded's new rule read as the section trimmed.
-    ("Taint", "removed a passage of 171 words from Effects of Taint"):
-        "updated the Taint Threshold table",
-    ("Taint", "trimmed the Mild Corruption Effects section"):
-        "rewrote Winded in Mild Corruption Effects",
 }
 
 

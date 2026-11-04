@@ -299,10 +299,23 @@ def readable(text):
     return _plain(" ".join(tokens(text)[0]))
 
 
+# A card and the title it opens with. A sidebar is a card of the wd-aside kind.
+CARD_OPEN = re.compile(r'<div class="wd-cell([^"]*)"[^>]*>\s*\n(?:[ \t]*\n)*#{1,6}[ \t]+(.+?)[ \t]*$', re.M)
+
+
+def cards(text):
+    """Each card's title, and whether the card is a sidebar."""
+    return {" ".join(_words(name)): "wd-aside" in cls
+            for cls, name in CARD_OPEN.findall(text or "")}
+
+
 def is_content(kind, old, new, old_rev, new_rev):
     if kind != "edited":
         return True
-    return readable(blobs.get(old_rev, old)) != readable(blobs.get(new_rev, new))
+    before, after = blobs.get(old_rev, old), blobs.get(new_rev, new)
+    # A sidebar made a card of its own, or a card made a sidebar, keeps its
+    # words but reads differently.
+    return readable(before) != readable(after) or cards(before) != cards(after)
 
 
 def content_changes(base, head):
@@ -827,6 +840,12 @@ def describe_edit(change):
 
     if c.reordered:
         items.append("put the entries of %s in a new order" % _names(c.reordered))
+
+    was, now = cards(c.before), cards(c.after)
+    for name in was:
+        if name in now and was[name] != now[name]:
+            items.append("made %s a sidebar" % name if now[name]
+                         else "gave %s its own card instead of a sidebar" % name)
 
     a, a_sec, a_starts = c.a, c.a_sec, c.a_starts
     b, b_sec, b_starts = c.b, c.b_sec, c.b_starts

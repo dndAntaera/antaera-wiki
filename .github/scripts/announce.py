@@ -785,6 +785,24 @@ LINE_MOVE_MIN = 3        # words
 LINE_MOVE_MATCH = 0.6    # share of words in common
 
 
+def _line_phrases(words, starts, lo, hi):
+    """The lines of words[lo:hi], each as (start, end, its words as plain text)."""
+    cuts = sorted({lo, hi} | {k for k in starts if lo < k < hi})
+    return [(s, e, _plain(_phrase(words[s:e]))) for s, e in zip(cuts, cuts[1:])]
+
+
+def _gone(c, i1, i2):
+    """How many words of a passage taken out are not on the page any more.
+
+    A line found word for word somewhere on the new page was moved there, and
+    moved content is not removed content.
+    """
+    if not hasattr(c, "new_lines"):
+        c.new_lines = {p for _, _, p in _line_phrases(c.b, c.b_lines | c.b_starts, 0, len(c.b))}
+    return sum(e - s for s, e, p in _line_phrases(c.a, c.a_lines | c.a_starts, i1, i2)
+               if p not in c.new_lines)
+
+
 def _line_end(lines, start, end):
     """Where the first line of the words start:end stops."""
     return min([k for k in lines if start < k < end] + [end])
@@ -926,13 +944,17 @@ def describe_edit(change):
                 swap["count"] += 1
             else:
                 cuts.append(old)
+        elif j1 == j2 and not _gone(c, i1, i2):
+            # Every line of it is still on the page, somewhere else: moved,
+            # not removed.
+            continue
         elif j1 == j2 and i2 - i1 <= QUOTE:
             # A line or two taken out says which, and from where.
             blocks.append("removed “%s” from %s" % (_phrase(a[i1:i2]), _section(c.a_place[i1], title)))
         elif i1 == i2 and j2 - j1 <= QUOTE:
             blocks.append("added “%s” to %s" % (_phrase(b[j1:j2]), _section(c.b_place[j1], title)))
         elif j1 == j2:
-            blocks.append("removed a passage of %d words from %s" % (i2 - i1, _section(c.a_place[i1], title)))
+            blocks.append("removed a passage of %d words from %s" % (_gone(c, i1, i2), _section(c.a_place[i1], title)))
         elif i2 - i1 <= QUOTE and j2 - j1 <= QUOTE:
             # A phrase reworded, too long to read as a swap of a word or two
             # but short enough to quote: both, and where.

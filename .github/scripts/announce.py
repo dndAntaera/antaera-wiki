@@ -88,7 +88,20 @@ REDESCRIBED = {
     "removed the Apprentice Helmsman [General] section":
         "moved the Helmsman feats to the archived Helmsman Feats page",
     "removed the Journeyman Helmsman [General] and Master Helmsman [General] sections": None,
+    # Keyed by page as well, where the words alone are too common to correct
+    # everywhere: Taint's tables, moved out of their own cards into the cards
+    # that name them.
+    ("Taint", "moved “Taint-Absorbing items may be crafted using the Taint-Absorbing Items "
+              "table. The item the crystal is being put into will determine which craft skill "
+              "will be used” within Resisting Taint"):
+        "moved the tables standing in cards of their own into the cards they belong to",
+    ("Taint", "moved a passage"): None,
+    ("Taint", "added to the Effects of Taint section"): None,
 }
+
+
+def _redescribed(title, item):
+    return REDESCRIBED.get((title, item), REDESCRIBED.get(item, item))
 
 # An announcement takes edits for the rest of the day it went up, by the clock
 # in the eastern United States (EST, or EDT in summer). The first change after
@@ -223,6 +236,9 @@ HEADING = re.compile(r"^\s{0,3}#+\s*(.*?)\s*#*\s*$")
 
 
 def _strip_markup(text):
+    # A byte-order mark left in the middle of a line is invisible; taking it
+    # out is no change to read about.
+    text = text.replace("﻿", "")
     text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
     # A tag opens with a name, a slash or a "!": the "<" in a sphere's
     # "Inner Track (<200 million miles)" is a word, and read as a tag it hid
@@ -824,8 +840,10 @@ def describe_edit(change):
     title = c.new_meta.get("title")
     items = []
 
+    renamed = None
     if c.old_meta.get("title") and c.old_meta.get("title") != title:
-        items.append("renamed from “%s”" % c.old_meta["title"])
+        renamed = c.old_meta["title"]
+        items.append("renamed from “%s”" % renamed)
     for flag, set_, cleared in (("wip", "marked a work in progress", "no longer a work in progress"),
                                 ("archived", "moved to the archive", "brought back from the archive")):
         was, now = c.old_meta.get(flag) == "true", c.new_meta.get(flag) == "true"
@@ -867,6 +885,9 @@ def describe_edit(change):
         # as a swap like any other.
         fresh = [b_sec[k] for k in range(j1, j2) if k in b_starts and b_sec[k] not in old_heads]
         gone = [a_sec[k] for k in range(i1, i2) if k in a_starts and a_sec[k] not in new_heads]
+        # A renamed page's old title card is the rename, said already.
+        if renamed and gone == [renamed] and (j2 - j1) <= SMALL:
+            continue
         if fresh and not gone:
             named = [("a title card" if h == title else h) for h in fresh]
             blocks.append("added a title card" if named == ["a title card"]
@@ -1144,8 +1165,8 @@ def _changes(change):
         items = [describe_move(c.old)]
         if readable(c.before) != readable(c.after):
             items += describe_edit(c)
-    return [_item(REDESCRIBED.get(i, i)) for i in items for i in _fields_apart(i)
-            if REDESCRIBED.get(i, i)]
+    return [_item(_redescribed(c.title, i)) for i in items for i in _fields_apart(i)
+            if _redescribed(c.title, i)]
 
 
 # Two summary lines added together read as one quote: "Spelljamming Aware:

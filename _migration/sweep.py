@@ -147,7 +147,9 @@ def main():
     for f, t in pages.items():
         ids = set(re.findall(r'id="([^"]+)"', t))
         for m in re.finditer(r"^#{1,6}\s+(.+?)\s*$", t, re.M):
-            h = re.sub(r"[*_`~]", "", m.group(1)).strip().lower()
+            # A heading that is a link is named by its words.
+            h = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", m.group(1))
+            h = re.sub(r"[*_`~]", "", h).strip().lower()
             ids.add(re.sub(r"[^a-z0-9]+", "-", h).strip("-"))
         anchors[f[len(DOCS) + 1:]] = ids
     bad = []
@@ -455,11 +457,13 @@ def main():
     # The Pantheons lists the weapon beside the alignment, portfolio and
     # symbol, and takes it from the god's own page - finish_site() writes it
     # there. A god listed without one, or with a different one, has drifted.
-    pan = pages.get("docs/pantheons/index.md", "")
+    # Each pantheon lists its deities on its own page, under pantheons/.
+    hubs = sorted(f for f in pages if re.match(r"docs/pantheons/[^/]+/index\.md$", f))
     bad = []
-    for m in re.finditer(r"^- \[(?P<name>[^\]]+)\]\((?P<href>[^)]+)\)(?P<rest>.*)$",
-                         body_of(pan), re.M):
-        page = pages.get("docs/pantheons/" + m.group("href").split("#")[0])
+    for hub, m in ((h, m) for h in hubs for m in re.finditer(
+            r"^- \[(?P<name>[^\]]+)\]\((?P<href>[^)]+)\)(?P<rest>.*)$", body_of(pages[h]), re.M)):
+        pan = pages[hub]
+        page = pages.get(os.path.normpath(os.path.join(os.path.dirname(hub), m.group("href").split("#")[0])).replace("\\", "/"))
         if page is None:
             continue
         w = re.search(r"^- \*\*Favored Weapon\*\*: (.+)$", body_of(page), re.M)
@@ -479,7 +483,8 @@ def main():
     # and drifted: four gods under the wrong rank on Antaera, one under the
     # wrong alignment.
     gods, tier, last = {}, None, None
-    for line in pages.get("docs/pantheons/index.md", "").split("\n"):
+    for line in "\n".join(pages[h] for h in sorted(pages)
+                           if re.match(r"docs/pantheons/[^/]+/index\.md$", h)).split("\n"):
         m = re.match(r"^##[ \t]+(\w+)", line)
         if m:
             tier = m.group(1) if m.group(1) in ("Greater", "Intermediate", "Lesser") else None

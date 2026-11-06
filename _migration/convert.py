@@ -277,8 +277,9 @@ EDITS = {
          "Symbol: A featureless humanoid face with a spiked crown"),
         (None, "Symbol: A ship beneath a guiding star",
          "Symbol: A compass encircled by symbols of waves and meandering paths"),
-        # "Depreciated" is a different word.
-        (None, "*[Depreciated](pantheon.md)*", "*[Deprecated](pantheon.md)*"),
+        # The old pantheon page is archived; Archived Pages lists it, and The
+        # Pantheons no longer points readers at it.
+        (None, "*[Depreciated](pantheon.md)*", ""),
         # Alpha, written for the wiki after the backup was taken, takes his
         # place among the Patrons. The spheres read their entries off this
         # page, so Forgehome's listing of him follows - see favor_pantheon().
@@ -356,6 +357,12 @@ EDITS = {
     "spelljamming-skills-feats": [
         ("# New Feats", re.compile(r"^## %s Helmsman.*?(?=^## )" % rank, re.M | re.S), "")
         for rank in ("Apprentice", "Journeyman", "Master")
+    ],
+    # The Living Gods are the Mortal Pantheon's greater deities now; the page
+    # that once listed them is archived.
+    "athelney": [
+        (None, "[Living Gods](../pantheon.md)",
+         "[Living Gods](../pantheons/mortal/index.md#greater-deities-the-living-gods)"),
     ],
     # Concordia is written for the wiki - see PAGES.
     "spelljamming-known-spheres": [

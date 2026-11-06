@@ -91,4 +91,4 @@ This pantheon is worshipped solely by humans, though they are not picky as to wh
 </div>
 </div>
 
-*[Deprecated](../pantheon.md)*
+

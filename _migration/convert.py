@@ -1323,7 +1323,12 @@ def final_path(slug):
 
 # Each pantheon on The Pantheons, and its branch under pantheons/.
 PANTHEON_HUBS = {"The Primal Pantheon": "primal", "The Mortal Pantheon": "mortal",
-                 "Courts of Faerie": "faerie", "The Imperial Pantheon": "imperial"}
+                 "Courts of Faerie": "faerie", "The Divine Flight": "divine-flight",
+                 "The Imperial Pantheon": "imperial"}
+# Pantheons still being written.
+WIP_HUBS = {"faerie", "divine-flight", "imperial"}
+# A pantheon with no deities of its own yet points readers elsewhere.
+DISAMBIGUATION = "*This page is currently used for disambiguation.*"
 
 
 def pantheon_hubs():
@@ -1356,12 +1361,16 @@ def pantheon_hubs():
                 '<div class="wd-cell" markdown>\n\n# %s\n\n%s\n\n</div>\n</div>\n')
         # The overview opens the page, as it opens the pantheon on The
         # Pantheons; the deities follow.
-        body = (card % ("Overview", rebased(overview).strip("\n"))
-                + card % ("Deities", rebased(ranks).strip("\n")))
+        if ranks.strip():
+            body = (card % ("Overview", rebased(overview).strip("\n"))
+                    + card % ("Deities", rebased(ranks).strip("\n")))
+        else:
+            body = card % ("Overview", DISAMBIGUATION + "\n\n" + rebased(overview).strip("\n"))
         out = os.path.join(DOCS, "pantheons", branch, "index.md")
         os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, "w", encoding="utf-8", newline="\n") as fh:
-            fh.write('---\ntitle: "%s"\n---\n\n' % name + title_card(name, "") + body)
+            fh.write('---\ntitle: "%s"\n%s---\n\n' % (name, "wip: true\n" if branch in WIP_HUBS else "")
+                     + title_card(name, "") + body)
         text = (text[:m.start()] + "# [%s](%s/index.md)\n" % (name, branch)
                 + overview.rstrip("\n") + "\n\n" + text[m.end():])
     with open(path, "w", encoding="utf-8", newline="\n") as fh:
@@ -1577,6 +1586,11 @@ def slug_keys(target):
         keys.append(alt)
     return keys
 
+
+# Imported pages whose sign is out of date: the work it marked is done, or has
+# moved to another page. The Pantheons' unfinished pantheons have pages of
+# their own, and carry the sign there (WIP_HUBS).
+NOT_WIP = {"pantheons"}
 
 # Written pages still being worked on. An imported page is marked by the
 # sign on its Wikidot source; a written page has no source, so it is named here.
@@ -4079,7 +4093,7 @@ def main(backup):
         # A signpost is not an unfinished page. Two disambiguation pages kept
         # the under-construction sign from whatever they used to be, which
         # said a page pointing elsewhere was still being written.
-        if wip_url and wip_url in raw and "disambiguation" not in body:
+        if wip_url and wip_url in raw and "disambiguation" not in body and slug not in NOT_WIP:
             meta.append("wip: true")
         if rel.split("/")[0] in ARCHIVED_FOLDERS or slug in ARCHIVED_PAGES:
             meta.append("archived: true")

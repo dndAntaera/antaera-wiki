@@ -103,6 +103,11 @@ REDESCRIBED = {
     ("The Pantheons", "changed “The” to “The Mortal Pantheon's page The”"): None,
     ("The Pantheons", "changed “The” to “Courts of Faerie's page The”"): None,
     ("The Pantheons", "changed “During” to “The Imperial Pantheon's page During”"): None,
+    # The overview came onto each pantheon's page, and the line that pointed
+    # to it on The Pantheons went.
+    **{(t, "rewrote the Deities section"): "removed the line pointing to the overview on The Pantheons"
+       for t in ("Courts of Faerie", "The Imperial Pantheon", "The Mortal Pantheon",
+                 "The Primal Pantheon")},
     # Then each pantheon's title became the link, and the line went.
     ("The Pantheons", "changed “The Primal Pantheon The Primal Pantheon's page” to "
                       "“The Primal Pantheon” in [The Primal Pantheon](primal/index.md)"):

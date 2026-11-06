@@ -1320,38 +1320,67 @@ PANTHEON_HUBS = {"The Primal Pantheon": "primal", "The Mortal Pantheon": "mortal
 
 
 def pantheon_hubs():
-    """A page for each pantheon, listing its gods rank by rank, from The Pantheons."""
-    with open(os.path.join(DOCS, "pantheons", "index.md"), encoding="utf-8") as fh:
+    """A page for each pantheon, holding its deities rank by rank.
+
+    The Pantheons keeps each pantheon's overview, under a title that links to
+    its page; the deities themselves are listed only on that page.
+    """
+    path = os.path.join(DOCS, "pantheons", "index.md")
+    with open(path, encoding="utf-8") as fh:
         text = fh.read()
+    moved = {}    # a rank heading's anchor, and the pantheon page it went to
     for name, branch in PANTHEON_HUBS.items():
         m = re.search(r"^# %s\n(.*?)(?=^</div>)" % re.escape(name), text, re.M | re.S)
         if not m:
             TODO.append(("pantheons", "no %s section for its hub" % name))
             continue
-        ranks = []
-        for rank, body in re.findall(r"^## ([^\n]+)\n(.*?)(?=^## |\Z)", m.group(1), re.M | re.S):
-            gods = [l for l in body.split("\n") if l.startswith("- ")]
-            gods = [re.sub(r"\]\(([^)#]+\.md)", lambda l: "](" + posixpath.relpath(
-                        posixpath.join("pantheons", l.group(1)), "pantheons/" + branch), g)
-                    for g in gods]
-            if gods:
-                ranks.append("## %s\n\n%s" % (rank, "\n".join(gods)))
+        split = re.search(r"^## ", m.group(1), re.M)
+        overview = m.group(1)[:split.start()] if split else m.group(1)
+        ranks = m.group(1)[split.start():] if split else ""
+        for h in re.findall(r"^## (.+)$", ranks, re.M):
+            slug = re.sub(r"[^a-z0-9]+", "-", h.lower()).strip("-")
+            # One anchor named twice on the old page can't say which it meant.
+            moved[slug] = None if slug in moved else branch
+        # Links were written from The Pantheons; they are read from the hub now.
+        ranks = re.sub(r"\]\((?!https?:|/|#)([^)#\s]+\.md)", lambda l: "](" + posixpath.relpath(
+            posixpath.normpath(posixpath.join("pantheons", l.group(1))), "pantheons/" + branch), ranks)
         anchor = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
         body = ('<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
                 '<div class="wd-cell" markdown>\n\n'
                 "# Deities\n\n"
-                "The deities of %s, as [The Pantheons](../index.md#%s) sets them out.\n\n"
+                "The deities of %s. Its overview is on [The Pantheons](../index.md#%s).\n\n"
                 % (name if not name.startswith("The ") else "the " + name[4:], anchor)
-                + "\n\n".join(ranks) + "\n\n</div>\n</div>\n")
+                + ranks.strip("\n") + "\n\n</div>\n</div>\n")
         out = os.path.join(DOCS, "pantheons", branch, "index.md")
         os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, "w", encoding="utf-8", newline="\n") as fh:
             fh.write('---\ntitle: "%s"\n---\n\n' % name + title_card(name, "") + body)
-        # The Pantheons points each pantheon at its page.
-        text = text.replace(m.group(0), m.group(0).replace(
-            "# %s\n" % name, "# %s\n[%s's page](%s/index.md)\n\n" % (name, name, branch), 1), 1)
-    with open(os.path.join(DOCS, "pantheons", "index.md"), "w", encoding="utf-8", newline="\n") as fh:
+        text = (text[:m.start()] + "# [%s](%s/index.md)\n" % (name, branch)
+                + overview.rstrip("\n") + "\n\n" + text[m.end():])
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(text)
+
+    # A link to a rank on The Pantheons follows it to its pantheon's page.
+    for root, _, names in os.walk(DOCS):
+        for n in names:
+            if not n.endswith(".md"):
+                continue
+            f = os.path.join(root, n)
+            here = os.path.relpath(root, DOCS).replace("\\", "/")
+            with open(f, encoding="utf-8") as fh:
+                page = fh.read()
+
+            def follow(l):
+                dest = posixpath.normpath(posixpath.join(here, l.group(1)))
+                branch = moved.get(l.group(2))
+                if dest != "pantheons/index.md" or not branch:
+                    return l.group(0)
+                return "](%s#%s)" % (posixpath.relpath("pantheons/%s/index.md" % branch, here),
+                                     l.group(2))
+            new = re.sub(r"\]\(([^)#\s]+\.md)#([^)\s]+)\)", follow, page)
+            if new != page:
+                with open(f, "w", encoding="utf-8", newline="\n") as fh:
+                    fh.write(new)
 
 
 def relocate_site():

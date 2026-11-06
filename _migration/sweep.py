@@ -663,10 +663,13 @@ def main():
     check("a page whose card carries the sign carries none of its own", bad)
 
     # A signpost is not an unfinished page. Two of them carried the
-    # under-construction sign from whatever they used to be.
+    # under-construction sign from whatever they used to be. The Divine Flight
+    # is both, by choice: a pantheon still being written that points to The
+    # Pantheons until its deities have pages.
+    both = {"docs/pantheons/divine-flight/index.md"}
     check("no disambiguation page is marked work in progress",
           [f for f, t in pages.items()
-           if "used for disambiguation" in t and "\nwip: true" in t[:400]])
+           if "used for disambiguation" in t and "\nwip: true" in t[:400] and f not in both])
 
     check("no page is nearly empty",
           ["%s  %d words" % (f, len(body_of(t).split()))

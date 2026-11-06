@@ -165,18 +165,15 @@ When the script itself changes, the next run redraws the open message in the
 new format, even if no page changed. Redrawing is an edit, so it does not
 ping.
 
-**Each new announcement pings the Scars role**, as `Ping: || @Scars ||` (the
+**Each new announcement pings @everyone**, as `Ping: || @everyone ||` (the
 mention behind a spoiler) in the text of its first message, above the embed.
 Edits do not ping again, because Discord only notifies when a message is
 posted. So the first change of the day pings, and the rest are folded in
 silently.
 
-A webhook can only ping a role by its ID, which is `SCARS_ROLE_ID` in the
-script. To find a role's ID, send `\@RoleName` in any channel: Discord shows
-it as `<@&123456789012345678>`, and the digits are the ID. If the ping shows
-as text and notifies no one, turn on *Allow anyone to @mention this role* in
-the role's settings (Server Settings → Roles), or give the webhook *Mention
-@everyone, @here, and All Roles* in the channel's permissions.
+The ping needs the bot (or webhook) to have *Mention @everyone, @here, and All
+Roles* in the channel's permissions; without it, `@everyone` shows as text
+and notifies no one.
 
 The message being edited is remembered between runs in the Actions cache
 (`announce-state-*`). If that cache is ever cleared, the next change simply
@@ -215,7 +212,7 @@ and posts nothing.
 **Test the webhook** from the Actions tab: *Test the Discord announcement* →
 *Run workflow*. It posts the newest page change again, titled "(test)", as a
 message of its own. Nothing is deployed, and later announcements never edit
-it. It does not ping unless you tick *Ping @Scars* before running it.
+it. It does not ping unless you tick *Ping @everyone* before running it.
 
 **Preview a message** without posting it, for any range of commits:
 

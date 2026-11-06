@@ -16,7 +16,7 @@ script itself changes, the open message is redrawn in its new form.
                                        [--state <file>] [--dry-run]
     python .github/scripts/announce.py --test [--ping] [--dry-run]
 
-Each new message pings the Scars role. Edits do not ping again: Discord only
+Each new message pings @everyone. Edits do not ping again: Discord only
 notifies when a message is posted.
 
 What counts as a change is what a reader would see. Changes to the coding of
@@ -151,10 +151,8 @@ def eastern_day(timestamp):
 def same_day(posted_at, now):
     return eastern_day(posted_at) == eastern_day(now)
 
-# Who a new post notifies: the Scars role, behind a spoiler. A webhook can
-# only ping a role by its ID; "@Scars" written out would stay plain text.
-SCARS_ROLE_ID = "1336400088997564678"
-PING = "Ping: || <@&%s> ||" % SCARS_ROLE_ID
+# Who a new post notifies: everyone in the server, behind a spoiler.
+PING = "Ping: || @everyone ||"
 
 COLOUR = 0xBF00FF            # --wd-accent in docs/stylesheets/tokens.css
 
@@ -1410,8 +1408,7 @@ def _messages(site_name, site_url, head, chunks, summary):
             del embed["description"]
     # The ping is the first message's only text, above its embed: page titles
     # and commit messages sit in the embeds, where a mention never pings, and
-    # allowed_mentions lets the Scars role through but no one else, @everyone
-    # included. The messages after it say nothing in their text, and ping no
+    # allowed_mentions lets @everyone through and nothing else. The messages after it say nothing in their text, and ping no
     # one.
     #
     # Discord pings when a message is posted, never when it is edited, so an
@@ -1423,7 +1420,7 @@ def _messages(site_name, site_url, head, chunks, summary):
 
 def first_message_body(embed):
     return {"content": PING, "embeds": [embed],
-            "allowed_mentions": {"parse": [], "roles": [SCARS_ROLE_ID]}}
+            "allowed_mentions": {"parse": ["everyone"]}}
 
 
 # --- DM's Notes --------------------------------------------------------------
@@ -1770,7 +1767,7 @@ def main():
     ap.add_argument("--test", action="store_true",
                     help="post the newest page change again, marked as a test")
     ap.add_argument("--ping", action="store_true",
-                    help="with --test: ping Scars, as a real announcement does")
+                    help="with --test: ping @everyone, as a real announcement does")
     ap.add_argument("--repost", action="store_true",
                     help="take the open message down and post it again")
     ap.add_argument("--redraw", action="store_true",

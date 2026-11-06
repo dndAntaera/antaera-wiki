@@ -103,6 +103,12 @@ REDESCRIBED = {
     ("The Pantheons", "changed “The” to “The Mortal Pantheon's page The”"): None,
     ("The Pantheons", "changed “The” to “Courts of Faerie's page The”"): None,
     ("The Pantheons", "changed “During” to “The Imperial Pantheon's page During”"): None,
+    # Then each pantheon's title became the link, and the line went.
+    ("The Pantheons", "changed “The Primal Pantheon The Primal Pantheon's page” to "
+                      "“The Primal Pantheon” in [The Primal Pantheon](primal/index.md)"):
+        "made each pantheon's title the link to its page",
+    ("The Pantheons", "changed “The Imperial Pantheon The Imperial Pantheon's page” to "
+                      "“The Imperial Pantheon” in [The Imperial Pantheon](imperial/index.md)"): None,
 }
 
 
@@ -818,7 +824,9 @@ LINE_MOVE_MATCH = 0.6    # share of words in common
 def _line_phrases(words, starts, lo, hi):
     """The lines of words[lo:hi], each as (start, end, its words as plain text)."""
     cuts = sorted({lo, hi} | {k for k in starts if lo < k < hi})
-    return [(s, e, _plain(_phrase(words[s:e]))) for s, e in zip(cuts, cuts[1:])]
+    # A link reads the same wherever it points from: its target is left out.
+    return [(s, e, re.sub(r"\]\([^)]*\)", "]", _plain(_phrase(words[s:e]))))
+            for s, e in zip(cuts, cuts[1:])]
 
 
 def _gone(c, i1, i2):
@@ -831,6 +839,52 @@ def _gone(c, i1, i2):
         c.new_lines = {p for _, _, p in _line_phrases(c.b, c.b_lines | c.b_starts, 0, len(c.b))}
     return sum(e - s for s, e, p in _line_phrases(c.a, c.a_lines | c.a_starts, i1, i2)
                if p not in c.new_lines)
+
+
+# Lines too short to say they moved: a heading word, a rule, a single value.
+MOVED_LINE_MIN = 3
+
+
+def lines_between_pages(changes):
+    """Mark each page with the lines that left it for another page, or came.
+
+    A line taken out of one page and put into another moved; it was neither
+    removed nor added. Each page learns which of its lost lines turn up where,
+    and which of its new lines came from where.
+    """
+    def lines(words, starts):
+        return {p for _, _, p in _line_phrases(words, starts, 0, len(words))
+                if len(p.split()) >= MOVED_LINE_MIN}
+
+    for c in changes:
+        before, after = lines(c.a, c.a_lines | c.a_starts), lines(c.b, c.b_lines | c.b_starts)
+        c.lines_lost, c.lines_new, c.lines_after = before - after, after - before, after
+    for c in changes:
+        # Lost here and on another page now, whether it arrived there with
+        # this change or was there already.
+        c.went_to = {l: d.title for d in changes if d is not c for l in c.lines_lost & d.lines_after}
+        c.came_from = {l: d.title for d in changes if d is not c for l in c.lines_new & d.lines_lost}
+        c.moved_to, c.moved_from = set(), set()
+
+
+def _between_pages(c, i1, i2, j1, j2):
+    """Whether a passage is lines moved to or from another page, and notes where."""
+    if not hasattr(c, "went_to"):
+        return False
+    gone = [p for _, _, p in _line_phrases(c.a, c.a_lines | c.a_starts, i1, i2)
+            if len(p.split()) >= MOVED_LINE_MIN]
+    came = [p for _, _, p in _line_phrases(c.b, c.b_lines | c.b_starts, j1, j2)
+            if len(p.split()) >= MOVED_LINE_MIN]
+    moved = [p for p in gone if p in c.went_to] + [p for p in came if p in c.came_from]
+    stayed = [p for p in gone if p not in c.went_to] + [p for p in came if p not in c.came_from]
+    # Moved, give or take a heading reworded on the way: a whole pantheon's
+    # deities left The Pantheons with its title made a link and a line dropped.
+    words = lambda ps: sum(len(p.split()) for p in ps)
+    if not moved or words(stayed) > min(QUOTE, words(moved) // 20):
+        return False
+    c.moved_to |= {c.went_to[p] for p in gone if p in c.went_to}
+    c.moved_from |= {c.came_from[p] for p in came if p in c.came_from}
+    return True
 
 
 def _line_end(lines, start, end):
@@ -926,6 +980,8 @@ def describe_edit(change):
         if n in line_moves:
             if line_moves[n]:
                 blocks.append(line_moves[n])
+            continue
+        if _between_pages(c, i1, i2, j1, j2):
             continue
         # Headings that begin in this passage and are new to the page are
         # sections added, as one change however many there are; headings
@@ -1048,6 +1104,10 @@ def describe_edit(change):
         items += [said % _the(where) for where in by_verb.get(verb, [])]
     items += ["added “%s”" % s for s in dict.fromkeys(adds)]
     items += ["removed “%s”" % s for s in dict.fromkeys(cuts)]
+    # Lines that moved between pages, said once for each page they went to or
+    # came from.
+    items += ["moved content to %s" % t for t in sorted(getattr(c, "moved_to", ()))]
+    items += ["content moved here from %s" % t for t in sorted(getattr(c, "moved_from", ()))]
     if relinked and not items:
         items.append("updated links")
     return _recapitalized(items, c) or ["small edits"]
@@ -1120,6 +1180,7 @@ def build_messages(base, head, notes=""):
         return None
 
     find_moves([change for _, change in pages])
+    lines_between_pages([change for _, change in pages])
     for info, change in pages:
         title = escape(info["title"])
         if change.kind == "removed":

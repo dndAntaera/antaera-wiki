@@ -12,9 +12,18 @@ title: "The Imperial Pantheon"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Deities
+# Overview
 
-The deities of the Imperial Pantheon. Its overview is on [The Pantheons](../index.md#the-imperial-pantheon).
+During the 3rd Era (The Era of Man), the influence of the [Imperium](../../kingdoms-empires/new-haven-imperium.md) and Humans throughout the Known Spheres grew exponentially with their rapid population growth. So much so, in fact, that their leaders and folk heroes ascended to divinity through the sheer number of followers and worshippers they have. This is the first known pantheon to have started through multi-sphere worship alone. The divinity bestowed upon these deities was granted by the overdeities of the spheres they were currently inhabiting. Though due to the nature of their worship, they assembled their own pantheon and guide their people through wildspace and the rest of the planes.
+
+This pantheon is worshipped solely by humans, though they are not picky as to which humans worship them. If any non-humans worship this pantheon, they will not receive any power or benefits as a cleric or other divine character.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Deities
 
 ## Greater Deities
 

@@ -12,9 +12,20 @@ title: "Courts of Faerie"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Deities
+# Overview
 
-The deities of Courts of Faerie. Its overview is on [The Pantheons](../index.md#courts-of-faerie).
+The courts of Faerie's origins are mostly unknown to most scholars, though most speculate that they originated on the Feywild and migrated into the Material Plane at some point during the 2nd Mortal Era (The Era of Emergences). From there, they spread their influence across the various Known Spheres until they established their courts in all of them, defeating or absorbing the various existing courts from those spheres. This pantheon is worshipped almost entirely by the Fey, though this pantheon is also shared by elves and other mortal descendants of Fey. Druids have also been known to worship this pantheon, though it is unlikely for this pantheon to be outwardly worshipped in any sphere other than one that has been touched by the Feywild, or on the Feywild of that sphere itself.
+
+The deities of this pantheon gain their divinity in a peculiar way; they do not collect worshippers such as other deities do with their clergy, but rather they act as patrons for warlocks in a similar way that other deities do for clerics. Though they have also been known to draw power from smaller, less permanent deals with mortals. They make deals and bestow gifts at a cost, likely servitude or favors. The Fey do not concern themselves with the matters of souls as they are typically immortal, as far as a living creature could be, and involve themselves in plans that take hundreds to thousands of years to unfold. Scholars speculate that the Fey's oracles are able to see into the future and advise their patrons on which deals to take, allowing them to influence the future to better suit their strange and seemingly whimsical machinations.
+
+Due to their unique source of divinity, these deities possess no ability to grant domains. Whether this was intentional or not, they have not revealed.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Deities
 
 ## Greater Deities
 

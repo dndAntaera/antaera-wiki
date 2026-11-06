@@ -12,9 +12,18 @@ title: "The Primal Pantheon"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Deities
+# Overview
 
-The deities of the Primal Pantheon. Its overview is on [The Pantheons](../index.md#the-primal-pantheon).
+The Primal Pantheon is a cross-sphere collection of deities with a presence in all Known Spheres. They represent the primal forces which shape reality: Air, Earth, Fire, Water, and even Magic itself. Most adherents to these faiths are mages, clerics, or druids dedicated to one of its principles. This pantheon was established in the 1st Mortal Era (The Mythical Era) by the collective of Overdeities as a way to manage their reality without needing direct intervention from the Overdeities.
+
+The Primals (Greater Deities) have no recorded origins, nor do they actively collect followers. They represent the primal elemental forces of reality and govern these forces as immutable and emotionless arbiters. They set the laws of reality, and the rest of the world follows. Their worship is done by all through active participation in the world. They have enough ego to maintain reality, but have no plans or machinations outside of maintaining balance.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Deities
 
 ## Greater Deities (The Primals)
 

@@ -1342,15 +1342,15 @@ def pantheon_hubs():
             # One anchor named twice on the old page can't say which it meant.
             moved[slug] = None if slug in moved else branch
         # Links were written from The Pantheons; they are read from the hub now.
-        ranks = re.sub(r"\]\((?!https?:|/|#)([^)#\s]+\.md)", lambda l: "](" + posixpath.relpath(
-            posixpath.normpath(posixpath.join("pantheons", l.group(1))), "pantheons/" + branch), ranks)
-        anchor = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-        body = ('<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
-                '<div class="wd-cell" markdown>\n\n'
-                "# Deities\n\n"
-                "The deities of %s. Its overview is on [The Pantheons](../index.md#%s).\n\n"
-                % (name if not name.startswith("The ") else "the " + name[4:], anchor)
-                + ranks.strip("\n") + "\n\n</div>\n</div>\n")
+        def rebased(part):
+            return re.sub(r"\]\((?!https?:|/|#)([^)#\s]+\.md)", lambda l: "](" + posixpath.relpath(
+                posixpath.normpath(posixpath.join("pantheons", l.group(1))), "pantheons/" + branch), part)
+        card = ('<div class="wd-row" style="--wd-rw: 935px" markdown>\n'
+                '<div class="wd-cell" markdown>\n\n# %s\n\n%s\n\n</div>\n</div>\n')
+        # The overview opens the page, as it opens the pantheon on The
+        # Pantheons; the deities follow.
+        body = (card % ("Overview", rebased(overview).strip("\n"))
+                + card % ("Deities", rebased(ranks).strip("\n")))
         out = os.path.join(DOCS, "pantheons", branch, "index.md")
         os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, "w", encoding="utf-8", newline="\n") as fh:

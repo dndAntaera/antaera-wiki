@@ -12,9 +12,16 @@ title: "The Mortal Pantheon"
 <div class="wd-row" style="--wd-rw: 935px" markdown>
 <div class="wd-cell" markdown>
 
-# Deities
+# Overview
 
-The deities of the Mortal Pantheon. Its overview is on [The Pantheons](../index.md#the-mortal-pantheon).
+The Mortal Pantheon is made up of the champions, heroes, and patrons of the various mortal races. This pantheon was established second by the Overdeities during the 2nd Mortal Era (The Era of Emergences) because the number of mortals spread across the realms had begun spiking, causing a massive intake of mortal souls. Because of this, the overdeities determined that the mortals must rule themselves, and ascended mortal champions to claim godhood and lead their respective races. Over time, more portfolios began to emerge as various feats of divinity were achieved. The deities in this pantheon are collected from all of the Known Spheres, and are recognized enough throughout them due to the introduction of Spelljamming. The rise and fall of multiple of these deities was also the result of Spelljamming spreading portfolios, as there can only be one deity with any known portfolio.
+
+</div>
+</div>
+<div class="wd-row" style="--wd-rw: 935px" markdown>
+<div class="wd-cell" markdown>
+
+# Deities
 
 ## Greater Deities (The Living Gods)
 

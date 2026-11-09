@@ -67,10 +67,10 @@ The [Imperial Pantheon](../../pantheons/index.md#the-imperial-pantheon) has its 
 
 - **Planet Name**: Hortus
     - **Distance**: 280 million miles
-    - **Size Category**: E
+    - **Size Category**: H
     - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
-    - **Other Notes**: The fourth body in the celestial track is Hortus. A world dedicated to agriculture. It feeds the sphere and is worked entirely by slaves, who outnumber the overseers posted there by a hundred to one. Its surface is farmland, pasture, and orchard from coast to coast, divided into estates held by noble houses that do not reside on them. The non-human population of Concordia is confined to Hortus and to the labor quarters of the other worlds, and a citizen may live a full life in the sphere without seeing one. The world has no cities, and its only garrison is a chain of fortified granaries along the equator. Its three moons are unworked.
+    - **Other Notes**: The fourth body in the celestial track is Hortus. A world dedicated to agriculture, and the largest planet in the sphere. It feeds the sphere and is worked entirely by slaves, who outnumber the overseers posted there by a hundred to one. Its farmland, pasture, and orchard are centralized around the slave states that dot the planet's habitable areas, and each territory is held by the lord who owns it. The cities of Hortus are walled slums. The slaves live inside them in near squalor, with no infrastructure beyond the bare necessities, while the plantation manors of the lords stand outside the walls. Most slaves do not complain, as they are well taken care of; they know they are slaves and accept it. The non-human population of Concordia is confined to Hortus and to the labor quarters of the other worlds, and a citizen may live a full life in the sphere without seeing one. Its three moons serve as distribution and import and export centers. As the main food supply of the sphere, Hortus is one of its most heavily guarded worlds.
 
 ## Outer Track (>300 million miles)
 
@@ -79,14 +79,14 @@ The [Imperial Pantheon](../../pantheons/index.md#the-imperial-pantheon) has its 
     - **Size Category**: D
     - **Planet Type**: Earth type
     - **Planet Shape**: Spherical
-    - **Other Notes**: The fifth body in the celestial track is Officina. A world dedicated to manufacture. It holds the fleet yards of the Imperium, the foundries that arm them, and the powder works where firearms are made. It was placed this far from Palatinus so that an accident in the powder works reaches nothing the Imperium values. Its atmosphere is thin and cold and its cities are enclosed. Officina's workforce is mixed: artisan citizens hold the yards and the gun shops, slaves hold the mines and the mills, and the two do not share a quarter.
+    - **Other Notes**: Officina is a forge world and the fifth body in the celestial track—excavated to its core and lined inside and out with forges, shipyards, workshops, ritual sites, and all manner of other manufacturing yards. The planet itself has become more structure and machine than planet after centuries of development and construction. This is where the majority of the Imperium's spelljammers are constructed, as well as its various magical implements and firearms. The workshops and forges are owned and operated by the various artisans of the Imperium, while slaves conduct the manual labor of construction. Its atmosphere is thin and cold and its cities are enclosed.
 
 - **Planet Name**: Limes
     - **Distance**: 800 million miles
     - **Size Category**: A
     - **Planet Type**: Earth type
     - **Planet Shape**: Belt
-    - **Other Notes**: The sixth body in the celestial track is Limes. A belt of airless asteroids fortified across its full circumference, which the Imperium holds to be the border of its territory within the sphere. Every rock of size carries a battery or a watch station, and the fleet patrols the gaps. Mining is carried out in the belt by slave crews under garrison. It was within the approach to Limes that the [Gallamarketh](gallamarketh.md) colony ship was hailed, failed to answer, and was destroyed.
+    - **Other Notes**: Limes is a unique asteroid belt and the sixth body in the celestial track, whose asteroids contain thick concentrations of mineral-rich deposits. Wildspace geologists speculate that their origins lie in the Quasi-Elemental Plane of Minerals, having been transported here through a long-closed manifest zone or through spontaneous elemental vortices. Whatever their origins, spontaneous elemental vortices have been observed opening, depositing new asteroids, then closing. Attempts have been made to mine the belt, but they have all been thwarted by the various elemental wurms that travel through the vortices in the asteroids. The wurms eat the rocks and minerals present and attack any ships that venture too close, with several having been observed to be larger than frigates. The Imperium has deemed it too unsafe for sustainable mining practices, and leaves it for only the most daring private ventures. The Imperium has also concluded that it is a worthy deterrent for any interlopers who would dare attempt to traverse it.
 
 - **Planet Name**: Silentium
     - **Distance**: 1,200 million miles
